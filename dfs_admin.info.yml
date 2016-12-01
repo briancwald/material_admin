@@ -1,0 +1,24 @@
+name: dfs_admin
+type: theme
+description: 'Demo Framework Admin Theme'
+core: 8.x
+base theme: classy
+
+# Image appears on admin/appearance
+screenshot: images/screenshot.jpg
+
+libraries:
+  - dfs_admin/global-styling
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first

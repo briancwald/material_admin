@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/dfs_admin.css: {}
+  js:
+    js/dfs_admin.js: {}
+    js/materialize.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

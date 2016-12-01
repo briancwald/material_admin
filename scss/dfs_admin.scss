@@ -1,0 +1,44 @@
+/* @file
+ * Demo Framework Admin
+ *
+ */
+
+// Make sure the charset is set appropriately
+@charset 'utf-8';
+
+//import materialize components
+//@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+
+// components
+@import "components/typography";
+@import "components/global";
+@import "components/grid";
+@import "components/tabs";
+@import "components/buttons";
+@import "components/forms/forms";
+//This is your _settings.scss file where you can override foundation variables. 
+@import 'settings';
+
+// Components
+
+// Import our mixins early so they can be used by other partials.
+// Optional.
+//@import "base/mixins";
+
+// Common file is where you place common utility classes to extend or
+// parametrics.
+@import "base/common";
+
+// Fonts!
+@import "base/fonts/font-awesome";
+
+// Drupal specific styles (to fix Drupalisms).
+@import "base/drupal";
+
+@import "admin"
+

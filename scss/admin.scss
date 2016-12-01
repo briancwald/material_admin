@@ -1,0 +1,75 @@
+/* @file
+ * Specific styling for admin
+ *
+ */
+
+body {
+    font-family: $body-font-family;
+}
+
+//Header 
+.layout-container {
+    margin: 0;
+    padding: 0;
+}
+
+header.header-wrapper {
+    background: $blue;
+    h1 {
+        color: $white;
+        font-weight: 400;
+    }
+}
+
+.utility-wrapper {
+    background: $lighten-4;
+    @extend .shadow;
+}
+
+.tabs {
+    background: inherit;
+}
+
+// Breadcrumbs
+.breadcrumb-nav {
+    ol {
+        padding: .5em;
+        margin: 0;
+        li {
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            &:before {
+                content: $fa-var-angle-right;
+                color: $white;
+                vertical-align: top;
+                display: inline-block;
+                font-family: 'FontAwesome';
+                font-weight: normal;
+                font-style: normal;
+                font-size: 25px;
+                margin: -5px 10px 0 8px;
+                -webkit-font-smoothing: antialiased;
+            }
+            &:first-child:before {
+                display: none;
+            }
+            &:last-child a, &:last-child span {
+                color: $white;
+            }
+            a,span {
+                color: $lighten-2;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+nav {
+    background: transparent;
+    box-shadow: none;
+}
+
+.tabs a.is-active {
+    background-color: transparent!important;
+}

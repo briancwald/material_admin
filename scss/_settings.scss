@@ -1,0 +1,89 @@
+
+//  Table of Contents:
+//
+//   1. Global
+//   2. Breakpoints
+//   3. Tables
+//   4. Base Typography
+//   5. Typography Helpers
+//   6. Forms
+//   7. Buttons
+
+
+// 1. Global
+// ---------
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i');
+
+//color pallette
+$lighten-1:#e3f2fd;
+$lighten-2:#bbdefb;
+$lighten-3:#90caf9;
+$lighten-4:#64b5f6;
+$lighten-5:#42a5f5;
+
+$blue: #2196f3;
+
+$darken-1: #1e88e5;
+$darken-2: #1976d2;
+$darken-3: #1565c0;
+$darken-4: #0d47a1;
+
+$accent-1:#82b1ff;
+$accent-2:#448aff;
+$accent-3:#2979ff;
+$accent-4:#2962ff;
+
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+$primary-color: $blue;
+$secondary-color: $accent-1;
+$success-color: #3adb76;
+$warning-color: #fbc02d;
+$alert-color: #c62828;
+$medium-gray:#999;
+$dark-gray:#666;
+$light-gray:#333;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white;
+$body-font-color: $black;
+$body-font-family: 'Roboto', sans-serif;
+$body-antialiased: true;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-weight-normal: normal;
+$global-weight-bold: bold;
+$global-radius: 0;
+$global-text-direction: ltr;
+
+// 3. Tables 
+
+
+// 4. Base Typography
+// ------------------
+
+$header-font-family: $body-font-family;
+$header-font-weight: $global-weight-normal;
+$header-font-style: normal;
+$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$header-color: inherit;
+
+
+// 5. Typography Helpers
+// ---------------------
+
+$lead-font-size: $global-font-size * 1.25;
+$lead-lineheight: 1.6;
+$subheader-lineheight: 1.4;
+$subheader-color: $dark-gray;
+$subheader-font-weight: $global-weight-normal;
+$subheader-margin-top: 0.2rem;
+$subheader-margin-bottom: 0.5rem;
+$stat-font-size: 2.5rem;
+
+// 6. Forms
+
+
+
