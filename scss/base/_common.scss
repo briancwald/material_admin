@@ -15,7 +15,7 @@ h1 {
 //grid defaults
 .row {
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 // classic clearfix
@@ -55,6 +55,11 @@ video.responsive-video {
         margin:0 10px 0 0px;
         -webkit-font-smoothing: antialiased;
     }
+}
+
+input.button {
+    @extend .btn;
+    @extend .waves-effect;
 }
 
 .action-links li {

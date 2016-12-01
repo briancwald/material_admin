@@ -1776,10 +1776,10 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, .btn, .btn-large, .button-action, .btn-floating {
+.z-depth-1, .btn, .btn-large, .button-action, input.button, .btn-floating {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 .z-depth-2 {
@@ -2823,7 +2823,7 @@ input[type=range] + .thumb {
       .tabs .tab a {
         padding: 0 12px; } }
 
-.btn, .btn-large, .button-action,
+.btn, .btn-large, .button-action, input.button,
 .btn-flat {
   border: none;
   border-radius: 2px;
@@ -2835,19 +2835,21 @@ input[type=range] + .thumb {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
-.btn.disabled, .disabled.btn-large, .disabled.button-action,
+.btn.disabled, .disabled.btn-large, .disabled.button-action, input.disabled.button,
 .btn-floating.disabled,
 .btn-large.disabled,
 .btn-flat.disabled,
 .btn:disabled,
 .btn-large:disabled,
 .button-action:disabled,
+input.button:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 .btn-flat:disabled,
 .btn[disabled],
 [disabled].btn-large,
 [disabled].button-action,
+input[disabled].button,
 .btn-floating[disabled],
 .btn-large[disabled],
 .btn-flat[disabled] {
@@ -2856,42 +2858,44 @@ input[type=range] + .thumb {
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
-  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, input.disabled.button:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   .btn-flat.disabled:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   .button-action:disabled:hover,
+  input.button:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   [disabled].button-action:hover,
+  input[disabled].button:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   .btn-flat[disabled]:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
-.btn, .btn-large, .button-action,
+.btn, .btn-large, .button-action, input.button,
 .btn-floating,
 .btn-large,
 .btn-flat {
   outline: 0; }
-  .btn i, .btn-large i, .button-action i,
+  .btn i, .btn-large i, .button-action i, input.button i,
   .btn-floating i,
   .btn-large i,
   .btn-flat i {
     font-size: 1.3rem;
     line-height: inherit; }
 
-.btn:focus, .btn-large:focus, .button-action:focus,
+.btn:focus, .btn-large:focus, .button-action:focus, input.button:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
-.btn, .btn-large, .button-action {
+.btn, .btn-large, .button-action, input.button {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -2899,7 +2903,7 @@ input[type=range] + .thumb {
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
-  .btn:hover, .btn-large:hover, .button-action:hover {
+  .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover {
     background-color: #2bbbad; }
 
 .btn-floating {
@@ -3896,7 +3900,7 @@ select:disabled {
     padding-left: 10px; }
   .file-field input.file-path {
     width: 100%; }
-  .file-field .btn, .file-field .btn-large, .file-field .button-action {
+  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field input.button {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -4047,7 +4051,7 @@ input[type=range]:focus::-ms-fill-upper {
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-.waves-effect, .button-action {
+.waves-effect, .button-action, input.button {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -4061,7 +4065,7 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 1;
   will-change: opacity, transform;
   transition: .3s ease-out; }
-  .waves-effect .waves-ripple, .button-action .waves-ripple {
+  .waves-effect .waves-ripple, .button-action .waves-ripple, input.button .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -4075,27 +4079,27 @@ input[type=range]:focus::-ms-fill-upper {
     -ms-transform: scale(0);
         transform: scale(0);
     pointer-events: none; }
-  .waves-effect.waves-light .waves-ripple, .button-action .waves-ripple {
+  .waves-effect.waves-light .waves-ripple, .button-action .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-action .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
-  .waves-effect.waves-red .waves-ripple, .waves-red.button-action .waves-ripple {
+  .waves-effect.waves-red .waves-ripple, .waves-red.button-action .waves-ripple, input.waves-red.button .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
-  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-action .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-action .waves-ripple, input.waves-yellow.button .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
-  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-action .waves-ripple {
+  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-action .waves-ripple, input.waves-orange.button .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
-  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-action .waves-ripple {
+  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-action .waves-ripple, input.waves-purple.button .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
-  .waves-effect.waves-green .waves-ripple, .waves-green.button-action .waves-ripple {
+  .waves-effect.waves-green .waves-ripple, .waves-green.button-action .waves-ripple, input.waves-green.button .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
-  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-action .waves-ripple {
+  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-action .waves-ripple, input.waves-teal.button .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
-  .waves-effect input[type="button"], .button-action input[type="button"], .waves-effect input[type="reset"], .button-action input[type="reset"], .waves-effect input[type="submit"], .button-action input[type="submit"] {
+  .waves-effect input[type="button"], .button-action input[type="button"], input.button input[type="button"], .waves-effect input[type="reset"], .button-action input[type="reset"], input.button input[type="reset"], .waves-effect input[type="submit"], .button-action input[type="submit"], input.button input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
-  .waves-effect img, .button-action img {
+  .waves-effect img, .button-action img, input.button img {
     position: relative;
     z-index: -1; }
 
@@ -4127,7 +4131,7 @@ input[type=range]:focus::-ms-fill-upper {
   display: block; }
 
 /* Firefox Bug: link not triggered */
-.waves-effect .waves-ripple, .button-action .waves-ripple {
+.waves-effect .waves-ripple, .button-action .waves-ripple, input.button .waves-ripple {
   z-index: -1; }
 
 /*!
@@ -6456,7 +6460,7 @@ h1 {
 
 .row {
   margin: 0 auto;
-  padding: 20px; }
+  padding: 10px 20px; }
 
 .clearfix {
   clear: both; }
@@ -6512,6 +6516,8 @@ header.header-wrapper {
   header.header-wrapper h1 {
     color: #fefefe;
     font-weight: 400; }
+  header.header-wrapper .row {
+    padding-bottom: 0px; }
 
 .utility-wrapper {
   background: #64b5f6; }

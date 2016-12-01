@@ -12,6 +12,7 @@ libraries:
 
 stylesheets-remove:
   - '@classy/css/components/action-links.css'
+  - '@classy/css/components/tabs.css'
 
 regions:
   header: 'Header'
