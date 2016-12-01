@@ -54,10 +54,12 @@ header.header-wrapper {
             &:first-child:before {
                 display: none;
             }
-            &:last-child a, &:last-child span {
+            &:last-child a,
+            &:last-child span {
                 color: $white;
             }
-            a,span {
+            a,
+            span {
                 color: $lighten-2;
                 font-size: 18px;
             }
@@ -70,20 +72,19 @@ nav {
     box-shadow: none;
 }
 
-.tabs a.is-active {
-    background-color: transparent!important;
-}
-
-//Views Tables 
-
-table.highlight > tbody > tr:hover {
-	background:$accent-1;
-}
-
-.dfs_admin .pager__item {
-	padding:0;
-}
-
-.dfs_admin td.is-active {
-    background-color:transparent;
+.dfs_admin {
+    .tabs a.is-active,
+    .tabs a:focus,
+    .tabs a:hover {
+        background-color: transparent!important;
+    }
+    table.highlight > tbody > tr:hover {
+        background: $accent-1;
+    }
+    .pager__item {
+        padding: 0;
+    }
+    td.is-active {
+        background-color: transparent;
+    }
 }

@@ -10,6 +10,9 @@ screenshot: images/screenshot.jpg
 libraries:
   - dfs_admin/global-styling
 
+stylesheets-remove:
+  - '@classy/css/components/action-links.css'
+
 regions:
   header: 'Header'
   pre_content: 'Pre-content'
