@@ -73,3 +73,17 @@ nav {
 .tabs a.is-active {
     background-color: transparent!important;
 }
+
+//Views Tables 
+
+table.highlight > tbody > tr:hover {
+	background:$accent-1;
+}
+
+.dfs_admin .pager__item {
+	padding:0;
+}
+
+.dfs_admin td.is-active {
+    background-color:transparent;
+}
