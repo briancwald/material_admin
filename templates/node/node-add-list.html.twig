@@ -16,10 +16,11 @@
  */
 #}
 {% if types is not empty %}
-  <div class="collection">
+  <div class="collection with-header">
+    <div class="collection-item"><h4>Add New Content</h4></div>
     {% for type in types %}
       <a href="{{ type.add_url }}">
-      <div class="collection-item"><span class="title">{{ type.add_link }}</span><p>{{ type.description }}</p></div>
+      <div class="collection-item"><p><span class="title"><i class="fa fa-plus"></i> {{ type.add_link }} </span>| {{ type.description }}</p></div>
     </a>
     {% endfor %}
 </div>

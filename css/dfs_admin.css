@@ -6600,7 +6600,15 @@ nav {
   background-color: transparent !important; }
 
 .dfs_admin table.highlight > tbody > tr:hover {
-  background: #82b1ff; }
+  background: #82b1ff;
+  color: #fefefe; }
+  .dfs_admin table.highlight > tbody > tr:hover a, .dfs_admin table.highlight > tbody > tr:hover button {
+    color: #1565c0;
+    cursor: pointer; }
+
+.dfs_admin table.highlight > tbody > tr.selected {
+  background: #f0f4c3;
+  color: #0a0a0a; }
 
 .dfs_admin .pager__item {
   padding: 0; }
@@ -6622,3 +6630,12 @@ nav {
 
 .input-field {
   margin-top: 0; }
+
+.input-field.js-form-type-checkbox label {
+  top: 0; }
+
+.action-links {
+  margin-bottom: 2rem; }
+
+input.btn-default {
+  margin-top: 1rem; }

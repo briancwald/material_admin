@@ -83,6 +83,16 @@ nav {
     }
     table.highlight > tbody > tr:hover {
         background: $accent-1;
+        color:$white;
+        a,button {
+            color:$darken-3;
+            cursor: pointer;
+        }
+    }
+
+    table.highlight > tbody > tr.selected {
+        background:$highlight;
+        color:$black;
     }
     .pager__item {
         padding: 0;
@@ -104,5 +114,17 @@ nav {
 
 .input-field {
     margin-top:0;
+}
+
+.input-field.js-form-type-checkbox label {
+    top:0;
+}
+
+.action-links {
+    margin-bottom:2rem;
+}
+
+input.btn-default {
+    margin-top:1rem;
 }
 
