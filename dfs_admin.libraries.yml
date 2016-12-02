@@ -4,8 +4,8 @@ global-styling:
     base:
       css/dfs_admin.css: {}
   js:
-    js/dfs_admin.js: {}
     js/materialize.min.js: {}
+    js/dfs_admin.js: {}
   dependencies:
     - core/drupal
     - core/jquery

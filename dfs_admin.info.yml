@@ -14,7 +14,8 @@ stylesheets-remove:
   - '@classy/css/components/action-links.css'
   - '@classy/css/components/tabs.css'
   - '@classy/css/components/button.css'
- # - '@classy/css/components/form.css'
+  - '@classy/css/components/inline-form.css'
+  - '@classy/css/components/form.css'
 
 regions:
   header: 'Header'

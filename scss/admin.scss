@@ -91,3 +91,18 @@ nav {
         background-color: transparent;
     }
 }
+
+.form--inline {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .input-field {
+    margin: 10px 10px;
+    flex: 0 1 20%;
+    }
+}
+
+.input-field {
+    margin-top:0;
+}
+
