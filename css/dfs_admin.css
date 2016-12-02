@@ -6493,7 +6493,7 @@ input[type=range]:focus::-ms-fill-upper {
   clip: auto; }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 1rem; }
 
 .button-action:before {
@@ -6600,9 +6600,10 @@ nav {
   background-color: transparent !important; }
 
 .dfs_admin table.highlight > tbody > tr:hover {
-  background: #82b1ff;
+  background: #ccc;
   color: #fefefe; }
-  .dfs_admin table.highlight > tbody > tr:hover a, .dfs_admin table.highlight > tbody > tr:hover button {
+  .dfs_admin table.highlight > tbody > tr:hover a,
+  .dfs_admin table.highlight > tbody > tr:hover button {
     color: #1565c0;
     cursor: pointer; }
 
@@ -6616,17 +6617,21 @@ nav {
 .dfs_admin td.is-active {
   background-color: transparent; }
 
-.form--inline {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -ms-flex-pack: start;
-      justify-content: flex-start; }
-  .form--inline .input-field {
-    margin: 10px 10px;
-    -ms-flex: 0 1 20%;
-        flex: 0 1 20%; }
+@media only screen and (min-width: 601px) {
+  .form--inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+    .form--inline .input-field {
+      margin: 10px 10px;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%; } }
+
+.form--inline .input-field {
+  display: inline-block; }
 
 .input-field {
   margin-top: 0; }
