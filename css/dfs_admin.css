@@ -6450,34 +6450,6 @@ h1 {
   font-size: 3rem;
   margin: 1rem; }
 
-.valign-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center; }
-  .valign-wrapper .valign {
-    display: block; }
-
-.row {
-  margin: 0 auto;
-  padding: 10px 20px; }
-
-.clearfix {
-  clear: both; }
-
-.hoverable {
-  transition: box-shadow .25s;
-  box-shadow: 0; }
-
-.hoverable:hover {
-  transition: box-shadow .25s;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-img.responsive-img,
-video.responsive-video {
-  max-width: 100%;
-  height: auto; }
-
 .button-action:before {
   content: "";
   color: #fefefe;
@@ -6489,6 +6461,10 @@ video.responsive-video {
   margin: 0 10px 0 0px;
   -webkit-font-smoothing: antialiased; }
 
+.row {
+  padding: 20px;
+  margin: 0; }
+
 .action-links li {
   list-style: none; }
 
@@ -6497,8 +6473,23 @@ a {
   a:hover {
     text-decoration: underline; }
 
+a.button:hover {
+  text-decoration: none; }
+
 .shadow, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+
+.js-form-type-checkbox label.visually-hidden {
+  position: relative !important;
+  text-indent: -999999px;
+  clip: inherit;
+  overflow: visible;
+  visibility: hidden; }
+  .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
+    visibility: visible; }
+
+.views-field-node-bulk-form {
+  padding-left: 10px; }
 
 /* @file
  * Specific styling for admin

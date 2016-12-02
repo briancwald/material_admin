@@ -3,42 +3,6 @@ h1 {
     margin: 1rem;
 }
 
-// Positioning
-.valign-wrapper {
-    display: flex;
-    align-items: center;
-    .valign {
-        display: block;
-    }
-}
-
-//grid defaults
-.row {
-    margin: 0 auto;
-    padding: 10px 20px;
-}
-
-// classic clearfix
-.clearfix {
-    clear: both;
-}
-
-.hoverable {
-    transition: box-shadow .25s;
-    box-shadow: 0;
-}
-
-.hoverable:hover {
-    transition: box-shadow .25s;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-img.responsive-img,
-video.responsive-video {
-    max-width: 100%;
-    height: auto;
-}
-
 .button-action {
     @extend .btn;
     @extend .waves-effect;
@@ -57,6 +21,11 @@ video.responsive-video {
     }
 }
 
+.row {
+  padding:20px;
+  margin:0;
+}
+
 input.button {
     @extend .btn;
     @extend .waves-effect;
@@ -73,6 +42,34 @@ a {
     }
 }
 
+a.button {
+  &:hover {
+    text-decoration:none;
+  }
+}
+
 .shadow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
+
+
+//checkbox fix to work with materialize
+.js-form-type-checkbox {
+  label.visually-hidden {
+    position:relative!important;
+    text-indent: -999999px;
+    clip:inherit;
+    overflow: visible;
+    visibility: hidden;
+    &:before, &:after {
+      visibility: visible;
+    }
+  }
+}
+
+.views-field-node-bulk-form {
+  padding-left:10px;
+
+}
+
+

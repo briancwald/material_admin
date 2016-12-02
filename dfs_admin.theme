@@ -37,3 +37,9 @@ function dfs_admin_preprocess_menu_local_task(&$variables) {
   $variables['link']['#attributes']['target'] = '_self'; 
 
 }
+function dfs_admin_form_alter(&$form, &$form_state, $form_id) {
+  if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
+    $form['actions']['submit']['#attributes']['class'][] = 'success';
+    $form['actions']['submit']['#attributes']['class'][] = 'button';
+  }
+}

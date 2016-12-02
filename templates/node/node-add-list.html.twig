@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * Default theme implementation to list node types available for adding content.
+ *
+ * This list is displayed on the Add content admin page.
+ *
+ * Available variables:
+ * - types: A list of content types, each with the following properties:
+ *   - add_link: Link to create a piece of content of this type.
+ *   - description: Description of this type of content.
+ *
+ * @see template_preprocess_node_add_list()
+ *
+ * @ingroup themeable
+ */
+#}
+{% if types is not empty %}
+  <div class="collection">
+    {% for type in types %}
+      <a href="{{ type.add_url }}">
+      <div class="collection-item"><span class="title">{{ type.add_link }}</span><p>{{ type.description }}</p></div>
+    </a>
+    {% endfor %}
+</div>
+{% else %}
+  <p>
+    {% set create_content = path('node.type_add') %}
+    {% trans %}
+      You have not created any content types yet. Go to the <a href="{{ create_content }}" class="btn">content type creation page</a> to add a new content type.
+    {% endtrans %}
+  </p>
+{% endif %}
