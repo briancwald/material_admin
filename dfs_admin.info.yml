@@ -19,6 +19,7 @@ stylesheets-remove:
 
 regions:
   header: 'Header'
+  status: 'Status area'
   pre_content: 'Pre-content'
   breadcrumb: Breadcrumb
   highlighted: Highlighted

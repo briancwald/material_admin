@@ -43,10 +43,22 @@
  */
 #}
 <div class="layout-container">
+  <div id="messageContainer" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Status Messages</h4>
+      <div class="allmessages">{{ page.status }} </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
+    </div>
+  </div>
+
 
   <header class="header-wrapper" role="banner">
     <div class="row">
-    {{ page.header }}
+    <div class="col s10">{{ page.header }}</div>
+    <div class="col s2"> <a class="waves-effect waves-light btn modal-trigger" href="#messageContainer">Messages</a></div>
   </div>
   </header>
 <div class="utility-wrapper">

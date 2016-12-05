@@ -7,7 +7,7 @@ dependencies:
     - dfs_admin
 id: dfs_admin_messages
 theme: dfs_admin
-region: highlighted
+region: status
 weight: 0
 provider: null
 plugin: system_messages_block
