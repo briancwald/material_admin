@@ -6634,6 +6634,12 @@ h1 {
   font-size: 2.5rem;
   margin: 1rem; }
 
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
 .button-action:before {
   content: "";
   color: #fefefe;
@@ -6797,7 +6803,7 @@ a.tabledrag-handle .handle {
     color: #333; }
   .collection-item .collection-item-description {
     text-decoration: none;
-    color: #ccc;
+    color: #666;
     font-size: 12px;
     margin-left: 20px; }
     .collection-item .collection-item-description:hover {
