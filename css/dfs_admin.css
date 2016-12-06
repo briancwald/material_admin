@@ -6788,6 +6788,22 @@ a.tabledrag-handle .handle {
   width: 30px;
   height: 30px; }
 
+.collection-item {
+  text-decoration: none; }
+  .collection-item:hover {
+    text-decoration: none; }
+  .collection-item:hover .collection-item-description {
+    text-decoration: none;
+    color: #333; }
+  .collection-item .collection-item-description {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 20px; }
+    .collection-item .collection-item-description:hover {
+      text-decoration: none;
+      color: #333; }
+
 abbr[title] {
   border-bottom: none; }
 

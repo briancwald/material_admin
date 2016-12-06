@@ -143,6 +143,27 @@ a.tabledrag-handle {
     }
 }
 
+.collection-item {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+    &:hover .collection-item-description {
+        text-decoration: none;
+        color:$dark-gray;
+        }
+.collection-item-description {
+    text-decoration: none;
+    color:$light-gray;
+    font-size:12px;
+    margin-left:20px;
+    &:hover {
+        text-decoration: none;
+        color:$dark-gray;
+    }
+}
+}
+
 //table dropdown
 .dropbutton-wrapper.dropbutton-single {
     .edit {
