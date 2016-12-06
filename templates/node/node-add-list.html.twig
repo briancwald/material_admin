@@ -18,8 +18,8 @@
 {% if types is not empty %}
   <div class="collection with-header">
     <div class="collection-item"><h4>Add New Content</h4></div>
-    {% for type in types %}
-      <div class="collection-item"><p><span class="title"> <i class="fa fa-plus"></i> {{ type.add_link }} </span> | {{ type.description }}</p></div>
+    {% for type_id,type in types %}
+      <a class="collection-item" href="{{ path('node.add', {'node_type': type_id }) }}"><i class="fa fa-plus"></i><span>{{type.label}}</span> {{ type.description }}</a>
     {% endfor %}
 </div>
 {% else %}
