@@ -35,17 +35,6 @@
     })
   });
 
-
-  $(document).ready(function () {
-var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
-        $(input_selector).each(function(index, element) {
-       if ($(element).attr('placeholder') === "") {
-            $(this).siblings('label').removeClass('active');
-          }
-        })
-
-  });
-
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
