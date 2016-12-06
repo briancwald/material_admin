@@ -19,7 +19,8 @@
   ]
 %}
 {% if content %}
-  <div{{ attributes.addClass(classes) }}>
-    {{ content }}
-  </div>
+{% spaceless %}
+ <div{{ attributes.addClass(classes) }}>{{ content }}</div>		
+{% endspaceless %}
+
 {% endif %}

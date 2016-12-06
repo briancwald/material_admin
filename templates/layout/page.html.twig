@@ -53,53 +53,39 @@
       <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
     </div>
   </div>
-
-
   <header class="header-wrapper" role="banner">
     <div class="row">
-    <div class="col s10">{{ page.header }}</div>
-    <div class="col s2"> <a class="waves-effect waves-light btn modal-trigger" href="#messageContainer">Messages</a></div>
-  </div>
+      <div class="col s10">{{ page.header }}</div>
+     {% if page.status %} <div class="col s2"> <a class="modal-trigger white message-trigger" href="#messageContainer"><span class="fa-envolope"></span></a></div> {% endif %}
+    </div>
   </header>
-<div class="utility-wrapper">
-  <div class="row">
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-</div>
-</div>
-
+  <section class="utility-wrapper">
+    <div class="row">
+      {{ page.primary_menu }} 
+      {{ page.secondary_menu }} 
+      {{ page.breadcrumb }} 
+      {{ page.highlighted }}
+    </div>
+  </section>
   <main role="main-wrapper">
     <div class="row">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+      <div class="layout-content">
+        {{ page.content }}
+      </div>{# /.layout-content #} {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
         {{ page.sidebar_first }}
       </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
+      {% endif %} {% if page.sidebar_second %}
       <aside class="layout-sidebar-second" role="complementary">
         {{ page.sidebar_second }}
       </aside>
-    {% endif %}
-  </div>
+      {% endif %}
+    </div>
   </main>
-
   {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
+  <footer role="contentinfo">
+    {{ page.footer }}
+  </footer>
   {% endif %}
-
 </div>{# /.layout-container #}

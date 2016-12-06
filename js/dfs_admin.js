@@ -17,35 +17,37 @@
     // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
     $.each($(':checkbox'), function (k, v) {
       var label = $('label[for="' + this.id + '"]');
-      $(this).insertBefore(label); });
-     $.each($('select'), function (k, v) {
+      $(this).insertBefore(label);
+    });
+    $.each($('select'), function (k, v) {
       var label = $('label[for="' + this.id + '"]');
-      $(this).insertBefore(label); });
+      $(this).insertBefore(label);
+    });
   });
 
   $(document).ready(function () {
     $('select').material_select();
-    $('.messages').each(function() {
-  Materialize.toast(this, 5000);
-})
+    var messageCount = $('.messages').length;
+    $('.message-trigger').prepend('<span class="badge new red">' + messageCount + '</span>')
+    $('.messages--status').each(function () {
+      $(this).clone().addClass("message-status-clone").appendTo('#messageContainer .region-status');
+        Materialize.toast(this, 5000)
+    })
   });
 
   $(document).ready(function () {
-   $('.modal').modal({
-      dismissible: true, // Modal can be dismissed by clicking outside of the modal
-      opacity: .5, // Opacity of modal background
-      in_duration: 200, // Transition in duration
-      out_duration: 200, // Transition out duration
-      starting_top: '4%', // Starting top style attribute
-      ending_top: '10%', // Ending top style attribute
+    $('.modal').modal({
+      dismissible: true,
+      opacity: .5, 
+      in_duration: 200,
+      out_duration: 200,
       // ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
       //   alert("Ready");
       //   console.log(modal, trigger);
       // },
       // complete: function() { alert('Closed'); } // Callback for Modal close
-    }
-  );
-      
+    });
+
 
   });
 

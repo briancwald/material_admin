@@ -1776,10 +1776,10 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, .btn, .btn-large, .button-action, input.button, .btn-floating, .dropdown-content, .toast {
+.z-depth-1, .btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 .z-depth-2 {
@@ -2823,8 +2823,9 @@ input[type=range] + .thumb {
       .tabs .tab a {
         padding: 0 12px; } }
 
-.btn, .btn-large, .button-action, input.button,
-.btn-flat {
+.btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a,
+.btn-flat,
+.dropbutton-wrapper.dropbutton-single .edit a {
   border: none;
   border-radius: 2px;
   display: inline-block;
@@ -2835,67 +2836,78 @@ input[type=range] + .thumb {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
-.btn.disabled, .disabled.btn-large, .disabled.button-action, input.disabled.button,
+.btn.disabled, .disabled.btn-large, .disabled.button-action, input.disabled.button, .dropbutton-wrapper.dropbutton-single .edit a.disabled,
 .btn-floating.disabled,
 .btn-large.disabled,
 .btn-flat.disabled,
+.dropbutton-wrapper.dropbutton-single .edit a.disabled,
 .btn:disabled,
 .btn-large:disabled,
 .button-action:disabled,
 input.button:disabled,
+.dropbutton-wrapper.dropbutton-single .edit a:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 .btn-flat:disabled,
+.dropbutton-wrapper.dropbutton-single .edit a:disabled,
 .btn[disabled],
 [disabled].btn-large,
 [disabled].button-action,
 input[disabled].button,
+.dropbutton-wrapper.dropbutton-single .edit a[disabled],
 .btn-floating[disabled],
 .btn-large[disabled],
-.btn-flat[disabled] {
+.btn-flat[disabled],
+.dropbutton-wrapper.dropbutton-single .edit a[disabled] {
   pointer-events: none;
   background-color: #DFDFDF !important;
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
-  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, input.disabled.button:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, input.disabled.button:hover, .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   .btn-flat.disabled:hover,
+  .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   .button-action:disabled:hover,
   input.button:disabled:hover,
+  .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
+  .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   [disabled].button-action:hover,
   input[disabled].button:hover,
+  .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
-  .btn-flat[disabled]:hover {
+  .btn-flat[disabled]:hover,
+  .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
-.btn, .btn-large, .button-action, input.button,
+.btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a,
 .btn-floating,
 .btn-large,
-.btn-flat {
+.btn-flat,
+.dropbutton-wrapper.dropbutton-single .edit a {
   outline: 0; }
-  .btn i, .btn-large i, .button-action i, input.button i,
+  .btn i, .btn-large i, .button-action i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i,
   .btn-floating i,
   .btn-large i,
-  .btn-flat i {
+  .btn-flat i, .dropbutton-wrapper.dropbutton-single .edit a i {
     font-size: 1.3rem;
     line-height: inherit; }
 
-.btn:focus, .btn-large:focus, .button-action:focus, input.button:focus,
+.btn:focus, .btn-large:focus, .button-action:focus, input.button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
-.btn, .btn-large, .button-action, input.button {
+.btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -2903,7 +2915,7 @@ input[disabled].button,
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
-  .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover {
+  .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
     background-color: #2bbbad; }
 
 .btn-floating {
@@ -3019,20 +3031,20 @@ button.btn-floating {
     -ms-transform: scale(0);
         transform: scale(0); }
 
-.btn-flat {
+.btn-flat, .dropbutton-wrapper.dropbutton-single .edit a {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  .btn-flat:focus, .btn-flat:active {
+  .btn-flat:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: transparent; }
-  .btn-flat:focus, .btn-flat:hover {
+  .btn-flat:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
-  .btn-flat:active {
+  .btn-flat:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: rgba(0, 0, 0, 0.2); }
-  .btn-flat.disabled {
+  .btn-flat.disabled, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
@@ -3900,7 +3912,7 @@ select:disabled {
     padding-left: 10px; }
   .file-field input.file-path {
     width: 100%; }
-  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field input.button {
+  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field input.button, .file-field .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .file-field a {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -4208,7 +4220,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 4px 6px;
     height: 56px;
     width: 100%; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer input.button, .modal .modal-footer .btn-flat {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
       float: right;
       margin: 6px 0; }
 
@@ -4290,7 +4302,7 @@ input[type=range]:focus::-ms-fill-upper {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between; }
-  .toast .btn, .toast .btn-large, .toast .button-action, .toast input.button, .toast .btn-flat {
+  .toast .btn, .toast .btn-large, .toast .button-action, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .btn-flat, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
@@ -6757,7 +6769,8 @@ nav {
           flex: 0 1 20%; } }
 
 .form--inline .input-field {
-  display: inline-block; }
+  display: block;
+  width: 100%; }
 
 .input-field {
   margin-top: 0; }
@@ -6770,3 +6783,14 @@ nav {
 
 input.btn-default {
   margin-top: 1rem; }
+
+a.tabledrag-handle .handle {
+  width: 30px;
+  height: 30px; }
+
+abbr[title] {
+  border-bottom: none; }
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  width: inherit;
+  max-width: 100%; }
