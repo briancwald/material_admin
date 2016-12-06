@@ -31,14 +31,25 @@
     $('.message-trigger').prepend('<span class="badge new red">' + messageCount + '</span>')
     $('.messages--status').each(function () {
       $(this).clone().addClass("message-status-clone").appendTo('#messageContainer .region-status');
-        Materialize.toast(this, 5000)
+      Materialize.toast(this, 5000)
     })
+  });
+
+
+  $(document).ready(function () {
+var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
+        $(input_selector).each(function(index, element) {
+       if ($(element).attr('placeholder') === "") {
+            $(this).siblings('label').removeClass('active');
+          }
+        })
+
   });
 
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
-      opacity: .5, 
+      opacity: .5,
       in_duration: 200,
       out_duration: 200,
       // ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
@@ -47,7 +58,6 @@
       // },
       // complete: function() { alert('Closed'); } // Callback for Modal close
     });
-
 
   });
 

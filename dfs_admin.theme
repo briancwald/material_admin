@@ -45,6 +45,16 @@ function dfs_admin_form_alter(&$form, &$form_state, $form_id) {
 }
 
 
+//if there is an empty placeholder, materialize does weird things. ref: https://github.com/Dogfalo/materialize/pull/1737/files
+function dfs_admin_preprocess_input(&$variables) {
+  $element = $variables['element'];
+  if (isset($variables['attributes']['placeholder']) && empty((string) $variables['attributes']['placeholder'])) {
+    unset($variables['attributes']['placeholder']);
+  }
+  $variables['children'] = $element['#children'];
+}
+
+
 function dfs_admin_preprocess_node_add_list(&$variables) {
   if (!empty($variables['content'])) {
     /** @var \Drupal\node\NodeTypeInterface $type */
