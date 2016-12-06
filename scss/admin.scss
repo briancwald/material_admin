@@ -120,12 +120,16 @@ nav {
     width:100%;
 }
 
-.input-field {
-    margin-top: 0;
+.form-type-checkbox .form-checkbox {
+    @extend .filled-in;
 }
 
 .input-field.js-form-type-checkbox label {
-    top: 0;
+
+}
+
+.form-item {
+    padding:.5rem 0px;
 }
 
 .action-links {
