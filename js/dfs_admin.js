@@ -15,7 +15,7 @@
   });
   $(document).ready(function () {
     // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-    $.each($(':checkbox'), function (k, v) {
+    $.each($(':checkbox:not(.item-switch)'), function (k, v) {
       var label = $('label[for="' + this.id + '"]');
       $(this).insertBefore(label);
     });
@@ -31,14 +31,14 @@
     $('.message-trigger').prepend('<span class="badge new red">' + messageCount + '</span>')
     $('.messages--status').each(function () {
       $(this).clone().addClass("message-status-clone").appendTo('#messageContainer .region-status');
-      Materialize.toast(this, 5000)
+        Materialize.toast(this, 5000)
     })
   });
 
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
-      opacity: .5,
+      opacity: .5, 
       in_duration: 200,
       out_duration: 200,
       // ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
@@ -47,6 +47,7 @@
       // },
       // complete: function() { alert('Closed'); } // Callback for Modal close
     });
+
 
   });
 

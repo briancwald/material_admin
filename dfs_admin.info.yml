@@ -16,6 +16,7 @@ stylesheets-remove:
   - '@classy/css/components/button.css'
   - '@classy/css/components/inline-form.css'
   - '@classy/css/components/form.css'
+  - '@stable/css/system/system.admin.css'
 
 regions:
   header: 'Header'

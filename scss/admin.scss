@@ -120,16 +120,8 @@ nav {
     width:100%;
 }
 
-.form-type-checkbox .form-checkbox {
-    @extend .filled-in;
-}
-
-.input-field.js-form-type-checkbox label {
-
-}
-
-.form-item {
-    padding:.5rem 0px;
+.input-field.js-form-type-checkbox label  {
+    top: 0;
 }
 
 .action-links {
@@ -168,6 +160,10 @@ a.tabledrag-handle {
 }
 }
 
+.switch label {
+    white-space: nowrap;
+}
+
 //table dropdown
 .dropbutton-wrapper.dropbutton-single {
     .edit {
@@ -177,6 +173,11 @@ a.tabledrag-handle {
         }
     }
 }
+
+input-field.js-form-type-checkbox label  {
+   top: 0;
+ }
+
 
 abbr[title] {
     border-bottom:none;
