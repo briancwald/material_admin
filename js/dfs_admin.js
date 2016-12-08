@@ -29,28 +29,44 @@
     $('select').material_select();
   });
 
-function messages () {
-  var messageCount = $('.messages').length;
-  if (messageCount >= 1) {
-    $('.message-trigger').prepend('<span class="badge red">' + messageCount + '</span>');
-    $('.messages--status').each(function () {
-      $(this).clone().addClass("message-status-clone").appendTo('#messageContainer .region-status');
-        Materialize.toast(this, 5000);
+  Drupal.behaviors.dfs_admin = {
+    attach: function (context, settings) {
+      if ($('.messages').length) {
+        $(this).each(function () {
+          Materialize.toast($('.messages'), 5000, '', function () { messageInbox(); });
+        })
+      }
+    }
+  };
+
+  //clone those and put them in the message center
+  function messageInbox() {
+    $('.messages').each(function () {
+      $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone');
     });
+    messageCounter();
   }
+
+  function messageCounter() {
+    var messageBadge = $('.message-trigger .badge').length;
+    var messageCount = $('.region-status .messages-clone').length;
+    if (messageCount >= 1 && messageBadge) {
+      $('.message-trigger span.badge').text(messageCount);
+    };
+    if (messageCount >= 1 && !messageBadge) {
+      $('.message-trigger').append('<span class="badge new red">' + messageCount + '</span>');
+    };
   }
+
+
 
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
-      opacity: 0.5, 
+      opacity: 0.5,
       in_duration: 200,
       out_duration: 200,
-      // ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-      //   alert("Ready");
-      //   console.log(modal, trigger);
-      // },
-       complete: function() { $('.message-trigger .badge').removeClass('new red'); } // Callback for Modal close
+      complete: function () { $('.message-trigger .badge').removeClass('new red'); } // Since they have been read, remove the styling of new
     });
 
 

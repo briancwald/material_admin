@@ -28,7 +28,7 @@
 .materialize-red-text.text-lighten-3 {
   color: #f3989b !important; }
 
-.materialize-red.lighten-2 {
+.materialize-red.lighten-2, .message-trigger span.materialize-red.badge {
   background-color: #ee6e73 !important; }
 
 .materialize-red-text.text-lighten-2 {
@@ -88,7 +88,7 @@
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action {
+.red.lighten-2, .lighten-2.button-action, .message-trigger span.button-action.badge, .message-trigger span.red.badge {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
@@ -172,7 +172,7 @@
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2 {
+.pink.lighten-2, .message-trigger span.pink.badge {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
@@ -256,7 +256,7 @@
 .purple-text.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, .message-trigger span.purple.badge {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2 {
@@ -340,7 +340,7 @@
 .deep-purple-text.text-lighten-3 {
   color: #b39ddb !important; }
 
-.deep-purple.lighten-2 {
+.deep-purple.lighten-2, .message-trigger span.deep-purple.badge {
   background-color: #9575cd !important; }
 
 .deep-purple-text.text-lighten-2 {
@@ -424,7 +424,7 @@
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important; }
 
-.indigo.lighten-2 {
+.indigo.lighten-2, .message-trigger span.indigo.badge {
   background-color: #7986cb !important; }
 
 .indigo-text.text-lighten-2 {
@@ -508,7 +508,7 @@
 .blue-text.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2 {
+.blue.lighten-2, .message-trigger span.blue.badge {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2 {
@@ -592,7 +592,7 @@
 .light-blue-text.text-lighten-3 {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2 {
+.light-blue.lighten-2, .message-trigger span.light-blue.badge {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2 {
@@ -676,7 +676,7 @@
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2 {
+.cyan.lighten-2, .message-trigger span.cyan.badge {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
@@ -736,85 +736,85 @@
 .cyan-text.text-accent-4 {
   color: #00b8d4 !important; }
 
-.teal {
+.teal, .message-trigger span.badge {
   background-color: #009688 !important; }
 
 .teal-text {
   color: #009688 !important; }
 
-.teal.lighten-5 {
+.teal.lighten-5, .message-trigger span.lighten-5.badge {
   background-color: #e0f2f1 !important; }
 
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4 {
+.teal.lighten-4, .message-trigger span.lighten-4.badge {
   background-color: #b2dfdb !important; }
 
 .teal-text.text-lighten-4 {
   color: #b2dfdb !important; }
 
-.teal.lighten-3 {
+.teal.lighten-3, .message-trigger span.lighten-3.badge {
   background-color: #80cbc4 !important; }
 
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2 {
+.teal.lighten-2, .message-trigger span.badge {
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, .message-trigger span.lighten-1.badge {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
   color: #26a69a !important; }
 
-.teal.darken-1 {
+.teal.darken-1, .message-trigger span.darken-1.badge {
   background-color: #00897b !important; }
 
 .teal-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2 {
+.teal.darken-2, .message-trigger span.darken-2.badge {
   background-color: #00796b !important; }
 
 .teal-text.text-darken-2 {
   color: #00796b !important; }
 
-.teal.darken-3 {
+.teal.darken-3, .message-trigger span.darken-3.badge {
   background-color: #00695c !important; }
 
 .teal-text.text-darken-3 {
   color: #00695c !important; }
 
-.teal.darken-4 {
+.teal.darken-4, .message-trigger span.darken-4.badge {
   background-color: #004d40 !important; }
 
 .teal-text.text-darken-4 {
   color: #004d40 !important; }
 
-.teal.accent-1 {
+.teal.accent-1, .message-trigger span.accent-1.badge {
   background-color: #a7ffeb !important; }
 
 .teal-text.text-accent-1 {
   color: #a7ffeb !important; }
 
-.teal.accent-2 {
+.teal.accent-2, .message-trigger span.accent-2.badge {
   background-color: #64ffda !important; }
 
 .teal-text.text-accent-2 {
   color: #64ffda !important; }
 
-.teal.accent-3 {
+.teal.accent-3, .message-trigger span.accent-3.badge {
   background-color: #1de9b6 !important; }
 
 .teal-text.text-accent-3 {
   color: #1de9b6 !important; }
 
-.teal.accent-4 {
+.teal.accent-4, .message-trigger span.accent-4.badge {
   background-color: #00bfa5 !important; }
 
 .teal-text.text-accent-4 {
@@ -844,7 +844,7 @@
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2 {
+.green.lighten-2, .message-trigger span.green.badge {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
@@ -928,7 +928,7 @@
 .light-green-text.text-lighten-3 {
   color: #c5e1a5 !important; }
 
-.light-green.lighten-2 {
+.light-green.lighten-2, .message-trigger span.light-green.badge {
   background-color: #aed581 !important; }
 
 .light-green-text.text-lighten-2 {
@@ -1012,7 +1012,7 @@
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
-.lime.lighten-2 {
+.lime.lighten-2, .message-trigger span.lime.badge {
   background-color: #dce775 !important; }
 
 .lime-text.text-lighten-2 {
@@ -1096,7 +1096,7 @@
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2 {
+.yellow.lighten-2, .message-trigger span.yellow.badge {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
@@ -1180,7 +1180,7 @@
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2 {
+.amber.lighten-2, .message-trigger span.amber.badge {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
@@ -1264,7 +1264,7 @@
 .orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
-.orange.lighten-2 {
+.orange.lighten-2, .message-trigger span.orange.badge {
   background-color: #ffb74d !important; }
 
 .orange-text.text-lighten-2 {
@@ -1348,7 +1348,7 @@
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
-.deep-orange.lighten-2 {
+.deep-orange.lighten-2, .message-trigger span.deep-orange.badge {
   background-color: #ff8a65 !important; }
 
 .deep-orange-text.text-lighten-2 {
@@ -1432,7 +1432,7 @@
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
-.brown.lighten-2 {
+.brown.lighten-2, .message-trigger span.brown.badge {
   background-color: #a1887f !important; }
 
 .brown-text.text-lighten-2 {
@@ -1492,7 +1492,7 @@
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2 {
+.blue-grey.lighten-2, .message-trigger span.blue-grey.badge {
   background-color: #90a4ae !important; }
 
 .blue-grey-text.text-lighten-2 {
@@ -1552,7 +1552,7 @@
 .grey-text.text-lighten-3 {
   color: #eeeeee !important; }
 
-.grey.lighten-2 {
+.grey.lighten-2, .message-trigger span.grey.badge {
   background-color: #e0e0e0 !important; }
 
 .grey-text.text-lighten-2 {
@@ -6705,9 +6705,22 @@ header.header-wrapper {
 
 .message-trigger {
   color: #fefefe; }
+  .message-trigger span {
+    padding-left: 5px; }
+  .message-trigger span.badge {
+    color: #fefefe; }
 
 .tabs {
   background: inherit; }
+
+.messages-clone {
+  background: no-repeat 10px 17px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 0;
+  border-radius: 2px;
+  padding: 15px 20px 15px 35px;
+  word-wrap: break-word;
+  overflow-wrap: break-word; }
 
 .breadcrumb-nav ol {
   padding: .5em;
