@@ -29,6 +29,10 @@ header.header-wrapper {
     @extend .shadow;
 }
 
+.message-trigger {
+    color:$white;
+}
+
 .tabs {
     background: inherit;
 }

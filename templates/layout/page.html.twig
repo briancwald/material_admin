@@ -45,7 +45,7 @@
 <div class="layout-container">
   <div id="messageContainer" class="modal bottom-sheet">
     <div class="modal-content">
-      <h4>Status Messages</h4>
+      <h4>Message Notifications</h4>
       <div class="allmessages">{{ page.status }} </div>
     </div>
     <div class="modal-footer">
@@ -55,8 +55,8 @@
   </div>
   <header class="header-wrapper" role="banner">
     <div class="row">
-      <div class="col s10">{{ page.header }}</div>
-     {% if page.status %} <div class="col s2"> <a class="modal-trigger white message-trigger" href="#messageContainer"><span class="fa-envolope"></span></a></div> {% endif %}
+      <div class="col m10 s12">{{ page.header }}</div>
+     {% if page.status %} <div class="col m2 sm12 right"> <a class="modal-trigger message-trigger" href="#messageContainer"><span class="fa fa-inbox"></span></a></div> {% endif %}
     </div>
   </header>
   <section class="utility-wrapper">

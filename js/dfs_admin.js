@@ -27,25 +27,30 @@
 
   $(document).ready(function () {
     $('select').material_select();
-    var messageCount = $('.messages').length;
-    $('.message-trigger').prepend('<span class="badge new red">' + messageCount + '</span>')
+  });
+
+function messages () {
+  var messageCount = $('.messages').length;
+  if (messageCount >= 1) {
+    $('.message-trigger').prepend('<span class="badge red">' + messageCount + '</span>');
     $('.messages--status').each(function () {
       $(this).clone().addClass("message-status-clone").appendTo('#messageContainer .region-status');
-        Materialize.toast(this, 5000)
-    })
-  });
+        Materialize.toast(this, 5000);
+    });
+  }
+  }
 
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
-      opacity: .5, 
+      opacity: 0.5, 
       in_duration: 200,
       out_duration: 200,
       // ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
       //   alert("Ready");
       //   console.log(modal, trigger);
       // },
-      // complete: function() { alert('Closed'); } // Callback for Modal close
+       complete: function() { $('.message-trigger .badge').removeClass('new red'); } // Callback for Modal close
     });
 
 

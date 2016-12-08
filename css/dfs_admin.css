@@ -6703,6 +6703,9 @@ header.header-wrapper {
 .utility-wrapper {
   background: #64b5f6; }
 
+.message-trigger {
+  color: #fefefe; }
+
 .tabs {
   background: inherit; }
 

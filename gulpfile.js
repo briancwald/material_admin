@@ -1,4 +1,6 @@
 var gulp     = require('gulp');
+const jshint = require('gulp-jshint');
+const stylish = require('jshint-stylish');
 var $        = require('gulp-load-plugins')();
 
 var sassPaths = [
@@ -15,6 +17,12 @@ gulp.task('sass', function() {
       browsers: ['last 2 versions', 'ie >= 9']
     }))
     .pipe(gulp.dest('css'));
+});
+
+gulp.task('lint', function() {
+  return gulp.src('./js/dfs_admin.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('default', ['sass'], function() {
