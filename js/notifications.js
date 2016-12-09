@@ -16,23 +16,35 @@ Drupal.behaviors.dfs_admin = {
     }
 };
 
+
   //clone those and put them in the message center
   function messageInbox() {
     $('.messages').once('dfs_admin_inbox').each(function () {
       $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone');
+       item = $(this);
+      messageCounter(item);
+
     });
-    messageCounter();
   }
 
-  function messageCounter() {
-    var messageBadge = $('.message-trigger .badge').length;
-    var messageCount = $('.region-status .messages-clone').length;
-    if (messageCount >= 1 && messageBadge) {
-      $('.message-trigger span.badge').text(messageCount);
+
+  function messageCounter(cloneItem) {
+  	var cloneItem = item;
+    var statusType = "";
+    messageCount = 0
+
+    if ($(item).hasClass('messages--status')) {
+    	statusType = 'status';
+     }
+    if ($(item).hasClass('messages--warning')){
+    	statusType = 'warning';
     }
-    if (messageCount >= 1 && !messageBadge) {
-      $('.message-trigger').append('<span class="badge new red">' + messageCount + '</span>');
+    if ($(item).hasClass('messages--error')) {
+    	statusType = 'error';
     }
+    	var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(),10);
+    	messageCount = currentValue + 1;
+      $('.message-trigger span.badge.' + statusType).text(messageCount).show();
   }
 
 

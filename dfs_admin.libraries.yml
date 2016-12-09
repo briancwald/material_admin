@@ -4,7 +4,7 @@ global-styling:
     base:
       css/dfs_admin.css: {}
   js:
-    js/materialize.min.js: {}
+    js/vendor/materialize.min.js: {}
     js/dfs_admin.js: {}
     js/notifications.js: {}
   dependencies:

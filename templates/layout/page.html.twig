@@ -56,11 +56,10 @@
   </div>
   <header class="header-wrapper" role="banner">
     <div class="row">
-      <div class="col m10 s12">{{ page.header }}</div>
+      <div class="s12">{{ page.header }}
       {% if page.status %}
-      <div class="col m2 sm12 right">
-        <div class="collection">
-          <a class="modal-trigger collection-item message-trigger" href="#messageContainer"><span class="fa fa-inbox"></span> Notifications</a>
+        <div class="collection right notification-wrapper">
+          <a class="modal-trigger collection-item message-trigger" href="#messageContainer"><span class="fa fa-inbox"></span> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge warning">0</span><span class="badge error">0</span><span class="badge status">0</span> </a>
         </div>
       </div>
       {% endif %}

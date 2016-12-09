@@ -37,6 +37,16 @@ header.header-wrapper {
     span.badge {
         @extend .teal, .lighten-2;
         color:$white;
+        display:none;
+        &.error {
+            @extend .red;
+        }
+        &.warning {
+            @extend .yellow;
+        }
+        &.status {
+            @extend .green;
+        }
     }
 }
 
@@ -52,6 +62,12 @@ header.header-wrapper {
     padding: 15px 20px 15px 35px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+
+
+.region-header {
+    display:inline-block;
 }
 
 // Breadcrumbs

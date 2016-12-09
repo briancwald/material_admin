@@ -64,85 +64,85 @@
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red, .button-action {
+.red, .button-action, .message-trigger span.badge.error {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.button-action {
+.red.lighten-5, .lighten-5.button-action, .message-trigger span.lighten-5.badge.error {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.button-action {
+.red.lighten-4, .lighten-4.button-action, .message-trigger span.lighten-4.badge.error {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.button-action {
+.red.lighten-3, .lighten-3.button-action, .message-trigger span.lighten-3.badge.error {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action, .message-trigger span.button-action.badge, .message-trigger span.red.badge {
+.red.lighten-2, .lighten-2.button-action, .message-trigger span.button-action.badge, .message-trigger span.red.badge, .message-trigger span.badge.error {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .lighten-1.button-action {
+.red.lighten-1, .lighten-1.button-action, .message-trigger span.lighten-1.badge.error {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.button-action {
+.red.darken-1, .darken-1.button-action, .message-trigger span.darken-1.badge.error {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.button-action {
+.red.darken-2, .darken-2.button-action, .message-trigger span.darken-2.badge.error {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.button-action {
+.red.darken-3, .darken-3.button-action, .message-trigger span.darken-3.badge.error {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.button-action {
+.red.darken-4, .darken-4.button-action, .message-trigger span.darken-4.badge.error {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.button-action {
+.red.accent-1, .accent-1.button-action, .message-trigger span.accent-1.badge.error {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .accent-2.button-action {
+.red.accent-2, .accent-2.button-action, .message-trigger span.accent-2.badge.error {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.button-action {
+.red.accent-3, .accent-3.button-action, .message-trigger span.accent-3.badge.error {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.button-action {
+.red.accent-4, .accent-4.button-action, .message-trigger span.accent-4.badge.error {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -820,85 +820,85 @@
 .teal-text.text-accent-4 {
   color: #00bfa5 !important; }
 
-.green {
+.green, .message-trigger span.badge.status {
   background-color: #4CAF50 !important; }
 
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5 {
+.green.lighten-5, .message-trigger span.lighten-5.badge.status {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important; }
 
-.green.lighten-4 {
+.green.lighten-4, .message-trigger span.lighten-4.badge.status {
   background-color: #C8E6C9 !important; }
 
 .green-text.text-lighten-4 {
   color: #C8E6C9 !important; }
 
-.green.lighten-3 {
+.green.lighten-3, .message-trigger span.lighten-3.badge.status {
   background-color: #A5D6A7 !important; }
 
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .message-trigger span.green.badge {
+.green.lighten-2, .message-trigger span.green.badge, .message-trigger span.badge.status {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, .message-trigger span.lighten-1.badge.status {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
   color: #66BB6A !important; }
 
-.green.darken-1 {
+.green.darken-1, .message-trigger span.darken-1.badge.status {
   background-color: #43A047 !important; }
 
 .green-text.text-darken-1 {
   color: #43A047 !important; }
 
-.green.darken-2 {
+.green.darken-2, .message-trigger span.darken-2.badge.status {
   background-color: #388E3C !important; }
 
 .green-text.text-darken-2 {
   color: #388E3C !important; }
 
-.green.darken-3 {
+.green.darken-3, .message-trigger span.darken-3.badge.status {
   background-color: #2E7D32 !important; }
 
 .green-text.text-darken-3 {
   color: #2E7D32 !important; }
 
-.green.darken-4 {
+.green.darken-4, .message-trigger span.darken-4.badge.status {
   background-color: #1B5E20 !important; }
 
 .green-text.text-darken-4 {
   color: #1B5E20 !important; }
 
-.green.accent-1 {
+.green.accent-1, .message-trigger span.accent-1.badge.status {
   background-color: #B9F6CA !important; }
 
 .green-text.text-accent-1 {
   color: #B9F6CA !important; }
 
-.green.accent-2 {
+.green.accent-2, .message-trigger span.accent-2.badge.status {
   background-color: #69F0AE !important; }
 
 .green-text.text-accent-2 {
   color: #69F0AE !important; }
 
-.green.accent-3 {
+.green.accent-3, .message-trigger span.accent-3.badge.status {
   background-color: #00E676 !important; }
 
 .green-text.text-accent-3 {
   color: #00E676 !important; }
 
-.green.accent-4 {
+.green.accent-4, .message-trigger span.accent-4.badge.status {
   background-color: #00C853 !important; }
 
 .green-text.text-accent-4 {
@@ -1072,85 +1072,85 @@
 .lime-text.text-accent-4 {
   color: #aeea00 !important; }
 
-.yellow {
+.yellow, .message-trigger span.badge.warning {
   background-color: #ffeb3b !important; }
 
 .yellow-text {
   color: #ffeb3b !important; }
 
-.yellow.lighten-5 {
+.yellow.lighten-5, .message-trigger span.lighten-5.badge.warning {
   background-color: #fffde7 !important; }
 
 .yellow-text.text-lighten-5 {
   color: #fffde7 !important; }
 
-.yellow.lighten-4 {
+.yellow.lighten-4, .message-trigger span.lighten-4.badge.warning {
   background-color: #fff9c4 !important; }
 
 .yellow-text.text-lighten-4 {
   color: #fff9c4 !important; }
 
-.yellow.lighten-3 {
+.yellow.lighten-3, .message-trigger span.lighten-3.badge.warning {
   background-color: #fff59d !important; }
 
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2, .message-trigger span.yellow.badge {
+.yellow.lighten-2, .message-trigger span.yellow.badge, .message-trigger span.badge.warning {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, .message-trigger span.lighten-1.badge.warning {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
   color: #ffee58 !important; }
 
-.yellow.darken-1 {
+.yellow.darken-1, .message-trigger span.darken-1.badge.warning {
   background-color: #fdd835 !important; }
 
 .yellow-text.text-darken-1 {
   color: #fdd835 !important; }
 
-.yellow.darken-2 {
+.yellow.darken-2, .message-trigger span.darken-2.badge.warning {
   background-color: #fbc02d !important; }
 
 .yellow-text.text-darken-2 {
   color: #fbc02d !important; }
 
-.yellow.darken-3 {
+.yellow.darken-3, .message-trigger span.darken-3.badge.warning {
   background-color: #f9a825 !important; }
 
 .yellow-text.text-darken-3 {
   color: #f9a825 !important; }
 
-.yellow.darken-4 {
+.yellow.darken-4, .message-trigger span.darken-4.badge.warning {
   background-color: #f57f17 !important; }
 
 .yellow-text.text-darken-4 {
   color: #f57f17 !important; }
 
-.yellow.accent-1 {
+.yellow.accent-1, .message-trigger span.accent-1.badge.warning {
   background-color: #ffff8d !important; }
 
 .yellow-text.text-accent-1 {
   color: #ffff8d !important; }
 
-.yellow.accent-2 {
+.yellow.accent-2, .message-trigger span.accent-2.badge.warning {
   background-color: #ffff00 !important; }
 
 .yellow-text.text-accent-2 {
   color: #ffff00 !important; }
 
-.yellow.accent-3 {
+.yellow.accent-3, .message-trigger span.accent-3.badge.warning {
   background-color: #ffea00 !important; }
 
 .yellow-text.text-accent-3 {
   color: #ffea00 !important; }
 
-.yellow.accent-4 {
+.yellow.accent-4, .message-trigger span.accent-4.badge.warning {
   background-color: #ffd600 !important; }
 
 .yellow-text.text-accent-4 {
@@ -6708,7 +6708,8 @@ header.header-wrapper {
   .message-trigger span {
     padding-left: 5px; }
   .message-trigger span.badge {
-    color: #fefefe; }
+    color: #fefefe;
+    display: none; }
 
 .tabs {
   background: inherit; }
@@ -6721,6 +6722,9 @@ header.header-wrapper {
   padding: 15px 20px 15px 35px;
   word-wrap: break-word;
   overflow-wrap: break-word; }
+
+.region-header {
+  display: inline-block; }
 
 .breadcrumb-nav ol {
   padding: .5em;
