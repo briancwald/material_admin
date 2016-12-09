@@ -20,7 +20,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('lint', function() {
-  return gulp.src('./js/dfs_admin.js')
+  return gulp.src('./js/*.js' )
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
