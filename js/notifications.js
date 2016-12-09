@@ -8,20 +8,20 @@
 
 (function ($, Drupal) {
 
-Drupal.behaviors.dfs_admin = {
+  Drupal.behaviors.dfs_admin = {
     attach: function (context, settings) {
-        $('.messages').once('dfs_admin').each(function()  {
-              Materialize.toast($('.messages'), 5000, '', function () { messageInbox(); });
-        });
+      $('.messages').once('dfs_admin').each(function () {
+        Materialize.toast($('.messages'), 5000, '', function () { messageInbox(); });
+      });
     }
-};
+  };
 
 
   //clone those and put them in the message center
   function messageInbox() {
     $('.messages').once('dfs_admin_inbox').each(function () {
       $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone');
-       item = $(this);
+      item = $(this);
       messageCounter(item);
 
     });
@@ -29,22 +29,22 @@ Drupal.behaviors.dfs_admin = {
 
 
   function messageCounter(cloneItem) {
-  	var cloneItem = item;
+    cloneItem = item;
     var statusType = "";
-    messageCount = 0
+    messageCount = 0;
 
     if ($(item).hasClass('messages--status')) {
-    	statusType = 'status';
-     }
-    if ($(item).hasClass('messages--warning')){
-    	statusType = 'warning';
+      statusType = 'status';
+    }
+    if ($(item).hasClass('messages--warning')) {
+      statusType = 'warning';
     }
     if ($(item).hasClass('messages--error')) {
-    	statusType = 'error';
+      statusType = 'error';
     }
-    	var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(),10);
-    	messageCount = currentValue + 1;
-      $('.message-trigger span.badge.' + statusType).text(messageCount).show();
+    var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(), 10);
+    messageCount = currentValue + 1;
+    $('.message-trigger span.badge.' + statusType).text(messageCount).show();
   }
 
 
