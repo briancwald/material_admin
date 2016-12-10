@@ -6705,12 +6705,14 @@ header.header-wrapper {
 
 .message-trigger {
   color: #fefefe; }
-  .message-trigger span {
+  .message-trigger span.fa {
     padding-left: 5px; }
   .message-trigger span.badge {
     min-width: inherit;
     color: #fefefe;
-    display: none; }
+    display: none;
+    border-radius: 50%;
+    font-size: 0.9rem; }
 
 .tabs {
   background: inherit; }

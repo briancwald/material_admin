@@ -11,14 +11,14 @@
 
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
-  var maxMessageLength = "100";
+  var maxMessageLength = '19990';
 
   Drupal.behaviors.dfs_admin = {
     attach: function (context, settings) {
-      var messages = $('.messages');
-      messages.once('dfs_admin').each(function (messageMax) {
+      var messages = $('div.messages');
+      messages.once('dfs_admin').each(function () {
         messageMax = maxMessageLength;
-        var messageContent = $('.message-content', this);
+        var messageContent = $('.message-content');
         var thisMessageSize = messageContent.text().length;
 
         if ($(this).hasClass('messages--status')) {
@@ -37,8 +37,10 @@
         // Check to see if the message is too long for reasonable reading inside a toast notification
         if (thisMessageSize <= messageMax) {
           thisItem = $(this);
-          Materialize.toast(messages, 5000, statusType, function () { messageInbox(statusType, thisItem); });
-        } else {
+          Materialize.toast(thisItem, 5000, statusType);
+           messageInbox(statusType, thisItem); 
+      }
+        if (thisMessageSize >= messageMax){
           // If the notification is too long, provide a notice to view in an easier to read format
           thisItem = $(this);
           var messageTrigger = '<a class="modal-trigger btn-flat" href="#messageContainer">View ' + statusText + '</a>';
@@ -57,7 +59,7 @@
     console.log(thisItem);
     thisItem.each(function () {
       $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone').show();
-      itemClone = $(this);
+      itemClone = thisItem;
       messageCounter(itemClone, statusType);
 
     });

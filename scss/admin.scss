@@ -43,13 +43,15 @@ header.header-wrapper {
 
 .message-trigger {
     color: $white;
-    span {
+    span.fa {
         padding-left: 5px;
     }
     span.badge {
         min-width: inherit;
         color: $white;
         display: none;
+        border-radius:50%;
+        font-size:0.9rem;
     }
 }
 
