@@ -44,7 +44,7 @@
           {% endfor %}
         </ul>
       {% else %}
-        {{ messages|first }}
+        <span class="message-content">{{ messages|first }}</span>
       {% endif %}
     {% if type == 'error' %}
       </div>

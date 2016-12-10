@@ -29,24 +29,27 @@ header.header-wrapper {
     @extend .shadow;
 }
 
+.messages--error {
+    @extend .red;
+}
+
+.messages--warning {
+    @extend .yellow;
+}
+
+.messages--status {
+    @extend .green;
+}
+
 .message-trigger {
     color: $white;
     span {
         padding-left: 5px;
     }
     span.badge {
-        min-width:inherit;
+        min-width: inherit;
         color: $white;
         display: none;
-        &.error {
-            @extend .red;
-        }
-        &.warning {
-            @extend .yellow;
-        }
-        &.status {
-            @extend .green;
-        }
     }
 }
 

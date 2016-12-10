@@ -64,85 +64,85 @@
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red, .button-action, .message-trigger span.badge.error {
+.red, .button-action, .messages--error {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.button-action, .message-trigger span.lighten-5.badge.error {
+.red.lighten-5, .lighten-5.button-action, .lighten-5.messages--error {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.button-action, .message-trigger span.lighten-4.badge.error {
+.red.lighten-4, .lighten-4.button-action, .lighten-4.messages--error {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.button-action, .message-trigger span.lighten-3.badge.error {
+.red.lighten-3, .lighten-3.button-action, .lighten-3.messages--error {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action, .message-trigger span.lighten-2.badge.error {
+.red.lighten-2, .lighten-2.button-action, .lighten-2.messages--error {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .lighten-1.button-action, .message-trigger span.lighten-1.badge.error {
+.red.lighten-1, .lighten-1.button-action, .lighten-1.messages--error {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.button-action, .message-trigger span.darken-1.badge.error {
+.red.darken-1, .darken-1.button-action, .darken-1.messages--error {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.button-action, .message-trigger span.darken-2.badge.error {
+.red.darken-2, .darken-2.button-action, .darken-2.messages--error {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.button-action, .message-trigger span.darken-3.badge.error {
+.red.darken-3, .darken-3.button-action, .darken-3.messages--error {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.button-action, .message-trigger span.darken-4.badge.error {
+.red.darken-4, .darken-4.button-action, .darken-4.messages--error {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.button-action, .message-trigger span.accent-1.badge.error {
+.red.accent-1, .accent-1.button-action, .accent-1.messages--error {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .accent-2.button-action, .message-trigger span.accent-2.badge.error {
+.red.accent-2, .accent-2.button-action, .accent-2.messages--error {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.button-action, .message-trigger span.accent-3.badge.error {
+.red.accent-3, .accent-3.button-action, .accent-3.messages--error {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.button-action, .message-trigger span.accent-4.badge.error {
+.red.accent-4, .accent-4.button-action, .accent-4.messages--error {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -820,85 +820,85 @@
 .teal-text.text-accent-4 {
   color: #00bfa5 !important; }
 
-.green, .message-trigger span.badge.status {
+.green, .messages--status {
   background-color: #4CAF50 !important; }
 
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5, .message-trigger span.lighten-5.badge.status {
+.green.lighten-5, .lighten-5.messages--status {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important; }
 
-.green.lighten-4, .message-trigger span.lighten-4.badge.status {
+.green.lighten-4, .lighten-4.messages--status {
   background-color: #C8E6C9 !important; }
 
 .green-text.text-lighten-4 {
   color: #C8E6C9 !important; }
 
-.green.lighten-3, .message-trigger span.lighten-3.badge.status {
+.green.lighten-3, .lighten-3.messages--status {
   background-color: #A5D6A7 !important; }
 
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .message-trigger span.lighten-2.badge.status {
+.green.lighten-2, .lighten-2.messages--status {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1, .message-trigger span.lighten-1.badge.status {
+.green.lighten-1, .lighten-1.messages--status {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
   color: #66BB6A !important; }
 
-.green.darken-1, .message-trigger span.darken-1.badge.status {
+.green.darken-1, .darken-1.messages--status {
   background-color: #43A047 !important; }
 
 .green-text.text-darken-1 {
   color: #43A047 !important; }
 
-.green.darken-2, .message-trigger span.darken-2.badge.status {
+.green.darken-2, .darken-2.messages--status {
   background-color: #388E3C !important; }
 
 .green-text.text-darken-2 {
   color: #388E3C !important; }
 
-.green.darken-3, .message-trigger span.darken-3.badge.status {
+.green.darken-3, .darken-3.messages--status {
   background-color: #2E7D32 !important; }
 
 .green-text.text-darken-3 {
   color: #2E7D32 !important; }
 
-.green.darken-4, .message-trigger span.darken-4.badge.status {
+.green.darken-4, .darken-4.messages--status {
   background-color: #1B5E20 !important; }
 
 .green-text.text-darken-4 {
   color: #1B5E20 !important; }
 
-.green.accent-1, .message-trigger span.accent-1.badge.status {
+.green.accent-1, .accent-1.messages--status {
   background-color: #B9F6CA !important; }
 
 .green-text.text-accent-1 {
   color: #B9F6CA !important; }
 
-.green.accent-2, .message-trigger span.accent-2.badge.status {
+.green.accent-2, .accent-2.messages--status {
   background-color: #69F0AE !important; }
 
 .green-text.text-accent-2 {
   color: #69F0AE !important; }
 
-.green.accent-3, .message-trigger span.accent-3.badge.status {
+.green.accent-3, .accent-3.messages--status {
   background-color: #00E676 !important; }
 
 .green-text.text-accent-3 {
   color: #00E676 !important; }
 
-.green.accent-4, .message-trigger span.accent-4.badge.status {
+.green.accent-4, .accent-4.messages--status {
   background-color: #00C853 !important; }
 
 .green-text.text-accent-4 {
@@ -1072,85 +1072,85 @@
 .lime-text.text-accent-4 {
   color: #aeea00 !important; }
 
-.yellow, .message-trigger span.badge.warning {
+.yellow, .messages--warning {
   background-color: #ffeb3b !important; }
 
 .yellow-text {
   color: #ffeb3b !important; }
 
-.yellow.lighten-5, .message-trigger span.lighten-5.badge.warning {
+.yellow.lighten-5, .lighten-5.messages--warning {
   background-color: #fffde7 !important; }
 
 .yellow-text.text-lighten-5 {
   color: #fffde7 !important; }
 
-.yellow.lighten-4, .message-trigger span.lighten-4.badge.warning {
+.yellow.lighten-4, .lighten-4.messages--warning {
   background-color: #fff9c4 !important; }
 
 .yellow-text.text-lighten-4 {
   color: #fff9c4 !important; }
 
-.yellow.lighten-3, .message-trigger span.lighten-3.badge.warning {
+.yellow.lighten-3, .lighten-3.messages--warning {
   background-color: #fff59d !important; }
 
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2, .message-trigger span.lighten-2.badge.warning {
+.yellow.lighten-2, .lighten-2.messages--warning {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1, .message-trigger span.lighten-1.badge.warning {
+.yellow.lighten-1, .lighten-1.messages--warning {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
   color: #ffee58 !important; }
 
-.yellow.darken-1, .message-trigger span.darken-1.badge.warning {
+.yellow.darken-1, .darken-1.messages--warning {
   background-color: #fdd835 !important; }
 
 .yellow-text.text-darken-1 {
   color: #fdd835 !important; }
 
-.yellow.darken-2, .message-trigger span.darken-2.badge.warning {
+.yellow.darken-2, .darken-2.messages--warning {
   background-color: #fbc02d !important; }
 
 .yellow-text.text-darken-2 {
   color: #fbc02d !important; }
 
-.yellow.darken-3, .message-trigger span.darken-3.badge.warning {
+.yellow.darken-3, .darken-3.messages--warning {
   background-color: #f9a825 !important; }
 
 .yellow-text.text-darken-3 {
   color: #f9a825 !important; }
 
-.yellow.darken-4, .message-trigger span.darken-4.badge.warning {
+.yellow.darken-4, .darken-4.messages--warning {
   background-color: #f57f17 !important; }
 
 .yellow-text.text-darken-4 {
   color: #f57f17 !important; }
 
-.yellow.accent-1, .message-trigger span.accent-1.badge.warning {
+.yellow.accent-1, .accent-1.messages--warning {
   background-color: #ffff8d !important; }
 
 .yellow-text.text-accent-1 {
   color: #ffff8d !important; }
 
-.yellow.accent-2, .message-trigger span.accent-2.badge.warning {
+.yellow.accent-2, .accent-2.messages--warning {
   background-color: #ffff00 !important; }
 
 .yellow-text.text-accent-2 {
   color: #ffff00 !important; }
 
-.yellow.accent-3, .message-trigger span.accent-3.badge.warning {
+.yellow.accent-3, .accent-3.messages--warning {
   background-color: #ffea00 !important; }
 
 .yellow-text.text-accent-3 {
   color: #ffea00 !important; }
 
-.yellow.accent-4, .message-trigger span.accent-4.badge.warning {
+.yellow.accent-4, .accent-4.messages--warning {
   background-color: #ffd600 !important; }
 
 .yellow-text.text-accent-4 {
