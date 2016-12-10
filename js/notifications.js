@@ -11,7 +11,7 @@
 
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
-  var maxMessageLength = '19990';
+  var maxMessageLength = '130';
 
   Drupal.behaviors.dfs_admin = {
     attach: function (context, settings) {
