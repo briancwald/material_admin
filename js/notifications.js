@@ -23,32 +23,37 @@
 
         if ($(this).hasClass('messages--status')) {
           statusType = 'messages--status';
+          statusText = ' Status ';
         }
         if ($(this).hasClass('messages--warning')) {
           statusType = 'messages--warning';
+          statusText = ' Warning ';
         }
         if ($(this).hasClass('messages--error')) {
           statusType = 'messages--error';
+          statusText = ' Error ';
         }
 
         // Check to see if the message is too long for reasonable reading inside a toast notification
         if (thisMessageSize <= messageMax) {
-          Materialize.toast(messages, 5000, statusType, function () { messageInbox(statusType); });
+          thisItem = $(this);
+          Materialize.toast(messages, 5000, statusType, function () { messageInbox(statusType, thisItem); });
         } else {
           // If the notification is too long, provide a notice to view in an easier to read format
-          var messageNotice = "There is a message in your notification console";
-          messages.appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone');
-          item = $(this);
-          Materialize.toast(messageNotice, 5000, statusType, function () { messageCounter(item, statusType); });
+          thisItem = $(this);
+          var messageNotice = 'There is a' + statusText + 'message in your notification console';
+          messages.hide();
+          Materialize.toast(messageNotice, 5000, statusType, function () { messageInbox(statusType, thisItem); });
         }
       });
     }
   };
 
   //Since Toast removes the item after the notice, clone it put them in the message container
-  function messageInbox(statusType) {
-    $('.messages').once('dfs_admin_inbox').each(function () {
-      $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone');
+  function messageInbox(statusType, thisItem) {
+    console.log(thisItem);
+    thisItem.each(function () {
+      $(this).clone().appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone').show();
       itemClone = $(this);
       messageCounter(itemClone, statusType);
 
@@ -56,8 +61,7 @@
   }
 
   //add badge for each message type
-  function messageCounter(itemClone, statusType, item) {
-    console.log(statusType);
+  function messageCounter(itemClone, statusType) {
     messageCount = 0;
     var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(), 10);
     messageCount = currentValue + 1;
