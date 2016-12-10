@@ -1,5 +1,5 @@
 {
-  "name": "Material Admin",
+  "name": "material_admin",
   "version": "1.0.0",
   "description": "Material Design Admin theme",
   "main": "gulpfile.js",
