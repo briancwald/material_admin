@@ -1,6 +1,6 @@
-name: material_admin
+name: Material Admin
 type: theme
-description: 'Demo Framework Admin Theme'
+description: 'Material Design Admin Theme'
 core: 8.x
 base theme: classy
 

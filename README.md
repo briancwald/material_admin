@@ -1,5 +1,5 @@
-# dfs-admin
-D8 Admin 
+# Material Admin
+Material Design Inspired Admin Theme 
 
 ## To Do
 - [x] Gulp Setup
