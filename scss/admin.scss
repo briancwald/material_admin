@@ -30,14 +30,14 @@ header.header-wrapper {
 }
 
 .message-trigger {
-    color:$white;
+    color: $white;
     span {
-        padding-left:5px;
+        padding-left: 5px;
     }
     span.badge {
-        @extend .teal, .lighten-2;
-        color:$white;
-        display:none;
+        min-width:inherit;
+        color: $white;
+        display: none;
         &.error {
             @extend .red;
         }
@@ -54,6 +54,12 @@ header.header-wrapper {
     background: inherit;
 }
 
+.modal-content .notification-title {
+    border-bottom: 1px solid $medium-gray;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+}
+
 .messages-clone {
     background: no-repeat 10px 17px;
     border: 1px solid;
@@ -64,10 +70,8 @@ header.header-wrapper {
     overflow-wrap: break-word;
 }
 
-
-
 .region-header {
-    display:inline-block;
+    display: inline-block;
 }
 
 // Breadcrumbs
@@ -152,12 +156,12 @@ nav {
     }
 }
 
-.form--inline .input-field{
-    display:block;
-    width:100%;
+.form--inline .input-field {
+    display: block;
+    width: 100%;
 }
 
-.input-field.js-form-type-checkbox label  {
+.input-field.js-form-type-checkbox label {
     top: 0;
 }
 
@@ -171,8 +175,8 @@ input.btn-default {
 
 a.tabledrag-handle {
     .handle {
-        width:30px;
-        height:30px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -183,18 +187,18 @@ a.tabledrag-handle {
     }
     &:hover .collection-item-description {
         text-decoration: none;
-        color:$dark-gray;
-        }
-.collection-item-description {
-    text-decoration: none;
-    color:$medium-gray;
-    font-size:12px;
-    margin-left:20px;
-    &:hover {
-        text-decoration: none;
-        color:$dark-gray;
+        color: $dark-gray;
     }
-}
+    .collection-item-description {
+        text-decoration: none;
+        color: $medium-gray;
+        font-size: 12px;
+        margin-left: 20px;
+        &:hover {
+            text-decoration: none;
+            color: $dark-gray;
+        }
+    }
 }
 
 .switch label {
@@ -211,18 +215,28 @@ a.tabledrag-handle {
     }
 }
 
-input-field.js-form-type-checkbox label  {
-   top: 0;
- }
-
+input-field.js-form-type-checkbox label {
+    top: 0;
+}
 
 abbr[title] {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 //form field handling 
-
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-    width:inherit;
-    max-width:100%;
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+    width: inherit;
+    max-width: 100%;
 }

@@ -28,7 +28,7 @@
 .materialize-red-text.text-lighten-3 {
   color: #f3989b !important; }
 
-.materialize-red.lighten-2, .message-trigger span.materialize-red.badge {
+.materialize-red.lighten-2 {
   background-color: #ee6e73 !important; }
 
 .materialize-red-text.text-lighten-2 {
@@ -88,7 +88,7 @@
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action, .message-trigger span.button-action.badge, .message-trigger span.red.badge, .message-trigger span.badge.error {
+.red.lighten-2, .lighten-2.button-action, .message-trigger span.lighten-2.badge.error {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
@@ -172,7 +172,7 @@
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2, .message-trigger span.pink.badge {
+.pink.lighten-2 {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
@@ -256,7 +256,7 @@
 .purple-text.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2, .message-trigger span.purple.badge {
+.purple.lighten-2 {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2 {
@@ -340,7 +340,7 @@
 .deep-purple-text.text-lighten-3 {
   color: #b39ddb !important; }
 
-.deep-purple.lighten-2, .message-trigger span.deep-purple.badge {
+.deep-purple.lighten-2 {
   background-color: #9575cd !important; }
 
 .deep-purple-text.text-lighten-2 {
@@ -424,7 +424,7 @@
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important; }
 
-.indigo.lighten-2, .message-trigger span.indigo.badge {
+.indigo.lighten-2 {
   background-color: #7986cb !important; }
 
 .indigo-text.text-lighten-2 {
@@ -508,7 +508,7 @@
 .blue-text.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, .message-trigger span.blue.badge {
+.blue.lighten-2 {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2 {
@@ -592,7 +592,7 @@
 .light-blue-text.text-lighten-3 {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2, .message-trigger span.light-blue.badge {
+.light-blue.lighten-2 {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2 {
@@ -676,7 +676,7 @@
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2, .message-trigger span.cyan.badge {
+.cyan.lighten-2 {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
@@ -736,85 +736,85 @@
 .cyan-text.text-accent-4 {
   color: #00b8d4 !important; }
 
-.teal, .message-trigger span.badge {
+.teal {
   background-color: #009688 !important; }
 
 .teal-text {
   color: #009688 !important; }
 
-.teal.lighten-5, .message-trigger span.lighten-5.badge {
+.teal.lighten-5 {
   background-color: #e0f2f1 !important; }
 
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4, .message-trigger span.lighten-4.badge {
+.teal.lighten-4 {
   background-color: #b2dfdb !important; }
 
 .teal-text.text-lighten-4 {
   color: #b2dfdb !important; }
 
-.teal.lighten-3, .message-trigger span.lighten-3.badge {
+.teal.lighten-3 {
   background-color: #80cbc4 !important; }
 
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2, .message-trigger span.badge {
+.teal.lighten-2 {
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1, .message-trigger span.lighten-1.badge {
+.teal.lighten-1 {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
   color: #26a69a !important; }
 
-.teal.darken-1, .message-trigger span.darken-1.badge {
+.teal.darken-1 {
   background-color: #00897b !important; }
 
 .teal-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2, .message-trigger span.darken-2.badge {
+.teal.darken-2 {
   background-color: #00796b !important; }
 
 .teal-text.text-darken-2 {
   color: #00796b !important; }
 
-.teal.darken-3, .message-trigger span.darken-3.badge {
+.teal.darken-3 {
   background-color: #00695c !important; }
 
 .teal-text.text-darken-3 {
   color: #00695c !important; }
 
-.teal.darken-4, .message-trigger span.darken-4.badge {
+.teal.darken-4 {
   background-color: #004d40 !important; }
 
 .teal-text.text-darken-4 {
   color: #004d40 !important; }
 
-.teal.accent-1, .message-trigger span.accent-1.badge {
+.teal.accent-1 {
   background-color: #a7ffeb !important; }
 
 .teal-text.text-accent-1 {
   color: #a7ffeb !important; }
 
-.teal.accent-2, .message-trigger span.accent-2.badge {
+.teal.accent-2 {
   background-color: #64ffda !important; }
 
 .teal-text.text-accent-2 {
   color: #64ffda !important; }
 
-.teal.accent-3, .message-trigger span.accent-3.badge {
+.teal.accent-3 {
   background-color: #1de9b6 !important; }
 
 .teal-text.text-accent-3 {
   color: #1de9b6 !important; }
 
-.teal.accent-4, .message-trigger span.accent-4.badge {
+.teal.accent-4 {
   background-color: #00bfa5 !important; }
 
 .teal-text.text-accent-4 {
@@ -844,7 +844,7 @@
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .message-trigger span.green.badge, .message-trigger span.badge.status {
+.green.lighten-2, .message-trigger span.lighten-2.badge.status {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
@@ -928,7 +928,7 @@
 .light-green-text.text-lighten-3 {
   color: #c5e1a5 !important; }
 
-.light-green.lighten-2, .message-trigger span.light-green.badge {
+.light-green.lighten-2 {
   background-color: #aed581 !important; }
 
 .light-green-text.text-lighten-2 {
@@ -1012,7 +1012,7 @@
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
-.lime.lighten-2, .message-trigger span.lime.badge {
+.lime.lighten-2 {
   background-color: #dce775 !important; }
 
 .lime-text.text-lighten-2 {
@@ -1096,7 +1096,7 @@
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2, .message-trigger span.yellow.badge, .message-trigger span.badge.warning {
+.yellow.lighten-2, .message-trigger span.lighten-2.badge.warning {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
@@ -1180,7 +1180,7 @@
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2, .message-trigger span.amber.badge {
+.amber.lighten-2 {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
@@ -1264,7 +1264,7 @@
 .orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
-.orange.lighten-2, .message-trigger span.orange.badge {
+.orange.lighten-2 {
   background-color: #ffb74d !important; }
 
 .orange-text.text-lighten-2 {
@@ -1348,7 +1348,7 @@
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
-.deep-orange.lighten-2, .message-trigger span.deep-orange.badge {
+.deep-orange.lighten-2 {
   background-color: #ff8a65 !important; }
 
 .deep-orange-text.text-lighten-2 {
@@ -1432,7 +1432,7 @@
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
-.brown.lighten-2, .message-trigger span.brown.badge {
+.brown.lighten-2 {
   background-color: #a1887f !important; }
 
 .brown-text.text-lighten-2 {
@@ -1492,7 +1492,7 @@
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2, .message-trigger span.blue-grey.badge {
+.blue-grey.lighten-2 {
   background-color: #90a4ae !important; }
 
 .blue-grey-text.text-lighten-2 {
@@ -1552,7 +1552,7 @@
 .grey-text.text-lighten-3 {
   color: #eeeeee !important; }
 
-.grey.lighten-2, .message-trigger span.grey.badge {
+.grey.lighten-2 {
   background-color: #e0e0e0 !important; }
 
 .grey-text.text-lighten-2 {
@@ -6708,11 +6708,17 @@ header.header-wrapper {
   .message-trigger span {
     padding-left: 5px; }
   .message-trigger span.badge {
+    min-width: inherit;
     color: #fefefe;
     display: none; }
 
 .tabs {
   background: inherit; }
+
+.modal-content .notification-title {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+  font-size: 1.7rem; }
 
 .messages-clone {
   background: no-repeat 10px 17px;
@@ -6836,6 +6842,18 @@ input-field.js-form-type-checkbox label {
 abbr[title] {
   border-bottom: none; }
 
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }

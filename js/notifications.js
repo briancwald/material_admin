@@ -10,12 +10,14 @@
 
   Drupal.behaviors.dfs_admin = {
     attach: function (context, settings) {
-      $('.messages').once('dfs_admin').each(function () {
-        Materialize.toast($('.messages'), 5000, '', function () { messageInbox(); });
+    	var messages = $('.messages');
+      messages.once('dfs_admin').each(function () {
+      	console.log(messages.text().length)
+      	// if (messages)
+        Materialize.toast(messages, 5000, '', function () { messageInbox(); });
       });
     }
   };
-
 
   //clone those and put them in the message center
   function messageInbox() {
@@ -27,9 +29,9 @@
     });
   }
 
-
-  function messageCounter(cloneItem) {
-    cloneItem = item;
+  //add badge for each message type
+  function messageCounter(itemInModal) {
+    itemInModal = item;
     var statusType = "";
     messageCount = 0;
 
@@ -46,7 +48,5 @@
     messageCount = currentValue + 1;
     $('.message-trigger span.badge.' + statusType).text(messageCount).show();
   }
-
-
 
 })(jQuery, Drupal);

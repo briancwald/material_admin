@@ -45,19 +45,18 @@
 <div class="layout-container">
   <div id="messageContainer" class="modal bottom-sheet">
     <div class="modal-content">
-      <h4>Message Notifications</h4>
+      <h4 class="notification-title">Message Notifications</h4>
       <div class="allmessages">{{ page.status }}
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
       <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
     </div>
   </div>
   <header class="header-wrapper" role="banner">
     <div class="row">
-      <div class="s12">{{ page.header }}
-      {% if page.status %}
+      <div class="s12">{{ page.header }} {% if page.status %}
         <div class="collection right notification-wrapper">
           <a class="modal-trigger collection-item message-trigger" href="#messageContainer"><span class="fa fa-inbox"></span> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge warning">0</span><span class="badge error">0</span><span class="badge status">0</span> </a>
         </div>
@@ -92,3 +91,4 @@
   </footer>
   {% endif %}
 </div>{# /.layout-container #}
+

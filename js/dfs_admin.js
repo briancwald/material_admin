@@ -25,19 +25,20 @@
     });
   });
 
+  //trigger select boxes to be replaced with li for better styling
   $(document).ready(function () {
     $('select').material_select();
-  }); 
+  });
 
+  //trigger modals
   $(document).ready(function () {
     $('.modal').modal({
       dismissible: true,
       opacity: 0.5,
       in_duration: 200,
       out_duration: 200,
-      complete: function () { $('.message-trigger .badge').removeClass('new red'); } // Since they have been read, remove the styling of new
+      //complete: function () { $('.message-trigger .badge').removeClass('new red'); } // Since they have been read, remove the styling of new
     });
-
 
   });
 

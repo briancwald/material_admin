@@ -6,7 +6,13 @@ global-styling:
   js:
     js/vendor/materialize.min.js: {}
     js/dfs_admin.js: {}
-    js/notifications.js: {}
   dependencies:
     - core/drupal
     - core/jquery
+notifications:
+  version: VERSION
+  js:
+    js/notifications.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
