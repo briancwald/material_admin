@@ -13,10 +13,10 @@
   // @ToDo make this default configurable in theme settings
   var maxMessageLength = '130';
 
-  Drupal.behaviors.dfs_admin = {
+  Drupal.behaviors.material_admin = {
     attach: function (context, settings) {
       var messages = $('div.messages');
-      messages.once('dfs_admin').each(function () {
+      messages.once('material_admin').each(function () {
         messageMax = maxMessageLength;
         var messageContent = $('.message-content');
         var thisMessageSize = messageContent.text().length;

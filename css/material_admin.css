@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* @file
- * Demo Framework Admin
+ * Material Admin
  *
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
@@ -6766,27 +6766,27 @@ nav {
   background: transparent;
   box-shadow: none; }
 
-.dfs_admin .tabs a.is-active,
-.dfs_admin .tabs a:focus,
-.dfs_admin .tabs a:hover {
+.material_admin .tabs a.is-active,
+.material_admin .tabs a:focus,
+.material_admin .tabs a:hover {
   background-color: transparent !important; }
 
-.dfs_admin table.highlight > tbody > tr:hover {
+.material_admin table.highlight > tbody > tr:hover {
   background: #ccc;
   color: #fefefe; }
-  .dfs_admin table.highlight > tbody > tr:hover a,
-  .dfs_admin table.highlight > tbody > tr:hover button {
+  .material_admin table.highlight > tbody > tr:hover a,
+  .material_admin table.highlight > tbody > tr:hover button {
     color: #1565c0;
     cursor: pointer; }
 
-.dfs_admin table.highlight > tbody > tr.selected {
+.material_admin table.highlight > tbody > tr.selected {
   background: #f0f4c3;
   color: #0a0a0a; }
 
-.dfs_admin .pager__item {
+.material_admin .pager__item {
   padding: 0; }
 
-.dfs_admin td.is-active {
+.material_admin td.is-active {
   background-color: transparent; }
 
 @media only screen and (min-width: 601px) {

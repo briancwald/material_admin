@@ -1,4 +1,4 @@
-name: dfs_admin
+name: material_admin
 type: theme
 description: 'Demo Framework Admin Theme'
 core: 8.x
@@ -8,7 +8,7 @@ base theme: classy
 screenshot: images/screenshot.jpg
 
 libraries:
-  - dfs_admin/global-styling
+  - material_admin/global-styling
 
 stylesheets-remove:
   - '@classy/css/components/action-links.css'

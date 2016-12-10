@@ -24,7 +24,7 @@ gulp.task('concat', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src('scss/dfs_admin.scss')
+  return gulp.src('scss/material_admin.scss')
     .pipe($.sass({
       includePaths: sassPaths
     })

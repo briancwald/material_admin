@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Functions to support theming in the dfs_admin theme.
+ * Functions to support theming in the material_admin theme.
  */
 
 use Drupal\Component\Utility\Xss;
@@ -13,15 +13,15 @@ use Drupal\Core\Template\Attribute;
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
  */
-function dfs_admin_preprocess_html(&$variables) {
+function material_admin_preprocess_html(&$variables) {
 
   // Add class to the body.
-  $variables['attributes']['class'][] = 'dfs_admin';
+  $variables['attributes']['class'][] = 'material_admin';
 
 }
 
 
-function dfs_admin_preprocess_menu_local_task(&$variables) {
+function material_admin_preprocess_menu_local_task(&$variables) {
 
   $link = $variables['element']['#link'];
   $link += array(
@@ -39,7 +39,7 @@ function dfs_admin_preprocess_menu_local_task(&$variables) {
   $variables['link']['#attributes']['target'] = '_self'; 
 
 }
-function dfs_admin_form_alter(&$form, &$form_state, $form_id) {
+function material_admin_form_alter(&$form, &$form_state, $form_id) {
   if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
     $form['actions']['submit']['#attributes']['class'][] = 'success';
     $form['actions']['submit']['#attributes']['class'][] = 'button';
@@ -48,7 +48,7 @@ function dfs_admin_form_alter(&$form, &$form_state, $form_id) {
 
 
 //if there is an empty placeholder, materialize does weird things. ref: https://github.com/Dogfalo/materialize/pull/1737/files
-function dfs_admin_preprocess_input(&$variables) {
+function material_admin_preprocess_input(&$variables) {
   $element = $variables['element'];
   if (isset($variables['attributes']['placeholder']) && empty((string) $variables['attributes']['placeholder'])) {
     unset($variables['attributes']['placeholder']);
@@ -57,7 +57,7 @@ function dfs_admin_preprocess_input(&$variables) {
 }
 
 
-function dfs_admin_preprocess_node_add_list(&$variables) {
+function material_admin_preprocess_node_add_list(&$variables) {
   if (!empty($variables['content'])) {
     /** @var \Drupal\node\NodeTypeInterface $type */
     foreach ($variables['content'] as $type) {
@@ -67,7 +67,7 @@ function dfs_admin_preprocess_node_add_list(&$variables) {
 }
 
 // force the checkbox to use a new twig template input--switch so that the markup can be differet.
-function dfs_admin_preprocess_system_modules_details(&$variables) {
+function material_admin_preprocess_system_modules_details(&$variables) {
   $form = $variables['form'];
 
   $variables['modules'] = [];

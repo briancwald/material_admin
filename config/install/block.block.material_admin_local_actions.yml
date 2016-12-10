@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - dfs_admin
-id: dfs_admin_local_actions
-theme: dfs_admin
+    - material_admin
+id: material_admin_local_actions
+theme: material_admin
 region: content
 weight: -10
 provider: null
