@@ -7,4 +7,4 @@ Material Design Inspired Admin Theme
 - [ ] admin/content enhancements 
 - [ ] view UI
 - [ ] form styling defaults
-- [ ] Status Message
+- [x] Status Message
