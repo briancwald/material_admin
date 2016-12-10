@@ -11,7 +11,7 @@
 
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
-  var maxMessageLength = "70";
+  var maxMessageLength = "100";
 
   Drupal.behaviors.dfs_admin = {
     attach: function (context, settings) {
@@ -41,9 +41,12 @@
         } else {
           // If the notification is too long, provide a notice to view in an easier to read format
           thisItem = $(this);
-          var messageNotice = 'There is a' + statusText + 'message in your notification console';
+          var messageTrigger = '<a class="modal-trigger btn-flat" href="#messageContainer">View ' + statusText + '</a>';
+          var messageNotice = 'There is a' + statusText + 'message in your notification console ' + messageTrigger + '';
+          //Since materialize does not grab the entire dom element here like above
           messages.hide();
-          Materialize.toast(messageNotice, 5000, statusType, function () { messageInbox(statusType, thisItem); });
+          messageInbox(statusType, thisItem); 
+          Materialize.toast(messageNotice, 5000, statusType);
         }
       });
     }
