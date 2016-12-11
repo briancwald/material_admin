@@ -38,11 +38,11 @@
         <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
       {% endif %}
       {% if messages|length > 1 %}
-        <ul class="messages__list">
+        <ol class="messages__list message-content">
           {% for message in messages %}
             <li class="messages__item">{{ message }}</li>
           {% endfor %}
-        </ul>
+        </ol>
       {% else %}
         <span class="message-content">{{ messages|first }}</span>
       {% endif %}
