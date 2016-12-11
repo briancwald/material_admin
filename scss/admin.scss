@@ -14,9 +14,9 @@ body {
 }
 
 header.header-wrapper {
-    background: $blue;
+    @extend .blue;
     h1 {
-        color: $white;
+        @extend .white-text;
         font-weight: 400;
     }
     .row {
@@ -25,20 +25,47 @@ header.header-wrapper {
 }
 
 .utility-wrapper {
-    background: $lighten-4;
+    @extend .blue, .lighten-2;
     @extend .shadow;
 }
 
-.messages--error {
-    @extend .red;
+.messages--status {
+    @extend .green, .lighten-2;
+    &.messages-clone {
+        div {
+            display: inline-block;
+        }
+        &:before {
+            content: $fa-var-check;
+            @extend .fa-standard;
+        }
+    }
 }
 
 .messages--warning {
-    @extend .yellow;
+    @extend .yellow, .lighten-2;
+    &.messages-clone {
+        div {
+            display: inline-block;
+        }
+        &:before {
+            content: $fa-var-exclamation-triangle;
+            @extend .fa-standard;
+        }
+    }
 }
 
-.messages--status {
-    @extend .green;
+.messages--error {
+    @extend .red, .lighten-2;
+    &.messages-clone {
+        div {
+            display: inline-block;
+        }
+        &:before {
+            content: $fa-var-times-circle-o;
+            @extend .fa-standard;
+        }
+    }
 }
 
 .message-trigger {
@@ -47,11 +74,11 @@ header.header-wrapper {
         padding-left: 5px;
     }
     span.badge {
+        @extend .white-text;
         min-width: inherit;
-        color: $white;
         display: none;
-        border-radius:50%;
-        font-size:0.9rem;
+        border-radius: 50%;
+        font-size: 0.9rem;
     }
 }
 
@@ -66,11 +93,7 @@ header.header-wrapper {
 }
 
 .messages-clone {
-    background: no-repeat 10px 17px;
-    border: 1px solid;
-    border-width: 1px 1px 1px 0;
-    border-radius: 2px;
-    padding: 15px 20px 15px 35px;
+    padding: 15px;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -90,12 +113,8 @@ header.header-wrapper {
             padding: 0;
             &:before {
                 content: $fa-var-angle-right;
-                color: $white;
-                vertical-align: top;
-                display: inline-block;
-                font-family: 'FontAwesome';
-                font-weight: normal;
-                font-style: normal;
+                @extend .blue-text, .text-lighten-4;
+                @extend .fa-standard;
                 font-size: 25px;
                 margin: -5px 10px 0 8px;
                 -webkit-font-smoothing: antialiased;
@@ -103,13 +122,11 @@ header.header-wrapper {
             &:first-child:before {
                 display: none;
             }
-            &:last-child a,
-            &:last-child span {
-                color: $white;
+            &:last-child a, &:last-child span {
+                @extend .grey-text, .lighten-4;
             }
-            a,
-            span {
-                color: $lighten-2;
+            a, span {
+                @extend .blue-text, .text-lighten-4;
                 font-size: 18px;
             }
         }
@@ -122,17 +139,14 @@ nav {
 }
 
 .material_admin {
-    .tabs a.is-active,
-    .tabs a:focus,
-    .tabs a:hover {
+    .tabs a.is-active, .tabs a:focus, .tabs a:hover {
         background-color: transparent!important;
     }
     table.highlight > tbody > tr:hover {
         background: $light-gray;
         color: $white;
-        a,
-        button {
-            color: $darken-3;
+        a, button {
+            @extend .blue-text, .text-darken-4;
             cursor: pointer;
         }
     }
@@ -229,19 +243,7 @@ abbr[title] {
 }
 
 //form field handling 
-input:not([type]),
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=url],
-input[type=time],
-input[type=date],
-input[type=datetime],
-input[type=datetime-local],
-input[type=tel],
-input[type=number],
-input[type=search],
-textarea.materialize-textarea {
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
     width: inherit;
     max-width: 100%;
 }
