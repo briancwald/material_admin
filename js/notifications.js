@@ -45,7 +45,7 @@
           if (thisMessageSize >= messageMax) {
             // If the notification is too long, provide a notice to view in an easier to read format
             thisItem = $(this).closest($('.messages'));
-            var messageTrigger = '<a class="modal-trigger btn-flat" href="#messageContainer">View ' + statusText + '</a>';
+            var messageTrigger = '<a class="modal-trigger" href="#messageContainer">View</a>';
             var messageNotice = 'There is a' + statusText + 'message in your notification console ' + messageTrigger + '';
             messageInbox(statusType, thisItem);
             Materialize.toast(messageNotice, 5000, statusType);
@@ -68,10 +68,12 @@
 
   //add badge for each message type
   function messageCounter(itemforMessageCenter, statusType) {
-    messageCount = 0;
     var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(), 10);
     messageCount = currentValue + 1;
     $('.message-trigger span.badge.' + statusType).text(messageCount).show();
+    if (messageCount >= 1) {
+      $('#notification-wrapper').show();
+    }
   }
 
 })(jQuery, Drupal);

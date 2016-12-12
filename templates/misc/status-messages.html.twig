@@ -30,26 +30,40 @@
       'messages--' ~ type,
     ]
   %}
-  <div role="contentinfo" aria-label="{{ status_headings[type] }}"{{ attributes.addClass(classes)|without('role', 'aria-label') }}>
-    {% if type == 'error' %}
-      <div role="alert">
-    {% endif %}
-      {% if status_headings[type] %}
-        <h2 class="visually-hidden">{{ status_headings[type] }}</h2>
-      {% endif %}
-      {% if messages|length > 1 %}
-        <ol class="messages__list message-content">
-          {% for message in messages %}
-            <li class="messages__item">{{ message }}</li>
-          {% endfor %}
-        </ol>
-      {% else %}
-        <span class="message-content">{{ messages|first }}</span>
-      {% endif %}
-    {% if type == 'error' %}
+<div role="contentinfo" aria-label="{{ status_headings[type] }}" {{ attributes.addClass(classes)|without( 'role', 'aria-label') }}>
+  {% if type == 'error' %}
+  <div role="alert">
+    {% endif %} {% if status_headings[type] %}
+    <h2 class="visually-hidden">{{ status_headings[type] }}</h2> {% endif %} {% if messages|length > 1 %}
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <div class="message-header"> <span class="card-title"><span class="message-number">{{messages|length}}</span>{{ status_headings[type] }}s</span></div>
+            <ol class="messages__list message-content">
+              {% for message in messages %}
+              <li class="messages__item">{{ message }}</li>
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
       </div>
-    {% endif %}
+    </div>
+    {% else %}
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <div class="message-header"><span class="card-title">{{ status_headings[type] }}</span></div>
+            <div class="message-content">{{ messages|first }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %} {% if type == 'error' %}
   </div>
+  {% endif %}
+</div>
   {# Remove type specific classes. #}
   {% set attributes = attributes.removeClass(classes) %}
 {% endfor %}

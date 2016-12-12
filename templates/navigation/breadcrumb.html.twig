@@ -9,7 +9,7 @@
 #}
 {% if breadcrumb %}
   <nav class="breadcrumb-nav" role="navigation" aria-labelledby="system-breadcrumb">
-    <h2 id="system-breadcrumb" class="visually-hidden">{{ 'Breadcrumb'|t }}</h2>
+    <h2 id="system-breadcrumb" class="visually-hidden">{{ 'You are here'|t }}</h2>
     <ol>
     {% for item in breadcrumb %}
       <li>
@@ -20,6 +20,7 @@
         {% endif %}
       </li>
     {% endfor %}
+      <li class="current">{{ title }}</li>
     </ol>
   </nav>
 {% endif %}

@@ -3,7 +3,362 @@
  * Demo Framework Admin
  *
  */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -16,10 +371,10 @@
 .materialize-red-text.text-lighten-5 {
   color: #fdeaeb !important; }
 
-.materialize-red.lighten-4, .breadcrumb-nav ol li:last-child a.materialize-red, .breadcrumb-nav ol li:last-child span.materialize-red {
+.materialize-red.lighten-4, .breadcrumb-nav ol li:last-child a.materialize-red, .breadcrumb-nav ol li.materialize-red:last-child {
   background-color: #f8c1c3 !important; }
 
-.materialize-red-text.text-lighten-4, .breadcrumb-nav ol li.materialize-red-text:before, .breadcrumb-nav ol li a.materialize-red-text, .breadcrumb-nav ol li span.materialize-red-text {
+.materialize-red-text.text-lighten-4, .breadcrumb-nav ol li.materialize-red-text, .breadcrumb-nav ol li a.materialize-red-text, .breadcrumb-nav ol li.materialize-red-text:before {
   color: #f8c1c3 !important; }
 
 .materialize-red.lighten-3 {
@@ -28,7 +383,7 @@
 .materialize-red-text.text-lighten-3 {
   color: #f3989b !important; }
 
-.materialize-red.lighten-2, .materialize-red.utility-wrapper, .materialize-red.messages--status, .materialize-red.messages--warning, .materialize-red.messages--error {
+.materialize-red.lighten-2, .materialize-red.error-color, .materialize-red.messages--error, .messages--error.messages-clone .materialize-red.card-content, .materialize-red.status-color, .materialize-red.messages--status, .messages--status.messages-clone .materialize-red.card-content, .materialize-red.utility-wrapper {
   background-color: #ee6e73 !important; }
 
 .materialize-red-text.text-lighten-2 {
@@ -46,7 +401,7 @@
 .materialize-red-text.text-darken-1 {
   color: #d0181e !important; }
 
-.materialize-red.darken-2 {
+.materialize-red.darken-2, .materialize-red.warning-color, .materialize-red.messages--warning, .messages--warning.messages-clone .materialize-red.card-content {
   background-color: #b9151b !important; }
 
 .materialize-red-text.text-darken-2 {
@@ -64,85 +419,85 @@
 .materialize-red-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.materialize-red-text, .material_admin table.highlight > tbody > tr:hover button.materialize-red-text {
   color: #8b1014 !important; }
 
-.red, .button-action, .messages--error {
+.red, .error-color, .messages--error, .messages--error.messages-clone .card-content, .button-action {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.button-action, .lighten-5.messages--error {
+.red.lighten-5, .lighten-5.error-color, .lighten-5.messages--error, .messages--error.messages-clone .lighten-5.card-content, .lighten-5.button-action {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.button-action, .breadcrumb-nav ol li:last-child a.button-action, .breadcrumb-nav ol li:last-child span.button-action, .lighten-4.messages--error, .breadcrumb-nav ol li:last-child a.messages--error, .breadcrumb-nav ol li:last-child span.messages--error, .breadcrumb-nav ol li:last-child a.red, .breadcrumb-nav ol li:last-child span.red {
+.red.lighten-4, .lighten-4.error-color, .lighten-4.messages--error, .breadcrumb-nav ol li:last-child a.messages--error, .breadcrumb-nav ol li.messages--error:last-child, .messages--error.messages-clone .lighten-4.card-content, .messages--error.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--error.messages-clone a.card-content, .messages--error.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--error.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.error-color, .breadcrumb-nav ol li.error-color:last-child, .lighten-4.button-action, .breadcrumb-nav ol li:last-child a.button-action, .breadcrumb-nav ol li.button-action:last-child, .breadcrumb-nav ol li:last-child a.red, .breadcrumb-nav ol li.red:last-child {
   background-color: #FFCDD2 !important; }
 
-.red-text.text-lighten-4, .breadcrumb-nav ol li.red-text:before, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li span.red-text {
+.red-text.text-lighten-4, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.button-action, .lighten-3.messages--error {
+.red.lighten-3, .lighten-3.error-color, .lighten-3.messages--error, .messages--error.messages-clone .lighten-3.card-content, .lighten-3.button-action {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action, .button-action.utility-wrapper, .button-action.messages--status, .button-action.messages--warning, .red.utility-wrapper, .red.messages--status, .red.messages--warning, .messages--error {
+.red.lighten-2, .error-color, .messages--error, .messages--error.messages-clone .card-content, .red.status-color, .messages--status.messages-clone .error-color.card-content, .messages--status.messages-clone .card-content.messages--error, .status-color.button-action, .button-action.messages--status, .messages--status.messages-clone .button-action.card-content, .red.messages--status, .messages--status.messages-clone .red.card-content, .lighten-2.button-action, .button-action.utility-wrapper, .red.utility-wrapper {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .lighten-1.button-action, .lighten-1.messages--error {
+.red.lighten-1, .lighten-1.error-color, .lighten-1.messages--error, .messages--error.messages-clone .lighten-1.card-content, .lighten-1.button-action {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.button-action, .darken-1.messages--error {
+.red.darken-1, .darken-1.error-color, .darken-1.messages--error, .messages--error.messages-clone .darken-1.card-content, .darken-1.button-action {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.button-action, .darken-2.messages--error {
+.red.darken-2, .darken-2.error-color, .error-color.warning-color, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .darken-2.messages--error, .messages--error.messages-clone .darken-2.card-content, .red.warning-color, .warning-color.button-action, .button-action.messages--warning, .messages--warning.messages-clone .button-action.card-content, .red.messages--warning, .messages--warning.messages-clone .red.card-content, .darken-2.button-action {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.button-action, .darken-3.messages--error {
+.red.darken-3, .darken-3.error-color, .darken-3.messages--error, .messages--error.messages-clone .darken-3.card-content, .darken-3.button-action {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.button-action, .darken-4.messages--error {
+.red.darken-4, .darken-4.error-color, .darken-4.messages--error, .messages--error.messages-clone .darken-4.card-content, .darken-4.button-action {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.red-text, .material_admin table.highlight > tbody > tr:hover button.red-text {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.button-action, .accent-1.messages--error {
+.red.accent-1, .accent-1.error-color, .accent-1.messages--error, .messages--error.messages-clone .accent-1.card-content, .accent-1.button-action {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .button-action, .accent-2.messages--error {
+.red.accent-2, .accent-2.error-color, .messages--error.messages-clone .button-action.card-content, .accent-2.messages--error, .messages--error.messages-clone .accent-2.card-content, .button-action {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.button-action, .accent-3.messages--error {
+.red.accent-3, .accent-3.error-color, .accent-3.messages--error, .messages--error.messages-clone .accent-3.card-content, .accent-3.button-action {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.button-action, .accent-4.messages--error {
+.red.accent-4, .accent-4.error-color, .accent-4.messages--error, .messages--error.messages-clone .accent-4.card-content, .accent-4.button-action {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -160,10 +515,10 @@
 .pink-text.text-lighten-5 {
   color: #fce4ec !important; }
 
-.pink.lighten-4, .breadcrumb-nav ol li:last-child a.pink, .breadcrumb-nav ol li:last-child span.pink {
+.pink.lighten-4, .breadcrumb-nav ol li:last-child a.pink, .breadcrumb-nav ol li.pink:last-child {
   background-color: #f8bbd0 !important; }
 
-.pink-text.text-lighten-4, .breadcrumb-nav ol li.pink-text:before, .breadcrumb-nav ol li a.pink-text, .breadcrumb-nav ol li span.pink-text {
+.pink-text.text-lighten-4, .breadcrumb-nav ol li.pink-text, .breadcrumb-nav ol li a.pink-text, .breadcrumb-nav ol li.pink-text:before {
   color: #f8bbd0 !important; }
 
 .pink.lighten-3 {
@@ -172,7 +527,7 @@
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2, .pink.utility-wrapper, .pink.messages--status, .pink.messages--warning, .pink.messages--error {
+.pink.lighten-2, .pink.error-color, .pink.messages--error, .messages--error.messages-clone .pink.card-content, .pink.status-color, .pink.messages--status, .messages--status.messages-clone .pink.card-content, .pink.utility-wrapper {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
@@ -190,7 +545,7 @@
 .pink-text.text-darken-1 {
   color: #d81b60 !important; }
 
-.pink.darken-2 {
+.pink.darken-2, .pink.warning-color, .pink.messages--warning, .messages--warning.messages-clone .pink.card-content {
   background-color: #c2185b !important; }
 
 .pink-text.text-darken-2 {
@@ -244,10 +599,10 @@
 .purple-text.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .breadcrumb-nav ol li:last-child a.purple, .breadcrumb-nav ol li:last-child span.purple {
+.purple.lighten-4, .breadcrumb-nav ol li:last-child a.purple, .breadcrumb-nav ol li.purple:last-child {
   background-color: #e1bee7 !important; }
 
-.purple-text.text-lighten-4, .breadcrumb-nav ol li.purple-text:before, .breadcrumb-nav ol li a.purple-text, .breadcrumb-nav ol li span.purple-text {
+.purple-text.text-lighten-4, .breadcrumb-nav ol li.purple-text, .breadcrumb-nav ol li a.purple-text, .breadcrumb-nav ol li.purple-text:before {
   color: #e1bee7 !important; }
 
 .purple.lighten-3 {
@@ -256,7 +611,7 @@
 .purple-text.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2, .purple.utility-wrapper, .purple.messages--status, .purple.messages--warning, .purple.messages--error {
+.purple.lighten-2, .purple.error-color, .purple.messages--error, .messages--error.messages-clone .purple.card-content, .purple.status-color, .purple.messages--status, .messages--status.messages-clone .purple.card-content, .purple.utility-wrapper {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2 {
@@ -274,7 +629,7 @@
 .purple-text.text-darken-1 {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, .purple.warning-color, .purple.messages--warning, .messages--warning.messages-clone .purple.card-content {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2 {
@@ -328,10 +683,10 @@
 .deep-purple-text.text-lighten-5 {
   color: #ede7f6 !important; }
 
-.deep-purple.lighten-4, .breadcrumb-nav ol li:last-child a.deep-purple, .breadcrumb-nav ol li:last-child span.deep-purple {
+.deep-purple.lighten-4, .breadcrumb-nav ol li:last-child a.deep-purple, .breadcrumb-nav ol li.deep-purple:last-child {
   background-color: #d1c4e9 !important; }
 
-.deep-purple-text.text-lighten-4, .breadcrumb-nav ol li.deep-purple-text:before, .breadcrumb-nav ol li a.deep-purple-text, .breadcrumb-nav ol li span.deep-purple-text {
+.deep-purple-text.text-lighten-4, .breadcrumb-nav ol li.deep-purple-text, .breadcrumb-nav ol li a.deep-purple-text, .breadcrumb-nav ol li.deep-purple-text:before {
   color: #d1c4e9 !important; }
 
 .deep-purple.lighten-3 {
@@ -340,7 +695,7 @@
 .deep-purple-text.text-lighten-3 {
   color: #b39ddb !important; }
 
-.deep-purple.lighten-2, .deep-purple.utility-wrapper, .deep-purple.messages--status, .deep-purple.messages--warning, .deep-purple.messages--error {
+.deep-purple.lighten-2, .deep-purple.error-color, .deep-purple.messages--error, .messages--error.messages-clone .deep-purple.card-content, .deep-purple.status-color, .deep-purple.messages--status, .messages--status.messages-clone .deep-purple.card-content, .deep-purple.utility-wrapper {
   background-color: #9575cd !important; }
 
 .deep-purple-text.text-lighten-2 {
@@ -358,7 +713,7 @@
 .deep-purple-text.text-darken-1 {
   color: #5e35b1 !important; }
 
-.deep-purple.darken-2 {
+.deep-purple.darken-2, .deep-purple.warning-color, .deep-purple.messages--warning, .messages--warning.messages-clone .deep-purple.card-content {
   background-color: #512da8 !important; }
 
 .deep-purple-text.text-darken-2 {
@@ -412,10 +767,10 @@
 .indigo-text.text-lighten-5 {
   color: #e8eaf6 !important; }
 
-.indigo.lighten-4, .breadcrumb-nav ol li:last-child a.indigo, .breadcrumb-nav ol li:last-child span.indigo {
+.indigo.lighten-4, .breadcrumb-nav ol li:last-child a.indigo, .breadcrumb-nav ol li.indigo:last-child {
   background-color: #c5cae9 !important; }
 
-.indigo-text.text-lighten-4, .breadcrumb-nav ol li.indigo-text:before, .breadcrumb-nav ol li a.indigo-text, .breadcrumb-nav ol li span.indigo-text {
+.indigo-text.text-lighten-4, .breadcrumb-nav ol li.indigo-text, .breadcrumb-nav ol li a.indigo-text, .breadcrumb-nav ol li.indigo-text:before {
   color: #c5cae9 !important; }
 
 .indigo.lighten-3 {
@@ -424,7 +779,7 @@
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important; }
 
-.indigo.lighten-2, .indigo.utility-wrapper, .indigo.messages--status, .indigo.messages--warning, .indigo.messages--error {
+.indigo.lighten-2, .indigo.error-color, .indigo.messages--error, .messages--error.messages-clone .indigo.card-content, .indigo.status-color, .indigo.messages--status, .messages--status.messages-clone .indigo.card-content, .indigo.utility-wrapper {
   background-color: #7986cb !important; }
 
 .indigo-text.text-lighten-2 {
@@ -442,7 +797,7 @@
 .indigo-text.text-darken-1 {
   color: #3949ab !important; }
 
-.indigo.darken-2 {
+.indigo.darken-2, .indigo.warning-color, .indigo.messages--warning, .messages--warning.messages-clone .indigo.card-content {
   background-color: #303f9f !important; }
 
 .indigo-text.text-darken-2 {
@@ -487,85 +842,85 @@
 .blue, header.header-wrapper, .utility-wrapper {
   background-color: #2196F3 !important; }
 
-.blue-text, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li a, .breadcrumb-nav ol li span, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
+.blue-text, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
   color: #2196F3 !important; }
 
 .blue.lighten-5, header.lighten-5.header-wrapper, .lighten-5.utility-wrapper {
   background-color: #E3F2FD !important; }
 
-.blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li span.text-lighten-5, .material_admin table.highlight > tbody > tr:hover a.text-lighten-5, .material_admin table.highlight > tbody > tr:hover button.text-lighten-5 {
+.blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-5, .material_admin table.highlight > tbody > tr:hover button.text-lighten-5 {
   color: #E3F2FD !important; }
 
-.blue.lighten-4, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li:last-child span.utility-wrapper, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li:last-child span.blue {
+.blue.lighten-4, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li.utility-wrapper:last-child, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li.blue:last-child {
   background-color: #BBDEFB !important; }
 
-.blue-text.text-lighten-4, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li a, .breadcrumb-nav ol li span, .material_admin table.highlight > tbody > tr:hover a.text-lighten-4, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li a, .breadcrumb-nav ol li .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button.text-lighten-4 {
+.blue-text.text-lighten-4, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-4, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li a, .breadcrumb-nav ol li .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button.text-lighten-4 {
   color: #BBDEFB !important; }
 
 .blue.lighten-3, header.lighten-3.header-wrapper, .lighten-3.utility-wrapper {
   background-color: #90CAF9 !important; }
 
-.blue-text.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li span.text-lighten-3, .material_admin table.highlight > tbody > tr:hover a.text-lighten-3, .material_admin table.highlight > tbody > tr:hover button.text-lighten-3 {
+.blue-text.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-3, .material_admin table.highlight > tbody > tr:hover button.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, header.header-wrapper.messages--status, header.header-wrapper.messages--warning, header.header-wrapper.messages--error, .utility-wrapper, .blue.messages--status, .blue.messages--warning, .blue.messages--error {
+.blue.lighten-2, .blue.error-color, header.error-color.header-wrapper, header.header-wrapper.messages--error, .messages--error.messages-clone header.header-wrapper.card-content, .messages--error.messages-clone .utility-wrapper.card-content, .blue.messages--error, .messages--error.messages-clone .blue.card-content, .blue.status-color, header.status-color.header-wrapper, header.header-wrapper.messages--status, .messages--status.messages-clone header.header-wrapper.card-content, .messages--status.messages-clone .utility-wrapper.card-content, .blue.messages--status, .messages--status.messages-clone .blue.card-content, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper {
   background-color: #64B5F6 !important; }
 
-.blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li span.text-lighten-2, .material_admin table.highlight > tbody > tr:hover a.text-lighten-2, .material_admin table.highlight > tbody > tr:hover button.text-lighten-2 {
+.blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-2, .material_admin table.highlight > tbody > tr:hover button.text-lighten-2 {
   color: #64B5F6 !important; }
 
 .blue.lighten-1, header.lighten-1.header-wrapper, .lighten-1.utility-wrapper {
   background-color: #42A5F5 !important; }
 
-.blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li span.text-lighten-1, .material_admin table.highlight > tbody > tr:hover a.text-lighten-1, .material_admin table.highlight > tbody > tr:hover button.text-lighten-1 {
+.blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-1, .material_admin table.highlight > tbody > tr:hover button.text-lighten-1 {
   color: #42A5F5 !important; }
 
 .blue.darken-1, header.darken-1.header-wrapper, .darken-1.utility-wrapper {
   background-color: #1E88E5 !important; }
 
-.blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li span.text-darken-1, .material_admin table.highlight > tbody > tr:hover a.text-darken-1, .material_admin table.highlight > tbody > tr:hover button.text-darken-1 {
+.blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-1, .material_admin table.highlight > tbody > tr:hover button.text-darken-1 {
   color: #1E88E5 !important; }
 
-.blue.darken-2, header.darken-2.header-wrapper, .darken-2.utility-wrapper {
+.blue.darken-2, .blue.warning-color, header.warning-color.header-wrapper, header.header-wrapper.messages--warning, .messages--warning.messages-clone header.header-wrapper.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .blue.messages--warning, .messages--warning.messages-clone .blue.card-content, header.darken-2.header-wrapper, .darken-2.utility-wrapper {
   background-color: #1976D2 !important; }
 
-.blue-text.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li span.text-darken-2, .material_admin table.highlight > tbody > tr:hover a.text-darken-2, .material_admin table.highlight > tbody > tr:hover button.text-darken-2 {
+.blue-text.text-darken-2, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-2, .material_admin table.highlight > tbody > tr:hover button.text-darken-2 {
   color: #1976D2 !important; }
 
 .blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper {
   background-color: #1565C0 !important; }
 
-.blue-text.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li span.text-darken-3, .material_admin table.highlight > tbody > tr:hover a.text-darken-3, .material_admin table.highlight > tbody > tr:hover button.text-darken-3 {
+.blue-text.text-darken-3, .breadcrumb-nav ol li.text-darken-3, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-3, .material_admin table.highlight > tbody > tr:hover button.text-darken-3 {
   color: #1565C0 !important; }
 
 .blue.darken-4, header.darken-4.header-wrapper, .darken-4.utility-wrapper {
   background-color: #0D47A1 !important; }
 
-.blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li span.text-darken-4, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
+.blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
   color: #0D47A1 !important; }
 
 .blue.accent-1, header.accent-1.header-wrapper, .accent-1.utility-wrapper {
   background-color: #82B1FF !important; }
 
-.blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li span.text-accent-1, .material_admin table.highlight > tbody > tr:hover a.text-accent-1, .material_admin table.highlight > tbody > tr:hover button.text-accent-1 {
+.blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-1, .material_admin table.highlight > tbody > tr:hover button.text-accent-1 {
   color: #82B1FF !important; }
 
 .blue.accent-2, .blue.button-action, header.button-action.header-wrapper, .button-action.utility-wrapper, header.accent-2.header-wrapper, .accent-2.utility-wrapper {
   background-color: #448AFF !important; }
 
-.blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li span.text-accent-2, .material_admin table.highlight > tbody > tr:hover a.text-accent-2, .material_admin table.highlight > tbody > tr:hover button.text-accent-2 {
+.blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-2, .material_admin table.highlight > tbody > tr:hover button.text-accent-2 {
   color: #448AFF !important; }
 
 .blue.accent-3, header.accent-3.header-wrapper, .accent-3.utility-wrapper {
   background-color: #2979FF !important; }
 
-.blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li span.text-accent-3, .material_admin table.highlight > tbody > tr:hover a.text-accent-3, .material_admin table.highlight > tbody > tr:hover button.text-accent-3 {
+.blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-3, .material_admin table.highlight > tbody > tr:hover button.text-accent-3 {
   color: #2979FF !important; }
 
 .blue.accent-4, header.accent-4.header-wrapper, .accent-4.utility-wrapper {
   background-color: #2962FF !important; }
 
-.blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li span.text-accent-4, .material_admin table.highlight > tbody > tr:hover a.text-accent-4, .material_admin table.highlight > tbody > tr:hover button.text-accent-4 {
+.blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-4, .material_admin table.highlight > tbody > tr:hover button.text-accent-4 {
   color: #2962FF !important; }
 
 .light-blue {
@@ -580,10 +935,10 @@
 .light-blue-text.text-lighten-5 {
   color: #e1f5fe !important; }
 
-.light-blue.lighten-4, .breadcrumb-nav ol li:last-child a.light-blue, .breadcrumb-nav ol li:last-child span.light-blue {
+.light-blue.lighten-4, .breadcrumb-nav ol li:last-child a.light-blue, .breadcrumb-nav ol li.light-blue:last-child {
   background-color: #b3e5fc !important; }
 
-.light-blue-text.text-lighten-4, .breadcrumb-nav ol li.light-blue-text:before, .breadcrumb-nav ol li a.light-blue-text, .breadcrumb-nav ol li span.light-blue-text {
+.light-blue-text.text-lighten-4, .breadcrumb-nav ol li.light-blue-text, .breadcrumb-nav ol li a.light-blue-text, .breadcrumb-nav ol li.light-blue-text:before {
   color: #b3e5fc !important; }
 
 .light-blue.lighten-3 {
@@ -592,7 +947,7 @@
 .light-blue-text.text-lighten-3 {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2, .light-blue.utility-wrapper, .light-blue.messages--status, .light-blue.messages--warning, .light-blue.messages--error {
+.light-blue.lighten-2, .light-blue.error-color, .light-blue.messages--error, .messages--error.messages-clone .light-blue.card-content, .light-blue.status-color, .light-blue.messages--status, .messages--status.messages-clone .light-blue.card-content, .light-blue.utility-wrapper {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2 {
@@ -610,7 +965,7 @@
 .light-blue-text.text-darken-1 {
   color: #039be5 !important; }
 
-.light-blue.darken-2 {
+.light-blue.darken-2, .light-blue.warning-color, .light-blue.messages--warning, .messages--warning.messages-clone .light-blue.card-content {
   background-color: #0288d1 !important; }
 
 .light-blue-text.text-darken-2 {
@@ -664,10 +1019,10 @@
 .cyan-text.text-lighten-5 {
   color: #e0f7fa !important; }
 
-.cyan.lighten-4, .breadcrumb-nav ol li:last-child a.cyan, .breadcrumb-nav ol li:last-child span.cyan {
+.cyan.lighten-4, .breadcrumb-nav ol li:last-child a.cyan, .breadcrumb-nav ol li.cyan:last-child {
   background-color: #b2ebf2 !important; }
 
-.cyan-text.text-lighten-4, .breadcrumb-nav ol li.cyan-text:before, .breadcrumb-nav ol li a.cyan-text, .breadcrumb-nav ol li span.cyan-text {
+.cyan-text.text-lighten-4, .breadcrumb-nav ol li.cyan-text, .breadcrumb-nav ol li a.cyan-text, .breadcrumb-nav ol li.cyan-text:before {
   color: #b2ebf2 !important; }
 
 .cyan.lighten-3 {
@@ -676,7 +1031,7 @@
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2, .cyan.utility-wrapper, .cyan.messages--status, .cyan.messages--warning, .cyan.messages--error {
+.cyan.lighten-2, .cyan.error-color, .cyan.messages--error, .messages--error.messages-clone .cyan.card-content, .cyan.status-color, .cyan.messages--status, .messages--status.messages-clone .cyan.card-content, .cyan.utility-wrapper {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
@@ -694,7 +1049,7 @@
 .cyan-text.text-darken-1 {
   color: #00acc1 !important; }
 
-.cyan.darken-2 {
+.cyan.darken-2, .cyan.warning-color, .cyan.messages--warning, .messages--warning.messages-clone .cyan.card-content {
   background-color: #0097a7 !important; }
 
 .cyan-text.text-darken-2 {
@@ -748,10 +1103,10 @@
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li:last-child span.teal {
+.teal.lighten-4, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li.teal:last-child {
   background-color: #b2dfdb !important; }
 
-.teal-text.text-lighten-4, .breadcrumb-nav ol li.teal-text:before, .breadcrumb-nav ol li a.teal-text, .breadcrumb-nav ol li span.teal-text {
+.teal-text.text-lighten-4, .breadcrumb-nav ol li.teal-text, .breadcrumb-nav ol li a.teal-text, .breadcrumb-nav ol li.teal-text:before {
   color: #b2dfdb !important; }
 
 .teal.lighten-3 {
@@ -760,7 +1115,7 @@
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2, .teal.utility-wrapper, .teal.messages--status, .teal.messages--warning, .teal.messages--error {
+.teal.lighten-2, .teal.error-color, .teal.messages--error, .messages--error.messages-clone .teal.card-content, .teal.status-color, .teal.messages--status, .messages--status.messages-clone .teal.card-content, .teal.utility-wrapper {
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
@@ -778,7 +1133,7 @@
 .teal-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2 {
+.teal.darken-2, .teal.warning-color, .teal.messages--warning, .messages--warning.messages-clone .teal.card-content {
   background-color: #00796b !important; }
 
 .teal-text.text-darken-2 {
@@ -820,85 +1175,85 @@
 .teal-text.text-accent-4 {
   color: #00bfa5 !important; }
 
-.green, .messages--status {
+.green, .status-color, .messages--status, .messages--status.messages-clone .card-content {
   background-color: #4CAF50 !important; }
 
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5, .lighten-5.messages--status {
+.green.lighten-5, .lighten-5.status-color, .lighten-5.messages--status, .messages--status.messages-clone .lighten-5.card-content {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important; }
 
-.green.lighten-4, .lighten-4.messages--status, .breadcrumb-nav ol li:last-child a.messages--status, .breadcrumb-nav ol li:last-child span.messages--status, .breadcrumb-nav ol li:last-child a.green, .breadcrumb-nav ol li:last-child span.green {
+.green.lighten-4, .lighten-4.status-color, .lighten-4.messages--status, .breadcrumb-nav ol li:last-child a.messages--status, .breadcrumb-nav ol li.messages--status:last-child, .messages--status.messages-clone .lighten-4.card-content, .messages--status.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--status.messages-clone a.card-content, .messages--status.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--status.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.status-color, .breadcrumb-nav ol li.status-color:last-child, .breadcrumb-nav ol li:last-child a.green, .breadcrumb-nav ol li.green:last-child {
   background-color: #C8E6C9 !important; }
 
-.green-text.text-lighten-4, .breadcrumb-nav ol li.green-text:before, .breadcrumb-nav ol li a.green-text, .breadcrumb-nav ol li span.green-text {
+.green-text.text-lighten-4, .breadcrumb-nav ol li.green-text, .breadcrumb-nav ol li a.green-text, .breadcrumb-nav ol li.green-text:before {
   color: #C8E6C9 !important; }
 
-.green.lighten-3, .lighten-3.messages--status {
+.green.lighten-3, .lighten-3.status-color, .lighten-3.messages--status, .messages--status.messages-clone .lighten-3.card-content {
   background-color: #A5D6A7 !important; }
 
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .green.utility-wrapper, .messages--status, .green.messages--warning, .green.messages--error {
+.green.lighten-2, .green.error-color, .messages--error.messages-clone .messages--status.card-content, .messages--error.messages-clone .status-color.card-content, .green.messages--error, .messages--error.messages-clone .green.card-content, .status-color, .messages--status, .messages--status.messages-clone .card-content, .green.utility-wrapper {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1, .lighten-1.messages--status {
+.green.lighten-1, .lighten-1.status-color, .lighten-1.messages--status, .messages--status.messages-clone .lighten-1.card-content {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
   color: #66BB6A !important; }
 
-.green.darken-1, .darken-1.messages--status {
+.green.darken-1, .darken-1.status-color, .darken-1.messages--status, .messages--status.messages-clone .darken-1.card-content {
   background-color: #43A047 !important; }
 
 .green-text.text-darken-1 {
   color: #43A047 !important; }
 
-.green.darken-2, .darken-2.messages--status {
+.green.darken-2, .green.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, .green.messages--warning, .messages--warning.messages-clone .green.card-content, .darken-2.status-color, .darken-2.messages--status, .messages--status.messages-clone .darken-2.card-content {
   background-color: #388E3C !important; }
 
 .green-text.text-darken-2 {
   color: #388E3C !important; }
 
-.green.darken-3, .darken-3.messages--status {
+.green.darken-3, .darken-3.status-color, .darken-3.messages--status, .messages--status.messages-clone .darken-3.card-content {
   background-color: #2E7D32 !important; }
 
 .green-text.text-darken-3 {
   color: #2E7D32 !important; }
 
-.green.darken-4, .darken-4.messages--status {
+.green.darken-4, .darken-4.status-color, .darken-4.messages--status, .messages--status.messages-clone .darken-4.card-content {
   background-color: #1B5E20 !important; }
 
 .green-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.green-text, .material_admin table.highlight > tbody > tr:hover button.green-text {
   color: #1B5E20 !important; }
 
-.green.accent-1, .accent-1.messages--status {
+.green.accent-1, .accent-1.status-color, .accent-1.messages--status, .messages--status.messages-clone .accent-1.card-content {
   background-color: #B9F6CA !important; }
 
 .green-text.text-accent-1 {
   color: #B9F6CA !important; }
 
-.green.accent-2, .green.button-action, .button-action.messages--status, .accent-2.messages--status {
+.green.accent-2, .accent-2.status-color, .status-color.button-action, .button-action.messages--status, .messages--status.messages-clone .button-action.card-content, .accent-2.messages--status, .messages--status.messages-clone .accent-2.card-content, .green.button-action {
   background-color: #69F0AE !important; }
 
 .green-text.text-accent-2 {
   color: #69F0AE !important; }
 
-.green.accent-3, .accent-3.messages--status {
+.green.accent-3, .accent-3.status-color, .accent-3.messages--status, .messages--status.messages-clone .accent-3.card-content {
   background-color: #00E676 !important; }
 
 .green-text.text-accent-3 {
   color: #00E676 !important; }
 
-.green.accent-4, .accent-4.messages--status {
+.green.accent-4, .accent-4.status-color, .accent-4.messages--status, .messages--status.messages-clone .accent-4.card-content {
   background-color: #00C853 !important; }
 
 .green-text.text-accent-4 {
@@ -916,10 +1271,10 @@
 .light-green-text.text-lighten-5 {
   color: #f1f8e9 !important; }
 
-.light-green.lighten-4, .breadcrumb-nav ol li:last-child a.light-green, .breadcrumb-nav ol li:last-child span.light-green {
+.light-green.lighten-4, .breadcrumb-nav ol li:last-child a.light-green, .breadcrumb-nav ol li.light-green:last-child {
   background-color: #dcedc8 !important; }
 
-.light-green-text.text-lighten-4, .breadcrumb-nav ol li.light-green-text:before, .breadcrumb-nav ol li a.light-green-text, .breadcrumb-nav ol li span.light-green-text {
+.light-green-text.text-lighten-4, .breadcrumb-nav ol li.light-green-text, .breadcrumb-nav ol li a.light-green-text, .breadcrumb-nav ol li.light-green-text:before {
   color: #dcedc8 !important; }
 
 .light-green.lighten-3 {
@@ -928,7 +1283,7 @@
 .light-green-text.text-lighten-3 {
   color: #c5e1a5 !important; }
 
-.light-green.lighten-2, .light-green.utility-wrapper, .light-green.messages--status, .light-green.messages--warning, .light-green.messages--error {
+.light-green.lighten-2, .light-green.error-color, .light-green.messages--error, .messages--error.messages-clone .light-green.card-content, .light-green.status-color, .light-green.messages--status, .messages--status.messages-clone .light-green.card-content, .light-green.utility-wrapper {
   background-color: #aed581 !important; }
 
 .light-green-text.text-lighten-2 {
@@ -946,7 +1301,7 @@
 .light-green-text.text-darken-1 {
   color: #7cb342 !important; }
 
-.light-green.darken-2 {
+.light-green.darken-2, .light-green.warning-color, .light-green.messages--warning, .messages--warning.messages-clone .light-green.card-content {
   background-color: #689f38 !important; }
 
 .light-green-text.text-darken-2 {
@@ -1000,10 +1355,10 @@
 .lime-text.text-lighten-5 {
   color: #f9fbe7 !important; }
 
-.lime.lighten-4, .breadcrumb-nav ol li:last-child a.lime, .breadcrumb-nav ol li:last-child span.lime {
+.lime.lighten-4, .breadcrumb-nav ol li:last-child a.lime, .breadcrumb-nav ol li.lime:last-child {
   background-color: #f0f4c3 !important; }
 
-.lime-text.text-lighten-4, .breadcrumb-nav ol li.lime-text:before, .breadcrumb-nav ol li a.lime-text, .breadcrumb-nav ol li span.lime-text {
+.lime-text.text-lighten-4, .breadcrumb-nav ol li.lime-text, .breadcrumb-nav ol li a.lime-text, .breadcrumb-nav ol li.lime-text:before {
   color: #f0f4c3 !important; }
 
 .lime.lighten-3 {
@@ -1012,7 +1367,7 @@
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
-.lime.lighten-2, .lime.utility-wrapper, .lime.messages--status, .lime.messages--warning, .lime.messages--error {
+.lime.lighten-2, .lime.error-color, .lime.messages--error, .messages--error.messages-clone .lime.card-content, .lime.status-color, .lime.messages--status, .messages--status.messages-clone .lime.card-content, .lime.utility-wrapper {
   background-color: #dce775 !important; }
 
 .lime-text.text-lighten-2 {
@@ -1030,7 +1385,7 @@
 .lime-text.text-darken-1 {
   color: #c0ca33 !important; }
 
-.lime.darken-2 {
+.lime.darken-2, .lime.warning-color, .lime.messages--warning, .messages--warning.messages-clone .lime.card-content {
   background-color: #afb42b !important; }
 
 .lime-text.text-darken-2 {
@@ -1072,85 +1427,85 @@
 .lime-text.text-accent-4 {
   color: #aeea00 !important; }
 
-.yellow, .messages--warning {
+.yellow, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content {
   background-color: #ffeb3b !important; }
 
 .yellow-text {
   color: #ffeb3b !important; }
 
-.yellow.lighten-5, .lighten-5.messages--warning {
+.yellow.lighten-5, .lighten-5.warning-color, .lighten-5.messages--warning, .messages--warning.messages-clone .lighten-5.card-content {
   background-color: #fffde7 !important; }
 
 .yellow-text.text-lighten-5 {
   color: #fffde7 !important; }
 
-.yellow.lighten-4, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li:last-child span.messages--warning, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li:last-child span.yellow {
+.yellow.lighten-4, .lighten-4.warning-color, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li.messages--warning:last-child, .messages--warning.messages-clone .lighten-4.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--warning.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.warning-color, .breadcrumb-nav ol li.warning-color:last-child, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li.yellow:last-child {
   background-color: #fff9c4 !important; }
 
-.yellow-text.text-lighten-4, .breadcrumb-nav ol li.yellow-text:before, .breadcrumb-nav ol li a.yellow-text, .breadcrumb-nav ol li span.yellow-text {
+.yellow-text.text-lighten-4, .breadcrumb-nav ol li.yellow-text, .breadcrumb-nav ol li a.yellow-text, .breadcrumb-nav ol li.yellow-text:before {
   color: #fff9c4 !important; }
 
-.yellow.lighten-3, .lighten-3.messages--warning {
+.yellow.lighten-3, .lighten-3.warning-color, .lighten-3.messages--warning, .messages--warning.messages-clone .lighten-3.card-content {
   background-color: #fff59d !important; }
 
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2, .yellow.utility-wrapper, .yellow.messages--status, .messages--warning, .yellow.messages--error {
+.yellow.lighten-2, .yellow.error-color, .error-color.warning-color, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .yellow.messages--error, .messages--error.messages-clone .yellow.card-content, .lighten-2.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .yellow.status-color, .yellow.messages--status, .messages--status.messages-clone .yellow.card-content, .yellow.utility-wrapper {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1, .lighten-1.messages--warning {
+.yellow.lighten-1, .lighten-1.warning-color, .lighten-1.messages--warning, .messages--warning.messages-clone .lighten-1.card-content {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
   color: #ffee58 !important; }
 
-.yellow.darken-1, .darken-1.messages--warning {
+.yellow.darken-1, .darken-1.warning-color, .darken-1.messages--warning, .messages--warning.messages-clone .darken-1.card-content {
   background-color: #fdd835 !important; }
 
 .yellow-text.text-darken-1 {
   color: #fdd835 !important; }
 
-.yellow.darken-2, .darken-2.messages--warning {
+.yellow.darken-2, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content {
   background-color: #fbc02d !important; }
 
 .yellow-text.text-darken-2 {
   color: #fbc02d !important; }
 
-.yellow.darken-3, .darken-3.messages--warning {
+.yellow.darken-3, .darken-3.warning-color, .darken-3.messages--warning, .messages--warning.messages-clone .darken-3.card-content {
   background-color: #f9a825 !important; }
 
 .yellow-text.text-darken-3 {
   color: #f9a825 !important; }
 
-.yellow.darken-4, .darken-4.messages--warning {
+.yellow.darken-4, .darken-4.warning-color, .darken-4.messages--warning, .messages--warning.messages-clone .darken-4.card-content {
   background-color: #f57f17 !important; }
 
 .yellow-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.yellow-text, .material_admin table.highlight > tbody > tr:hover button.yellow-text {
   color: #f57f17 !important; }
 
-.yellow.accent-1, .accent-1.messages--warning {
+.yellow.accent-1, .accent-1.warning-color, .accent-1.messages--warning, .messages--warning.messages-clone .accent-1.card-content {
   background-color: #ffff8d !important; }
 
 .yellow-text.text-accent-1 {
   color: #ffff8d !important; }
 
-.yellow.accent-2, .yellow.button-action, .button-action.messages--warning, .accent-2.messages--warning {
+.yellow.accent-2, .accent-2.warning-color, .warning-color.button-action, .button-action.messages--warning, .messages--warning.messages-clone .button-action.card-content, .accent-2.messages--warning, .messages--warning.messages-clone .accent-2.card-content, .yellow.button-action {
   background-color: #ffff00 !important; }
 
 .yellow-text.text-accent-2 {
   color: #ffff00 !important; }
 
-.yellow.accent-3, .accent-3.messages--warning {
+.yellow.accent-3, .accent-3.warning-color, .accent-3.messages--warning, .messages--warning.messages-clone .accent-3.card-content {
   background-color: #ffea00 !important; }
 
 .yellow-text.text-accent-3 {
   color: #ffea00 !important; }
 
-.yellow.accent-4, .accent-4.messages--warning {
+.yellow.accent-4, .accent-4.warning-color, .accent-4.messages--warning, .messages--warning.messages-clone .accent-4.card-content {
   background-color: #ffd600 !important; }
 
 .yellow-text.text-accent-4 {
@@ -1168,10 +1523,10 @@
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important; }
 
-.amber.lighten-4, .breadcrumb-nav ol li:last-child a.amber, .breadcrumb-nav ol li:last-child span.amber {
+.amber.lighten-4, .breadcrumb-nav ol li:last-child a.amber, .breadcrumb-nav ol li.amber:last-child {
   background-color: #ffecb3 !important; }
 
-.amber-text.text-lighten-4, .breadcrumb-nav ol li.amber-text:before, .breadcrumb-nav ol li a.amber-text, .breadcrumb-nav ol li span.amber-text {
+.amber-text.text-lighten-4, .breadcrumb-nav ol li.amber-text, .breadcrumb-nav ol li a.amber-text, .breadcrumb-nav ol li.amber-text:before {
   color: #ffecb3 !important; }
 
 .amber.lighten-3 {
@@ -1180,7 +1535,7 @@
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2, .amber.utility-wrapper, .amber.messages--status, .amber.messages--warning, .amber.messages--error {
+.amber.lighten-2, .amber.error-color, .amber.messages--error, .messages--error.messages-clone .amber.card-content, .amber.status-color, .amber.messages--status, .messages--status.messages-clone .amber.card-content, .amber.utility-wrapper {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
@@ -1198,7 +1553,7 @@
 .amber-text.text-darken-1 {
   color: #ffb300 !important; }
 
-.amber.darken-2 {
+.amber.darken-2, .amber.warning-color, .amber.messages--warning, .messages--warning.messages-clone .amber.card-content {
   background-color: #ffa000 !important; }
 
 .amber-text.text-darken-2 {
@@ -1252,10 +1607,10 @@
 .orange-text.text-lighten-5 {
   color: #fff3e0 !important; }
 
-.orange.lighten-4, .breadcrumb-nav ol li:last-child a.orange, .breadcrumb-nav ol li:last-child span.orange {
+.orange.lighten-4, .breadcrumb-nav ol li:last-child a.orange, .breadcrumb-nav ol li.orange:last-child {
   background-color: #ffe0b2 !important; }
 
-.orange-text.text-lighten-4, .breadcrumb-nav ol li.orange-text:before, .breadcrumb-nav ol li a.orange-text, .breadcrumb-nav ol li span.orange-text {
+.orange-text.text-lighten-4, .breadcrumb-nav ol li.orange-text, .breadcrumb-nav ol li a.orange-text, .breadcrumb-nav ol li.orange-text:before {
   color: #ffe0b2 !important; }
 
 .orange.lighten-3 {
@@ -1264,7 +1619,7 @@
 .orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
-.orange.lighten-2, .orange.utility-wrapper, .orange.messages--status, .orange.messages--warning, .orange.messages--error {
+.orange.lighten-2, .orange.error-color, .orange.messages--error, .messages--error.messages-clone .orange.card-content, .orange.status-color, .orange.messages--status, .messages--status.messages-clone .orange.card-content, .orange.utility-wrapper {
   background-color: #ffb74d !important; }
 
 .orange-text.text-lighten-2 {
@@ -1282,7 +1637,7 @@
 .orange-text.text-darken-1 {
   color: #fb8c00 !important; }
 
-.orange.darken-2 {
+.orange.darken-2, .orange.warning-color, .orange.messages--warning, .messages--warning.messages-clone .orange.card-content {
   background-color: #f57c00 !important; }
 
 .orange-text.text-darken-2 {
@@ -1336,10 +1691,10 @@
 .deep-orange-text.text-lighten-5 {
   color: #fbe9e7 !important; }
 
-.deep-orange.lighten-4, .breadcrumb-nav ol li:last-child a.deep-orange, .breadcrumb-nav ol li:last-child span.deep-orange {
+.deep-orange.lighten-4, .breadcrumb-nav ol li:last-child a.deep-orange, .breadcrumb-nav ol li.deep-orange:last-child {
   background-color: #ffccbc !important; }
 
-.deep-orange-text.text-lighten-4, .breadcrumb-nav ol li.deep-orange-text:before, .breadcrumb-nav ol li a.deep-orange-text, .breadcrumb-nav ol li span.deep-orange-text {
+.deep-orange-text.text-lighten-4, .breadcrumb-nav ol li.deep-orange-text, .breadcrumb-nav ol li a.deep-orange-text, .breadcrumb-nav ol li.deep-orange-text:before {
   color: #ffccbc !important; }
 
 .deep-orange.lighten-3 {
@@ -1348,7 +1703,7 @@
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
-.deep-orange.lighten-2, .deep-orange.utility-wrapper, .deep-orange.messages--status, .deep-orange.messages--warning, .deep-orange.messages--error {
+.deep-orange.lighten-2, .deep-orange.error-color, .deep-orange.messages--error, .messages--error.messages-clone .deep-orange.card-content, .deep-orange.status-color, .deep-orange.messages--status, .messages--status.messages-clone .deep-orange.card-content, .deep-orange.utility-wrapper {
   background-color: #ff8a65 !important; }
 
 .deep-orange-text.text-lighten-2 {
@@ -1366,7 +1721,7 @@
 .deep-orange-text.text-darken-1 {
   color: #f4511e !important; }
 
-.deep-orange.darken-2 {
+.deep-orange.darken-2, .deep-orange.warning-color, .deep-orange.messages--warning, .messages--warning.messages-clone .deep-orange.card-content {
   background-color: #e64a19 !important; }
 
 .deep-orange-text.text-darken-2 {
@@ -1420,10 +1775,10 @@
 .brown-text.text-lighten-5 {
   color: #efebe9 !important; }
 
-.brown.lighten-4, .breadcrumb-nav ol li:last-child a.brown, .breadcrumb-nav ol li:last-child span.brown {
+.brown.lighten-4, .breadcrumb-nav ol li:last-child a.brown, .breadcrumb-nav ol li.brown:last-child {
   background-color: #d7ccc8 !important; }
 
-.brown-text.text-lighten-4, .breadcrumb-nav ol li.brown-text:before, .breadcrumb-nav ol li a.brown-text, .breadcrumb-nav ol li span.brown-text {
+.brown-text.text-lighten-4, .breadcrumb-nav ol li.brown-text, .breadcrumb-nav ol li a.brown-text, .breadcrumb-nav ol li.brown-text:before {
   color: #d7ccc8 !important; }
 
 .brown.lighten-3 {
@@ -1432,7 +1787,7 @@
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
-.brown.lighten-2, .brown.utility-wrapper, .brown.messages--status, .brown.messages--warning, .brown.messages--error {
+.brown.lighten-2, .brown.error-color, .brown.messages--error, .messages--error.messages-clone .brown.card-content, .brown.status-color, .brown.messages--status, .messages--status.messages-clone .brown.card-content, .brown.utility-wrapper {
   background-color: #a1887f !important; }
 
 .brown-text.text-lighten-2 {
@@ -1450,7 +1805,7 @@
 .brown-text.text-darken-1 {
   color: #6d4c41 !important; }
 
-.brown.darken-2 {
+.brown.darken-2, .brown.warning-color, .brown.messages--warning, .messages--warning.messages-clone .brown.card-content {
   background-color: #5d4037 !important; }
 
 .brown-text.text-darken-2 {
@@ -1480,10 +1835,10 @@
 .blue-grey-text.text-lighten-5 {
   color: #eceff1 !important; }
 
-.blue-grey.lighten-4, .breadcrumb-nav ol li:last-child a.blue-grey, .breadcrumb-nav ol li:last-child span.blue-grey {
+.blue-grey.lighten-4, .breadcrumb-nav ol li:last-child a.blue-grey, .breadcrumb-nav ol li.blue-grey:last-child {
   background-color: #cfd8dc !important; }
 
-.blue-grey-text.text-lighten-4, .breadcrumb-nav ol li.blue-grey-text:before, .breadcrumb-nav ol li a.blue-grey-text, .breadcrumb-nav ol li span.blue-grey-text {
+.blue-grey-text.text-lighten-4, .breadcrumb-nav ol li.blue-grey-text, .breadcrumb-nav ol li a.blue-grey-text, .breadcrumb-nav ol li.blue-grey-text:before {
   color: #cfd8dc !important; }
 
 .blue-grey.lighten-3 {
@@ -1492,7 +1847,7 @@
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2, .blue-grey.utility-wrapper, .blue-grey.messages--status, .blue-grey.messages--warning, .blue-grey.messages--error {
+.blue-grey.lighten-2, .blue-grey.error-color, .blue-grey.messages--error, .messages--error.messages-clone .blue-grey.card-content, .blue-grey.status-color, .blue-grey.messages--status, .messages--status.messages-clone .blue-grey.card-content, .blue-grey.utility-wrapper {
   background-color: #90a4ae !important; }
 
 .blue-grey-text.text-lighten-2 {
@@ -1510,7 +1865,7 @@
 .blue-grey-text.text-darken-1 {
   color: #546e7a !important; }
 
-.blue-grey.darken-2 {
+.blue-grey.darken-2, .blue-grey.warning-color, .blue-grey.messages--warning, .messages--warning.messages-clone .blue-grey.card-content {
   background-color: #455a64 !important; }
 
 .blue-grey-text.text-darken-2 {
@@ -1531,67 +1886,67 @@
 .grey {
   background-color: #9e9e9e !important; }
 
-.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child span {
+.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child {
   color: #9e9e9e !important; }
 
 .grey.lighten-5 {
   background-color: #fafafa !important; }
 
-.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li:last-child span.text-lighten-5 {
+.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child {
   color: #fafafa !important; }
 
-.grey.lighten-4, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li:last-child span.grey {
+.grey.lighten-4, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li.grey:last-child {
   background-color: #f5f5f5 !important; }
 
-.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child span, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li span.grey-text {
+.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before {
   color: #f5f5f5 !important; }
 
 .grey.lighten-3 {
   background-color: #eeeeee !important; }
 
-.grey-text.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li:last-child span.text-lighten-3 {
+.grey-text.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child {
   color: #eeeeee !important; }
 
-.grey.lighten-2, .grey.utility-wrapper, .grey.messages--status, .grey.messages--warning, .grey.messages--error {
+.grey.lighten-2, .grey.error-color, .grey.messages--error, .messages--error.messages-clone .grey.card-content, .grey.status-color, .grey.messages--status, .messages--status.messages-clone .grey.card-content, .grey.utility-wrapper {
   background-color: #e0e0e0 !important; }
 
-.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li:last-child span.text-lighten-2 {
+.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child {
   color: #e0e0e0 !important; }
 
 .grey.lighten-1 {
   background-color: #bdbdbd !important; }
 
-.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li:last-child span.text-lighten-1 {
+.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child {
   color: #bdbdbd !important; }
 
 .grey.darken-1 {
   background-color: #757575 !important; }
 
-.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li:last-child span.text-darken-1 {
+.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child {
   color: #757575 !important; }
 
-.grey.darken-2 {
+.grey.darken-2, .grey.warning-color, .grey.messages--warning, .messages--warning.messages-clone .grey.card-content {
   background-color: #616161 !important; }
 
-.grey-text.text-darken-2, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li:last-child span.text-darken-2 {
+.grey-text.text-darken-2, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:last-child {
   color: #616161 !important; }
 
 .grey.darken-3 {
   background-color: #424242 !important; }
 
-.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li:last-child span.text-darken-3 {
+.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child {
   color: #424242 !important; }
 
 .grey.darken-4 {
   background-color: #212121 !important; }
 
-.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li:last-child .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child span.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.grey-text, .material_admin table.highlight > tbody > tr:hover button.grey-text {
+.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li:last-child .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.text-darken-4:last-child, .material_admin table.highlight > tbody > tr:hover a.grey-text, .material_admin table.highlight > tbody > tr:hover button.grey-text {
   color: #212121 !important; }
 
 .black {
   background-color: #000000 !important; }
 
-.black-text {
+.black-text, .message-trigger {
   color: #000000 !important; }
 
 .white {
@@ -1776,7 +2131,7 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, .btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast {
+.z-depth-1, .btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .btn-floating:hover {
@@ -4318,6 +4673,128 @@ input[type=range]:focus::-ms-fill-upper {
     .toast {
       float: right; } }
 
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff; }
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px; }
+  .card .card-title {
+    font-size: 24px;
+    font-weight: 300; }
+    .card .card-title.activator {
+      cursor: pointer; }
+  .card.small, .card.medium, .card.large {
+    position: relative; }
+    .card.small .card-image, .card.medium .card-image, .card.large .card-image {
+      max-height: 60%;
+      overflow: hidden; }
+    .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+      max-height: 40%; }
+    .card.small .card-content, .card.medium .card-content, .card.large .card-content {
+      max-height: 100%;
+      overflow: hidden; }
+    .card.small .card-action, .card.medium .card-action, .card.large .card-action {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  .card.small {
+    height: 300px; }
+  .card.medium {
+    height: 400px; }
+  .card.large {
+    height: 500px; }
+  .card.horizontal {
+    display: -ms-flexbox;
+    display: flex; }
+    .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+      height: 100%;
+      max-height: none;
+      overflow: visible; }
+      .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
+        height: 100%; }
+    .card.horizontal .card-image {
+      max-width: 50%; }
+      .card.horizontal .card-image img {
+        border-radius: 2px 0 0 2px;
+        max-width: 100%;
+        width: auto; }
+    .card.horizontal .card-stacked {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex: 1;
+          flex: 1;
+      position: relative; }
+      .card.horizontal .card-stacked .card-content {
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .card.sticky-action .card-action {
+    z-index: 2; }
+  .card.sticky-action .card-reveal {
+    z-index: 1;
+    padding-bottom: 64px; }
+  .card .card-image {
+    position: relative; }
+    .card .card-image img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%; }
+    .card .card-image .card-title {
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 20px; }
+  .card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px; }
+    .card .card-content p {
+      margin: 0;
+      color: inherit; }
+    .card .card-content .card-title {
+      line-height: 48px; }
+  .card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px; }
+    .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.btn-large):not(.btn-floating) {
+      color: #ffab40;
+      margin-right: 20px;
+      transition: color .3s ease;
+      text-transform: uppercase; }
+      .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.btn-large):not(.btn-floating):hover {
+        color: #ffd8a6; }
+  .card .card-reveal {
+    padding: 20px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    left: 0;
+    top: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none; }
+    .card .card-reveal .card-title {
+      cursor: pointer;
+      display: block; }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -6640,6 +7117,9 @@ h2 {
 h3 {
   font-size: 1.5rem; }
 
+body {
+  font-family: "Roboto", sans-serif; }
+
 .button-action:before {
   content: "";
   color: #fefefe;
@@ -6651,7 +7131,7 @@ h3 {
   margin: 0 10px 0 0px;
   -webkit-font-smoothing: antialiased; }
 
-.fa-standard, .messages--status.messages-clone:before, .messages--warning.messages-clone:before, .messages--error.messages-clone:before, .breadcrumb-nav ol li:before {
+.fa-standard, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before {
   vertical-align: top;
   display: inline-block;
   font-family: 'FontAwesome';
@@ -6659,9 +7139,19 @@ h3 {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
+.toast {
+  word-break: normal; }
+
 .row {
   padding: 20px;
   margin: 0; }
+
+.region-status .row {
+  padding: 0; }
+
+nav {
+  background: transparent;
+  box-shadow: none; }
 
 .action-links li {
   list-style: none; }
@@ -6677,118 +7167,8 @@ a.button:hover {
 .shadow, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-.js-form-type-checkbox label.visually-hidden {
-  position: relative !important;
-  text-indent: -999999px;
-  clip: inherit;
-  overflow: visible;
-  visibility: hidden; }
-  .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
-    visibility: visible; }
-
 .views-field-node-bulk-form {
   padding-left: 10px; }
-
-/* @file
- * Specific styling for admin
- *
- */
-body {
-  font-family: "Roboto", sans-serif; }
-
-.layout-container {
-  margin: 0;
-  padding: 0; }
-
-header.header-wrapper h1 {
-  font-weight: 400; }
-
-header.header-wrapper .row {
-  padding-bottom: 0px; }
-
-.messages--status.messages-clone div {
-  display: inline-block; }
-
-.messages--status.messages-clone:before {
-  content: ""; }
-
-.messages--warning.messages-clone div {
-  display: inline-block; }
-
-.messages--warning.messages-clone:before {
-  content: ""; }
-
-.messages--error.messages-clone div {
-  display: inline-block; }
-
-.messages--error.messages-clone:before {
-  content: ""; }
-
-.message-trigger {
-  color: #fefefe; }
-  .message-trigger span.fa {
-    padding-left: 5px; }
-  .message-trigger span.badge {
-    min-width: inherit;
-    display: none;
-    border-radius: 50%;
-    font-size: 0.9rem; }
-
-.tabs {
-  background: inherit; }
-
-.modal-content .notification-title {
-  border-bottom: 1px solid #666;
-  padding-bottom: 10px;
-  font-size: 1.7rem; }
-
-.messages-clone {
-  padding: 15px;
-  word-wrap: break-word;
-  overflow-wrap: break-word; }
-
-.region-header {
-  display: inline-block; }
-
-.breadcrumb-nav ol {
-  padding: .5em;
-  margin: 0; }
-  .breadcrumb-nav ol li {
-    display: inline-block;
-    list-style: none;
-    padding: 0; }
-    .breadcrumb-nav ol li:before {
-      content: "";
-      font-size: 25px;
-      margin: -5px 10px 0 8px;
-      -webkit-font-smoothing: antialiased; }
-    .breadcrumb-nav ol li:first-child:before {
-      display: none; }
-    .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
-      font-size: 18px; }
-
-nav {
-  background: transparent;
-  box-shadow: none; }
-
-.material_admin .tabs a.is-active, .material_admin .tabs a:focus, .material_admin .tabs a:hover {
-  background-color: transparent !important; }
-
-.material_admin table.highlight > tbody > tr:hover {
-  background: #ccc;
-  color: #fefefe; }
-  .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
-    cursor: pointer; }
-
-.material_admin table.highlight > tbody > tr.selected {
-  background: #f0f4c3;
-  color: #0a0a0a; }
-
-.material_admin .pager__item {
-  padding: 0; }
-
-.material_admin td.is-active {
-  background-color: transparent; }
 
 @media only screen and (min-width: 601px) {
   .form--inline {
@@ -6820,6 +7200,133 @@ a.tabledrag-handle .handle {
   width: 30px;
   height: 30px; }
 
+.switch label {
+  white-space: nowrap; }
+
+input-field.js-form-type-checkbox label {
+  top: 0; }
+
+abbr[title] {
+  border-bottom: none; }
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  width: inherit;
+  max-width: 100%; }
+
+.js-form-type-checkbox label.visually-hidden {
+  position: relative !important;
+  text-indent: -999999px;
+  clip: inherit;
+  overflow: visible;
+  visibility: hidden; }
+  .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
+    visibility: visible; }
+
+/* @file
+ * Specific styling for admin
+ *
+ */
+.layout-container {
+  margin: 0;
+  padding: 0; }
+
+header.header-wrapper h1 {
+  font-weight: 400; }
+
+header.header-wrapper .row {
+  padding-bottom: 0px; }
+
+.messages--status.messages-clone .card-content .message-header .card-title:before {
+  content: ""; }
+
+.messages--warning.messages-clone .card-content .message-header .card-title:before {
+  content: ""; }
+
+.messages--error.messages-clone .card-content .message-header .card-title:before {
+  content: ""; }
+
+.messages-clone {
+  background: #fafafa !important; }
+  .messages-clone .card-title:before, .messages-clone .card-title .message-number {
+    padding-right: 10px; }
+  .messages-clone .card-content .messages__list {
+    margin-top: 0;
+    padding-left: 30px; }
+    .messages-clone .card-content .messages__list li.messages__item {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #666;
+      padding-bottom: 10px; }
+      .messages-clone .card-content .messages__list li.messages__item:last-child {
+        border-bottom: none; }
+
+.message-trigger .mt-text {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.message-trigger span.badge {
+  min-width: inherit;
+  margin-left: 5px;
+  display: none;
+  border-radius: 50%;
+  font-size: 0.9rem; }
+
+a.modal-trigger {
+  transition: color .3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 10px; }
+  a.modal-trigger:hover {
+    color: #666; }
+
+.tabs {
+  background: inherit; }
+
+#notification-wrapper {
+  display: none; }
+
+.modal-content .notification-title {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+  font-size: 1.7rem; }
+
+.region-header {
+  display: inline-block; }
+
+.breadcrumb-nav ol {
+  padding: .5em;
+  margin: 0; }
+  .breadcrumb-nav ol li {
+    font-size: 18px;
+    display: inline-block;
+    list-style: none;
+    padding: 0; }
+    .breadcrumb-nav ol li:before {
+      content: "";
+      font-size: 25px;
+      margin: -5px 10px 0 8px;
+      -webkit-font-smoothing: antialiased; }
+    .breadcrumb-nav ol li:first-child:before {
+      display: none; }
+
+.material_admin .tabs a.is-active, .material_admin .tabs a:focus, .material_admin .tabs a:hover {
+  background-color: transparent !important; }
+
+.material_admin table.highlight > tbody > tr:hover {
+  background: #ccc;
+  color: #fefefe; }
+  .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
+    cursor: pointer; }
+
+.material_admin table.highlight > tbody > tr.selected {
+  background: #f0f4c3;
+  color: #0a0a0a; }
+
+.material_admin .pager__item {
+  padding: 0; }
+
+.material_admin td.is-active {
+  background-color: transparent; }
+
 .collection-item {
   text-decoration: none; }
   .collection-item:hover {
@@ -6835,16 +7342,3 @@ a.tabledrag-handle .handle {
     .collection-item .collection-item-description:hover {
       text-decoration: none;
       color: #333; }
-
-.switch label {
-  white-space: nowrap; }
-
-input-field.js-form-type-checkbox label {
-  top: 0; }
-
-abbr[title] {
-  border-bottom: none; }
-
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-  width: inherit;
-  max-width: 100%; }

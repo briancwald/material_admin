@@ -3,10 +3,6 @@
  *
  */
 
-body {
-    font-family: $body-font-family;
-}
-
 //Header 
 .layout-container {
     margin: 0;
@@ -30,72 +26,114 @@ header.header-wrapper {
 }
 
 .messages--status {
-    @extend .green, .lighten-2;
+    @extend .status-color;
     &.messages-clone {
-        div {
-            display: inline-block;
-        }
-        &:before {
-            content: $fa-var-check;
-            @extend .fa-standard;
+        .card-content {
+            @extend .status-color;
+            .message-header .card-title {
+                &:before {
+                    content: $fa-var-check;
+                    @extend .fa-standard;
+                }
+            }
         }
     }
 }
 
 .messages--warning {
-    @extend .yellow, .lighten-2;
+    @extend .warning-color;
     &.messages-clone {
-        div {
-            display: inline-block;
-        }
-        &:before {
-            content: $fa-var-exclamation-triangle;
-            @extend .fa-standard;
+        .card-content {
+            @extend .warning-color;
+            .message-header .card-title {
+                &:before {
+                    content: $fa-var-exclamation-triangle;
+                    @extend .fa-standard;
+                }
+            }
         }
     }
 }
 
 .messages--error {
-    @extend .red, .lighten-2;
+    @extend .error-color; 
     &.messages-clone {
-        div {
-            display: inline-block;
+        .card-content {
+            @extend .error-color;
+            .message-header .card-title {
+                &:before {
+                    content: $fa-var-times-circle-o;
+                    @extend .fa-standard;
+                }
+            }
         }
-        &:before {
-            content: $fa-var-times-circle-o;
-            @extend .fa-standard;
+    }
+}
+
+.messages-clone {
+    background:#fafafa!important;
+    .card-title {
+        &:before, .message-number {
+            padding-right:10px;
+        }
+    }
+    .card-content {
+        .messages__list {
+            margin-top: 0;
+            padding-left: 30px;
+            li.messages__item {
+                margin-bottom: 10px;
+                border-bottom: 1px solid $medium-gray;
+                padding-bottom: 10px;
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
         }
     }
 }
 
 .message-trigger {
-    color: $white;
+    .mt-text {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    @extend .black-text;
     span.fa {
-        padding-left: 5px;
+        //padding-left: 5px;
     }
     span.badge {
         @extend .white-text;
         min-width: inherit;
+        margin-left: 5px;
         display: none;
         border-radius: 50%;
         font-size: 0.9rem;
     }
 }
 
+a.modal-trigger {
+      transition: color .3s ease;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-left:10px;
+
+      &:hover { color: $medium-gray; }
+}
+
 .tabs {
     background: inherit;
+}
+
+#notification-wrapper {
+    //hide by default, if there is a badge, JS will enable
+    display: none;
 }
 
 .modal-content .notification-title {
     border-bottom: 1px solid $medium-gray;
     padding-bottom: 10px;
     font-size: 1.7rem;
-}
-
-.messages-clone {
-    padding: 15px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 .region-header {
@@ -108,9 +146,14 @@ header.header-wrapper {
         padding: .5em;
         margin: 0;
         li {
+            @extend .blue-text, .text-lighten-4;
+            font-size: 18px;
             display: inline-block;
             list-style: none;
             padding: 0;
+            a {
+                @extend .blue-text, .text-lighten-4;
+            }
             &:before {
                 content: $fa-var-angle-right;
                 @extend .blue-text, .text-lighten-4;
@@ -122,20 +165,11 @@ header.header-wrapper {
             &:first-child:before {
                 display: none;
             }
-            &:last-child a, &:last-child span {
+            &:last-child a, &:last-child {
                 @extend .grey-text, .lighten-4;
-            }
-            a, span {
-                @extend .blue-text, .text-lighten-4;
-                font-size: 18px;
             }
         }
     }
-}
-
-nav {
-    background: transparent;
-    box-shadow: none;
 }
 
 .material_admin {
@@ -162,43 +196,6 @@ nav {
     }
 }
 
-@media #{$medium-and-up} {
-    // styles for medium screens and larger
-    .form--inline {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        .input-field {
-            margin: 10px 10px;
-            flex: 0 1 20%;
-        }
-    }
-}
-
-.form--inline .input-field {
-    display: block;
-    width: 100%;
-}
-
-.input-field.js-form-type-checkbox label {
-    top: 0;
-}
-
-.action-links {
-    margin-bottom: 2rem;
-}
-
-input.btn-default {
-    margin-top: 1rem;
-}
-
-a.tabledrag-handle {
-    .handle {
-        width: 30px;
-        height: 30px;
-    }
-}
-
 .collection-item {
     text-decoration: none;
     &:hover {
@@ -220,10 +217,6 @@ a.tabledrag-handle {
     }
 }
 
-.switch label {
-    white-space: nowrap;
-}
-
 //table dropdown
 .dropbutton-wrapper.dropbutton-single {
     .edit {
@@ -232,18 +225,4 @@ a.tabledrag-handle {
             @extend .btn-flat;
         }
     }
-}
-
-input-field.js-form-type-checkbox label {
-    top: 0;
-}
-
-abbr[title] {
-    border-bottom: none;
-}
-
-//form field handling 
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
-    width: inherit;
-    max-width: 100%;
 }

@@ -11,6 +11,22 @@ h3 {
     font-size: 1.5rem;
 }
 
+body {
+    font-family: $body-font-family;
+}
+
+.error-color {
+    @extend .red, .lighten-2;
+}
+
+.warning-color {
+    @extend .yellow, .darken-2;
+}
+
+.status-color {
+    @extend .green, .lighten-2;
+}
+
 .button-action {
     @extend .btn;
     @extend .waves-effect;
@@ -38,14 +54,29 @@ h3 {
     -webkit-font-smoothing: antialiased;
 }
 
+.toast {
+    word-break: normal;
+}
+
 .row {
     padding: 20px;
     margin: 0;
 }
 
+.region-status {
+    .row {
+        padding:0;
+    }
+}
+
 input.button {
     @extend .btn;
     @extend .waves-effect;
+}
+
+nav {
+    background: transparent;
+    box-shadow: none;
 }
 
 .action-links li {
@@ -67,20 +98,6 @@ a.button {
 
 .shadow {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-//checkbox fix to work with materialize
-.js-form-type-checkbox {
-    label.visually-hidden {
-        position: relative!important;
-        text-indent: -999999px;
-        clip: inherit;
-        overflow: visible;
-        visibility: hidden;
-        &:before, &:after {
-            visibility: visible;
-        }
-    }
 }
 
 .views-field-node-bulk-form {

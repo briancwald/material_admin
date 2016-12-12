@@ -6,13 +6,6 @@
 
 (function ($, Drupal) {
 
-
-  // Make breadcrumbs more useful by adding the current page
-  $(document).ready(function () {
-    var title = $('.page-title').text();
-    $('.breadcrumb-nav ol').append('<li><span>' + title + '</span></li>');
-
-  });
   $(document).ready(function () {
     // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
     $.each($(':checkbox:not(.item-switch)'), function (k, v) {
