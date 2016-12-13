@@ -25,6 +25,10 @@
     margin-bottom: 2rem;
 }
 
+input[type=checkbox] {
+    @extend .filled-in;
+}
+
 input.btn-default {
     margin-top: 1rem;
 }

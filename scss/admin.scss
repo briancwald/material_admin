@@ -56,7 +56,7 @@ header.header-wrapper {
 }
 
 .messages--error {
-    @extend .error-color; 
+    @extend .error-color;
     &.messages-clone {
         .card-content {
             @extend .error-color;
@@ -71,10 +71,10 @@ header.header-wrapper {
 }
 
 .messages-clone {
-    background:#fafafa!important;
+    background: #fafafa!important;
     .card-title {
         &:before, .message-number {
-            padding-right:10px;
+            padding-right: 10px;
         }
     }
     .card-content {
@@ -113,16 +113,25 @@ header.header-wrapper {
 }
 
 a.modal-trigger {
-      transition: color .3s ease;
-      text-transform: uppercase;
-      text-decoration: none;
-      padding-left:10px;
-
-      &:hover { color: $medium-gray; }
+    transition: color .3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 10px;
+    color:$black;
+    &:hover {
+        color: $medium-gray;
+    }
 }
 
 .tabs {
     background: inherit;
+}
+
+.collection.with-header {
+    h3.collection-header {
+        margin: 0;
+        padding: 20px;
+    }
 }
 
 #notification-wrapper {
@@ -215,6 +224,10 @@ a.modal-trigger {
             color: $dark-gray;
         }
     }
+}
+
+table {
+    margin:20px 0;
 }
 
 //table dropdown
