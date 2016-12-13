@@ -37,7 +37,7 @@
         'clearfix',
       ]
     %}
-   <h3>{{ theme_group.title }}</h3>
+   <h2 class="theme-list-title">{{ theme_group.title }}</h2>
     <div{{ theme_group.attributes.addClass(theme_group_classes) }}>
       
       {% for theme in theme_group.themes %}
@@ -54,14 +54,14 @@
         %}
         <div{{ theme.attributes.addClass(theme_classes) }}>
           <div class="card large sticky-action">
-            <div class="card-image waves-effect waves-block waves-light">
-              {% if theme.screenshot %} <span class="activator">{{ theme.screenshot}}</span> {% endif %}
-              {% if theme.notes and theme.is_admin %}
-                 <span class="badge activator" data-badge-caption="{{ theme.notes|safe_join(', ') }}"> <i class="fa fa-pencil"></i></span>
+                         {% if theme.notes and theme.is_admin %}
+                 <span class="theme-status-indicator"> <i class="fa fa-pencil"></i> {{ theme.notes|safe_join(', ') }}</span>
                 {% endif %}
               {% if theme.notes and theme.is_default %}
-                 <span class="badge activator" data-badge-caption="{{ theme.notes|safe_join(', ') }}"><i class="fa fa-star"> </i> </span>
+                 <span class="theme-status-indicator"><i class="fa fa-star"></i> {{ theme.notes|safe_join(', ') }}</span>
               {%- endif -%}
+            <div class="card-image waves-effect waves-block waves-light">
+              {% if theme.screenshot %} <span class="activator">{{ theme.screenshot}}</span> {% endif %}
             </div>
             <div class="card-content theme-info">
               <span class="card-title activator grey-text text-darken-4"><span class="theme-name">{{- theme.name }}</span><i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>

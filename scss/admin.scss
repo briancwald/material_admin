@@ -239,3 +239,18 @@ table {
         }
     }
 }
+
+h2.theme-list-title {
+    padding:2rem;
+    @extend .grey, .lighten-4;
+}
+
+span.theme-status-indicator {
+    position: absolute;
+    top:0;
+    right:0;
+    @extend .yellow;
+    opacity: 0.7;
+    padding:5px 10px;
+    z-index:2;
+}
