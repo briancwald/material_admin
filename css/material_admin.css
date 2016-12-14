@@ -365,13 +365,13 @@ th {
 .materialize-red-text {
   color: #e51c23 !important; }
 
-.materialize-red.lighten-5 {
+.materialize-red.lighten-5, h2.materialize-red.theme-list-title {
   background-color: #fdeaeb !important; }
 
 .materialize-red-text.text-lighten-5 {
   color: #fdeaeb !important; }
 
-.materialize-red.lighten-4, .breadcrumb-nav ol li:last-child a.materialize-red, .breadcrumb-nav ol li.materialize-red:last-child, h2.materialize-red.theme-list-title {
+.materialize-red.lighten-4, .breadcrumb-nav ol li:last-child a.materialize-red, .breadcrumb-nav ol li.materialize-red:last-child {
   background-color: #f8c1c3 !important; }
 
 .materialize-red-text.text-lighten-4, .breadcrumb-nav ol li.materialize-red-text, .breadcrumb-nav ol li a.materialize-red-text, .breadcrumb-nav ol li.materialize-red-text:before {
@@ -383,7 +383,7 @@ th {
 .materialize-red-text.text-lighten-3 {
   color: #f3989b !important; }
 
-.materialize-red.lighten-2, .materialize-red.error-color, .materialize-red.messages--error, .messages--error.messages-clone .materialize-red.card-content, .materialize-red.status-color, .materialize-red.messages--status, .messages--status.messages-clone .materialize-red.card-content, .materialize-red.utility-wrapper {
+.materialize-red.lighten-2, .materialize-red.error-color, .materialize-red.messages--error, .messages--error.messages-clone .materialize-red.card-content, .materialize-red.status-color, .materialize-red.messages--status, .messages--status.messages-clone .materialize-red.card-content, #edit-actions .materialize-red.button--danger, .materialize-red.utility-wrapper {
   background-color: #ee6e73 !important; }
 
 .materialize-red-text.text-lighten-2 {
@@ -422,85 +422,85 @@ th {
 .red, .error-color, .messages--error, .messages--error.messages-clone .card-content, .button-action {
   background-color: #F44336 !important; }
 
-.red-text {
+.red-text, #edit-actions .button--danger {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.error-color, .lighten-5.messages--error, .messages--error.messages-clone .lighten-5.card-content, .lighten-5.button-action {
+.red.lighten-5, .lighten-5.error-color, .lighten-5.messages--error, h2.messages--error.theme-list-title, .messages--error.messages-clone .lighten-5.card-content, .messages--error.messages-clone h2.card-content.theme-list-title, h2.error-color.theme-list-title, .lighten-5.button-action, h2.button-action.theme-list-title, h2.red.theme-list-title {
   background-color: #FFEBEE !important; }
 
-.red-text.text-lighten-5 {
+.red-text.text-lighten-5, #edit-actions .text-lighten-5.button--danger {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.error-color, .lighten-4.messages--error, .breadcrumb-nav ol li:last-child a.messages--error, .breadcrumb-nav ol li.messages--error:last-child, h2.messages--error.theme-list-title, .messages--error.messages-clone .lighten-4.card-content, .messages--error.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--error.messages-clone a.card-content, .messages--error.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--error.messages-clone li.card-content:last-child, .messages--error.messages-clone h2.card-content.theme-list-title, .breadcrumb-nav ol li:last-child a.error-color, .breadcrumb-nav ol li.error-color:last-child, h2.error-color.theme-list-title, .lighten-4.button-action, .breadcrumb-nav ol li:last-child a.button-action, .breadcrumb-nav ol li.button-action:last-child, h2.button-action.theme-list-title, .breadcrumb-nav ol li:last-child a.red, .breadcrumb-nav ol li.red:last-child, h2.red.theme-list-title {
+.red.lighten-4, .lighten-4.error-color, .lighten-4.messages--error, .breadcrumb-nav ol li:last-child a.messages--error, .breadcrumb-nav ol li.messages--error:last-child, .messages--error.messages-clone .lighten-4.card-content, .messages--error.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--error.messages-clone a.card-content, .messages--error.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--error.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.error-color, .breadcrumb-nav ol li.error-color:last-child, .lighten-4.button-action, .breadcrumb-nav ol li:last-child a.button-action, .breadcrumb-nav ol li.button-action:last-child, .breadcrumb-nav ol li:last-child a.red, .breadcrumb-nav ol li.red:last-child {
   background-color: #FFCDD2 !important; }
 
-.red-text.text-lighten-4, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before {
+.red-text.text-lighten-4, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before {
   color: #FFCDD2 !important; }
 
 .red.lighten-3, .lighten-3.error-color, .lighten-3.messages--error, .messages--error.messages-clone .lighten-3.card-content, .lighten-3.button-action {
   background-color: #EF9A9A !important; }
 
-.red-text.text-lighten-3 {
+.red-text.text-lighten-3, #edit-actions .text-lighten-3.button--danger {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .error-color, .messages--error, .messages--error.messages-clone .card-content, .red.status-color, .messages--status.messages-clone .error-color.card-content, .messages--status.messages-clone .card-content.messages--error, .status-color.button-action, .button-action.messages--status, .messages--status.messages-clone .button-action.card-content, .red.messages--status, .messages--status.messages-clone .red.card-content, .lighten-2.button-action, .button-action.utility-wrapper, .red.utility-wrapper {
+.red.lighten-2, .error-color, .messages--error, .messages--error.messages-clone .card-content, .red.status-color, .messages--status.messages-clone .error-color.card-content, .messages--status.messages-clone .card-content.messages--error, .status-color.button-action, .button-action.messages--status, .messages--status.messages-clone .button-action.card-content, .red.messages--status, .messages--status.messages-clone .red.card-content, .lighten-2.button-action, #edit-actions .button-action.button--danger, .button-action.utility-wrapper, #edit-actions .red.button--danger, #edit-actions .button--danger.error-color, #edit-actions .button--danger.messages--error, #edit-actions .messages--error.messages-clone .button--danger.card-content, .messages--error.messages-clone #edit-actions .button--danger.card-content, .red.utility-wrapper {
   background-color: #E57373 !important; }
 
-.red-text.text-lighten-2 {
+.red-text.text-lighten-2, #edit-actions .text-lighten-2.button--danger {
   color: #E57373 !important; }
 
 .red.lighten-1, .lighten-1.error-color, .lighten-1.messages--error, .messages--error.messages-clone .lighten-1.card-content, .lighten-1.button-action {
   background-color: #EF5350 !important; }
 
-.red-text.text-lighten-1 {
+.red-text.text-lighten-1, #edit-actions .text-lighten-1.button--danger {
   color: #EF5350 !important; }
 
 .red.darken-1, .darken-1.error-color, .darken-1.messages--error, .messages--error.messages-clone .darken-1.card-content, .darken-1.button-action {
   background-color: #E53935 !important; }
 
-.red-text.text-darken-1 {
+.red-text.text-darken-1, #edit-actions .text-darken-1.button--danger {
   color: #E53935 !important; }
 
 .red.darken-2, .darken-2.error-color, .error-color.warning-color, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .darken-2.messages--error, .messages--error.messages-clone .darken-2.card-content, .red.warning-color, .warning-color.button-action, .button-action.messages--warning, .messages--warning.messages-clone .button-action.card-content, .red.messages--warning, .messages--warning.messages-clone .red.card-content, .darken-2.button-action {
   background-color: #D32F2F !important; }
 
-.red-text.text-darken-2 {
+.red-text.text-darken-2, #edit-actions .text-darken-2.button--danger {
   color: #D32F2F !important; }
 
 .red.darken-3, .darken-3.error-color, .darken-3.messages--error, .messages--error.messages-clone .darken-3.card-content, .darken-3.button-action {
   background-color: #C62828 !important; }
 
-.red-text.text-darken-3 {
+.red-text.text-darken-3, #edit-actions .text-darken-3.button--danger {
   color: #C62828 !important; }
 
 .red.darken-4, .darken-4.error-color, .darken-4.messages--error, .messages--error.messages-clone .darken-4.card-content, .darken-4.button-action {
   background-color: #B71C1C !important; }
 
-.red-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.red-text, .material_admin table.highlight > tbody > tr:hover button.red-text {
+.red-text.text-darken-4, #edit-actions .text-darken-4.button--danger, #edit-actions .material_admin table.highlight > tbody > tr:hover a.button--danger, .material_admin table.highlight > tbody > tr:hover #edit-actions a.button--danger, #edit-actions .material_admin table.highlight > tbody > tr:hover button.button--danger, .material_admin table.highlight > tbody > tr:hover #edit-actions button.button--danger, .material_admin table.highlight > tbody > tr:hover a.red-text, .material_admin table.highlight > tbody > tr:hover button.red-text {
   color: #B71C1C !important; }
 
 .red.accent-1, .accent-1.error-color, .accent-1.messages--error, .messages--error.messages-clone .accent-1.card-content, .accent-1.button-action {
   background-color: #FF8A80 !important; }
 
-.red-text.text-accent-1 {
+.red-text.text-accent-1, #edit-actions .text-accent-1.button--danger {
   color: #FF8A80 !important; }
 
 .red.accent-2, .accent-2.error-color, .messages--error.messages-clone .button-action.card-content, .accent-2.messages--error, .messages--error.messages-clone .accent-2.card-content, .button-action {
   background-color: #FF5252 !important; }
 
-.red-text.text-accent-2 {
+.red-text.text-accent-2, #edit-actions .text-accent-2.button--danger {
   color: #FF5252 !important; }
 
 .red.accent-3, .accent-3.error-color, .accent-3.messages--error, .messages--error.messages-clone .accent-3.card-content, .accent-3.button-action {
   background-color: #FF1744 !important; }
 
-.red-text.text-accent-3 {
+.red-text.text-accent-3, #edit-actions .text-accent-3.button--danger {
   color: #FF1744 !important; }
 
 .red.accent-4, .accent-4.error-color, .accent-4.messages--error, .messages--error.messages-clone .accent-4.card-content, .accent-4.button-action {
   background-color: #D50000 !important; }
 
-.red-text.text-accent-4 {
+.red-text.text-accent-4, #edit-actions .text-accent-4.button--danger {
   color: #D50000 !important; }
 
 .pink {
@@ -509,13 +509,13 @@ th {
 .pink-text {
   color: #e91e63 !important; }
 
-.pink.lighten-5 {
+.pink.lighten-5, h2.pink.theme-list-title {
   background-color: #fce4ec !important; }
 
 .pink-text.text-lighten-5 {
   color: #fce4ec !important; }
 
-.pink.lighten-4, .breadcrumb-nav ol li:last-child a.pink, .breadcrumb-nav ol li.pink:last-child, h2.pink.theme-list-title {
+.pink.lighten-4, .breadcrumb-nav ol li:last-child a.pink, .breadcrumb-nav ol li.pink:last-child {
   background-color: #f8bbd0 !important; }
 
 .pink-text.text-lighten-4, .breadcrumb-nav ol li.pink-text, .breadcrumb-nav ol li a.pink-text, .breadcrumb-nav ol li.pink-text:before {
@@ -527,7 +527,7 @@ th {
 .pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
-.pink.lighten-2, .pink.error-color, .pink.messages--error, .messages--error.messages-clone .pink.card-content, .pink.status-color, .pink.messages--status, .messages--status.messages-clone .pink.card-content, .pink.utility-wrapper {
+.pink.lighten-2, .pink.error-color, .pink.messages--error, .messages--error.messages-clone .pink.card-content, .pink.status-color, .pink.messages--status, .messages--status.messages-clone .pink.card-content, #edit-actions .pink.button--danger, .pink.utility-wrapper {
   background-color: #f06292 !important; }
 
 .pink-text.text-lighten-2 {
@@ -593,13 +593,13 @@ th {
 .purple-text {
   color: #9c27b0 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, h2.purple.theme-list-title {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .breadcrumb-nav ol li:last-child a.purple, .breadcrumb-nav ol li.purple:last-child, h2.purple.theme-list-title {
+.purple.lighten-4, .breadcrumb-nav ol li:last-child a.purple, .breadcrumb-nav ol li.purple:last-child {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .breadcrumb-nav ol li.purple-text, .breadcrumb-nav ol li a.purple-text, .breadcrumb-nav ol li.purple-text:before {
@@ -611,7 +611,7 @@ th {
 .purple-text.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2, .purple.error-color, .purple.messages--error, .messages--error.messages-clone .purple.card-content, .purple.status-color, .purple.messages--status, .messages--status.messages-clone .purple.card-content, .purple.utility-wrapper {
+.purple.lighten-2, .purple.error-color, .purple.messages--error, .messages--error.messages-clone .purple.card-content, .purple.status-color, .purple.messages--status, .messages--status.messages-clone .purple.card-content, #edit-actions .purple.button--danger, .purple.utility-wrapper {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2 {
@@ -677,13 +677,13 @@ th {
 .deep-purple-text {
   color: #673ab7 !important; }
 
-.deep-purple.lighten-5 {
+.deep-purple.lighten-5, h2.deep-purple.theme-list-title {
   background-color: #ede7f6 !important; }
 
 .deep-purple-text.text-lighten-5 {
   color: #ede7f6 !important; }
 
-.deep-purple.lighten-4, .breadcrumb-nav ol li:last-child a.deep-purple, .breadcrumb-nav ol li.deep-purple:last-child, h2.deep-purple.theme-list-title {
+.deep-purple.lighten-4, .breadcrumb-nav ol li:last-child a.deep-purple, .breadcrumb-nav ol li.deep-purple:last-child {
   background-color: #d1c4e9 !important; }
 
 .deep-purple-text.text-lighten-4, .breadcrumb-nav ol li.deep-purple-text, .breadcrumb-nav ol li a.deep-purple-text, .breadcrumb-nav ol li.deep-purple-text:before {
@@ -695,7 +695,7 @@ th {
 .deep-purple-text.text-lighten-3 {
   color: #b39ddb !important; }
 
-.deep-purple.lighten-2, .deep-purple.error-color, .deep-purple.messages--error, .messages--error.messages-clone .deep-purple.card-content, .deep-purple.status-color, .deep-purple.messages--status, .messages--status.messages-clone .deep-purple.card-content, .deep-purple.utility-wrapper {
+.deep-purple.lighten-2, .deep-purple.error-color, .deep-purple.messages--error, .messages--error.messages-clone .deep-purple.card-content, .deep-purple.status-color, .deep-purple.messages--status, .messages--status.messages-clone .deep-purple.card-content, #edit-actions .deep-purple.button--danger, .deep-purple.utility-wrapper {
   background-color: #9575cd !important; }
 
 .deep-purple-text.text-lighten-2 {
@@ -761,13 +761,13 @@ th {
 .indigo-text {
   color: #3f51b5 !important; }
 
-.indigo.lighten-5 {
+.indigo.lighten-5, h2.indigo.theme-list-title {
   background-color: #e8eaf6 !important; }
 
 .indigo-text.text-lighten-5 {
   color: #e8eaf6 !important; }
 
-.indigo.lighten-4, .breadcrumb-nav ol li:last-child a.indigo, .breadcrumb-nav ol li.indigo:last-child, h2.indigo.theme-list-title {
+.indigo.lighten-4, .breadcrumb-nav ol li:last-child a.indigo, .breadcrumb-nav ol li.indigo:last-child {
   background-color: #c5cae9 !important; }
 
 .indigo-text.text-lighten-4, .breadcrumb-nav ol li.indigo-text, .breadcrumb-nav ol li a.indigo-text, .breadcrumb-nav ol li.indigo-text:before {
@@ -779,7 +779,7 @@ th {
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important; }
 
-.indigo.lighten-2, .indigo.error-color, .indigo.messages--error, .messages--error.messages-clone .indigo.card-content, .indigo.status-color, .indigo.messages--status, .messages--status.messages-clone .indigo.card-content, .indigo.utility-wrapper {
+.indigo.lighten-2, .indigo.error-color, .indigo.messages--error, .messages--error.messages-clone .indigo.card-content, .indigo.status-color, .indigo.messages--status, .messages--status.messages-clone .indigo.card-content, #edit-actions .indigo.button--danger, .indigo.utility-wrapper {
   background-color: #7986cb !important; }
 
 .indigo-text.text-lighten-2 {
@@ -839,85 +839,85 @@ th {
 .indigo-text.text-accent-4 {
   color: #304ffe !important; }
 
-.blue, header.header-wrapper, .utility-wrapper {
+.blue, header.header-wrapper, .utility-wrapper, h2.theme-list-title {
   background-color: #2196F3 !important; }
 
 .blue-text, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
   color: #2196F3 !important; }
 
-.blue.lighten-5, header.lighten-5.header-wrapper, .lighten-5.utility-wrapper {
+.blue.lighten-5, header.lighten-5.header-wrapper, .lighten-5.utility-wrapper, h2.theme-list-title {
   background-color: #E3F2FD !important; }
 
 .blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-5, .material_admin table.highlight > tbody > tr:hover button.text-lighten-5 {
   color: #E3F2FD !important; }
 
-.blue.lighten-4, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li.utility-wrapper:last-child, h2.utility-wrapper.theme-list-title, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li.blue:last-child, h2.blue.theme-list-title {
+.blue.lighten-4, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li.utility-wrapper:last-child, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li.blue:last-child, h2.lighten-4.theme-list-title {
   background-color: #BBDEFB !important; }
 
 .blue-text.text-lighten-4, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-4, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li a, .breadcrumb-nav ol li .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button.text-lighten-4 {
   color: #BBDEFB !important; }
 
-.blue.lighten-3, header.lighten-3.header-wrapper, .lighten-3.utility-wrapper {
+.blue.lighten-3, header.lighten-3.header-wrapper, .lighten-3.utility-wrapper, h2.lighten-3.theme-list-title {
   background-color: #90CAF9 !important; }
 
 .blue-text.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-3, .material_admin table.highlight > tbody > tr:hover button.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, .blue.error-color, header.error-color.header-wrapper, header.header-wrapper.messages--error, .messages--error.messages-clone header.header-wrapper.card-content, .messages--error.messages-clone .utility-wrapper.card-content, .blue.messages--error, .messages--error.messages-clone .blue.card-content, .blue.status-color, header.status-color.header-wrapper, header.header-wrapper.messages--status, .messages--status.messages-clone header.header-wrapper.card-content, .messages--status.messages-clone .utility-wrapper.card-content, .blue.messages--status, .messages--status.messages-clone .blue.card-content, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper {
+.blue.lighten-2, .blue.error-color, header.error-color.header-wrapper, header.header-wrapper.messages--error, .messages--error.messages-clone header.header-wrapper.card-content, .messages--error.messages-clone .utility-wrapper.card-content, .blue.messages--error, h2.messages--error.theme-list-title, .messages--error.messages-clone .blue.card-content, .messages--error.messages-clone h2.card-content.theme-list-title, h2.error-color.theme-list-title, .blue.status-color, header.status-color.header-wrapper, header.header-wrapper.messages--status, .messages--status.messages-clone header.header-wrapper.card-content, .messages--status.messages-clone .utility-wrapper.card-content, .blue.messages--status, h2.messages--status.theme-list-title, .messages--status.messages-clone .blue.card-content, .messages--status.messages-clone h2.card-content.theme-list-title, h2.status-color.theme-list-title, #edit-actions .blue.button--danger, #edit-actions header.button--danger.header-wrapper, #edit-actions .button--danger.utility-wrapper, #edit-actions h2.button--danger.theme-list-title, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, h2.lighten-2.theme-list-title, h2.theme-list-title.utility-wrapper {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-2, .material_admin table.highlight > tbody > tr:hover button.text-lighten-2 {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, header.lighten-1.header-wrapper, .lighten-1.utility-wrapper {
+.blue.lighten-1, header.lighten-1.header-wrapper, .lighten-1.utility-wrapper, h2.lighten-1.theme-list-title {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before, .material_admin table.highlight > tbody > tr:hover a.text-lighten-1, .material_admin table.highlight > tbody > tr:hover button.text-lighten-1 {
   color: #42A5F5 !important; }
 
-.blue.darken-1, header.darken-1.header-wrapper, .darken-1.utility-wrapper {
+.blue.darken-1, header.darken-1.header-wrapper, .darken-1.utility-wrapper, h2.darken-1.theme-list-title {
   background-color: #1E88E5 !important; }
 
 .blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-1, .material_admin table.highlight > tbody > tr:hover button.text-darken-1 {
   color: #1E88E5 !important; }
 
-.blue.darken-2, .blue.warning-color, header.warning-color.header-wrapper, header.header-wrapper.messages--warning, .messages--warning.messages-clone header.header-wrapper.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .blue.messages--warning, .messages--warning.messages-clone .blue.card-content, header.darken-2.header-wrapper, .darken-2.utility-wrapper {
+.blue.darken-2, .blue.warning-color, header.warning-color.header-wrapper, header.header-wrapper.messages--warning, .messages--warning.messages-clone header.header-wrapper.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .blue.messages--warning, h2.messages--warning.theme-list-title, .messages--warning.messages-clone .blue.card-content, .messages--warning.messages-clone h2.card-content.theme-list-title, h2.warning-color.theme-list-title, header.darken-2.header-wrapper, .darken-2.utility-wrapper, h2.darken-2.theme-list-title {
   background-color: #1976D2 !important; }
 
 .blue-text.text-darken-2, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-2, .material_admin table.highlight > tbody > tr:hover button.text-darken-2 {
   color: #1976D2 !important; }
 
-.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper {
+.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper, h2.darken-3.theme-list-title {
   background-color: #1565C0 !important; }
 
 .blue-text.text-darken-3, .breadcrumb-nav ol li.text-darken-3, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before, .material_admin table.highlight > tbody > tr:hover a.text-darken-3, .material_admin table.highlight > tbody > tr:hover button.text-darken-3 {
   color: #1565C0 !important; }
 
-.blue.darken-4, header.darken-4.header-wrapper, .darken-4.utility-wrapper {
+.blue.darken-4, header.darken-4.header-wrapper, .darken-4.utility-wrapper, h2.darken-4.theme-list-title {
   background-color: #0D47A1 !important; }
 
 .blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before, .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover button {
   color: #0D47A1 !important; }
 
-.blue.accent-1, header.accent-1.header-wrapper, .accent-1.utility-wrapper {
+.blue.accent-1, header.accent-1.header-wrapper, .accent-1.utility-wrapper, h2.accent-1.theme-list-title {
   background-color: #82B1FF !important; }
 
 .blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-1, .material_admin table.highlight > tbody > tr:hover button.text-accent-1 {
   color: #82B1FF !important; }
 
-.blue.accent-2, .blue.button-action, header.button-action.header-wrapper, .button-action.utility-wrapper, header.accent-2.header-wrapper, .accent-2.utility-wrapper {
+.blue.accent-2, .blue.button-action, header.button-action.header-wrapper, .button-action.utility-wrapper, h2.button-action.theme-list-title, header.accent-2.header-wrapper, .accent-2.utility-wrapper, h2.accent-2.theme-list-title {
   background-color: #448AFF !important; }
 
 .blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-2, .material_admin table.highlight > tbody > tr:hover button.text-accent-2 {
   color: #448AFF !important; }
 
-.blue.accent-3, header.accent-3.header-wrapper, .accent-3.utility-wrapper {
+.blue.accent-3, header.accent-3.header-wrapper, .accent-3.utility-wrapper, h2.accent-3.theme-list-title {
   background-color: #2979FF !important; }
 
 .blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-3, .material_admin table.highlight > tbody > tr:hover button.text-accent-3 {
   color: #2979FF !important; }
 
-.blue.accent-4, header.accent-4.header-wrapper, .accent-4.utility-wrapper {
+.blue.accent-4, header.accent-4.header-wrapper, .accent-4.utility-wrapper, h2.accent-4.theme-list-title {
   background-color: #2962FF !important; }
 
 .blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before, .material_admin table.highlight > tbody > tr:hover a.text-accent-4, .material_admin table.highlight > tbody > tr:hover button.text-accent-4 {
@@ -929,13 +929,13 @@ th {
 .light-blue-text {
   color: #03a9f4 !important; }
 
-.light-blue.lighten-5 {
+.light-blue.lighten-5, h2.light-blue.theme-list-title {
   background-color: #e1f5fe !important; }
 
 .light-blue-text.text-lighten-5 {
   color: #e1f5fe !important; }
 
-.light-blue.lighten-4, .breadcrumb-nav ol li:last-child a.light-blue, .breadcrumb-nav ol li.light-blue:last-child, h2.light-blue.theme-list-title {
+.light-blue.lighten-4, .breadcrumb-nav ol li:last-child a.light-blue, .breadcrumb-nav ol li.light-blue:last-child {
   background-color: #b3e5fc !important; }
 
 .light-blue-text.text-lighten-4, .breadcrumb-nav ol li.light-blue-text, .breadcrumb-nav ol li a.light-blue-text, .breadcrumb-nav ol li.light-blue-text:before {
@@ -947,7 +947,7 @@ th {
 .light-blue-text.text-lighten-3 {
   color: #81d4fa !important; }
 
-.light-blue.lighten-2, .light-blue.error-color, .light-blue.messages--error, .messages--error.messages-clone .light-blue.card-content, .light-blue.status-color, .light-blue.messages--status, .messages--status.messages-clone .light-blue.card-content, .light-blue.utility-wrapper {
+.light-blue.lighten-2, .light-blue.error-color, .light-blue.messages--error, .messages--error.messages-clone .light-blue.card-content, .light-blue.status-color, .light-blue.messages--status, .messages--status.messages-clone .light-blue.card-content, #edit-actions .light-blue.button--danger, .light-blue.utility-wrapper {
   background-color: #4fc3f7 !important; }
 
 .light-blue-text.text-lighten-2 {
@@ -1013,13 +1013,13 @@ th {
 .cyan-text {
   color: #00bcd4 !important; }
 
-.cyan.lighten-5 {
+.cyan.lighten-5, h2.cyan.theme-list-title {
   background-color: #e0f7fa !important; }
 
 .cyan-text.text-lighten-5 {
   color: #e0f7fa !important; }
 
-.cyan.lighten-4, .breadcrumb-nav ol li:last-child a.cyan, .breadcrumb-nav ol li.cyan:last-child, h2.cyan.theme-list-title {
+.cyan.lighten-4, .breadcrumb-nav ol li:last-child a.cyan, .breadcrumb-nav ol li.cyan:last-child {
   background-color: #b2ebf2 !important; }
 
 .cyan-text.text-lighten-4, .breadcrumb-nav ol li.cyan-text, .breadcrumb-nav ol li a.cyan-text, .breadcrumb-nav ol li.cyan-text:before {
@@ -1031,7 +1031,7 @@ th {
 .cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
-.cyan.lighten-2, .cyan.error-color, .cyan.messages--error, .messages--error.messages-clone .cyan.card-content, .cyan.status-color, .cyan.messages--status, .messages--status.messages-clone .cyan.card-content, .cyan.utility-wrapper {
+.cyan.lighten-2, .cyan.error-color, .cyan.messages--error, .messages--error.messages-clone .cyan.card-content, .cyan.status-color, .cyan.messages--status, .messages--status.messages-clone .cyan.card-content, #edit-actions .cyan.button--danger, .cyan.utility-wrapper {
   background-color: #4dd0e1 !important; }
 
 .cyan-text.text-lighten-2 {
@@ -1097,13 +1097,13 @@ th {
 .teal-text {
   color: #009688 !important; }
 
-.teal.lighten-5 {
+.teal.lighten-5, h2.teal.theme-list-title {
   background-color: #e0f2f1 !important; }
 
 .teal-text.text-lighten-5 {
   color: #e0f2f1 !important; }
 
-.teal.lighten-4, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li.teal:last-child, h2.teal.theme-list-title {
+.teal.lighten-4, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li.teal:last-child {
   background-color: #b2dfdb !important; }
 
 .teal-text.text-lighten-4, .breadcrumb-nav ol li.teal-text, .breadcrumb-nav ol li a.teal-text, .breadcrumb-nav ol li.teal-text:before {
@@ -1115,7 +1115,7 @@ th {
 .teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
-.teal.lighten-2, .teal.error-color, .teal.messages--error, .messages--error.messages-clone .teal.card-content, .teal.status-color, .teal.messages--status, .messages--status.messages-clone .teal.card-content, .teal.utility-wrapper {
+.teal.lighten-2, .teal.error-color, .teal.messages--error, .messages--error.messages-clone .teal.card-content, .teal.status-color, .teal.messages--status, .messages--status.messages-clone .teal.card-content, #edit-actions .teal.button--danger, .teal.utility-wrapper {
   background-color: #4db6ac !important; }
 
 .teal-text.text-lighten-2 {
@@ -1181,13 +1181,13 @@ th {
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5, .lighten-5.status-color, .lighten-5.messages--status, .messages--status.messages-clone .lighten-5.card-content {
+.green.lighten-5, .lighten-5.status-color, .lighten-5.messages--status, h2.messages--status.theme-list-title, .messages--status.messages-clone .lighten-5.card-content, .messages--status.messages-clone h2.card-content.theme-list-title, h2.status-color.theme-list-title, h2.green.theme-list-title {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
   color: #E8F5E9 !important; }
 
-.green.lighten-4, .lighten-4.status-color, .lighten-4.messages--status, .breadcrumb-nav ol li:last-child a.messages--status, .breadcrumb-nav ol li.messages--status:last-child, h2.messages--status.theme-list-title, .messages--status.messages-clone .lighten-4.card-content, .messages--status.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--status.messages-clone a.card-content, .messages--status.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--status.messages-clone li.card-content:last-child, .messages--status.messages-clone h2.card-content.theme-list-title, .breadcrumb-nav ol li:last-child a.status-color, .breadcrumb-nav ol li.status-color:last-child, h2.status-color.theme-list-title, .breadcrumb-nav ol li:last-child a.green, .breadcrumb-nav ol li.green:last-child, h2.green.theme-list-title {
+.green.lighten-4, .lighten-4.status-color, .lighten-4.messages--status, .breadcrumb-nav ol li:last-child a.messages--status, .breadcrumb-nav ol li.messages--status:last-child, .messages--status.messages-clone .lighten-4.card-content, .messages--status.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--status.messages-clone a.card-content, .messages--status.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--status.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.status-color, .breadcrumb-nav ol li.status-color:last-child, .breadcrumb-nav ol li:last-child a.green, .breadcrumb-nav ol li.green:last-child {
   background-color: #C8E6C9 !important; }
 
 .green-text.text-lighten-4, .breadcrumb-nav ol li.green-text, .breadcrumb-nav ol li a.green-text, .breadcrumb-nav ol li.green-text:before {
@@ -1199,7 +1199,7 @@ th {
 .green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
-.green.lighten-2, .green.error-color, .messages--error.messages-clone .messages--status.card-content, .messages--error.messages-clone .status-color.card-content, .green.messages--error, .messages--error.messages-clone .green.card-content, .status-color, .messages--status, .messages--status.messages-clone .card-content, .green.utility-wrapper {
+.green.lighten-2, .green.error-color, .messages--error.messages-clone .messages--status.card-content, .messages--error.messages-clone .status-color.card-content, .green.messages--error, .messages--error.messages-clone .green.card-content, .status-color, .messages--status, .messages--status.messages-clone .card-content, #edit-actions .green.button--danger, #edit-actions .button--danger.status-color, #edit-actions .button--danger.messages--status, #edit-actions .messages--status.messages-clone .button--danger.card-content, .messages--status.messages-clone #edit-actions .button--danger.card-content, .green.utility-wrapper {
   background-color: #81C784 !important; }
 
 .green-text.text-lighten-2 {
@@ -1265,13 +1265,13 @@ th {
 .light-green-text {
   color: #8bc34a !important; }
 
-.light-green.lighten-5 {
+.light-green.lighten-5, h2.light-green.theme-list-title {
   background-color: #f1f8e9 !important; }
 
 .light-green-text.text-lighten-5 {
   color: #f1f8e9 !important; }
 
-.light-green.lighten-4, .breadcrumb-nav ol li:last-child a.light-green, .breadcrumb-nav ol li.light-green:last-child, h2.light-green.theme-list-title {
+.light-green.lighten-4, .breadcrumb-nav ol li:last-child a.light-green, .breadcrumb-nav ol li.light-green:last-child {
   background-color: #dcedc8 !important; }
 
 .light-green-text.text-lighten-4, .breadcrumb-nav ol li.light-green-text, .breadcrumb-nav ol li a.light-green-text, .breadcrumb-nav ol li.light-green-text:before {
@@ -1283,7 +1283,7 @@ th {
 .light-green-text.text-lighten-3 {
   color: #c5e1a5 !important; }
 
-.light-green.lighten-2, .light-green.error-color, .light-green.messages--error, .messages--error.messages-clone .light-green.card-content, .light-green.status-color, .light-green.messages--status, .messages--status.messages-clone .light-green.card-content, .light-green.utility-wrapper {
+.light-green.lighten-2, .light-green.error-color, .light-green.messages--error, .messages--error.messages-clone .light-green.card-content, .light-green.status-color, .light-green.messages--status, .messages--status.messages-clone .light-green.card-content, #edit-actions .light-green.button--danger, .light-green.utility-wrapper {
   background-color: #aed581 !important; }
 
 .light-green-text.text-lighten-2 {
@@ -1349,13 +1349,13 @@ th {
 .lime-text {
   color: #cddc39 !important; }
 
-.lime.lighten-5 {
+.lime.lighten-5, h2.lime.theme-list-title {
   background-color: #f9fbe7 !important; }
 
 .lime-text.text-lighten-5 {
   color: #f9fbe7 !important; }
 
-.lime.lighten-4, .breadcrumb-nav ol li:last-child a.lime, .breadcrumb-nav ol li.lime:last-child, h2.lime.theme-list-title {
+.lime.lighten-4, .breadcrumb-nav ol li:last-child a.lime, .breadcrumb-nav ol li.lime:last-child {
   background-color: #f0f4c3 !important; }
 
 .lime-text.text-lighten-4, .breadcrumb-nav ol li.lime-text, .breadcrumb-nav ol li a.lime-text, .breadcrumb-nav ol li.lime-text:before {
@@ -1367,7 +1367,7 @@ th {
 .lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
-.lime.lighten-2, .lime.error-color, .lime.messages--error, .messages--error.messages-clone .lime.card-content, .lime.status-color, .lime.messages--status, .messages--status.messages-clone .lime.card-content, .lime.utility-wrapper {
+.lime.lighten-2, .lime.error-color, .lime.messages--error, .messages--error.messages-clone .lime.card-content, .lime.status-color, .lime.messages--status, .messages--status.messages-clone .lime.card-content, #edit-actions .lime.button--danger, .lime.utility-wrapper {
   background-color: #dce775 !important; }
 
 .lime-text.text-lighten-2 {
@@ -1433,13 +1433,13 @@ th {
 .yellow-text {
   color: #ffeb3b !important; }
 
-.yellow.lighten-5, .lighten-5.warning-color, .lighten-5.messages--warning, .messages--warning.messages-clone .lighten-5.card-content, span.lighten-5.theme-status-indicator {
+.yellow.lighten-5, .lighten-5.warning-color, .lighten-5.messages--warning, h2.messages--warning.theme-list-title, .messages--warning.messages-clone .lighten-5.card-content, .messages--warning.messages-clone h2.card-content.theme-list-title, h2.warning-color.theme-list-title, h2.yellow.theme-list-title, span.lighten-5.theme-status-indicator {
   background-color: #fffde7 !important; }
 
 .yellow-text.text-lighten-5 {
   color: #fffde7 !important; }
 
-.yellow.lighten-4, .lighten-4.warning-color, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li.messages--warning:last-child, h2.messages--warning.theme-list-title, .messages--warning.messages-clone .lighten-4.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--warning.messages-clone li.card-content:last-child, .messages--warning.messages-clone h2.card-content.theme-list-title, .breadcrumb-nav ol li:last-child a.warning-color, .breadcrumb-nav ol li.warning-color:last-child, h2.warning-color.theme-list-title, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li.yellow:last-child, h2.yellow.theme-list-title, span.lighten-4.theme-status-indicator {
+.yellow.lighten-4, .lighten-4.warning-color, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li.messages--warning:last-child, .messages--warning.messages-clone .lighten-4.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--warning.messages-clone li.card-content:last-child, .breadcrumb-nav ol li:last-child a.warning-color, .breadcrumb-nav ol li.warning-color:last-child, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li.yellow:last-child, span.lighten-4.theme-status-indicator {
   background-color: #fff9c4 !important; }
 
 .yellow-text.text-lighten-4, .breadcrumb-nav ol li.yellow-text, .breadcrumb-nav ol li a.yellow-text, .breadcrumb-nav ol li.yellow-text:before {
@@ -1451,7 +1451,7 @@ th {
 .yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
-.yellow.lighten-2, .yellow.error-color, .error-color.warning-color, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .yellow.messages--error, span.messages--error.theme-status-indicator, .messages--error.messages-clone .yellow.card-content, .messages--error.messages-clone span.card-content.theme-status-indicator, span.error-color.theme-status-indicator, .lighten-2.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .yellow.status-color, .yellow.messages--status, span.messages--status.theme-status-indicator, .messages--status.messages-clone .yellow.card-content, .messages--status.messages-clone span.card-content.theme-status-indicator, span.status-color.theme-status-indicator, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, span.lighten-2.theme-status-indicator {
+.yellow.lighten-2, .yellow.error-color, .error-color.warning-color, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .yellow.messages--error, span.messages--error.theme-status-indicator, .messages--error.messages-clone .yellow.card-content, .messages--error.messages-clone span.card-content.theme-status-indicator, span.error-color.theme-status-indicator, .lighten-2.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .yellow.status-color, .yellow.messages--status, span.messages--status.theme-status-indicator, .messages--status.messages-clone .yellow.card-content, .messages--status.messages-clone span.card-content.theme-status-indicator, span.status-color.theme-status-indicator, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, span.lighten-2.theme-status-indicator {
   background-color: #fff176 !important; }
 
 .yellow-text.text-lighten-2 {
@@ -1517,13 +1517,13 @@ th {
 .amber-text {
   color: #ffc107 !important; }
 
-.amber.lighten-5 {
+.amber.lighten-5, h2.amber.theme-list-title {
   background-color: #fff8e1 !important; }
 
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important; }
 
-.amber.lighten-4, .breadcrumb-nav ol li:last-child a.amber, .breadcrumb-nav ol li.amber:last-child, h2.amber.theme-list-title {
+.amber.lighten-4, .breadcrumb-nav ol li:last-child a.amber, .breadcrumb-nav ol li.amber:last-child {
   background-color: #ffecb3 !important; }
 
 .amber-text.text-lighten-4, .breadcrumb-nav ol li.amber-text, .breadcrumb-nav ol li a.amber-text, .breadcrumb-nav ol li.amber-text:before {
@@ -1535,7 +1535,7 @@ th {
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2, .amber.error-color, .amber.messages--error, .messages--error.messages-clone .amber.card-content, .amber.status-color, .amber.messages--status, .messages--status.messages-clone .amber.card-content, .amber.utility-wrapper {
+.amber.lighten-2, .amber.error-color, .amber.messages--error, .messages--error.messages-clone .amber.card-content, .amber.status-color, .amber.messages--status, .messages--status.messages-clone .amber.card-content, #edit-actions .amber.button--danger, .amber.utility-wrapper {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
@@ -1601,13 +1601,13 @@ th {
 .orange-text {
   color: #ff9800 !important; }
 
-.orange.lighten-5 {
+.orange.lighten-5, h2.orange.theme-list-title {
   background-color: #fff3e0 !important; }
 
 .orange-text.text-lighten-5 {
   color: #fff3e0 !important; }
 
-.orange.lighten-4, .breadcrumb-nav ol li:last-child a.orange, .breadcrumb-nav ol li.orange:last-child, h2.orange.theme-list-title {
+.orange.lighten-4, .breadcrumb-nav ol li:last-child a.orange, .breadcrumb-nav ol li.orange:last-child {
   background-color: #ffe0b2 !important; }
 
 .orange-text.text-lighten-4, .breadcrumb-nav ol li.orange-text, .breadcrumb-nav ol li a.orange-text, .breadcrumb-nav ol li.orange-text:before {
@@ -1619,7 +1619,7 @@ th {
 .orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
-.orange.lighten-2, .orange.error-color, .orange.messages--error, .messages--error.messages-clone .orange.card-content, .orange.status-color, .orange.messages--status, .messages--status.messages-clone .orange.card-content, .orange.utility-wrapper {
+.orange.lighten-2, .orange.error-color, .orange.messages--error, .messages--error.messages-clone .orange.card-content, .orange.status-color, .orange.messages--status, .messages--status.messages-clone .orange.card-content, #edit-actions .orange.button--danger, .orange.utility-wrapper {
   background-color: #ffb74d !important; }
 
 .orange-text.text-lighten-2 {
@@ -1685,13 +1685,13 @@ th {
 .deep-orange-text {
   color: #ff5722 !important; }
 
-.deep-orange.lighten-5 {
+.deep-orange.lighten-5, h2.deep-orange.theme-list-title {
   background-color: #fbe9e7 !important; }
 
 .deep-orange-text.text-lighten-5 {
   color: #fbe9e7 !important; }
 
-.deep-orange.lighten-4, .breadcrumb-nav ol li:last-child a.deep-orange, .breadcrumb-nav ol li.deep-orange:last-child, h2.deep-orange.theme-list-title {
+.deep-orange.lighten-4, .breadcrumb-nav ol li:last-child a.deep-orange, .breadcrumb-nav ol li.deep-orange:last-child {
   background-color: #ffccbc !important; }
 
 .deep-orange-text.text-lighten-4, .breadcrumb-nav ol li.deep-orange-text, .breadcrumb-nav ol li a.deep-orange-text, .breadcrumb-nav ol li.deep-orange-text:before {
@@ -1703,7 +1703,7 @@ th {
 .deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
-.deep-orange.lighten-2, .deep-orange.error-color, .deep-orange.messages--error, .messages--error.messages-clone .deep-orange.card-content, .deep-orange.status-color, .deep-orange.messages--status, .messages--status.messages-clone .deep-orange.card-content, .deep-orange.utility-wrapper {
+.deep-orange.lighten-2, .deep-orange.error-color, .deep-orange.messages--error, .messages--error.messages-clone .deep-orange.card-content, .deep-orange.status-color, .deep-orange.messages--status, .messages--status.messages-clone .deep-orange.card-content, #edit-actions .deep-orange.button--danger, .deep-orange.utility-wrapper {
   background-color: #ff8a65 !important; }
 
 .deep-orange-text.text-lighten-2 {
@@ -1769,13 +1769,13 @@ th {
 .brown-text {
   color: #795548 !important; }
 
-.brown.lighten-5 {
+.brown.lighten-5, h2.brown.theme-list-title {
   background-color: #efebe9 !important; }
 
 .brown-text.text-lighten-5 {
   color: #efebe9 !important; }
 
-.brown.lighten-4, .breadcrumb-nav ol li:last-child a.brown, .breadcrumb-nav ol li.brown:last-child, h2.brown.theme-list-title {
+.brown.lighten-4, .breadcrumb-nav ol li:last-child a.brown, .breadcrumb-nav ol li.brown:last-child {
   background-color: #d7ccc8 !important; }
 
 .brown-text.text-lighten-4, .breadcrumb-nav ol li.brown-text, .breadcrumb-nav ol li a.brown-text, .breadcrumb-nav ol li.brown-text:before {
@@ -1787,7 +1787,7 @@ th {
 .brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
-.brown.lighten-2, .brown.error-color, .brown.messages--error, .messages--error.messages-clone .brown.card-content, .brown.status-color, .brown.messages--status, .messages--status.messages-clone .brown.card-content, .brown.utility-wrapper {
+.brown.lighten-2, .brown.error-color, .brown.messages--error, .messages--error.messages-clone .brown.card-content, .brown.status-color, .brown.messages--status, .messages--status.messages-clone .brown.card-content, #edit-actions .brown.button--danger, .brown.utility-wrapper {
   background-color: #a1887f !important; }
 
 .brown-text.text-lighten-2 {
@@ -1829,13 +1829,13 @@ th {
 .blue-grey-text {
   color: #607d8b !important; }
 
-.blue-grey.lighten-5 {
+.blue-grey.lighten-5, h2.blue-grey.theme-list-title {
   background-color: #eceff1 !important; }
 
 .blue-grey-text.text-lighten-5 {
   color: #eceff1 !important; }
 
-.blue-grey.lighten-4, .breadcrumb-nav ol li:last-child a.blue-grey, .breadcrumb-nav ol li.blue-grey:last-child, h2.blue-grey.theme-list-title {
+.blue-grey.lighten-4, .breadcrumb-nav ol li:last-child a.blue-grey, .breadcrumb-nav ol li.blue-grey:last-child {
   background-color: #cfd8dc !important; }
 
 .blue-grey-text.text-lighten-4, .breadcrumb-nav ol li.blue-grey-text, .breadcrumb-nav ol li a.blue-grey-text, .breadcrumb-nav ol li.blue-grey-text:before {
@@ -1847,7 +1847,7 @@ th {
 .blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2, .blue-grey.error-color, .blue-grey.messages--error, .messages--error.messages-clone .blue-grey.card-content, .blue-grey.status-color, .blue-grey.messages--status, .messages--status.messages-clone .blue-grey.card-content, .blue-grey.utility-wrapper {
+.blue-grey.lighten-2, .blue-grey.error-color, .blue-grey.messages--error, .messages--error.messages-clone .blue-grey.card-content, .blue-grey.status-color, .blue-grey.messages--status, .messages--status.messages-clone .blue-grey.card-content, #edit-actions .blue-grey.button--danger, .blue-grey.utility-wrapper {
   background-color: #90a4ae !important; }
 
 .blue-grey-text.text-lighten-2 {
@@ -1883,61 +1883,61 @@ th {
 .blue-grey-text.text-darken-4, .material_admin table.highlight > tbody > tr:hover a.blue-grey-text, .material_admin table.highlight > tbody > tr:hover button.blue-grey-text {
   color: #263238 !important; }
 
-.grey, h2.theme-list-title {
+.grey {
   background-color: #9e9e9e !important; }
 
 .grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child {
   color: #9e9e9e !important; }
 
-.grey.lighten-5, h2.lighten-5.theme-list-title {
+.grey.lighten-5, h2.grey.theme-list-title {
   background-color: #fafafa !important; }
 
 .grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child {
   color: #fafafa !important; }
 
-.grey.lighten-4, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li.grey:last-child, h2.theme-list-title {
+.grey.lighten-4, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li.grey:last-child {
   background-color: #f5f5f5 !important; }
 
 .grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before {
   color: #f5f5f5 !important; }
 
-.grey.lighten-3, h2.lighten-3.theme-list-title {
+.grey.lighten-3 {
   background-color: #eeeeee !important; }
 
 .grey-text.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child {
   color: #eeeeee !important; }
 
-.grey.lighten-2, .grey.error-color, .grey.messages--error, h2.messages--error.theme-list-title, .messages--error.messages-clone .grey.card-content, .messages--error.messages-clone h2.card-content.theme-list-title, h2.error-color.theme-list-title, .grey.status-color, .grey.messages--status, h2.messages--status.theme-list-title, .messages--status.messages-clone .grey.card-content, .messages--status.messages-clone h2.card-content.theme-list-title, h2.status-color.theme-list-title, .grey.utility-wrapper, h2.utility-wrapper.theme-list-title, h2.lighten-2.theme-list-title {
+.grey.lighten-2, .grey.error-color, .grey.messages--error, .messages--error.messages-clone .grey.card-content, .grey.status-color, .grey.messages--status, .messages--status.messages-clone .grey.card-content, #edit-actions .grey.button--danger, .grey.utility-wrapper {
   background-color: #e0e0e0 !important; }
 
 .grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1, h2.lighten-1.theme-list-title {
+.grey.lighten-1 {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child {
   color: #bdbdbd !important; }
 
-.grey.darken-1, h2.darken-1.theme-list-title {
+.grey.darken-1 {
   background-color: #757575 !important; }
 
 .grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child {
   color: #757575 !important; }
 
-.grey.darken-2, .grey.warning-color, .grey.messages--warning, h2.messages--warning.theme-list-title, .messages--warning.messages-clone .grey.card-content, .messages--warning.messages-clone h2.card-content.theme-list-title, h2.warning-color.theme-list-title, h2.darken-2.theme-list-title {
+.grey.darken-2, .grey.warning-color, .grey.messages--warning, .messages--warning.messages-clone .grey.card-content {
   background-color: #616161 !important; }
 
 .grey-text.text-darken-2, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:last-child {
   color: #616161 !important; }
 
-.grey.darken-3, h2.darken-3.theme-list-title {
+.grey.darken-3 {
   background-color: #424242 !important; }
 
 .grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child {
   color: #424242 !important; }
 
-.grey.darken-4, h2.darken-4.theme-list-title {
+.grey.darken-4 {
   background-color: #212121 !important; }
 
 .grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li:last-child .material_admin table.highlight > tbody > tr:hover a, .material_admin table.highlight > tbody > tr:hover .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.text-darken-4:last-child, .material_admin table.highlight > tbody > tr:hover a.grey-text, .material_admin table.highlight > tbody > tr:hover button.grey-text {
@@ -3252,6 +3252,7 @@ input[type=range] + .thumb {
 
 .btn, .btn-large, .button-action, input.button, .dropbutton-wrapper.dropbutton-single .edit a,
 .btn-flat,
+#edit-actions .button--danger,
 .dropbutton-wrapper.dropbutton-single .edit a {
   border: none;
   border-radius: 2px;
@@ -3267,6 +3268,7 @@ input[type=range] + .thumb {
 .btn-floating.disabled,
 .btn-large.disabled,
 .btn-flat.disabled,
+#edit-actions .disabled.button--danger,
 .dropbutton-wrapper.dropbutton-single .edit a.disabled,
 .btn:disabled,
 .btn-large:disabled,
@@ -3276,6 +3278,7 @@ input.button:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 .btn-flat:disabled,
+#edit-actions .button--danger:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a:disabled,
 .btn[disabled],
 [disabled].btn-large,
@@ -3285,6 +3288,7 @@ input[disabled].button,
 .btn-floating[disabled],
 .btn-large[disabled],
 .btn-flat[disabled],
+#edit-actions [disabled].button--danger,
 .dropbutton-wrapper.dropbutton-single .edit a[disabled] {
   pointer-events: none;
   background-color: #DFDFDF !important;
@@ -3295,6 +3299,7 @@ input[disabled].button,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   .btn-flat.disabled:hover,
+  #edit-actions .disabled.button--danger:hover,
   .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
@@ -3304,6 +3309,7 @@ input[disabled].button,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
+  #edit-actions .button--danger:disabled:hover,
   .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
@@ -3313,6 +3319,7 @@ input[disabled].button,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   .btn-flat[disabled]:hover,
+  #edit-actions [disabled].button--danger:hover,
   .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
@@ -3321,12 +3328,13 @@ input[disabled].button,
 .btn-floating,
 .btn-large,
 .btn-flat,
+#edit-actions .button--danger,
 .dropbutton-wrapper.dropbutton-single .edit a {
   outline: 0; }
   .btn i, .btn-large i, .button-action i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i,
   .btn-floating i,
   .btn-large i,
-  .btn-flat i, .dropbutton-wrapper.dropbutton-single .edit a i {
+  .btn-flat i, #edit-actions .button--danger i, .dropbutton-wrapper.dropbutton-single .edit a i {
     font-size: 1.3rem;
     line-height: inherit; }
 
@@ -3458,20 +3466,20 @@ button.btn-floating {
     -ms-transform: scale(0);
         transform: scale(0); }
 
-.btn-flat, .dropbutton-wrapper.dropbutton-single .edit a {
+.btn-flat, #edit-actions .button--danger, .dropbutton-wrapper.dropbutton-single .edit a {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  .btn-flat:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:focus, #edit-actions .button--danger:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, #edit-actions .button--danger:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: transparent; }
-  .btn-flat:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
+  .btn-flat:focus, #edit-actions .button--danger:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, #edit-actions .button--danger:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
-  .btn-flat:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:active, #edit-actions .button--danger:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: rgba(0, 0, 0, 0.2); }
-  .btn-flat.disabled, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
+  .btn-flat.disabled, #edit-actions .disabled.button--danger, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
@@ -4647,7 +4655,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 4px 6px;
     height: 56px;
     width: 100%; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
       float: right;
       margin: 6px 0; }
 
@@ -4686,6 +4694,38 @@ input[type=range]:focus::-ms-fill-upper {
   max-height: 45%;
   border-radius: 0;
   will-change: bottom, opacity; }
+
+.material-tooltip {
+  padding: 10px 8px;
+  font-size: 1rem;
+  z-index: 2000;
+  background-color: transparent;
+  border-radius: 2px;
+  color: #fff;
+  min-height: 36px;
+  line-height: 120%;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  text-align: center;
+  max-width: calc(100% - 4px);
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  pointer-events: none; }
+
+.backdrop {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  height: 7px;
+  width: 14px;
+  border-radius: 0 0 50% 50%;
+  background-color: #323232;
+  z-index: -1;
+  -ms-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+  transform: translate3d(0, 0, 0); }
 
 #toast-container {
   display: block;
@@ -4729,7 +4769,7 @@ input[type=range]:focus::-ms-fill-upper {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between; }
-  .toast .btn, .toast .btn-large, .toast .button-action, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .btn-flat, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
+  .toast .btn, .toast .btn-large, .toast .button-action, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .btn-flat, .toast #edit-actions .button--danger, #edit-actions .toast .button--danger, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
@@ -7283,8 +7323,10 @@ a.button:hover {
 .action-links {
   margin-bottom: 2rem; }
 
-input.btn-default {
+#edit-actions {
   margin-top: 1rem; }
+  #edit-actions .button {
+    margin: 10px 10px 10px 0; }
 
 a.tabledrag-handle .handle {
   width: 30px;

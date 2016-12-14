@@ -29,8 +29,15 @@ input[type=checkbox] {
     @extend .filled-in;
 }
 
-input.btn-default {
-    margin-top: 1rem;
+#edit-actions {
+    margin-top:1rem;
+    .button {
+        margin:10px 10px 10px 0;
+    }
+    .button--danger {
+        @extend .btn-flat;
+        @extend .red-text, .lighten-2
+    }
 }
 
 a.tabledrag-handle {

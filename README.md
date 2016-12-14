@@ -8,3 +8,6 @@ Material Design Inspired Admin Theme
 - [ ] view UI
 - [ ] form styling defaults
 - [x] Status Message
+- [x] Theme Select page
+- [ ] Node add
+- [ ] jqueryUI Dialog Theme & Enhancements

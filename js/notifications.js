@@ -13,10 +13,10 @@
   // @ToDo make this default configurable in theme settings
   var maxMessageLength = '88';
 
-  Drupal.behaviors.material_admin = {
+  Drupal.behaviors.material_notification = {
     attach: function (context, settings) {
       var messages = $('div.messages');
-      messages.once('material_admin').each(function () {
+      messages.once('material_notification').each(function () {
         messageMax = maxMessageLength;
         messageContent = $(this).find('.message-content');
 

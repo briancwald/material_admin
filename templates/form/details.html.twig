@@ -14,17 +14,20 @@
  * @see template_preprocess_details()
  */
 #}
-<details{{ attributes }}>
+  <ul class="collapsible" data-collapsible="expandable">
   {%- if title -%}
     {%
       set summary_classes = [
         required ? 'js-form-required',
         required ? 'form-required',
+        'collapsible-header',
+
       ]
     %}
-    <summary{{ summary_attributes.addClass(summary_classes) }}>{{ title }}</summary>
+    <li>
+    <div{{ summary_attributes.addClass(summary_classes) }}>{{ title }}</div>
   {%- endif -%}
-  <div class="details-wrapper">
+  <div class="details-wrapper collapsible-body">
     {% if errors %}
       <div class="form-item--error-message">
         <strong>{{ errors }}</strong>
@@ -40,4 +43,5 @@
       {{ value }}
     {%- endif -%}
   </div>
-</details>
+</li>
+</ul>
