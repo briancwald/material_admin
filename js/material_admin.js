@@ -8,7 +8,11 @@
 
   $(document).ready(function () {
     // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-    $.each($(':checkbox:not(.item-switch)', 'select'), function (k, v) {
+    $.each($(':checkbox:not(.item-switch)'), function (k, v) {
+      var label = $('label[for="' + this.id + '"]');
+      $(this).insertBefore(label);
+    });
+    $.each($(':select'), function (k, v) {
       var label = $('label[for="' + this.id + '"]');
       $(this).insertBefore(label);
     });
