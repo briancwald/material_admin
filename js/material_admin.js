@@ -24,8 +24,7 @@
       $('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
   }
-
-
+  
   //trigger modals
   $(document).ready(function () {
     $('.modal').modal({
@@ -33,7 +32,6 @@
       opacity: 0.5,
       in_duration: 200,
       out_duration: 200,
-      //complete: function () { $('.message-trigger .badge').removeClass('new red'); } // Since they have been read, remove the styling of new
     });
 
   });

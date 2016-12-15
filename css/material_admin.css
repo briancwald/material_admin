@@ -7243,7 +7243,7 @@ body {
   margin: 0 10px 0 0px;
   -webkit-font-smoothing: antialiased; }
 
-.fa-standard, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before {
+.fa-standard, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before {
   vertical-align: top;
   display: inline-block;
   font-family: 'FontAwesome';
@@ -7493,3 +7493,13 @@ span.theme-status-indicator {
   opacity: 0.7;
   padding: 5px 10px;
   z-index: 2; }
+
+.details-item .collapsible-header:before {
+  content: "";
+  padding-right: 5px; }
+
+.details-item .collapsible-header.active:before {
+  content: ""; }
+
+.details-item .collapsible-body {
+  padding: 15px; }

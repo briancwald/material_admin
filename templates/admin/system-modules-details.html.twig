@@ -35,11 +35,7 @@
       {% set zebra = cycle(['odd', 'even'], loop.index0) %}
       <tr{{ module.attributes.addClass(zebra) }}>
         <td class="checkbox">
-
        {{ module.checkbox }}
-  </div>
-
-        
         </td>
         <td class="module">
           <label id="{{ module.id }}" for="{{ module.enable_id }}" class="module-name table-filter-text-source">{{ module.name }}</label>

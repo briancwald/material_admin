@@ -117,7 +117,7 @@ a.modal-trigger {
     text-transform: uppercase;
     text-decoration: none;
     padding-left: 10px;
-    color:$black;
+    color: $black;
     &:hover {
         color: $medium-gray;
     }
@@ -227,7 +227,7 @@ a.modal-trigger {
 }
 
 table {
-    margin:20px 0;
+    margin: 20px 0;
 }
 
 //table dropdown
@@ -241,16 +241,34 @@ table {
 }
 
 h2.theme-list-title {
-    padding:2rem;
+    padding: 2rem;
     @extend .blue, .lighten-5;
 }
 
 span.theme-status-indicator {
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     @extend .yellow;
     opacity: 0.7;
-    padding:5px 10px;
-    z-index:2;
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+.details-item {
+    .collapsible-header {
+        &:before {
+            @extend .fa-standard;
+            content: $fa-var-chevron-right;
+            padding-right:5px;
+        }
+        &.active {
+            &:before {
+                content: $fa-var-chevron-down;
+            }
+        }
+    }
+    .collapsible-body {
+        padding:15px;
+    }
 }

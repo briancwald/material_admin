@@ -18,6 +18,13 @@ stylesheets-remove:
   - '@classy/css/components/form.css'
   - '@stable/css/system/system.admin.css'
 
+#swap out system modules js to accomidate for additional markup
+libraries-override:
+  system/drupal.system.modules:
+    js:
+      js/system.modules.js: js/system.modules.js
+        
+
 regions:
   header: 'Header'
   status: 'Status area'
