@@ -7261,6 +7261,8 @@ body {
 .row {
   padding: 20px;
   margin: 0; }
+  .row .row {
+    padding: 0; }
 
 .region-status .row {
   padding: 0; }
@@ -7316,6 +7318,9 @@ a.button:hover {
 .form--inline .input-field {
   display: block;
   width: 100%; }
+
+.form-item .form-required:after {
+  content: " *"; }
 
 .input-field.js-form-type-checkbox label {
   top: 0; }

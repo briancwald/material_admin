@@ -12,10 +12,6 @@
       var label = $('label[for="' + this.id + '"]');
       $(this).insertBefore(label);
     });
-    $.each($(':select'), function (k, v) {
-      var label = $('label[for="' + this.id + '"]');
-      $(this).insertBefore(label);
-    });
   });
 
   //trigger select boxes to be replaced with li for better styling
@@ -28,7 +24,7 @@
       $('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
   }
-  
+
   //trigger modals
   $(document).ready(function () {
     $('.modal').modal({

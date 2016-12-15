@@ -67,6 +67,7 @@ body {
 .row {
     padding: 20px;
     margin: 0;
+    .row {padding:0;}
 }
 
 .region-status {
