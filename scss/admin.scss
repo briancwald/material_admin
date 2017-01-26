@@ -132,6 +132,10 @@ a.modal-trigger {
         margin: 0;
         padding: 20px;
     }
+     .collection-item {
+        padding-top:10px;
+        padding-bottom:10px;
+     }
 }
 
 #notification-wrapper {
@@ -186,16 +190,29 @@ a.modal-trigger {
         background-color: transparent!important;
     }
     table.highlight > tbody > tr:hover {
-        background: $light-gray;
-        color: $white;
+        @extend .teal, .lighten-5;
+        color: $black;
         a, button {
-            @extend .blue-text, .text-darken-4;
             cursor: pointer;
         }
     }
     table.highlight > tbody > tr.selected {
-        background: $highlight;
-        color: $black;
+        @extend .teal, .lighten-3;
+        @extend .white-text;
+        a {
+            @extend .white-text;
+            text-decoration: underline;
+        }
+        .dropbutton-widget li {
+            @extend .black-text;
+            a {
+                @extend .black-text;
+                text-decoration: none;
+            }
+        }
+        td {
+           @extend .teal, .lighten-3;
+        }
     }
     .pager__item {
         padding: 0;
@@ -237,6 +254,12 @@ table {
             @extend .btn;
             @extend .btn-flat;
         }
+    }
+}
+
+.tabledrag-toggle-weight-wrapper {
+    .tabledrag-toggle-weight {
+        @extend .button-link;
     }
 }
 

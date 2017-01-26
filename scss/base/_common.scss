@@ -15,6 +15,10 @@ body {
     font-family: $body-font-family;
 }
 
+td {
+    padding:15px;
+}
+
 .error-color {
     @extend .red, .lighten-2;
 }
@@ -43,6 +47,14 @@ body {
         margin: 0 10px 0 0px;
         -webkit-font-smoothing: antialiased;
     }
+}
+
+// buttons that appear as flat links
+.button-link {
+    @extend .btn;
+    @extend .btn-flat;
+    @extend .waves-effect;
+    @extend .waves-light;
 }
 
 .fa-standard {
@@ -88,6 +100,8 @@ nav {
 
 .action-links li {
     list-style: none;
+    display:inline-block;
+    padding:0 10px;
 }
 
 a {

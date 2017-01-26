@@ -26,7 +26,10 @@ gulp.task('concat', function() {
 gulp.task('sass', function() {
   return gulp.src('scss/material_admin.scss')
     .pipe($.sass({
-      includePaths: sassPaths
+      sourceComments: 'map',
+      sourceMap: 'sass',
+      includePaths: sassPaths,
+      outputStyle: 'nested'
     })
       .on('error', $.sass.logError))
     .pipe($.autoprefixer({
