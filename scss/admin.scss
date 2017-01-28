@@ -295,3 +295,16 @@ span.theme-status-indicator {
         padding:15px;
     }
 }
+
+#block-material-admin-page-title h1.page-title {
+    em {
+        text-transform: uppercase;
+        font-size:.7em;
+        @extend .grey-text, .text-lighten-3;
+        font-style:normal;
+        vertical-align: text-bottom;
+        &:after {
+            content: ":";
+        }
+    }
+}
