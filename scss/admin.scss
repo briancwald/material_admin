@@ -109,6 +109,7 @@ header.header-wrapper {
         display: none;
         border-radius: 50%;
         font-size: 0.9rem;
+        padding:2px 5px;
     }
 }
 
@@ -132,10 +133,10 @@ a.modal-trigger {
         margin: 0;
         padding: 20px;
     }
-     .collection-item {
-        padding-top:10px;
-        padding-bottom:10px;
-     }
+    .collection-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 #notification-wrapper {
@@ -197,7 +198,7 @@ a.modal-trigger {
         }
     }
     table.highlight > tbody > tr.selected {
-        @extend .teal, .lighten-3;
+        @extend .teal, .lighten-4;
         @extend .white-text;
         a {
             @extend .white-text;
@@ -211,7 +212,7 @@ a.modal-trigger {
             }
         }
         td {
-           @extend .teal, .lighten-3;
+            @extend .teal, .lighten-3;
         }
     }
     .pager__item {
@@ -263,6 +264,12 @@ table {
     }
 }
 
+.compact-link {
+    a {
+        @extend .button-link;
+    }
+}
+
 h2.theme-list-title {
     padding: 2rem;
     @extend .blue, .lighten-5;
@@ -283,7 +290,7 @@ span.theme-status-indicator {
         &:before {
             @extend .fa-standard;
             content: $fa-var-chevron-right;
-            padding-right:5px;
+            padding-right: 5px;
         }
         &.active {
             &:before {
@@ -292,19 +299,68 @@ span.theme-status-indicator {
         }
     }
     .collapsible-body {
-        padding:15px;
+        padding: 15px;
     }
 }
 
 #block-material-admin-page-title h1.page-title {
     em {
         text-transform: uppercase;
-        font-size:.7em;
+        font-size: .7em;
         @extend .grey-text, .text-lighten-3;
-        font-style:normal;
+        font-style: normal;
         vertical-align: text-bottom;
         &:after {
             content: ":";
         }
     }
 }
+
+table .region-title {
+    @extend .blue, .lighten-5;
+    @extend .grey-text;
+    font-weight: normal;
+}
+
+table td {
+    font-weight:200;
+}
+
+table thead th {
+    @extend .grey-text;
+    font-weight: normal;
+}
+
+.tablesort {
+    &.tablesort--asc {
+        background-image: none;
+        &:after {
+            @extend .fa-standard;
+            content: $fa-var-arrow-down;
+        }
+    }
+    &.tablesort--desc {
+        background-image:none;
+        &:after {
+            @extend .fa-standard;
+            content: $fa-var-arrow-up;
+        }
+    }
+}
+
+tr.drag-previous {
+    @extend .yellow, .lighten-5;
+    border-bottom:2px dashed $highlight;
+    border-top:2px dashed $highlight;
+}
+
+tr.drag {
+    @extend .yellow, .lighten-4;
+    border-bottom:1px dashed $medium-gray;
+    border-top:1px dashed $medium-gray;
+}
+
+.tabledrag-changed-warning {
+    padding:10px;
+}
+

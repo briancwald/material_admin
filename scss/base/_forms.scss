@@ -30,6 +30,7 @@
 }
 
 .form-item {
+    padding:10px 0;
     .form-required {
         &:after {
             content: " *";

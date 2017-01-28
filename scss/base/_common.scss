@@ -152,3 +152,8 @@ a.button {
 .views-field-node-bulk-form {
     padding-left: 10px;
 }
+
+.button--small {
+    @extend .btn-flat;
+    font-size:.8em;
+}
