@@ -13,6 +13,7 @@ notifications:
   version: VERSION
   js:
     js/notifications.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal
+date_and_time:
+  version: VERSION
+  js:
+    js/date-time-picker.js: {}

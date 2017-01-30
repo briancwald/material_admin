@@ -128,6 +128,19 @@ fieldset.form-item {
     }
 }
 
+.container-inline .form-type-date div {
+    display:block;
+
+}
+
+.form-type-date input.form-date {
+    min-width: 175px;
+}
+
+.container-inline .form-item {
+    padding-right:10px;
+}
+
 .entity-meta__author h4 {
     &:before {
         content: $fa-var-user;

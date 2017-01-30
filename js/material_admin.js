@@ -6,19 +6,19 @@
 
 (function ($, Drupal) {
 
-      $(document).ready(function () {
-        // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-        $.each($(':checkbox:not(.item-switch), select'), function (k, v) {
-          var label = $('label[for="' + this.id + '"]');
-          $(this).insertBefore(label);
-        });
-      });
+  $(document).ready(function () {
+    // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
+    $.each($(':checkbox:not(.item-switch), select'), function (k, v) {
+      var label = $('label[for="' + this.id + '"]');
+      $(this).insertBefore(label);
+    });
+  });
 
   //trigger select boxes to be replaced with li for better styling
 
-      $(document).ready(function () {
-        $('select').material_select();
-      });
+  $(document).ready(function () {
+    $('select').material_select();
+  });
 
 
   Drupal.behaviors.material_tooltip = {

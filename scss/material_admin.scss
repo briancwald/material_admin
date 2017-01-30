@@ -6,30 +6,37 @@
 // Make sure the charset is set appropriately
 @charset 'utf-8';
 
-@import "components/normalize";
+@import "materialize-css/sass/components/normalize";
 
 //import materialize components
 //@import "components/mixins";
-@import "components/color";
+@import "materialize-css/sass/components/color";
 
 // Variables;
-@import "components/variables";
+@import "materialize-css/sass/components/variables";
 
 
 // components
-@import "components/typography";
-@import "components/global";
-@import "components/grid";
-@import "components/collapsible";
-@import "components/tabs";
-@import "components/buttons";
-@import "components/forms/forms";
-@import "components/waves";
-@import "components/dropdown";
-@import "components/modal";
-@import "components/tooltip";
-@import "components/toast";
-@import "components/cards";
+@import "materialize-css/sass/components/typography";
+@import "materialize-css/sass/components/global";
+@import "materialize-css/sass/components/grid";
+@import "materialize-css/sass/components/collapsible";
+@import "materialize-css/sass/components/tabs";
+@import "materialize-css/sass/components/buttons";
+@import "materialize-css/sass/components/forms/forms";
+@import "materialize-css/sass/components/waves";
+@import "materialize-css/sass/components/dropdown";
+@import "materialize-css/sass/components/modal";
+@import "materialize-css/sass/components/tooltip";
+@import "materialize-css/sass/components/toast";
+@import "materialize-css/sass/components/cards";
+@import "materialize-css/sass/components/date_picker/default";
+@import "materialize-css/sass/components/date_picker/default.date";
+
+//timepicker
+@import "materialize-clockpicker/src/sass/components/variables";
+@import "materialize-clockpicker/src/sass/components/primary";
+
 //This is your _settings.scss file where you can override foundation variables. 
 @import 'settings';
 
