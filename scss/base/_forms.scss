@@ -95,3 +95,41 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
         }
     }
 }
+
+//instead of replacing the collapsible with materialize which can cause issues with drupal AJAX, style the default details
+details.form-wrapper {
+    @extend .collapsible;
+    summary {
+        @extend .collapsible-header;
+    }
+    .details-wrapper {
+        padding:2rem;
+    }
+}
+
+fieldset.form-item {
+    padding:2rem;
+}
+
+.entity-meta__last-saved h4, .entity-meta__author h4{
+    font-size:1rem;
+    font-weight:bold;
+    &:before {
+        padding-right:10px;
+        @extend .fa-standard;
+        vertical-align: baseline;
+    }
+}
+
+.entity-meta__last-saved h4 {
+    &:before {
+        content: $fa-var-calendar;
+        
+    }
+}
+
+.entity-meta__author h4 {
+    &:before {
+        content: $fa-var-user;
+    }
+}

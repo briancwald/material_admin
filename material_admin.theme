@@ -179,7 +179,7 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
     ),
     'author' => array(
       '#type' => 'item',
-      '#wrapper_attributes' => array('class' => array('author', 'container-inline')),
+      '#wrapper_attributes' => array('class' => array('entity-meta__author', 'container-inline')),
       '#markup' => '<h4 class="label inline">' . t('Author') . '</h4> ' . $node->getOwner()->getUsername(),
     ),
   );

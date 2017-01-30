@@ -420,7 +420,7 @@ th {
   background-color: #f8c1c3 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red-text.text-lighten-4, .breadcrumb-nav ol li.materialize-red-text, .breadcrumb-nav ol li a.materialize-red-text, .breadcrumb-nav ol li.materialize-red-text:before {
+.materialize-red-text.text-lighten-4, .breadcrumb-nav ol li.materialize-red-text, .breadcrumb-nav ol li a.materialize-red-text, .breadcrumb-nav ol li.materialize-red-text:before, #block-material-admin-page-title h1.page-title em.materialize-red-text {
   color: #f8c1c3 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -428,7 +428,7 @@ th {
   background-color: #f3989b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.materialize-red-text {
+.materialize-red-text.text-lighten-3 {
   color: #f3989b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -500,7 +500,7 @@ th {
   background-color: #FFCDD2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-4, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before {
+.red-text.text-lighten-4, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before, #block-material-admin-page-title h1.page-title em.red-text {
   color: #FFCDD2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -508,7 +508,7 @@ th {
   background-color: #EF9A9A !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-3, #edit-actions .text-lighten-3.button--danger, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, #block-material-admin-page-title h1.page-title em.red-text {
+.red-text.text-lighten-3, #edit-actions .text-lighten-3.button--danger {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -612,7 +612,7 @@ th {
   background-color: #f8bbd0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.pink-text.text-lighten-4, .breadcrumb-nav ol li.pink-text, .breadcrumb-nav ol li a.pink-text, .breadcrumb-nav ol li.pink-text:before {
+.pink-text.text-lighten-4, .breadcrumb-nav ol li.pink-text, .breadcrumb-nav ol li a.pink-text, .breadcrumb-nav ol li.pink-text:before, #block-material-admin-page-title h1.page-title em.pink-text {
   color: #f8bbd0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -620,7 +620,7 @@ th {
   background-color: #f48fb1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.pink-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.pink-text {
+.pink-text.text-lighten-3 {
   color: #f48fb1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -724,7 +724,7 @@ th {
   background-color: #e1bee7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.purple-text.text-lighten-4, .breadcrumb-nav ol li.purple-text, .breadcrumb-nav ol li a.purple-text, .breadcrumb-nav ol li.purple-text:before {
+.purple-text.text-lighten-4, .breadcrumb-nav ol li.purple-text, .breadcrumb-nav ol li a.purple-text, .breadcrumb-nav ol li.purple-text:before, #block-material-admin-page-title h1.page-title em.purple-text {
   color: #e1bee7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -732,7 +732,7 @@ th {
   background-color: #ce93d8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.purple-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.purple-text {
+.purple-text.text-lighten-3 {
   color: #ce93d8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -836,7 +836,7 @@ th {
   background-color: #d1c4e9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple-text.text-lighten-4, .breadcrumb-nav ol li.deep-purple-text, .breadcrumb-nav ol li a.deep-purple-text, .breadcrumb-nav ol li.deep-purple-text:before {
+.deep-purple-text.text-lighten-4, .breadcrumb-nav ol li.deep-purple-text, .breadcrumb-nav ol li a.deep-purple-text, .breadcrumb-nav ol li.deep-purple-text:before, #block-material-admin-page-title h1.page-title em.deep-purple-text {
   color: #d1c4e9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -844,7 +844,7 @@ th {
   background-color: #b39ddb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.deep-purple-text {
+.deep-purple-text.text-lighten-3 {
   color: #b39ddb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -948,7 +948,7 @@ th {
   background-color: #c5cae9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.indigo-text.text-lighten-4, .breadcrumb-nav ol li.indigo-text, .breadcrumb-nav ol li a.indigo-text, .breadcrumb-nav ol li.indigo-text:before {
+.indigo-text.text-lighten-4, .breadcrumb-nav ol li.indigo-text, .breadcrumb-nav ol li a.indigo-text, .breadcrumb-nav ol li.indigo-text:before, #block-material-admin-page-title h1.page-title em.indigo-text {
   color: #c5cae9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -956,7 +956,7 @@ th {
   background-color: #9fa8da !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.indigo-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.indigo-text {
+.indigo-text.text-lighten-3 {
   color: #9fa8da !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1044,7 +1044,7 @@ th {
   background-color: #2196F3 !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before {
+.blue-text, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, #block-material-admin-page-title h1.page-title em {
   color: #2196F3 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1052,7 +1052,7 @@ th {
   background-color: #E3F2FD !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before {
+.blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before, #block-material-admin-page-title h1.page-title em.text-lighten-5 {
   color: #E3F2FD !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1060,7 +1060,7 @@ th {
   background-color: #BBDEFB !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-4, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before {
+.blue-text.text-lighten-4, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li:before, #block-material-admin-page-title h1.page-title em {
   color: #BBDEFB !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1068,7 +1068,7 @@ th {
   background-color: #90CAF9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, #block-material-admin-page-title h1.page-title em.blue-text {
+.blue-text.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, #block-material-admin-page-title h1.page-title em.text-lighten-3 {
   color: #90CAF9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1076,7 +1076,7 @@ th {
   background-color: #64B5F6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before {
+.blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before, #block-material-admin-page-title h1.page-title em.text-lighten-2 {
   color: #64B5F6 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1084,7 +1084,7 @@ th {
   background-color: #42A5F5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before {
+.blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before, #block-material-admin-page-title h1.page-title em.text-lighten-1 {
   color: #42A5F5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1092,7 +1092,7 @@ th {
   background-color: #1E88E5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before {
+.blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before, #block-material-admin-page-title h1.page-title em.text-darken-1 {
   color: #1E88E5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1100,7 +1100,7 @@ th {
   background-color: #1976D2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-darken-2, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before {
+.blue-text.text-darken-2, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before, #block-material-admin-page-title h1.page-title em.text-darken-2 {
   color: #1976D2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1108,7 +1108,7 @@ th {
   background-color: #1565C0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-darken-3, .breadcrumb-nav ol li.text-darken-3, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before {
+.blue-text.text-darken-3, .breadcrumb-nav ol li.text-darken-3, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before, #block-material-admin-page-title h1.page-title em.text-darken-3 {
   color: #1565C0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1116,7 +1116,7 @@ th {
   background-color: #0D47A1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before {
+.blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before, #block-material-admin-page-title h1.page-title em.text-darken-4 {
   color: #0D47A1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1124,7 +1124,7 @@ th {
   background-color: #82B1FF !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before {
+.blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before, #block-material-admin-page-title h1.page-title em.text-accent-1 {
   color: #82B1FF !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1132,7 +1132,7 @@ th {
   background-color: #448AFF !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before {
+.blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before, #block-material-admin-page-title h1.page-title em.text-accent-2 {
   color: #448AFF !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1140,7 +1140,7 @@ th {
   background-color: #2979FF !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before {
+.blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before, #block-material-admin-page-title h1.page-title em.text-accent-3 {
   color: #2979FF !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1148,7 +1148,7 @@ th {
   background-color: #2962FF !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before {
+.blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before, #block-material-admin-page-title h1.page-title em.text-accent-4 {
   color: #2962FF !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
@@ -1172,7 +1172,7 @@ th {
   background-color: #b3e5fc !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue-text.text-lighten-4, .breadcrumb-nav ol li.light-blue-text, .breadcrumb-nav ol li a.light-blue-text, .breadcrumb-nav ol li.light-blue-text:before {
+.light-blue-text.text-lighten-4, .breadcrumb-nav ol li.light-blue-text, .breadcrumb-nav ol li a.light-blue-text, .breadcrumb-nav ol li.light-blue-text:before, #block-material-admin-page-title h1.page-title em.light-blue-text {
   color: #b3e5fc !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1180,7 +1180,7 @@ th {
   background-color: #81d4fa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.light-blue-text {
+.light-blue-text.text-lighten-3 {
   color: #81d4fa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1284,7 +1284,7 @@ th {
   background-color: #b2ebf2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.cyan-text.text-lighten-4, .breadcrumb-nav ol li.cyan-text, .breadcrumb-nav ol li a.cyan-text, .breadcrumb-nav ol li.cyan-text:before {
+.cyan-text.text-lighten-4, .breadcrumb-nav ol li.cyan-text, .breadcrumb-nav ol li a.cyan-text, .breadcrumb-nav ol li.cyan-text:before, #block-material-admin-page-title h1.page-title em.cyan-text {
   color: #b2ebf2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1292,7 +1292,7 @@ th {
   background-color: #80deea !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.cyan-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.cyan-text {
+.cyan-text.text-lighten-3 {
   color: #80deea !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1396,7 +1396,7 @@ th {
   background-color: #b2dfdb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.teal-text.text-lighten-4, .breadcrumb-nav ol li.teal-text, .breadcrumb-nav ol li a.teal-text, .breadcrumb-nav ol li.teal-text:before {
+.teal-text.text-lighten-4, .breadcrumb-nav ol li.teal-text, .breadcrumb-nav ol li a.teal-text, .breadcrumb-nav ol li.teal-text:before, #block-material-admin-page-title h1.page-title em.teal-text {
   color: #b2dfdb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1404,7 +1404,7 @@ th {
   background-color: #80cbc4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.teal-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.teal-text {
+.teal-text.text-lighten-3 {
   color: #80cbc4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1508,7 +1508,7 @@ th {
   background-color: #C8E6C9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.green-text.text-lighten-4, .breadcrumb-nav ol li.green-text, .breadcrumb-nav ol li a.green-text, .breadcrumb-nav ol li.green-text:before {
+.green-text.text-lighten-4, .breadcrumb-nav ol li.green-text, .breadcrumb-nav ol li a.green-text, .breadcrumb-nav ol li.green-text:before, #block-material-admin-page-title h1.page-title em.green-text {
   color: #C8E6C9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1516,7 +1516,7 @@ th {
   background-color: #A5D6A7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.green-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.green-text {
+.green-text.text-lighten-3 {
   color: #A5D6A7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1620,7 +1620,7 @@ th {
   background-color: #dcedc8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-green-text.text-lighten-4, .breadcrumb-nav ol li.light-green-text, .breadcrumb-nav ol li a.light-green-text, .breadcrumb-nav ol li.light-green-text:before {
+.light-green-text.text-lighten-4, .breadcrumb-nav ol li.light-green-text, .breadcrumb-nav ol li a.light-green-text, .breadcrumb-nav ol li.light-green-text:before, #block-material-admin-page-title h1.page-title em.light-green-text {
   color: #dcedc8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1628,7 +1628,7 @@ th {
   background-color: #c5e1a5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-green-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.light-green-text {
+.light-green-text.text-lighten-3 {
   color: #c5e1a5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1732,7 +1732,7 @@ th {
   background-color: #f0f4c3 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.lime-text.text-lighten-4, .breadcrumb-nav ol li.lime-text, .breadcrumb-nav ol li a.lime-text, .breadcrumb-nav ol li.lime-text:before {
+.lime-text.text-lighten-4, .breadcrumb-nav ol li.lime-text, .breadcrumb-nav ol li a.lime-text, .breadcrumb-nav ol li.lime-text:before, #block-material-admin-page-title h1.page-title em.lime-text {
   color: #f0f4c3 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1740,7 +1740,7 @@ th {
   background-color: #e6ee9c !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.lime-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.lime-text {
+.lime-text.text-lighten-3 {
   color: #e6ee9c !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1844,7 +1844,7 @@ th {
   background-color: #fff9c4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.yellow-text.text-lighten-4, .breadcrumb-nav ol li.yellow-text, .breadcrumb-nav ol li a.yellow-text, .breadcrumb-nav ol li.yellow-text:before {
+.yellow-text.text-lighten-4, .breadcrumb-nav ol li.yellow-text, .breadcrumb-nav ol li a.yellow-text, .breadcrumb-nav ol li.yellow-text:before, #block-material-admin-page-title h1.page-title em.yellow-text {
   color: #fff9c4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1852,7 +1852,7 @@ th {
   background-color: #fff59d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.yellow-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.yellow-text {
+.yellow-text.text-lighten-3 {
   color: #fff59d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1956,7 +1956,7 @@ th {
   background-color: #ffecb3 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.amber-text.text-lighten-4, .breadcrumb-nav ol li.amber-text, .breadcrumb-nav ol li a.amber-text, .breadcrumb-nav ol li.amber-text:before {
+.amber-text.text-lighten-4, .breadcrumb-nav ol li.amber-text, .breadcrumb-nav ol li a.amber-text, .breadcrumb-nav ol li.amber-text:before, #block-material-admin-page-title h1.page-title em.amber-text {
   color: #ffecb3 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1964,7 +1964,7 @@ th {
   background-color: #ffe082 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.amber-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.amber-text {
+.amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2068,7 +2068,7 @@ th {
   background-color: #ffe0b2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.orange-text.text-lighten-4, .breadcrumb-nav ol li.orange-text, .breadcrumb-nav ol li a.orange-text, .breadcrumb-nav ol li.orange-text:before {
+.orange-text.text-lighten-4, .breadcrumb-nav ol li.orange-text, .breadcrumb-nav ol li a.orange-text, .breadcrumb-nav ol li.orange-text:before, #block-material-admin-page-title h1.page-title em.orange-text {
   color: #ffe0b2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2076,7 +2076,7 @@ th {
   background-color: #ffcc80 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.orange-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.orange-text {
+.orange-text.text-lighten-3 {
   color: #ffcc80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2180,7 +2180,7 @@ th {
   background-color: #ffccbc !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange-text.text-lighten-4, .breadcrumb-nav ol li.deep-orange-text, .breadcrumb-nav ol li a.deep-orange-text, .breadcrumb-nav ol li.deep-orange-text:before {
+.deep-orange-text.text-lighten-4, .breadcrumb-nav ol li.deep-orange-text, .breadcrumb-nav ol li a.deep-orange-text, .breadcrumb-nav ol li.deep-orange-text:before, #block-material-admin-page-title h1.page-title em.deep-orange-text {
   color: #ffccbc !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2188,7 +2188,7 @@ th {
   background-color: #ffab91 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.deep-orange-text {
+.deep-orange-text.text-lighten-3 {
   color: #ffab91 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2292,7 +2292,7 @@ th {
   background-color: #d7ccc8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.brown-text.text-lighten-4, .breadcrumb-nav ol li.brown-text, .breadcrumb-nav ol li a.brown-text, .breadcrumb-nav ol li.brown-text:before {
+.brown-text.text-lighten-4, .breadcrumb-nav ol li.brown-text, .breadcrumb-nav ol li a.brown-text, .breadcrumb-nav ol li.brown-text:before, #block-material-admin-page-title h1.page-title em.brown-text {
   color: #d7ccc8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2300,7 +2300,7 @@ th {
   background-color: #bcaaa4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.brown-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.brown-text {
+.brown-text.text-lighten-3 {
   color: #bcaaa4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2372,7 +2372,7 @@ th {
   background-color: #cfd8dc !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey-text.text-lighten-4, .breadcrumb-nav ol li.blue-grey-text, .breadcrumb-nav ol li a.blue-grey-text, .breadcrumb-nav ol li.blue-grey-text:before {
+.blue-grey-text.text-lighten-4, .breadcrumb-nav ol li.blue-grey-text, .breadcrumb-nav ol li a.blue-grey-text, .breadcrumb-nav ol li.blue-grey-text:before, #block-material-admin-page-title h1.page-title em.blue-grey-text {
   color: #cfd8dc !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2380,7 +2380,7 @@ th {
   background-color: #b0bec5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey-text.text-lighten-3, #block-material-admin-page-title h1.page-title em.blue-grey-text {
+.blue-grey-text.text-lighten-3 {
   color: #b0bec5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2436,7 +2436,7 @@ th {
   background-color: #9e9e9e !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child, #block-material-admin-page-title h1.page-title em, table .region-title, table thead th {
+.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child, table .region-title, table thead th {
   color: #9e9e9e !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2444,7 +2444,7 @@ th {
   background-color: #fafafa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child, #block-material-admin-page-title h1.page-title em.text-lighten-5, table .text-lighten-5.region-title, table thead th.text-lighten-5 {
+.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child, table .text-lighten-5.region-title, table thead th.text-lighten-5 {
   color: #fafafa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2452,7 +2452,7 @@ th {
   background-color: #f5f5f5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol table li.region-title, table .breadcrumb-nav ol li.region-title, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li table a.region-title, table .breadcrumb-nav ol li a.region-title, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before, .breadcrumb-nav ol table li.region-title:before, table .breadcrumb-nav ol li.region-title:before, #block-material-admin-page-title h1.page-title em.text-lighten-4, table .text-lighten-4.region-title, table thead th.text-lighten-4 {
+.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol table li.region-title, table .breadcrumb-nav ol li.region-title, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li table a.region-title, table .breadcrumb-nav ol li a.region-title, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before, .breadcrumb-nav ol table li.region-title:before, table .breadcrumb-nav ol li.region-title:before, #block-material-admin-page-title h1.page-title em.grey-text, #block-material-admin-page-title h1.page-title table em.region-title, table #block-material-admin-page-title h1.page-title em.region-title, table .text-lighten-4.region-title, table thead th.text-lighten-4 {
   color: #f5f5f5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2460,7 +2460,7 @@ th {
   background-color: #eeeeee !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, #block-material-admin-page-title h1.page-title em, table .text-lighten-3.region-title, table thead th.text-lighten-3 {
+.grey-text.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table .text-lighten-3.region-title, table thead th.text-lighten-3 {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2468,7 +2468,7 @@ th {
   background-color: #e0e0e0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child, #block-material-admin-page-title h1.page-title em.text-lighten-2, table .text-lighten-2.region-title, table thead th.text-lighten-2 {
+.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child, table .text-lighten-2.region-title, table thead th.text-lighten-2 {
   color: #e0e0e0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2476,7 +2476,7 @@ th {
   background-color: #bdbdbd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child, #block-material-admin-page-title h1.page-title em.text-lighten-1, table .text-lighten-1.region-title, table thead th.text-lighten-1 {
+.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child, table .text-lighten-1.region-title, table thead th.text-lighten-1 {
   color: #bdbdbd !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2484,7 +2484,7 @@ th {
   background-color: #757575 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child, #block-material-admin-page-title h1.page-title em.text-darken-1, table .text-darken-1.region-title, table thead th.text-darken-1 {
+.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child, table .text-darken-1.region-title, table thead th.text-darken-1 {
   color: #757575 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2492,7 +2492,7 @@ th {
   background-color: #616161 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-2, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:last-child, #block-material-admin-page-title h1.page-title em.text-darken-2, table .text-darken-2.region-title, table thead th.text-darken-2 {
+.grey-text.text-darken-2, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li.text-darken-2:last-child, table .text-darken-2.region-title, table thead th.text-darken-2 {
   color: #616161 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2500,7 +2500,7 @@ th {
   background-color: #424242 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child, #block-material-admin-page-title h1.page-title em.text-darken-3, table .text-darken-3.region-title, table thead th.text-darken-3 {
+.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child, table .text-darken-3.region-title, table thead th.text-darken-3 {
   color: #424242 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2508,7 +2508,7 @@ th {
   background-color: #212121 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:last-child, #block-material-admin-page-title h1.page-title em.text-darken-4, table .text-darken-4.region-title, table thead th.text-darken-4 {
+.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:last-child, table .text-darken-4.region-title, table thead th.text-darken-4 {
   color: #212121 !important; }
 
 /* line 390, node_modules/materialize-css/sass/components/_color.scss */
@@ -2756,7 +2756,7 @@ a {
   box-shadow: none !important; }
 
 /* line 61, node_modules/materialize-css/sass/components/_global.scss */
-.z-depth-1, .collapsible, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 /* line 64, node_modules/materialize-css/sass/components/_global.scss */
@@ -3225,7 +3225,7 @@ td, th {
   color: #26a69a; }
 
 /* line 589, node_modules/materialize-css/sass/components/_global.scss */
-.collapsible .collection {
+.collapsible .collection, details.form-wrapper .collection {
   margin: 0;
   border: none; }
 
@@ -3963,14 +3963,14 @@ input[type=range] + .thumb {
         left: 100%; } }
 
 /* line 1, node_modules/materialize-css/sass/components/_collapsible.scss */
-.collapsible {
+.collapsible, details.form-wrapper {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   margin: 0.5rem 0 1rem 0; }
 
 /* line 9, node_modules/materialize-css/sass/components/_collapsible.scss */
-.collapsible-header {
+.collapsible-header, details.form-wrapper summary {
   display: block;
   cursor: pointer;
   min-height: 3rem;
@@ -3979,7 +3979,7 @@ input[type=range] + .thumb {
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
   /* line 18, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .collapsible-header i {
+  .collapsible-header i, details.form-wrapper summary i {
     width: 2rem;
     font-size: 1.6rem;
     line-height: 3rem;
@@ -3996,30 +3996,38 @@ input[type=range] + .thumb {
   padding: 2rem; }
 
 /* line 40, node_modules/materialize-css/sass/components/_collapsible.scss */
-.side-nav .collapsible,
-.side-nav.fixed .collapsible {
+.side-nav .collapsible, .side-nav details.form-wrapper,
+.side-nav.fixed .collapsible,
+.side-nav.fixed details.form-wrapper {
   border: none;
   box-shadow: none; }
   /* line 44, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .side-nav .collapsible li,
-  .side-nav.fixed .collapsible li {
+  .side-nav .collapsible li, .side-nav details.form-wrapper li,
+  .side-nav.fixed .collapsible li,
+  .side-nav.fixed details.form-wrapper li {
     padding: 0; }
 
 /* line 47, node_modules/materialize-css/sass/components/_collapsible.scss */
-.side-nav .collapsible-header,
-.side-nav.fixed .collapsible-header {
+.side-nav .collapsible-header, .side-nav details.form-wrapper summary, details.form-wrapper .side-nav summary,
+.side-nav.fixed .collapsible-header,
+.side-nav.fixed details.form-wrapper summary, details.form-wrapper
+.side-nav.fixed summary {
   background-color: transparent;
   border: none;
   line-height: inherit;
   height: inherit;
   padding: 0 16px; }
   /* line 54, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .side-nav .collapsible-header:hover,
-  .side-nav.fixed .collapsible-header:hover {
+  .side-nav .collapsible-header:hover, .side-nav details.form-wrapper summary:hover, details.form-wrapper .side-nav summary:hover,
+  .side-nav.fixed .collapsible-header:hover,
+  .side-nav.fixed details.form-wrapper summary:hover, details.form-wrapper
+  .side-nav.fixed summary:hover {
     background-color: rgba(0, 0, 0, 0.05); }
   /* line 55, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .side-nav .collapsible-header i,
-  .side-nav.fixed .collapsible-header i {
+  .side-nav .collapsible-header i, .side-nav details.form-wrapper summary i, details.form-wrapper .side-nav summary i,
+  .side-nav.fixed .collapsible-header i,
+  .side-nav.fixed details.form-wrapper summary i, details.form-wrapper
+  .side-nav.fixed summary i {
     line-height: inherit; }
 
 /* line 58, node_modules/materialize-css/sass/components/_collapsible.scss */
@@ -4033,16 +4041,16 @@ input[type=range] + .thumb {
     padding: 0 23.5px 0 31px; }
 
 /* line 72, node_modules/materialize-css/sass/components/_collapsible.scss */
-.collapsible.popout {
+.collapsible.popout, details.popout.form-wrapper {
   border: none;
   box-shadow: none; }
   /* line 75, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .collapsible.popout > li {
+  .collapsible.popout > li, details.popout.form-wrapper > li {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     margin: 0 24px;
     transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   /* line 81, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .collapsible.popout > li.active {
+  .collapsible.popout > li.active, details.popout.form-wrapper > li.active {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     margin: 16px 0; }
 
@@ -9166,8 +9174,12 @@ td, th {
   margin: 0 10px 0 0px;
   -webkit-font-smoothing: antialiased; }
 
-/* line 60, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
-.fa-standard, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after {
+/* line 52, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+.inline {
+  display: inline; }
+
+/* line 64, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+.fa-standard, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after {
   vertical-align: top;
   display: inline-block;
   font-family: 'FontAwesome';
@@ -9175,79 +9187,79 @@ td, th {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
-/* line 69, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 73, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .toast {
   word-break: normal; }
 
 @media only screen and (min-width: 601px) {
-  /* line 74, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+  /* line 78, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
   main .row {
     margin: 0 10px; } }
 
-/* line 79, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 83, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .row {
   padding: 20px;
   margin: 0; }
-  /* line 82, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+  /* line 86, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
   .row .row {
     padding: 0; }
 
-/* line 88, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 92, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .region-status .row {
   padding: 0; }
 
-/* line 98, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 102, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 103, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 107, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 105, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+  /* line 109, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 112, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 116, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 114, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+  /* line 118, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 120, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 124, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 127, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 131, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 134, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 138, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 137, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 141, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 142, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+  /* line 146, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 148, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 152, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .shadow, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 152, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 156, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .views-field-node-bulk-form {
   padding-left: 10px; }
 
-/* line 156, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
+/* line 160, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
@@ -9332,6 +9344,31 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   /* line 93, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
+
+/* line 105, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+details.form-wrapper .details-wrapper {
+  padding: 2rem; }
+
+/* line 110, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+fieldset.form-item {
+  padding: 2rem; }
+
+/* line 114, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+.entity-meta__last-saved h4, .entity-meta__author h4 {
+  font-size: 1rem;
+  font-weight: bold; }
+  /* line 117, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+  .entity-meta__last-saved h4:before, .entity-meta__author h4:before {
+    padding-right: 10px;
+    vertical-align: baseline; }
+
+/* line 125, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+.entity-meta__last-saved h4:before {
+  content: ""; }
+
+/* line 132, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/base/_forms.scss */
+.entity-meta__author h4:before {
+  content: ""; }
 
 /* @file
  * Specific styling for admin
@@ -9520,65 +9557,67 @@ span.theme-status-indicator {
   z-index: 2; }
 
 /* line 290, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
-.details-item .collapsible-header:before {
+.details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before {
   content: "";
   padding-right: 5px; }
 
 /* line 296, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
-.details-item .collapsible-header.active:before {
+.details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
   content: ""; }
 
-/* line 301, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 302, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 .details-item .collapsible-body {
   padding: 15px; }
 
-/* line 307, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 308, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 #block-material-admin-page-title h1.page-title em {
   text-transform: uppercase;
   font-size: .7em;
   font-style: normal;
   vertical-align: text-bottom; }
-  /* line 313, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+  /* line 314, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
   #block-material-admin-page-title h1.page-title em:after {
-    content: ":"; }
+    content: "";
+    padding-left: 10px;
+    font-size: .5em; }
 
-/* line 319, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 323, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 table .region-title {
   font-weight: normal; }
 
-/* line 325, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 329, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 table td {
   font-weight: 200; }
 
-/* line 329, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 333, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 table thead th {
   font-weight: normal; }
 
-/* line 335, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 339, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 .tablesort.tablesort--asc {
   background-image: none; }
-  /* line 337, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+  /* line 341, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
   .tablesort.tablesort--asc:after {
     content: ""; }
 
-/* line 342, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 346, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 .tablesort.tablesort--desc {
   background-image: none; }
-  /* line 344, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+  /* line 348, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
   .tablesort.tablesort--desc:after {
     content: ""; }
 
-/* line 351, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 355, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 tr.drag-previous {
   border-bottom: 2px dashed #f0f4c3;
   border-top: 2px dashed #f0f4c3; }
 
-/* line 357, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 361, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 tr.drag {
   border-bottom: 1px dashed #666;
   border-top: 1px dashed #666; }
 
-/* line 363, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
+/* line 367, /Users/brian.wald/Sites/obio/docroot/profiles/df/themes/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {
   padding: 10px; }
 

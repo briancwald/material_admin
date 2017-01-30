@@ -294,6 +294,7 @@ span.theme-status-indicator {
         }
         &.active {
             &:before {
+                @extend .fa-standard;
                 content: $fa-var-chevron-down;
             }
         }
@@ -307,11 +308,14 @@ span.theme-status-indicator {
     em {
         text-transform: uppercase;
         font-size: .7em;
-        @extend .grey-text, .text-lighten-3;
+        @extend .blue-text, .text-lighten-4;
         font-style: normal;
         vertical-align: text-bottom;
         &:after {
-            content: ":";
+            @extend .fa-standard;
+            content: $fa-var-chevron-right;
+            padding-left:10px;
+            font-size:.5em;
         }
     }
 }

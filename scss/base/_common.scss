@@ -49,6 +49,10 @@ td,th {
     }
 }
 
+.inline {
+    display:inline;
+}
+
 // buttons that appear as flat links
 .button-link {
     @extend .btn;
