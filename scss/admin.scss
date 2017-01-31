@@ -341,6 +341,7 @@ table thead th {
         &:after {
             @extend .fa-standard;
             content: $fa-var-arrow-down;
+            padding-left:5px;
         }
     }
     &.tablesort--desc {
@@ -348,6 +349,7 @@ table thead th {
         &:after {
             @extend .fa-standard;
             content: $fa-var-arrow-up;
+            padding-left:5px;
         }
     }
 }

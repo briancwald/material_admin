@@ -30,7 +30,7 @@
 }
 
 .form-item {
-    padding:10px 0;
+    margin:15px 0;
     .form-required {
         &:after {
             content: " *";
@@ -47,7 +47,6 @@ input[type=checkbox] {
 }
 
 #edit-actions {
-    margin-top: 1rem;
     .button {
         margin: 10px 10px 10px 0;
     }
@@ -111,7 +110,7 @@ fieldset.form-item {
     padding:2rem;
 }
 
-.entity-meta__last-saved h4, .entity-meta__author h4{
+.entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4{
     font-size:1rem;
     font-weight:bold;
     &:before {
