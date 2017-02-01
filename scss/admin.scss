@@ -139,6 +139,12 @@ a.modal-trigger {
   }
 }
 
+.collection.compact {
+  .collection-item {
+    padding: 1rem 0px;
+  }
+}
+
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
   display: none;
@@ -151,7 +157,7 @@ a.modal-trigger {
 }
 
 .region-header {
-  display: inline-block;
+  display: block;
 }
 
 // Breadcrumbs
@@ -204,9 +210,13 @@ a.modal-trigger {
       @extend .white-text;
       text-decoration: underline;
     }
+    a.dropdown-button {
+      @extend .grey-text, .text-darken-2;
+      text-decoration: none;
+    }
     .dropbutton-widget li {
       @extend .black-text;
-      a {
+      a{
         @extend .black-text;
         text-decoration: none;
       }
@@ -368,4 +378,17 @@ tr.drag {
 
 .tabledrag-changed-warning {
   padding: 10px;
+}
+
+.dropdown-button {
+  &:after {
+    @extend .fa-standard;
+    margin-left:10px;
+    content: $fa-var-caret-down;
+  }
+  &.active:after {
+    @extend .fa-standard;
+    margin-left:10px;
+    content: $fa-var-caret-up;
+  }
 }

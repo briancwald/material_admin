@@ -23,6 +23,9 @@ stylesheets-remove:
 #   system/drupal.system.modules:
 #     js:
 #       js/system.modules.js: js/system.modules.js
+
+libraries-override:
+  core/drupal.dropbutton: material_admin/dropbutton
         
 regions:
   header: 'Header'

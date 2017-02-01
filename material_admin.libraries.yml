@@ -9,11 +9,18 @@ global-styling:
   dependencies:
     - core/drupal
     - core/jquery
+
 notifications:
   version: VERSION
   js:
     js/notifications.js: {}
+
 date_and_time:
   version: VERSION
   js:
     js/date-time-picker.js: {}
+
+dropbutton:
+  version: VERSION
+  js:
+    js/dropbutton.js: {}
