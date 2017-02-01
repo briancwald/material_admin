@@ -1,4 +1,7 @@
-
+/* @file
+ * settings variables
+ *
+ */
 //  Table of Contents:
 //
 //   1. Global
@@ -6,7 +9,6 @@
 //   3. Tables
 //   4. Base Typography
 //   5. Typography Helpers
-
 
 // 1. Global
 // ---------
@@ -38,7 +40,6 @@ $global-text-direction: ltr;
 
 // 3. Tables 
 
-
 // 4. Base Typography
 // ------------------
 
@@ -47,7 +48,6 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-
 
 // 5. Typography Helpers
 // ---------------------
@@ -60,5 +60,3 @@ $subheader-font-weight: $global-weight-normal;
 $subheader-margin-top: 0.2rem;
 $subheader-margin-bottom: 0.5rem;
 $stat-font-size: 2.5rem;
-
-

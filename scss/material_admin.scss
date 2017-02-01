@@ -1,5 +1,5 @@
 /* @file
- * Demo Framework Admin
+ * Material Admin 
  *
  */
 
@@ -8,15 +8,16 @@
 
 @import "materialize-css/sass/components/normalize";
 
-//import materialize components
-//@import "components/mixins";
+// Colors need to be called before variables
 @import "materialize-css/sass/components/color";
 
 // Variables;
 @import "materialize-css/sass/components/variables";
 
+//This is your _settings.scss file where you can manage/replace specific variables outside material design framework. 
+@import 'settings';
 
-// components
+// material design components
 @import "materialize-css/sass/components/typography";
 @import "materialize-css/sass/components/global";
 @import "materialize-css/sass/components/grid";
@@ -37,19 +38,7 @@
 @import "materialize-clockpicker/src/sass/components/variables";
 @import "materialize-clockpicker/src/sass/components/primary";
 
-//This is your _settings.scss file where you can override foundation variables. 
-@import 'settings';
-
-// Components
-
-// Import our mixins early so they can be used by other partials.
-// Optional.
-//@import "base/mixins";
-
-// Common file is where you place common utility classes to extend or
-// parametrics.
-
-// Fonts!
+// Fonts! Using Font awesome due to popularity - though maybe should swap for material icons for consistency 
 @import "base/fonts/font-awesome";
 
 @import "base/common";
@@ -57,4 +46,3 @@
 @import "base/forms";
 
 @import "admin";
-
