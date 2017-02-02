@@ -10011,7 +10011,7 @@ td, th {
   display: inline; }
 
 /* line 69, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.fa-standard, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .dropdown-button:after, .dropdown-button.active:after {
+.fa-standard, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .dropdown-button:after, .dropdown-button.active:after, .breadcrumb-nav ol li:first-child a:before {
   vertical-align: top;
   display: inline-block;
   font-family: 'FontAwesome';
@@ -10214,6 +10214,50 @@ fieldset.form-item {
 /* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
+
+/* line 152, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  padding: 4px 0;
+  margin: 0 0 10px 25px;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px; }
+
+/* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.ui-menu-item > a.ui-corner-all {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #555555;
+  white-space: nowrap;
+  text-decoration: none; }
+
+/* line 192, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.ui-state-hover, .ui-state-active {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-image: none; }
 
 /* @file
  * Specific styling for admin
@@ -10485,5 +10529,265 @@ tr.drag {
 .dropdown-button.active:after {
   margin-left: 10px;
   content: ""; }
+
+/* line 396, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
+  /* With less: .text-overflow(); */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block; }
+
+/* line 405, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.breadcrumb-nav ol li:first-child a {
+  text-indent: -999999px; }
+  /* line 407, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .breadcrumb-nav ol li:first-child a:before {
+    float: left;
+    content: "";
+    display: inline-block;
+    text-indent: 0; }
+
+/* line 417, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.breadcrumb-nav ol li {
+  display: inline; }
+
+/* line 421, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.breadcrumb-nav ol li a {
+  visibility: hidden;
+  max-width: 15px; }
+  /* line 424, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .breadcrumb-nav ol li a:before {
+    content: '...';
+    display: inline-block;
+    visibility: visible; }
+
+/* line 431, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.breadcrumb-nav ol > *:first-child a {
+  display: inline-block !important; }
+
+@media only screen and (max-width: 600px) {
+  /* line 437, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
+    visibility: visible;
+    max-width: 60px; }
+    /* line 440, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
+      display: none; } }
+
+@media only screen and (min-width: 601px) {
+  /* line 447, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
+    visibility: visible;
+    display: inline-block;
+    max-width: 100px; }
+    /* line 451, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
+      display: none; } }
+
+@media only screen and (min-width: 993px) {
+  /* line 458, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
+    visibility: visible;
+    max-width: 170px; }
+    /* line 461, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
+      display: none; } }
+
+/**
+ * @file
+ * Visual styles for animated throbber.
+ *
+ * @see autocomplete.js
+ */
+/* line 8, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.js input.form-autocomplete {
+  background: url(../images/spinner.svg);
+  background-size: 50px;
+  background-position: 100% center;
+  /* LTR */
+  background-repeat: no-repeat; }
+
+/* line 14, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.js[dir="rtl"] input.form-autocomplete {
+  background-position: 0% center; }
+
+/* line 17, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.js input.form-autocomplete.ui-autocomplete-loading {
+  background-image: url(../images/spinner.gif);
+  background-position: 100% center;
+  /* LTR */ }
+
+/* line 21, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.js[dir="rtl"] input.form-autocomplete.ui-autocomplete-loading {
+  background-position: 0% center; }
+
+/* line 27, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.spinner {
+  animation: rotator 1.4s linear infinite; }
+
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(270deg); } }
+
+/* line 36, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_autocomplete-loading.module.scss */
+.path {
+  stroke-dasharray: 187;
+  stroke-dashoffset: 0;
+  -ms-transform-origin: center;
+      transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite; }
+
+@keyframes colors {
+  0% {
+    stroke: #4285F4; }
+  25% {
+    stroke: #DE3E35; }
+  50% {
+    stroke: #F7C223; }
+  75% {
+    stroke: #1B9A59; }
+  100% {
+    stroke: #4285F4; } }
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 187; }
+  50% {
+    stroke-dashoffset: 46.75;
+    transform: rotate(135deg); }
+  100% {
+    stroke-dashoffset: 187;
+    transform: rotate(450deg); } }
+
+/**
+ * @file
+ * Throbber.
+ */
+/* line 6, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+.ajax-progress {
+  display: inline-block;
+  padding: 1px 5px 2px 5px; }
+
+/* line 10, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+[dir="rtl"] .ajax-progress {
+  float: right; }
+
+/* line 13, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+.ajax-progress-throbber .throbber {
+  background: transparent url(../images/spinner.gif) no-repeat 0px center;
+  display: inline;
+  padding: 1px 5px 2px; }
+
+/* line 18, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+.ajax-progress-throbber .message {
+  display: inline;
+  padding: 1px 5px 2px; }
+
+/* line 22, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+tr .ajax-progress-throbber .throbber {
+  margin: 0 2px; }
+
+/* line 25, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+.ajax-progress-bar {
+  width: 16em; }
+
+/* Full screen throbber */
+/* line 30, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+.ajax-progress-fullscreen {
+  /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
+  left: 49%;
+  /* LTR */
+  position: fixed;
+  top: 48.5%;
+  z-index: 1000;
+  background-color: transparent;
+  background-image: url(../images/spinner.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  height: 24px;
+  opacity: 0.9;
+  padding: 4px;
+  width: 24px; }
+
+/* line 46, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_ajax-progress.module.scss */
+[dir="rtl"] .ajax-progress-fullscreen {
+  left: auto;
+  right: 49%; }
+
+/**
+ * @file
+ * Presentational styles for Drupal dialogs.
+ */
+/* line 6, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+.ui-dialog {
+  position: absolute;
+  z-index: 1260;
+  overflow: visible;
+  color: #000;
+  background: #fff;
+  border: solid 1px #ccc;
+  padding: 0; }
+  /* line 14, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog .ui-dialog-titlebar {
+    font-weight: bold;
+    background: #f3f4ee;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: #ccc; }
+  /* line 22, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog .ui-dialog-titlebar-close {
+    border: 0;
+    background: none; }
+  /* line 26, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog .ui-dialog-buttonpane {
+    margin-top: 0;
+    background: #f3f4ee;
+    padding: .3em 1em;
+    border-width: 1px 0 0 0;
+    border-color: #ccc; }
+    /* line 32, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+    .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+      margin: 0;
+      padding: 0; }
+    /* line 36, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+    .ui-dialog .ui-dialog-buttonpane .ui-button-text-only .ui-button-text {
+      padding: 0; }
+  /* line 40, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog .ui-dialog-content .form-actions {
+    padding: 0;
+    margin: 0; }
+
+@media all and (max-width: 48em) {
+  /* 768px */
+  /* line 48, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog {
+    width: 92% !important; } }
+
+/* Form action buttons are moved in dialogs. Remove empty space. */
+/* line 55, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+.ajax-progress-throbber {
+  /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
+  left: 49%;
+  position: fixed;
+  top: 48.5%;
+  z-index: 1000;
+  background-color: transparent;
+  background-image: url(../images/spinner.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  height: 24px;
+  opacity: 0.9;
+  padding: 4px;
+  width: 24px; }
+
+/* line 73, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+.ui-dialog .ajax-progress-throbber .throbber, .ui-dialog .ajax-progress-throbber .message {
+  display: none; }
 
 /*# sourceMappingURL=../sass */

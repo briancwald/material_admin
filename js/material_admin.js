@@ -25,7 +25,16 @@
     attach: function (context, settings) {
       $('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
+  };
+
+//without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround
+$(document).ready(function() {
+  var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
+  var currentPageTitleString = $('h1.page-title');
+  if (currentPageBeadcrumb.is(':empty')) {
+   currentPageBeadcrumb.text(currentPageTitleString.text());
   }
+});
 
   //trigger modals
   $(document).ready(function () {

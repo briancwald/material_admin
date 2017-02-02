@@ -17,9 +17,7 @@ use Drupal\Core\Template\Attribute;
  * Adds overall theme class to the body.
  */
 function material_admin_preprocess_html(&$variables) {
-
   $variables['attributes']['class'][] = 'material_admin';
-
 }
 
 /**
@@ -31,7 +29,6 @@ function material_admin_preprocess_breadcrumb(&$variables) {
   $request = \Drupal::request();
   $route_match = \Drupal::routeMatch();
   $title = \Drupal::service('title_resolver')->getTitle($request, $route_match->getRouteObject());
-
   $variables['title'] = $title;
 }
 

@@ -216,7 +216,7 @@ a.modal-trigger {
     }
     .dropbutton-widget li {
       @extend .black-text;
-      a{
+      a {
         @extend .black-text;
         text-decoration: none;
       }
@@ -383,12 +383,83 @@ tr.drag {
 .dropdown-button {
   &:after {
     @extend .fa-standard;
-    margin-left:10px;
+    margin-left: 10px;
     content: $fa-var-caret-down;
   }
   &.active:after {
     @extend .fa-standard;
-    margin-left:10px;
+    margin-left: 10px;
     content: $fa-var-caret-up;
+  }
+}
+
+.breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
+  /* With less: .text-overflow(); */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.breadcrumb-nav ol li:first-child {
+  a {
+    text-indent:-999999px;
+    &:before {
+      float:left;
+      content: $fa-var-home;
+      @extend .fa-standard;
+      display: inline-block;
+      text-indent:0;
+    }
+  }
+}
+
+.breadcrumb-nav ol li {
+  display: inline;
+}
+
+.breadcrumb-nav ol li a {
+  visibility: hidden;
+  max-width:15px;
+  &:before {
+    content:'...';
+    display:inline-block;
+    visibility: visible;
+  }
+}
+
+.breadcrumb-nav ol > *:first-child a {
+  display:inline-block!important;
+}
+
+//responsive bredcrumb
+@media #{$small-and-down} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
+      visibility: visible;
+     max-width: 60px;
+    &:before {
+      display:none;
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
+    visibility: visible;
+    display: inline-block;
+    max-width: 100px;
+        &:before {
+      display:none;
+    }
+  }
+}
+
+@media #{$large-and-up} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
+          visibility: visible;
+          max-width: 170px;
+        &:before {
+      display:none;
+    }
   }
 }
