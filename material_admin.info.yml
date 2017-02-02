@@ -16,7 +16,10 @@ stylesheets-remove:
   - '@classy/css/components/button.css'
   - '@classy/css/components/inline-form.css'
   - '@classy/css/components/form.css'
+  - '@classy/css/components/dialog.css'
   - '@stable/css/system/system.admin.css'
+  - '@stable/css/system/components/autocomplete-loading.module.css'
+  - '@stable/css/system/components/ajax-progress.module.css'
 
 #swap out system modules js to accomidate for additional markup
 # libraries-override:

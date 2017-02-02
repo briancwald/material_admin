@@ -256,6 +256,13 @@ a.modal-trigger {
 
 table {
   margin: 20px 0;
+  &.responsive-table {
+    @media #{$medium-and-down} {
+      th {
+        width:100%;
+      }
+    }
+  }
 }
 
 //table dropdown
@@ -414,6 +421,12 @@ tr.drag {
   }
 }
 
+//dynamic breadcrumb title
+.breadcrumb-nav li.current span.url-segement-title {
+  text-transform: capitalize;
+}
+
+//responsive bredcrumb
 .breadcrumb-nav ol li {
   display: inline;
 }
@@ -432,7 +445,6 @@ tr.drag {
   display:inline-block!important;
 }
 
-//responsive bredcrumb
 @media #{$small-and-down} {
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
       visibility: visible;
