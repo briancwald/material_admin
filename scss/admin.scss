@@ -392,11 +392,13 @@ tr.drag {
     @extend .fa-standard;
     margin-left: 10px;
     content: $fa-var-caret-down;
+    display:inline;
   }
   &.active:after {
     @extend .fa-standard;
     margin-left: 10px;
     content: $fa-var-caret-up;
+    display:inline;
   }
 }
 

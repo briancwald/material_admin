@@ -10539,14 +10539,16 @@ tr.drag {
 /* line 391, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropdown-button:after {
   margin-left: 10px;
-  content: ""; }
+  content: "";
+  display: inline; }
 
-/* line 396, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 397, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropdown-button.active:after {
   margin-left: 10px;
-  content: ""; }
+  content: "";
+  display: inline; }
 
-/* line 403, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 405, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
   /* With less: .text-overflow(); */
   white-space: nowrap;
@@ -10554,67 +10556,67 @@ tr.drag {
   text-overflow: ellipsis;
   display: inline-block; }
 
-/* line 412, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 414, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li:first-child a {
   text-indent: -999999px; }
-  /* line 414, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 416, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
     display: inline-block;
     text-indent: 0; }
 
-/* line 425, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 427, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 430, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 432, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 434, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 436, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 437, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 439, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 444, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 446, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 449, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 451, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 452, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 454, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 459, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 461, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 463, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 465, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 470, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 472, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 473, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 475, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 
-/* line 480, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 482, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .material-tooltip {
   max-width: 36em;
   line-height: 1.5em;
