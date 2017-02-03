@@ -53,9 +53,7 @@
         });
       });
     }
-
   };
-
   //Since Toast removes the item after the notice, clone it put them in the message container
   function messageInbox(statusType, thisItem) {
     thisItem.each(function () {
@@ -65,7 +63,6 @@
 
     });
   }
-
   //add badge for each message type
   function messageCounter(itemforMessageCenter, statusType) {
     var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(), 10);
@@ -75,5 +72,4 @@
       $('#notification-wrapper').show();
     }
   }
-
 })(jQuery, Drupal);

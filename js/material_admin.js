@@ -28,17 +28,17 @@
   };
 
 
-//without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround
-$(document).ready(function() {
-  var url = window.location.href;  
-  var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
-  var currentPageUrlSegment = url.substr(url.lastIndexOf('/') + 1);
-  var urlSegmentAsTitle = currentPageUrlSegment.replace(/[_-]/g, " ");
-  if (currentPageBeadcrumb.is(':empty')) {
-   currentPageBeadcrumb.text(urlSegmentAsTitle).addClass('url-segement-title');
-  }
-});
-
+  //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround
+  $(document).ready(function () {
+    var url = window.location.href;
+    var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
+    var currentPageUrlSegment = url.substr(url.lastIndexOf('/') + 1);
+    var urlSegmentAsTitle = currentPageUrlSegment.replace(/[_-]/g, " ");
+    if (currentPageBeadcrumb.is(':empty')) {
+      currentPageBeadcrumb.text(urlSegmentAsTitle).addClass('url-segement-title');
+    }
+  });
+  
   //trigger modals
   $(document).ready(function () {
     $('.modal').modal({
