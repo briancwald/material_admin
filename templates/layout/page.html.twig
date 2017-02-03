@@ -56,17 +56,20 @@
   </div>
   <header class="header-wrapper" role="banner">
     <div class="row">
-      <div class="s12">{{ page.header }} {% if page.status %}
-        <div class="collection right" id="notification-wrapper">
+      <div class="s12 col">
+                <div class="collection right" id="notification-wrapper">
           <a class="modal-trigger collection-item message-trigger waves-effect" href="#messageContainer"><span class="fa fa-inbox"></span> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge messages--status">0</span><span class="badge messages--warning">0</span><span class="badge messages--error">0</span></a>
         </div>
+        {{ page.header }} {% if page.status %}
       </div>
       {% endif %}
     </div>
   </header>
   <section class="utility-wrapper">
     <div class="row">
+      <div class="s12 col">
       {{ page.primary_menu }} {{ page.secondary_menu }} {{ page.breadcrumb }} {{ page.highlighted }}
+    </div>
     </div>
   </section>
   <main role="main-wrapper">
