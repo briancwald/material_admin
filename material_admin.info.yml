@@ -21,12 +21,6 @@ stylesheets-remove:
   - '@stable/css/system/components/autocomplete-loading.module.css'
   - '@stable/css/system/components/ajax-progress.module.css'
 
-#swap out system modules js to accomidate for additional markup
-# libraries-override:
-#   system/drupal.system.modules:
-#     js:
-#       js/system.modules.js: js/system.modules.js
-
 libraries-override:
   core/drupal.dropbutton: material_admin/dropbutton
         

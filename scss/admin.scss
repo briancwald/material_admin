@@ -475,3 +475,10 @@ tr.drag {
     }
   }
 }
+
+//tooltip readability
+.material-tooltip {
+  max-width:36em;
+  line-height:1.5em;
+  font-weight:100;
+}

@@ -16,7 +16,7 @@
         hiddenName: true
       });
     }
-  }
+  };
 
   Drupal.behaviors.material_pickatime = {
     attach: function (context, settings) {
@@ -25,6 +25,6 @@
         twelvehour: false
       });
     }
-  }
+  };
 
 })(jQuery, Drupal);

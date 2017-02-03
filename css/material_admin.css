@@ -10085,7 +10085,7 @@ a.button:hover {
     color: #ffd8a6; }
 
 /* line 158, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.shadow, .utility-wrapper {
+.shadow, .entity-meta__header, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 /* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
@@ -10133,7 +10133,7 @@ a.button:hover {
 
 /* line 37, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item {
-  margin: 15px 0; }
+  margin: 25px 0; }
   /* line 40, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .form-item .form-required:after {
     content: " *"; }
@@ -10179,44 +10179,55 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 109, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+details.form-wrapper summary:focus {
+  outline: 0; }
+
+/* line 112, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 2rem; }
 
-/* line 114, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-fieldset.form-item {
-  padding: 2rem; }
+/* line 117, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.entity-meta__header {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 10px 15px; }
 
-/* line 118, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 121, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 127, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 129, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 135, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 134, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 140, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 138, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 144, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 142, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.form-textarea-wrapper textarea {
+  padding: 10px; }
+
+/* line 152, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px; }
 
-/* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 157, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 152, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10234,12 +10245,12 @@ fieldset.form-item {
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
   background-clip: padding-box;
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10250,7 +10261,7 @@ fieldset.form-item {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 192, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 200, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   color: #ffffff;
   text-decoration: none;
@@ -10602,6 +10613,12 @@ tr.drag {
     /* line 473, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
+
+/* line 480, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.material-tooltip {
+  max-width: 36em;
+  line-height: 1.5em;
+  font-weight: 100; }
 
 /**
  * @file

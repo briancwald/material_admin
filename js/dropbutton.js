@@ -22,7 +22,7 @@ $(document).ready(function(){
       $(this).attr('id', unique);
      //$(this).before('<a class="dropdown-button btn" href="#" data-activates="' + unique + '" ">Manage</a>')
      $(this).siblings('.dropdown-button').attr('data-activates',unique);
-    })
+    });
 
     $('.dropdown-button').dropdown({
       inDuration: 300,

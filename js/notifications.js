@@ -51,7 +51,7 @@
             Materialize.toast(messageNotice, 5000, statusType);
           }
         });
-      })
+      });
     }
 
   };
