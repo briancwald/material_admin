@@ -115,11 +115,7 @@ details.form-wrapper {
 }
 
 .entity-meta__header {
-  @extend .shadow;
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  padding:10px 15px;
+  @extend .shadow-box;
 }
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
@@ -205,4 +201,17 @@ details.form-wrapper {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   background-image: none;
+}
+
+a#edit-cancel {
+  @extend .btn-flat;
+  @extend .warning-text-color;
+}
+
+.node-multiple-delete-confirm input.form-submit {
+  @extend .error-color;
+}
+
+.confirm-form-wrapper {
+  @extend .shadow-box;
 }
