@@ -21,8 +21,10 @@
   Drupal.behaviors.material_pickatime = {
     attach: function (context, settings) {
       $('.form-time').pickatime({
-        autoclose: false,
-        twelvehour: false
+        autoclose: true,
+        twelvehour: false,
+        closeOnSelect: true,
+        formatSubmit:'h:i A'
       });
     }
   };

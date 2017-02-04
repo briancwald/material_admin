@@ -11,20 +11,27 @@ var sassPaths = [
 
 // provides a method to manage vendor js in dev as there are version updates
 gulp.task('copy', function() {
-return gulp.src(['node_modules/materialize-css/dist/js/materialize.min.js', 'node_modules/materialize-clockpicker/dist/js/materialize.clockpicker.js'])
+return gulp.src([
+  'node_modules/materialize-css/dist/js/materialize.min.js',
+  'node_modules/materialize-clockpicker/dist/js/materialize.clockpicker.js',
+  'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js',
+  'node_modules/tablesaw/dist/tablesaw-init.js'
+  ])
   .pipe(gulpCopy('js/vendor',{prefix: 4}));
 });
 
-// concatanate all vendor scripts into a single js file. specific order is defined
-// @ There is only one vendor file at this time, this just defines a structure for future dev
-gulp.task('concat', function() {
-  return gulp.src(['./js/vendor/materialize.min.js','./js/vendor/materialize.clockpicker.js'])
-    .pipe(concat('vendor.all.js'))
-    .pipe(gulp.dest('./js/'));
+gulp.task('jslib', function() {
+  return gulp.src([
+    './js/vendor/materialize.min.js',
+    './js/vendor/materialize.clockpicker.js',
+    './js/vendor/tablesaw.stackonly.jquery.js',
+    './js/vendor/tablesaw-init.js'
+    ])
+  .pipe(gulpCopy('./js/lib',{prefix: 3}));
 });
 
 gulp.task('sass', function() {
-  return gulp.src('scss/material_admin.scss')
+  return gulp.src(['scss/material_admin.scss','scss/libraries.scss'])
     .pipe($.sass({
       sourceComments: 'map',
       sourceMap: 'sass',

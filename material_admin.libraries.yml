@@ -3,12 +3,19 @@ global-styling:
   css:
     base:
       css/material_admin.css: {}
+      css/libraries.css: {}
   js:
-    js/vendor.all.js: {}
+    js/lib/materialize.min.js: {}
+    js/lib/materialize.clockpicker.js: {}
     js/material_admin.js: {}
   dependencies:
     - core/drupal
     - core/jquery
+tables:
+  version: VERSION
+  js:
+    js/lib/tablesaw.stackonly.jquery.js: {}
+    js/lib/tablesaw-init.js: {}
 
 notifications:
   version: VERSION

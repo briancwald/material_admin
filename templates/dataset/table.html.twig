@@ -39,15 +39,18 @@
  * @see template_preprocess_table()
  */
 #}
-
+{{ attach_library('material_admin/tables') }}
 {%
   set classes = [
-    'responsive-table',
+    'tablesaw',
+    'tablesaw-stack',
     'bordered',
+
   ]
 %}
-
-<table{{ attributes.addClass(classes) }}>
+{% set tablesaw = ['stack']%}
+<div class="table-wrapper">
+<table{{ attributes.addClass(classes).setAttribute('data-tablesaw-mode',tablesaw) }}>
   {% if caption %}
     <caption>{{ caption }}</caption>
   {% endif %}
@@ -109,3 +112,4 @@
     </tfoot>
   {% endif %}
 </table>
+</div>

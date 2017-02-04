@@ -128,22 +128,22 @@ a.modal-trigger {
   background: inherit;
 }
 
-.collection.with-header {
-  h3.collection-header {
-    margin: 0;
-    padding: 20px;
-  }
-  .collection-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
+// .collection.with-header {
+//   h3.collection-header {
+//     margin: 0;
+//     padding: 20px;
+//   }
+//   .collection-item {
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//   }
+// }
 
-.collection.compact {
-  .collection-item {
-    padding: 1rem 0px;
-  }
-}
+// .collection.compact {
+//   .collection-item {
+//     padding: 1rem 0px;
+//   }
+// }
 
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
@@ -192,45 +192,47 @@ a.modal-trigger {
   }
 }
 
-.material_admin {
-  .tabs a.is-active, .tabs a:focus, .tabs a:hover {
-    background-color: transparent!important;
+.tabs a.is-active, .tabs a:focus, .tabs a:hover {
+  background-color: transparent!important;
+}
+
+table.highlight > tbody > tr:hover {
+  @extend .teal, .lighten-5;
+  color: $black;
+  a, button {
+    cursor: pointer;
   }
-  table.highlight > tbody > tr:hover {
-    @extend .teal, .lighten-5;
-    color: $black;
-    a, button {
-      cursor: pointer;
-    }
-  }
-  table.highlight > tbody > tr.selected {
-    @extend .teal, .lighten-4;
+}
+
+table.highlight > tbody > tr.selected {
+  @extend .teal, .lighten-4;
+  @extend .white-text;
+  a {
     @extend .white-text;
+    text-decoration: underline;
+  }
+  a.dropdown-button {
+    @extend .grey-text, .text-darken-2;
+    text-decoration: none;
+  }
+  .dropbutton-widget li {
+    @extend .black-text;
     a {
-      @extend .white-text;
-      text-decoration: underline;
-    }
-    a.dropdown-button {
-      @extend .grey-text, .text-darken-2;
+      @extend .black-text;
       text-decoration: none;
     }
-    .dropbutton-widget li {
-      @extend .black-text;
-      a {
-        @extend .black-text;
-        text-decoration: none;
-      }
-    }
-    td {
-      @extend .teal, .lighten-3;
-    }
   }
-  .pager__item {
-    padding: 0;
+  td {
+    @extend .teal, .lighten-3;
   }
-  td.is-active {
-    background-color: transparent;
-  }
+}
+
+.pager__item {
+  padding: 0;
+}
+
+td.is-active {
+  background-color: transparent;
 }
 
 .collection-item {
@@ -252,6 +254,9 @@ a.modal-trigger {
       color: $dark-gray;
     }
   }
+}
+.collection.with-header > .collection {
+  border:none;
 }
 
 table {
@@ -388,6 +393,10 @@ tr.drag {
 }
 
 .dropdown-button {
+  &:hover {
+    text-decoration: none;
+    @extend .lighten-5;
+  }
   &:after {
     @extend .fa-standard;
     margin-left: 10px;
@@ -488,13 +497,13 @@ tr.drag {
 //nested collection styling
 .collection .collection-item > .item-list {
   .collection {
-    border:none;
+    border: none;
     .collection-item {
       &:before {
         content: $fa-var-chevron-right;
         @extend .fa-standard;
-        padding-right:5px;
-        } 
+        padding-right: 5px;
+      }
       border: none;
     }
   }

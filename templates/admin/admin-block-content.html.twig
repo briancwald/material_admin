@@ -23,7 +23,8 @@
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
     {% for item in content %}
-      <a class="list-group__link collection-item row" href="{{item.url}}"><span class="collection-item-title col s12">{{ item.title }}</span>
+      <a class="list-group__link collection-item row" href="{{item.url}}">
+        <span class="collection-item-title col s12">{{ item.title }}</span>
       {% if item.description %}
         <span class="list-group__description collection-item-description col s12">{{ item.description }}</span>
       {% endif %}

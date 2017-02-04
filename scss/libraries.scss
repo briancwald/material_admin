@@ -1,0 +1,14 @@
+/* @file
+ * Optional Libraries
+ *
+ */
+
+// Make sure the charset is set appropriately
+@charset 'utf-8';
+
+//tablesaw 
+@import "tablesaw/dist/stackonly/tablesaw.stackonly.scss";
+//set table stack to trigger on my medium media query
+.table-wrapper{
+	@include tablesaw-stack( 50em );
+}

@@ -26,7 +26,11 @@ td, th {
 }
 
 .error-color {
-  @extend .red, .lighten-2;
+  @extend .red, .lighten-3;
+}
+
+.error-text-color {
+  @extend .red-text, .text-lighten-3;
 }
 
 .warning-color {
@@ -38,6 +42,10 @@ td, th {
 
 .status-color {
   @extend .green, .lighten-2;
+}
+
+.status-text-color {
+  @extend .green-text, .text-darken-2;
 }
 
 .button-action {
@@ -92,9 +100,6 @@ td, th {
 .row {
   padding: 20px;
   margin: 0;
-  .row {
-    padding: 0;
-  }
 }
 
 .region-status {
