@@ -16,14 +16,12 @@
  */
 #}
 <div class="layout-node-form row clearfix">
-  <div class="layout-region s12 m8 col layout-region-node-main">
+  <div class="layout-region s12 l8 col layout-region-node-main">
     {{ form|without('advanced', 'actions') }}
   </div>
-  <div class="layout-region s12 m4 col layout-region-node-secondary">
-  	<div class="sticky-scroll">
+  <div class="layout-region s12 l4 col layout-region-node-secondary">
     {{ form.advanced }}
     {{ form.actions }}
-</div>
   </div>
   <div class="layout-region layout-region-node-footer">
   </div>

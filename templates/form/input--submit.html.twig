@@ -12,11 +12,8 @@
 #}
 {%
   set classes = [
-    'btn btn-default'
+    'btn btn-default input-form-submit'
   ]
 %}
 
-{% set clickProcessing = ['this.form.submit(); this.disabled=true; this.value="Submitting...";'
- ]%}
-
-<input{{ attributes.addClass(classes).setAttribute('onClick',clickProcessing) }} />{{ children }}
+<input{{ attributes.addClass(classes)}} />{{ children }}
