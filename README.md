@@ -1,6 +1,11 @@
 # Material Admin
 Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/briancwald/material_admin/blob/8.x-1.x/images/screenshot.png "Drupal Material Admin"
+
 ## To Do
 - [x] Gulp Setup
 - [x] Add method to use materialize partials
