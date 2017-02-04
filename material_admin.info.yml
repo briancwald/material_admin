@@ -5,7 +5,7 @@ core: 8.x
 base theme: classy
 
 # Image appears on admin/appearance
-screenshot: images/screenshot.jpg
+screenshot: images/screenshot.png
 
 libraries:
   - material_admin/global-styling
