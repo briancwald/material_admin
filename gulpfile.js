@@ -2,17 +2,33 @@ var gulp     = require('gulp');
 const jshint = require('gulp-jshint');
 const stylish = require('jshint-stylish');
 var gulpCopy = require('gulp-copy');
-var concat   = require('gulp-concat');
+var replace = require('gulp-replace');
 var $        = require('gulp-load-plugins')();
 
+// provide a paht to node modules 
 var sassPaths = [
   'node_modules'
 ];
 
-// provides a method to manage vendor js in dev as there are version updates
-gulp.task('copy', function() {
+//get materialize min libary
+gulp.task('libsrc', function() {
 return gulp.src([
   'node_modules/materialize-css/dist/js/materialize.min.js',
+  ])
+  .pipe(gulpCopy('js/vendor',{prefix: 4}));
+});
+
+// rename the autocomplete function as it conflicts with jqueryUI and then move to source control folder js/lib
+// (Core and too many libraries rely on jquery autocomplete, replacing it would likely cause too many issues)
+gulp.task('rename', function(){
+  gulp.src(['js/vendor/materialize.min.js'])
+    .pipe(replace('fn.autocomplete', 'fn.autocomplete_materialize'))
+    .pipe(gulp.dest('js/lib'));
+});
+
+// Grab all the other plugin js and add to project
+gulp.task('copy', function() {
+return gulp.src([
   'node_modules/materialize-clockpicker/dist/js/materialize.clockpicker.js',
   'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js',
   'node_modules/tablesaw/dist/tablesaw-init.js'
