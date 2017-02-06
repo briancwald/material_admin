@@ -428,7 +428,7 @@ th {
   background-color: #f3989b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red-text.text-lighten-3, .materialize-red-text.error-text-color {
+.materialize-red-text.text-lighten-3, .materialize-red-text.error-text-color, .form-item .materialize-red-text.form-required:after {
   color: #f3989b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -484,7 +484,7 @@ th {
   background-color: #F44336 !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.red-text, .error-text-color, #edit-actions .button--danger {
+.red-text, .error-text-color, .form-item .form-required:after, #edit-actions .button--danger {
   color: #F44336 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -492,7 +492,7 @@ th {
   background-color: #FFEBEE !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-5, .text-lighten-5.error-text-color, #edit-actions .text-lighten-5.button--danger {
+.red-text.text-lighten-5, .text-lighten-5.error-text-color, .form-item .text-lighten-5.form-required:after, #edit-actions .text-lighten-5.button--danger {
   color: #FFEBEE !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -500,7 +500,7 @@ th {
   background-color: #FFCDD2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-4, .text-lighten-4.error-text-color, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before, #block-material-admin-page-title h1.page-title em.red-text {
+.red-text.text-lighten-4, .text-lighten-4.error-text-color, .form-item .text-lighten-4.form-required:after, .form-item .breadcrumb-nav ol li.form-required:after, .breadcrumb-nav ol .form-item li.form-required:after, .form-item .breadcrumb-nav ol li a.form-required:after, .breadcrumb-nav ol li .form-item a.form-required:after, .form-item #block-material-admin-page-title h1.page-title em.form-required:after, #block-material-admin-page-title h1.page-title .form-item em.form-required:after, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before, #block-material-admin-page-title h1.page-title em.red-text {
   color: #FFCDD2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -508,7 +508,7 @@ th {
   background-color: #EF9A9A !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-3, .error-text-color, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color {
+.red-text.text-lighten-3, .error-text-color, .form-item .form-required:after, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -516,7 +516,7 @@ th {
   background-color: #E57373 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-2, .text-lighten-2.error-text-color, #edit-actions .text-lighten-2.button--danger {
+.red-text.text-lighten-2, .text-lighten-2.error-text-color, .form-item .text-lighten-2.form-required:after, #edit-actions .text-lighten-2.button--danger {
   color: #E57373 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -524,7 +524,7 @@ th {
   background-color: #EF5350 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-1, .text-lighten-1.error-text-color, #edit-actions .text-lighten-1.button--danger {
+.red-text.text-lighten-1, .text-lighten-1.error-text-color, .form-item .text-lighten-1.form-required:after, #edit-actions .text-lighten-1.button--danger {
   color: #EF5350 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -532,7 +532,7 @@ th {
   background-color: #E53935 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-1, .text-darken-1.error-text-color, #edit-actions .text-darken-1.button--danger {
+.red-text.text-darken-1, .text-darken-1.error-text-color, .form-item .text-darken-1.form-required:after, #edit-actions .text-darken-1.button--danger {
   color: #E53935 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -540,7 +540,7 @@ th {
   background-color: #D32F2F !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, a.error-text-color#edit-cancel, .error-text-color.status-text-color, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions a.button--danger#edit-cancel, a.red-text#edit-cancel, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, table.highlight > tbody > tr.selected a.red-text.dropdown-button {
+.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item a.form-required#edit-cancel:after, a.error-text-color#edit-cancel, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions a.button--danger#edit-cancel, a.red-text#edit-cancel, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, table.highlight > tbody > tr.selected a.red-text.dropdown-button {
   color: #D32F2F !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -548,7 +548,7 @@ th {
   background-color: #C62828 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-3, .text-darken-3.error-text-color, #edit-actions .text-darken-3.button--danger {
+.red-text.text-darken-3, .text-darken-3.error-text-color, .form-item .text-darken-3.form-required:after, #edit-actions .text-darken-3.button--danger {
   color: #C62828 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -556,7 +556,7 @@ th {
   background-color: #B71C1C !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-4, .text-darken-4.error-text-color, #edit-actions .text-darken-4.button--danger {
+.red-text.text-darken-4, .text-darken-4.error-text-color, .form-item .text-darken-4.form-required:after, #edit-actions .text-darken-4.button--danger {
   color: #B71C1C !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -564,7 +564,7 @@ th {
   background-color: #FF8A80 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-1, .text-accent-1.error-text-color, #edit-actions .text-accent-1.button--danger {
+.red-text.text-accent-1, .text-accent-1.error-text-color, .form-item .text-accent-1.form-required:after, #edit-actions .text-accent-1.button--danger {
   color: #FF8A80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -572,7 +572,7 @@ th {
   background-color: #FF5252 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-2, .text-accent-2.error-text-color, #edit-actions .text-accent-2.button--danger {
+.red-text.text-accent-2, .text-accent-2.error-text-color, .form-item .text-accent-2.form-required:after, #edit-actions .text-accent-2.button--danger {
   color: #FF5252 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -580,7 +580,7 @@ th {
   background-color: #FF1744 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-3, .text-accent-3.error-text-color, #edit-actions .text-accent-3.button--danger {
+.red-text.text-accent-3, .text-accent-3.error-text-color, .form-item .text-accent-3.form-required:after, #edit-actions .text-accent-3.button--danger {
   color: #FF1744 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -588,7 +588,7 @@ th {
   background-color: #D50000 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-4, .text-accent-4.error-text-color, #edit-actions .text-accent-4.button--danger {
+.red-text.text-accent-4, .text-accent-4.error-text-color, .form-item .text-accent-4.form-required:after, #edit-actions .text-accent-4.button--danger {
   color: #D50000 !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
@@ -620,7 +620,7 @@ th {
   background-color: #f48fb1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.pink-text.text-lighten-3, .pink-text.error-text-color {
+.pink-text.text-lighten-3, .pink-text.error-text-color, .form-item .pink-text.form-required:after {
   color: #f48fb1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -732,7 +732,7 @@ th {
   background-color: #ce93d8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.purple-text.text-lighten-3, .purple-text.error-text-color {
+.purple-text.text-lighten-3, .purple-text.error-text-color, .form-item .purple-text.form-required:after {
   color: #ce93d8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -844,7 +844,7 @@ th {
   background-color: #b39ddb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple-text.text-lighten-3, .deep-purple-text.error-text-color {
+.deep-purple-text.text-lighten-3, .deep-purple-text.error-text-color, .form-item .deep-purple-text.form-required:after {
   color: #b39ddb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -956,7 +956,7 @@ th {
   background-color: #9fa8da !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.indigo-text.text-lighten-3, .indigo-text.error-text-color {
+.indigo-text.text-lighten-3, .indigo-text.error-text-color, .form-item .indigo-text.form-required:after {
   color: #9fa8da !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1068,7 +1068,7 @@ th {
   background-color: #90CAF9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-lighten-3, .blue-text.error-text-color, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, #block-material-admin-page-title h1.page-title em.text-lighten-3 {
+.blue-text.text-lighten-3, .blue-text.error-text-color, .form-item .blue-text.form-required:after, .form-item .breadcrumb-nav ol li.form-required:after, .breadcrumb-nav ol .form-item li.form-required:after, .form-item .breadcrumb-nav ol li a.form-required:after, .breadcrumb-nav ol li .form-item a.form-required:after, .form-item #block-material-admin-page-title h1.page-title em.form-required:after, #block-material-admin-page-title h1.page-title .form-item em.form-required:after, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before, #block-material-admin-page-title h1.page-title em.text-lighten-3 {
   color: #90CAF9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1180,7 +1180,7 @@ th {
   background-color: #81d4fa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue-text.text-lighten-3, .light-blue-text.error-text-color {
+.light-blue-text.text-lighten-3, .light-blue-text.error-text-color, .form-item .light-blue-text.form-required:after {
   color: #81d4fa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1292,7 +1292,7 @@ th {
   background-color: #80deea !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.cyan-text.text-lighten-3, .cyan-text.error-text-color {
+.cyan-text.text-lighten-3, .cyan-text.error-text-color, .form-item .cyan-text.form-required:after {
   color: #80deea !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1404,7 +1404,7 @@ th {
   background-color: #80cbc4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.teal-text.text-lighten-3, .teal-text.error-text-color {
+.teal-text.text-lighten-3, .teal-text.error-text-color, .form-item .teal-text.form-required:after {
   color: #80cbc4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1516,7 +1516,7 @@ th {
   background-color: #A5D6A7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.green-text.text-lighten-3, .green-text.error-text-color, .error-text-color.status-text-color, .text-lighten-3.status-text-color {
+.green-text.text-lighten-3, .green-text.error-text-color, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .green-text.form-required:after, .text-lighten-3.status-text-color {
   color: #A5D6A7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1628,7 +1628,7 @@ th {
   background-color: #c5e1a5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-green-text.text-lighten-3, .light-green-text.error-text-color {
+.light-green-text.text-lighten-3, .light-green-text.error-text-color, .form-item .light-green-text.form-required:after {
   color: #c5e1a5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1740,7 +1740,7 @@ th {
   background-color: #e6ee9c !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.lime-text.text-lighten-3, .lime-text.error-text-color {
+.lime-text.text-lighten-3, .lime-text.error-text-color, .form-item .lime-text.form-required:after {
   color: #e6ee9c !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1852,7 +1852,7 @@ th {
   background-color: #fff59d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.yellow-text.text-lighten-3, .yellow-text.error-text-color, .error-text-color.warning-text-color, a.error-text-color#edit-cancel, .text-lighten-3.warning-text-color, a.text-lighten-3#edit-cancel {
+.yellow-text.text-lighten-3, .yellow-text.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item a.form-required#edit-cancel:after, a.error-text-color#edit-cancel, .form-item .yellow-text.form-required:after, .text-lighten-3.warning-text-color, a.text-lighten-3#edit-cancel {
   color: #fff59d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -1964,7 +1964,7 @@ th {
   background-color: #ffe082 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.amber-text.text-lighten-3, .amber-text.error-text-color {
+.amber-text.text-lighten-3, .amber-text.error-text-color, .form-item .amber-text.form-required:after {
   color: #ffe082 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2076,7 +2076,7 @@ th {
   background-color: #ffcc80 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.orange-text.text-lighten-3, .orange-text.error-text-color {
+.orange-text.text-lighten-3, .orange-text.error-text-color, .form-item .orange-text.form-required:after {
   color: #ffcc80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2188,7 +2188,7 @@ th {
   background-color: #ffab91 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange-text.text-lighten-3, .deep-orange-text.error-text-color {
+.deep-orange-text.text-lighten-3, .deep-orange-text.error-text-color, .form-item .deep-orange-text.form-required:after {
   color: #ffab91 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2300,7 +2300,7 @@ th {
   background-color: #bcaaa4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.brown-text.text-lighten-3, .brown-text.error-text-color {
+.brown-text.text-lighten-3, .brown-text.error-text-color, .form-item .brown-text.form-required:after {
   color: #bcaaa4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2380,7 +2380,7 @@ th {
   background-color: #b0bec5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey-text.text-lighten-3, .blue-grey-text.error-text-color {
+.blue-grey-text.text-lighten-3, .blue-grey-text.error-text-color, .form-item .blue-grey-text.form-required:after {
   color: #b0bec5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2460,7 +2460,7 @@ th {
   background-color: #eeeeee !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-3, .grey-text.error-text-color, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, table .error-text-color.region-title, table thead th.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, table .text-lighten-3.region-title, table thead th.text-lighten-3 {
+.grey-text.text-lighten-3, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, table .error-text-color.region-title, table thead th.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, table .text-lighten-3.region-title, table thead th.text-lighten-3 {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -10150,89 +10150,89 @@ a.button:hover {
   .form-item .form-required:after {
     content: " *"; }
 
-/* line 46, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 47, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 55, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 56, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 #edit-actions .button {
   margin: 10px 10px 10px 0; }
 
-/* line 65, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 66, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 a.tabledrag-handle .handle {
   width: 30px;
   height: 30px; }
 
-/* line 71, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 72, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .switch label {
   white-space: nowrap; }
 
-/* line 75, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 76, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 79, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 80, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr[title] {
   border-bottom: none; }
 
-/* line 84, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 85, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }
 
-/* line 91, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 92, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .js-form-type-checkbox label.visually-hidden {
   position: relative !important;
   text-indent: -999999px;
   clip: inherit;
   overflow: visible;
   visibility: hidden; }
-  /* line 97, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 98, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 109, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper summary:focus {
   outline: 0; }
 
-/* line 112, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 2rem; }
 
-/* line 120, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 121, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 123, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 131, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 136, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 137, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 140, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 141, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 144, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 145, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
   padding: 10px; }
 
-/* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 149, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px; }
 
-/* line 153, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 154, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 158, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10255,7 +10255,7 @@ details.form-wrapper .details-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 185, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 186, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10266,7 +10266,7 @@ details.form-wrapper .details-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 196, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   color: #ffffff;
   text-decoration: none;

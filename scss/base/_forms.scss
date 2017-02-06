@@ -39,6 +39,7 @@
   .form-required {
     &:after {
       content: " *";
+      @extend .error-text-color;
     }
   }
 }

@@ -15,19 +15,25 @@
   });
 
   //trigger select boxes to be replaced with li for better styling
-
   $(document).ready(function () {
     $('select').material_select();
   });
 
-
   Drupal.behaviors.material_tooltip = {
     attach: function (context, settings) {
-      $('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
+      $(document).ready(function () {
+        $('.tooltipped', context).tooltip({ delay: 150 });
+      })
     }
-  };
-
-
+  }
+  Drupal.behaviors.material_textfields = {
+    attach: function (context, settings) {
+      $(document).ready(function () {
+        Materialize.updateTextFields();
+      });
+    }
+  }
+  
   //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
   // @ToDO Titles in core need to be better descriptive of the actual page.
   $(document).ready(function () {
@@ -51,7 +57,6 @@
       in_duration: 200,
       out_duration: 200,
     });
-
   });
 
 })(jQuery, Drupal);
