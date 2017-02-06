@@ -33,11 +33,15 @@
       });
     }
   }
-  
+
   //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
   // @ToDO Titles in core need to be better descriptive of the actual page.
   $(document).ready(function () {
     var url = window.location.href;
+    //remove paramaters from the URL (like ?destination=) to avoid a misleading breadcrumb
+   if (url.indexOf("?") >= 0) {
+      url = url.substring(0, url.indexOf('?'));
+   }
     var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
     var currentPageUrlSegment = url.substr(url.lastIndexOf('/') + 1);
     var urlSegmentAsTitle = currentPageUrlSegment.replace(/[_-]/g, " ");
