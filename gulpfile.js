@@ -17,17 +17,7 @@ return gulp.src([
   'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js',
   'node_modules/tablesaw/dist/tablesaw-init.js'
   ])
-  .pipe(gulpCopy('js/vendor',{prefix: 4}));
-});
-
-gulp.task('jslib', function() {
-  return gulp.src([
-    './js/vendor/materialize.min.js',
-    './js/vendor/materialize.clockpicker.js',
-    './js/vendor/tablesaw.stackonly.jquery.js',
-    './js/vendor/tablesaw-init.js'
-    ])
-  .pipe(gulpCopy('./js/lib',{prefix: 3}));
+  .pipe(gulpCopy('js/lib',{prefix: 4}));
 });
 
 gulp.task('sass', function() {
