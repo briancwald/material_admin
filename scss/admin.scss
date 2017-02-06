@@ -421,13 +421,15 @@ tr.drag {
 
 .breadcrumb-nav ol li:first-child {
   a {
-    text-indent: -999999px;
+    visibility: hidden;
+    max-width: 20px;
     &:before {
       float: left;
       content: $fa-var-home;
       @extend .fa-standard;
       display: inline-block;
       text-indent: 0;
+      visibility: visible;
     }
   }
 }

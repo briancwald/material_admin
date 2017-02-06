@@ -28,17 +28,21 @@
   };
 
 
-  //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround
+  //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
+  // @ToDO Titles in core need to be better descriptive of the actual page.
   $(document).ready(function () {
     var url = window.location.href;
     var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
     var currentPageUrlSegment = url.substr(url.lastIndexOf('/') + 1);
     var urlSegmentAsTitle = currentPageUrlSegment.replace(/[_-]/g, " ");
-    if (currentPageBeadcrumb.is(':empty')) {
+    // In some administartion pages, the title is the same for multiple pages (I.E. content-types management)
+    // This is not very helpful, so get see if that last 2 items match and replace it with last URL semgent for better wayfinding.
+    var lastLinkItem = $('.breadcrumb-nav li:nth-last-of-type(2)').text();
+    if (currentPageBeadcrumb.is(':empty') || (currentPageBeadcrumb.text() === lastLinkItem)) {
       currentPageBeadcrumb.text(urlSegmentAsTitle).addClass('url-segement-title');
     }
   });
-  
+
   //trigger modals
   $(document).ready(function () {
     $('.modal').modal({
