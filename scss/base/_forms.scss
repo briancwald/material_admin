@@ -62,6 +62,12 @@ input[type=checkbox] {
   }
 }
 
+input.btn {
+  @media #{$medium-and-down} {
+    margin-bottom:1em;
+  }
+}
+
 a.tabledrag-handle {
   .handle {
     width: 30px;
@@ -99,6 +105,11 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
       visibility: visible;
     }
   }
+}
+
+h4.label {
+  font-size:1rem;
+  font-weight:bold;
 }
 
 //instead of replacing the collapsible with materialize which can cause issues with drupal AJAX, style the default details

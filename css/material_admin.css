@@ -2628,95 +2628,95 @@ small {
   font-weight: 200; }
 
 /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-.flow-text {
+.flow-text, p, .description {
   font-weight: 300; }
   @media only screen and (min-width: 360px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.2rem; } }
   @media only screen and (min-width: 390px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.224rem; } }
   @media only screen and (min-width: 420px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.248rem; } }
   @media only screen and (min-width: 450px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.272rem; } }
   @media only screen and (min-width: 480px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.296rem; } }
   @media only screen and (min-width: 510px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.32rem; } }
   @media only screen and (min-width: 540px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.344rem; } }
   @media only screen and (min-width: 570px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.368rem; } }
   @media only screen and (min-width: 600px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.392rem; } }
   @media only screen and (min-width: 630px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.416rem; } }
   @media only screen and (min-width: 660px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.44rem; } }
   @media only screen and (min-width: 690px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.464rem; } }
   @media only screen and (min-width: 720px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.488rem; } }
   @media only screen and (min-width: 750px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.512rem; } }
   @media only screen and (min-width: 780px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.536rem; } }
   @media only screen and (min-width: 810px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.56rem; } }
   @media only screen and (min-width: 840px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.584rem; } }
   @media only screen and (min-width: 870px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.608rem; } }
   @media only screen and (min-width: 900px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.632rem; } }
   @media only screen and (min-width: 930px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.656rem; } }
   @media only screen and (min-width: 960px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.68rem; } }
   @media only screen and (max-width: 360px) {
     /* line 47, node_modules/materialize-css/sass/components/_typography.scss */
-    .flow-text {
+    .flow-text, p, .description {
       font-size: 1.2rem; } }
 
 /* line 3, node_modules/materialize-css/sass/components/_global.scss */
@@ -10003,7 +10003,15 @@ body {
 td, th {
   padding: 15px; }
 
-/* line 56, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 30, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+p, .description {
+  max-width: 45em; }
+  @media only screen and (min-width: 993px) {
+    /* line 30, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+    p, .description {
+      font-size: 1.2em; } }
+
+/* line 67, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button-action:before {
   content: "";
   color: #fefefe;
@@ -10015,11 +10023,11 @@ td, th {
   margin: 0 10px 0 0px;
   -webkit-font-smoothing: antialiased; }
 
-/* line 69, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 80, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .inline {
   display: inline; }
 
-/* line 81, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 92, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-standard, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .dropdown-button:after, .dropdown-button.active:after, .breadcrumb-nav ol li:first-child a:before, .collection .collection-item > .item-list .collection .collection-item:before {
   vertical-align: top;
   display: inline-block;
@@ -10028,83 +10036,83 @@ td, th {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
-/* line 90, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 101, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .toast {
   word-break: normal; }
 
 @media only screen and (min-width: 601px) {
-  /* line 95, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 106, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   main .row {
     margin: 0 10px; } }
 
-/* line 100, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 111, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .row {
   padding: 20px;
   margin: 0; }
 
-/* line 106, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 117, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .region-status .row {
   padding: 0; }
 
-/* line 116, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 127, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 121, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 123, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 134, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 130, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 141, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 143, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 138, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 149, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 145, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 152, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 163, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 155, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 160, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 171, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 177, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow, .shadow-box, .entity-meta__header, .confirm-form-wrapper, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 170, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header, .confirm-form-wrapper {
   padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
-/* line 178, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .views-field-node-bulk-form {
   padding-left: 10px; }
 
-/* line 182, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
@@ -10158,81 +10166,91 @@ a.button:hover {
 #edit-actions .button {
   margin: 10px 10px 10px 0; }
 
-/* line 66, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+@media only screen and (max-width: 992px) {
+  /* line 65, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
+    margin-bottom: 1em; } }
+
+/* line 72, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 a.tabledrag-handle .handle {
   width: 30px;
   height: 30px; }
 
-/* line 72, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 78, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .switch label {
   white-space: nowrap; }
 
-/* line 76, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 82, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 80, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr[title] {
   border-bottom: none; }
 
-/* line 85, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 91, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }
 
-/* line 92, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 98, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .js-form-type-checkbox label.visually-hidden {
   position: relative !important;
   text-indent: -999999px;
   clip: inherit;
   overflow: visible;
   visibility: hidden; }
-  /* line 98, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 109, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 110, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+h4.label {
+  font-size: 1rem;
+  font-weight: bold; }
+
+/* line 120, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper summary:focus {
   outline: 0; }
 
-/* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 2rem; }
 
-/* line 121, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 135, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 143, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 137, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 141, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 152, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 145, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
   padding: 10px; }
 
-/* line 149, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 160, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px; }
 
-/* line 154, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 165, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 170, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10255,7 +10273,7 @@ details.form-wrapper .details-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 186, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10266,7 +10284,7 @@ details.form-wrapper .details-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   color: #ffffff;
   text-decoration: none;

@@ -76,7 +76,7 @@
     display: none !important; } }
 
 @media (max-width: 49.9375em) {
-  /* line 12, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
+  /* line 11, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
   .table-wrapper {
     /* Table rows have a gray bottom stroke by default */ }
     /* line 89, node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.scss */
@@ -105,7 +105,7 @@
       display: none; } }
 
 @media (min-width: 50em) {
-  /* line 12, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
+  /* line 11, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
   .table-wrapper {
     /* Show the table header rows */
     /* Hide the labels in each cell */ }
@@ -123,5 +123,13 @@
     .table-wrapper .tablesaw-stack td .tablesaw-cell-label,
     .table-wrapper .tablesaw-stack th .tablesaw-cell-label {
       display: none !important; } }
+
+/* line 15, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
+.table-wrapper .tablesaw-stack td, .table-wrapper .tablesaw-stack th {
+  margin: 20px 0;
+  padding: 20px 0; }
+  /* line 18, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
+  .table-wrapper .tablesaw-stack td .tablesaw-cell-label, .table-wrapper .tablesaw-stack th .tablesaw-cell-label {
+    margin-right: 1em; }
 
 /*# sourceMappingURL=../sass */
