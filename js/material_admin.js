@@ -6,24 +6,25 @@
 
 (function ($, Drupal) {
 
-  $(document).ready(function () {
-    // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-    $.each($(':checkbox:not(.item-switch), select'), function (k, v) {
+  Drupal.behaviors.material_checkbox = {
+    attach: function (context, settings) {
+      // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
+      $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function (k, v) {
       var label = $('label[for="' + this.id + '"]');
       $(this).insertBefore(label);
     });
-  });
-
+}
+}
   //trigger select boxes to be replaced with li for better styling
-  $(document).ready(function () {
-    $('select').material_select();
-  });
+  Drupal.behaviors.material_select_box = {
+    attach: function (context, settings) {
+    $(context).find('select').once('material_select_box').material_select();
+}
+}
 
   Drupal.behaviors.material_tooltip = {
     attach: function (context, settings) {
-      $(document).ready(function () {
-        $('.tooltipped', context).tooltip({ delay: 150 });
-      })
+       $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
   }
   Drupal.behaviors.material_textfields = {
@@ -53,14 +54,15 @@
     }
   });
 
-  //trigger modals
-  $(document).ready(function () {
-    $('.modal').modal({
+  Drupal.behaviors.material_modal = {
+    attach: function (context, settings) {
+     $(context).find('.modal').once('material_modal').modal({
       dismissible: true,
       opacity: 0.5,
       in_duration: 200,
       out_duration: 200,
     });
-  });
+}
+}
 
 })(jQuery, Drupal);

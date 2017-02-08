@@ -231,6 +231,10 @@ table.highlight > tbody > tr.selected {
   padding: 0;
 }
 
+.pagination li {
+  height:auto;
+}
+
 td.is-active {
   background-color: transparent;
 }
