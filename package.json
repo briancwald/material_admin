@@ -11,6 +11,7 @@
     "gulp-copy": "^0.0.2",
     "gulp-jshint": "^2.0.4",
     "gulp-load-plugins": "^1.1.0",
+    "gulp-refresh": "^1.1.0",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.1.0",
     "jshint": "^2.9.4",

@@ -1,9 +1,10 @@
-var gulp     = require('gulp');
-const jshint = require('gulp-jshint');
+var gulp      = require('gulp');
+const jshint  = require('gulp-jshint');
 const stylish = require('jshint-stylish');
-var gulpCopy = require('gulp-copy');
-var replace = require('gulp-replace');
-var $        = require('gulp-load-plugins')();
+var gulpCopy  = require('gulp-copy');
+var replace   = require('gulp-replace');
+var $         = require('gulp-load-plugins')();
+refresh       = require('gulp-refresh');
 
 // provide a paht to node modules 
 var sassPaths = [
@@ -44,11 +45,12 @@ gulp.task('sass', function() {
       includePaths: sassPaths,
       outputStyle: 'nested'
     })
-      .on('error', $.sass.logError))
+    .on('error', $.sass.logError))
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('css'))
+    .pipe(refresh());
 });
 
 gulp.task('lint', function() {
@@ -58,5 +60,6 @@ gulp.task('lint', function() {
 });
 
 gulp.task('default', ['sass'], function() {
+  refresh.listen()
   gulp.watch(['scss/**/*.scss'], ['sass']);
 });
