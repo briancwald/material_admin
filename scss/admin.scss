@@ -25,6 +25,11 @@ header.header-wrapper {
   @extend .shadow;
 }
 
+.messages {
+  padding: 10px;
+  @extend .flow-text;
+}
+
 .messages--status {
   @extend .status-color;
   &.messages-clone {
@@ -138,13 +143,11 @@ a.modal-trigger {
 //     padding-bottom: 10px;
 //   }
 // }
-
 // .collection.compact {
 //   .collection-item {
 //     padding: 1rem 0px;
 //   }
 // }
-
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
   display: none;
@@ -232,7 +235,7 @@ table.highlight > tbody > tr.selected {
 }
 
 .pagination li {
-  height:auto;
+  height: auto;
 }
 
 td.is-active {
@@ -259,8 +262,9 @@ td.is-active {
     }
   }
 }
+
 .collection.with-header > .collection {
-  border:none;
+  border: none;
 }
 
 table {
@@ -346,10 +350,12 @@ span.theme-status-indicator {
   }
 }
 
-table .region-title {
-  @extend .blue, .lighten-5;
-  @extend .grey-text;
-  font-weight: normal;
+table {
+  .region-title {
+    @extend .blue, .lighten-5;
+    @extend .grey-text;
+    font-weight: normal;
+  }
 }
 
 table td {

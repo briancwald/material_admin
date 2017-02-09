@@ -18,7 +18,7 @@ h3 {
 
 body {
   font-family: $body-font-family;
-  background:$white;
+  background: $white;
 }
 
 td, th {
@@ -26,14 +26,16 @@ td, th {
 }
 
 //impliment flowtext for paragraph readability on small devices
-
 p, .description {
   //hard to read senteces when its long, dont allow that.
-  max-width:45em;
+  max-width: 45em;
   @extend .flow-text;
-  @media #{$large-and-up} {
-    font-size:1.2em;
 }
+
+.flow-text {
+  @media #{$large-and-up} {
+    font-size: 1.2em;
+  }
 }
 
 .error-color {
@@ -47,6 +49,7 @@ p, .description {
 .warning-color {
   @extend .yellow, .darken-2;
 }
+
 .warning-text-color {
   @extend .yellow-text, .text-darken-2;
 }
@@ -119,6 +122,15 @@ p, .description {
   }
 }
 
+.select-wrapper input.select-dropdown{
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none; // latest Opera versions support -webkit-
+user-select:none;
+}
+
+
 input.button {
   @extend .btn;
   @extend .waves-effect;
@@ -180,7 +192,7 @@ a.button {
 
 .shadow-box {
   @extend .shadow;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;

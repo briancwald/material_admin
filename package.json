@@ -16,7 +16,7 @@
     "gulp-sass": "^2.1.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
-    "materialize-css": "^0.98"
+    "materialize-css": "^0.97.8"
   },
   "scripts": {
     "start": "gulp",

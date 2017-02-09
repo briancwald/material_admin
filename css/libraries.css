@@ -126,9 +126,8 @@
 
 /* line 15, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
 .table-wrapper .tablesaw-stack td, .table-wrapper .tablesaw-stack th {
-  margin: 20px 0;
-  padding: 20px 0; }
-  /* line 18, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
+  margin: 20px 0; }
+  /* line 17, /Users/brian.wald/Sites/material_admin/scss/libraries.scss */
   .table-wrapper .tablesaw-stack td .tablesaw-cell-label, .table-wrapper .tablesaw-stack th .tablesaw-cell-label {
     margin-right: 1em; }
 

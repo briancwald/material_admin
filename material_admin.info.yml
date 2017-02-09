@@ -19,6 +19,7 @@ stylesheets-remove:
   - '@classy/css/components/dialog.css'
   - '@classy/css/components/item-list.css'
   - '@classy/css/components/tablesort.css'
+  - '@stable/css/system/components/container-inline.module.css'
   - '@stable/css/system/system.admin.css'
   - '@stable/css/system/components/autocomplete-loading.module.css'
   - '@stable/css/system/components/ajax-progress.module.css'
