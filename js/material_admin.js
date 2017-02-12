@@ -7,16 +7,17 @@
 (function ($, Drupal) {
 
   Drupal.behaviors.material_checkbox = {
-      attach: function (context, settings) {
-        // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-        $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function (k, v) {
-          var label = $('label[for="' + this.id + '"]');
-          $(this).insertBefore(label);
-        });
-      }
+    attach: function (context, settings) {
+      // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
+      $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function (k, v) {
+        var label = $('label[for="' + this.id + '"]');
+        $(this).insertBefore(label);
+      });
     }
-    //trigger select boxes to be replaced with li for better styling
-    // (not intended for cardinality select boxes)
+  }
+
+  //trigger select boxes to be replaced with li for better styling
+  // (not intended for cardinality select boxes)
   Drupal.behaviors.material_select_box = {
     attach: function (context, settings) {
       $(context).find('select').once('material_select_box').material_select();
@@ -28,6 +29,7 @@
       $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
   }
+
   Drupal.behaviors.material_textfields = {
     attach: function (context, settings) {
       $(document).ready(function () {
@@ -44,6 +46,9 @@
     if (url.indexOf("?") >= 0) {
       url = url.substring(0, url.indexOf('?'));
     }
+    if (url.indexOf("#") >= 0) {
+      url = url.substring(0, url.indexOf('#'));
+    }
     var currentPageBeadcrumb = $('.breadcrumb-nav li.current span');
     var currentPageUrlSegment = url.substr(url.lastIndexOf('/') + 1);
     var urlSegmentAsTitle = currentPageUrlSegment.replace(/[_-]/g, " ");
@@ -53,8 +58,6 @@
     if (currentPageBeadcrumb.is(':empty') || (currentPageBeadcrumb.text() === lastLinkItem)) {
       currentPageBeadcrumb.text(urlSegmentAsTitle).addClass('url-segement-title');
     }
-      $(document).on('touchstart', function(e) { $(document).trigger('click'); });
-
   });
 
   Drupal.behaviors.material_modal = {
@@ -68,4 +71,12 @@
     }
   }
 
+  Drupal.behaviors.material_admin_node_actions = {
+    attach: function(context, settings) {
+      if (drupalSettings.material_admin.material_admin_node_actions) {
+        var actionsSize = $('.sticky-node-actions').outerHeight();
+        $('body').css('padding-bottom', actionsSize);
+  }
+}
+}
 })(jQuery, Drupal);

@@ -10,6 +10,9 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Template\Attribute;
+use Drupal\node\NodeInterface;
+
+require_once('inc/form.inc');
 
 /**
  * Implements hook_preprocess_html () for HTML document templates.
@@ -54,13 +57,6 @@ function material_admin_preprocess_menu_local_task(&$variables) {
   $variables['link']['#attributes']['target'] = '_self'; 
 
 }
-function material_admin_form_alter(&$form, &$form_state, $form_id) {
-  if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
-    $form['actions']['submit']['#attributes']['class'][] = 'success';
-    $form['actions']['submit']['#attributes']['class'][] = 'button';
-  }
-}
-
 
 //if there is an empty placeholder, materialize does weird things. ref: https://github.com/Dogfalo/materialize/pull/1737/files
 function material_admin_preprocess_input(&$variables) {
