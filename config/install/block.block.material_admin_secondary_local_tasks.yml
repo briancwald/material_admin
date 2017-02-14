@@ -5,8 +5,8 @@ dependencies:
     - material_admin
 id: material_admin_secondary_local_tasks
 theme: material_admin
-region: pre_content
-weight: 0
+region: highlighted
+weight: 1
 provider: null
 plugin: local_tasks_block
 settings:

@@ -131,6 +131,11 @@ a.modal-trigger {
 
 .tabs {
   background: inherit;
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 // .collection.with-header {
@@ -195,7 +200,7 @@ a.modal-trigger {
   }
 }
 
-.tabs a.is-active, .tabs a:focus, .tabs a:hover {
+.primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
   background-color: transparent!important;
 }
 

@@ -54,7 +54,7 @@
       <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
     </div>
   </div>
-  <header class="header-wrapper" role="banner">
+  <header class="header-wrapper shadow" role="banner">
     <div class="row">
       <div class="s12 col">
                 <div class="collection right" id="notification-wrapper">
@@ -68,7 +68,14 @@
   <section class="utility-wrapper">
     <div class="row">
       <div class="s12 col">
-      {{ page.primary_menu }} {{ page.secondary_menu }} {{ page.breadcrumb }} {{ page.highlighted }}
+      {{ page.primary_menu }}{{ page.breadcrumb }}
+    </div>
+    </div>
+  </section>
+  <section class="highlighted-wrapper">
+    <div class="row">
+      <div class="s12 col">
+      {{ page.highlighted }}
     </div>
     </div>
   </section>
