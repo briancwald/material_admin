@@ -39,6 +39,7 @@
       <h2{{ heading.attributes }}>{{ heading.text }}</h2>
     {%- endif -%}
   {%- endif -%}
+  {%- if links|length > 1 -%}
   <a class="dropdown-button btn grey lighten-3 grey-text text-darken-2" href="#">{% trans %}MANAGE{% endtrans %}</a>
   <ul{{ attributes.addClass('dropdown-content') }}>
     {%- for item in links -%}
@@ -54,4 +55,17 @@
       <li class="divider"></li>
     {%- endfor -%}
   </ul>
+  {%- else -%}
+   {%- for item in links -%}
+      <li{{ item.attributes.addClass('single-btn-wrapper') }}>
+        {%- if item.link -%}
+          {{ item.link }}
+        {%- elseif item.text_attributes -%}
+          <span{{ item.text_attributes }}>{{ item.text }}</span>
+        {%- else -%}
+          {{ item.text }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+{%- endif %}
 {%- endif %}

@@ -293,6 +293,13 @@ table {
   }
 }
 
+.dropbutton-wrapper .single-btn-wrapper {
+  list-style:none;
+  a {
+    @extend .btn, .grey, .lighten-3, .grey-text, .text-darken-2
+  }
+}
+
 .tabledrag-toggle-weight-wrapper {
   .tabledrag-toggle-weight {
     @extend .button-link;
