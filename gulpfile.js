@@ -31,14 +31,12 @@ gulp.task('rename', function(){
 gulp.task('copy', function() {
 return gulp.src([
   'node_modules/materialize-clockpicker/dist/js/materialize.clockpicker.js',
-  'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js',
-  'node_modules/tablesaw/dist/tablesaw-init.js'
   ])
   .pipe(gulpCopy('js/lib',{prefix: 4}));
 });
 
 gulp.task('sass', function() {
-  return gulp.src(['scss/material_admin.scss','scss/libraries.scss'])
+  return gulp.src(['scss/material_admin.scss'])
     .pipe($.sass({
       sourceComments: 'map',
       sourceMap: 'sass',
