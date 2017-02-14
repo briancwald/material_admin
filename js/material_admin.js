@@ -7,7 +7,7 @@
 (function ($, Drupal) {
 
   Drupal.behaviors.material_checkbox = {
-    attach: function (context, settings) {
+    attach: function (context) {
       // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
       $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function (k, v) {
         var label = $('label[for="' + this.id + '"]');
@@ -19,13 +19,13 @@
   //trigger select boxes to be replaced with li for better styling
   // (not intended for cardinality select boxes)
   Drupal.behaviors.material_select_box = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $(context).find('select').once('material_select_box').material_select();
     }
   }
 
   Drupal.behaviors.material_tooltip = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
   }
@@ -34,7 +34,7 @@
     attach: function (context, settings) {
       $(document).ready(function () {
         Materialize.updateTextFields();
-      });
+      })
     }
   }
 
@@ -72,11 +72,12 @@
   }
 
   Drupal.behaviors.material_admin_node_actions = {
-    attach: function(context, settings) {
-      if (drupalSettings.material_admin.material_admin_node_actions) {
+    attach: function (context, settings) {
+      if (drupalSettings && drupalSettings.material_admin && drupalSettings.material_admin.material_admin_node_actions) {
         var actionsSize = $('.sticky-node-actions').outerHeight();
-        $('body').css('padding-bottom', actionsSize);
+        $(context).find('body.material_admin').once('material_admin_node_actions').css('padding-bottom', actionsSize);
+      }
+    }
   }
-}
-}
+
 })(jQuery, Drupal);

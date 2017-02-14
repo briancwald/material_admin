@@ -11,6 +11,9 @@ global-styling:
   dependencies:
     - core/drupal
     - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+
 tables:
   version: VERSION
   js:
