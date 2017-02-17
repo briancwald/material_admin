@@ -3,7 +3,6 @@ global-styling:
   css:
     base:
       css/material_admin.css: {}
-      css/libraries.css: {}
   js:
     js/lib/materialize.min.js: {}
     js/lib/materialize.clockpicker.js: {}
