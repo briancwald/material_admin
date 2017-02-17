@@ -63,7 +63,7 @@ input[type=checkbox] {
 }
 
 input.btn {
-  margin:0px 5px;
+  margin:5px;
   @media #{$medium-and-down} {
     margin-bottom:1em;
   }

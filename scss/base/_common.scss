@@ -63,20 +63,15 @@ p, .description {
 }
 
 .button-action {
-  @extend .btn;
-  @extend .waves-effect;
-  @extend .waves-light;
-  @extend .red, .accent-2;
+  @extend .btn, .red, .accent-2, .white-text;
   &:before {
+    @extend .fa-standard;
     content: $fa-var-plus;
     color: $white;
-    vertical-align: top;
-    display: inline-block;
-    font-family: 'FontAwesome';
-    font-weight: normal;
-    font-style: normal;
     margin: 0 10px 0 0px;
-    -webkit-font-smoothing: antialiased;
+  }
+  &:hover {
+    @extend .lighten-1;
   }
 }
 

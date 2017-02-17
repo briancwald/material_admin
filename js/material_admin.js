@@ -14,7 +14,7 @@
         $(this).insertBefore(label);
       });
     }
-  }
+  };
 
   //trigger select boxes to be replaced with li for better styling
   // (not intended for cardinality select boxes)
@@ -22,21 +22,28 @@
     attach: function (context) {
       $(context).find('select').once('material_select_box').material_select();
     }
-  }
+  };
 
   Drupal.behaviors.material_tooltip = {
     attach: function (context) {
       $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
     }
-  }
+  };
 
   Drupal.behaviors.material_textfields = {
     attach: function (context, settings) {
       $(document).ready(function () {
-        Materialize.updateTextFields();
-      })
+        //account for field prefix, move the absolute label over to be positioned in the box.
+        $(context).find('.input-field').once('material_textfields').each(function () {
+          if ($(this).find(' > span.field-prefix').length) {
+            var prefixWidth = $(this).find(' > span.field-prefix').outerWidth();
+            $(this).find(' > label').css('left', prefixWidth + 10);
+          }
+          Materialize.updateTextFields();
+        });
+      });
     }
-  }
+  };
 
   //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
   // @ToDO Titles in core need to be better descriptive of the actual page.
@@ -69,7 +76,7 @@
         out_duration: 200,
       });
     }
-  }
+  };
 
   Drupal.behaviors.material_admin_node_actions = {
     attach: function (context, settings) {
@@ -78,6 +85,6 @@
         $(context).find('body.material_admin').once('material_admin_node_actions').css('padding-bottom', actionsSize);
       }
     }
-  }
+  };
 
 })(jQuery, Drupal);
