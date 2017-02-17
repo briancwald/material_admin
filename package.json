@@ -28,7 +28,6 @@
   "dependencies": {
     "gulp-autoprefixer": "^3.1.0",
     "jquery-lazyload": "1.9.7",
-    "materialize-clockpicker": "^1.0.1",
-    "tablesaw": "^3.0.0-beta.3"
+    "materialize-clockpicker": "^1.0.1"
   }
 }
