@@ -5,6 +5,9 @@ Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 
 [logo]: https://github.com/briancwald/material_admin/blob/8.x-1.x/images/screenshot.png "Drupal Material Admin"
 
+## Dev Requirments 
+[Yarn package manager](https://yarnpkg.com)
+
 ## Dev Setup 
  - `Yarn install`
  - `Gulp libsrc` Gets libries
