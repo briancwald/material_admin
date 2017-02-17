@@ -6,11 +6,11 @@ Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 [logo]: https://github.com/briancwald/material_admin/blob/8.x-1.x/images/screenshot.png "Drupal Material Admin"
 
 ## Dev Setup 
- `Yarn install`
- `Gulp libsrc` Gets libries
- `Gulp rename` renames conflict with jqueryUI and MaterializeCSS autocomplete plugin
- `Gulp copy` moves updated libraries over to js/lib folder
- `Gulp sass` or `gulp` to watch sass changes
+ - `Yarn install`
+ - `Gulp libsrc` Gets libries
+ - `Gulp rename` renames conflict with jqueryUI and MaterializeCSS autocomplete plugin
+ - `Gulp copy` moves updated libraries over to js/lib folder
+ - `Gulp sass` or `gulp` to watch sass changes
 
 ## To-Do
 - [x] Gulp Setup
