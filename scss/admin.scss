@@ -137,21 +137,6 @@ a.modal-trigger {
   }
 }
 
-// .collection.with-header {
-//   h3.collection-header {
-//     margin: 0;
-//     padding: 20px;
-//   }
-//   .collection-item {
-//     padding-top: 10px;
-//     padding-bottom: 10px;
-//   }
-// }
-// .collection.compact {
-//   .collection-item {
-//     padding: 1rem 0px;
-//   }
-// }
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
   display: none;
@@ -248,6 +233,9 @@ td.is-active {
 
 .collection-item {
   text-decoration: none;
+  i.fa {
+    padding-right: 10px;
+  }
   &:hover {
     text-decoration: none;
   }
@@ -303,6 +291,10 @@ table {
   }
 }
 
+.dropbutton-widget {
+  padding: 0 5px;
+}
+
 .dropdown-button {
   display: inline-block;
   &:hover {
@@ -320,6 +312,17 @@ table {
     margin-left: 10px;
     content: $fa-var-caret-up;
     display: inline;
+  }
+}
+
+//dont show button styles in dropdowns
+.dropdown-content {
+  li {
+    .button {
+      background: none;
+      color: inherit;
+      box-shadow: none;
+    }
   }
 }
 
@@ -515,13 +518,6 @@ tr.drag {
   }
 }
 
-//tooltip readability
-.material-tooltip {
-  max-width: 36em;
-  line-height: 1.5em;
-  font-weight: 100;
-}
-
 //nested collection styling
 .collection .collection-item > .item-list {
   .collection {
@@ -534,6 +530,16 @@ tr.drag {
       }
       border: none;
     }
+  }
+}
+
+//collection comma list
+.collection.item-list__comma-list {
+  border:none;
+  .collection-item {
+    line-height: 1em;
+    border: none;
+    padding:inherit;
   }
 }
 

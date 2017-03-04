@@ -36,6 +36,7 @@
 
 .form-item {
   margin: 25px 0;
+  position:relative;
   .form-required {
     &:after {
       content: " *";
@@ -160,6 +161,13 @@ details.form-wrapper {
 
 .container-inline .form-item {
   padding-right: 10px;
+  display:inline;
+}
+
+.form--inline, .dblog-filter-form {
+  .form-actions {
+    padding:0 10px;
+  }
 }
 
 .entity-meta__author h4 {

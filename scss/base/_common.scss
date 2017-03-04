@@ -25,11 +25,16 @@ td, th {
   padding: 15px;
 }
 
-//impliment flowtext for paragraph readability on small devices
-p, .description {
-  //hard to read senteces when its long, dont allow that.
-  max-width: 45em;
-  @extend .flow-text;
+.description {
+  //tooltip readability
+  .material-tooltip {
+    max-width: 36em;
+    line-height: 1.5em;
+    font-weight: 100;
+  }
+  .tooltipped {
+    font-size: .8em;
+  }
 }
 
 .flow-text {
@@ -60,6 +65,18 @@ p, .description {
 
 .status-text-color {
   @extend .green-text, .text-darken-2;
+}
+
+.color-warning {
+  @extend .yellow, .lighten-4;
+}
+
+.color-success {
+  @extend .green, .lighten-4
+}
+
+.color-error {
+  @extend .red, .lighten-4;
 }
 
 .button-action {
@@ -117,14 +134,13 @@ p, .description {
   }
 }
 
-.select-wrapper input.select-dropdown{
--webkit-user-select:none;
--moz-user-select:none;
--ms-user-select:none;
--o-user-select:none; // latest Opera versions support -webkit-
-user-select:none;
+.select-wrapper input.select-dropdown {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none; // latest Opera versions support -webkit-
+  user-select: none;
 }
-
 
 input.button {
   @extend .btn;
@@ -200,4 +216,12 @@ a.button {
 .button--small {
   @extend .btn-flat;
   font-size: .8em;
+}
+
+//change how clear fix works so it doesnt disrupt OOTB drupal clearfix
+.clearfix {
+  clear:none;
+  &:after {
+
+  }
 }
