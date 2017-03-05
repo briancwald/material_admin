@@ -236,3 +236,17 @@ a#edit-cancel {
 .confirm-form-wrapper {
   @extend .shadow-box;
 }
+
+//machine name display/edit
+.field-suffix {
+ small {
+    padding:0 10px;
+    span.machine-name-value {
+      font-weight:bold;
+    }
+    span.admin-link {
+      margin:0 10px;
+      @extend .btn-flat
+    }
+  }
+}

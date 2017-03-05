@@ -408,7 +408,7 @@ th {
   color: #e51c23 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red.lighten-5, table.highlight > tbody > tr.materialize-red:hover, .materialize-red.dropdown-button:hover, h2.materialize-red.theme-list-title, table .materialize-red.region-title, tr.materialize-red.drag-previous {
+.materialize-red.lighten-5, table.highlight > tbody > tr.materialize-red:hover, .materialize-red.dropdown-button:hover, h2.materialize-red.theme-list-title, table .materialize-red.region-title, tr.materialize-red.drag-previous, tr.materialize-red.field-plugin-settings-editing {
   background-color: #fdeaeb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -488,7 +488,7 @@ th {
   color: #F44336 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.red.lighten-5, .lighten-5.error-color, .node-multiple-delete-confirm input.lighten-5.form-submit, .node-multiple-delete-confirm input.form-submit.dropdown-button:hover, .node-multiple-delete-confirm table input.form-submit.region-title, table .node-multiple-delete-confirm input.form-submit.region-title, .lighten-5.messages--error, table.highlight > tbody > tr.messages--error:hover, .messages--error.dropdown-button:hover, h2.messages--error.theme-list-title, table .messages--error.region-title, tr.messages--error.drag-previous, .messages--error.messages-clone .lighten-5.card-content, .messages--error.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--error.messages-clone .card-content.dropdown-button:hover, .messages--error.messages-clone h2.card-content.theme-list-title, .messages--error.messages-clone table .card-content.region-title, table .messages--error.messages-clone .card-content.region-title, .messages--error.messages-clone tr.card-content.drag-previous, table.highlight > tbody > tr.error-color:hover, .error-color.dropdown-button:hover, h2.error-color.theme-list-title, table .error-color.region-title, tr.error-color.drag-previous, .lighten-5.color-error, table.highlight > tbody > tr.color-error:hover, .color-error.dropdown-button:hover, h2.color-error.theme-list-title, table .color-error.region-title, tr.color-error.drag-previous, .lighten-5.button-action, table.highlight > tbody > tr.button-action:hover, .button-action.dropdown-button:hover, h2.button-action.theme-list-title, table .button-action.region-title, tr.button-action.drag-previous, table.highlight > tbody > tr.red:hover, .red.dropdown-button:hover, h2.red.theme-list-title, table .red.region-title, tr.red.drag-previous {
+.red.lighten-5, .lighten-5.error-color, .node-multiple-delete-confirm input.lighten-5.form-submit, .node-multiple-delete-confirm input.form-submit.dropdown-button:hover, .node-multiple-delete-confirm table input.form-submit.region-title, table .node-multiple-delete-confirm input.form-submit.region-title, .lighten-5.messages--error, table.highlight > tbody > tr.messages--error:hover, .messages--error.dropdown-button:hover, h2.messages--error.theme-list-title, table .messages--error.region-title, tr.messages--error.drag-previous, tr.messages--error.field-plugin-settings-editing, .messages--error.messages-clone .lighten-5.card-content, .messages--error.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--error.messages-clone .card-content.dropdown-button:hover, .messages--error.messages-clone h2.card-content.theme-list-title, .messages--error.messages-clone table .card-content.region-title, table .messages--error.messages-clone .card-content.region-title, .messages--error.messages-clone tr.card-content.drag-previous, .messages--error.messages-clone tr.card-content.field-plugin-settings-editing, table.highlight > tbody > tr.error-color:hover, .error-color.dropdown-button:hover, h2.error-color.theme-list-title, table .error-color.region-title, tr.error-color.drag-previous, tr.error-color.field-plugin-settings-editing, .lighten-5.color-error, table.highlight > tbody > tr.color-error:hover, .color-error.dropdown-button:hover, h2.color-error.theme-list-title, table .color-error.region-title, tr.color-error.drag-previous, tr.color-error.field-plugin-settings-editing, .lighten-5.button-action, table.highlight > tbody > tr.button-action:hover, .button-action.dropdown-button:hover, h2.button-action.theme-list-title, table .button-action.region-title, tr.button-action.drag-previous, tr.button-action.field-plugin-settings-editing, table.highlight > tbody > tr.red:hover, .red.dropdown-button:hover, h2.red.theme-list-title, table .red.region-title, tr.red.drag-previous, tr.red.field-plugin-settings-editing {
   background-color: #FFEBEE !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -600,7 +600,7 @@ th {
   color: #e91e63 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.pink.lighten-5, table.highlight > tbody > tr.pink:hover, .pink.dropdown-button:hover, h2.pink.theme-list-title, table .pink.region-title, tr.pink.drag-previous {
+.pink.lighten-5, table.highlight > tbody > tr.pink:hover, .pink.dropdown-button:hover, h2.pink.theme-list-title, table .pink.region-title, tr.pink.drag-previous, tr.pink.field-plugin-settings-editing {
   background-color: #fce4ec !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -712,7 +712,7 @@ th {
   color: #9c27b0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.purple.lighten-5, table.highlight > tbody > tr.purple:hover, .purple.dropdown-button:hover, h2.purple.theme-list-title, table .purple.region-title, tr.purple.drag-previous {
+.purple.lighten-5, table.highlight > tbody > tr.purple:hover, .purple.dropdown-button:hover, h2.purple.theme-list-title, table .purple.region-title, tr.purple.drag-previous, tr.purple.field-plugin-settings-editing {
   background-color: #f3e5f5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -824,7 +824,7 @@ th {
   color: #673ab7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple.lighten-5, table.highlight > tbody > tr.deep-purple:hover, .deep-purple.dropdown-button:hover, h2.deep-purple.theme-list-title, table .deep-purple.region-title, tr.deep-purple.drag-previous {
+.deep-purple.lighten-5, table.highlight > tbody > tr.deep-purple:hover, .deep-purple.dropdown-button:hover, h2.deep-purple.theme-list-title, table .deep-purple.region-title, tr.deep-purple.drag-previous, tr.deep-purple.field-plugin-settings-editing {
   background-color: #ede7f6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -936,7 +936,7 @@ th {
   color: #3f51b5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.indigo.lighten-5, table.highlight > tbody > tr.indigo:hover, .indigo.dropdown-button:hover, h2.indigo.theme-list-title, table .indigo.region-title, tr.indigo.drag-previous {
+.indigo.lighten-5, table.highlight > tbody > tr.indigo:hover, .indigo.dropdown-button:hover, h2.indigo.theme-list-title, table .indigo.region-title, tr.indigo.drag-previous, tr.indigo.field-plugin-settings-editing {
   background-color: #e8eaf6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1048,7 +1048,7 @@ th {
   color: #2196F3 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue.lighten-5, header.lighten-5.header-wrapper, header.header-wrapper.dropdown-button:hover, .lighten-5.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, .utility-wrapper.dropdown-button:hover, tr.utility-wrapper.drag-previous, table.highlight > tbody > tr.blue:hover, table.highlight > tbody > tr.region-title:hover, .blue.dropdown-button:hover, h2.dropdown-button.theme-list-title:hover, table .dropdown-button.region-title:hover, h2.theme-list-title, table .region-title, tr.blue.drag-previous {
+.blue.lighten-5, header.lighten-5.header-wrapper, header.header-wrapper.dropdown-button:hover, .lighten-5.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, .utility-wrapper.dropdown-button:hover, tr.utility-wrapper.drag-previous, tr.utility-wrapper.field-plugin-settings-editing, table.highlight > tbody > tr.blue:hover, table.highlight > tbody > tr.region-title:hover, .blue.dropdown-button:hover, h2.dropdown-button.theme-list-title:hover, table .dropdown-button.region-title:hover, h2.theme-list-title, table .region-title, tr.blue.drag-previous, tr.blue.field-plugin-settings-editing {
   background-color: #E3F2FD !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1160,7 +1160,7 @@ th {
   color: #03a9f4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue.lighten-5, table.highlight > tbody > tr.light-blue:hover, .light-blue.dropdown-button:hover, h2.light-blue.theme-list-title, table .light-blue.region-title, tr.light-blue.drag-previous {
+.light-blue.lighten-5, table.highlight > tbody > tr.light-blue:hover, .light-blue.dropdown-button:hover, h2.light-blue.theme-list-title, table .light-blue.region-title, tr.light-blue.drag-previous, tr.light-blue.field-plugin-settings-editing {
   background-color: #e1f5fe !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1272,7 +1272,7 @@ th {
   color: #00bcd4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.cyan.lighten-5, table.highlight > tbody > tr.cyan:hover, .cyan.dropdown-button:hover, h2.cyan.theme-list-title, table .cyan.region-title, tr.cyan.drag-previous {
+.cyan.lighten-5, table.highlight > tbody > tr.cyan:hover, .cyan.dropdown-button:hover, h2.cyan.theme-list-title, table .cyan.region-title, tr.cyan.drag-previous, tr.cyan.field-plugin-settings-editing {
   background-color: #e0f7fa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1384,7 +1384,7 @@ th {
   color: #009688 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-5, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.lighten-5.selected, table.highlight > tbody > tr.selected.region-title, table.highlight > tbody > tr.selected.drag-previous, table.highlight > tbody > tr.selected td.lighten-5, table.highlight > tbody > tr.selected td.dropdown-button:hover, table.highlight > tbody > tr.selected td.region-title, .teal.dropdown-button:hover, h2.teal.theme-list-title, table .teal.region-title, tr.teal.drag-previous {
+.teal.lighten-5, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.lighten-5.selected, table.highlight > tbody > tr.selected.region-title, table.highlight > tbody > tr.selected.drag-previous, table.highlight > tbody > tr.selected.field-plugin-settings-editing, table.highlight > tbody > tr.selected td.lighten-5, table.highlight > tbody > tr.selected td.dropdown-button:hover, table.highlight > tbody > tr.selected td.region-title, .teal.dropdown-button:hover, h2.teal.theme-list-title, table .teal.region-title, tr.teal.drag-previous, tr.teal.field-plugin-settings-editing {
   background-color: #e0f2f1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1496,7 +1496,7 @@ th {
   color: #4CAF50 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.green.lighten-5, .lighten-5.status-color, .lighten-5.messages--status, table.highlight > tbody > tr.messages--status:hover, .messages--status.dropdown-button:hover, h2.messages--status.theme-list-title, table .messages--status.region-title, tr.messages--status.drag-previous, .messages--status.messages-clone .lighten-5.card-content, .messages--status.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--status.messages-clone .card-content.dropdown-button:hover, .messages--status.messages-clone h2.card-content.theme-list-title, .messages--status.messages-clone table .card-content.region-title, table .messages--status.messages-clone .card-content.region-title, .messages--status.messages-clone tr.card-content.drag-previous, table.highlight > tbody > tr.status-color:hover, .status-color.dropdown-button:hover, h2.status-color.theme-list-title, table .status-color.region-title, tr.status-color.drag-previous, .lighten-5.color-success, table.highlight > tbody > tr.color-success:hover, .color-success.dropdown-button:hover, h2.color-success.theme-list-title, table .color-success.region-title, tr.color-success.drag-previous, table.highlight > tbody > tr.green:hover, .green.dropdown-button:hover, h2.green.theme-list-title, table .green.region-title, tr.green.drag-previous {
+.green.lighten-5, .lighten-5.status-color, .lighten-5.messages--status, table.highlight > tbody > tr.messages--status:hover, .messages--status.dropdown-button:hover, h2.messages--status.theme-list-title, table .messages--status.region-title, tr.messages--status.drag-previous, tr.messages--status.field-plugin-settings-editing, .messages--status.messages-clone .lighten-5.card-content, .messages--status.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--status.messages-clone .card-content.dropdown-button:hover, .messages--status.messages-clone h2.card-content.theme-list-title, .messages--status.messages-clone table .card-content.region-title, table .messages--status.messages-clone .card-content.region-title, .messages--status.messages-clone tr.card-content.drag-previous, .messages--status.messages-clone tr.card-content.field-plugin-settings-editing, table.highlight > tbody > tr.status-color:hover, .status-color.dropdown-button:hover, h2.status-color.theme-list-title, table .status-color.region-title, tr.status-color.drag-previous, tr.status-color.field-plugin-settings-editing, .lighten-5.color-success, table.highlight > tbody > tr.color-success:hover, .color-success.dropdown-button:hover, h2.color-success.theme-list-title, table .color-success.region-title, tr.color-success.drag-previous, tr.color-success.field-plugin-settings-editing, table.highlight > tbody > tr.green:hover, .green.dropdown-button:hover, h2.green.theme-list-title, table .green.region-title, tr.green.drag-previous, tr.green.field-plugin-settings-editing {
   background-color: #E8F5E9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1608,7 +1608,7 @@ th {
   color: #8bc34a !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-green.lighten-5, table.highlight > tbody > tr.light-green:hover, .light-green.dropdown-button:hover, h2.light-green.theme-list-title, table .light-green.region-title, tr.light-green.drag-previous {
+.light-green.lighten-5, table.highlight > tbody > tr.light-green:hover, .light-green.dropdown-button:hover, h2.light-green.theme-list-title, table .light-green.region-title, tr.light-green.drag-previous, tr.light-green.field-plugin-settings-editing {
   background-color: #f1f8e9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1720,7 +1720,7 @@ th {
   color: #cddc39 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.lime.lighten-5, table.highlight > tbody > tr.lime:hover, .lime.dropdown-button:hover, h2.lime.theme-list-title, table .lime.region-title, tr.lime.drag-previous {
+.lime.lighten-5, table.highlight > tbody > tr.lime:hover, .lime.dropdown-button:hover, h2.lime.theme-list-title, table .lime.region-title, tr.lime.drag-previous, tr.lime.field-plugin-settings-editing {
   background-color: #f9fbe7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1824,7 +1824,7 @@ th {
   color: #aeea00 !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
-.yellow, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content, .color-warning, span.theme-status-indicator, tr.drag-previous, tr.drag {
+.yellow, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content, .color-warning, span.theme-status-indicator, tr.drag, tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
   background-color: #ffeb3b !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
@@ -1832,7 +1832,7 @@ th {
   color: #ffeb3b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-5, .lighten-5.warning-color, .lighten-5.messages--warning, table.highlight > tbody > tr.messages--warning:hover, .messages--warning.dropdown-button:hover, h2.messages--warning.theme-list-title, table .messages--warning.region-title, .messages--warning.messages-clone .lighten-5.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--warning.messages-clone .card-content.dropdown-button:hover, .messages--warning.messages-clone h2.card-content.theme-list-title, .messages--warning.messages-clone table .card-content.region-title, table .messages--warning.messages-clone .card-content.region-title, .messages--warning.messages-clone tr.card-content.drag-previous, table.highlight > tbody > tr.warning-color:hover, .warning-color.dropdown-button:hover, h2.warning-color.theme-list-title, table .warning-color.region-title, .lighten-5.color-warning, table.highlight > tbody > tr.color-warning:hover, .color-warning.dropdown-button:hover, h2.color-warning.theme-list-title, table .color-warning.region-title, table.highlight > tbody > tr.yellow:hover, table.highlight > tbody > tr.drag-previous:hover, table.highlight > tbody > tr.drag:hover, .yellow.dropdown-button:hover, span.dropdown-button.theme-status-indicator:hover, tr.dropdown-button.drag-previous:hover, tr.dropdown-button.drag:hover, h2.yellow.theme-list-title, span.lighten-5.theme-status-indicator, table span.theme-status-indicator.region-title, table .yellow.region-title, table tr.region-title.drag, tr.drag-previous, tr.lighten-5.drag {
+.yellow.lighten-5, .lighten-5.warning-color, .lighten-5.messages--warning, table.highlight > tbody > tr.messages--warning:hover, .messages--warning.dropdown-button:hover, h2.messages--warning.theme-list-title, table .messages--warning.region-title, tr.messages--warning.field-plugin-settings-editing, .messages--warning.messages-clone .lighten-5.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--warning.messages-clone .card-content.dropdown-button:hover, .messages--warning.messages-clone h2.card-content.theme-list-title, .messages--warning.messages-clone table .card-content.region-title, table .messages--warning.messages-clone .card-content.region-title, .messages--warning.messages-clone tr.card-content.drag-previous, .messages--warning.messages-clone tr.card-content.field-plugin-settings-editing, table.highlight > tbody > tr.warning-color:hover, .warning-color.dropdown-button:hover, h2.warning-color.theme-list-title, table .warning-color.region-title, tr.warning-color.field-plugin-settings-editing, .lighten-5.color-warning, table.highlight > tbody > tr.color-warning:hover, .color-warning.dropdown-button:hover, h2.color-warning.theme-list-title, table .color-warning.region-title, tr.color-warning.field-plugin-settings-editing, table.highlight > tbody > tr.yellow:hover, table.highlight > tbody > tr.drag:hover, table.highlight > tbody > tr.drag-previous:hover, .yellow.dropdown-button:hover, span.dropdown-button.theme-status-indicator:hover, tr.dropdown-button.drag:hover, tr.dropdown-button.drag-previous:hover, h2.yellow.theme-list-title, span.lighten-5.theme-status-indicator, table span.theme-status-indicator.region-title, table .yellow.region-title, table tr.region-title.drag, tr.lighten-5.drag, tr.drag.field-plugin-settings-editing, tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.yellow.field-plugin-settings-editing {
   background-color: #fffde7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1840,7 +1840,7 @@ th {
   color: #fffde7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-4, .lighten-4.warning-color, .messages--warning.messages-clone .color-warning.card-content, .warning-color.color-success, .color-success.messages--warning, .messages--warning.messages-clone .color-success.card-content, .warning-color.color-error, .color-error.messages--warning, .messages--warning.messages-clone .color-error.card-content, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li.messages--warning:last-child, table.highlight > tbody > tr.messages--warning.selected, .messages--warning.messages-clone .lighten-4.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--warning.messages-clone li.card-content:last-child, .messages--warning.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--warning.messages-clone tr.card-content.drag, .breadcrumb-nav ol li:last-child a.warning-color, .breadcrumb-nav ol li.warning-color:last-child, table.highlight > tbody > tr.warning-color.selected, .color-warning, .yellow.color-success, span.color-success.theme-status-indicator, tr.color-success.drag-previous, .yellow.color-error, span.color-error.theme-status-indicator, tr.color-error.drag-previous, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li:last-child a.color-warning, .breadcrumb-nav ol li.yellow:last-child, .breadcrumb-nav ol li.color-warning:last-child, table.highlight > tbody > tr.yellow.selected, table.highlight > tbody > tr.selected.color-warning, table.highlight > tbody > tr.selected.drag-previous, table.highlight > tbody > tr.selected.drag, span.lighten-4.theme-status-indicator, span.theme-status-indicator.color-warning, tr.lighten-4.drag-previous, tr.drag-previous.color-warning, tr.drag {
+.yellow.lighten-4, .lighten-4.warning-color, .messages--warning.messages-clone .color-warning.card-content, .warning-color.color-success, .color-success.messages--warning, .messages--warning.messages-clone .color-success.card-content, .warning-color.color-error, .color-error.messages--warning, .messages--warning.messages-clone .color-error.card-content, .lighten-4.messages--warning, .breadcrumb-nav ol li:last-child a.messages--warning, .breadcrumb-nav ol li.messages--warning:last-child, table.highlight > tbody > tr.messages--warning.selected, .messages--warning.messages-clone .lighten-4.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li:last-child a.card-content, .breadcrumb-nav ol li:last-child .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .breadcrumb-nav ol li.card-content:last-child, .breadcrumb-nav ol .messages--warning.messages-clone li.card-content:last-child, .messages--warning.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--warning.messages-clone tr.card-content.drag, .breadcrumb-nav ol li:last-child a.warning-color, .breadcrumb-nav ol li.warning-color:last-child, table.highlight > tbody > tr.warning-color.selected, .color-warning, .yellow.color-success, span.color-success.theme-status-indicator, tr.color-success.drag-previous, .yellow.color-error, span.color-error.theme-status-indicator, tr.color-error.drag-previous, .breadcrumb-nav ol li:last-child a.yellow, .breadcrumb-nav ol li:last-child a.color-warning, .breadcrumb-nav ol li.yellow:last-child, .breadcrumb-nav ol li.color-warning:last-child, table.highlight > tbody > tr.yellow.selected, table.highlight > tbody > tr.selected.color-warning, table.highlight > tbody > tr.selected.drag, table.highlight > tbody > tr.selected.drag-previous, span.lighten-4.theme-status-indicator, span.theme-status-indicator.color-warning, tr.drag, tr.lighten-4.drag-previous, tr.drag-previous.color-warning, tr.drag.field-plugin-settings-editing {
   background-color: #fff9c4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1848,7 +1848,7 @@ th {
   color: #fff9c4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-3, .yellow.error-color, .error-color.warning-color, .node-multiple-delete-confirm input.warning-color.form-submit, .node-multiple-delete-confirm input.form-submit.messages--warning, .node-multiple-delete-confirm .messages--warning.messages-clone input.form-submit.card-content, .messages--warning.messages-clone .node-multiple-delete-confirm input.form-submit.card-content, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .error-color.color-warning, .node-multiple-delete-confirm input.color-warning.form-submit, .color-warning.messages--error, .messages--error.messages-clone .color-warning.card-content, .node-multiple-delete-confirm input.yellow.form-submit, .yellow.messages--error, span.messages--error.theme-status-indicator, tr.messages--error.drag-previous, tr.messages--error.drag, .messages--error.messages-clone .yellow.card-content, .messages--error.messages-clone span.card-content.theme-status-indicator, .messages--error.messages-clone tr.card-content.drag-previous, .messages--error.messages-clone tr.card-content.drag, span.error-color.theme-status-indicator, tr.error-color.drag-previous, tr.error-color.drag, .lighten-3.warning-color, .lighten-3.messages--warning, table.highlight > tbody > tr.selected td.messages--warning, .dropbutton-wrapper .single-btn-wrapper a.messages--warning, .messages--warning.messages-clone .lighten-3.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--warning.messages-clone td.card-content, .messages--warning.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--warning.messages-clone a.card-content, table.highlight > tbody > tr.selected td.warning-color, .dropbutton-wrapper .single-btn-wrapper a.warning-color, .lighten-3.color-warning, table.highlight > tbody > tr.selected td.color-warning, .dropbutton-wrapper .single-btn-wrapper a.color-warning, table.highlight > tbody > tr.selected td.yellow, .dropbutton-wrapper .single-btn-wrapper a.yellow, span.lighten-3.theme-status-indicator, tr.lighten-3.drag-previous, tr.lighten-3.drag {
+.yellow.lighten-3, .yellow.error-color, .error-color.warning-color, .node-multiple-delete-confirm input.warning-color.form-submit, .node-multiple-delete-confirm input.form-submit.messages--warning, .node-multiple-delete-confirm .messages--warning.messages-clone input.form-submit.card-content, .messages--warning.messages-clone .node-multiple-delete-confirm input.form-submit.card-content, .error-color.messages--warning, .messages--warning.messages--error, .messages--error.messages-clone .messages--warning.card-content, .messages--warning.messages-clone .error-color.card-content, .messages--warning.messages-clone .card-content.messages--error, .messages--warning.messages-clone .messages--error.messages-clone .card-content, .messages--error.messages-clone .messages--warning.messages-clone .card-content, .warning-color.messages--error, .messages--error.messages-clone .warning-color.card-content, .error-color.color-warning, .node-multiple-delete-confirm input.color-warning.form-submit, .color-warning.messages--error, .messages--error.messages-clone .color-warning.card-content, .node-multiple-delete-confirm input.yellow.form-submit, .yellow.messages--error, span.messages--error.theme-status-indicator, tr.messages--error.drag, tr.messages--error.drag-previous, .messages--error.messages-clone .yellow.card-content, .messages--error.messages-clone span.card-content.theme-status-indicator, .messages--error.messages-clone tr.card-content.drag, .messages--error.messages-clone tr.card-content.drag-previous, span.error-color.theme-status-indicator, tr.error-color.drag, tr.error-color.drag-previous, .lighten-3.warning-color, .lighten-3.messages--warning, table.highlight > tbody > tr.selected td.messages--warning, .dropbutton-wrapper .single-btn-wrapper a.messages--warning, .messages--warning.messages-clone .lighten-3.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--warning.messages-clone td.card-content, .messages--warning.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--warning.messages-clone a.card-content, table.highlight > tbody > tr.selected td.warning-color, .dropbutton-wrapper .single-btn-wrapper a.warning-color, .lighten-3.color-warning, table.highlight > tbody > tr.selected td.color-warning, .dropbutton-wrapper .single-btn-wrapper a.color-warning, table.highlight > tbody > tr.selected td.yellow, .dropbutton-wrapper .single-btn-wrapper a.yellow, span.lighten-3.theme-status-indicator, tr.lighten-3.drag, tr.lighten-3.drag-previous {
   background-color: #fff59d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1856,7 +1856,7 @@ th {
   color: #fff59d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-2, .lighten-2.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .yellow.status-color, .status-color.color-warning, .color-warning.messages--status, .messages--status.messages-clone .color-warning.card-content, .yellow.messages--status, span.messages--status.theme-status-indicator, tr.messages--status.drag-previous, tr.messages--status.drag, .messages--status.messages-clone .yellow.card-content, .messages--status.messages-clone span.card-content.theme-status-indicator, .messages--status.messages-clone tr.card-content.drag-previous, .messages--status.messages-clone tr.card-content.drag, span.status-color.theme-status-indicator, tr.status-color.drag-previous, tr.status-color.drag, .lighten-2.color-warning, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag-previous, #edit-actions tr.button--danger.drag, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag-previous, tr.utility-wrapper.drag, span.lighten-2.theme-status-indicator, tr.lighten-2.drag-previous, tr.lighten-2.drag {
+.yellow.lighten-2, .lighten-2.warning-color, .warning-color.status-color, .warning-color.messages--status, .messages--status.messages--warning, .messages--warning.messages-clone .messages--status.card-content, .messages--status.messages-clone .warning-color.card-content, .messages--status.messages-clone .card-content.messages--warning, .messages--status.messages-clone .messages--warning.messages-clone .card-content, .messages--warning.messages-clone .messages--status.messages-clone .card-content, .status-color.messages--warning, .messages--warning.messages-clone .status-color.card-content, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .yellow.status-color, .status-color.color-warning, .color-warning.messages--status, .messages--status.messages-clone .color-warning.card-content, .yellow.messages--status, span.messages--status.theme-status-indicator, tr.messages--status.drag, tr.messages--status.drag-previous, .messages--status.messages-clone .yellow.card-content, .messages--status.messages-clone span.card-content.theme-status-indicator, .messages--status.messages-clone tr.card-content.drag, .messages--status.messages-clone tr.card-content.drag-previous, span.status-color.theme-status-indicator, tr.status-color.drag, tr.status-color.drag-previous, .lighten-2.color-warning, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag, #edit-actions tr.button--danger.drag-previous, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag, tr.utility-wrapper.drag-previous, span.lighten-2.theme-status-indicator, tr.lighten-2.drag, tr.lighten-2.drag-previous {
   background-color: #fff176 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1864,7 +1864,7 @@ th {
   color: #fff176 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-1, .lighten-1.warning-color, .warning-color.button-action:hover, .button-action.messages--warning:hover, .messages--warning.messages-clone .button-action.card-content:hover, .lighten-1.messages--warning, .messages--warning.messages-clone .lighten-1.card-content, .lighten-1.color-warning, .color-warning.button-action:hover, .yellow.button-action:hover, span.button-action.theme-status-indicator:hover, tr.button-action.drag-previous:hover, tr.button-action.drag:hover, span.lighten-1.theme-status-indicator, tr.lighten-1.drag-previous, tr.lighten-1.drag {
+.yellow.lighten-1, .lighten-1.warning-color, .warning-color.button-action:hover, .button-action.messages--warning:hover, .messages--warning.messages-clone .button-action.card-content:hover, .lighten-1.messages--warning, .messages--warning.messages-clone .lighten-1.card-content, .lighten-1.color-warning, .color-warning.button-action:hover, .yellow.button-action:hover, span.button-action.theme-status-indicator:hover, tr.button-action.drag:hover, tr.button-action.drag-previous:hover, span.lighten-1.theme-status-indicator, tr.lighten-1.drag, tr.lighten-1.drag-previous {
   background-color: #ffee58 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1872,7 +1872,7 @@ th {
   color: #ffee58 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.darken-1, .darken-1.warning-color, .darken-1.messages--warning, .messages--warning.messages-clone .darken-1.card-content, .darken-1.color-warning, span.darken-1.theme-status-indicator, tr.darken-1.drag-previous, tr.darken-1.drag {
+.yellow.darken-1, .darken-1.warning-color, .darken-1.messages--warning, .messages--warning.messages-clone .darken-1.card-content, .darken-1.color-warning, span.darken-1.theme-status-indicator, tr.darken-1.drag, tr.darken-1.drag-previous {
   background-color: #fdd835 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1880,7 +1880,7 @@ th {
   color: #fdd835 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.darken-2, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content, .darken-2.color-warning, span.darken-2.theme-status-indicator, span.theme-status-indicator.warning-color, span.theme-status-indicator.messages--warning, tr.darken-2.drag-previous, tr.drag-previous.warning-color, tr.drag-previous.messages--warning, tr.darken-2.drag, tr.drag.warning-color, tr.drag.messages--warning {
+.yellow.darken-2, .warning-color, .messages--warning, .messages--warning.messages-clone .card-content, .darken-2.color-warning, span.darken-2.theme-status-indicator, span.theme-status-indicator.warning-color, span.theme-status-indicator.messages--warning, tr.darken-2.drag, tr.drag.warning-color, tr.drag.messages--warning, tr.darken-2.drag-previous, tr.drag-previous.warning-color, tr.drag-previous.messages--warning {
   background-color: #fbc02d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1888,7 +1888,7 @@ th {
   color: #fbc02d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.darken-3, .darken-3.warning-color, .darken-3.messages--warning, .messages--warning.messages-clone .darken-3.card-content, .darken-3.color-warning, span.darken-3.theme-status-indicator, tr.darken-3.drag-previous, tr.darken-3.drag {
+.yellow.darken-3, .darken-3.warning-color, .darken-3.messages--warning, .messages--warning.messages-clone .darken-3.card-content, .darken-3.color-warning, span.darken-3.theme-status-indicator, tr.darken-3.drag, tr.darken-3.drag-previous {
   background-color: #f9a825 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1896,7 +1896,7 @@ th {
   color: #f9a825 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.darken-4, .darken-4.warning-color, .darken-4.messages--warning, .messages--warning.messages-clone .darken-4.card-content, .darken-4.color-warning, span.darken-4.theme-status-indicator, tr.darken-4.drag-previous, tr.darken-4.drag {
+.yellow.darken-4, .darken-4.warning-color, .darken-4.messages--warning, .messages--warning.messages-clone .darken-4.card-content, .darken-4.color-warning, span.darken-4.theme-status-indicator, tr.darken-4.drag, tr.darken-4.drag-previous {
   background-color: #f57f17 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1904,7 +1904,7 @@ th {
   color: #f57f17 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.accent-1, .accent-1.warning-color, .accent-1.messages--warning, .messages--warning.messages-clone .accent-1.card-content, .accent-1.color-warning, span.accent-1.theme-status-indicator, tr.accent-1.drag-previous, tr.accent-1.drag {
+.yellow.accent-1, .accent-1.warning-color, .accent-1.messages--warning, .messages--warning.messages-clone .accent-1.card-content, .accent-1.color-warning, span.accent-1.theme-status-indicator, tr.accent-1.drag, tr.accent-1.drag-previous {
   background-color: #ffff8d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1912,7 +1912,7 @@ th {
   color: #ffff8d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.accent-2, .accent-2.warning-color, .warning-color.button-action, .button-action.messages--warning, .messages--warning.messages-clone .button-action.card-content, .accent-2.messages--warning, .messages--warning.messages-clone .accent-2.card-content, .accent-2.color-warning, .color-warning.button-action, .yellow.button-action, span.button-action.theme-status-indicator, tr.button-action.drag-previous, tr.button-action.drag, span.accent-2.theme-status-indicator, tr.accent-2.drag-previous, tr.accent-2.drag {
+.yellow.accent-2, .accent-2.warning-color, .warning-color.button-action, .button-action.messages--warning, .messages--warning.messages-clone .button-action.card-content, .accent-2.messages--warning, .messages--warning.messages-clone .accent-2.card-content, .accent-2.color-warning, .color-warning.button-action, .yellow.button-action, span.button-action.theme-status-indicator, tr.button-action.drag, tr.button-action.drag-previous, span.accent-2.theme-status-indicator, tr.accent-2.drag, tr.accent-2.drag-previous {
   background-color: #ffff00 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1920,7 +1920,7 @@ th {
   color: #ffff00 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.accent-3, .accent-3.warning-color, .accent-3.messages--warning, .messages--warning.messages-clone .accent-3.card-content, .accent-3.color-warning, span.accent-3.theme-status-indicator, tr.accent-3.drag-previous, tr.accent-3.drag {
+.yellow.accent-3, .accent-3.warning-color, .accent-3.messages--warning, .messages--warning.messages-clone .accent-3.card-content, .accent-3.color-warning, span.accent-3.theme-status-indicator, tr.accent-3.drag, tr.accent-3.drag-previous {
   background-color: #ffea00 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1928,7 +1928,7 @@ th {
   color: #ffea00 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.accent-4, .accent-4.warning-color, .accent-4.messages--warning, .messages--warning.messages-clone .accent-4.card-content, .accent-4.color-warning, span.accent-4.theme-status-indicator, tr.accent-4.drag-previous, tr.accent-4.drag {
+.yellow.accent-4, .accent-4.warning-color, .accent-4.messages--warning, .messages--warning.messages-clone .accent-4.card-content, .accent-4.color-warning, span.accent-4.theme-status-indicator, tr.accent-4.drag, tr.accent-4.drag-previous {
   background-color: #ffd600 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1944,7 +1944,7 @@ th {
   color: #ffc107 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.amber.lighten-5, table.highlight > tbody > tr.amber:hover, .amber.dropdown-button:hover, h2.amber.theme-list-title, table .amber.region-title, tr.amber.drag-previous {
+.amber.lighten-5, table.highlight > tbody > tr.amber:hover, .amber.dropdown-button:hover, h2.amber.theme-list-title, table .amber.region-title, tr.amber.drag-previous, tr.amber.field-plugin-settings-editing {
   background-color: #fff8e1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2056,7 +2056,7 @@ th {
   color: #ff9800 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.orange.lighten-5, table.highlight > tbody > tr.orange:hover, .orange.dropdown-button:hover, h2.orange.theme-list-title, table .orange.region-title, tr.orange.drag-previous {
+.orange.lighten-5, table.highlight > tbody > tr.orange:hover, .orange.dropdown-button:hover, h2.orange.theme-list-title, table .orange.region-title, tr.orange.drag-previous, tr.orange.field-plugin-settings-editing {
   background-color: #fff3e0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2168,7 +2168,7 @@ th {
   color: #ff5722 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange.lighten-5, table.highlight > tbody > tr.deep-orange:hover, .deep-orange.dropdown-button:hover, h2.deep-orange.theme-list-title, table .deep-orange.region-title, tr.deep-orange.drag-previous {
+.deep-orange.lighten-5, table.highlight > tbody > tr.deep-orange:hover, .deep-orange.dropdown-button:hover, h2.deep-orange.theme-list-title, table .deep-orange.region-title, tr.deep-orange.drag-previous, tr.deep-orange.field-plugin-settings-editing {
   background-color: #fbe9e7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2280,7 +2280,7 @@ th {
   color: #795548 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.brown.lighten-5, table.highlight > tbody > tr.brown:hover, .brown.dropdown-button:hover, h2.brown.theme-list-title, table .brown.region-title, tr.brown.drag-previous {
+.brown.lighten-5, table.highlight > tbody > tr.brown:hover, .brown.dropdown-button:hover, h2.brown.theme-list-title, table .brown.region-title, tr.brown.drag-previous, tr.brown.field-plugin-settings-editing {
   background-color: #efebe9 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2360,7 +2360,7 @@ th {
   color: #607d8b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey.lighten-5, table.highlight > tbody > tr.blue-grey:hover, .blue-grey.dropdown-button:hover, h2.blue-grey.theme-list-title, table .blue-grey.region-title, tr.blue-grey.drag-previous {
+.blue-grey.lighten-5, table.highlight > tbody > tr.blue-grey:hover, .blue-grey.dropdown-button:hover, h2.blue-grey.theme-list-title, table .blue-grey.region-title, tr.blue-grey.drag-previous, tr.blue-grey.field-plugin-settings-editing {
   background-color: #eceff1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2432,7 +2432,7 @@ th {
   color: #263238 !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
-.grey, .dropbutton-wrapper .single-btn-wrapper a {
+.grey, .dropbutton-wrapper .single-btn-wrapper a, tr.field-plugin-settings-editing {
   background-color: #9e9e9e !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
@@ -2440,7 +2440,7 @@ th {
   color: #9e9e9e !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-5, table.highlight > tbody > tr.grey:hover, .dropbutton-wrapper .single-btn-wrapper a.lighten-5, .dropbutton-wrapper .single-btn-wrapper a.dropdown-button:hover, .dropbutton-wrapper .single-btn-wrapper table a.region-title, table .dropbutton-wrapper .single-btn-wrapper a.region-title, .grey.dropdown-button:hover, h2.grey.theme-list-title, table .grey.region-title, tr.grey.drag-previous {
+.grey.lighten-5, table.highlight > tbody > tr.grey:hover, table.highlight > tbody > tr.field-plugin-settings-editing:hover, .dropbutton-wrapper .single-btn-wrapper a.lighten-5, .dropbutton-wrapper .single-btn-wrapper a.dropdown-button:hover, .dropbutton-wrapper .single-btn-wrapper table a.region-title, table .dropbutton-wrapper .single-btn-wrapper a.region-title, .grey.dropdown-button:hover, tr.dropdown-button.field-plugin-settings-editing:hover, h2.grey.theme-list-title, table .grey.region-title, tr.grey.drag-previous, tr.drag.field-plugin-settings-editing, tr.field-plugin-settings-editing {
   background-color: #fafafa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2448,7 +2448,7 @@ th {
   color: #fafafa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-4, .grey.color-warning, .dropbutton-wrapper .single-btn-wrapper a.color-warning, .grey.color-success, .dropbutton-wrapper .single-btn-wrapper a.color-success, .grey.color-error, .dropbutton-wrapper .single-btn-wrapper a.color-error, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li:last-child .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.grey:last-child, table.highlight > tbody > tr.grey.selected, .dropbutton-wrapper .single-btn-wrapper a.lighten-4, tr.grey.drag {
+.grey.lighten-4, .grey.color-warning, .dropbutton-wrapper .single-btn-wrapper a.color-warning, tr.color-warning.field-plugin-settings-editing, .grey.color-success, .dropbutton-wrapper .single-btn-wrapper a.color-success, tr.color-success.field-plugin-settings-editing, .grey.color-error, .dropbutton-wrapper .single-btn-wrapper a.color-error, tr.color-error.field-plugin-settings-editing, .breadcrumb-nav ol li:last-child a.grey, .breadcrumb-nav ol li:last-child .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.grey:last-child, table.highlight > tbody > tr.grey.selected, table.highlight > tbody > tr.selected.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-4, tr.grey.drag, tr.drag.field-plugin-settings-editing, tr.lighten-4.field-plugin-settings-editing {
   background-color: #f5f5f5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2456,7 +2456,7 @@ th {
   color: #f5f5f5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-3, .grey.error-color, .node-multiple-delete-confirm input.grey.form-submit, .grey.messages--error, .messages--error.messages-clone .grey.card-content, .messages--error.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--error.messages-clone a.card-content, table.highlight > tbody > tr.selected td.grey, .dropbutton-wrapper .single-btn-wrapper a {
+.grey.lighten-3, .grey.error-color, .node-multiple-delete-confirm input.grey.form-submit, .grey.messages--error, tr.messages--error.field-plugin-settings-editing, .messages--error.messages-clone .grey.card-content, .messages--error.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--error.messages-clone a.card-content, .messages--error.messages-clone tr.card-content.field-plugin-settings-editing, tr.error-color.field-plugin-settings-editing, table.highlight > tbody > tr.selected td.grey, .dropbutton-wrapper .single-btn-wrapper a, tr.lighten-3.field-plugin-settings-editing {
   background-color: #eeeeee !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2464,7 +2464,7 @@ th {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-2, .grey.status-color, .grey.messages--status, .dropbutton-wrapper .single-btn-wrapper a.messages--status, .messages--status.messages-clone .grey.card-content, .messages--status.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--status.messages-clone a.card-content, .dropbutton-wrapper .single-btn-wrapper a.status-color, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.lighten-2 {
+.grey.lighten-2, .grey.status-color, .grey.messages--status, .dropbutton-wrapper .single-btn-wrapper a.messages--status, tr.messages--status.field-plugin-settings-editing, .messages--status.messages-clone .grey.card-content, .messages--status.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--status.messages-clone a.card-content, .messages--status.messages-clone tr.card-content.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.status-color, tr.status-color.field-plugin-settings-editing, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, #edit-actions tr.button--danger.field-plugin-settings-editing, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, tr.utility-wrapper.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-2, tr.lighten-2.field-plugin-settings-editing {
   background-color: #e0e0e0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2472,7 +2472,7 @@ th {
   color: #e0e0e0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-1, .grey.button-action:hover, .dropbutton-wrapper .single-btn-wrapper a.button-action:hover, .dropbutton-wrapper .single-btn-wrapper a.lighten-1 {
+.grey.lighten-1, .grey.button-action:hover, .dropbutton-wrapper .single-btn-wrapper a.button-action:hover, tr.button-action.field-plugin-settings-editing:hover, .dropbutton-wrapper .single-btn-wrapper a.lighten-1, tr.lighten-1.field-plugin-settings-editing {
   background-color: #bdbdbd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2480,7 +2480,7 @@ th {
   color: #bdbdbd !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.darken-1, .dropbutton-wrapper .single-btn-wrapper a.darken-1 {
+.grey.darken-1, .dropbutton-wrapper .single-btn-wrapper a.darken-1, tr.darken-1.field-plugin-settings-editing {
   background-color: #757575 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2488,7 +2488,7 @@ th {
   color: #757575 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.darken-2, .grey.warning-color, .grey.messages--warning, .dropbutton-wrapper .single-btn-wrapper a.messages--warning, .messages--warning.messages-clone .grey.card-content, .messages--warning.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--warning.messages-clone a.card-content, .dropbutton-wrapper .single-btn-wrapper a.warning-color, .dropbutton-wrapper .single-btn-wrapper a.darken-2 {
+.grey.darken-2, .grey.warning-color, .grey.messages--warning, .dropbutton-wrapper .single-btn-wrapper a.messages--warning, tr.messages--warning.field-plugin-settings-editing, .messages--warning.messages-clone .grey.card-content, .messages--warning.messages-clone .dropbutton-wrapper .single-btn-wrapper a.card-content, .dropbutton-wrapper .single-btn-wrapper .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone tr.card-content.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.warning-color, tr.warning-color.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.darken-2, tr.darken-2.field-plugin-settings-editing {
   background-color: #616161 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2496,7 +2496,7 @@ th {
   color: #616161 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.darken-3, .dropbutton-wrapper .single-btn-wrapper a.darken-3 {
+.grey.darken-3, .dropbutton-wrapper .single-btn-wrapper a.darken-3, tr.darken-3.field-plugin-settings-editing {
   background-color: #424242 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2504,7 +2504,7 @@ th {
   color: #424242 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.darken-4, .dropbutton-wrapper .single-btn-wrapper a.darken-4 {
+.grey.darken-4, .dropbutton-wrapper .single-btn-wrapper a.darken-4, tr.darken-4.field-plugin-settings-editing {
   background-color: #212121 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -4205,6 +4205,7 @@ input[type=range] + .thumb {
 .button--small,
 #edit-actions .button--danger,
 a#edit-cancel,
+.field-suffix small span.admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a {
   border: none;
   border-radius: 2px;
@@ -4227,6 +4228,7 @@ a#edit-cancel,
 .disabled.button--small,
 #edit-actions .disabled.button--danger,
 a.disabled#edit-cancel,
+.field-suffix small span.disabled.admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a.disabled,
 .btn:disabled,
 .btn-large:disabled,
@@ -4246,6 +4248,7 @@ input.button:disabled,
 .button--small:disabled,
 #edit-actions .button--danger:disabled,
 a#edit-cancel:disabled,
+.field-suffix small span.admin-link:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a:disabled,
 .btn[disabled],
 [disabled].btn-large,
@@ -4265,6 +4268,7 @@ input[disabled].button,
 [disabled].button--small,
 #edit-actions [disabled].button--danger,
 a[disabled]#edit-cancel,
+.field-suffix small span[disabled].admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a[disabled] {
   pointer-events: none;
   background-color: #DFDFDF !important;
@@ -4282,6 +4286,7 @@ a[disabled]#edit-cancel,
   .disabled.button--small:hover,
   #edit-actions .disabled.button--danger:hover,
   a.disabled#edit-cancel:hover,
+  .field-suffix small span.disabled.admin-link:hover,
   .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
@@ -4301,6 +4306,7 @@ a[disabled]#edit-cancel,
   .button--small:disabled:hover,
   #edit-actions .button--danger:disabled:hover,
   a#edit-cancel:disabled:hover,
+  .field-suffix small span.admin-link:disabled:hover,
   .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
@@ -4320,6 +4326,7 @@ a[disabled]#edit-cancel,
   [disabled].button--small:hover,
   #edit-actions [disabled].button--danger:hover,
   a[disabled]#edit-cancel:hover,
+  .field-suffix small span[disabled].admin-link:hover,
   .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
@@ -4335,13 +4342,14 @@ a[disabled]#edit-cancel,
 .button--small,
 #edit-actions .button--danger,
 a#edit-cancel,
+.field-suffix small span.admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a {
   outline: 0; }
   /* line 49, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i, .dropbutton-wrapper .single-btn-wrapper a i,
   .btn-floating i,
   .btn-large i,
-  .btn-flat i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .button--small i, #edit-actions .button--danger i, a#edit-cancel i, .dropbutton-wrapper.dropbutton-single .edit a i {
+  .btn-flat i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .button--small i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i, .dropbutton-wrapper.dropbutton-single .edit a i {
     font-size: 1.3rem;
     line-height: inherit; }
 
@@ -4499,24 +4507,24 @@ button.btn-floating {
         transform: scale(0); }
 
 /* line 238, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .dropbutton-wrapper.dropbutton-single .edit a {
+.btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .dropbutton-wrapper.dropbutton-single .edit a {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
   /* line 245, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: transparent; }
   /* line 250, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
+  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
   /* line 256, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: rgba(0, 0, 0, 0.2); }
   /* line 260, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
+  .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
@@ -5874,7 +5882,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 56px;
     width: 100%; }
     /* line 40, node_modules/materialize-css/sass/components/_modal.scss */
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
       float: right;
       margin: 6px 0; }
 
@@ -6001,7 +6009,7 @@ input[type=range]:focus::-ms-fill-upper {
   -ms-flex-pack: justify;
       justify-content: space-between; }
   /* line 45, node_modules/materialize-css/sass/components/_toast.scss */
-  .toast .btn, .toast .btn-large, .toast .button-action, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .toast a, .toast .btn-flat, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast .button--small, .toast #edit-actions .button--danger, #edit-actions .toast .button--danger, .toast a#edit-cancel, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
+  .toast .btn, .toast .btn-large, .toast .button-action, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .toast a, .toast .btn-flat, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast .button--small, .toast #edit-actions .button--danger, #edit-actions .toast .button--danger, .toast a#edit-cancel, .toast .field-suffix small span.admin-link, .field-suffix small .toast span.admin-link, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
     margin: 0;
     margin-left: 3rem; }
   /* line 50, node_modules/materialize-css/sass/components/_toast.scss */
@@ -6972,20 +6980,20 @@ button {
   color: #343434; }
 
 /* line 304, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:focus, .btn-floating.button-link:focus, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:focus, .compact-link a.btn-floating:focus, .btn-floating.button--small:focus, #edit-actions .btn-floating.button--danger:focus, a.btn-floating#edit-cancel:focus, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:focus, .btn-floating.btn-flat:visited, .btn-floating.button-link:visited, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:visited, .compact-link a.btn-floating:visited, .btn-floating.button--small:visited, #edit-actions .btn-floating.button--danger:visited, a.btn-floating#edit-cancel:visited, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:visited {
+.btn-floating.btn-flat:focus, .btn-floating.button-link:focus, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:focus, .compact-link a.btn-floating:focus, .btn-floating.button--small:focus, #edit-actions .btn-floating.button--danger:focus, a.btn-floating#edit-cancel:focus, .field-suffix small span.btn-floating.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:focus, .btn-floating.btn-flat:visited, .btn-floating.button-link:visited, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:visited, .compact-link a.btn-floating:visited, .btn-floating.button--small:visited, #edit-actions .btn-floating.button--danger:visited, a.btn-floating#edit-cancel:visited, .field-suffix small span.btn-floating.admin-link:visited, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:visited {
   background-color: transparent; }
 
 /* line 308, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:hover, .btn-floating.button-link:hover, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:hover, .compact-link a.btn-floating:hover, .btn-floating.button--small:hover, #edit-actions .btn-floating.button--danger:hover, a.btn-floating#edit-cancel:hover, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:hover {
+.btn-floating.btn-flat:hover, .btn-floating.button-link:hover, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:hover, .compact-link a.btn-floating:hover, .btn-floating.button--small:hover, #edit-actions .btn-floating.button--danger:hover, a.btn-floating#edit-cancel:hover, .field-suffix small span.btn-floating.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:hover {
   box-shadow: none;
   background-color: transparent; }
 
 /* line 312, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active {
+.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active {
   background-color: rgba(0, 150, 136, 0.25); }
 
 /* line 315, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:active, .btn-floating.button-link:active, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:active, .compact-link a.btn-floating:active, .btn-floating.button--small:active, #edit-actions .btn-floating.button--danger:active, a.btn-floating#edit-cancel:active, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:active {
+.btn-floating.btn-flat:active, .btn-floating.button-link:active, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:active, .compact-link a.btn-floating:active, .btn-floating.button--small:active, #edit-actions .btn-floating.button--danger:active, a.btn-floating#edit-cancel:active, .field-suffix small span.btn-floating.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:active {
   background-color: rgba(0, 150, 136, 0.5); }
 
 /* line 323, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
@@ -10360,6 +10368,16 @@ details.form-wrapper .details-wrapper {
   -moz-border-radius: 0px;
   background-image: none; }
 
+/* line 242, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.field-suffix small {
+  padding: 0 10px; }
+  /* line 244, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .field-suffix small span.machine-name-value {
+    font-weight: bold; }
+  /* line 247, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .field-suffix small span.admin-link {
+    margin: 0 10px; }
+
 /* @file
  * Specific styling for admin
  *
@@ -10652,20 +10670,25 @@ table thead th {
     padding-left: 5px; }
 
 /* line 427, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-tr.drag-previous {
-  border-bottom: 2px dashed #f0f4c3;
-  border-top: 2px dashed #f0f4c3; }
-
-/* line 433, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag {
   border-bottom: 1px dashed #666;
   border-top: 1px dashed #666; }
 
+/* line 433, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
+  border-bottom: 2px dashed #f0f4c3;
+  border-top: 2px dashed #f0f4c3; }
+
 /* line 439, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+tr.field-plugin-settings-editing {
+  border-bottom: 2px dashed #666;
+  border-top: 2px dashed #666; }
+
+/* line 445, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {
   padding: 10px; }
 
-/* line 443, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 449, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
   /* With less: .text-overflow(); */
   white-space: nowrap;
@@ -10673,11 +10696,11 @@ tr.drag {
   text-overflow: ellipsis;
   display: inline-block; }
 
-/* line 452, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 458, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li:first-child a {
   visibility: hidden;
   max-width: 20px; }
-  /* line 455, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 461, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
@@ -10685,77 +10708,77 @@ tr.drag {
     text-indent: 0;
     visibility: visible; }
 
-/* line 467, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 473, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 472, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 478, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 476, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 482, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 479, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 485, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 486, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 492, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 491, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 497, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 494, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 500, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 501, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 507, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 505, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 511, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 512, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 518, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 515, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 521, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 
-/* line 523, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 529, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection .collection-item > .item-list .collection {
   border: none; }
-  /* line 525, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 531, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection .collection-item > .item-list .collection .collection-item {
     border: none; }
-    /* line 526, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 532, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection .collection-item > .item-list .collection .collection-item:before {
       content: "";
       padding-right: 5px; }
 
-/* line 537, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 543, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection.item-list__comma-list {
   border: none; }
-  /* line 539, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 545, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection.item-list__comma-list .collection-item {
     line-height: 1em;
     border: none;
     padding: inherit; }
 
-/* line 546, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 552, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .sticky-node-actions {
   position: fixed;
   bottom: 0;

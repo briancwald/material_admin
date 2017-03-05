@@ -424,16 +424,22 @@ table thead th {
   }
 }
 
-tr.drag-previous {
-  @extend .yellow, .lighten-5;
-  border-bottom: 2px dashed $highlight;
-  border-top: 2px dashed $highlight;
-}
-
 tr.drag {
   @extend .yellow, .lighten-4;
   border-bottom: 1px dashed $medium-gray;
   border-top: 1px dashed $medium-gray;
+}
+
+tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
+  @extend .yellow, .lighten-5;
+  border-bottom: 2px dashed $highlight;
+  border-top: 2px dashed $highlight;
+}
+//editing widget table styling 
+tr.field-plugin-settings-editing {
+  @extend .grey, .lighten-5;
+  border-bottom: 2px dashed $medium-gray;
+  border-top: 2px dashed $medium-gray;
 }
 
 .tabledrag-changed-warning {
