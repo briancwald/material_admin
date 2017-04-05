@@ -42,40 +42,27 @@ td, th {
     font-size: 1.2em;
   }
 }
-
-.error-color {
-  @extend .red, .lighten-3;
-}
-
 .error-text-color {
   @extend .red-text, .text-lighten-3;
-}
-
-.warning-color {
-  @extend .yellow, .darken-2;
 }
 
 .warning-text-color {
   @extend .yellow-text, .text-darken-2;
 }
 
-.status-color {
-  @extend .green, .lighten-2;
-}
-
 .status-text-color {
   @extend .green-text, .text-darken-2;
 }
 
-.color-warning {
+.color-warning, .warning-color {
   @extend .yellow, .lighten-4;
 }
 
-.color-success {
+.color-success, .status-color {
   @extend .green, .lighten-4
 }
 
-.color-error {
+.color-error, .error-color {
   @extend .red, .lighten-4;
 }
 

@@ -21,8 +21,7 @@ header.header-wrapper {
 }
 
 .utility-wrapper {
-  @extend .blue, .lighten-2;
-  @extend .shadow;
+  @extend .blue, .lighten-2, .shadow;
 }
 
 .messages {
@@ -31,7 +30,7 @@ header.header-wrapper {
 }
 
 .messages--status {
-  @extend .status-color;
+  @extend .status-color, .black-text;
   &.messages-clone {
     .card-content {
       @extend .status-color;
@@ -46,7 +45,7 @@ header.header-wrapper {
 }
 
 .messages--warning {
-  @extend .warning-color;
+  @extend .warning-color, .black-text;
   &.messages-clone {
     .card-content {
       @extend .warning-color;
@@ -61,7 +60,7 @@ header.header-wrapper {
 }
 
 .messages--error {
-  @extend .error-color;
+  @extend .error-color, .black-text;
   &.messages-clone {
     .card-content {
       @extend .error-color;
@@ -108,7 +107,7 @@ header.header-wrapper {
     //padding-left: 5px;
   }
   span.badge {
-    @extend .white-text;
+    @extend .black-text;
     min-width: inherit;
     margin-left: 5px;
     display: none;

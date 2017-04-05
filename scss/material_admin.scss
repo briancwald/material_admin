@@ -46,6 +46,8 @@
 @import "base/forms";
 
 @import "admin";
+
+@import "base/views";
 //overrides of core modules. Moved here to utilize sass and variables
 @import "base/overrides/autocomplete-loading.module";
 @import "base/overrides/ajax-progress.module";
