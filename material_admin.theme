@@ -78,60 +78,16 @@ function material_admin_preprocess_node_add_list(&$variables) {
 
 // force the checkbox to use a new twig template input--switch so that the markup can be differet.
 function material_admin_preprocess_system_modules_details(&$variables) {
-  $form = $variables['form'];
+  foreach ($variables['modules'] as &$module) {
+    $module['checkbox']['#theme'] = 'input__switch';
+    $module['checkbox']['#attributes']['class'][] = 'item-switch';
+  }
+}
 
-  $variables['modules'] = [];
-  // Iterate through all the modules, which are children of this element.
-  foreach (Element::children($form) as $key) {
-    // Stick the key into $module for easier access.
-    $module = $form[$key];
-    unset($module['enable']['#title']);
-    $module['enable']['#theme'] = 'input__switch';
-    $module['enable']['#attributes']['class'][] = 'item-switch';
-    $module['#requires'] = array_filter($module['#requires']);
-    $module['#required_by'] = array_filter($module['#required_by']);
-    // Add the checkbox to allow installing new modules and to show the
-    // installation status of the module.
-    $module['checkbox'] = $module['enable'];
-
-    // Add the module label and expand/collapse functionality.
-    $id = Html::getUniqueId('module-' . $key);
-    $module['id'] = $id;
-    $module['enable_id'] = $module['enable']['#id'];
-
-
-    // @todo Remove early rendering and use safe_join in the Twig template once
-    //   https://www.drupal.org/node/2579091 is fixed.
-    $renderer = \Drupal::service('renderer');
-    $machine_name_render = [
-      '#prefix' => '<span dir="ltr" class="table-filter-text-source">',
-      '#plain_text' => $key,
-      '#suffix' => '</span>',
-    ];
-    $module['machine_name'] = $renderer->render($machine_name_render);
-
-    if (!empty($module['#requires'])) {
-      $requires = [
-        '#theme' => 'item_list',
-        '#items' => $module['#requires'],
-        '#context' => ['list_style' => 'comma-list'],
-      ];
-      $module['requires'] = $renderer->render($requires);
-    }
-    if (!empty($module['#required_by'])) {
-      $required_by = [
-        '#theme' => 'item_list',
-        '#items' => $module['#required_by'],
-        '#context' => ['list_style' => 'comma-list'],
-      ];
-      $module['required_by'] = $renderer->render($required_by);
-    }
-
-    if (!empty($module['version'])) {
-      $module['version'] = $renderer->render($module['version']);
-    }
-
-    $module['attributes'] = new Attribute($module['#attributes']);
-    $variables['modules'][] = $module;
+// force the checkbox to use a new twig template input--switch so that the markup can be differet.
+function material_admin_preprocess_system_modules_uninstall(&$variables) {
+  foreach ($variables['modules'] as &$module) {
+    $module['checkbox']['#theme'] = 'input__switch__uninstall';
+    $module['checkbox']['#attributes']['class'][] = 'item-switch';
   }
 }
