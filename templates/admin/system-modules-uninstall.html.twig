@@ -40,14 +40,19 @@
           <label for="{{ module.checkbox_id }}" class="module-name table-filter-text-source">{{ module.name }}</label>
         </td>
         <td class="description">
-          <span class="text module-description">{{ module.description }}</span>
+          {% if module.reasons_count <= 0 %}
+          <div class="text module-description">{{module.description}}</div>
+          {% endif %}
           {% if module.reasons_count > 0 %}
-            <div class="admin-requirements">
-              {%- trans -%}
+          <ul class="collapsible" data-collapsible="expandable">
+            <li>
+          <div class="text collapsible-header with-arrows module-description">{{ module.description }}</div>
+            <div class="admin-requirements collapsible-body">
+              <span class="admin-prevent-text">{%- trans -%}
                 The following reason prevents {{ module.module_name }} from being uninstalled:
               {%- plural module.reasons_count -%}
                 The following reasons prevent {{ module.module_name }} from being uninstalled:
-              {%- endtrans %}
+              {%- endtrans %}</span>
               <div class="item-list">
                 <ul>
                   {%- for reason in module.validation_reasons -%}
@@ -60,6 +65,8 @@
               </div>
             </div>
           {% endif %}
+            </li>
+          </ul>
         </td>
       </tr>
     {% else %}

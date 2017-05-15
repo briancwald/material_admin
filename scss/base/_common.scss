@@ -212,3 +212,24 @@ a.button {
 
   }
 }
+
+
+//arrows indicating open/closed collapsible component
+  .collapsible li {
+  &.active {
+    .collapsible-header.with-arrows {
+      &:before {
+        @extend .fa-standard;
+        content: $fa-var-angle-down;
+        padding: 0px 5px;
+      }
+    }
+  }
+  .collapsible-header.with-arrows {
+    &:before {
+      @extend .fa-standard;
+      content: $fa-var-angle-right;
+      padding: 0px 5px;
+    }
+  }
+}
