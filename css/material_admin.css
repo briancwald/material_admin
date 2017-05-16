@@ -2620,7 +2620,7 @@ small {
   font-size: 75%; }
 
 /* line 43, node_modules/materialize-css/sass/components/_typography.scss */
-.light, footer.page-footer .footer-copyright {
+.light, .page-footer .footer-copyright {
   font-weight: 300; }
 
 /* line 44, node_modules/materialize-css/sass/components/_typography.scss */
@@ -2747,153 +2747,150 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  /* line 45, node_modules/materialize-css/sass/components/_global.scss */
-  .valign-wrapper .valign {
-    display: block; }
 
-/* line 52, node_modules/materialize-css/sass/components/_global.scss */
+/* line 48, node_modules/materialize-css/sass/components/_global.scss */
 .clearfix {
   clear: both; }
 
-/* line 58, node_modules/materialize-css/sass/components/_global.scss */
+/* line 54, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-0 {
   box-shadow: none !important; }
 
-/* line 61, node_modules/materialize-css/sass/components/_global.scss */
+/* line 57, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper .single-btn-wrapper a, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 64, node_modules/materialize-css/sass/components/_global.scss */
+/* line 60, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .dropbutton-wrapper .single-btn-wrapper a:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
-/* line 67, node_modules/materialize-css/sass/components/_global.scss */
+/* line 63, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-2 {
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
 
-/* line 70, node_modules/materialize-css/sass/components/_global.scss */
+/* line 66, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-3 {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
 
-/* line 73, node_modules/materialize-css/sass/components/_global.scss */
+/* line 69, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-4, .modal {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
-/* line 76, node_modules/materialize-css/sass/components/_global.scss */
+/* line 72, node_modules/materialize-css/sass/components/_global.scss */
 .z-depth-5 {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
-/* line 80, node_modules/materialize-css/sass/components/_global.scss */
+/* line 76, node_modules/materialize-css/sass/components/_global.scss */
 .hoverable {
   transition: box-shadow .25s;
   box-shadow: 0; }
 
-/* line 85, node_modules/materialize-css/sass/components/_global.scss */
+/* line 81, node_modules/materialize-css/sass/components/_global.scss */
 .hoverable:hover {
   transition: box-shadow .25s;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-/* line 92, node_modules/materialize-css/sass/components/_global.scss */
+/* line 88, node_modules/materialize-css/sass/components/_global.scss */
 .divider {
   height: 1px;
   overflow: hidden;
   background-color: #e0e0e0; }
 
-/* line 101, node_modules/materialize-css/sass/components/_global.scss */
+/* line 97, node_modules/materialize-css/sass/components/_global.scss */
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #ee6e73; }
 
-/* line 109, node_modules/materialize-css/sass/components/_global.scss */
+/* line 105, node_modules/materialize-css/sass/components/_global.scss */
 i {
   line-height: inherit; }
-  /* line 112, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 108, node_modules/materialize-css/sass/components/_global.scss */
   i.left {
     float: left;
     margin-right: 15px; }
-  /* line 116, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 112, node_modules/materialize-css/sass/components/_global.scss */
   i.right {
     float: right;
     margin-left: 15px; }
-  /* line 120, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 116, node_modules/materialize-css/sass/components/_global.scss */
   i.tiny {
     font-size: 1rem; }
-  /* line 123, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 119, node_modules/materialize-css/sass/components/_global.scss */
   i.small {
     font-size: 2rem; }
-  /* line 126, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 122, node_modules/materialize-css/sass/components/_global.scss */
   i.medium {
     font-size: 4rem; }
-  /* line 129, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 125, node_modules/materialize-css/sass/components/_global.scss */
   i.large {
     font-size: 6rem; }
 
-/* line 135, node_modules/materialize-css/sass/components/_global.scss */
+/* line 131, node_modules/materialize-css/sass/components/_global.scss */
 img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto; }
 
-/* line 146, node_modules/materialize-css/sass/components/_global.scss */
+/* line 142, node_modules/materialize-css/sass/components/_global.scss */
 .pagination li {
   display: inline-block;
   border-radius: 2px;
   text-align: center;
   vertical-align: top;
   height: 30px; }
-  /* line 153, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 149, node_modules/materialize-css/sass/components/_global.scss */
   .pagination li a {
     color: #444;
     display: inline-block;
     font-size: 1.2rem;
     padding: 0 10px;
     line-height: 30px; }
-  /* line 161, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 157, node_modules/materialize-css/sass/components/_global.scss */
   .pagination li.active a {
     color: #fff; }
-  /* line 163, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 159, node_modules/materialize-css/sass/components/_global.scss */
   .pagination li.active {
     background-color: #ee6e73; }
-  /* line 165, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 161, node_modules/materialize-css/sass/components/_global.scss */
   .pagination li.disabled a {
     cursor: default;
     color: #999; }
-  /* line 170, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 166, node_modules/materialize-css/sass/components/_global.scss */
   .pagination li i {
     font-size: 2rem; }
 
-/* line 176, node_modules/materialize-css/sass/components/_global.scss */
+/* line 172, node_modules/materialize-css/sass/components/_global.scss */
 .pagination li.pages ul li {
   display: inline-block;
   float: none; }
 
 @media only screen and (max-width: 992px) {
-  /* line 182, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 178, node_modules/materialize-css/sass/components/_global.scss */
   .pagination {
     width: 100%; }
-    /* line 185, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 181, node_modules/materialize-css/sass/components/_global.scss */
     .pagination li.prev,
     .pagination li.next {
       width: 10%; }
-    /* line 190, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 186, node_modules/materialize-css/sass/components/_global.scss */
     .pagination li.pages {
       width: 80%;
       overflow: hidden;
       white-space: nowrap; } }
 
-/* line 199, node_modules/materialize-css/sass/components/_global.scss */
+/* line 195, node_modules/materialize-css/sass/components/_global.scss */
 .breadcrumb {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.7); }
-  /* line 203, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 199, node_modules/materialize-css/sass/components/_global.scss */
   .breadcrumb i,
   .breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
   .breadcrumb i.material-icons {
     display: inline-block;
     float: left;
     font-size: 24px; }
-  /* line 211, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 207, node_modules/materialize-css/sass/components/_global.scss */
   .breadcrumb:before {
     content: '\E5CC';
     color: rgba(255, 255, 255, 0.7);
@@ -2905,20 +2902,20 @@ video.responsive-video {
     font-size: 25px;
     margin: 0 10px 0 8px;
     -webkit-font-smoothing: antialiased; }
-  /* line 224, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 220, node_modules/materialize-css/sass/components/_global.scss */
   .breadcrumb:first-child:before {
     display: none; }
-  /* line 228, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 224, node_modules/materialize-css/sass/components/_global.scss */
   .breadcrumb:last-child {
     color: #fff; }
 
-/* line 235, node_modules/materialize-css/sass/components/_global.scss */
+/* line 231, node_modules/materialize-css/sass/components/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px; }
 
-/* line 241, node_modules/materialize-css/sass/components/_global.scss */
+/* line 237, node_modules/materialize-css/sass/components/_global.scss */
 .parallax {
   position: absolute;
   top: 0;
@@ -2926,7 +2923,7 @@ video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1; }
-  /* line 249, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 245, node_modules/materialize-css/sass/components/_global.scss */
   .parallax img {
     display: none;
     position: absolute;
@@ -2938,22 +2935,22 @@ video.responsive-video {
     -ms-transform: translateX(-50%);
         transform: translateX(-50%); }
 
-/* line 263, node_modules/materialize-css/sass/components/_global.scss */
+/* line 259, node_modules/materialize-css/sass/components/_global.scss */
 .pin-top, .pin-bottom {
   position: relative; }
 
-/* line 266, node_modules/materialize-css/sass/components/_global.scss */
+/* line 262, node_modules/materialize-css/sass/components/_global.scss */
 .pinned {
   position: fixed !important; }
 
 /*********************
   Transition Classes
 **********************/
-/* line 274, node_modules/materialize-css/sass/components/_global.scss */
+/* line 270, node_modules/materialize-css/sass/components/_global.scss */
 ul.staggered-list li {
   opacity: 0; }
 
-/* line 278, node_modules/materialize-css/sass/components/_global.scss */
+/* line 274, node_modules/materialize-css/sass/components/_global.scss */
 .fade-in {
   opacity: 0;
   -ms-transform-origin: 0 50%;
@@ -2963,106 +2960,109 @@ ul.staggered-list li {
   Media Query Classes
 **********************/
 @media only screen and (max-width: 600px) {
-  /* line 287, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 283, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 292, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 288, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 297, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 293, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 302, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 298, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 307, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 303, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 312, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 308, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-large {
     display: block !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 317, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 313, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium {
     display: block !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 322, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 318, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-small {
     display: block !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 327, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 323, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium-and-up {
     display: block !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 332, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 328, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium-and-down {
     display: block !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 340, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 336, node_modules/materialize-css/sass/components/_global.scss */
   .center-on-small-only {
     text-align: center; } }
 
-/* line 347, node_modules/materialize-css/sass/components/_global.scss */
-footer.page-footer {
-  margin-top: 20px;
+/* line 343, node_modules/materialize-css/sass/components/_global.scss */
+.page-footer {
   padding-top: 20px;
   background-color: #ee6e73; }
-  /* line 352, node_modules/materialize-css/sass/components/_global.scss */
-  footer.page-footer .footer-copyright {
+  /* line 347, node_modules/materialize-css/sass/components/_global.scss */
+  .page-footer .footer-copyright {
     overflow: hidden;
-    height: 50px;
-    line-height: 50px;
+    min-height: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 10px 0px;
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(51, 51, 51, 0.08); }
 
-/* line 363, node_modules/materialize-css/sass/components/_global.scss */
+/* line 360, node_modules/materialize-css/sass/components/_global.scss */
 table, th, td {
   border: none; }
 
-/* line 367, node_modules/materialize-css/sass/components/_global.scss */
+/* line 364, node_modules/materialize-css/sass/components/_global.scss */
 table {
   width: 100%;
   display: table; }
-  /* line 371, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 368, node_modules/materialize-css/sass/components/_global.scss */
   table.bordered > thead > tr,
   table.bordered > tbody > tr {
     border-bottom: 1px solid #d0d0d0; }
-  /* line 377, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 374, node_modules/materialize-css/sass/components/_global.scss */
   table.striped > tbody > tr:nth-child(odd) {
     background-color: #f2f2f2; }
-  /* line 381, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 378, node_modules/materialize-css/sass/components/_global.scss */
   table.striped > tbody > tr > td {
     border-radius: 0; }
-  /* line 386, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 383, node_modules/materialize-css/sass/components/_global.scss */
   table.highlight > tbody > tr {
     transition: background-color .25s ease; }
-    /* line 388, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 385, node_modules/materialize-css/sass/components/_global.scss */
     table.highlight > tbody > tr:hover {
       background-color: #f2f2f2; }
-  /* line 394, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 391, node_modules/materialize-css/sass/components/_global.scss */
   table.centered thead tr th, table.centered tbody tr td {
     text-align: center; }
 
-/* line 401, node_modules/materialize-css/sass/components/_global.scss */
+/* line 398, node_modules/materialize-css/sass/components/_global.scss */
 thead {
   border-bottom: 1px solid #d0d0d0; }
 
-/* line 405, node_modules/materialize-css/sass/components/_global.scss */
+/* line 402, node_modules/materialize-css/sass/components/_global.scss */
 td, th {
   padding: 15px 5px;
   display: table-cell;
@@ -3071,7 +3071,7 @@ td, th {
   border-radius: 2px; }
 
 @media only screen and (max-width: 992px) {
-  /* line 416, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 413, node_modules/materialize-css/sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -3079,91 +3079,91 @@ td, th {
     display: block;
     position: relative;
     /* sort out borders */ }
-    /* line 423, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 420, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table td:empty:before {
       content: '\00a0'; }
-    /* line 427, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 424, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th,
     table.responsive-table td {
       margin: 0;
       vertical-align: top; }
-    /* line 433, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 430, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th {
       text-align: left; }
-    /* line 434, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 431, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table thead {
       display: block;
       float: left; }
-      /* line 438, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 435, node_modules/materialize-css/sass/components/_global.scss */
       table.responsive-table thead tr {
         display: block;
         padding: 0 10px 0 0; }
-        /* line 442, node_modules/materialize-css/sass/components/_global.scss */
+        /* line 439, node_modules/materialize-css/sass/components/_global.scss */
         table.responsive-table thead tr th::before {
           content: "\00a0"; }
-    /* line 447, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 444, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table tbody {
       display: block;
       width: auto;
       position: relative;
       overflow-x: auto;
       white-space: nowrap; }
-      /* line 454, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 451, node_modules/materialize-css/sass/components/_global.scss */
       table.responsive-table tbody tr {
         display: inline-block;
         vertical-align: top; }
-    /* line 459, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 456, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th {
       display: block;
       text-align: right; }
-    /* line 463, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 460, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table td {
       display: block;
       min-height: 1.25em;
       text-align: left; }
-    /* line 468, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 465, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table tr {
       padding: 0 10px; }
-    /* line 471, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 468, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table thead {
       border: 0;
       border-right: 1px solid #d0d0d0; }
-    /* line 477, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 474, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered th {
       border-bottom: 0;
       border-left: 0; }
-    /* line 478, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 475, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered td {
       border-left: 0;
       border-right: 0;
       border-bottom: 0; }
-    /* line 479, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 476, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered tr {
       border: 0; }
-    /* line 480, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 477, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered tbody tr {
       border-right: 1px solid #d0d0d0; } }
 
-/* line 489, node_modules/materialize-css/sass/components/_global.scss */
+/* line 486, node_modules/materialize-css/sass/components/_global.scss */
 .collection {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
   position: relative; }
-  /* line 496, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 493, node_modules/materialize-css/sass/components/_global.scss */
   .collection .collection-item {
     background-color: #fff;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0; }
-    /* line 504, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 501, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item.avatar {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      /* line 509, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 506, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .circle {
         position: absolute;
         width: 42px;
@@ -3172,126 +3172,71 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      /* line 518, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 515, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar i.circle {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
         background-color: #999;
         text-align: center; }
-      /* line 527, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 524, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .title {
         font-size: 16px; }
-      /* line 531, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 528, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar p {
         margin: 0; }
-      /* line 535, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 532, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .secondary-content {
         position: absolute;
         top: 16px;
         right: 16px; }
-    /* line 544, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 541, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item:last-child {
       border-bottom: none; }
-    /* line 548, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 545, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item.active {
       background-color: #26a69a;
       color: #eafaf9; }
-      /* line 552, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 549, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.active .secondary-content {
         color: #fff; }
-  /* line 557, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 554, node_modules/materialize-css/sass/components/_global.scss */
   .collection a.collection-item {
     display: block;
     transition: .25s;
     color: #26a69a; }
-    /* line 562, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 559, node_modules/materialize-css/sass/components/_global.scss */
     .collection a.collection-item:not(.active):hover {
       background-color: #ddd; }
-  /* line 569, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 566, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 20px; }
-  /* line 574, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 571, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-item {
     padding-left: 30px; }
-  /* line 577, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 574, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-item.avatar {
     padding-left: 72px; }
 
-/* line 584, node_modules/materialize-css/sass/components/_global.scss */
+/* line 581, node_modules/materialize-css/sass/components/_global.scss */
 .secondary-content {
   float: right;
   color: #26a69a; }
 
-/* line 588, node_modules/materialize-css/sass/components/_global.scss */
+/* line 585, node_modules/materialize-css/sass/components/_global.scss */
 .collapsible .collection, details.form-wrapper .collection {
   margin: 0;
   border: none; }
 
-/* line 596, node_modules/materialize-css/sass/components/_global.scss */
-span.badge {
-  min-width: 3rem;
-  padding: 0 6px;
-  margin-left: 14px;
-  text-align: center;
-  font-size: 1rem;
-  line-height: inherit;
-  color: #757575;
-  float: right;
-  box-sizing: border-box; }
-  /* line 607, node_modules/materialize-css/sass/components/_global.scss */
-  span.badge.new {
-    font-weight: 300;
-    font-size: 0.8rem;
-    color: #fff;
-    background-color: #26a69a;
-    border-radius: 2px; }
-  /* line 614, node_modules/materialize-css/sass/components/_global.scss */
-  span.badge.new:after {
-    content: " new"; }
-  /* line 618, node_modules/materialize-css/sass/components/_global.scss */
-  span.badge[data-badge-caption]::after {
-    content: " " attr(data-badge-caption); }
-
-/* line 622, node_modules/materialize-css/sass/components/_global.scss */
-nav ul a span.badge {
-  display: inline-block;
-  float: none;
-  margin-left: 4px;
-  line-height: 22px;
-  height: 22px; }
-
-/* line 629, node_modules/materialize-css/sass/components/_global.scss */
-.side-nav span.badge.new,
-.collapsible span.badge.new, details.form-wrapper span.badge.new {
-  position: relative;
-  background-color: transparent; }
-  /* line 631, node_modules/materialize-css/sass/components/_global.scss */
-  .side-nav span.badge.new::before,
-  .collapsible span.badge.new::before, details.form-wrapper span.badge.new::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    right: 0;
-    bottom: 10px;
-    left: 0;
-    background-color: #26a69a;
-    border-radius: 2px;
-    z-index: -1; }
-
-/* line 646, node_modules/materialize-css/sass/components/_global.scss */
-.collapsible span.badge.new, details.form-wrapper span.badge.new {
-  z-index: 1; }
-
-/* line 653, node_modules/materialize-css/sass/components/_global.scss */
+/* line 593, node_modules/materialize-css/sass/components/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden; }
-  /* line 659, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 599, node_modules/materialize-css/sass/components/_global.scss */
   .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;
@@ -3299,7 +3244,7 @@ nav ul a span.badge {
     width: 100%;
     height: 100%; }
 
-/* line 669, node_modules/materialize-css/sass/components/_global.scss */
+/* line 609, node_modules/materialize-css/sass/components/_global.scss */
 .progress {
   position: relative;
   height: 4px;
@@ -3309,7 +3254,7 @@ nav ul a span.badge {
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden; }
-  /* line 678, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 618, node_modules/materialize-css/sass/components/_global.scss */
   .progress .determinate {
     position: absolute;
     top: 0;
@@ -3317,10 +3262,10 @@ nav ul a span.badge {
     bottom: 0;
     background-color: #26a69a;
     transition: width .3s linear; }
-  /* line 686, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 626, node_modules/materialize-css/sass/components/_global.scss */
   .progress .indeterminate {
     background-color: #26a69a; }
-    /* line 688, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 628, node_modules/materialize-css/sass/components/_global.scss */
     .progress .indeterminate:before {
       content: '';
       position: absolute;
@@ -3330,7 +3275,7 @@ nav ul a span.badge {
       bottom: 0;
       will-change: left, right;
       animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
-    /* line 700, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 640, node_modules/materialize-css/sass/components/_global.scss */
     .progress .indeterminate:after {
       content: '';
       position: absolute;
@@ -3367,31 +3312,31 @@ nav ul a span.badge {
 /*******************
   Utility Classes
 *******************/
-/* line 749, node_modules/materialize-css/sass/components/_global.scss */
+/* line 689, node_modules/materialize-css/sass/components/_global.scss */
 .hide {
   display: none !important; }
 
-/* line 754, node_modules/materialize-css/sass/components/_global.scss */
+/* line 694, node_modules/materialize-css/sass/components/_global.scss */
 .left-align {
   text-align: left; }
 
-/* line 757, node_modules/materialize-css/sass/components/_global.scss */
+/* line 697, node_modules/materialize-css/sass/components/_global.scss */
 .right-align {
   text-align: right; }
 
-/* line 760, node_modules/materialize-css/sass/components/_global.scss */
+/* line 700, node_modules/materialize-css/sass/components/_global.scss */
 .center, .center-align {
   text-align: center; }
 
-/* line 764, node_modules/materialize-css/sass/components/_global.scss */
+/* line 704, node_modules/materialize-css/sass/components/_global.scss */
 .left {
   float: left !important; }
 
-/* line 767, node_modules/materialize-css/sass/components/_global.scss */
+/* line 707, node_modules/materialize-css/sass/components/_global.scss */
 .right {
   float: right !important; }
 
-/* line 772, node_modules/materialize-css/sass/components/_global.scss */
+/* line 712, node_modules/materialize-css/sass/components/_global.scss */
 .no-select, input[type=range],
 input[type=range] + .thumb {
   -webkit-touch-callout: none;
@@ -3400,24 +3345,24 @@ input[type=range] + .thumb {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 781, node_modules/materialize-css/sass/components/_global.scss */
+/* line 721, node_modules/materialize-css/sass/components/_global.scss */
 .circle {
   border-radius: 50%; }
 
-/* line 785, node_modules/materialize-css/sass/components/_global.scss */
+/* line 725, node_modules/materialize-css/sass/components/_global.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 791, node_modules/materialize-css/sass/components/_global.scss */
+/* line 731, node_modules/materialize-css/sass/components/_global.scss */
 .truncate {
   display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-/* line 798, node_modules/materialize-css/sass/components/_global.scss */
+/* line 738, node_modules/materialize-css/sass/components/_global.scss */
 .no-padding {
   padding: 0 !important; }
 
@@ -3456,566 +3401,747 @@ input[type=range] + .thumb {
   .section.no-pad-top {
     padding-top: 0; }
 
-/* line 37, node_modules/materialize-css/sass/components/_grid.scss */
+/* line 56, node_modules/materialize-css/sass/components/_grid.scss */
 .row {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
-  /* line 43, node_modules/materialize-css/sass/components/_grid.scss */
+  /* line 62, node_modules/materialize-css/sass/components/_grid.scss */
   .row:after {
     content: "";
     display: table;
     clear: both; }
-  /* line 49, node_modules/materialize-css/sass/components/_grid.scss */
+  /* line 68, node_modules/materialize-css/sass/components/_grid.scss */
   .row .col {
     float: left;
     box-sizing: border-box;
     padding: 0 0.75rem;
     min-height: 1px; }
-    /* line 55, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 74, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col[class*="push-"], .row .col[class*="pull-"] {
       position: relative; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s1 {
       width: 8.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s2 {
       width: 16.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s3 {
       width: 25%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s4 {
       width: 33.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s5 {
       width: 41.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s6 {
       width: 50%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s7 {
       width: 58.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s8 {
       width: 66.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s9 {
       width: 75%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s10 {
       width: 83.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s11 {
       width: 91.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 63, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.s12 {
       width: 100%;
       margin-left: auto;
       left: auto;
       right: auto; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s1 {
       margin-left: 8.33333%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s1 {
       right: 8.33333%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s1 {
       left: 8.33333%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s2 {
       margin-left: 16.66667%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s2 {
       right: 16.66667%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s2 {
       left: 16.66667%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s3 {
       margin-left: 25%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s3 {
       right: 25%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s3 {
       left: 25%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s4 {
       margin-left: 33.33333%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s4 {
       right: 33.33333%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s4 {
       left: 33.33333%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s5 {
       margin-left: 41.66667%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s5 {
       right: 41.66667%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s5 {
       left: 41.66667%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s6 {
       margin-left: 50%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s6 {
       right: 50%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s6 {
       left: 50%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s7 {
       margin-left: 58.33333%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s7 {
       right: 58.33333%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s7 {
       left: 58.33333%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s8 {
       margin-left: 66.66667%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s8 {
       right: 66.66667%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s8 {
       left: 66.66667%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s9 {
       margin-left: 75%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s9 {
       right: 75%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s9 {
       left: 75%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s10 {
       margin-left: 83.33333%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s10 {
       right: 83.33333%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s10 {
       left: 83.33333%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s11 {
       margin-left: 91.66667%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s11 {
       right: 91.66667%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s11 {
       left: 91.66667%; }
-    /* line 75, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.offset-s12 {
       margin-left: 100%; }
-    /* line 78, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.pull-s12 {
       right: 100%; }
-    /* line 81, node_modules/materialize-css/sass/components/_grid.scss */
+    /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
     .row .col.push-s12 {
       left: 100%; }
     @media only screen and (min-width: 601px) {
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m1 {
         width: 8.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m2 {
         width: 16.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m3 {
         width: 25%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m4 {
         width: 33.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m5 {
         width: 41.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m6 {
         width: 50%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m7 {
         width: 58.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m8 {
         width: 66.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m9 {
         width: 75%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m10 {
         width: 83.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m11 {
         width: 91.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 92, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.m12 {
         width: 100%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m1 {
         margin-left: 8.33333%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m1 {
         right: 8.33333%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m1 {
         left: 8.33333%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m2 {
         margin-left: 16.66667%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m2 {
         right: 16.66667%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m2 {
         left: 16.66667%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m3 {
         margin-left: 25%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m3 {
         right: 25%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m3 {
         left: 25%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m4 {
         margin-left: 33.33333%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m4 {
         right: 33.33333%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m4 {
         left: 33.33333%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m5 {
         margin-left: 41.66667%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m5 {
         right: 41.66667%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m5 {
         left: 41.66667%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m6 {
         margin-left: 50%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m6 {
         right: 50%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m6 {
         left: 50%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m7 {
         margin-left: 58.33333%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m7 {
         right: 58.33333%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m7 {
         left: 58.33333%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m8 {
         margin-left: 66.66667%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m8 {
         right: 66.66667%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m8 {
         left: 66.66667%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m9 {
         margin-left: 75%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m9 {
         right: 75%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m9 {
         left: 75%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m10 {
         margin-left: 83.33333%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m10 {
         right: 83.33333%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m10 {
         left: 83.33333%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m11 {
         margin-left: 91.66667%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m11 {
         right: 91.66667%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m11 {
         left: 91.66667%; }
-      /* line 104, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-m12 {
         margin-left: 100%; }
-      /* line 107, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-m12 {
         right: 100%; }
-      /* line 110, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-m12 {
         left: 100%; } }
     @media only screen and (min-width: 993px) {
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l1 {
         width: 8.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l2 {
         width: 16.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l3 {
         width: 25%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l4 {
         width: 33.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l5 {
         width: 41.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l6 {
         width: 50%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l7 {
         width: 58.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l8 {
         width: 66.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l9 {
         width: 75%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l10 {
         width: 83.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l11 {
         width: 91.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 122, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.l12 {
         width: 100%;
         margin-left: auto;
         left: auto;
         right: auto; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l1 {
         margin-left: 8.33333%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l1 {
         right: 8.33333%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l1 {
         left: 8.33333%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l2 {
         margin-left: 16.66667%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l2 {
         right: 16.66667%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l2 {
         left: 16.66667%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l3 {
         margin-left: 25%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l3 {
         right: 25%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l3 {
         left: 25%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l4 {
         margin-left: 33.33333%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l4 {
         right: 33.33333%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l4 {
         left: 33.33333%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l5 {
         margin-left: 41.66667%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l5 {
         right: 41.66667%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l5 {
         left: 41.66667%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l6 {
         margin-left: 50%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l6 {
         right: 50%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l6 {
         left: 50%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l7 {
         margin-left: 58.33333%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l7 {
         right: 58.33333%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l7 {
         left: 58.33333%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l8 {
         margin-left: 66.66667%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l8 {
         right: 66.66667%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l8 {
         left: 66.66667%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l9 {
         margin-left: 75%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l9 {
         right: 75%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l9 {
         left: 75%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l10 {
         margin-left: 83.33333%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l10 {
         right: 83.33333%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l10 {
         left: 83.33333%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l11 {
         margin-left: 91.66667%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l11 {
         right: 91.66667%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l11 {
         left: 91.66667%; }
-      /* line 134, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.offset-l12 {
         margin-left: 100%; }
-      /* line 137, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.pull-l12 {
         right: 100%; }
-      /* line 140, node_modules/materialize-css/sass/components/_grid.scss */
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
       .row .col.push-l12 {
+        left: 100%; } }
+    @media only screen and (min-width: 1201px) {
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl1 {
+        width: 8.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl2 {
+        width: 16.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl4 {
+        width: 33.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl5 {
+        width: 41.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl7 {
+        width: 58.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl8 {
+        width: 66.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl9 {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl10 {
+        width: 83.33333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl11 {
+        width: 91.66667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.xl12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl1 {
+        margin-left: 8.33333%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl1 {
+        right: 8.33333%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl1 {
+        left: 8.33333%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl2 {
+        margin-left: 16.66667%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl2 {
+        right: 16.66667%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl2 {
+        left: 16.66667%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl3 {
+        margin-left: 25%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl3 {
+        right: 25%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl3 {
+        left: 25%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl4 {
+        margin-left: 33.33333%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl4 {
+        right: 33.33333%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl4 {
+        left: 33.33333%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl5 {
+        margin-left: 41.66667%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl5 {
+        right: 41.66667%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl5 {
+        left: 41.66667%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl6 {
+        margin-left: 50%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl6 {
+        right: 50%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl6 {
+        left: 50%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl7 {
+        margin-left: 58.33333%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl7 {
+        right: 58.33333%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl7 {
+        left: 58.33333%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl8 {
+        margin-left: 66.66667%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl8 {
+        right: 66.66667%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl8 {
+        left: 66.66667%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl9 {
+        margin-left: 75%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl9 {
+        right: 75%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl9 {
+        left: 75%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl10 {
+        margin-left: 83.33333%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl10 {
+        right: 83.33333%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl10 {
+        left: 83.33333%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl11 {
+        margin-left: 91.66667%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl11 {
+        right: 91.66667%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl11 {
+        left: 91.66667%; }
+      /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.offset-xl12 {
+        margin-left: 100%; }
+      /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.pull-xl12 {
+        right: 100%; }
+      /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
+      .row .col.push-xl12 {
         left: 100%; } }
 
 /* line 1, node_modules/materialize-css/sass/components/_collapsible.scss */
@@ -4048,25 +4174,22 @@ input[type=range] + .thumb {
 .collapsible-body {
   display: none;
   border-bottom: 1px solid #ddd;
-  box-sizing: border-box; }
-  /* line 34, node_modules/materialize-css/sass/components/_collapsible.scss */
-  .collapsible-body p {
-    margin: 0;
-    padding: 2rem; }
+  box-sizing: border-box;
+  padding: 2rem; }
 
-/* line 44, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 40, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible, .side-nav details.form-wrapper,
 .side-nav.fixed .collapsible,
 .side-nav.fixed details.form-wrapper {
   border: none;
   box-shadow: none; }
-  /* line 48, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 44, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible li, .side-nav details.form-wrapper li,
   .side-nav.fixed .collapsible li,
   .side-nav.fixed details.form-wrapper li {
     padding: 0; }
 
-/* line 51, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 47, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible-header, .side-nav details.form-wrapper summary, details.form-wrapper .side-nav summary,
 .side-nav.fixed .collapsible-header,
 .side-nav.fixed details.form-wrapper summary, details.form-wrapper
@@ -4076,39 +4199,39 @@ input[type=range] + .thumb {
   line-height: inherit;
   height: inherit;
   padding: 0 16px; }
-  /* line 58, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 54, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-header:hover, .side-nav details.form-wrapper summary:hover, details.form-wrapper .side-nav summary:hover,
   .side-nav.fixed .collapsible-header:hover,
   .side-nav.fixed details.form-wrapper summary:hover, details.form-wrapper
   .side-nav.fixed summary:hover {
     background-color: rgba(0, 0, 0, 0.05); }
-  /* line 59, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 55, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-header i, .side-nav details.form-wrapper summary i, details.form-wrapper .side-nav summary i,
   .side-nav.fixed .collapsible-header i,
   .side-nav.fixed details.form-wrapper summary i, details.form-wrapper
   .side-nav.fixed summary i {
     line-height: inherit; }
 
-/* line 62, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 58, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible-body,
 .side-nav.fixed .collapsible-body {
   border: 0;
   background-color: #fff; }
-  /* line 66, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 62, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-body li a,
   .side-nav.fixed .collapsible-body li a {
     padding: 0 23.5px 0 31px; }
 
-/* line 76, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 72, node_modules/materialize-css/sass/components/_collapsible.scss */
 .collapsible.popout, details.popout.form-wrapper {
   border: none;
   box-shadow: none; }
-  /* line 79, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 75, node_modules/materialize-css/sass/components/_collapsible.scss */
   .collapsible.popout > li, details.popout.form-wrapper > li {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     margin: 0 24px;
     transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-  /* line 85, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 81, node_modules/materialize-css/sass/components/_collapsible.scss */
   .collapsible.popout > li.active, details.popout.form-wrapper > li.active {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     margin: 16px 0; }
@@ -4344,6 +4467,7 @@ a[disabled]#edit-cancel,
 a#edit-cancel,
 .field-suffix small span.admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a {
+  font-size: 1rem;
   outline: 0; }
   /* line 49, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i, .dropbutton-wrapper .single-btn-wrapper a i,
@@ -4387,7 +4511,32 @@ a#edit-cancel,
   transition: .3s;
   cursor: pointer;
   vertical-align: middle; }
-  /* line 98, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 82, node_modules/materialize-css/sass/components/_buttons.scss */
+  .btn-floating:hover {
+    background-color: #26a69a; }
+  /* line 87, node_modules/materialize-css/sass/components/_buttons.scss */
+  .btn-floating:before {
+    border-radius: 0; }
+  /* line 91, node_modules/materialize-css/sass/components/_buttons.scss */
+  .btn-floating.btn-large {
+    width: 56px;
+    height: 56px; }
+    /* line 92, node_modules/materialize-css/sass/components/_buttons.scss */
+    .btn-floating.btn-large.halfway-fab {
+      bottom: -28px; }
+    /* line 98, node_modules/materialize-css/sass/components/_buttons.scss */
+    .btn-floating.btn-large i {
+      line-height: 56px; }
+  /* line 103, node_modules/materialize-css/sass/components/_buttons.scss */
+  .btn-floating.halfway-fab {
+    position: absolute;
+    right: 24px;
+    bottom: -20px; }
+    /* line 104, node_modules/materialize-css/sass/components/_buttons.scss */
+    .btn-floating.halfway-fab.left {
+      right: auto;
+      left: 24px; }
+  /* line 130, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-floating i {
     width: inherit;
     display: inline-block;
@@ -4395,25 +4544,12 @@ a#edit-cancel,
     color: #fff;
     font-size: 1.6rem;
     line-height: 40px; }
-  /* line 107, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-floating:hover {
-    background-color: #26a69a; }
-  /* line 112, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-floating:before {
-    border-radius: 0; }
-  /* line 116, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-floating.btn-large {
-    width: 56px;
-    height: 56px; }
-    /* line 119, node_modules/materialize-css/sass/components/_buttons.scss */
-    .btn-floating.btn-large i {
-      line-height: 56px; }
 
-/* line 126, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 141, node_modules/materialize-css/sass/components/_buttons.scss */
 button.btn-floating {
   border: none; }
 
-/* line 131, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 146, node_modules/materialize-css/sass/components/_buttons.scss */
 .fixed-action-btn {
   position: fixed;
   right: 23px;
@@ -4421,13 +4557,13 @@ button.btn-floating {
   padding-top: 15px;
   margin-bottom: 0;
   z-index: 998; }
-  /* line 133, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 148, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn.active ul {
     visibility: visible; }
-  /* line 138, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 153, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn.horizontal {
     padding: 0 0 0 15px; }
-    /* line 141, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 156, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn.horizontal ul {
       text-align: right;
       right: 64px;
@@ -4438,24 +4574,24 @@ button.btn-floating {
       left: auto;
       width: 500px;
       /*width 100% only goes to width of button container */ }
-      /* line 150, node_modules/materialize-css/sass/components/_buttons.scss */
+      /* line 165, node_modules/materialize-css/sass/components/_buttons.scss */
       .fixed-action-btn.horizontal ul li {
         display: inline-block;
         margin: 15px 15px 0 0; }
-  /* line 157, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 172, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn.toolbar {
     padding: 0;
     height: 56px; }
-    /* line 159, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 174, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn.toolbar.active > a i {
       opacity: 0; }
-    /* line 167, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 182, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn.toolbar ul {
       display: -ms-flexbox;
       display: flex;
       top: 0;
       bottom: 0; }
-      /* line 172, node_modules/materialize-css/sass/components/_buttons.scss */
+      /* line 187, node_modules/materialize-css/sass/components/_buttons.scss */
       .fixed-action-btn.toolbar ul li {
         -ms-flex: 1;
             flex: 1;
@@ -4463,7 +4599,7 @@ button.btn-floating {
         margin: 0;
         height: 100%;
         transition: none; }
-        /* line 179, node_modules/materialize-css/sass/components/_buttons.scss */
+        /* line 194, node_modules/materialize-css/sass/components/_buttons.scss */
         .fixed-action-btn.toolbar ul li a {
           display: block;
           overflow: hidden;
@@ -4475,10 +4611,10 @@ button.btn-floating {
           color: #fff;
           line-height: 56px;
           z-index: 1; }
-          /* line 191, node_modules/materialize-css/sass/components/_buttons.scss */
+          /* line 206, node_modules/materialize-css/sass/components/_buttons.scss */
           .fixed-action-btn.toolbar ul li a i {
             line-height: inherit; }
-  /* line 206, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 221, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn ul {
     left: 0;
     right: 0;
@@ -4487,13 +4623,13 @@ button.btn-floating {
     bottom: 64px;
     margin: 0;
     visibility: hidden; }
-    /* line 215, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 230, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn ul li {
       margin-bottom: 15px; }
-    /* line 219, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 234, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn ul a.btn-floating {
       opacity: 0; }
-  /* line 224, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 239, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn .fab-backdrop {
     position: absolute;
     top: 0;
@@ -4506,38 +4642,38 @@ button.btn-floating {
     -ms-transform: scale(0);
         transform: scale(0); }
 
-/* line 238, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 253, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .dropbutton-wrapper.dropbutton-single .edit a {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  /* line 245, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 260, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: transparent; }
-  /* line 250, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 265, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
-  /* line 256, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 271, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
     background-color: rgba(0, 0, 0, 0.2); }
-  /* line 260, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 275, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
 
-/* line 268, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 283, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-large {
   height: 54px;
   line-height: 54px; }
-  /* line 273, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 288, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-large i {
     font-size: 1.6rem; }
 
-/* line 279, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 294, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-block {
   display: block; }
 
@@ -4872,22 +5008,23 @@ textarea.materialize-textarea {
     left: 0;
     font-size: 1rem;
     cursor: text;
-    transition: .2s ease-out; }
-  /* line 163, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
-  .input-field label.active {
-    font-size: 0.8rem;
-    -ms-transform: translateY(-140%);
-        transform: translateY(-140%); }
-  /* line 169, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    transition: .2s ease-out;
+    text-align: initial; }
+    /* line 163, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    .input-field label:not(.label-icon).active {
+      font-size: 0.8rem;
+      -ms-transform: translateY(-140%);
+          transform: translateY(-140%); }
+  /* line 170, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix {
     position: absolute;
     width: 3rem;
     font-size: 2rem;
     transition: color .2s; }
-    /* line 175, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 176, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix.active {
       color: #26a69a; }
-  /* line 178, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 179, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea,
   .input-field .prefix ~ label,
@@ -4896,42 +5033,42 @@ textarea.materialize-textarea {
     margin-left: 3rem;
     width: 92%;
     width: calc(100% - 3rem); }
-  /* line 188, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 189, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ label {
     margin-left: 3rem; }
   @media only screen and (max-width: 992px) {
-    /* line 191, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 192, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
   @media only screen and (max-width: 600px) {
-    /* line 198, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 199, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 80%;
       width: calc(100% - 3rem); } }
 
 /* Search Field */
-/* line 208, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 209, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .input-field input[type=search] {
   display: block;
   line-height: inherit;
   padding-left: 4rem;
   width: calc(100% - 4rem); }
-  /* line 214, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 215, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search]:focus {
     background-color: #fff;
     border: 0;
     box-shadow: none;
     color: #444; }
-    /* line 220, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 221, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field input[type=search]:focus + label i,
     .input-field input[type=search]:focus ~ .mdi-navigation-close,
     .input-field input[type=search]:focus ~ .material-icons {
       color: #444; }
-  /* line 227, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 228, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] + label {
     left: 1rem; }
-  /* line 231, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 232, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] ~ .mdi-navigation-close,
   .input-field input[type=search] ~ .material-icons {
     position: absolute;
@@ -4943,12 +5080,12 @@ textarea.materialize-textarea {
     transition: .3s color; }
 
 /* Textarea */
-/* line 247, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 248, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 textarea {
   width: 100%;
   height: 3rem;
   background-color: transparent; }
-  /* line 252, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 253, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   textarea.materialize-textarea {
     overflow-y: hidden;
     /* prevents scroll bar flash */
@@ -4957,7 +5094,7 @@ textarea {
     resize: none;
     min-height: 3rem; }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 262, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -4965,19 +5102,21 @@ textarea {
   overflow-wrap: break-word;
   /* future version of deprecated 'word-wrap' */
   padding-top: 1.2rem;
-  /* prevents text jump on Enter keypress */ }
+  /* prevents text jump on Enter keypress */
+  position: absolute;
+  top: 0; }
 
 /* Autocomplete */
-/* line 271, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 276, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .autocomplete-content {
-  margin-top: -15px;
+  margin-top: -20px;
   display: block;
   opacity: 1;
   position: static; }
-  /* line 278, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 283, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li .highlight {
     color: #444; }
-  /* line 280, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 285, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li img {
     height: 40px;
     width: 40px;
@@ -5564,18 +5703,19 @@ input[type=range] {
 /* line 28, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range] + .thumb {
   position: absolute;
+  top: 10px;
+  left: 0;
   border: none;
   height: 0;
   width: 0;
   border-radius: 50%;
   background-color: #26a69a;
-  top: 10px;
-  margin-left: -6px;
+  margin-left: 7px;
   -ms-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
   -ms-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-  /* line 41, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+  /* line 42, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
   input[type=range] + .thumb .value {
     display: block;
     width: 30px;
@@ -5584,27 +5724,27 @@ input[type=range] + .thumb {
     font-size: 0;
     -ms-transform: rotate(45deg);
         transform: rotate(45deg); }
-  /* line 50, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+  /* line 51, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
   input[type=range] + .thumb.active {
     border-radius: 50% 50% 50% 0; }
-    /* line 53, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+    /* line 54, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
     input[type=range] + .thumb.active .value {
       color: #fff;
       margin-left: -1px;
       margin-top: 8px;
       font-size: 10px; }
 
-/* line 63, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 64, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range] {
   -webkit-appearance: none; }
 
-/* line 67, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 68, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
   background: #c2c0c2;
   border: none; }
 
-/* line 73, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 74, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
@@ -5616,23 +5756,23 @@ input[type=range]::-webkit-slider-thumb {
   margin: -5px 0 0 0;
   transition: .3s; }
 
-/* line 85, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 86, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #ccc; }
 
-/* line 90, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 91, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range] {
   /* fix for FF unable to apply focus style bug  */
   border: 1px solid white;
   /*required for proper track sizing in FF*/ }
 
-/* line 97, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 98, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-moz-range-track {
   height: 3px;
   background: #ddd;
   border: none; }
 
-/* line 103, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 104, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-moz-range-thumb {
   border: none;
   height: 14px;
@@ -5641,16 +5781,16 @@ input[type=range]::-moz-range-thumb {
   background: #26a69a;
   margin-top: -5px; }
 
-/* line 113, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 114, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]:-moz-focusring {
   outline: 1px solid #fff;
   outline-offset: -1px; }
 
-/* line 118, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 119, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]:focus::-moz-range-track {
   background: #ccc; }
 
-/* line 123, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 124, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-ms-track {
   height: 3px;
   background: transparent;
@@ -5659,15 +5799,15 @@ input[type=range]::-ms-track {
   /*remove default tick marks*/
   color: transparent; }
 
-/* line 137, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 138, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-ms-fill-lower {
   background: #777; }
 
-/* line 141, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 142, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-ms-fill-upper {
   background: #ddd; }
 
-/* line 145, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 146, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]::-ms-thumb {
   border: none;
   height: 14px;
@@ -5675,11 +5815,11 @@ input[type=range]::-ms-thumb {
   border-radius: 50%;
   background: #26a69a; }
 
-/* line 153, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 154, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]:focus::-ms-fill-lower {
   background: #888; }
 
-/* line 157, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
+/* line 158, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
 input[type=range]:focus::-ms-fill-upper {
   background: #ccc; }
 
@@ -5698,15 +5838,14 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   overflow: hidden;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-tap-highlight-color: transparent;
   vertical-align: middle;
   z-index: 1;
-  will-change: opacity, transform;
   transition: .3s ease-out; }
-  /* line 39, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 23, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
     position: absolute;
     border-radius: 50%;
@@ -5721,60 +5860,60 @@ input[type=range]:focus::-ms-fill-upper {
     -ms-transform: scale(0);
         transform: scale(0);
     pointer-events: none; }
-  /* line 61, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 40, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
-  /* line 65, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 43, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
-  /* line 68, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 46, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
-  /* line 71, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 49, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
-  /* line 74, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 52, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
-  /* line 77, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 55, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
-  /* line 80, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 58, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
-  /* line 85, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 63, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
-  /* line 93, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 71, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img {
     position: relative;
     z-index: -1; }
 
-/* line 99, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 77, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-notransition {
   transition: none !important; }
 
-/* line 103, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 81, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-circle {
   transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
 
-/* line 136, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 86, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-input-wrapper {
   border-radius: 0.2em;
   vertical-align: bottom; }
-  /* line 144, node_modules/materialize-css/sass/components/_waves.scss */
+  /* line 90, node_modules/materialize-css/sass/components/_waves.scss */
   .waves-input-wrapper .waves-button-input {
     position: relative;
     top: 0;
     left: 0;
     z-index: 1; }
 
-/* line 152, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 98, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-circle {
   text-align: center;
   width: 2.5em;
@@ -5783,12 +5922,12 @@ input[type=range]:focus::-ms-fill-upper {
   border-radius: 50%;
   -webkit-mask-image: none; }
 
-/* line 170, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 107, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-block {
   display: block; }
 
 /* Firefox Bug: link not triggered */
-/* line 175, node_modules/materialize-css/sass/components/_waves.scss */
+/* line 112, node_modules/materialize-css/sass/components/_waves.scss */
 .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
   z-index: -1; }
 
@@ -5839,9 +5978,12 @@ input[type=range]:focus::-ms-fill-upper {
     /* line 52, node_modules/materialize-css/sass/components/_dropdown.scss */
     .dropdown-content li > a > i {
       height: inherit;
-      line-height: inherit; }
+      line-height: inherit;
+      float: left;
+      margin: 0 24px 0 0;
+      width: 24px; }
 
-/* line 60, node_modules/materialize-css/sass/components/_dropdown.scss */
+/* line 63, node_modules/materialize-css/sass/components/_dropdown.scss */
 .input-field.col .dropdown-content [type="checkbox"] + label {
   top: 1px;
   left: 0;
@@ -5938,20 +6080,19 @@ input[type=range]:focus::-ms-fill-upper {
   min-height: 36px;
   line-height: 120%;
   opacity: 0;
-  display: none;
   position: absolute;
   text-align: center;
   max-width: calc(100% - 4px);
   overflow: hidden;
   left: 0;
   top: 0;
-  pointer-events: none; }
+  pointer-events: none;
+  visibility: hidden; }
 
 /* line 21, node_modules/materialize-css/sass/components/_tooltip.scss */
 .backdrop {
   position: absolute;
   opacity: 0;
-  display: none;
   height: 7px;
   width: 14px;
   border-radius: 0 0 50% 50%;
@@ -5959,7 +6100,7 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: -1;
   -ms-transform-origin: 50% 0%;
       transform-origin: 50% 0%;
-  transform: translate3d(0, 0, 0); }
+  visibility: hidden; }
 
 /* line 1, node_modules/materialize-css/sass/components/_toast.scss */
 #toast-container {
@@ -5987,7 +6128,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 22, node_modules/materialize-css/sass/components/_toast.scss */
 .toast {
   border-radius: 2px;
-  top: 0;
+  top: 35px;
   width: auto;
   clear: both;
   margin-top: 10px;
@@ -6032,7 +6173,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 3, node_modules/materialize-css/sass/components/_cards.scss */
 .card-panel {
   transition: box-shadow .25s;
-  padding: 20px;
+  padding: 24px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff; }
@@ -6139,10 +6280,11 @@ input[type=range]:focus::-ms-fill-upper {
       position: absolute;
       bottom: 0;
       left: 0;
-      padding: 20px; }
+      max-width: 100%;
+      padding: 24px; }
   /* line 141, node_modules/materialize-css/sass/components/_cards.scss */
   .card .card-content {
-    padding: 20px;
+    padding: 24px;
     border-radius: 0 0 2px 2px; }
     /* line 145, node_modules/materialize-css/sass/components/_cards.scss */
     .card .card-content p {
@@ -6150,25 +6292,33 @@ input[type=range]:focus::-ms-fill-upper {
       color: inherit; }
     /* line 149, node_modules/materialize-css/sass/components/_cards.scss */
     .card .card-content .card-title {
-      line-height: 48px; }
-  /* line 154, node_modules/materialize-css/sass/components/_cards.scss */
+      display: block;
+      line-height: 32px;
+      margin-bottom: 8px; }
+      /* line 154, node_modules/materialize-css/sass/components/_cards.scss */
+      .card .card-content .card-title i {
+        line-height: 32px; }
+  /* line 160, node_modules/materialize-css/sass/components/_cards.scss */
   .card .card-action {
     position: relative;
     background-color: inherit;
     border-top: 1px solid rgba(160, 160, 160, 0.2);
-    padding: 20px; }
-    /* line 160, node_modules/materialize-css/sass/components/_cards.scss */
+    padding: 16px 24px; }
+    /* line 161, node_modules/materialize-css/sass/components/_cards.scss */
+    .card .card-action:last-child {
+      border-radius: 0 0 2px 2px; }
+    /* line 169, node_modules/materialize-css/sass/components/_cards.scss */
     .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.dropbutton-wrapper .single-btn-wrapper a):not(.btn-large):not(.btn-floating) {
       color: #ffab40;
-      margin-right: 20px;
+      margin-right: 24px;
       transition: color .3s ease;
       text-transform: uppercase; }
-      /* line 166, node_modules/materialize-css/sass/components/_cards.scss */
+      /* line 175, node_modules/materialize-css/sass/components/_cards.scss */
       .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.dropbutton-wrapper .single-btn-wrapper a):not(.btn-large):not(.btn-floating):hover {
         color: #ffd8a6; }
-  /* line 170, node_modules/materialize-css/sass/components/_cards.scss */
+  /* line 179, node_modules/materialize-css/sass/components/_cards.scss */
   .card .card-reveal {
-    padding: 20px;
+    padding: 24px;
     position: absolute;
     background-color: #fff;
     width: 100%;
@@ -6178,7 +6328,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 100%;
     z-index: 3;
     display: none; }
-    /* line 182, node_modules/materialize-css/sass/components/_cards.scss */
+    /* line 191, node_modules/materialize-css/sass/components/_cards.scss */
     .card .card-reveal .card-title {
       cursor: pointer;
       display: block; }
@@ -10151,7 +10301,7 @@ a.button:hover {
 /* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
-  margin-right: 20px;
+  margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
   /* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */

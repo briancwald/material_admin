@@ -30,7 +30,7 @@
       inDuration: 300,
       outDuration: 225,
       gutter: 0,
-      constrain_width: false, // NOTE: this changes to constrainWidth in 0.9 release of materializecss so will need ot update
+      constrainWidth: false,
       belowOrigin: false,
       alignment: 'left',
       stopPropagation: false
