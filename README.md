@@ -22,7 +22,8 @@ Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 - [x] Breadcrumbs (responsive)
 - [x] Date and Time selector
 - [x] Submit and action buttons
-- [ ] Vertical Tabs support / Styling
+- [x] Vertical Tabs support desktop
+- [ ] Vertical Tabs support moble (menu style)
 - [x] Submit button loading UX
 - [x] Admin landing page / group styling
 - [x] Dropbutton replacement

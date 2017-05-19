@@ -31,6 +31,7 @@
 @import "materialize-css/sass/components/tooltip";
 @import "materialize-css/sass/components/toast";
 @import "materialize-css/sass/components/cards";
+@import "materialize-css/sass/components/transitions";
 @import "materialize-css/sass/components/date_picker/default";
 @import "materialize-css/sass/components/date_picker/default.date";
 
@@ -52,4 +53,5 @@
 @import "base/overrides/autocomplete-loading.module";
 @import "base/overrides/ajax-progress.module";
 @import "base/overrides/dialog";
+@import "base/overrides/vertical-tabs";
 

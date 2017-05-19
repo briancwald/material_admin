@@ -432,7 +432,7 @@ th {
   color: #f3989b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red.lighten-2, #edit-actions .materialize-red.button--danger, .materialize-red.utility-wrapper {
+.materialize-red.lighten-2, #edit-actions .materialize-red.button--danger, .materialize-red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.materialize-red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.materialize-red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.materialize-red {
   background-color: #ee6e73 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -484,7 +484,7 @@ th {
   background-color: #F44336 !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.red-text, .error-text-color, .form-item .form-required:after, #edit-actions .button--danger {
+.red-text, .error-text-color, .form-item .form-required:after, #edit-actions .button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs .vertical-tabs__panes > details > summary {
   color: #F44336 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -492,7 +492,7 @@ th {
   background-color: #FFEBEE !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-5, .text-lighten-5.error-text-color, .form-item .text-lighten-5.form-required:after, #edit-actions .text-lighten-5.button--danger {
+.red-text.text-lighten-5, .text-lighten-5.error-text-color, .form-item .text-lighten-5.form-required:after, #edit-actions .text-lighten-5.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-5:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-5, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-5 {
   color: #FFEBEE !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -500,7 +500,7 @@ th {
   background-color: #FFCDD2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-4, .text-lighten-4.error-text-color, .form-item .text-lighten-4.form-required:after, .form-item .breadcrumb-nav ol li.form-required:after, .breadcrumb-nav ol .form-item li.form-required:after, .form-item .breadcrumb-nav ol li a.form-required:after, .breadcrumb-nav ol li .form-item a.form-required:after, .form-item #block-material-admin-page-title h1.page-title em.form-required:after, #block-material-admin-page-title h1.page-title .form-item em.form-required:after, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol li.red-text:before, #block-material-admin-page-title h1.page-title em.red-text {
+.red-text.text-lighten-4, .text-lighten-4.error-text-color, .form-item .text-lighten-4.form-required:after, .form-item .breadcrumb-nav ol li.form-required:after, .breadcrumb-nav ol .form-item li.form-required:after, .form-item .breadcrumb-nav ol li a.form-required:after, .breadcrumb-nav ol li .form-item a.form-required:after, .form-item #block-material-admin-page-title h1.page-title em.form-required:after, #block-material-admin-page-title h1.page-title .form-item em.form-required:after, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li.error-text-color:before, #block-material-admin-page-title h1.page-title em.error-text-color, #edit-actions .text-lighten-4.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger, .breadcrumb-nav ol #edit-actions li.button--danger, #edit-actions .breadcrumb-nav ol li a.button--danger, .breadcrumb-nav ol li #edit-actions a.button--danger, #edit-actions .breadcrumb-nav ol li.button--danger:before, .breadcrumb-nav ol #edit-actions li.button--danger:before, #edit-actions #block-material-admin-page-title h1.page-title em.button--danger, #block-material-admin-page-title h1.page-title #edit-actions em.button--danger, .breadcrumb-nav ol li.red-text, .breadcrumb-nav ol li a.red-text, .breadcrumb-nav ol .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu .breadcrumb-nav ol li.vertical-tabs__menu-item a:hover, .breadcrumb-nav ol .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs ul.vertical-tabs__menu .breadcrumb-nav ol li.vertical-tabs__menu-item.is-selected a, .breadcrumb-nav ol li.red-text:before, #block-material-admin-page-title h1.page-title em.red-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-4:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-4, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-4 {
   color: #FFCDD2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -508,15 +508,15 @@ th {
   background-color: #EF9A9A !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-3, .error-text-color, .form-item .form-required:after, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after {
+.red-text.text-lighten-3, .error-text-color, .form-item .form-required:after, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:hover:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:hover:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .form-item a.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.form-required:after, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-3, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-text-color, .form-type-vertical-tabs .form-item .vertical-tabs__panes > details > summary.form-required:after, .form-item .form-type-vertical-tabs .vertical-tabs__panes > details > summary.form-required:after {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.red.lighten-2, .lighten-2.color-error, #edit-actions .color-error.button--danger, .color-error.utility-wrapper, .lighten-2.error-color, #edit-actions .error-color.button--danger, #edit-actions .node-multiple-delete-confirm input.button--danger.form-submit, .node-multiple-delete-confirm #edit-actions input.button--danger.form-submit, #edit-actions .button--danger.messages--error, #edit-actions .messages--error.messages-clone .button--danger.card-content, .messages--error.messages-clone #edit-actions .button--danger.card-content, #edit-actions .admin-requirements.collapsible-body .button--danger.admin-prevent-text, .admin-requirements.collapsible-body #edit-actions .button--danger.admin-prevent-text, .node-multiple-delete-confirm input.lighten-2.form-submit, .node-multiple-delete-confirm input.form-submit.utility-wrapper, .error-color.utility-wrapper, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .lighten-2.messages--error, .messages--error.messages-clone .lighten-2.card-content, .admin-requirements.collapsible-body .lighten-2.admin-prevent-text, .lighten-2.button-action, #edit-actions .button-action.button--danger, .button-action.utility-wrapper, #edit-actions .red.button--danger, .red.utility-wrapper {
+.red.lighten-2, .lighten-2.color-error, #edit-actions .color-error.button--danger, .color-error.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-error, .lighten-2.error-color, #edit-actions .error-color.button--danger, #edit-actions .node-multiple-delete-confirm input.button--danger.form-submit, .node-multiple-delete-confirm #edit-actions input.button--danger.form-submit, #edit-actions .button--danger.messages--error, #edit-actions .messages--error.messages-clone .button--danger.card-content, .messages--error.messages-clone #edit-actions .button--danger.card-content, #edit-actions .admin-requirements.collapsible-body .button--danger.admin-prevent-text, .admin-requirements.collapsible-body #edit-actions .button--danger.admin-prevent-text, .node-multiple-delete-confirm input.lighten-2.form-submit, .node-multiple-delete-confirm input.form-submit.utility-wrapper, .error-color.utility-wrapper, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .lighten-2.messages--error, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--error, .messages--error.messages-clone .lighten-2.card-content, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--error.messages-clone a.card-content:hover, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--error.messages-clone a.card-content, .messages--error.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--error.messages-clone .vertical-tabs__panes > details > summary.card-content, .admin-requirements.collapsible-body .lighten-2.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.admin-prevent-text:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .admin-requirements.collapsible-body a.admin-prevent-text:hover, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .admin-requirements.collapsible-body a.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs .admin-requirements.collapsible-body .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-color, .lighten-2.button-action, #edit-actions .button-action.button--danger, .button-action.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.button-action:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.button-action, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.button-action, #edit-actions .red.button--danger, .red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.red {
   background-color: #E57373 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-2, .text-lighten-2.error-text-color, .form-item .text-lighten-2.form-required:after, #edit-actions .text-lighten-2.button--danger {
+.red-text.text-lighten-2, .text-lighten-2.error-text-color, .form-item .text-lighten-2.form-required:after, #edit-actions .text-lighten-2.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-2:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-2, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-2 {
   color: #E57373 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -524,7 +524,7 @@ th {
   background-color: #EF5350 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-1, .text-lighten-1.error-text-color, .form-item .text-lighten-1.form-required:after, #edit-actions .text-lighten-1.button--danger {
+.red-text.text-lighten-1, .text-lighten-1.error-text-color, .form-item .text-lighten-1.form-required:after, #edit-actions .text-lighten-1.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-1:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-1, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-1 {
   color: #EF5350 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -532,7 +532,7 @@ th {
   background-color: #E53935 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-1, .text-darken-1.error-text-color, .form-item .text-darken-1.form-required:after, #edit-actions .text-darken-1.button--danger {
+.red-text.text-darken-1, .text-darken-1.error-text-color, .form-item .text-darken-1.form-required:after, #edit-actions .text-darken-1.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-1:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-1, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-1 {
   color: #E53935 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -540,7 +540,7 @@ th {
   background-color: #D32F2F !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item a.form-required#edit-cancel:after, a.error-text-color#edit-cancel, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions a.button--danger#edit-cancel, a.red-text#edit-cancel, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, table.highlight > tbody > tr.selected a.red-text.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.red-text {
+.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item a.form-required#edit-cancel:after, a.error-text-color#edit-cancel, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions a.button--danger#edit-cancel, a.red-text#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-text-color, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-text-color, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, table.highlight > tbody > tr.selected a.red-text.dropdown-button, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.dropdown-button:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button:hover, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.dropdown-button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table.highlight > tbody > tr.selected a.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.red-text, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .dropbutton-wrapper .single-btn-wrapper a:hover, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .dropbutton-wrapper .single-btn-wrapper a, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-2, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-2 {
   color: #D32F2F !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -548,7 +548,7 @@ th {
   background-color: #C62828 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-3, .text-darken-3.error-text-color, .form-item .text-darken-3.form-required:after, #edit-actions .text-darken-3.button--danger {
+.red-text.text-darken-3, .text-darken-3.error-text-color, .form-item .text-darken-3.form-required:after, #edit-actions .text-darken-3.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-3:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-3, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-3 {
   color: #C62828 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -556,7 +556,7 @@ th {
   background-color: #B71C1C !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-4, .text-darken-4.error-text-color, .form-item .text-darken-4.form-required:after, #edit-actions .text-darken-4.button--danger {
+.red-text.text-darken-4, .text-darken-4.error-text-color, .form-item .text-darken-4.form-required:after, #edit-actions .text-darken-4.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-4:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-4, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-4 {
   color: #B71C1C !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -564,7 +564,7 @@ th {
   background-color: #FF8A80 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-1, .text-accent-1.error-text-color, .form-item .text-accent-1.form-required:after, #edit-actions .text-accent-1.button--danger {
+.red-text.text-accent-1, .text-accent-1.error-text-color, .form-item .text-accent-1.form-required:after, #edit-actions .text-accent-1.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-accent-1:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-accent-1, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-accent-1 {
   color: #FF8A80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -572,7 +572,7 @@ th {
   background-color: #FF5252 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-2, .text-accent-2.error-text-color, .form-item .text-accent-2.form-required:after, #edit-actions .text-accent-2.button--danger {
+.red-text.text-accent-2, .text-accent-2.error-text-color, .form-item .text-accent-2.form-required:after, #edit-actions .text-accent-2.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-accent-2:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-accent-2, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-accent-2 {
   color: #FF5252 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -580,7 +580,7 @@ th {
   background-color: #FF1744 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-3, .text-accent-3.error-text-color, .form-item .text-accent-3.form-required:after, #edit-actions .text-accent-3.button--danger {
+.red-text.text-accent-3, .text-accent-3.error-text-color, .form-item .text-accent-3.form-required:after, #edit-actions .text-accent-3.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-accent-3:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-accent-3, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-accent-3 {
   color: #FF1744 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -588,7 +588,7 @@ th {
   background-color: #D50000 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-accent-4, .text-accent-4.error-text-color, .form-item .text-accent-4.form-required:after, #edit-actions .text-accent-4.button--danger {
+.red-text.text-accent-4, .text-accent-4.error-text-color, .form-item .text-accent-4.form-required:after, #edit-actions .text-accent-4.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-accent-4:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-accent-4, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-accent-4 {
   color: #D50000 !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
@@ -624,7 +624,7 @@ th {
   color: #f48fb1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.pink.lighten-2, #edit-actions .pink.button--danger, .pink.utility-wrapper {
+.pink.lighten-2, #edit-actions .pink.button--danger, .pink.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.pink:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.pink, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.pink {
   background-color: #f06292 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -736,7 +736,7 @@ th {
   color: #ce93d8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.purple.lighten-2, #edit-actions .purple.button--danger, .purple.utility-wrapper {
+.purple.lighten-2, #edit-actions .purple.button--danger, .purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.purple {
   background-color: #ba68c8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -848,7 +848,7 @@ th {
   color: #b39ddb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple.lighten-2, #edit-actions .deep-purple.button--danger, .deep-purple.utility-wrapper {
+.deep-purple.lighten-2, #edit-actions .deep-purple.button--danger, .deep-purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-purple {
   background-color: #9575cd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -960,7 +960,7 @@ th {
   color: #9fa8da !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.indigo.lighten-2, #edit-actions .indigo.button--danger, .indigo.utility-wrapper {
+.indigo.lighten-2, #edit-actions .indigo.button--danger, .indigo.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.indigo:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.indigo, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.indigo {
   background-color: #7986cb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1072,7 +1072,7 @@ th {
   color: #90CAF9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue.lighten-2, #edit-actions .blue.button--danger, #edit-actions header.button--danger.header-wrapper, #edit-actions .button--danger.utility-wrapper, #edit-actions h2.button--danger.theme-list-title, #edit-actions table .button--danger.region-title, table #edit-actions .button--danger.region-title, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, h2.lighten-2.theme-list-title, h2.theme-list-title.utility-wrapper, table .lighten-2.region-title, table .region-title.utility-wrapper {
+.blue.lighten-2, #edit-actions .blue.button--danger, #edit-actions header.button--danger.header-wrapper, #edit-actions .button--danger.utility-wrapper, #edit-actions h2.button--danger.theme-list-title, #edit-actions table .button--danger.region-title, table #edit-actions .button--danger.region-title, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, h2.lighten-2.theme-list-title, h2.theme-list-title.utility-wrapper, table .lighten-2.region-title, table .region-title.utility-wrapper, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.region-title:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table a.region-title:hover, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table a.region-title, table .form-type-vertical-tabs .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs table .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.utility-wrapper:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.utility-wrapper, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.utility-wrapper {
   background-color: #64B5F6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1184,7 +1184,7 @@ th {
   color: #81d4fa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue.lighten-2, #edit-actions .light-blue.button--danger, .light-blue.utility-wrapper {
+.light-blue.lighten-2, #edit-actions .light-blue.button--danger, .light-blue.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-blue {
   background-color: #4fc3f7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1296,7 +1296,7 @@ th {
   color: #80deea !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.cyan.lighten-2, #edit-actions .cyan.button--danger, .cyan.utility-wrapper {
+.cyan.lighten-2, #edit-actions .cyan.button--danger, .cyan.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.cyan:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.cyan, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.cyan {
   background-color: #4dd0e1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1408,7 +1408,7 @@ th {
   color: #80cbc4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-2, #edit-actions .teal.button--danger, #edit-actions table.highlight > tbody > tr.button--danger:hover, #edit-actions table.highlight > tbody > tr.button--danger.selected, #edit-actions table.highlight > tbody > tr.selected td.button--danger, table.highlight > tbody > tr.selected #edit-actions td.button--danger, .teal.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, table.highlight > tbody > tr.lighten-2:hover, table.highlight > tbody > tr.lighten-2.selected, table.highlight > tbody > tr.selected td.lighten-2 {
+.teal.lighten-2, #edit-actions .teal.button--danger, #edit-actions table.highlight > tbody > tr.button--danger:hover, #edit-actions table.highlight > tbody > tr.button--danger.selected, #edit-actions table.highlight > tbody > tr.selected td.button--danger, table.highlight > tbody > tr.selected #edit-actions td.button--danger, .teal.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, table.highlight > tbody > tr.lighten-2:hover, table.highlight > tbody > tr.lighten-2.selected, table.highlight > tbody > tr.selected td.lighten-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.teal:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.teal, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.teal {
   background-color: #4db6ac !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1520,7 +1520,7 @@ th {
   color: #A5D6A7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.green.lighten-2, .lighten-2.color-success, #edit-actions .color-success.button--danger, .color-success.utility-wrapper, .lighten-2.status-color, #edit-actions .status-color.button--danger, #edit-actions .button--danger.messages--status, #edit-actions .messages--status.messages-clone .button--danger.card-content, .messages--status.messages-clone #edit-actions .button--danger.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, .lighten-2.messages--status, .messages--status.messages-clone .lighten-2.card-content, #edit-actions .green.button--danger, .green.utility-wrapper {
+.green.lighten-2, .lighten-2.color-success, #edit-actions .color-success.button--danger, .color-success.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-success:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-success, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-success, .lighten-2.status-color, #edit-actions .status-color.button--danger, #edit-actions .button--danger.messages--status, #edit-actions .messages--status.messages-clone .button--danger.card-content, .messages--status.messages-clone #edit-actions .button--danger.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, .lighten-2.messages--status, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--status:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--status, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--status, .messages--status.messages-clone .lighten-2.card-content, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--status.messages-clone a.card-content:hover, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--status.messages-clone a.card-content, .messages--status.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--status.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-color, #edit-actions .green.button--danger, .green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.green {
   background-color: #81C784 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1632,7 +1632,7 @@ th {
   color: #c5e1a5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-green.lighten-2, #edit-actions .light-green.button--danger, .light-green.utility-wrapper {
+.light-green.lighten-2, #edit-actions .light-green.button--danger, .light-green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-green {
   background-color: #aed581 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1744,7 +1744,7 @@ th {
   color: #e6ee9c !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.lime.lighten-2, #edit-actions .lime.button--danger, .lime.utility-wrapper {
+.lime.lighten-2, #edit-actions .lime.button--danger, .lime.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.lime:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.lime, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.lime {
   background-color: #dce775 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1856,7 +1856,7 @@ th {
   color: #fff59d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-2, .lighten-2.color-warning, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, .lighten-2.warning-color, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag, #edit-actions tr.button--danger.drag-previous, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag, tr.utility-wrapper.drag-previous, span.lighten-2.theme-status-indicator, tr.lighten-2.drag, tr.lighten-2.drag-previous {
+.yellow.lighten-2, .lighten-2.color-warning, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-warning, .lighten-2.warning-color, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--warning.messages-clone a.card-content:hover, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--warning.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-color, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag, #edit-actions tr.button--danger.drag-previous, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag, tr.utility-wrapper.drag-previous, span.lighten-2.theme-status-indicator, tr.lighten-2.drag, tr.lighten-2.drag-previous, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.yellow:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.yellow, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.yellow {
   background-color: #fff176 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1968,7 +1968,7 @@ th {
   color: #ffe082 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.amber.lighten-2, #edit-actions .amber.button--danger, .amber.utility-wrapper {
+.amber.lighten-2, #edit-actions .amber.button--danger, .amber.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.amber:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.amber, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.amber {
   background-color: #ffd54f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2080,7 +2080,7 @@ th {
   color: #ffcc80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.orange.lighten-2, #edit-actions .orange.button--danger, .orange.utility-wrapper {
+.orange.lighten-2, #edit-actions .orange.button--danger, .orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.orange {
   background-color: #ffb74d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2192,7 +2192,7 @@ th {
   color: #ffab91 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange.lighten-2, #edit-actions .deep-orange.button--danger, .deep-orange.utility-wrapper {
+.deep-orange.lighten-2, #edit-actions .deep-orange.button--danger, .deep-orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-orange {
   background-color: #ff8a65 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2304,7 +2304,7 @@ th {
   color: #bcaaa4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.brown.lighten-2, #edit-actions .brown.button--danger, .brown.utility-wrapper {
+.brown.lighten-2, #edit-actions .brown.button--danger, .brown.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.brown:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.brown, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.brown {
   background-color: #a1887f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2384,7 +2384,7 @@ th {
   color: #b0bec5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey.lighten-2, #edit-actions .blue-grey.button--danger, .blue-grey.utility-wrapper {
+.blue-grey.lighten-2, #edit-actions .blue-grey.button--danger, .blue-grey.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue-grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue-grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue-grey {
   background-color: #90a4ae !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2436,7 +2436,7 @@ th {
   background-color: #9e9e9e !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child, table.highlight > tbody > tr.selected a.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a, table .region-title, table thead th {
+.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li:last-child, table.highlight > tbody > tr.selected a.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a, table .region-title, table thead th, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
   color: #9e9e9e !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2444,7 +2444,7 @@ th {
   background-color: #fafafa !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child, table.highlight > tbody > tr.selected a.text-lighten-5.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-5, table .text-lighten-5.region-title, table thead th.text-lighten-5 {
+.grey-text.text-lighten-5, .breadcrumb-nav ol li:last-child a.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:last-child, table.highlight > tbody > tr.selected a.text-lighten-5.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-5, table .text-lighten-5.region-title, table thead th.text-lighten-5, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-5 {
   color: #fafafa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2452,7 +2452,7 @@ th {
   background-color: #f5f5f5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol table li.region-title, table .breadcrumb-nav ol li.region-title, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .breadcrumb-nav ol li a.dropdown-button, .breadcrumb-nav ol li .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li a, .breadcrumb-nav ol li table a.region-title, table .breadcrumb-nav ol li a.region-title, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before, .breadcrumb-nav ol table li.region-title:before, table .breadcrumb-nav ol li.region-title:before, table.highlight > tbody > tr.selected a.text-lighten-4.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-4, #block-material-admin-page-title h1.page-title em.grey-text, #block-material-admin-page-title h1.page-title table em.region-title, table #block-material-admin-page-title h1.page-title em.region-title, table .text-lighten-4.region-title, table thead th.text-lighten-4 {
+.grey-text.text-lighten-4, .breadcrumb-nav ol li.grey-text, .breadcrumb-nav ol li:last-child, .breadcrumb-nav ol table li.region-title, table .breadcrumb-nav ol li.region-title, .breadcrumb-nav ol li a.grey-text, .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .breadcrumb-nav ol li a.dropdown-button, .breadcrumb-nav ol li .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li a, .breadcrumb-nav ol li table a.region-title, table .breadcrumb-nav ol li a.region-title, .breadcrumb-nav ol .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a, .form-type-vertical-tabs ul.vertical-tabs__menu .breadcrumb-nav ol li.vertical-tabs__menu-item a, .breadcrumb-nav ol li.grey-text:before, .breadcrumb-nav ol li:last-child:before, .breadcrumb-nav ol table li.region-title:before, table .breadcrumb-nav ol li.region-title:before, table.highlight > tbody > tr.selected a.text-lighten-4.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-4, #block-material-admin-page-title h1.page-title em.grey-text, #block-material-admin-page-title h1.page-title table em.region-title, table #block-material-admin-page-title h1.page-title em.region-title, table .text-lighten-4.region-title, table thead th.text-lighten-4, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-4 {
   color: #f5f5f5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2460,15 +2460,15 @@ th {
   background-color: #eeeeee !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-3, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, table .error-text-color.region-title, table thead th.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-3, table .text-lighten-3.region-title, table thead th.text-lighten-3 {
+.grey-text.text-lighten-3, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:after, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, table .error-text-color.region-title, table thead th.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-3, table .text-lighten-3.region-title, table thead th.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3 {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-2, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, #edit-actions tr.button--danger.field-plugin-settings-editing, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, tr.utility-wrapper.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-2, tr.lighten-2.field-plugin-settings-editing {
+.grey.lighten-2, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, #edit-actions tr.button--danger.field-plugin-settings-editing, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, tr.utility-wrapper.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-2, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .dropbutton-wrapper .single-btn-wrapper a:hover, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .dropbutton-wrapper .single-btn-wrapper a, tr.lighten-2.field-plugin-settings-editing, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.grey {
   background-color: #e0e0e0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child, table.highlight > tbody > tr.selected a.text-lighten-2.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-2, table .text-lighten-2.region-title, table thead th.text-lighten-2 {
+.grey-text.text-lighten-2, .breadcrumb-nav ol li:last-child a.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:last-child, table.highlight > tbody > tr.selected a.text-lighten-2.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-2, table .text-lighten-2.region-title, table thead th.text-lighten-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-2 {
   color: #e0e0e0 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2476,7 +2476,7 @@ th {
   background-color: #bdbdbd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child, table.highlight > tbody > tr.selected a.text-lighten-1.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-1, table .text-lighten-1.region-title, table thead th.text-lighten-1 {
+.grey-text.text-lighten-1, .breadcrumb-nav ol li:last-child a.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:last-child, table.highlight > tbody > tr.selected a.text-lighten-1.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-1, table .text-lighten-1.region-title, table thead th.text-lighten-1, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-1 {
   color: #bdbdbd !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2484,7 +2484,7 @@ th {
   background-color: #757575 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child, table.highlight > tbody > tr.selected a.text-darken-1.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-1, table .text-darken-1.region-title, table thead th.text-darken-1 {
+.grey-text.text-darken-1, .breadcrumb-nav ol li:last-child a.text-darken-1, .breadcrumb-nav ol li.text-darken-1:last-child, table.highlight > tbody > tr.selected a.text-darken-1.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-1, table .text-darken-1.region-title, table thead th.text-darken-1, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-1 {
   color: #757575 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2492,7 +2492,7 @@ th {
   background-color: #616161 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-2, .grey-text.warning-text-color, a.grey-text#edit-cancel, .breadcrumb-nav ol li:last-child a#edit-cancel, table.highlight > tbody > tr.selected a#edit-cancel.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a#edit-cancel, table a#edit-cancel.region-title, .breadcrumb-nav ol li:last-child a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:last-child, table .warning-text-color.region-title, table thead th.warning-text-color, .grey-text.status-text-color, .breadcrumb-nav ol li:last-child a.status-text-color, .breadcrumb-nav ol li.status-text-color:last-child, table .status-text-color.region-title, table thead th.status-text-color, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li:last-child table.highlight > tbody > tr.selected a.dropdown-button, .breadcrumb-nav ol li:last-child .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.text-darken-2:last-child, table.highlight > tbody > tr.selected a.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a, table .text-darken-2.region-title, table thead th.text-darken-2 {
+.grey-text.text-darken-2, .grey-text.warning-text-color, a.grey-text#edit-cancel, .breadcrumb-nav ol li:last-child a#edit-cancel, table.highlight > tbody > tr.selected a#edit-cancel.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a#edit-cancel, table a#edit-cancel.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel, .breadcrumb-nav ol li:last-child a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:last-child, table .warning-text-color.region-title, table thead th.warning-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color, .grey-text.status-text-color, .breadcrumb-nav ol li:last-child a.status-text-color, .breadcrumb-nav ol li.status-text-color:last-child, table .status-text-color.region-title, table thead th.status-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li:last-child table.highlight > tbody > tr.selected a.dropdown-button, .breadcrumb-nav ol li:last-child .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .breadcrumb-nav ol li:last-child a, .breadcrumb-nav ol li.text-darken-2:last-child, table.highlight > tbody > tr.selected a.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a, table .text-darken-2.region-title, table thead th.text-darken-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .dropbutton-wrapper .single-btn-wrapper a, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
   color: #616161 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2500,7 +2500,7 @@ th {
   background-color: #424242 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child, table.highlight > tbody > tr.selected a.text-darken-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-3, table .text-darken-3.region-title, table thead th.text-darken-3 {
+.grey-text.text-darken-3, .breadcrumb-nav ol li:last-child a.text-darken-3, .breadcrumb-nav ol li.text-darken-3:last-child, table.highlight > tbody > tr.selected a.text-darken-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-3, table .text-darken-3.region-title, table thead th.text-darken-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-3 {
   color: #424242 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2508,7 +2508,7 @@ th {
   background-color: #212121 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:last-child, table.highlight > tbody > tr.selected a.text-darken-4.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-4, table .text-darken-4.region-title, table thead th.text-darken-4 {
+.grey-text.text-darken-4, .breadcrumb-nav ol li:last-child a.text-darken-4, .breadcrumb-nav ol li.text-darken-4:last-child, table.highlight > tbody > tr.selected a.text-darken-4.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-darken-4, table .text-darken-4.region-title, table thead th.text-darken-4, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-4 {
   color: #212121 !important; }
 
 /* line 390, node_modules/materialize-css/sass/components/_color.scss */
@@ -3383,7 +3383,7 @@ input[type=range] + .thumb {
     width: 70%; } }
 
 /* line 16, node_modules/materialize-css/sass/components/_grid.scss */
-.container .row {
+.container .row, .container .form-type-vertical-tabs {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
 
@@ -3402,746 +3402,746 @@ input[type=range] + .thumb {
     padding-top: 0; }
 
 /* line 56, node_modules/materialize-css/sass/components/_grid.scss */
-.row {
+.row, .form-type-vertical-tabs {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
   /* line 62, node_modules/materialize-css/sass/components/_grid.scss */
-  .row:after {
+  .row:after, .form-type-vertical-tabs:after {
     content: "";
     display: table;
     clear: both; }
   /* line 68, node_modules/materialize-css/sass/components/_grid.scss */
-  .row .col {
+  .row .col, .form-type-vertical-tabs .col, .form-type-vertical-tabs ul.vertical-tabs__menu, .form-type-vertical-tabs .vertical-tabs__panes {
     float: left;
     box-sizing: border-box;
     padding: 0 0.75rem;
     min-height: 1px; }
     /* line 74, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col[class*="push-"], .row .col[class*="pull-"] {
+    .row .col[class*="push-"], .form-type-vertical-tabs .col[class*="push-"], .form-type-vertical-tabs ul[class*="push-"].vertical-tabs__menu, .form-type-vertical-tabs [class*="push-"].vertical-tabs__panes, .row .col[class*="pull-"], .form-type-vertical-tabs .col[class*="pull-"], .form-type-vertical-tabs ul[class*="pull-"].vertical-tabs__menu, .form-type-vertical-tabs [class*="pull-"].vertical-tabs__panes {
       position: relative; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s1 {
+    .row .col.s1, .form-type-vertical-tabs .col.s1, .form-type-vertical-tabs ul.s1.vertical-tabs__menu, .form-type-vertical-tabs .s1.vertical-tabs__panes {
       width: 8.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s2 {
+    .row .col.s2, .form-type-vertical-tabs .col.s2, .form-type-vertical-tabs ul.s2.vertical-tabs__menu, .form-type-vertical-tabs .s2.vertical-tabs__panes {
       width: 16.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s3 {
+    .row .col.s3, .form-type-vertical-tabs .col.s3, .form-type-vertical-tabs ul.s3.vertical-tabs__menu, .form-type-vertical-tabs .s3.vertical-tabs__panes {
       width: 25%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s4 {
+    .row .col.s4, .form-type-vertical-tabs .col.s4, .form-type-vertical-tabs ul.s4.vertical-tabs__menu, .form-type-vertical-tabs .s4.vertical-tabs__panes {
       width: 33.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s5 {
+    .row .col.s5, .form-type-vertical-tabs .col.s5, .form-type-vertical-tabs ul.s5.vertical-tabs__menu, .form-type-vertical-tabs .s5.vertical-tabs__panes {
       width: 41.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s6 {
+    .row .col.s6, .form-type-vertical-tabs .col.s6, .form-type-vertical-tabs ul.s6.vertical-tabs__menu, .form-type-vertical-tabs .s6.vertical-tabs__panes {
       width: 50%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s7 {
+    .row .col.s7, .form-type-vertical-tabs .col.s7, .form-type-vertical-tabs ul.s7.vertical-tabs__menu, .form-type-vertical-tabs .s7.vertical-tabs__panes {
       width: 58.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s8 {
+    .row .col.s8, .form-type-vertical-tabs .col.s8, .form-type-vertical-tabs ul.s8.vertical-tabs__menu, .form-type-vertical-tabs .s8.vertical-tabs__panes {
       width: 66.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s9 {
+    .row .col.s9, .form-type-vertical-tabs .col.s9, .form-type-vertical-tabs ul.s9.vertical-tabs__menu, .form-type-vertical-tabs .s9.vertical-tabs__panes {
       width: 75%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s10 {
+    .row .col.s10, .form-type-vertical-tabs .col.s10, .form-type-vertical-tabs ul.s10.vertical-tabs__menu, .form-type-vertical-tabs .s10.vertical-tabs__panes {
       width: 83.33333%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s11 {
+    .row .col.s11, .form-type-vertical-tabs .col.s11, .form-type-vertical-tabs ul.s11.vertical-tabs__menu, .form-type-vertical-tabs .s11.vertical-tabs__panes {
       width: 91.66667%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 82, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.s12 {
+    .row .col.s12, .form-type-vertical-tabs .col.s12, .form-type-vertical-tabs ul.s12.vertical-tabs__menu, .form-type-vertical-tabs .s12.vertical-tabs__panes {
       width: 100%;
       margin-left: auto;
       left: auto;
       right: auto; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s1 {
+    .row .col.offset-s1, .form-type-vertical-tabs .col.offset-s1, .form-type-vertical-tabs ul.offset-s1.vertical-tabs__menu, .form-type-vertical-tabs .offset-s1.vertical-tabs__panes {
       margin-left: 8.33333%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s1 {
+    .row .col.pull-s1, .form-type-vertical-tabs .col.pull-s1, .form-type-vertical-tabs ul.pull-s1.vertical-tabs__menu, .form-type-vertical-tabs .pull-s1.vertical-tabs__panes {
       right: 8.33333%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s1 {
+    .row .col.push-s1, .form-type-vertical-tabs .col.push-s1, .form-type-vertical-tabs ul.push-s1.vertical-tabs__menu, .form-type-vertical-tabs .push-s1.vertical-tabs__panes {
       left: 8.33333%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s2 {
+    .row .col.offset-s2, .form-type-vertical-tabs .col.offset-s2, .form-type-vertical-tabs ul.offset-s2.vertical-tabs__menu, .form-type-vertical-tabs .offset-s2.vertical-tabs__panes {
       margin-left: 16.66667%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s2 {
+    .row .col.pull-s2, .form-type-vertical-tabs .col.pull-s2, .form-type-vertical-tabs ul.pull-s2.vertical-tabs__menu, .form-type-vertical-tabs .pull-s2.vertical-tabs__panes {
       right: 16.66667%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s2 {
+    .row .col.push-s2, .form-type-vertical-tabs .col.push-s2, .form-type-vertical-tabs ul.push-s2.vertical-tabs__menu, .form-type-vertical-tabs .push-s2.vertical-tabs__panes {
       left: 16.66667%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s3 {
+    .row .col.offset-s3, .form-type-vertical-tabs .col.offset-s3, .form-type-vertical-tabs ul.offset-s3.vertical-tabs__menu, .form-type-vertical-tabs .offset-s3.vertical-tabs__panes {
       margin-left: 25%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s3 {
+    .row .col.pull-s3, .form-type-vertical-tabs .col.pull-s3, .form-type-vertical-tabs ul.pull-s3.vertical-tabs__menu, .form-type-vertical-tabs .pull-s3.vertical-tabs__panes {
       right: 25%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s3 {
+    .row .col.push-s3, .form-type-vertical-tabs .col.push-s3, .form-type-vertical-tabs ul.push-s3.vertical-tabs__menu, .form-type-vertical-tabs .push-s3.vertical-tabs__panes {
       left: 25%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s4 {
+    .row .col.offset-s4, .form-type-vertical-tabs .col.offset-s4, .form-type-vertical-tabs ul.offset-s4.vertical-tabs__menu, .form-type-vertical-tabs .offset-s4.vertical-tabs__panes {
       margin-left: 33.33333%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s4 {
+    .row .col.pull-s4, .form-type-vertical-tabs .col.pull-s4, .form-type-vertical-tabs ul.pull-s4.vertical-tabs__menu, .form-type-vertical-tabs .pull-s4.vertical-tabs__panes {
       right: 33.33333%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s4 {
+    .row .col.push-s4, .form-type-vertical-tabs .col.push-s4, .form-type-vertical-tabs ul.push-s4.vertical-tabs__menu, .form-type-vertical-tabs .push-s4.vertical-tabs__panes {
       left: 33.33333%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s5 {
+    .row .col.offset-s5, .form-type-vertical-tabs .col.offset-s5, .form-type-vertical-tabs ul.offset-s5.vertical-tabs__menu, .form-type-vertical-tabs .offset-s5.vertical-tabs__panes {
       margin-left: 41.66667%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s5 {
+    .row .col.pull-s5, .form-type-vertical-tabs .col.pull-s5, .form-type-vertical-tabs ul.pull-s5.vertical-tabs__menu, .form-type-vertical-tabs .pull-s5.vertical-tabs__panes {
       right: 41.66667%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s5 {
+    .row .col.push-s5, .form-type-vertical-tabs .col.push-s5, .form-type-vertical-tabs ul.push-s5.vertical-tabs__menu, .form-type-vertical-tabs .push-s5.vertical-tabs__panes {
       left: 41.66667%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s6 {
+    .row .col.offset-s6, .form-type-vertical-tabs .col.offset-s6, .form-type-vertical-tabs ul.offset-s6.vertical-tabs__menu, .form-type-vertical-tabs .offset-s6.vertical-tabs__panes {
       margin-left: 50%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s6 {
+    .row .col.pull-s6, .form-type-vertical-tabs .col.pull-s6, .form-type-vertical-tabs ul.pull-s6.vertical-tabs__menu, .form-type-vertical-tabs .pull-s6.vertical-tabs__panes {
       right: 50%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s6 {
+    .row .col.push-s6, .form-type-vertical-tabs .col.push-s6, .form-type-vertical-tabs ul.push-s6.vertical-tabs__menu, .form-type-vertical-tabs .push-s6.vertical-tabs__panes {
       left: 50%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s7 {
+    .row .col.offset-s7, .form-type-vertical-tabs .col.offset-s7, .form-type-vertical-tabs ul.offset-s7.vertical-tabs__menu, .form-type-vertical-tabs .offset-s7.vertical-tabs__panes {
       margin-left: 58.33333%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s7 {
+    .row .col.pull-s7, .form-type-vertical-tabs .col.pull-s7, .form-type-vertical-tabs ul.pull-s7.vertical-tabs__menu, .form-type-vertical-tabs .pull-s7.vertical-tabs__panes {
       right: 58.33333%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s7 {
+    .row .col.push-s7, .form-type-vertical-tabs .col.push-s7, .form-type-vertical-tabs ul.push-s7.vertical-tabs__menu, .form-type-vertical-tabs .push-s7.vertical-tabs__panes {
       left: 58.33333%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s8 {
+    .row .col.offset-s8, .form-type-vertical-tabs .col.offset-s8, .form-type-vertical-tabs ul.offset-s8.vertical-tabs__menu, .form-type-vertical-tabs .offset-s8.vertical-tabs__panes {
       margin-left: 66.66667%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s8 {
+    .row .col.pull-s8, .form-type-vertical-tabs .col.pull-s8, .form-type-vertical-tabs ul.pull-s8.vertical-tabs__menu, .form-type-vertical-tabs .pull-s8.vertical-tabs__panes {
       right: 66.66667%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s8 {
+    .row .col.push-s8, .form-type-vertical-tabs .col.push-s8, .form-type-vertical-tabs ul.push-s8.vertical-tabs__menu, .form-type-vertical-tabs .push-s8.vertical-tabs__panes {
       left: 66.66667%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s9 {
+    .row .col.offset-s9, .form-type-vertical-tabs .col.offset-s9, .form-type-vertical-tabs ul.offset-s9.vertical-tabs__menu, .form-type-vertical-tabs .offset-s9.vertical-tabs__panes {
       margin-left: 75%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s9 {
+    .row .col.pull-s9, .form-type-vertical-tabs .col.pull-s9, .form-type-vertical-tabs ul.pull-s9.vertical-tabs__menu, .form-type-vertical-tabs .pull-s9.vertical-tabs__panes {
       right: 75%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s9 {
+    .row .col.push-s9, .form-type-vertical-tabs .col.push-s9, .form-type-vertical-tabs ul.push-s9.vertical-tabs__menu, .form-type-vertical-tabs .push-s9.vertical-tabs__panes {
       left: 75%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s10 {
+    .row .col.offset-s10, .form-type-vertical-tabs .col.offset-s10, .form-type-vertical-tabs ul.offset-s10.vertical-tabs__menu, .form-type-vertical-tabs .offset-s10.vertical-tabs__panes {
       margin-left: 83.33333%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s10 {
+    .row .col.pull-s10, .form-type-vertical-tabs .col.pull-s10, .form-type-vertical-tabs ul.pull-s10.vertical-tabs__menu, .form-type-vertical-tabs .pull-s10.vertical-tabs__panes {
       right: 83.33333%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s10 {
+    .row .col.push-s10, .form-type-vertical-tabs .col.push-s10, .form-type-vertical-tabs ul.push-s10.vertical-tabs__menu, .form-type-vertical-tabs .push-s10.vertical-tabs__panes {
       left: 83.33333%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s11 {
+    .row .col.offset-s11, .form-type-vertical-tabs .col.offset-s11, .form-type-vertical-tabs ul.offset-s11.vertical-tabs__menu, .form-type-vertical-tabs .offset-s11.vertical-tabs__panes {
       margin-left: 91.66667%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s11 {
+    .row .col.pull-s11, .form-type-vertical-tabs .col.pull-s11, .form-type-vertical-tabs ul.pull-s11.vertical-tabs__menu, .form-type-vertical-tabs .pull-s11.vertical-tabs__panes {
       right: 91.66667%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s11 {
+    .row .col.push-s11, .form-type-vertical-tabs .col.push-s11, .form-type-vertical-tabs ul.push-s11.vertical-tabs__menu, .form-type-vertical-tabs .push-s11.vertical-tabs__panes {
       left: 91.66667%; }
     /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.offset-s12 {
+    .row .col.offset-s12, .form-type-vertical-tabs .col.offset-s12, .form-type-vertical-tabs ul.offset-s12.vertical-tabs__menu, .form-type-vertical-tabs .offset-s12.vertical-tabs__panes {
       margin-left: 100%; }
     /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.pull-s12 {
+    .row .col.pull-s12, .form-type-vertical-tabs .col.pull-s12, .form-type-vertical-tabs ul.pull-s12.vertical-tabs__menu, .form-type-vertical-tabs .pull-s12.vertical-tabs__panes {
       right: 100%; }
     /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-    .row .col.push-s12 {
+    .row .col.push-s12, .form-type-vertical-tabs .col.push-s12, .form-type-vertical-tabs ul.push-s12.vertical-tabs__menu, .form-type-vertical-tabs .push-s12.vertical-tabs__panes {
       left: 100%; }
     @media only screen and (min-width: 601px) {
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m1 {
+      .row .col.m1, .form-type-vertical-tabs .col.m1, .form-type-vertical-tabs ul.m1.vertical-tabs__menu, .form-type-vertical-tabs .m1.vertical-tabs__panes {
         width: 8.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m2 {
+      .row .col.m2, .form-type-vertical-tabs .col.m2, .form-type-vertical-tabs ul.m2.vertical-tabs__menu, .form-type-vertical-tabs .m2.vertical-tabs__panes {
         width: 16.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m3 {
+      .row .col.m3, .form-type-vertical-tabs .col.m3, .row .form-type-vertical-tabs ul.vertical-tabs__menu, .form-type-vertical-tabs .row ul.vertical-tabs__menu, .form-type-vertical-tabs ul.vertical-tabs__menu, .form-type-vertical-tabs .m3.vertical-tabs__panes {
         width: 25%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m4 {
+      .row .col.m4, .form-type-vertical-tabs .col.m4, .form-type-vertical-tabs ul.m4.vertical-tabs__menu, .form-type-vertical-tabs .m4.vertical-tabs__panes {
         width: 33.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m5 {
+      .row .col.m5, .form-type-vertical-tabs .col.m5, .form-type-vertical-tabs ul.m5.vertical-tabs__menu, .form-type-vertical-tabs .m5.vertical-tabs__panes {
         width: 41.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m6 {
+      .row .col.m6, .form-type-vertical-tabs .col.m6, .form-type-vertical-tabs ul.m6.vertical-tabs__menu, .form-type-vertical-tabs .m6.vertical-tabs__panes {
         width: 50%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m7 {
+      .row .col.m7, .form-type-vertical-tabs .col.m7, .form-type-vertical-tabs ul.m7.vertical-tabs__menu, .form-type-vertical-tabs .m7.vertical-tabs__panes {
         width: 58.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m8 {
+      .row .col.m8, .form-type-vertical-tabs .col.m8, .form-type-vertical-tabs ul.m8.vertical-tabs__menu, .form-type-vertical-tabs .m8.vertical-tabs__panes {
         width: 66.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m9 {
+      .row .col.m9, .form-type-vertical-tabs .col.m9, .form-type-vertical-tabs ul.m9.vertical-tabs__menu, .form-type-vertical-tabs ul.vertical-tabs__menu.vertical-tabs__panes, .row .form-type-vertical-tabs .vertical-tabs__panes, .form-type-vertical-tabs .row .vertical-tabs__panes, .form-type-vertical-tabs .vertical-tabs__panes {
         width: 75%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m10 {
+      .row .col.m10, .form-type-vertical-tabs .col.m10, .form-type-vertical-tabs ul.m10.vertical-tabs__menu, .form-type-vertical-tabs .m10.vertical-tabs__panes {
         width: 83.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m11 {
+      .row .col.m11, .form-type-vertical-tabs .col.m11, .form-type-vertical-tabs ul.m11.vertical-tabs__menu, .form-type-vertical-tabs .m11.vertical-tabs__panes {
         width: 91.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 101, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.m12 {
+      .row .col.m12, .form-type-vertical-tabs .col.m12, .form-type-vertical-tabs ul.m12.vertical-tabs__menu, .form-type-vertical-tabs .m12.vertical-tabs__panes {
         width: 100%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m1 {
+      .row .col.offset-m1, .form-type-vertical-tabs .col.offset-m1, .form-type-vertical-tabs ul.offset-m1.vertical-tabs__menu, .form-type-vertical-tabs .offset-m1.vertical-tabs__panes {
         margin-left: 8.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m1 {
+      .row .col.pull-m1, .form-type-vertical-tabs .col.pull-m1, .form-type-vertical-tabs ul.pull-m1.vertical-tabs__menu, .form-type-vertical-tabs .pull-m1.vertical-tabs__panes {
         right: 8.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m1 {
+      .row .col.push-m1, .form-type-vertical-tabs .col.push-m1, .form-type-vertical-tabs ul.push-m1.vertical-tabs__menu, .form-type-vertical-tabs .push-m1.vertical-tabs__panes {
         left: 8.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m2 {
+      .row .col.offset-m2, .form-type-vertical-tabs .col.offset-m2, .form-type-vertical-tabs ul.offset-m2.vertical-tabs__menu, .form-type-vertical-tabs .offset-m2.vertical-tabs__panes {
         margin-left: 16.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m2 {
+      .row .col.pull-m2, .form-type-vertical-tabs .col.pull-m2, .form-type-vertical-tabs ul.pull-m2.vertical-tabs__menu, .form-type-vertical-tabs .pull-m2.vertical-tabs__panes {
         right: 16.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m2 {
+      .row .col.push-m2, .form-type-vertical-tabs .col.push-m2, .form-type-vertical-tabs ul.push-m2.vertical-tabs__menu, .form-type-vertical-tabs .push-m2.vertical-tabs__panes {
         left: 16.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m3 {
+      .row .col.offset-m3, .form-type-vertical-tabs .col.offset-m3, .form-type-vertical-tabs ul.offset-m3.vertical-tabs__menu, .form-type-vertical-tabs .offset-m3.vertical-tabs__panes {
         margin-left: 25%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m3 {
+      .row .col.pull-m3, .form-type-vertical-tabs .col.pull-m3, .form-type-vertical-tabs ul.pull-m3.vertical-tabs__menu, .form-type-vertical-tabs .pull-m3.vertical-tabs__panes {
         right: 25%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m3 {
+      .row .col.push-m3, .form-type-vertical-tabs .col.push-m3, .form-type-vertical-tabs ul.push-m3.vertical-tabs__menu, .form-type-vertical-tabs .push-m3.vertical-tabs__panes {
         left: 25%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m4 {
+      .row .col.offset-m4, .form-type-vertical-tabs .col.offset-m4, .form-type-vertical-tabs ul.offset-m4.vertical-tabs__menu, .form-type-vertical-tabs .offset-m4.vertical-tabs__panes {
         margin-left: 33.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m4 {
+      .row .col.pull-m4, .form-type-vertical-tabs .col.pull-m4, .form-type-vertical-tabs ul.pull-m4.vertical-tabs__menu, .form-type-vertical-tabs .pull-m4.vertical-tabs__panes {
         right: 33.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m4 {
+      .row .col.push-m4, .form-type-vertical-tabs .col.push-m4, .form-type-vertical-tabs ul.push-m4.vertical-tabs__menu, .form-type-vertical-tabs .push-m4.vertical-tabs__panes {
         left: 33.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m5 {
+      .row .col.offset-m5, .form-type-vertical-tabs .col.offset-m5, .form-type-vertical-tabs ul.offset-m5.vertical-tabs__menu, .form-type-vertical-tabs .offset-m5.vertical-tabs__panes {
         margin-left: 41.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m5 {
+      .row .col.pull-m5, .form-type-vertical-tabs .col.pull-m5, .form-type-vertical-tabs ul.pull-m5.vertical-tabs__menu, .form-type-vertical-tabs .pull-m5.vertical-tabs__panes {
         right: 41.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m5 {
+      .row .col.push-m5, .form-type-vertical-tabs .col.push-m5, .form-type-vertical-tabs ul.push-m5.vertical-tabs__menu, .form-type-vertical-tabs .push-m5.vertical-tabs__panes {
         left: 41.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m6 {
+      .row .col.offset-m6, .form-type-vertical-tabs .col.offset-m6, .form-type-vertical-tabs ul.offset-m6.vertical-tabs__menu, .form-type-vertical-tabs .offset-m6.vertical-tabs__panes {
         margin-left: 50%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m6 {
+      .row .col.pull-m6, .form-type-vertical-tabs .col.pull-m6, .form-type-vertical-tabs ul.pull-m6.vertical-tabs__menu, .form-type-vertical-tabs .pull-m6.vertical-tabs__panes {
         right: 50%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m6 {
+      .row .col.push-m6, .form-type-vertical-tabs .col.push-m6, .form-type-vertical-tabs ul.push-m6.vertical-tabs__menu, .form-type-vertical-tabs .push-m6.vertical-tabs__panes {
         left: 50%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m7 {
+      .row .col.offset-m7, .form-type-vertical-tabs .col.offset-m7, .form-type-vertical-tabs ul.offset-m7.vertical-tabs__menu, .form-type-vertical-tabs .offset-m7.vertical-tabs__panes {
         margin-left: 58.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m7 {
+      .row .col.pull-m7, .form-type-vertical-tabs .col.pull-m7, .form-type-vertical-tabs ul.pull-m7.vertical-tabs__menu, .form-type-vertical-tabs .pull-m7.vertical-tabs__panes {
         right: 58.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m7 {
+      .row .col.push-m7, .form-type-vertical-tabs .col.push-m7, .form-type-vertical-tabs ul.push-m7.vertical-tabs__menu, .form-type-vertical-tabs .push-m7.vertical-tabs__panes {
         left: 58.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m8 {
+      .row .col.offset-m8, .form-type-vertical-tabs .col.offset-m8, .form-type-vertical-tabs ul.offset-m8.vertical-tabs__menu, .form-type-vertical-tabs .offset-m8.vertical-tabs__panes {
         margin-left: 66.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m8 {
+      .row .col.pull-m8, .form-type-vertical-tabs .col.pull-m8, .form-type-vertical-tabs ul.pull-m8.vertical-tabs__menu, .form-type-vertical-tabs .pull-m8.vertical-tabs__panes {
         right: 66.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m8 {
+      .row .col.push-m8, .form-type-vertical-tabs .col.push-m8, .form-type-vertical-tabs ul.push-m8.vertical-tabs__menu, .form-type-vertical-tabs .push-m8.vertical-tabs__panes {
         left: 66.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m9 {
+      .row .col.offset-m9, .form-type-vertical-tabs .col.offset-m9, .form-type-vertical-tabs ul.offset-m9.vertical-tabs__menu, .form-type-vertical-tabs .offset-m9.vertical-tabs__panes {
         margin-left: 75%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m9 {
+      .row .col.pull-m9, .form-type-vertical-tabs .col.pull-m9, .form-type-vertical-tabs ul.pull-m9.vertical-tabs__menu, .form-type-vertical-tabs .pull-m9.vertical-tabs__panes {
         right: 75%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m9 {
+      .row .col.push-m9, .form-type-vertical-tabs .col.push-m9, .form-type-vertical-tabs ul.push-m9.vertical-tabs__menu, .form-type-vertical-tabs .push-m9.vertical-tabs__panes {
         left: 75%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m10 {
+      .row .col.offset-m10, .form-type-vertical-tabs .col.offset-m10, .form-type-vertical-tabs ul.offset-m10.vertical-tabs__menu, .form-type-vertical-tabs .offset-m10.vertical-tabs__panes {
         margin-left: 83.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m10 {
+      .row .col.pull-m10, .form-type-vertical-tabs .col.pull-m10, .form-type-vertical-tabs ul.pull-m10.vertical-tabs__menu, .form-type-vertical-tabs .pull-m10.vertical-tabs__panes {
         right: 83.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m10 {
+      .row .col.push-m10, .form-type-vertical-tabs .col.push-m10, .form-type-vertical-tabs ul.push-m10.vertical-tabs__menu, .form-type-vertical-tabs .push-m10.vertical-tabs__panes {
         left: 83.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m11 {
+      .row .col.offset-m11, .form-type-vertical-tabs .col.offset-m11, .form-type-vertical-tabs ul.offset-m11.vertical-tabs__menu, .form-type-vertical-tabs .offset-m11.vertical-tabs__panes {
         margin-left: 91.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m11 {
+      .row .col.pull-m11, .form-type-vertical-tabs .col.pull-m11, .form-type-vertical-tabs ul.pull-m11.vertical-tabs__menu, .form-type-vertical-tabs .pull-m11.vertical-tabs__panes {
         right: 91.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m11 {
+      .row .col.push-m11, .form-type-vertical-tabs .col.push-m11, .form-type-vertical-tabs ul.push-m11.vertical-tabs__menu, .form-type-vertical-tabs .push-m11.vertical-tabs__panes {
         left: 91.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-m12 {
+      .row .col.offset-m12, .form-type-vertical-tabs .col.offset-m12, .form-type-vertical-tabs ul.offset-m12.vertical-tabs__menu, .form-type-vertical-tabs .offset-m12.vertical-tabs__panes {
         margin-left: 100%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-m12 {
+      .row .col.pull-m12, .form-type-vertical-tabs .col.pull-m12, .form-type-vertical-tabs ul.pull-m12.vertical-tabs__menu, .form-type-vertical-tabs .pull-m12.vertical-tabs__panes {
         right: 100%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-m12 {
+      .row .col.push-m12, .form-type-vertical-tabs .col.push-m12, .form-type-vertical-tabs ul.push-m12.vertical-tabs__menu, .form-type-vertical-tabs .push-m12.vertical-tabs__panes {
         left: 100%; } }
     @media only screen and (min-width: 993px) {
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l1 {
+      .row .col.l1, .form-type-vertical-tabs .col.l1, .form-type-vertical-tabs ul.l1.vertical-tabs__menu, .form-type-vertical-tabs .l1.vertical-tabs__panes {
         width: 8.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l2 {
+      .row .col.l2, .form-type-vertical-tabs .col.l2, .form-type-vertical-tabs ul.l2.vertical-tabs__menu, .form-type-vertical-tabs .l2.vertical-tabs__panes {
         width: 16.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l3 {
+      .row .col.l3, .form-type-vertical-tabs .col.l3, .form-type-vertical-tabs ul.l3.vertical-tabs__menu, .form-type-vertical-tabs .l3.vertical-tabs__panes {
         width: 25%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l4 {
+      .row .col.l4, .form-type-vertical-tabs .col.l4, .form-type-vertical-tabs ul.l4.vertical-tabs__menu, .form-type-vertical-tabs .l4.vertical-tabs__panes {
         width: 33.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l5 {
+      .row .col.l5, .form-type-vertical-tabs .col.l5, .form-type-vertical-tabs ul.l5.vertical-tabs__menu, .form-type-vertical-tabs .l5.vertical-tabs__panes {
         width: 41.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l6 {
+      .row .col.l6, .form-type-vertical-tabs .col.l6, .form-type-vertical-tabs ul.l6.vertical-tabs__menu, .form-type-vertical-tabs .l6.vertical-tabs__panes {
         width: 50%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l7 {
+      .row .col.l7, .form-type-vertical-tabs .col.l7, .form-type-vertical-tabs ul.l7.vertical-tabs__menu, .form-type-vertical-tabs .l7.vertical-tabs__panes {
         width: 58.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l8 {
+      .row .col.l8, .form-type-vertical-tabs .col.l8, .form-type-vertical-tabs ul.l8.vertical-tabs__menu, .form-type-vertical-tabs .l8.vertical-tabs__panes {
         width: 66.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l9 {
+      .row .col.l9, .form-type-vertical-tabs .col.l9, .form-type-vertical-tabs ul.l9.vertical-tabs__menu, .form-type-vertical-tabs .l9.vertical-tabs__panes {
         width: 75%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l10 {
+      .row .col.l10, .form-type-vertical-tabs .col.l10, .form-type-vertical-tabs ul.l10.vertical-tabs__menu, .form-type-vertical-tabs .l10.vertical-tabs__panes {
         width: 83.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l11 {
+      .row .col.l11, .form-type-vertical-tabs .col.l11, .form-type-vertical-tabs ul.l11.vertical-tabs__menu, .form-type-vertical-tabs .l11.vertical-tabs__panes {
         width: 91.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 121, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.l12 {
+      .row .col.l12, .form-type-vertical-tabs .col.l12, .form-type-vertical-tabs ul.l12.vertical-tabs__menu, .form-type-vertical-tabs .l12.vertical-tabs__panes {
         width: 100%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l1 {
+      .row .col.offset-l1, .form-type-vertical-tabs .col.offset-l1, .form-type-vertical-tabs ul.offset-l1.vertical-tabs__menu, .form-type-vertical-tabs .offset-l1.vertical-tabs__panes {
         margin-left: 8.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l1 {
+      .row .col.pull-l1, .form-type-vertical-tabs .col.pull-l1, .form-type-vertical-tabs ul.pull-l1.vertical-tabs__menu, .form-type-vertical-tabs .pull-l1.vertical-tabs__panes {
         right: 8.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l1 {
+      .row .col.push-l1, .form-type-vertical-tabs .col.push-l1, .form-type-vertical-tabs ul.push-l1.vertical-tabs__menu, .form-type-vertical-tabs .push-l1.vertical-tabs__panes {
         left: 8.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l2 {
+      .row .col.offset-l2, .form-type-vertical-tabs .col.offset-l2, .form-type-vertical-tabs ul.offset-l2.vertical-tabs__menu, .form-type-vertical-tabs .offset-l2.vertical-tabs__panes {
         margin-left: 16.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l2 {
+      .row .col.pull-l2, .form-type-vertical-tabs .col.pull-l2, .form-type-vertical-tabs ul.pull-l2.vertical-tabs__menu, .form-type-vertical-tabs .pull-l2.vertical-tabs__panes {
         right: 16.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l2 {
+      .row .col.push-l2, .form-type-vertical-tabs .col.push-l2, .form-type-vertical-tabs ul.push-l2.vertical-tabs__menu, .form-type-vertical-tabs .push-l2.vertical-tabs__panes {
         left: 16.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l3 {
+      .row .col.offset-l3, .form-type-vertical-tabs .col.offset-l3, .form-type-vertical-tabs ul.offset-l3.vertical-tabs__menu, .form-type-vertical-tabs .offset-l3.vertical-tabs__panes {
         margin-left: 25%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l3 {
+      .row .col.pull-l3, .form-type-vertical-tabs .col.pull-l3, .form-type-vertical-tabs ul.pull-l3.vertical-tabs__menu, .form-type-vertical-tabs .pull-l3.vertical-tabs__panes {
         right: 25%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l3 {
+      .row .col.push-l3, .form-type-vertical-tabs .col.push-l3, .form-type-vertical-tabs ul.push-l3.vertical-tabs__menu, .form-type-vertical-tabs .push-l3.vertical-tabs__panes {
         left: 25%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l4 {
+      .row .col.offset-l4, .form-type-vertical-tabs .col.offset-l4, .form-type-vertical-tabs ul.offset-l4.vertical-tabs__menu, .form-type-vertical-tabs .offset-l4.vertical-tabs__panes {
         margin-left: 33.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l4 {
+      .row .col.pull-l4, .form-type-vertical-tabs .col.pull-l4, .form-type-vertical-tabs ul.pull-l4.vertical-tabs__menu, .form-type-vertical-tabs .pull-l4.vertical-tabs__panes {
         right: 33.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l4 {
+      .row .col.push-l4, .form-type-vertical-tabs .col.push-l4, .form-type-vertical-tabs ul.push-l4.vertical-tabs__menu, .form-type-vertical-tabs .push-l4.vertical-tabs__panes {
         left: 33.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l5 {
+      .row .col.offset-l5, .form-type-vertical-tabs .col.offset-l5, .form-type-vertical-tabs ul.offset-l5.vertical-tabs__menu, .form-type-vertical-tabs .offset-l5.vertical-tabs__panes {
         margin-left: 41.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l5 {
+      .row .col.pull-l5, .form-type-vertical-tabs .col.pull-l5, .form-type-vertical-tabs ul.pull-l5.vertical-tabs__menu, .form-type-vertical-tabs .pull-l5.vertical-tabs__panes {
         right: 41.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l5 {
+      .row .col.push-l5, .form-type-vertical-tabs .col.push-l5, .form-type-vertical-tabs ul.push-l5.vertical-tabs__menu, .form-type-vertical-tabs .push-l5.vertical-tabs__panes {
         left: 41.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l6 {
+      .row .col.offset-l6, .form-type-vertical-tabs .col.offset-l6, .form-type-vertical-tabs ul.offset-l6.vertical-tabs__menu, .form-type-vertical-tabs .offset-l6.vertical-tabs__panes {
         margin-left: 50%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l6 {
+      .row .col.pull-l6, .form-type-vertical-tabs .col.pull-l6, .form-type-vertical-tabs ul.pull-l6.vertical-tabs__menu, .form-type-vertical-tabs .pull-l6.vertical-tabs__panes {
         right: 50%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l6 {
+      .row .col.push-l6, .form-type-vertical-tabs .col.push-l6, .form-type-vertical-tabs ul.push-l6.vertical-tabs__menu, .form-type-vertical-tabs .push-l6.vertical-tabs__panes {
         left: 50%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l7 {
+      .row .col.offset-l7, .form-type-vertical-tabs .col.offset-l7, .form-type-vertical-tabs ul.offset-l7.vertical-tabs__menu, .form-type-vertical-tabs .offset-l7.vertical-tabs__panes {
         margin-left: 58.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l7 {
+      .row .col.pull-l7, .form-type-vertical-tabs .col.pull-l7, .form-type-vertical-tabs ul.pull-l7.vertical-tabs__menu, .form-type-vertical-tabs .pull-l7.vertical-tabs__panes {
         right: 58.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l7 {
+      .row .col.push-l7, .form-type-vertical-tabs .col.push-l7, .form-type-vertical-tabs ul.push-l7.vertical-tabs__menu, .form-type-vertical-tabs .push-l7.vertical-tabs__panes {
         left: 58.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l8 {
+      .row .col.offset-l8, .form-type-vertical-tabs .col.offset-l8, .form-type-vertical-tabs ul.offset-l8.vertical-tabs__menu, .form-type-vertical-tabs .offset-l8.vertical-tabs__panes {
         margin-left: 66.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l8 {
+      .row .col.pull-l8, .form-type-vertical-tabs .col.pull-l8, .form-type-vertical-tabs ul.pull-l8.vertical-tabs__menu, .form-type-vertical-tabs .pull-l8.vertical-tabs__panes {
         right: 66.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l8 {
+      .row .col.push-l8, .form-type-vertical-tabs .col.push-l8, .form-type-vertical-tabs ul.push-l8.vertical-tabs__menu, .form-type-vertical-tabs .push-l8.vertical-tabs__panes {
         left: 66.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l9 {
+      .row .col.offset-l9, .form-type-vertical-tabs .col.offset-l9, .form-type-vertical-tabs ul.offset-l9.vertical-tabs__menu, .form-type-vertical-tabs .offset-l9.vertical-tabs__panes {
         margin-left: 75%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l9 {
+      .row .col.pull-l9, .form-type-vertical-tabs .col.pull-l9, .form-type-vertical-tabs ul.pull-l9.vertical-tabs__menu, .form-type-vertical-tabs .pull-l9.vertical-tabs__panes {
         right: 75%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l9 {
+      .row .col.push-l9, .form-type-vertical-tabs .col.push-l9, .form-type-vertical-tabs ul.push-l9.vertical-tabs__menu, .form-type-vertical-tabs .push-l9.vertical-tabs__panes {
         left: 75%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l10 {
+      .row .col.offset-l10, .form-type-vertical-tabs .col.offset-l10, .form-type-vertical-tabs ul.offset-l10.vertical-tabs__menu, .form-type-vertical-tabs .offset-l10.vertical-tabs__panes {
         margin-left: 83.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l10 {
+      .row .col.pull-l10, .form-type-vertical-tabs .col.pull-l10, .form-type-vertical-tabs ul.pull-l10.vertical-tabs__menu, .form-type-vertical-tabs .pull-l10.vertical-tabs__panes {
         right: 83.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l10 {
+      .row .col.push-l10, .form-type-vertical-tabs .col.push-l10, .form-type-vertical-tabs ul.push-l10.vertical-tabs__menu, .form-type-vertical-tabs .push-l10.vertical-tabs__panes {
         left: 83.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l11 {
+      .row .col.offset-l11, .form-type-vertical-tabs .col.offset-l11, .form-type-vertical-tabs ul.offset-l11.vertical-tabs__menu, .form-type-vertical-tabs .offset-l11.vertical-tabs__panes {
         margin-left: 91.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l11 {
+      .row .col.pull-l11, .form-type-vertical-tabs .col.pull-l11, .form-type-vertical-tabs ul.pull-l11.vertical-tabs__menu, .form-type-vertical-tabs .pull-l11.vertical-tabs__panes {
         right: 91.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l11 {
+      .row .col.push-l11, .form-type-vertical-tabs .col.push-l11, .form-type-vertical-tabs ul.push-l11.vertical-tabs__menu, .form-type-vertical-tabs .push-l11.vertical-tabs__panes {
         left: 91.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-l12 {
+      .row .col.offset-l12, .form-type-vertical-tabs .col.offset-l12, .form-type-vertical-tabs ul.offset-l12.vertical-tabs__menu, .form-type-vertical-tabs .offset-l12.vertical-tabs__panes {
         margin-left: 100%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-l12 {
+      .row .col.pull-l12, .form-type-vertical-tabs .col.pull-l12, .form-type-vertical-tabs ul.pull-l12.vertical-tabs__menu, .form-type-vertical-tabs .pull-l12.vertical-tabs__panes {
         right: 100%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-l12 {
+      .row .col.push-l12, .form-type-vertical-tabs .col.push-l12, .form-type-vertical-tabs ul.push-l12.vertical-tabs__menu, .form-type-vertical-tabs .push-l12.vertical-tabs__panes {
         left: 100%; } }
     @media only screen and (min-width: 1201px) {
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl1 {
+      .row .col.xl1, .form-type-vertical-tabs .col.xl1, .form-type-vertical-tabs ul.xl1.vertical-tabs__menu, .form-type-vertical-tabs .xl1.vertical-tabs__panes {
         width: 8.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl2 {
+      .row .col.xl2, .form-type-vertical-tabs .col.xl2, .form-type-vertical-tabs ul.xl2.vertical-tabs__menu, .form-type-vertical-tabs .xl2.vertical-tabs__panes {
         width: 16.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl3 {
+      .row .col.xl3, .form-type-vertical-tabs .col.xl3, .form-type-vertical-tabs ul.xl3.vertical-tabs__menu, .form-type-vertical-tabs .xl3.vertical-tabs__panes {
         width: 25%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl4 {
+      .row .col.xl4, .form-type-vertical-tabs .col.xl4, .form-type-vertical-tabs ul.xl4.vertical-tabs__menu, .form-type-vertical-tabs .xl4.vertical-tabs__panes {
         width: 33.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl5 {
+      .row .col.xl5, .form-type-vertical-tabs .col.xl5, .form-type-vertical-tabs ul.xl5.vertical-tabs__menu, .form-type-vertical-tabs .xl5.vertical-tabs__panes {
         width: 41.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl6 {
+      .row .col.xl6, .form-type-vertical-tabs .col.xl6, .form-type-vertical-tabs ul.xl6.vertical-tabs__menu, .form-type-vertical-tabs .xl6.vertical-tabs__panes {
         width: 50%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl7 {
+      .row .col.xl7, .form-type-vertical-tabs .col.xl7, .form-type-vertical-tabs ul.xl7.vertical-tabs__menu, .form-type-vertical-tabs .xl7.vertical-tabs__panes {
         width: 58.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl8 {
+      .row .col.xl8, .form-type-vertical-tabs .col.xl8, .form-type-vertical-tabs ul.xl8.vertical-tabs__menu, .form-type-vertical-tabs .xl8.vertical-tabs__panes {
         width: 66.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl9 {
+      .row .col.xl9, .form-type-vertical-tabs .col.xl9, .form-type-vertical-tabs ul.xl9.vertical-tabs__menu, .form-type-vertical-tabs .xl9.vertical-tabs__panes {
         width: 75%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl10 {
+      .row .col.xl10, .form-type-vertical-tabs .col.xl10, .form-type-vertical-tabs ul.xl10.vertical-tabs__menu, .form-type-vertical-tabs .xl10.vertical-tabs__panes {
         width: 83.33333%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl11 {
+      .row .col.xl11, .form-type-vertical-tabs .col.xl11, .form-type-vertical-tabs ul.xl11.vertical-tabs__menu, .form-type-vertical-tabs .xl11.vertical-tabs__panes {
         width: 91.66667%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 141, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.xl12 {
+      .row .col.xl12, .form-type-vertical-tabs .col.xl12, .form-type-vertical-tabs ul.xl12.vertical-tabs__menu, .form-type-vertical-tabs .xl12.vertical-tabs__panes {
         width: 100%;
         margin-left: auto;
         left: auto;
         right: auto; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl1 {
+      .row .col.offset-xl1, .form-type-vertical-tabs .col.offset-xl1, .form-type-vertical-tabs ul.offset-xl1.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl1.vertical-tabs__panes {
         margin-left: 8.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl1 {
+      .row .col.pull-xl1, .form-type-vertical-tabs .col.pull-xl1, .form-type-vertical-tabs ul.pull-xl1.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl1.vertical-tabs__panes {
         right: 8.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl1 {
+      .row .col.push-xl1, .form-type-vertical-tabs .col.push-xl1, .form-type-vertical-tabs ul.push-xl1.vertical-tabs__menu, .form-type-vertical-tabs .push-xl1.vertical-tabs__panes {
         left: 8.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl2 {
+      .row .col.offset-xl2, .form-type-vertical-tabs .col.offset-xl2, .form-type-vertical-tabs ul.offset-xl2.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl2.vertical-tabs__panes {
         margin-left: 16.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl2 {
+      .row .col.pull-xl2, .form-type-vertical-tabs .col.pull-xl2, .form-type-vertical-tabs ul.pull-xl2.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl2.vertical-tabs__panes {
         right: 16.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl2 {
+      .row .col.push-xl2, .form-type-vertical-tabs .col.push-xl2, .form-type-vertical-tabs ul.push-xl2.vertical-tabs__menu, .form-type-vertical-tabs .push-xl2.vertical-tabs__panes {
         left: 16.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl3 {
+      .row .col.offset-xl3, .form-type-vertical-tabs .col.offset-xl3, .form-type-vertical-tabs ul.offset-xl3.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl3.vertical-tabs__panes {
         margin-left: 25%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl3 {
+      .row .col.pull-xl3, .form-type-vertical-tabs .col.pull-xl3, .form-type-vertical-tabs ul.pull-xl3.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl3.vertical-tabs__panes {
         right: 25%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl3 {
+      .row .col.push-xl3, .form-type-vertical-tabs .col.push-xl3, .form-type-vertical-tabs ul.push-xl3.vertical-tabs__menu, .form-type-vertical-tabs .push-xl3.vertical-tabs__panes {
         left: 25%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl4 {
+      .row .col.offset-xl4, .form-type-vertical-tabs .col.offset-xl4, .form-type-vertical-tabs ul.offset-xl4.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl4.vertical-tabs__panes {
         margin-left: 33.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl4 {
+      .row .col.pull-xl4, .form-type-vertical-tabs .col.pull-xl4, .form-type-vertical-tabs ul.pull-xl4.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl4.vertical-tabs__panes {
         right: 33.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl4 {
+      .row .col.push-xl4, .form-type-vertical-tabs .col.push-xl4, .form-type-vertical-tabs ul.push-xl4.vertical-tabs__menu, .form-type-vertical-tabs .push-xl4.vertical-tabs__panes {
         left: 33.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl5 {
+      .row .col.offset-xl5, .form-type-vertical-tabs .col.offset-xl5, .form-type-vertical-tabs ul.offset-xl5.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl5.vertical-tabs__panes {
         margin-left: 41.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl5 {
+      .row .col.pull-xl5, .form-type-vertical-tabs .col.pull-xl5, .form-type-vertical-tabs ul.pull-xl5.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl5.vertical-tabs__panes {
         right: 41.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl5 {
+      .row .col.push-xl5, .form-type-vertical-tabs .col.push-xl5, .form-type-vertical-tabs ul.push-xl5.vertical-tabs__menu, .form-type-vertical-tabs .push-xl5.vertical-tabs__panes {
         left: 41.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl6 {
+      .row .col.offset-xl6, .form-type-vertical-tabs .col.offset-xl6, .form-type-vertical-tabs ul.offset-xl6.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl6.vertical-tabs__panes {
         margin-left: 50%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl6 {
+      .row .col.pull-xl6, .form-type-vertical-tabs .col.pull-xl6, .form-type-vertical-tabs ul.pull-xl6.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl6.vertical-tabs__panes {
         right: 50%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl6 {
+      .row .col.push-xl6, .form-type-vertical-tabs .col.push-xl6, .form-type-vertical-tabs ul.push-xl6.vertical-tabs__menu, .form-type-vertical-tabs .push-xl6.vertical-tabs__panes {
         left: 50%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl7 {
+      .row .col.offset-xl7, .form-type-vertical-tabs .col.offset-xl7, .form-type-vertical-tabs ul.offset-xl7.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl7.vertical-tabs__panes {
         margin-left: 58.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl7 {
+      .row .col.pull-xl7, .form-type-vertical-tabs .col.pull-xl7, .form-type-vertical-tabs ul.pull-xl7.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl7.vertical-tabs__panes {
         right: 58.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl7 {
+      .row .col.push-xl7, .form-type-vertical-tabs .col.push-xl7, .form-type-vertical-tabs ul.push-xl7.vertical-tabs__menu, .form-type-vertical-tabs .push-xl7.vertical-tabs__panes {
         left: 58.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl8 {
+      .row .col.offset-xl8, .form-type-vertical-tabs .col.offset-xl8, .form-type-vertical-tabs ul.offset-xl8.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl8.vertical-tabs__panes {
         margin-left: 66.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl8 {
+      .row .col.pull-xl8, .form-type-vertical-tabs .col.pull-xl8, .form-type-vertical-tabs ul.pull-xl8.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl8.vertical-tabs__panes {
         right: 66.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl8 {
+      .row .col.push-xl8, .form-type-vertical-tabs .col.push-xl8, .form-type-vertical-tabs ul.push-xl8.vertical-tabs__menu, .form-type-vertical-tabs .push-xl8.vertical-tabs__panes {
         left: 66.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl9 {
+      .row .col.offset-xl9, .form-type-vertical-tabs .col.offset-xl9, .form-type-vertical-tabs ul.offset-xl9.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl9.vertical-tabs__panes {
         margin-left: 75%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl9 {
+      .row .col.pull-xl9, .form-type-vertical-tabs .col.pull-xl9, .form-type-vertical-tabs ul.pull-xl9.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl9.vertical-tabs__panes {
         right: 75%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl9 {
+      .row .col.push-xl9, .form-type-vertical-tabs .col.push-xl9, .form-type-vertical-tabs ul.push-xl9.vertical-tabs__menu, .form-type-vertical-tabs .push-xl9.vertical-tabs__panes {
         left: 75%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl10 {
+      .row .col.offset-xl10, .form-type-vertical-tabs .col.offset-xl10, .form-type-vertical-tabs ul.offset-xl10.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl10.vertical-tabs__panes {
         margin-left: 83.33333%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl10 {
+      .row .col.pull-xl10, .form-type-vertical-tabs .col.pull-xl10, .form-type-vertical-tabs ul.pull-xl10.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl10.vertical-tabs__panes {
         right: 83.33333%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl10 {
+      .row .col.push-xl10, .form-type-vertical-tabs .col.push-xl10, .form-type-vertical-tabs ul.push-xl10.vertical-tabs__menu, .form-type-vertical-tabs .push-xl10.vertical-tabs__panes {
         left: 83.33333%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl11 {
+      .row .col.offset-xl11, .form-type-vertical-tabs .col.offset-xl11, .form-type-vertical-tabs ul.offset-xl11.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl11.vertical-tabs__panes {
         margin-left: 91.66667%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl11 {
+      .row .col.pull-xl11, .form-type-vertical-tabs .col.pull-xl11, .form-type-vertical-tabs ul.pull-xl11.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl11.vertical-tabs__panes {
         right: 91.66667%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl11 {
+      .row .col.push-xl11, .form-type-vertical-tabs .col.push-xl11, .form-type-vertical-tabs ul.push-xl11.vertical-tabs__menu, .form-type-vertical-tabs .push-xl11.vertical-tabs__panes {
         left: 91.66667%; }
       /* line 44, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.offset-xl12 {
+      .row .col.offset-xl12, .form-type-vertical-tabs .col.offset-xl12, .form-type-vertical-tabs ul.offset-xl12.vertical-tabs__menu, .form-type-vertical-tabs .offset-xl12.vertical-tabs__panes {
         margin-left: 100%; }
       /* line 47, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.pull-xl12 {
+      .row .col.pull-xl12, .form-type-vertical-tabs .col.pull-xl12, .form-type-vertical-tabs ul.pull-xl12.vertical-tabs__menu, .form-type-vertical-tabs .pull-xl12.vertical-tabs__panes {
         right: 100%; }
       /* line 50, node_modules/materialize-css/sass/components/_grid.scss */
-      .row .col.push-xl12 {
+      .row .col.push-xl12, .form-type-vertical-tabs .col.push-xl12, .form-type-vertical-tabs ul.push-xl12.vertical-tabs__menu, .form-type-vertical-tabs .push-xl12.vertical-tabs__panes {
         left: 100%; } }
 
 /* line 1, node_modules/materialize-css/sass/components/_collapsible.scss */
@@ -4994,11 +4994,11 @@ textarea.materialize-textarea {
     .input-field.inline .select-dropdown {
       margin-bottom: 1rem; }
   /* line 140, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
-  .input-field.col label {
+  .input-field.col label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu label, .form-type-vertical-tabs .input-field.vertical-tabs__panes label {
     left: 0.75rem; }
   /* line 144, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
-  .input-field.col .prefix ~ label,
-  .input-field.col .prefix ~ .validate ~ label {
+  .input-field.col .prefix ~ label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu .prefix ~ label, .form-type-vertical-tabs .input-field.vertical-tabs__panes .prefix ~ label,
+  .input-field.col .prefix ~ .validate ~ label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu .prefix ~ .validate ~ label, .form-type-vertical-tabs .input-field.vertical-tabs__panes .prefix ~ .validate ~ label {
     width: calc(100% - 3rem - 1.5rem); }
   /* line 153, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field label {
@@ -5832,7 +5832,7 @@ input[type=range]:focus::-ms-fill-upper {
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
 /* line 12, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button {
+.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -5846,7 +5846,7 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 1;
   transition: .3s ease-out; }
   /* line 23, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
+  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -5861,35 +5861,35 @@ input[type=range]:focus::-ms-fill-upper {
         transform: scale(0);
     pointer-events: none; }
   /* line 40, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple {
+  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-light .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.button-link .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .tabledrag-toggle-weight-wrapper a.tabledrag-toggle-weight .waves-ripple, .tabledrag-toggle-weight-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.tabledrag-toggle-weight .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .compact-link a .waves-ripple, .compact-link .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
   /* line 43, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple {
+  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-red .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
   /* line 46, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-yellow .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
   /* line 49, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple {
+  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-orange .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
   /* line 52, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple {
+  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-purple .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
   /* line 55, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple {
+  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
   /* line 58, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple {
+  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-teal .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
   /* line 63, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"] {
+  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
   /* line 71, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img {
+  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a img {
     position: relative;
     z-index: -1; }
 
@@ -5928,7 +5928,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* Firefox Bug: link not triggered */
 /* line 112, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
+.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
   z-index: -1; }
 
 /* line 1, node_modules/materialize-css/sass/components/_dropdown.scss */
@@ -5984,7 +5984,7 @@ input[type=range]:focus::-ms-fill-upper {
       width: 24px; }
 
 /* line 63, node_modules/materialize-css/sass/components/_dropdown.scss */
-.input-field.col .dropdown-content [type="checkbox"] + label {
+.input-field.col .dropdown-content [type="checkbox"] + label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu .dropdown-content [type="checkbox"] + label, .form-type-vertical-tabs .input-field.vertical-tabs__panes .dropdown-content [type="checkbox"] + label {
   top: 1px;
   left: 0;
   height: 18px; }
@@ -6332,6 +6332,19 @@ input[type=range]:focus::-ms-fill-upper {
     .card .card-reveal .card-title {
       cursor: pointer;
       display: block; }
+
+/* line 2, node_modules/materialize-css/sass/components/_transitions.scss */
+.scale-transition {
+  transition: transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important; }
+  /* line 3, node_modules/materialize-css/sass/components/_transitions.scss */
+  .scale-transition.scale-out {
+    -ms-transform: scale(0);
+        transform: scale(0);
+    transition: transform .2s !important; }
+  /* line 8, node_modules/materialize-css/sass/components/_transitions.scss */
+  .scale-transition.scale-in {
+    -ms-transform: scale(1);
+        transform: scale(1); }
 
 /* ==========================================================================
    $BASE-PICKER
@@ -10245,16 +10258,16 @@ td, th {
 
 @media only screen and (min-width: 601px) {
   /* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-  main .row {
+  main .row, main .form-type-vertical-tabs {
     margin: 0 10px; } }
 
 /* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.row {
+.row, .form-type-vertical-tabs {
   padding: 20px;
   margin: 0; }
 
 /* line 119, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.region-status .row {
+.region-status .row, .region-status .form-type-vertical-tabs {
   padding: 0; }
 
 /* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
@@ -10553,7 +10566,7 @@ header.header-wrapper h1 {
   font-weight: 400; }
 
 /* line 18, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-header.header-wrapper .row {
+header.header-wrapper .row, header.header-wrapper .form-type-vertical-tabs {
   padding-bottom: 0px; }
 
 /* line 27, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
@@ -10600,175 +10613,176 @@ header.header-wrapper .row {
 .message-trigger span.badge {
   min-width: inherit;
   margin-left: 5px;
+  padding: 0 5px;
   display: none;
   border-radius: 50%;
   font-size: 0.9rem; }
 
-/* line 119, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 120, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 a.modal-trigger {
   transition: color .3s ease;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
   color: #0a0a0a; }
-  /* line 125, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 126, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   a.modal-trigger:hover {
     color: #666; }
 
-/* line 130, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 131, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabs {
   background: inherit; }
-  /* line 133, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 134, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .tabs a:hover {
     text-decoration: none; }
 
-/* line 139, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 140, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #notification-wrapper {
   display: none; }
 
-/* line 144, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 145, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .modal-content .notification-title {
   border-bottom: 1px solid #666;
   padding-bottom: 10px;
   font-size: 1.7rem; }
 
-/* line 150, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 151, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .region-header {
   display: block; }
 
-/* line 156, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 157, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol {
   padding: .5em;
   margin: 0; }
-  /* line 159, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 160, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li {
     font-size: 18px;
     display: inline-block;
     list-style: none;
     padding: 0; }
-    /* line 168, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 169, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol li:before {
       content: "";
       font-size: 25px;
       margin: -5px 10px 0 8px;
       -webkit-font-smoothing: antialiased; }
-    /* line 176, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 177, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol li:first-child:before {
       display: none; }
 
-/* line 186, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 187, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
   background-color: transparent !important; }
 
-/* line 190, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 191, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table.highlight > tbody > tr:hover {
   color: #0a0a0a; }
-  /* line 193, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 194, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   table.highlight > tbody > tr:hover a, table.highlight > tbody > tr:hover button {
     cursor: pointer; }
 
-/* line 201, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 202, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table.highlight > tbody > tr.selected a {
   text-decoration: underline; }
 
-/* line 205, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 206, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table.highlight > tbody > tr.selected a.dropdown-button {
   text-decoration: none; }
 
-/* line 211, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 212, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table.highlight > tbody > tr.selected .dropbutton-widget li a {
   text-decoration: none; }
 
-/* line 221, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 222, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .pager__item {
   padding: 0; }
 
-/* line 225, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 226, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .pagination li {
   height: auto; }
 
-/* line 229, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 230, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 td.is-active {
   background-color: transparent; }
 
-/* line 233, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 234, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection-item {
   text-decoration: none; }
-  /* line 235, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 236, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item i.fa {
     padding-right: 10px; }
-  /* line 238, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 239, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item:hover {
     text-decoration: none; }
-  /* line 241, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 242, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item:hover .collection-item-description {
     text-decoration: none;
     color: #333; }
-  /* line 245, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 246, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item .collection-item-description {
     text-decoration: none;
     color: #666;
     font-size: 12px;
     margin-left: 20px; }
-    /* line 250, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 251, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection-item .collection-item-description:hover {
       text-decoration: none;
       color: #333; }
 
-/* line 257, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 258, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection.with-header > .collection {
   border: none; }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 262, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table {
   margin: 20px 0; }
   @media only screen and (max-width: 992px) {
-    /* line 265, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 266, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     table.responsive-table th {
       width: 100%; } }
 
-/* line 282, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 283, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropbutton-wrapper {
   display: inline-block; }
-  /* line 284, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 285, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .dropbutton-wrapper .single-btn-wrapper {
     list-style: none; }
-    /* line 286, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 287, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .dropbutton-wrapper .single-btn-wrapper a {
       white-space: nowrap; }
 
-/* line 293, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 294, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropbutton-widget {
   padding: 0 5px; }
 
-/* line 297, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 298, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropdown-button {
   display: inline-block; }
-  /* line 299, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 300, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .dropdown-button:hover {
     text-decoration: none; }
-  /* line 303, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 304, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .dropdown-button:after {
     margin-left: 10px;
     content: "";
     display: inline; }
-  /* line 309, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 310, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .dropdown-button.active:after {
     margin-left: 10px;
     content: "";
     display: inline; }
 
-/* line 320, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 321, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropdown-content li .button {
   background: none;
   color: inherit;
   box-shadow: none; }
 
-/* line 340, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 341, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 h2.theme-list-title {
   padding: 2rem; }
 
-/* line 345, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 346, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 span.theme-status-indicator {
   position: absolute;
   top: 0;
@@ -10777,79 +10791,79 @@ span.theme-status-indicator {
   padding: 5px 10px;
   z-index: 2; }
 
-/* line 357, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 358, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before {
   content: "";
   padding-right: 5px; }
 
-/* line 363, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 364, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
   content: ""; }
 
-/* line 369, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 370, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-body {
   padding: 15px; }
 
-/* line 375, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 376, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #block-material-admin-page-title h1.page-title em {
   text-transform: uppercase;
   font-size: .7em;
   font-style: normal;
   vertical-align: text-bottom; }
-  /* line 381, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 382, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   #block-material-admin-page-title h1.page-title em:after {
     content: "";
     padding-left: 10px;
     font-size: .5em; }
 
-/* line 391, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 392, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table .region-title {
   font-weight: normal; }
 
-/* line 398, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 399, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table td {
   font-weight: 200; }
 
-/* line 402, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 403, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table thead th {
   font-weight: normal; }
 
-/* line 408, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 409, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tablesort.tablesort--asc {
   background-image: none; }
-  /* line 410, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 411, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .tablesort.tablesort--asc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 416, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 417, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tablesort.tablesort--desc {
   background-image: none; }
-  /* line 418, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 419, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .tablesort.tablesort--desc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 426, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 427, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag {
   border-bottom: 1px dashed #666;
   border-top: 1px dashed #666; }
 
-/* line 432, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 433, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
   border-bottom: 2px dashed #f0f4c3;
   border-top: 2px dashed #f0f4c3; }
 
-/* line 438, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 439, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.field-plugin-settings-editing {
   border-bottom: 2px dashed #666;
   border-top: 2px dashed #666; }
 
-/* line 444, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 445, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {
   padding: 10px; }
 
-/* line 448, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 449, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
   /* With less: .text-overflow(); */
   white-space: nowrap;
@@ -10857,11 +10871,11 @@ tr.field-plugin-settings-editing {
   text-overflow: ellipsis;
   display: inline-block; }
 
-/* line 457, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 458, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li:first-child a {
   visibility: hidden;
   max-width: 20px; }
-  /* line 460, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 461, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
@@ -10869,77 +10883,77 @@ tr.field-plugin-settings-editing {
     text-indent: 0;
     visibility: visible; }
 
-/* line 472, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 473, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 477, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 478, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 481, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 482, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 484, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 485, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 491, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 492, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 496, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 497, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 499, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 500, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 506, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 507, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 510, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 511, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 517, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 518, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 520, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 521, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 
-/* line 528, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 529, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection .collection-item > .item-list .collection {
   border: none; }
-  /* line 530, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 531, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection .collection-item > .item-list .collection .collection-item {
     border: none; }
-    /* line 531, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 532, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection .collection-item > .item-list .collection .collection-item:before {
       content: "";
       padding-right: 5px; }
 
-/* line 542, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 543, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection.item-list__comma-list {
   border: none; }
-  /* line 544, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 545, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection.item-list__comma-list .collection-item {
     line-height: 1em;
     border: none;
     padding: inherit; }
 
-/* line 551, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 552, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .sticky-node-actions {
   position: fixed;
   bottom: 0;
@@ -10950,16 +10964,16 @@ tr.field-plugin-settings-editing {
   border-top: 1px solid #ccc;
   z-index: 100; }
 
-/* line 563, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 564, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .admin-requirements.collapsible-body {
   padding: 1em; }
-  /* line 565, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 566, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .admin-prevent-text {
     padding: .5em;
     margin-bottom: .5em;
     display: block;
     font-weight: bold; }
-  /* line 572, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 573, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .item-list li {
     padding: 10px 0; }
 
@@ -11130,5 +11144,59 @@ tr .ajax-progress-throbber .throbber {
 .ui-dialog .ajax-progress-throbber .throbber,
 .ui-dialog .ajax-progress-throbber .message {
   display: none; }
+
+/* @file
+ * Vertical tabs override
+ *
+ */
+/* line 6, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+.form-type-vertical-tabs {
+  height: auto; }
+  /* line 9, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+  .form-type-vertical-tabs > label {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #666;
+    width: 100%;
+    display: block; }
+  /* line 16, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+  .form-type-vertical-tabs ul.vertical-tabs__menu {
+    position: relative;
+    z-index: 2;
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 3px solid #ccc; }
+    /* line 23, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+    .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item {
+      margin: 0em 0 1.5em 0;
+      padding-right: 1em; }
+      /* line 26, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+      .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        /* line 30, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+        .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a span {
+          font-size: .75em;
+          display: block;
+          text-transform: initial; }
+      /* line 39, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+      .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected {
+        border-right: 3px solid #FF5252;
+        margin-right: -3px;
+        z-index: 2; }
+  /* line 49, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+  .form-type-vertical-tabs .vertical-tabs__panes {
+    margin-left: -3px !important;
+    padding-left: 1em;
+    border-left: 3px solid #ccc;
+    transition: max-height 0.66s ease-out;
+    max-height: 100vh; }
+    /* line 57, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+    .form-type-vertical-tabs .vertical-tabs__panes > details {
+      border: none;
+      box-shadow: none; }
+      /* line 60, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+      .form-type-vertical-tabs .vertical-tabs__panes > details > summary {
+        text-transform: uppercase; }
 
 /*# sourceMappingURL=../sass */
