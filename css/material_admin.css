@@ -432,7 +432,7 @@ th {
   color: #f3989b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red.lighten-2, #edit-actions .materialize-red.button--danger, .materialize-red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.materialize-red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.materialize-red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.materialize-red {
+.materialize-red.lighten-2, span.materialize-red.marker, #edit-actions .materialize-red.button--danger, .materialize-red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.materialize-red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.materialize-red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.materialize-red {
   background-color: #ee6e73 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -512,7 +512,7 @@ th {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.red.lighten-2, .lighten-2.color-error, #edit-actions .color-error.button--danger, .color-error.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-error, .lighten-2.error-color, #edit-actions .error-color.button--danger, #edit-actions .node-multiple-delete-confirm input.button--danger.form-submit, .node-multiple-delete-confirm #edit-actions input.button--danger.form-submit, #edit-actions .button--danger.messages--error, #edit-actions .messages--error.messages-clone .button--danger.card-content, .messages--error.messages-clone #edit-actions .button--danger.card-content, #edit-actions .admin-requirements.collapsible-body .button--danger.admin-prevent-text, .admin-requirements.collapsible-body #edit-actions .button--danger.admin-prevent-text, .node-multiple-delete-confirm input.lighten-2.form-submit, .node-multiple-delete-confirm input.form-submit.utility-wrapper, .error-color.utility-wrapper, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .lighten-2.messages--error, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--error, .messages--error.messages-clone .lighten-2.card-content, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--error.messages-clone a.card-content:hover, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--error.messages-clone a.card-content, .messages--error.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--error.messages-clone .vertical-tabs__panes > details > summary.card-content, .admin-requirements.collapsible-body .lighten-2.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.admin-prevent-text:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .admin-requirements.collapsible-body a.admin-prevent-text:hover, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .admin-requirements.collapsible-body a.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs .admin-requirements.collapsible-body .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-color, .lighten-2.button-action, #edit-actions .button-action.button--danger, .button-action.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.button-action:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.button-action, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.button-action, #edit-actions .red.button--danger, .red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.red {
+.red.lighten-2, .lighten-2.color-error, span.color-error.marker, #edit-actions .color-error.button--danger, .color-error.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-error, .lighten-2.error-color, span.error-color.marker, span.marker.messages--error, .messages--error.messages-clone span.marker.card-content, .admin-requirements.collapsible-body span.marker.admin-prevent-text, #edit-actions .error-color.button--danger, #edit-actions .node-multiple-delete-confirm input.button--danger.form-submit, .node-multiple-delete-confirm #edit-actions input.button--danger.form-submit, #edit-actions .button--danger.messages--error, #edit-actions .messages--error.messages-clone .button--danger.card-content, .messages--error.messages-clone #edit-actions .button--danger.card-content, #edit-actions .admin-requirements.collapsible-body .button--danger.admin-prevent-text, .admin-requirements.collapsible-body #edit-actions .button--danger.admin-prevent-text, .node-multiple-delete-confirm input.lighten-2.form-submit, .node-multiple-delete-confirm input.form-submit.utility-wrapper, .error-color.utility-wrapper, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .lighten-2.messages--error, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--error:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--error, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--error, .messages--error.messages-clone .lighten-2.card-content, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--error.messages-clone a.card-content:hover, .messages--error.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--error.messages-clone a.card-content, .messages--error.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--error.messages-clone .vertical-tabs__panes > details > summary.card-content, .admin-requirements.collapsible-body .lighten-2.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.admin-prevent-text:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .admin-requirements.collapsible-body a.admin-prevent-text:hover, .admin-requirements.collapsible-body .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .admin-requirements.collapsible-body a.admin-prevent-text, .admin-requirements.collapsible-body .form-type-vertical-tabs .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs .admin-requirements.collapsible-body .vertical-tabs__panes > details > summary.admin-prevent-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-color, .lighten-2.button-action, span.button-action.marker, #edit-actions .button-action.button--danger, .button-action.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.button-action:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.button-action, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.button-action, span.red.marker, #edit-actions .red.button--danger, .red.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.red:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.red, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.red {
   background-color: #E57373 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -624,7 +624,7 @@ th {
   color: #f48fb1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.pink.lighten-2, #edit-actions .pink.button--danger, .pink.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.pink:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.pink, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.pink {
+.pink.lighten-2, span.pink.marker, #edit-actions .pink.button--danger, .pink.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.pink:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.pink, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.pink {
   background-color: #f06292 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -736,7 +736,7 @@ th {
   color: #ce93d8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.purple.lighten-2, #edit-actions .purple.button--danger, .purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.purple {
+.purple.lighten-2, span.purple.marker, #edit-actions .purple.button--danger, .purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.purple {
   background-color: #ba68c8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -848,7 +848,7 @@ th {
   color: #b39ddb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple.lighten-2, #edit-actions .deep-purple.button--danger, .deep-purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-purple {
+.deep-purple.lighten-2, span.deep-purple.marker, #edit-actions .deep-purple.button--danger, .deep-purple.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-purple:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-purple, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-purple {
   background-color: #9575cd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -960,7 +960,7 @@ th {
   color: #9fa8da !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.indigo.lighten-2, #edit-actions .indigo.button--danger, .indigo.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.indigo:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.indigo, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.indigo {
+.indigo.lighten-2, span.indigo.marker, #edit-actions .indigo.button--danger, .indigo.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.indigo:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.indigo, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.indigo {
   background-color: #7986cb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1072,7 +1072,7 @@ th {
   color: #90CAF9 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue.lighten-2, #edit-actions .blue.button--danger, #edit-actions header.button--danger.header-wrapper, #edit-actions .button--danger.utility-wrapper, #edit-actions h2.button--danger.theme-list-title, #edit-actions table .button--danger.region-title, table #edit-actions .button--danger.region-title, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, h2.lighten-2.theme-list-title, h2.theme-list-title.utility-wrapper, table .lighten-2.region-title, table .region-title.utility-wrapper, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.region-title:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table a.region-title:hover, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table a.region-title, table .form-type-vertical-tabs .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs table .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.utility-wrapper:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.utility-wrapper, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.utility-wrapper {
+.blue.lighten-2, span.blue.marker, span.marker.utility-wrapper, table span.marker.region-title, #edit-actions .blue.button--danger, #edit-actions header.button--danger.header-wrapper, #edit-actions .button--danger.utility-wrapper, #edit-actions h2.button--danger.theme-list-title, #edit-actions table .button--danger.region-title, table #edit-actions .button--danger.region-title, header.lighten-2.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, h2.lighten-2.theme-list-title, h2.theme-list-title.utility-wrapper, table .lighten-2.region-title, table .region-title.utility-wrapper, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.region-title:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table a.region-title:hover, table .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table a.region-title, table .form-type-vertical-tabs .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs table .vertical-tabs__panes > details > summary.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.utility-wrapper:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.utility-wrapper, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.utility-wrapper {
   background-color: #64B5F6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1184,7 +1184,7 @@ th {
   color: #81d4fa !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue.lighten-2, #edit-actions .light-blue.button--danger, .light-blue.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-blue {
+.light-blue.lighten-2, span.light-blue.marker, #edit-actions .light-blue.button--danger, .light-blue.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-blue:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-blue, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-blue {
   background-color: #4fc3f7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1296,7 +1296,7 @@ th {
   color: #80deea !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.cyan.lighten-2, #edit-actions .cyan.button--danger, .cyan.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.cyan:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.cyan, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.cyan {
+.cyan.lighten-2, span.cyan.marker, #edit-actions .cyan.button--danger, .cyan.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.cyan:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.cyan, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.cyan {
   background-color: #4dd0e1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1376,7 +1376,7 @@ th {
   color: #00b8d4 !important; }
 
 /* line 370, node_modules/materialize-css/sass/components/_color.scss */
-.teal, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected td {
+.teal, span.marker, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected td {
   background-color: #009688 !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
@@ -1384,7 +1384,7 @@ th {
   color: #009688 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-5, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.lighten-5.selected, table.highlight > tbody > tr.selected.region-title, table.highlight > tbody > tr.selected.drag-previous, table.highlight > tbody > tr.selected.field-plugin-settings-editing, table.highlight > tbody > tr.selected td.lighten-5, table.highlight > tbody > tr.selected td.dropdown-button:hover, table.highlight > tbody > tr.selected td.region-title, .teal.dropdown-button:hover, h2.teal.theme-list-title, table .teal.region-title, tr.teal.drag-previous, tr.teal.field-plugin-settings-editing {
+.teal.lighten-5, span.lighten-5.marker, span.marker.dropdown-button:hover, table span.marker.region-title, table.highlight > tbody > tr:hover, table.highlight > tbody > tr.lighten-5.selected, table.highlight > tbody > tr.selected.region-title, table.highlight > tbody > tr.selected.drag-previous, table.highlight > tbody > tr.selected.field-plugin-settings-editing, table.highlight > tbody > tr.selected td.lighten-5, table.highlight > tbody > tr.selected td.dropdown-button:hover, table.highlight > tbody > tr.selected td.region-title, .teal.dropdown-button:hover, h2.teal.theme-list-title, table .teal.region-title, tr.teal.drag-previous, tr.teal.field-plugin-settings-editing {
   background-color: #e0f2f1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1392,7 +1392,7 @@ th {
   color: #e0f2f1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-4, .teal.color-warning, table.highlight > tbody > tr.color-warning:hover, table.highlight > tbody > tr.selected td.color-warning, .teal.warning-color, .teal.messages--warning, table.highlight > tbody > tr.messages--warning:hover, table.highlight > tbody > tr.selected td.messages--warning, .messages--warning.messages-clone .teal.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--warning.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--warning.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--warning.messages-clone td.card-content, table.highlight > tbody > tr.warning-color:hover, table.highlight > tbody > tr.selected td.warning-color, .teal.color-success, table.highlight > tbody > tr.color-success:hover, table.highlight > tbody > tr.selected td.color-success, .teal.status-color, .teal.messages--status, table.highlight > tbody > tr.messages--status:hover, table.highlight > tbody > tr.selected td.messages--status, .messages--status.messages-clone .teal.card-content, .messages--status.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--status.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--status.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--status.messages-clone td.card-content, table.highlight > tbody > tr.status-color:hover, table.highlight > tbody > tr.selected td.status-color, .teal.color-error, table.highlight > tbody > tr.color-error:hover, table.highlight > tbody > tr.selected td.color-error, .teal.error-color, .node-multiple-delete-confirm input.teal.form-submit, .teal.messages--error, table.highlight > tbody > tr.messages--error:hover, table.highlight > tbody > tr.selected td.messages--error, .messages--error.messages-clone .teal.card-content, .messages--error.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--error.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--error.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--error.messages-clone td.card-content, table.highlight > tbody > tr.error-color:hover, .admin-requirements.collapsible-body table.highlight > tbody > tr.admin-prevent-text:hover, .admin-requirements.collapsible-body table.highlight > tbody > tr.selected.admin-prevent-text, table.highlight > tbody > tr.selected td.error-color, table.highlight > tbody > tr.selected .admin-requirements.collapsible-body td.admin-prevent-text, .admin-requirements.collapsible-body table.highlight > tbody > tr.selected td.admin-prevent-text, .admin-requirements.collapsible-body .teal.admin-prevent-text, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li.teal:last-child, table.highlight > tbody > tr.lighten-4:hover, table.highlight > tbody > tr.drag:hover, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected td.lighten-4, tr.teal.drag {
+.teal.lighten-4, .teal.color-warning, span.color-warning.marker, table.highlight > tbody > tr.color-warning:hover, table.highlight > tbody > tr.selected td.color-warning, .teal.warning-color, span.warning-color.marker, span.marker.messages--warning, .messages--warning.messages-clone span.marker.card-content, .teal.messages--warning, table.highlight > tbody > tr.messages--warning:hover, table.highlight > tbody > tr.selected td.messages--warning, .messages--warning.messages-clone .teal.card-content, .messages--warning.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--warning.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--warning.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--warning.messages-clone td.card-content, table.highlight > tbody > tr.warning-color:hover, table.highlight > tbody > tr.selected td.warning-color, .teal.color-success, span.color-success.marker, table.highlight > tbody > tr.color-success:hover, table.highlight > tbody > tr.selected td.color-success, .teal.status-color, span.status-color.marker, span.marker.messages--status, .messages--status.messages-clone span.marker.card-content, .teal.messages--status, table.highlight > tbody > tr.messages--status:hover, table.highlight > tbody > tr.selected td.messages--status, .messages--status.messages-clone .teal.card-content, .messages--status.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--status.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--status.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--status.messages-clone td.card-content, table.highlight > tbody > tr.status-color:hover, table.highlight > tbody > tr.selected td.status-color, .teal.color-error, span.color-error.marker, table.highlight > tbody > tr.color-error:hover, table.highlight > tbody > tr.selected td.color-error, .teal.error-color, span.error-color.marker, span.marker.messages--error, .messages--error.messages-clone span.marker.card-content, .admin-requirements.collapsible-body span.marker.admin-prevent-text, .node-multiple-delete-confirm input.teal.form-submit, .teal.messages--error, table.highlight > tbody > tr.messages--error:hover, table.highlight > tbody > tr.selected td.messages--error, .messages--error.messages-clone .teal.card-content, .messages--error.messages-clone table.highlight > tbody > tr.card-content:hover, .messages--error.messages-clone table.highlight > tbody > tr.card-content.selected, .messages--error.messages-clone table.highlight > tbody > tr.selected td.card-content, table.highlight > tbody > tr.selected .messages--error.messages-clone td.card-content, table.highlight > tbody > tr.error-color:hover, .admin-requirements.collapsible-body table.highlight > tbody > tr.admin-prevent-text:hover, .admin-requirements.collapsible-body table.highlight > tbody > tr.selected.admin-prevent-text, table.highlight > tbody > tr.selected td.error-color, table.highlight > tbody > tr.selected .admin-requirements.collapsible-body td.admin-prevent-text, .admin-requirements.collapsible-body table.highlight > tbody > tr.selected td.admin-prevent-text, .admin-requirements.collapsible-body .teal.admin-prevent-text, span.lighten-4.marker, .breadcrumb-nav ol li:last-child a.teal, .breadcrumb-nav ol li.teal:last-child, table.highlight > tbody > tr.lighten-4:hover, table.highlight > tbody > tr.drag:hover, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected td.lighten-4, tr.teal.drag {
   background-color: #b2dfdb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1400,7 +1400,7 @@ th {
   color: #b2dfdb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-3, table.highlight > tbody > tr.lighten-3:hover, table.highlight > tbody > tr.lighten-3.selected, table.highlight > tbody > tr.selected td, .dropbutton-wrapper .single-btn-wrapper a.teal {
+.teal.lighten-3, span.lighten-3.marker, table.highlight > tbody > tr.lighten-3:hover, table.highlight > tbody > tr.lighten-3.selected, table.highlight > tbody > tr.selected td, .dropbutton-wrapper .single-btn-wrapper a.teal {
   background-color: #80cbc4 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1408,7 +1408,7 @@ th {
   color: #80cbc4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-2, #edit-actions .teal.button--danger, #edit-actions table.highlight > tbody > tr.button--danger:hover, #edit-actions table.highlight > tbody > tr.button--danger.selected, #edit-actions table.highlight > tbody > tr.selected td.button--danger, table.highlight > tbody > tr.selected #edit-actions td.button--danger, .teal.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, table.highlight > tbody > tr.lighten-2:hover, table.highlight > tbody > tr.lighten-2.selected, table.highlight > tbody > tr.selected td.lighten-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.teal:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.teal, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.teal {
+.teal.lighten-2, span.marker, #edit-actions .teal.button--danger, #edit-actions span.button--danger.marker, #edit-actions table.highlight > tbody > tr.button--danger:hover, #edit-actions table.highlight > tbody > tr.button--danger.selected, #edit-actions table.highlight > tbody > tr.selected td.button--danger, table.highlight > tbody > tr.selected #edit-actions td.button--danger, .teal.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, table.highlight > tbody > tr.lighten-2:hover, table.highlight > tbody > tr.lighten-2.selected, table.highlight > tbody > tr.selected td.lighten-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.teal:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.teal, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.teal {
   background-color: #4db6ac !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1416,7 +1416,7 @@ th {
   color: #4db6ac !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.lighten-1, .teal.button-action:hover, table.highlight > tbody > tr.button-action:hover, table.highlight > tbody > tr.selected td.button-action:hover, table.highlight > tbody > tr.lighten-1:hover, table.highlight > tbody > tr.lighten-1.selected, table.highlight > tbody > tr.selected td.lighten-1 {
+.teal.lighten-1, .teal.button-action:hover, span.button-action.marker:hover, table.highlight > tbody > tr.button-action:hover, table.highlight > tbody > tr.selected td.button-action:hover, span.lighten-1.marker, table.highlight > tbody > tr.lighten-1:hover, table.highlight > tbody > tr.lighten-1.selected, table.highlight > tbody > tr.selected td.lighten-1 {
   background-color: #26a69a !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1424,7 +1424,7 @@ th {
   color: #26a69a !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.darken-1, table.highlight > tbody > tr.darken-1:hover, table.highlight > tbody > tr.darken-1.selected, table.highlight > tbody > tr.selected td.darken-1 {
+.teal.darken-1, span.darken-1.marker, table.highlight > tbody > tr.darken-1:hover, table.highlight > tbody > tr.darken-1.selected, table.highlight > tbody > tr.selected td.darken-1 {
   background-color: #00897b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1432,7 +1432,7 @@ th {
   color: #00897b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.darken-2, table.highlight > tbody > tr.darken-2:hover, table.highlight > tbody > tr.darken-2.selected, table.highlight > tbody > tr.selected td.darken-2 {
+.teal.darken-2, span.darken-2.marker, table.highlight > tbody > tr.darken-2:hover, table.highlight > tbody > tr.darken-2.selected, table.highlight > tbody > tr.selected td.darken-2 {
   background-color: #00796b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1440,7 +1440,7 @@ th {
   color: #00796b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.darken-3, table.highlight > tbody > tr.darken-3:hover, table.highlight > tbody > tr.darken-3.selected, table.highlight > tbody > tr.selected td.darken-3 {
+.teal.darken-3, span.darken-3.marker, table.highlight > tbody > tr.darken-3:hover, table.highlight > tbody > tr.darken-3.selected, table.highlight > tbody > tr.selected td.darken-3 {
   background-color: #00695c !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1448,7 +1448,7 @@ th {
   color: #00695c !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.darken-4, table.highlight > tbody > tr.darken-4:hover, table.highlight > tbody > tr.darken-4.selected, table.highlight > tbody > tr.selected td.darken-4 {
+.teal.darken-4, span.darken-4.marker, table.highlight > tbody > tr.darken-4:hover, table.highlight > tbody > tr.darken-4.selected, table.highlight > tbody > tr.selected td.darken-4 {
   background-color: #004d40 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1456,7 +1456,7 @@ th {
   color: #004d40 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.accent-1, table.highlight > tbody > tr.accent-1:hover, table.highlight > tbody > tr.accent-1.selected, table.highlight > tbody > tr.selected td.accent-1 {
+.teal.accent-1, span.accent-1.marker, table.highlight > tbody > tr.accent-1:hover, table.highlight > tbody > tr.accent-1.selected, table.highlight > tbody > tr.selected td.accent-1 {
   background-color: #a7ffeb !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1464,7 +1464,7 @@ th {
   color: #a7ffeb !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.accent-2, .teal.button-action, table.highlight > tbody > tr.button-action:hover, table.highlight > tbody > tr.button-action.selected, table.highlight > tbody > tr.selected td.button-action, table.highlight > tbody > tr.accent-2:hover, table.highlight > tbody > tr.accent-2.selected, table.highlight > tbody > tr.selected td.accent-2 {
+.teal.accent-2, .teal.button-action, span.button-action.marker, table.highlight > tbody > tr.button-action:hover, table.highlight > tbody > tr.button-action.selected, table.highlight > tbody > tr.selected td.button-action, span.accent-2.marker, table.highlight > tbody > tr.accent-2:hover, table.highlight > tbody > tr.accent-2.selected, table.highlight > tbody > tr.selected td.accent-2 {
   background-color: #64ffda !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1472,7 +1472,7 @@ th {
   color: #64ffda !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.accent-3, table.highlight > tbody > tr.accent-3:hover, table.highlight > tbody > tr.accent-3.selected, table.highlight > tbody > tr.selected td.accent-3 {
+.teal.accent-3, span.accent-3.marker, table.highlight > tbody > tr.accent-3:hover, table.highlight > tbody > tr.accent-3.selected, table.highlight > tbody > tr.selected td.accent-3 {
   background-color: #1de9b6 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1480,7 +1480,7 @@ th {
   color: #1de9b6 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.accent-4, table.highlight > tbody > tr.accent-4:hover, table.highlight > tbody > tr.accent-4.selected, table.highlight > tbody > tr.selected td.accent-4 {
+.teal.accent-4, span.accent-4.marker, table.highlight > tbody > tr.accent-4:hover, table.highlight > tbody > tr.accent-4.selected, table.highlight > tbody > tr.selected td.accent-4 {
   background-color: #00bfa5 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1520,7 +1520,7 @@ th {
   color: #A5D6A7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.green.lighten-2, .lighten-2.color-success, #edit-actions .color-success.button--danger, .color-success.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-success:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-success, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-success, .lighten-2.status-color, #edit-actions .status-color.button--danger, #edit-actions .button--danger.messages--status, #edit-actions .messages--status.messages-clone .button--danger.card-content, .messages--status.messages-clone #edit-actions .button--danger.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, .lighten-2.messages--status, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--status:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--status, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--status, .messages--status.messages-clone .lighten-2.card-content, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--status.messages-clone a.card-content:hover, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--status.messages-clone a.card-content, .messages--status.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--status.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-color, #edit-actions .green.button--danger, .green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.green {
+.green.lighten-2, .lighten-2.color-success, span.color-success.marker, #edit-actions .color-success.button--danger, .color-success.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-success:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-success, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-success, .lighten-2.status-color, span.status-color.marker, span.marker.messages--status, .messages--status.messages-clone span.marker.card-content, #edit-actions .status-color.button--danger, #edit-actions .button--danger.messages--status, #edit-actions .messages--status.messages-clone .button--danger.card-content, .messages--status.messages-clone #edit-actions .button--danger.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, .lighten-2.messages--status, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--status:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--status, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--status, .messages--status.messages-clone .lighten-2.card-content, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--status.messages-clone a.card-content:hover, .messages--status.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--status.messages-clone a.card-content, .messages--status.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--status.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-color, span.green.marker, #edit-actions .green.button--danger, .green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.green {
   background-color: #81C784 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1632,7 +1632,7 @@ th {
   color: #c5e1a5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-green.lighten-2, #edit-actions .light-green.button--danger, .light-green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-green {
+.light-green.lighten-2, span.light-green.marker, #edit-actions .light-green.button--danger, .light-green.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.light-green:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.light-green, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.light-green {
   background-color: #aed581 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1744,7 +1744,7 @@ th {
   color: #e6ee9c !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.lime.lighten-2, #edit-actions .lime.button--danger, .lime.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.lime:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.lime, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.lime {
+.lime.lighten-2, span.lime.marker, #edit-actions .lime.button--danger, .lime.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.lime:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.lime, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.lime {
   background-color: #dce775 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1856,7 +1856,7 @@ th {
   color: #fff59d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.lighten-2, .lighten-2.color-warning, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-warning, .lighten-2.warning-color, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--warning.messages-clone a.card-content:hover, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--warning.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-color, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag, #edit-actions tr.button--danger.drag-previous, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag, tr.utility-wrapper.drag-previous, span.lighten-2.theme-status-indicator, tr.lighten-2.drag, tr.lighten-2.drag-previous, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.yellow:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.yellow, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.yellow {
+.yellow.lighten-2, .lighten-2.color-warning, span.color-warning.marker, #edit-actions .color-warning.button--danger, .color-warning.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.color-warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.color-warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.color-warning, .lighten-2.warning-color, span.warning-color.marker, span.marker.messages--warning, .messages--warning.messages-clone span.marker.card-content, #edit-actions .warning-color.button--danger, #edit-actions .button--danger.messages--warning, #edit-actions .messages--warning.messages-clone .button--danger.card-content, .messages--warning.messages-clone #edit-actions .button--danger.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .lighten-2.messages--warning, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.messages--warning:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.messages--warning, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.messages--warning, .messages--warning.messages-clone .lighten-2.card-content, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.card-content:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .messages--warning.messages-clone a.card-content:hover, .messages--warning.messages-clone .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .messages--warning.messages-clone a.card-content, .messages--warning.messages-clone .form-type-vertical-tabs .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs .messages--warning.messages-clone .vertical-tabs__panes > details > summary.card-content, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-color, span.yellow.marker, span.marker.theme-status-indicator, #edit-actions .yellow.button--danger, #edit-actions span.button--danger.theme-status-indicator, #edit-actions tr.button--danger.drag, #edit-actions tr.button--danger.drag-previous, .yellow.utility-wrapper, span.utility-wrapper.theme-status-indicator, tr.utility-wrapper.drag, tr.utility-wrapper.drag-previous, span.lighten-2.theme-status-indicator, tr.lighten-2.drag, tr.lighten-2.drag-previous, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.yellow:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.yellow, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.yellow {
   background-color: #fff176 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1968,7 +1968,7 @@ th {
   color: #ffe082 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.amber.lighten-2, #edit-actions .amber.button--danger, .amber.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.amber:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.amber, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.amber {
+.amber.lighten-2, span.amber.marker, #edit-actions .amber.button--danger, .amber.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.amber:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.amber, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.amber {
   background-color: #ffd54f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2080,7 +2080,7 @@ th {
   color: #ffcc80 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.orange.lighten-2, #edit-actions .orange.button--danger, .orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.orange {
+.orange.lighten-2, span.orange.marker, #edit-actions .orange.button--danger, .orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.orange {
   background-color: #ffb74d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2192,7 +2192,7 @@ th {
   color: #ffab91 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange.lighten-2, #edit-actions .deep-orange.button--danger, .deep-orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-orange {
+.deep-orange.lighten-2, span.deep-orange.marker, #edit-actions .deep-orange.button--danger, .deep-orange.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.deep-orange:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.deep-orange, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.deep-orange {
   background-color: #ff8a65 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2304,7 +2304,7 @@ th {
   color: #bcaaa4 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.brown.lighten-2, #edit-actions .brown.button--danger, .brown.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.brown:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.brown, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.brown {
+.brown.lighten-2, span.brown.marker, #edit-actions .brown.button--danger, .brown.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.brown:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.brown, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.brown {
   background-color: #a1887f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2384,7 +2384,7 @@ th {
   color: #b0bec5 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey.lighten-2, #edit-actions .blue-grey.button--danger, .blue-grey.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue-grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue-grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue-grey {
+.blue-grey.lighten-2, span.blue-grey.marker, #edit-actions .blue-grey.button--danger, .blue-grey.utility-wrapper, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue-grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue-grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.blue-grey {
   background-color: #90a4ae !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2464,7 +2464,7 @@ th {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.lighten-2, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, #edit-actions tr.button--danger.field-plugin-settings-editing, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, tr.utility-wrapper.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-2, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .dropbutton-wrapper .single-btn-wrapper a:hover, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .dropbutton-wrapper .single-btn-wrapper a, tr.lighten-2.field-plugin-settings-editing, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.grey {
+.grey.lighten-2, span.grey.marker, #edit-actions .grey.button--danger, #edit-actions .dropbutton-wrapper .single-btn-wrapper a.button--danger, .dropbutton-wrapper .single-btn-wrapper #edit-actions a.button--danger, #edit-actions tr.button--danger.field-plugin-settings-editing, .grey.utility-wrapper, .dropbutton-wrapper .single-btn-wrapper a.utility-wrapper, tr.utility-wrapper.field-plugin-settings-editing, .dropbutton-wrapper .single-btn-wrapper a.lighten-2, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .dropbutton-wrapper .single-btn-wrapper a:hover, .dropbutton-wrapper .single-btn-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .dropbutton-wrapper .single-btn-wrapper a, tr.lighten-2.field-plugin-settings-editing, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.grey:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.grey, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.grey {
   background-color: #e0e0e0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2516,7 +2516,7 @@ th {
   background-color: #000000 !important; }
 
 /* line 393, node_modules/materialize-css/sass/components/_color.scss */
-.black-text, .messages--status, .messages--warning, .messages--error, .message-trigger, .message-trigger span.badge, table.highlight > tbody > tr.selected .dropbutton-widget li, table.highlight > tbody > tr.selected .dropbutton-widget li a {
+.black-text, .messages--status, .messages--warning, .messages--error, .message-trigger, .message-trigger span.badge, .message-trigger span.marker, table.highlight > tbody > tr.selected .dropbutton-widget li, table.highlight > tbody > tr.selected .dropbutton-widget li a {
   color: #000000 !important; }
 
 /* line 390, node_modules/materialize-css/sass/components/_color.scss */
@@ -2524,7 +2524,7 @@ th {
   background-color: #FFFFFF !important; }
 
 /* line 393, node_modules/materialize-css/sass/components/_color.scss */
-.white-text, .button-action, header.header-wrapper h1, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected a {
+.white-text, .button-action, span.marker, header.header-wrapper h1, table.highlight > tbody > tr.selected, table.highlight > tbody > tr.selected a {
   color: #FFFFFF !important; }
 
 /* line 390, node_modules/materialize-css/sass/components/_color.scss */
@@ -4318,6 +4318,52 @@ input[type=range] + .thumb {
       /* line 94, node_modules/materialize-css/sass/components/_tabs.scss */
       .tabs .tab a {
         padding: 0 12px; } }
+
+/* line 2, node_modules/materialize-css/sass/components/_badges.scss */
+span.badge, span.marker {
+  min-width: 3rem;
+  padding: 0 6px;
+  margin-left: 14px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 22px;
+  height: 22px;
+  color: #757575;
+  float: right;
+  box-sizing: border-box; }
+  /* line 14, node_modules/materialize-css/sass/components/_badges.scss */
+  span.badge.new, span.new.marker {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #26a69a;
+    border-radius: 2px; }
+  /* line 21, node_modules/materialize-css/sass/components/_badges.scss */
+  span.badge.new:after, span.new.marker:after {
+    content: " new"; }
+  /* line 25, node_modules/materialize-css/sass/components/_badges.scss */
+  span.badge[data-badge-caption]::after, span[data-badge-caption].marker::after {
+    content: " " attr(data-badge-caption); }
+
+/* line 29, node_modules/materialize-css/sass/components/_badges.scss */
+nav ul a span.badge, nav ul a span.marker {
+  display: inline-block;
+  float: none;
+  margin-left: 4px;
+  line-height: 22px;
+  height: 22px; }
+
+/* line 38, node_modules/materialize-css/sass/components/_badges.scss */
+.collection-item span.badge, .collection-item span.marker {
+  margin-top: calc(0.75rem - 11px); }
+
+/* line 41, node_modules/materialize-css/sass/components/_badges.scss */
+.collapsible span.badge, details.form-wrapper span.badge, .collapsible span.marker, details.form-wrapper span.marker {
+  margin-top: calc(1.5rem - 11px); }
+
+/* line 44, node_modules/materialize-css/sass/components/_badges.scss */
+.side-nav span.badge, .side-nav span.marker {
+  margin-top: calc(24px - 11px); }
 
 /* line 2, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper .single-btn-wrapper a,
@@ -10354,6 +10400,12 @@ a.button:hover {
   content: "";
   padding: 0px 5px; }
 
+/* line 238, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+span.marker {
+  font-size: .8em;
+  font-weight: 300;
+  border-radius: 2px; }
+
 /* @file
  * Form specific styling
  *
@@ -10610,7 +10662,7 @@ header.header-wrapper .row, header.header-wrapper .form-type-vertical-tabs {
   margin-right: 5px; }
 
 /* line 109, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-.message-trigger span.badge {
+.message-trigger span.badge, .message-trigger span.marker {
   min-width: inherit;
   margin-left: 5px;
   padding: 0 5px;

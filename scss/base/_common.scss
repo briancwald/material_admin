@@ -233,3 +233,11 @@ a.button {
     }
   }
 }
+
+// for the default drupal 'marker' add the badge styles 
+span.marker {
+  @extend .badge, .teal, .lighten-2, .white-text;
+  font-size:.8em;
+  font-weight: 300;
+  border-radius:2px;
+}
