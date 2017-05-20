@@ -54,9 +54,7 @@
     'form-item-' ~ name|clean_class,
     title_display not in ['after', 'before'] ? 'form-no-label',
     disabled == 'disabled' ? 'form-disabled',
-    type == 'textfield' ? 'input-field',
-    type == 'select' ? 'input-field',
-    type == 'password' ? 'input-field',
+    type in ['textfield', 'select', 'password', 'email', 'number', 'tel', 'search', 'url', 'color'] ? 'input-field',
     errors ? 'form-item--error',
   ]
 %}
