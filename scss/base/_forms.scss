@@ -156,8 +156,17 @@ details.form-wrapper {
   min-width: 175px;
 }
 
-.form-textarea-wrapper textarea {
-  padding:10px;
+.form-textarea-wrapper {
+  textarea {
+    padding: 10px;
+    height: auto;
+    transition: all 0.3s;
+    &:focus {
+      border: 1px solid map-get($teal, base);
+      box-shadow: 0 0 0 1px map-get($teal,base);
+      outline: none;
+    }
+  }
 }
 
 .container-inline .form-item {

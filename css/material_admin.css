@@ -10390,17 +10390,17 @@ a.button:hover {
 .clearfix {
   clear: none; }
 
-/* line 221, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 220, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 229, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 228, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 238, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 237, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
@@ -10533,24 +10533,31 @@ details.form-wrapper .details-wrapper {
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 160, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
-  padding: 10px; }
+  padding: 10px;
+  height: auto;
+  transition: all 0.3s; }
+  /* line 164, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .form-textarea-wrapper textarea:focus {
+    border: 1px solid #009688;
+    box-shadow: 0 0 0 1px #009688;
+    outline: none; }
 
-/* line 163, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 172, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px;
   display: inline; }
 
-/* line 169, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 178, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form--inline .form-actions, .dblog-filter-form .form-actions {
   padding: 0 10px; }
 
-/* line 175, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 180, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10573,7 +10580,7 @@ details.form-wrapper .details-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 207, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 216, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10584,7 +10591,7 @@ details.form-wrapper .details-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 218, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 227, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   color: #ffffff;
   text-decoration: none;
@@ -10594,13 +10601,13 @@ details.form-wrapper .details-wrapper {
   -moz-border-radius: 0px;
   background-image: none; }
 
-/* line 243, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 252, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .field-suffix small {
   padding: 0 10px; }
-  /* line 245, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 254, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.machine-name-value {
     font-weight: bold; }
-  /* line 248, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.admin-link {
     margin: 0 10px; }
 
