@@ -23,6 +23,8 @@
 
 .select-wrapper {
   max-width: 450px;
+  display:inline-block!important;
+  width:100%;
   .input.select-dropdown {
     max-width: inherit;
   }
@@ -43,6 +45,11 @@
       @extend .error-text-color;
     }
   }
+}
+
+//form items in tables require less margin
+table td > .form-item {
+  margin:10px 0;
 }
 
 .input-field.js-form-type-checkbox label {
@@ -69,13 +76,26 @@ input.btn {
     margin-bottom:1em;
   }
 }
-
-a.tabledrag-handle {
-  .handle {
-    width: 30px;
-    height: 30px;
+.draggable {
+  min-height: 30px;
+  a.tabledrag-handle {
+    float: none;
+    display: inline-block;
+    overflow: visible;
+    height: auto;
+    .handle {
+      width: 30px;
+      height: 30px;
+    }
   }
 }
+
+abbr.warning {
+  @extend .warning-text-color;
+  text-decoration: none;
+}
+
+
 
 .switch label {
   white-space: nowrap;
@@ -260,3 +280,4 @@ a#edit-cancel {
     }
   }
 }
+
