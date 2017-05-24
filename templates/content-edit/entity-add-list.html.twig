@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * Default theme implementation to present a list of available bundles.
+ *
+ * Available variables:
+ *   - bundles: A list of bundles, each with the following properties:
+ *     - label: Bundle label.
+ *     - description: Bundle description.
+ *     - add_link: Link to create an entity of this bundle.
+ *   - add_bundle_message: The message shown when there are no bundles. Only
+ *                         available if the entity type uses bundle entities.
+ *
+ * @see template_preprocess_entity_add_list()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{% if bundles is not empty %}
+<div class="collection with-header">
+	 <div class="collection-header row"><h4 class="collection-item-title col s12">{% trans %}Add New {{ bundles }} {% endtrans %}</h4></div>
+    {% for bundle in bundles %}
+    <a class="collection-item row" href="{{ bundle.add_link.url }}">
+      <span class="collection-item-title col s12" >{{ bundle.label }}</span>
+      <span class="collection-item-description col s12">{{ bundle.description }}</span>
+  </a>
+ 
+    {% endfor %}
+</div>
+{% elseif add_bundle_message is not empty %}
+  <p>
+    {{ add_bundle_message }}
+  </p>
+{% endif %}

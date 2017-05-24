@@ -54,7 +54,6 @@ function material_admin_preprocess_menu_local_task(&$variables) {
 
  // set target to self so the links work properly with tabs.js
   $variables['link']['#attributes']['target'] = '_self'; 
-
 }
 
 //if there is an empty placeholder, materialize does weird things. ref: https://github.com/Dogfalo/materialize/pull/1737/files
@@ -65,7 +64,6 @@ function material_admin_preprocess_input(&$variables) {
   }
   $variables['children'] = $element['#children'];
 }
-
 
 function material_admin_preprocess_node_add_list(&$variables) {
   if (!empty($variables['content'])) {
@@ -90,4 +88,11 @@ function material_admin_preprocess_system_modules_uninstall(&$variables) {
     $module['checkbox']['#theme'] = 'input__switch__uninstall';
     $module['checkbox']['#attributes']['class'][] = 'item-switch';
   }
+}
+
+function material_admin_preprocess_menu_local_action(&$variables) {
+  $variables['link']['#options']['attributes']['class'] = array_merge($variables['link']['#options']['attributes']['class'], ['waves-effect', 'waves-light']);
+}
+
+function material_admin_preprocess_vertical_tabs(&$variables) {
 }

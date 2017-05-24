@@ -5878,7 +5878,7 @@ input[type=range]:focus::-ms-fill-upper {
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
 /* line 12, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
+.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -5892,7 +5892,7 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 1;
   transition: .3s ease-out; }
   /* line 23, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
+  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -5907,35 +5907,35 @@ input[type=range]:focus::-ms-fill-upper {
         transform: scale(0);
     pointer-events: none; }
   /* line 40, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-light .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.button-link .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .tabledrag-toggle-weight-wrapper a.tabledrag-toggle-weight .waves-ripple, .tabledrag-toggle-weight-wrapper .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.tabledrag-toggle-weight .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .compact-link a .waves-ripple, .compact-link .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
+  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
   /* line 43, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-red .waves-ripple {
+  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
   /* line 46, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-yellow .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
   /* line 49, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-orange .waves-ripple {
+  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
   /* line 52, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-purple .waves-ripple {
+  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
   /* line 55, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.waves-green .waves-ripple {
+  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
   /* line 58, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
+  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
   /* line 63, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"], .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a input[type="submit"] {
+  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
   /* line 71, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a img {
+  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img {
     position: relative;
     z-index: -1; }
 
@@ -5974,7 +5974,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* Firefox Bug: link not triggered */
 /* line 112, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a .waves-ripple {
+.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
   z-index: -1; }
 
 /* line 1, node_modules/materialize-css/sass/components/_dropdown.scss */
@@ -10666,7 +10666,7 @@ header.header-wrapper .row, header.header-wrapper .form-type-vertical-tabs {
 
 /* line 77, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .messages-clone {
-  background: !important; }
+  background: #fff !important; }
   /* line 80, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .messages-clone .card-title:before, .messages-clone .card-title .message-number {
     padding-right: 10px; }
@@ -11249,37 +11249,40 @@ tr .ajax-progress-throbber .throbber {
     /* line 23, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
     .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item {
       margin: 0em 0 1.5em 0;
-      padding: .5em 1em; }
+      display: block; }
       /* line 26, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
       .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item:focus {
         outline: none; }
       /* line 29, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
       .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
         text-transform: uppercase;
+        text-decoration: none;
+        padding: .5em 1em;
         letter-spacing: 1px;
-        display: block; }
-        /* line 34, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+        display: block;
+        width: 100%; }
+        /* line 37, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
         .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a span {
           font-size: .75em;
           display: block;
           text-transform: initial; }
-      /* line 43, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+      /* line 46, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
       .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected {
         border-right: 3px solid #E57373;
         margin-right: -3px;
         z-index: 2; }
-  /* line 54, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+  /* line 57, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
   .form-type-vertical-tabs .vertical-tabs__panes {
     margin-left: -3px !important;
     padding-left: 1em;
     border-left: 3px solid #9e9e9e;
     transition: max-height 0.66s ease-out;
     max-height: 100vh; }
-    /* line 62, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+    /* line 65, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
     .form-type-vertical-tabs .vertical-tabs__panes > details {
       border: none;
       box-shadow: none; }
-      /* line 65, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
+      /* line 68, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_vertical-tabs.scss */
       .form-type-vertical-tabs .vertical-tabs__panes > details > summary {
         text-transform: uppercase; }
 

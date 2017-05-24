@@ -87,4 +87,15 @@
     }
   };
 
+  Drupal.theme.verticalTab = function (settings) {
+    var tab = {};
+    tab.item = $('<li class="vertical-tabs__menu-item waves-effect" tabindex="-1"></li>')
+      .append(tab.link = $('<a href="#"></a>')
+        .append(tab.title = $('<strong class="vertical-tabs__menu-item-title"></strong>').text(settings.title))
+        .append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>')
+        )
+      );
+    return tab;
+  };
+
 })(jQuery, Drupal);

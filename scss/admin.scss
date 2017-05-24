@@ -75,7 +75,7 @@ header.header-wrapper {
 }
 
 .messages-clone {
-  background: map-get($shades,white)!important;
+  background: #fff!important;
   .card-title {
     &:before, .message-number {
       padding-right: 10px;

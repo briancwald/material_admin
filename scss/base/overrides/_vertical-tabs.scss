@@ -22,15 +22,18 @@
     border-right:3px solid map-get($grey,base);;
     li.vertical-tabs__menu-item {
      margin:0em 0 1.5em 0;
-     padding:.5em 1em;
+     display:block;
      &:focus {
       outline:none;
      }
       a {
         text-transform: uppercase;
+        text-decoration: none;
+        padding: .5em 1em;
         letter-spacing: 1px;
         display: block;
-        @extend .grey-text, .waves-effect, .waves-teal;
+        width:100%;
+        @extend .grey-text;
         span {
           font-size:.75em;
           display:block;
