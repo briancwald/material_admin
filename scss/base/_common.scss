@@ -18,7 +18,7 @@ h3 {
 
 body {
   font-family: $body-font-family;
-  background: $white;
+  background: map-get($shades,white);
 }
 
 td, th {

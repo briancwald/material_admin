@@ -17,10 +17,10 @@
 #}
 {% if types is not empty %}
   <div class="collection with-header">
-    <div class="collection-item row"><h4 class="collection-item-title col s12">Add New Content</h4></div>
+    <div class="collection-item row"><h4 class="collection-item-title col s12">{% trans %}Add New Content{% endtrans %}</h4></div>
     {% for type_id,type in types %}
       <a class="collection-item row" href="{{ path('node.add', {'node_type': type_id }) }}">
-       <span class="collection-item-title col s12" >{{type.label}}</span> <span class="collection-item-description col s12">{{ type.description }}</a></span>
+       <span class="collection-item-title col s12" >{{type.label}}</span> <span class="collection-item-description col s12">{{ type.description }}</span></a>
     {% endfor %}
 </div>
 {% else %}

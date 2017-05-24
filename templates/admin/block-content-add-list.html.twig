@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Theme override to present a list of custom block types.
+ *
+ * Available variables:
+ * - types: A collection of all the available custom block types.
+ *   Each block type contains the following:
+ *   - link: A link to add a block of this type.
+ *   - description: A description of this custom block type.
+ *
+ * @see template_preprocess_block_content_add_list()
+ */
+#}
+{% spaceless %}
+  <div class="collection with-header">
+    <div class="collection-header row"><h4 class="collection-item-title col s12">{% trans %}Add New Block{% endtrans %}</h4></div>
+    {% for type_id,type in types %}
+      	<a class="collection-item row" href="{{ path('block_content.add_form', {'block_content_type': type_id}) }}"> 
+      		<span class="collection-item-title col s12" >{{ type.title }}</span>
+      		<span class="collection-item-description col s12">{{ type.description }}</span>
+      	</a>
+    {% endfor %}
+  </div>
+{% endspaceless %}

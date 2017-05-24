@@ -75,7 +75,7 @@ header.header-wrapper {
 }
 
 .messages-clone {
-  background: #fafafa!important;
+  background: map-get($shades,white)!important;
   .card-title {
     &:before, .message-number {
       padding-right: 10px;
@@ -378,12 +378,14 @@ span.theme-status-indicator {
     font-size: .7em;
     @extend .blue-text, .text-lighten-4;
     font-style: normal;
-    vertical-align: text-bottom;
+    vertical-align: baseline;
+    font-weight:100;
     &:after {
       @extend .fa-standard;
       content: $fa-var-chevron-right;
       padding-left: 10px;
       font-size: .5em;
+      vertical-align: bottom;
     }
   }
 }
@@ -555,8 +557,8 @@ tr.field-plugin-settings-editing {
   width: 100%;
   left: 0;
   padding: 0.5rem 1.5rem;
-  background: #efefef;
-  border-top: 1px solid #ccc;
+  background: map-get($shades, white);
+  border-top: 1px solid map-get($grey, lighten-1);
   z-index: 100;
 }
 
