@@ -576,3 +576,27 @@ tr.field-plugin-settings-editing {
     padding:10px 0;
   }
 }
+
+//theme page - force all card images to max height
+.card {
+   .card-content {
+      .card-title {
+        max-width:90%;
+        position:relative;
+        i {
+          top:0;
+          right:-10%;
+          position:absolute;
+        }
+      }
+    }
+  .card-image {
+    img {
+      max-height: 300px;
+      width:100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}
+

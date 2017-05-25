@@ -5878,7 +5878,7 @@ input[type=range]:focus::-ms-fill-upper {
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
 /* line 12, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button {
+.waves-effect, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -5892,7 +5892,7 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 1;
   transition: .3s ease-out; }
   /* line 23, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
+  .waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple {
     position: absolute;
     border-radius: 50%;
     width: 20px;
@@ -5907,35 +5907,35 @@ input[type=range]:focus::-ms-fill-upper {
         transform: scale(0);
     pointer-events: none; }
   /* line 40, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.waves-light.button .waves-ripple, input.button.button-link .waves-ripple {
+  .waves-effect.waves-light .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
   /* line 43, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple, input.waves-red.button .waves-ripple {
+  .waves-effect.waves-red .waves-ripple, .waves-red.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-red.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-red .waves-ripple {
     background-color: rgba(244, 67, 54, 0.7); }
   /* line 46, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple, input.waves-yellow.button .waves-ripple {
+  .waves-effect.waves-yellow .waves-ripple, .waves-yellow.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-yellow.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-yellow .waves-ripple {
     background-color: rgba(255, 235, 59, 0.7); }
   /* line 49, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple, input.waves-orange.button .waves-ripple {
+  .waves-effect.waves-orange .waves-ripple, .waves-orange.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-orange.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-orange .waves-ripple {
     background-color: rgba(255, 152, 0, 0.7); }
   /* line 52, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple, input.waves-purple.button .waves-ripple {
+  .waves-effect.waves-purple .waves-ripple, .waves-purple.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-purple.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-purple .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
   /* line 55, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple, input.waves-green.button .waves-ripple {
+  .waves-effect.waves-green .waves-ripple, .waves-green.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-green.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
   /* line 58, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple, input.waves-teal.button .waves-ripple {
+  .waves-effect.waves-teal .waves-ripple, .waves-teal.button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .waves-teal.tabledrag-toggle-weight .waves-ripple, .compact-link a.waves-teal .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
   /* line 63, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], input.button input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], input.button input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"], input.button input[type="submit"] {
+  .waves-effect input[type="button"], .button-link input[type="button"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="button"], .compact-link a input[type="button"], .waves-effect input[type="reset"], .button-link input[type="reset"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="reset"], .compact-link a input[type="reset"], .waves-effect input[type="submit"], .button-link input[type="submit"], .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight input[type="submit"], .compact-link a input[type="submit"] {
     border: 0;
     font-style: normal;
     font-size: inherit;
     text-transform: inherit;
     background: none; }
   /* line 71, node_modules/materialize-css/sass/components/_waves.scss */
-  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img, input.button img {
+  .waves-effect img, .button-link img, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight img, .compact-link a img {
     position: relative;
     z-index: -1; }
 
@@ -5974,7 +5974,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* Firefox Bug: link not triggered */
 /* line 112, node_modules/materialize-css/sass/components/_waves.scss */
-.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple, input.button .waves-ripple {
+.waves-effect .waves-ripple, .button-link .waves-ripple, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight .waves-ripple, .compact-link a .waves-ripple {
   z-index: -1; }
 
 /* line 1, node_modules/materialize-css/sass/components/_dropdown.scss */
@@ -10323,83 +10323,87 @@ td, th {
   -o-user-select: none;
   user-select: none; }
 
-/* line 137, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 136, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .dropbutton-wrapper .single-btn-wrapper a + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .dropbutton-wrapper .single-btn-wrapper a + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .dropbutton-wrapper .single-btn-wrapper a + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .dropbutton-wrapper .single-btn-wrapper a + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper .single-btn-wrapper a + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .dropbutton-wrapper .single-btn-wrapper a + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .dropbutton-wrapper .single-btn-wrapper .btn + a, .dropbutton-wrapper .single-btn-wrapper .btn-large + a, .dropbutton-wrapper .single-btn-wrapper .button-action + a, .dropbutton-wrapper .single-btn-wrapper .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper .single-btn-wrapper .compact-link a + a, .dropbutton-wrapper .single-btn-wrapper input.button + a, .dropbutton-wrapper.dropbutton-single .edit .single-btn-wrapper a + a, .dropbutton-wrapper .single-btn-wrapper a + a {
+  margin: 0 10px; }
+
+/* line 140, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 142, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 145, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 144, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 151, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 154, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 153, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 169, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 173, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 187, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 190, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow, .shadow-box, .entity-meta__header, .confirm-form-wrapper, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 191, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 194, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header, .confirm-form-wrapper {
   padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
-/* line 199, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 202, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .views-field-node-bulk-form {
   padding-left: 10px; }
 
-/* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 206, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 209, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 212, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 220, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 223, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 228, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 231, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 237, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 240, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
@@ -11056,6 +11060,23 @@ tr.field-plugin-settings-editing {
   /* line 575, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .item-list li {
     padding: 10px 0; }
+
+/* line 583, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.card .card-content .card-title {
+  max-width: 90%;
+  position: relative; }
+  /* line 586, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .card .card-content .card-title i {
+    top: 0;
+    right: -10%;
+    position: absolute; }
+
+/* line 594, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.card .card-image img {
+  max-height: 300px;
+  width: 100%;
+  width: auto;
+  margin: 0 auto; }
 
 /* @file
  * Common low level styles
