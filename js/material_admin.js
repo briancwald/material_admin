@@ -92,10 +92,27 @@
     tab.item = $('<li class="vertical-tabs__menu-item waves-effect" tabindex="-1"></li>')
       .append(tab.link = $('<a href="#"></a>')
         .append(tab.title = $('<strong class="vertical-tabs__menu-item-title"></strong>').text(settings.title))
-        .append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>')
-        )
+        .append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>'))
       );
     return tab;
   };
+
+
+  Drupal.behaviors.material_admin_resize_textfield = {
+    attach: function (context, settings) {
+      // resize the textfiled if the value is longer than the default value
+      function resizeInput() {
+        var textSize = $(this).attr('size');
+        if (textSize < $(this).val().length) {
+          $(this).attr('size', $(this).val().length);
+        }
+      }
+      $('input[type="text"]')
+        // event handler for typing beyond length
+        .keyup(resizeInput)
+        // resize on page load
+        .each(resizeInput);
+    }
+  }
 
 })(jQuery, Drupal);
