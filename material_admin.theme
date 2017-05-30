@@ -34,7 +34,6 @@ function material_admin_preprocess_breadcrumb(&$variables) {
   $variables['title'] = $title;
 }
 
-
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
  */
@@ -46,17 +45,21 @@ function material_admin_preprocess_menu_local_task(&$variables) {
   );
   $link_text = $link['title'];
 
-//add class active so that the materialize tabs js works
+  //add class active so that the materialize tabs js works
   if (!empty($variables['element']['#active'])) {
     $variables['is_active'] = TRUE;
     $variables['link']['#attributes']['class'] = 'active'; 
      }
 
- // set target to self so the links work properly with tabs.js
+  // set target to self so the links work properly with tabs.js
   $variables['link']['#attributes']['target'] = '_self'; 
 }
 
-//if there is an empty placeholder, materialize does weird things. ref: https://github.com/Dogfalo/materialize/pull/1737/files
+/**
+ * Implements hook_preprocess_input() for HTML document templates.
+ *
+ * if there is an empty placeholder, materialize does weird things. ref: github.com/Dogfalo/materialize/pull/1737/files
+ */
 function material_admin_preprocess_input(&$variables) {
   $element = $variables['element'];
   if (isset($variables['attributes']['placeholder']) && empty((string) $variables['attributes']['placeholder'])) {
@@ -65,6 +68,10 @@ function material_admin_preprocess_input(&$variables) {
   $variables['children'] = $element['#children'];
 }
 
+/**
+ * Implements hook_preprocess_node_add_list() for HTML document templates.
+ *
+ */
 function material_admin_preprocess_node_add_list(&$variables) {
   if (!empty($variables['content'])) {
     /** @var \Drupal\node\NodeTypeInterface $type */
@@ -74,7 +81,11 @@ function material_admin_preprocess_node_add_list(&$variables) {
   }
 }
 
-// force the checkbox to use a new twig template input--switch so that the markup can be differet.
+/**
+ * Implements hook_preprocess_system_modules_details() for HTML document templates.
+ *
+ * force the checkbox to use a new twig template input--switch so that the markup can be differet.
+ */
 function material_admin_preprocess_system_modules_details(&$variables) {
   foreach ($variables['modules'] as &$module) {
     $module['checkbox']['#theme'] = 'input__switch';
@@ -82,7 +93,11 @@ function material_admin_preprocess_system_modules_details(&$variables) {
   }
 }
 
-// force the checkbox to use a new twig template input--switch so that the markup can be differet.
+/**
+ * Implements hook_preprocess_system_modules_uninstall() for HTML document templates.
+ *
+ * force the checkbox to use a new twig template input--switch so that the markup can be differet.
+ */
 function material_admin_preprocess_system_modules_uninstall(&$variables) {
   foreach ($variables['modules'] as &$module) {
     $module['checkbox']['#theme'] = 'input__switch__uninstall';
@@ -90,9 +105,18 @@ function material_admin_preprocess_system_modules_uninstall(&$variables) {
   }
 }
 
+/**
+ * Implements hook_preprocess_menu_local_action() for HTML document templates.
+ *
+ * add classes to action butons to allow for interaction click support
+ */
 function material_admin_preprocess_menu_local_action(&$variables) {
   $variables['link']['#options']['attributes']['class'] = array_merge($variables['link']['#options']['attributes']['class'], ['waves-effect', 'waves-light']);
 }
 
-function material_admin_preprocess_vertical_tabs(&$variables) {
+/**
+ * Implements hook_preprocess_page_attachments_alter() for HTML document templates.
+ */
+function material_admin_page_attachments_alter(&$page) {
+  $page['#attached']['drupalSettings']['material_admin']['material_admin_message_length'] = theme_get_setting('material_admin_message_length');
 }

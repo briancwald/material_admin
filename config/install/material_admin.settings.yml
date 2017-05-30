@@ -1,0 +1,11 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+material_admin_node_actions: 0
+material_admin_message_length: '88'

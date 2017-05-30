@@ -4,17 +4,14 @@
  *
  */
 
-
-
 (function ($, Drupal) {
-
 
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
-  var maxMessageLength = '88';
 
   Drupal.behaviors.material_notification = {
     attach: function (context, settings) {
+      maxMessageLength = drupalSettings.material_admin.material_admin_message_length;
       var messages = $('div.messages');
       messages.once('material_notification').each(function () {
         messageMax = maxMessageLength;
