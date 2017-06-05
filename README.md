@@ -1,5 +1,5 @@
 # Material Admin
-Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
+Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://materializecss.com/) Framework
 
 ![alt text][logo]
 
@@ -9,11 +9,11 @@ Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 [Yarn package manager](https://yarnpkg.com)
 
 ## Dev Setup 
- - `Yarn install`
- - `Gulp libsrc` Gets libries
- - `Gulp rename` renames conflict with jqueryUI and MaterializeCSS autocomplete plugin
- - `Gulp copy` moves updated libraries over to js/lib folder
- - `Gulp sass` or `gulp` to watch sass changes
+ - `yarn install` installs Yarn dependencies
+ - `gulp libsrc` gets libraries
+ - `gulp rename` renames conflict with jQueryUI and Materialize CSS autocomplete plugin
+ - `gulp copy` moves updated libraries over to js/lib folder
+ - `gulp sass` or `gulp` to watch sass changes
 
 ## To-Do
 - [x] Gulp Setup
@@ -23,19 +23,19 @@ Material Design Inspired Admin Theme Utilizing http://materialcss.com Framework
 - [x] Date and Time selector
 - [x] Submit and action buttons
 - [x] Vertical Tabs support desktop
-- [ ] Vertical Tabs support moble (menu style)
+- [ ] Vertical Tabs support mobile (menu style)
 - [x] Submit button loading UX
 - [x] Admin landing page / group styling
 - [x] Dropbutton replacement
-- [ ] Throbber/Prgoress icons
-- [x] admin/content enhancements 
-- [ ] view UI (Yikes - completely unuseable right now. The template strucutre for this page is very.. bad)
-- [ ] form styling defaults
+- [ ] Throbber/progress icons
+- [x] Admin/content enhancements 
+- [ ] Views UI (Yikes - completely unusable right now. The template structure for this page is very.. bad)
+- [ ] Form styling defaults
 - [x] Table and bulk selecting
 - [x] Status Message
 - [x] Theme Select page
 - [ ] Node add/edit
-- [ ] jqueryUI Dialog Theme & Enhancements
+- [ ] jQueryUI Dialog Theme & Enhancements
 - [ ] Behat Testing
 
 ## Clean-up oganization To-Do
@@ -43,18 +43,13 @@ Since this is just a POC, code is not very well organized and needs to be mature
 
 - [ ] Make JS features optional in settings
 - [ ] Move SCSS out of admin.scss into sub components (e.g. navigation, buttons, forms (done), etc.)
-- [ ] move preprocess functions into .inc files and out of .theme
-- [ ] Better way to handle materializecss overrides
+- [ ] Move preprocess functions into .inc files and out of .theme
+- [ ] Better way to handle Materialize CSS overrides
 - [ ] Remove Classy as a parent theme entirely?
 - [ ] Prod deployment packaging (Min, optimize, etc)
 
 ## Meta
 
-- Icons: currently using font awesome because sass integration allows for simple integration in D8 admin methods -- but looking at google material icons it might work fine -- switch for consistancy?
+- Icons: currently using font awesome because sass integration allows for simple integration in D8 admin methods -- but looking at google material icons it might work fine -- switch for consistency?
 
-- Grid: Impliment a more struture grid system. The template sturcutre in D8 has basically no notion of grid system. I have started to add in materializecss very light grid system but its awkward.
-
-
-
-
-
+- Grid: Implement a more structure grid system. The template structure in D8 has basically no notion of grid system. I have started to add in Materialize CSS very light grid system but it's awkward.
