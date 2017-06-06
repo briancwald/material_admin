@@ -11143,16 +11143,16 @@ tr.field-plugin-settings-editing {
 .views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
   padding: 0; }
 
-/* line 654, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 650, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .dropbutton-wrapper {
   position: absolute;
   right: 0; }
 
-/* line 659, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 655, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket {
   padding-top: 0; }
 
-/* line 663, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 659, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-actions .dropbutton-wrapper li a,
 .views-ui-display-tab-actions .dropbutton-wrapper input {
   font-size: 16px;
@@ -11161,6 +11161,10 @@ tr.field-plugin-settings-editing {
   line-height: 22px;
   padding: 14px 16px;
   text-transform: none; }
+
+/* line 669, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+.views-display-top .dropbutton-wrapper {
+  z-index: 1; }
 
 /* @file
  * Common low level styles

@@ -647,10 +647,6 @@ tr.field-plugin-settings-editing {
   padding: 0;
 }
 
-.views-admin .dropdown-button {
-
-}
-
 .views-ui-display-tab-bucket .dropbutton-wrapper {
   position: absolute;
   right: 0;
@@ -668,4 +664,8 @@ tr.field-plugin-settings-editing {
   line-height: 22px;
   padding: 14px 16px;
   text-transform: none;
+}
+
+.views-display-top .dropbutton-wrapper {
+  z-index: 1;
 }
