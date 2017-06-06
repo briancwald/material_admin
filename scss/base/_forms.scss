@@ -36,7 +36,7 @@
   }
 }
 
-.form-item {
+.form-item, .filter-wrapper .form-item {
   margin: 25px 0;
   position:relative;
   .form-required {
@@ -45,6 +45,10 @@
       @extend .error-text-color;
     }
   }
+}
+
+.filter-wrapper {
+  overflow:initial;
 }
 
 //form items in tables require less margin

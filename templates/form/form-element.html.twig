@@ -55,6 +55,7 @@
     title_display not in ['after', 'before'] ? 'form-no-label',
     disabled == 'disabled' ? 'form-disabled',
     type in ['textfield', 'select', 'password', 'email', 'number', 'tel', 'search', 'url', 'path', 'entity_autocomplete'] ? 'input-field',
+    type in ['file', 'managed_file'] ? 'file-input-field',
     errors ? 'form-item--error',
   ]
 %}

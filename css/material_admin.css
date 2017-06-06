@@ -484,7 +484,7 @@ th {
   background-color: #F44336 !important; }
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
-.red-text, .error-text-color, .form-item .form-required:after, #edit-actions .button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs .vertical-tabs__panes > details > summary {
+.red-text, .error-text-color, .form-item .form-required:after, .filter-wrapper .form-item .form-required:after, #edit-actions .button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .form-type-vertical-tabs .vertical-tabs__panes > details > summary {
   color: #F44336 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -508,7 +508,7 @@ th {
   background-color: #EF9A9A !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-lighten-3, .error-text-color, .form-item .form-required:after, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:hover:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:hover:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .form-item a.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.form-required:after, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-3, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-text-color, .form-type-vertical-tabs .form-item .vertical-tabs__panes > details > summary.form-required:after, .form-item .form-type-vertical-tabs .vertical-tabs__panes > details > summary.form-required:after {
+.red-text.text-lighten-3, .error-text-color, .form-item .form-required:after, .filter-wrapper .form-item .form-required:after, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:hover:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:hover:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .form-item a.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.form-required:after, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-lighten-3, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.error-text-color, .form-type-vertical-tabs .form-item .vertical-tabs__panes > details > summary.form-required:after, .form-item .form-type-vertical-tabs .vertical-tabs__panes > details > summary.form-required:after {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2460,7 +2460,7 @@ th {
   background-color: #eeeeee !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-lighten-3, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:after, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, table .error-text-color.region-title, table thead th.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-3, table .text-lighten-3.region-title, table thead th.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3 {
+.grey-text.text-lighten-3, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .dropbutton-wrapper .single-btn-wrapper a.form-required:after, .dropbutton-wrapper .single-btn-wrapper .form-item a.form-required:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .form-item .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:after, .filter-wrapper .form-item table thead th.form-required:after, table thead .filter-wrapper .form-item th.form-required:after, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.error-text-color, table .error-text-color.region-title, table thead th.error-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, .dropbutton-wrapper .single-btn-wrapper a.text-lighten-3, table .text-lighten-3.region-title, table thead th.text-lighten-3, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3 {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -10244,51 +10244,50 @@ button {
  */
 /* line 6, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 h1 {
-  font-size: 2.5rem;
-  margin: 1rem; }
+  font-size: 2.5rem; }
 
-/* line 11, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 10, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 h2 {
   font-size: 2rem; }
 
-/* line 15, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 14, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 h3 {
   font-size: 1.5rem; }
 
-/* line 19, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 18, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 body {
   font-family: "Roboto", sans-serif; }
 
-/* line 24, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 23, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 td, th {
   padding: 15px; }
 
-/* line 30, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 29, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .description .material-tooltip {
   max-width: 36em;
   line-height: 1.5em;
   font-weight: 100; }
 
-/* line 35, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 34, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .description .tooltipped {
   font-size: .8em; }
 
 @media only screen and (min-width: 993px) {
-  /* line 40, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 39, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .flow-text, .messages {
     font-size: 1.2em; } }
 
-/* line 71, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 70, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button-action:before {
   content: "";
   color: #fefefe;
   margin: 0 10px 0 0px; }
 
-/* line 82, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 81, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .inline {
   display: inline; }
 
-/* line 94, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 93, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .breadcrumb-nav ol li:first-child a:before, .collection .collection-item > .item-list .collection .collection-item:before {
   vertical-align: top;
   display: inline-block;
@@ -10297,25 +10296,25 @@ td, th {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
-/* line 103, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 102, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .toast {
   word-break: normal; }
 
 @media only screen and (min-width: 601px) {
-  /* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 107, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   main .row, main .form-type-vertical-tabs {
     margin: 0 10px; } }
 
-/* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 112, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .row, .form-type-vertical-tabs {
   padding: 20px;
   margin: 0; }
 
-/* line 119, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 118, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .region-status .row, .region-status .form-type-vertical-tabs {
   padding: 0; }
 
-/* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 123, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper input.select-dropdown {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -10323,105 +10322,105 @@ td, th {
   -o-user-select: none;
   user-select: none; }
 
-/* line 136, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 135, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .dropbutton-wrapper .single-btn-wrapper a + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .dropbutton-wrapper .single-btn-wrapper a + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .dropbutton-wrapper .single-btn-wrapper a + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .dropbutton-wrapper .single-btn-wrapper a + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper .single-btn-wrapper a + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .dropbutton-wrapper .single-btn-wrapper a + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .dropbutton-wrapper .single-btn-wrapper .btn + a, .dropbutton-wrapper .single-btn-wrapper .btn-large + a, .dropbutton-wrapper .single-btn-wrapper .button-action + a, .dropbutton-wrapper .single-btn-wrapper .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper .single-btn-wrapper .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper .single-btn-wrapper .compact-link a + a, .dropbutton-wrapper .single-btn-wrapper input.button + a, .dropbutton-wrapper.dropbutton-single .edit .single-btn-wrapper a + a, .dropbutton-wrapper .single-btn-wrapper a + a {
   margin: 0 10px; }
 
-/* line 140, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 139, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 145, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 144, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 146, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 154, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 153, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 155, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 161, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 169, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 168, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 175, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 178, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 183, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 190, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow, .shadow-box, .entity-meta__header, .confirm-form-wrapper, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 194, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details {
   border: none !important; }
 
-/* line 198, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header, .confirm-form-wrapper {
   padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
-/* line 206, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 205, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .views-field-node-bulk-form {
   padding-left: 10px; }
 
-/* line 210, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 209, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 216, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 215, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 227, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 226, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 235, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 234, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 244, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 243, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 252, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 256, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 255, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 260, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before, .ckeditor-buttons:after, .ckeditor-buttons {
   box-sizing: initial; }
 
@@ -10463,69 +10462,73 @@ span.marker {
   padding-right: 1em; }
 
 /* line 39, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-.form-item {
+.form-item, .filter-wrapper .form-item {
   margin: 25px 0;
   position: relative; }
   /* line 43, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-  .form-item .form-required:after {
+  .form-item .form-required:after, .filter-wrapper .form-item .form-required:after {
     content: " *"; }
 
-/* line 51, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 50, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.filter-wrapper {
+  overflow: initial; }
+
+/* line 55, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 table td > .form-item {
   margin: 10px 0; }
 
-/* line 55, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 59, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 64, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 68, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 #edit-actions .button {
   margin: 10px 10px 10px 0; }
 
-/* line 73, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 77, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
   margin: 5px; }
   @media only screen and (max-width: 992px) {
-    /* line 73, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 77, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
       margin-bottom: 1em; } }
 
-/* line 79, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .draggable {
   min-height: 30px; }
-  /* line 81, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 85, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .draggable a.tabledrag-handle {
     float: none;
     display: inline-block;
     overflow: visible;
     height: auto; }
-    /* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 90, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .draggable a.tabledrag-handle .handle {
       width: 30px;
       height: 30px; }
 
-/* line 93, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 97, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr.warning {
   text-decoration: none; }
 
-/* line 100, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .switch label {
   white-space: nowrap; }
 
-/* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 112, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr[title] {
   border-bottom: none; }
 
-/* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 117, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }
 
-/* line 120, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 124, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .js-form-type-checkbox label.visually-hidden {
   position: relative !important;
   text-indent: -999999px;
@@ -10533,69 +10536,69 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   overflow: visible;
   visibility: hidden;
   display: block; }
-  /* line 127, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 131, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 133, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 137, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 h4.label {
   font-size: 1rem;
   font-weight: bold; }
 
-/* line 143, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper summary:focus {
   outline: 0; }
 
-/* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 151, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 2rem; }
 
-/* line 155, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 158, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 170, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 171, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 175, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 175, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 180, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
   padding: 10px;
   height: auto;
   transition: all 0.3s; }
-  /* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 188, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .form-textarea-wrapper textarea:focus {
     border: 1px solid #009688;
     box-shadow: 0 0 0 1px #009688;
     outline: none; }
 
-/* line 192, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 196, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px;
   display: inline; }
 
-/* line 198, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 202, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form--inline .form-actions, .dblog-filter-form .form-actions {
   padding: 0 10px; }
 
-/* line 204, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 209, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 213, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10617,7 +10620,7 @@ details.form-wrapper .details-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 236, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 240, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10628,7 +10631,7 @@ details.form-wrapper .details-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 247, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   text-decoration: none;
   background-color: #1976D2;
@@ -10637,21 +10640,21 @@ details.form-wrapper .details-wrapper {
   -moz-border-radius: 0px;
   background-image: none; }
 
-/* line 272, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 276, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .field-suffix small {
   padding: 0 10px; }
-  /* line 274, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 278, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.machine-name-value {
     font-weight: bold; }
-  /* line 277, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 281, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.admin-link {
     margin: 0 10px; }
 
-/* line 286, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 290, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field .field-prefix {
   padding-right: 10px; }
 
-/* line 290, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 294, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
   display: inline; }
 
