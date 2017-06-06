@@ -12,7 +12,14 @@
         $(this).uniqueId();
         var $dropbutton = $(this).siblings('.dropdown-button');
         if ($dropbutton.length === 0) {
-          $dropbutton = $('<a class="dropdown-button btn grey lighten-3 grey-text text-darken-2" href="#">' + Drupal.t('MANAGE') + '</a>');
+          var btn_classes;
+          if ($(this).closest('.views-ui-display-tab-actions').length) {
+            btn_classes = 'dropdown-button btn btn-flat darken-3 text-darken-2';
+          }
+          else {
+            btn_classes = 'dropdown-button btn grey lighten-3 grey-text text-darken-2';
+          }
+          $dropbutton = $('<a class="' + btn_classes + '" href="#">' + Drupal.t('MANAGE') + '</a>');
           $(this).before($dropbutton);
         }
         $dropbutton.attr('data-activates', $(this).attr('id'));

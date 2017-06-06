@@ -23,6 +23,7 @@
   set classes = [
     has_parent ? 'js-form-wrapper',
     has_parent ? 'form-wrapper',
+    attributes.hasClass('views-ui-display-tab-actions') ? 'collection'
   ]
 %}
 <div{{ attributes.addClass(classes) }}>{{ children }}</div>
