@@ -284,10 +284,6 @@ table {
   display: inline-block;
   .single-btn-wrapper {
     list-style: none;
-    a {
-      @extend .btn, .grey, .lighten-3, .grey-text, .text-darken-2;
-      white-space: nowrap;
-    }
   }
 }
 
@@ -600,3 +596,64 @@ tr.field-plugin-settings-editing {
   }
 }
 
+// Views UI.
+
+.views-ui-display-tab-bucket__title {
+  font-size: 1.5rem;
+}
+
+.views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.views-display-column {
+  border: none;
+}
+
+.views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.views-ui-display-tab-bucket .views-display-setting {
+  font-size: inherit;
+}
+
+.views-display-setting .label, .views-display-setting .views-ajax-link {
+  float: none;
+}
+
+.views-admin .dropbutton-wrapper a.icon.add {
+  text-indent: 0;
+  background: inherit;
+  height: inherit;
+  width: inherit;
+  border: inherit;
+}
+
+.views-admin .dropbutton-wrapper a.icon.add:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+.views-admin .collection-item,
+.views-admin .collection {
+  overflow: visible;
+}
+
+.views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
+  padding: 0;
+}
+
+.views-admin .dropdown-button {
+
+}
+
+.views-ui-display-tab-bucket .dropbutton-wrapper {
+  position: absolute;
+  right: 0;
+}
+
+.views-ui-display-tab-bucket {
+  padding-top: 0;
+}

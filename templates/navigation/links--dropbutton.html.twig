@@ -31,6 +31,11 @@
  * @see template_preprocess_links()
  */
 #}
+{% if attributes.hasClass('views-ui-settings-bucket-operations') %}
+  {% set btn_classses = 'dropdown-button btn btn-flat darken-3 text-darken-2' %}
+{% else %}
+  {% set btn_classses = 'dropdown-button btn grey lighten-3 grey-text text-darken-2' %}
+{% endif %}
 {% if links -%}
   {%- if heading -%}
     {%- if heading.level -%}
@@ -40,7 +45,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if links|length > 1 -%}
-  <a class="dropdown-button btn grey lighten-3 grey-text text-darken-2" href="#">{% trans %}MANAGE{% endtrans %}</a>
+  <a class="{{ btn_classses }}" href="#">{% trans %}MANAGE{% endtrans %}</a>
   <ul{{ attributes.addClass('dropdown-content') }}>
     {%- for item in links -%}
       <li{{ item.attributes }}>

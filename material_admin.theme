@@ -5,12 +5,6 @@
  * Functions to support theming in the material_admin theme.
  */
 
-use Drupal\Component\Utility\Xss;
-use Drupal\Core\Render\Element;
-use Drupal\Component\Utility\Html;
-use Drupal\Core\Template\Attribute;
-use Drupal\node\NodeInterface;
-
 require_once('inc/form.inc');
 
 /**
@@ -25,7 +19,8 @@ function material_admin_preprocess_html(&$variables) {
 /**
  * Implements hook_preprocess_breadcrumb().
  *
- * Adds the "title" variable so that the current page can be added as a breadcrumb.
+ * Adds the "title" variable so that the current page can be added as a
+ * breadcrumb.
  */
 function material_admin_preprocess_breadcrumb(&$variables) {
   $request = \Drupal::request();
@@ -58,7 +53,8 @@ function material_admin_preprocess_menu_local_task(&$variables) {
 /**
  * Implements hook_preprocess_input() for HTML document templates.
  *
- * if there is an empty placeholder, materialize does weird things. ref: github.com/Dogfalo/materialize/pull/1737/files
+ * if there is an empty placeholder, materialize does weird things. ref:
+ * github.com/Dogfalo/materialize/pull/1737/files
  */
 function material_admin_preprocess_input(&$variables) {
   $element = $variables['element'];
@@ -82,9 +78,11 @@ function material_admin_preprocess_node_add_list(&$variables) {
 }
 
 /**
- * Implements hook_preprocess_system_modules_details() for HTML document templates.
+ * Implements hook_preprocess_system_modules_details() for HTML document
+ * templates.
  *
- * force the checkbox to use a new twig template input--switch so that the markup can be differet.
+ * force the checkbox to use a new twig template input--switch so that the
+ * markup can be differet.
  */
 function material_admin_preprocess_system_modules_details(&$variables) {
   foreach ($variables['modules'] as &$module) {
@@ -94,9 +92,11 @@ function material_admin_preprocess_system_modules_details(&$variables) {
 }
 
 /**
- * Implements hook_preprocess_system_modules_uninstall() for HTML document templates.
+ * Implements hook_preprocess_system_modules_uninstall() for HTML document
+ * templates.
  *
- * force the checkbox to use a new twig template input--switch so that the markup can be differet.
+ * force the checkbox to use a new twig template input--switch so that the
+ * markup can be differet.
  */
 function material_admin_preprocess_system_modules_uninstall(&$variables) {
   foreach ($variables['modules'] as &$module) {
@@ -115,8 +115,44 @@ function material_admin_preprocess_menu_local_action(&$variables) {
 }
 
 /**
- * Implements hook_preprocess_page_attachments_alter() for HTML document templates.
+ * Implements hook_preprocess_page_attachments_alter() for HTML document
+ * templates.
  */
 function material_admin_page_attachments_alter(&$page) {
   $page['#attached']['drupalSettings']['material_admin']['material_admin_message_length'] = theme_get_setting('material_admin_message_length');
+}
+
+/**
+ * Implements hook_reprocess_views_ui_display_tab_setting().
+ */
+function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
+  if (count($variables['settings_links']) === 1 && empty($variables['description'])) {
+    /** @var \Drupal\Core\GeneratedLink $link */
+    $link = &$variables['settings_links'][0];
+    $generated_link = $link->getGeneratedLink();
+    $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
+    $link->setGeneratedLink($generated_link);
+    $variables['single_link'] = TRUE;
+  }
+}
+
+/**
+ * Implements hook_reprocess_links().
+ */
+function material_admin_preprocess_links__dropbutton(&$variables) {
+  if (count($variables['links']) === 1) {
+    $classes = ['btn', 'grey', 'lighten-3', 'grey-text', 'text-darken-2'];
+    $views_classes = ['btn', 'btn-flat', 'darken-3', 'text-darken-2'];
+    foreach ($variables['links'] as &$link) {
+      if (isset($link['link'])) {
+        $link_classes = &$link['link']['#options']['attributes']['class'];
+        if (in_array('views-ajax-link', $link_classes)) {
+          $link_classes = array_merge($link_classes, $views_classes);
+        }
+        else {
+          $link_classes = array_merge($link_classes, $classes);
+        }
+      }
+    }
+  }
 }

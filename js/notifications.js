@@ -69,4 +69,4 @@
       $('#notification-wrapper').show();
     }
   }
-})(jQuery, Drupal);
+}(jQuery, Drupal));
