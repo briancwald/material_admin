@@ -315,9 +315,11 @@ table {
 .dropdown-content {
   li {
     .button {
+      display: block;
       background: none;
       color: inherit;
       box-shadow: none;
+      padding: inherit;
     }
   }
 }
@@ -656,4 +658,14 @@ tr.field-plugin-settings-editing {
 
 .views-ui-display-tab-bucket {
   padding-top: 0;
+}
+
+.views-ui-display-tab-actions .dropbutton-wrapper li a,
+.views-ui-display-tab-actions .dropbutton-wrapper input {
+  font-size: 16px;
+  color: #26a69a;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+  text-transform: none;
 }

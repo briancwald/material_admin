@@ -10873,15 +10873,17 @@ table {
 
 /* line 317, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .dropdown-content li .button {
+  display: block;
   background: none;
   color: inherit;
-  box-shadow: none; }
+  box-shadow: none;
+  padding: inherit; }
 
-/* line 337, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 339, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 h2.theme-list-title {
   padding: 2rem; }
 
-/* line 342, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 344, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 span.theme-status-indicator {
   position: absolute;
   top: 0;
@@ -10890,81 +10892,81 @@ span.theme-status-indicator {
   padding: 5px 10px;
   z-index: 2; }
 
-/* line 354, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 356, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before {
   content: "";
   padding-right: 5px; }
 
-/* line 360, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 362, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
   content: ""; }
 
-/* line 366, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 368, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .details-item .collapsible-body {
   padding: 15px; }
 
-/* line 372, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 374, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 #block-material-admin-page-title h1.page-title em {
   text-transform: uppercase;
   font-size: .7em;
   font-style: normal;
   vertical-align: baseline;
   font-weight: 100; }
-  /* line 379, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 381, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   #block-material-admin-page-title h1.page-title em:after {
     content: "";
     padding-left: 10px;
     font-size: .5em;
     vertical-align: bottom; }
 
-/* line 390, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 392, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 table .region-title {
   font-weight: normal; }
 
-/* line 397, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 399, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 table td {
   font-weight: 200; }
 
-/* line 401, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 403, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 table thead th {
   font-weight: normal; }
 
-/* line 407, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 409, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .tablesort.tablesort--asc {
   background-image: none; }
-  /* line 409, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 411, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .tablesort.tablesort--asc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 415, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 417, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .tablesort.tablesort--desc {
   background-image: none; }
-  /* line 417, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 419, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .tablesort.tablesort--desc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 425, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 427, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 tr.drag {
   border-bottom: 1px dashed #666;
   border-top: 1px dashed #666; }
 
-/* line 431, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 433, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
   border-bottom: 2px dashed #f0f4c3;
   border-top: 2px dashed #f0f4c3; }
 
-/* line 437, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 439, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 tr.field-plugin-settings-editing {
   border-bottom: 2px dashed #666;
   border-top: 2px dashed #666; }
 
-/* line 443, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 445, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {
   padding: 10px; }
 
-/* line 447, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 449, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
   /* With less: .text-overflow(); */
   white-space: nowrap;
@@ -10972,11 +10974,11 @@ tr.field-plugin-settings-editing {
   text-overflow: ellipsis;
   display: inline-block; }
 
-/* line 456, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 458, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li:first-child a {
   visibility: hidden;
   max-width: 20px; }
-  /* line 459, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 461, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
@@ -10984,77 +10986,77 @@ tr.field-plugin-settings-editing {
     text-indent: 0;
     visibility: visible; }
 
-/* line 471, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 473, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 476, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 478, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 480, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 482, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 483, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 485, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 490, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 492, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 495, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 497, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 498, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+    /* line 500, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 505, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 507, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 509, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+    /* line 511, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 516, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 518, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 519, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+    /* line 521, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 
-/* line 527, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 529, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .collection .collection-item > .item-list .collection {
   border: none; }
-  /* line 529, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 531, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .collection .collection-item > .item-list .collection .collection-item {
     border: none; }
-    /* line 530, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+    /* line 532, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
     .collection .collection-item > .item-list .collection .collection-item:before {
       content: "";
       padding-right: 5px; }
 
-/* line 541, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 543, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .collection.item-list__comma-list {
   border: none; }
-  /* line 543, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 545, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .collection.item-list__comma-list .collection-item {
     line-height: 1em;
     border: none;
     padding: inherit; }
 
-/* line 550, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 552, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .sticky-node-actions {
   position: fixed;
   bottom: 0;
@@ -11064,62 +11066,62 @@ tr.field-plugin-settings-editing {
   border-top: 1px solid #bdbdbd;
   z-index: 100; }
 
-/* line 562, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 564, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .admin-requirements.collapsible-body {
   padding: 1em; }
-  /* line 564, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 566, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .admin-prevent-text {
     padding: .5em;
     margin-bottom: .5em;
     display: block;
     font-weight: bold; }
-  /* line 571, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 573, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .item-list li {
     padding: 10px 0; }
 
-/* line 579, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 581, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .card .card-content .card-title {
   max-width: 90%;
   position: relative; }
-  /* line 582, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 584, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .card .card-content .card-title i {
     top: 0;
     right: -10%;
     position: absolute; }
 
-/* line 590, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 592, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .card .card-image img {
   max-height: 300px;
   width: 100%;
   width: auto;
   margin: 0 auto; }
 
-/* line 601, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 603, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket__title {
   font-size: 1.5rem; }
 
-/* line 605, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 607, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0; }
 
-/* line 610, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 612, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-display-column {
   border: none; }
 
-/* line 614, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 616, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
   background-color: #fff; }
 
-/* line 618, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 620, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting {
   font-size: inherit; }
 
-/* line 622, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 624, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-display-setting .label, .views-display-setting .views-ajax-link {
   float: none; }
 
-/* line 626, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 628, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-admin .dropbutton-wrapper a.icon.add {
   text-indent: 0;
   background: inherit;
@@ -11127,28 +11129,38 @@ tr.field-plugin-settings-editing {
   width: inherit;
   border: inherit; }
 
-/* line 634, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 636, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-admin .dropbutton-wrapper a.icon.add:hover {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: none; }
 
-/* line 639, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 641, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-admin .collection-item,
 .views-admin .collection {
   overflow: visible; }
 
-/* line 644, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 646, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
   padding: 0; }
 
-/* line 652, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 654, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .dropbutton-wrapper {
   position: absolute;
   right: 0; }
 
-/* line 657, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 659, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket {
   padding-top: 0; }
+
+/* line 663, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+.views-ui-display-tab-actions .dropbutton-wrapper li a,
+.views-ui-display-tab-actions .dropbutton-wrapper input {
+  font-size: 16px;
+  color: #26a69a;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+  text-transform: none; }
 
 /* @file
  * Common low level styles
