@@ -28,8 +28,7 @@
           $(this).addClass('dropdown-content');
         }
 
-        var buttonWidth =  $(this).outerWidth();
-        $(this).find('.dropdown-content li').css('min-width', buttonWidth);
+        $(this).find('li').css('min-width', $dropbutton.outerWidth());
 
         $dropbutton.dropdown({
           inDuration: 300,
