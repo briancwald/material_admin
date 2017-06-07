@@ -19,7 +19,7 @@
           else {
             btn_classes = 'dropdown-button btn grey lighten-3 grey-text text-darken-2';
           }
-          $dropbutton = $('<a class="' + btn_classes + '" href="#">' + Drupal.t('MANAGE') + '</a>');
+          $dropbutton = $('<a class="' + btn_classes + '" href="#" data-constrainWidth="0">' + Drupal.t('MANAGE') + '</a>');
           $(this).before($dropbutton);
         }
         $dropbutton.attr('data-activates', $(this).attr('id'));
@@ -31,7 +31,7 @@
         var buttonWidth =  $(this).outerWidth();
         $(this).find('.dropdown-content li').css('min-width', buttonWidth);
 
-        $(this).dropdown({
+        $dropbutton.dropdown({
           inDuration: 300,
           outDuration: 225,
           gutter: 0,

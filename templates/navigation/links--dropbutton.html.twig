@@ -45,7 +45,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if links|length > 1 -%}
-  <a class="{{ btn_classses }}" href="#">{% trans %}MANAGE{% endtrans %}</a>
+  <a class="{{ btn_classses }}" href="#" data-constrainWidth="0">{% trans %}MANAGE{% endtrans %}</a>
   <ul{{ attributes.addClass('dropdown-content') }}>
     {%- for item in links -%}
       <li{{ item.attributes }}>
