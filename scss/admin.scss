@@ -669,3 +669,14 @@ tr.field-plugin-settings-editing {
 .views-display-top .dropbutton-wrapper {
   z-index: 1;
 }
+
+details.views-display-column.form-wrapper {
+  margin-left: 2%;
+  margin-top: 0.5rem;
+  > .details-wrapper {
+    padding: 0;
+  }
+  .collection:not(:first-child) {
+    border-top: 1px solid #e0e0e0;
+  }
+}
