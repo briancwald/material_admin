@@ -299,3 +299,8 @@ a#edit-cancel {
   padding-top:10px;
 }
 
+form:valid .input-field label.form-required  {
+  font-size: 0.8rem;
+  -ms-transform: translateY(-140%);
+  transform: translateY(-140%);
+}
