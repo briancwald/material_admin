@@ -260,3 +260,8 @@ span.marker {
  .ckeditor-buttons:before, .ckeditor-buttons:after, .ckeditor-buttons {
   box-sizing:initial;
  }
+
+//hide border from getting added to tabs by jqueryUI
+ .tabs.tabs-transparent {
+  border:none;
+ }

@@ -31,7 +31,6 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
   }
 
   $form['#theme'] = array('node_edit_form');
-
   $form['advanced']['#type'] = 'container';
   $is_new = !$node->isNew() ? format_date($node->getChangedTime(), 'short') : t('Not saved yet');
   $form['meta'] = array(
@@ -61,4 +60,15 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
   );
   $form['revision_information']['#type'] = 'container';
   $form['revision_information']['#group'] = 'meta';
+  if (isset($form['moderation_state'])) {
+    $form['moderation_wrapper'] = array(
+      '#type' => 'container',
+      '#group' => 'advanced',
+      '#weight' => 100,
+      '#attributes' => array(
+        'class' => 'entity-moderation-wrapper',
+        ),
+      );
+    $form['moderation_state']['#group'] = 'moderation_wrapper';
+  }
 }
