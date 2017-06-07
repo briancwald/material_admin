@@ -189,7 +189,7 @@ a.modal-trigger {
 }
 
 table.highlight > tbody > tr:hover {
-  @extend .teal, .lighten-5;
+  @extend .grey, .lighten-3;
   color: $black;
   a, button {
     cursor: pointer;
@@ -197,11 +197,9 @@ table.highlight > tbody > tr:hover {
 }
 
 table.highlight > tbody > tr.selected {
-  @extend .teal, .lighten-4;
-  @extend .white-text;
+  @extend .grey, .lighten-4 ;
   a {
-    @extend .white-text;
-    text-decoration: underline;
+    text-decoration: none;
   }
   a.dropdown-button {
     @extend .grey-text, .text-darken-2;
@@ -215,7 +213,7 @@ table.highlight > tbody > tr.selected {
     }
   }
   td {
-    @extend .teal, .lighten-3;
+    @extend .grey, .lighten-4;
   }
 }
 
@@ -403,6 +401,9 @@ table td {
 table thead th {
   @extend .grey-text;
   font-weight: normal;
+  a {
+    @extend .black-text;
+  }
 }
 
 .tablesort {

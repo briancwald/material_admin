@@ -39,8 +39,10 @@
  * @see template_preprocess_table()
  */
 #}
+{% set highlight = ['highlight', 'bordered'] %}
+
 <div class="table-wrapper">
-<table{{ attributes.addClass(classes) }}>
+<table{{ attributes.addClass(classes).addClass(highlight) }}>
   {% if caption %}
     <caption>{{ caption }}</caption>
   {% endif %}
