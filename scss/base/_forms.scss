@@ -23,8 +23,8 @@
 
 .select-wrapper {
   max-width: 450px;
-  display:inline-block!important;
-  width:100%;
+  display: inline-block!important;
+  width: 100%;
   .input.select-dropdown {
     max-width: inherit;
   }
@@ -38,7 +38,7 @@
 
 .form-item, .filter-wrapper .form-item {
   margin: 25px 0;
-  position:relative;
+  position: relative;
   .form-required {
     &:after {
       content: " *";
@@ -48,12 +48,12 @@
 }
 
 .filter-wrapper {
-  overflow:initial;
+  overflow: initial;
 }
 
 //form items in tables require less margin
 table td > .form-item {
-  margin:10px 0;
+  margin: 10px 0;
 }
 
 .input-field.js-form-type-checkbox label {
@@ -75,11 +75,12 @@ input[type=checkbox] {
 }
 
 input.btn {
-  margin:5px;
+  margin: 5px;
   @media #{$medium-and-down} {
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
 }
+
 .draggable {
   min-height: 30px;
   a.tabledrag-handle {
@@ -130,8 +131,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 }
 
 h4.label {
-  font-size:1rem;
-  font-weight:bold;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 //instead of replacing the collapsible with materialize which can cause issues with drupal AJAX, style the default details
@@ -140,7 +141,7 @@ details.form-wrapper {
   summary {
     @extend .collapsible-header;
     &:focus {
-      outline:0;
+      outline: 0;
     }
   }
   .details-wrapper {
@@ -151,6 +152,7 @@ details.form-wrapper {
 .entity-meta__header {
   @extend .shadow-box;
 }
+
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold;
@@ -182,7 +184,7 @@ details.form-wrapper {
     transition: all 0.3s;
     &:focus {
       border: 1px solid map-get($teal, base);
-      box-shadow: 0 0 0 1px map-get($teal,base);
+      box-shadow: 0 0 0 1px map-get($teal, base);
       outline: none;
     }
   }
@@ -190,12 +192,12 @@ details.form-wrapper {
 
 .container-inline .form-item {
   padding-right: 10px;
-  display:inline;
+  display: inline;
 }
 
 .form--inline, .dblog-filter-form {
   .form-actions {
-    padding:0 10px;
+    padding: 0 10px;
   }
 }
 
@@ -216,7 +218,7 @@ details.form-wrapper {
   padding: 4px 0;
   margin: 0 0 10px 25px;
   list-style: none;
-  background-color: map-get($shades,white);
+  background-color: map-get($shades, white);
   border-color: map-get($grey, lighten-1);
   border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
@@ -224,7 +226,7 @@ details.form-wrapper {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  box-shadow:none;
+  box-shadow: none;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -268,34 +270,44 @@ a#edit-cancel {
 
 //machine name display/edit
 .field-suffix {
- small {
-    padding:0 10px;
+  small {
+    padding: 0 10px;
     span.machine-name-value {
-      font-weight:bold;
+      font-weight: bold;
     }
     span.admin-link {
-      margin:0 10px;
+      margin: 0 10px;
       @extend .btn-flat
     }
   }
 }
 
 // field-prefix for inline values
-
 .input-field .field-prefix {
-  padding-right:10px;
+  padding-right: 10px;
 }
 
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
-  display:inline;
+  display: inline;
 }
 
 .entity-moderation-wrapper {
-  padding-top:10px;
+  padding-top: 10px;
 }
 
-form:valid .input-field label.form-required  {
+form:valid .input-field label.form-required {
   font-size: 0.8rem;
   -ms-transform: translateY(-140%);
   transform: translateY(-140%);
 }
+
+.input-field.file-field {
+  &.form-has-label {
+    margin-top: 45px;
+    label {
+      @extend .active;
+      top: 0;
+    }
+  }
+}
+

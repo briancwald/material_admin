@@ -3194,11 +3194,11 @@ td, th {
     .collection .collection-item:last-child {
       border-bottom: none; }
     /* line 545, node_modules/materialize-css/sass/components/_global.scss */
-    .collection .collection-item.active {
+    .collection .collection-item.active, .collection .input-field.file-field.form-has-label label.collection-item, .input-field.file-field.form-has-label .collection label.collection-item {
       background-color: #26a69a;
       color: #eafaf9; }
       /* line 549, node_modules/materialize-css/sass/components/_global.scss */
-      .collection .collection-item.active .secondary-content {
+      .collection .collection-item.active .secondary-content, .collection .input-field.file-field.form-has-label label.collection-item .secondary-content, .input-field.file-field.form-has-label .collection label.collection-item .secondary-content {
         color: #fff; }
   /* line 554, node_modules/materialize-css/sass/components/_global.scss */
   .collection a.collection-item {
@@ -3206,7 +3206,7 @@ td, th {
     transition: .25s;
     color: #26a69a; }
     /* line 559, node_modules/materialize-css/sass/components/_global.scss */
-    .collection a.collection-item:not(.active):hover {
+    .collection a.collection-item:not(.active):not(.input-field.file-field.form-has-label label):hover {
       background-color: #ddd; }
   /* line 566, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-header {
@@ -4600,7 +4600,7 @@ button.btn-floating {
   margin-bottom: 0;
   z-index: 998; }
   /* line 148, node_modules/materialize-css/sass/components/_buttons.scss */
-  .fixed-action-btn.active ul {
+  .fixed-action-btn.active ul, .input-field.file-field.form-has-label label.fixed-action-btn ul {
     visibility: visible; }
   /* line 153, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn.horizontal {
@@ -4625,7 +4625,7 @@ button.btn-floating {
     padding: 0;
     height: 56px; }
     /* line 174, node_modules/materialize-css/sass/components/_buttons.scss */
-    .fixed-action-btn.toolbar.active > a i {
+    .fixed-action-btn.toolbar.active > a i, .input-field.file-field.form-has-label label.fixed-action-btn.toolbar > a i {
       opacity: 0; }
     /* line 182, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn.toolbar ul {
@@ -5053,7 +5053,7 @@ textarea.materialize-textarea {
     transition: .2s ease-out;
     text-align: initial; }
     /* line 163, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
-    .input-field label:not(.label-icon).active {
+    .input-field label:not(.label-icon).active, .input-field.file-field.form-has-label label:not(.label-icon) {
       font-size: 0.8rem;
       -ms-transform: translateY(-140%);
           transform: translateY(-140%); }
@@ -5064,7 +5064,7 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: color .2s; }
     /* line 176, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
-    .input-field .prefix.active {
+    .input-field .prefix.active, .input-field.file-field.form-has-label label.prefix {
       color: #26a69a; }
   /* line 179, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input,
@@ -5767,10 +5767,10 @@ input[type=range] + .thumb {
     -ms-transform: rotate(45deg);
         transform: rotate(45deg); }
   /* line 51, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
-  input[type=range] + .thumb.active {
+  input[type=range] + .thumb.active, .input-field.file-field.form-has-label input[type=range] + label.thumb {
     border-radius: 50% 50% 50% 0; }
     /* line 54, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_range.scss */
-    input[type=range] + .thumb.active .value {
+    input[type=range] + .thumb.active .value, .input-field.file-field.form-has-label input[type=range] + label.thumb .value {
       color: #fff;
       margin-left: -1px;
       margin-top: 8px;
@@ -7104,7 +7104,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   transition: background-color 300ms;
   background-color: rgba(0, 150, 136, 0); }
   /* line 202, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .clockpicker-tick.active, .clockpicker-tick:hover {
+  .clockpicker-tick.active, .input-field.file-field.form-has-label label.clockpicker-tick, .clockpicker-tick:hover {
     background-color: rgba(0, 150, 136, 0.25); }
 
 /* line 208, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
@@ -7143,7 +7143,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke: none;
   fill: rgba(0, 77, 64, 0); }
   /* line 256, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .clockpicker-canvas-fg.active {
+  .clockpicker-canvas-fg.active, .input-field.file-field.form-has-label label.clockpicker-canvas-fg {
     fill: rgba(0, 77, 64, 0.5); }
 
 /* line 261, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
@@ -7194,7 +7194,7 @@ button {
   background-color: transparent; }
 
 /* line 312, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active {
+.btn-floating.btn-flat.active, .btn-floating.active.button-link, .input-field.file-field.form-has-label label.btn-floating.button-link, .input-field.file-field.form-has-label .tabledrag-toggle-weight-wrapper label.btn-floating.tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .input-field.file-field.form-has-label label.btn-floating.tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, .input-field.file-field.form-has-label label.btn-floating.button--small, #edit-actions .btn-floating.active.button--danger, #edit-actions .input-field.file-field.form-has-label label.btn-floating.button--danger, .input-field.file-field.form-has-label #edit-actions label.btn-floating.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .input-field.file-field.form-has-label label.btn-floating.btn-flat, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active {
   background-color: rgba(0, 150, 136, 0.25); }
 
 /* line 315, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
@@ -10279,7 +10279,7 @@ td, th {
   display: inline; }
 
 /* line 88, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .breadcrumb-nav ol li:first-child a:before, .collection .collection-item > .item-list .collection .collection-item:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
+.fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .dropdown-button:after, .dropdown-button.active:after, .input-field.file-field.form-has-label label.dropdown-button:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .details-item .input-field.file-field.form-has-label label.collapsible-header:before, .input-field.file-field.form-has-label .details-item label.collapsible-header:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .breadcrumb-nav ol li:first-child a:before, .collection .collection-item > .item-list .collection .collection-item:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
   vertical-align: top;
   display: inline-block;
   font-family: 'FontAwesome';
@@ -10484,109 +10484,109 @@ input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-t
     input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
       margin-bottom: 1em; } }
 
-/* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 84, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .draggable {
   min-height: 30px; }
-  /* line 85, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .draggable a.tabledrag-handle {
     float: none;
     display: inline-block;
     overflow: visible;
     height: auto; }
-    /* line 90, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 91, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .draggable a.tabledrag-handle .handle {
       width: 30px;
       height: 30px; }
 
-/* line 97, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 98, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr.warning {
   text-decoration: none; }
 
-/* line 102, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 103, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .switch label {
   white-space: nowrap; }
 
-/* line 106, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 107, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 110, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 111, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr[title] {
   border-bottom: none; }
 
-/* line 115, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 116, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }
 
-/* line 122, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 123, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .js-form-type-checkbox label.visually-hidden {
   position: relative !important;
   clip: inherit;
   visibility: hidden; }
-  /* line 126, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 127, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 133, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 h4.label {
   font-size: 1rem;
   font-weight: bold; }
 
-/* line 142, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 143, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper summary:focus {
   outline: 0; }
 
-/* line 146, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 2rem; }
 
-/* line 154, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 157, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 159, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 165, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 167, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 170, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 172, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 174, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
   padding: 10px;
   height: auto;
   transition: all 0.3s; }
-  /* line 183, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 185, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .form-textarea-wrapper textarea:focus {
     border: 1px solid #009688;
     box-shadow: 0 0 0 1px #009688;
     outline: none; }
 
-/* line 191, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px;
   display: inline; }
 
-/* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 199, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form--inline .form-actions, .dblog-filter-form .form-actions {
   padding: 0 10px; }
 
-/* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 205, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 210, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -10608,7 +10608,7 @@ details.form-wrapper .details-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 235, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 237, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -10619,7 +10619,7 @@ details.form-wrapper .details-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 246, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 248, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover, .ui-state-active {
   text-decoration: none;
   background-color: #1976D2;
@@ -10628,33 +10628,40 @@ details.form-wrapper .details-wrapper {
   -moz-border-radius: 0px;
   background-image: none; }
 
-/* line 271, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 273, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .field-suffix small {
   padding: 0 10px; }
-  /* line 273, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 275, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.machine-name-value {
     font-weight: bold; }
-  /* line 276, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 278, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.admin-link {
     margin: 0 10px; }
 
-/* line 285, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 286, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field .field-prefix {
   padding-right: 10px; }
 
-/* line 289, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 290, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
   display: inline; }
 
-/* line 293, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 294, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-moderation-wrapper {
   padding-top: 10px; }
 
-/* line 297, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 298, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 form:valid .input-field label.form-required {
   font-size: 0.8rem;
   -ms-transform: translateY(-140%);
   transform: translateY(-140%); }
+
+/* line 305, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.input-field.file-field.form-has-label {
+  margin-top: 45px; }
+  /* line 307, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .input-field.file-field.form-has-label label {
+    top: 0; }
 
 /* @file
  * Specific styling for admin
@@ -10868,7 +10875,7 @@ table {
     content: "";
     display: inline; }
   /* line 304, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-  .dropdown-button.active:after {
+  .dropdown-button.active:after, .input-field.file-field.form-has-label label.dropdown-button:after {
     margin-left: 10px;
     content: "";
     display: inline; }
@@ -10900,7 +10907,7 @@ span.theme-status-indicator {
   padding-right: 5px; }
 
 /* line 360, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-.details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
+.details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .details-item .input-field.file-field.form-has-label label.collapsible-header:before, .input-field.file-field.form-has-label .details-item label.collapsible-header:before {
   content: ""; }
 
 /* line 366, /Users/brian.wald/Sites/material_admin/scss/admin.scss */

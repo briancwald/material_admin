@@ -10,4 +10,11 @@
  * @see template_preprocess_input()
  */
 #}
-<input{{ attributes }} />{{ children }}
+<div class="btn file-upload-btn">
+	<span><i class="fa fa-upload"></i> Browse</span>
+	<input{{ attributes }} />
+</div>
+	{{ children }}   
+	<div class="file-path-wrapper">
+    <input class="file-path validate" type="text" placeholder="Upload">
+ 	</div>
