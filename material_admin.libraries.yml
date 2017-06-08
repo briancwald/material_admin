@@ -43,3 +43,10 @@ dropbutton:
     - core/drupal
     - core/jquery
     - core/jquery.ui
+
+color:
+  version: VERSION
+  js:
+    js/color.js: {}
+  dependencies:
+    - core/jquery

@@ -15,7 +15,7 @@
       });
     }
   };
-
+  
   //trigger select boxes to be replaced with li for better styling
   // (not intended for cardinality select boxes)
   Drupal.behaviors.material_select_box = {

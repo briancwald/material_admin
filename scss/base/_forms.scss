@@ -99,13 +99,11 @@ abbr.warning {
   text-decoration: none;
 }
 
-
-
 .switch label {
   white-space: nowrap;
 }
 
-input-field.js-form-type-checkbox label {
+.input-field.js-form-type-checkbox label {
   top: 0;
 }
 
@@ -123,11 +121,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .js-form-type-checkbox {
   label.visually-hidden {
     position: relative!important;
-    text-indent: -999999px;
     clip: inherit;
-    overflow: visible;
     visibility: hidden;
-    display:block;
     &:before, &:after {
       visibility: visible;
     }

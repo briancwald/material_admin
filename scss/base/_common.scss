@@ -36,11 +36,6 @@ td, th {
   }
 }
 
-.flow-text {
-  @media #{$large-and-up} {
-    font-size: 1.2em;
-  }
-}
 .error-text-color {
   @extend .red-text, .text-lighten-3;
 }
@@ -200,10 +195,6 @@ details {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
-}
-
-.views-field-node-bulk-form {
-  padding-left: 10px;
 }
 
 .button--small {

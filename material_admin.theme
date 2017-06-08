@@ -156,3 +156,7 @@ function material_admin_preprocess_links__dropbutton(&$variables) {
     }
   }
 }
+
+function material_admin_preprocess_color_scheme_form(&$variables) {
+  $variables['#attached']['library'][] =  'material_admin/color';
+}

@@ -1,0 +1,63 @@
+/* @file
+ * Color module override
+ *
+ */
+
+.color-form {
+  .wrap-placeholder-fab {
+    @extend .col, .m3;
+  }
+}
+
+.color-palette {
+
+  .form-item:not(.form-item-scheme) {
+    display:inline;
+    @extend .col, .m4, .s12;
+    input {
+      width:70%;
+      margin-right:5px;
+      margin-top:15px;
+      padding:0 5px;
+    }
+  }
+  .color-palette__hook {
+    display:inline-block;
+    width:10%;
+    height:20px;
+    &.is-up {
+      &:before {
+      content: $fa-var-link;
+      @extend .fa-standard;
+      position: absolute;
+      display: inline-block;
+      text-indent: 0;
+    }
+  }
+  }
+  button.color-palette__lock, .color-palette__lock {
+    width: 10%;
+    display:inline-block;
+    background: none;
+    border: 0;
+    height: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    &:before {
+      content: $fa-var-lock;
+      @extend .fa-standard;
+      position: absolute;
+      left: 0;
+      display: inline-block;
+      text-indent: 0;
+    }
+    &.is-unlocked {
+      &:before {
+        content: $fa-var-unlock;
+      }
+    }
+  }
+}

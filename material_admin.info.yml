@@ -25,6 +25,7 @@ stylesheets-remove:
   - '@stable/css/system/components/autocomplete-loading.module.css'
   - '@stable/css/system/components/ajax-progress.module.css'
   - '@stable/css/core/vertical-tabs.css'
+  - '@stable/css/color/color.admin.css'
 
 libraries-override:
   core/drupal.dropbutton: material_admin/dropbutton

@@ -399,8 +399,9 @@ table td {
 }
 
 table thead th {
-  @extend .grey-text;
+  @extend .grey-text, .darken-1;
   font-weight: normal;
+  font-size:.9em;
   a {
     @extend .black-text;
   }
