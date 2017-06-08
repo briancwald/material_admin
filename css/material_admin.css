@@ -10663,6 +10663,16 @@ form:valid .input-field label.form-required {
   .input-field.file-field.form-has-label label {
     top: 0; }
 
+/* line 314, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.input-field .search-wrapper {
+  margin: 0 12px; }
+  /* line 316, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .input-field .search-wrapper input[type=search] {
+    padding-left: 0; }
+    /* line 318, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    .input-field .search-wrapper input[type=search]:focus {
+      border-bottom: 1px solid #26a69a; }
+
 /* @file
  * Specific styling for admin
  *

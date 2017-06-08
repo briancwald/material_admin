@@ -310,4 +310,16 @@ form:valid .input-field label.form-required {
     }
   }
 }
+.input-field {
+  .search-wrapper {
+    margin: 0 12px;
+    input[type=search] {
+      padding-left: 0;
+      &:focus {
+        border-bottom: 1px solid map-get($teal, lighten-1)
+      }
+    }
+  }
+}
+
 
