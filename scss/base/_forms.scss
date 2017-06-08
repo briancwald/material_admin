@@ -295,9 +295,15 @@ a#edit-cancel {
   padding-top: 10px;
 }
 
-form:valid .input-field label.form-required {
+.input-field.has-initial-content .select-wrapper + label {
+  position: absolute;
+  top: -14px;
   font-size: 0.8rem;
-  -ms-transform: translateY(-140%);
+  transform: inherit;
+}
+
+.input-field.has-initial-content label {
+  font-size: 0.8rem;
   transform: translateY(-140%);
 }
 

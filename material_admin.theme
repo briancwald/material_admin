@@ -137,7 +137,7 @@ function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
 }
 
 /**
- * Implements hook_reprocess_links().
+ * Implements hook_preprocess_links().
  */
 function material_admin_preprocess_links__dropbutton(&$variables) {
   if (count($variables['links']) === 1) {
@@ -157,6 +157,9 @@ function material_admin_preprocess_links__dropbutton(&$variables) {
   }
 }
 
+/**
+ * Implements hook_preprocess_color_scheme_form().
+ */
 function material_admin_preprocess_color_scheme_form(&$variables) {
   $variables['#attached']['library'][] =  'material_admin/color';
 }

@@ -113,6 +113,12 @@
         // resize on page load
         .each(resizeInput);
     }
-  }
+  };
+
+  Drupal.behaviors.material_admin_remove_initial_content = {
+    attach: function (context, settings) {
+      $('.has-initial-content', context).removeClass('has-initial-content');
+    }
+  };
 
 }(jQuery, Drupal));
