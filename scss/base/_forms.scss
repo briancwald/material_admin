@@ -321,4 +321,21 @@ form:valid .input-field label.form-required {
   }
 }
 
+//special case colleciton with links and no links to allow for large click area
+.help-collection .collection {
+  .collection-item.has-collection-link{
+    padding:0;
+    a {
+      padding:10px 20px;
+      display:block;
+      width:100%;
+      @extend .teal-text, .lighten-1;
+      &:hover {
+        background:#ddd;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 
