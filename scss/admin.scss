@@ -684,3 +684,21 @@ details.views-display-column.form-wrapper {
     border-bottom: 1px solid #e0e0e0;
   }
 }
+
+.collection > .collection.views-subcollection {
+  &:first-of-type {
+    padding-top: 1rem;
+  }
+  padding-top: .5rem;
+  .label {
+    font-size: 1.3rem;
+    padding-left: 15px;
+  }
+  .collection-item {
+    padding-left: 40px;
+    border: none;
+    &:first-of-type {
+      margin-top: 5px;
+    }
+  }
+}

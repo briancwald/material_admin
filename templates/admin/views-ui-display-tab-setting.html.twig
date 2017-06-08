@@ -23,7 +23,7 @@
     'views-ui-display-tab-setting',
     defaulted ? 'defaulted',
     overridden ? 'overridden',
-    not single_link ? 'collection-item',
+    description ? 'collection views-subcollection'
 ]
 %}
 <div{{ attributes.addClass(classes) }}>
@@ -31,6 +31,6 @@
     <span class="label">{{ description }}</span>
   {%- endif %}
   {% if settings_links %}
-    {{ settings_links|safe_join('<span class="label">&nbsp;|&nbsp;</span>') }}
+    {{ settings_links|safe_join }}
   {% endif %}
 </div>

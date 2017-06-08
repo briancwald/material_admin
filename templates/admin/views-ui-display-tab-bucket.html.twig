@@ -26,6 +26,8 @@
 <div{{ attributes.addClass(classes) }}>
   {% if title -%}
     <h3 class="collection-header views-ui-display-tab-bucket__title">{{ title }}</h3>
+  {% elseif attributes.hasClass('access') %}
+    <h3 class="collection-header views-ui-display-tab-bucket__title">{{ 'Access' | t }}</h3>
   {%- endif %}
   {% if actions -%}
     {{ actions }}

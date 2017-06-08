@@ -126,13 +126,14 @@ function material_admin_page_attachments_alter(&$page) {
  * Implements hook_reprocess_views_ui_display_tab_setting().
  */
 function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
-  if (count($variables['settings_links']) === 1 && empty($variables['description'])) {
+  foreach ($variables['settings_links'] as &$link) {
+    if (!empty($variables['description'])) {
+      $variables['description'] = str_replace(':', '', $variables['description']);
+    }
     /** @var \Drupal\Core\GeneratedLink $link */
-    $link = &$variables['settings_links'][0];
     $generated_link = $link->getGeneratedLink();
     $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
     $link->setGeneratedLink($generated_link);
-    $variables['single_link'] = TRUE;
   }
 }
 
