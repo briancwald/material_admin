@@ -77,6 +77,7 @@
   </section>
   <main role="main-wrapper">
     <div class="row">
+      <div class="s12 col">
       <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
       <div class="layout-content">
         {{ page.content }}
@@ -89,6 +90,7 @@
         {{ page.sidebar_second }}
       </aside>
       {% endif %}
+    </div>
     </div>
   </main>
   {% if page.footer %}

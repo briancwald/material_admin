@@ -256,3 +256,9 @@ span.marker {
  .tabs.tabs-transparent {
   border:none;
  }
+
+ //offset top tabs by removing the row margin to line the text up with the header 
+
+ .offset-tabs {
+  margin-left:-20px
+ }
