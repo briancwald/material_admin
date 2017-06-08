@@ -55,7 +55,7 @@
     </div>
   </div>
   <header class="header-wrapper shadow" role="banner">
-    <div class="row">
+    <div class="row material-container">
       <div class="s12 col">
                 <div class="collection right" id="notification-wrapper">
           <a class="modal-trigger collection-item message-trigger waves-effect" href="#messageContainer"><span class="fa fa-inbox"></span> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge messages--status">0</span><span class="badge messages--warning">0</span><span class="badge messages--error">0</span></a>
@@ -66,7 +66,7 @@
     </div>
   </header>
   <section class="utility-wrapper">
-    <div class="row">
+    <div class="row material-container">
       <div class="s12 col">
       {{ page.primary_menu }}{{ page.breadcrumb }}
     </div>
@@ -76,7 +76,7 @@
       {{ page.highlighted }}
   </section>
   <main role="main-wrapper">
-    <div class="row">
+    <div class="row material-container">
       <div class="s12 col">
       <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
       <div class="layout-content">
@@ -95,7 +95,9 @@
   </main>
   {% if page.footer %}
   <footer role="contentinfo">
-    {{ page.footer }}
+    <div clas="row material-container">
+      {{ page.footer }}
+    </div>
   </footer>
   {% endif %}
 </div>{# /.layout-container #}

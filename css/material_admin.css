@@ -10254,31 +10254,37 @@ h3 {
 body {
   font-family: "Roboto", sans-serif; }
 
-/* line 23, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+@media only screen and (min-width: 601px) {
+  /* line 24, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  .material-container, .material-conatainer.row, .material-conatainer.form-type-vertical-tabs {
+    width: 95%;
+    margin: 0 auto !important; } }
+
+/* line 30, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 td, th {
   padding: 15px; }
 
-/* line 29, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 36, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .description .material-tooltip {
   max-width: 36em;
   line-height: 1.5em;
   font-weight: 100; }
 
-/* line 34, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 41, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .description .tooltipped {
   font-size: .8em; }
 
-/* line 65, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 72, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button-action:before {
   content: "";
   color: #fefefe;
   margin: 0 10px 0 0px; }
 
-/* line 76, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .inline {
   display: inline; }
 
-/* line 88, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 95, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .breadcrumb-nav ol li:before, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, #block-material-admin-page-title h1.page-title em:after, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .breadcrumb-nav ol li:first-child a:before, .collection .collection-item > .item-list .collection .collection-item:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
   vertical-align: top;
   display: inline-block;
@@ -10287,25 +10293,20 @@ td, th {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
-/* line 97, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .toast {
   word-break: normal; }
 
-@media only screen and (min-width: 601px) {
-  /* line 102, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-  main .row, main .form-type-vertical-tabs {
-    margin: 0 10px; } }
-
-/* line 107, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 108, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .row, .form-type-vertical-tabs {
   padding: 20px;
   margin: 0; }
 
-/* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 114, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .region-status .row, .region-status .form-type-vertical-tabs {
   padding: 0; }
 
-/* line 118, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 119, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper input.select-dropdown {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -10313,109 +10314,109 @@ td, th {
   -o-user-select: none;
   user-select: none; }
 
-/* line 130, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 131, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a {
   margin: 0 10px; }
 
-/* line 134, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 135, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 139, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 140, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 141, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 142, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 149, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 150, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 151, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 156, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 157, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 163, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 164, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 170, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 171, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 173, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 174, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 178, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 185, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow, .shadow-box, .entity-meta__header, .confirm-form-wrapper, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 188, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details {
   border: none !important; }
 
-/* line 192, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header, .confirm-form-wrapper {
   padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
-/* line 200, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 201, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 206, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 207, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 217, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 218, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 225, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 226, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
   content: "";
   padding: 0px 5px; }
 
-/* line 234, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 235, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 242, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 243, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 246, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 247, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 252, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before, .ckeditor-buttons:after, .ckeditor-buttons {
   box-sizing: initial; }
 
-/* line 256, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .tabs.tabs-transparent {
   border: none; }
 
-/* line 262, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 263, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .offset-tabs {
   margin-left: -20px; }
 

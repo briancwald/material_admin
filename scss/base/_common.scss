@@ -20,6 +20,13 @@ body {
   background: map-get($shades,white);
 }
 
+@media #{$medium-and-up} {
+  .material-container, .material-conatainer.row {
+    width: 95%;
+    margin:0 auto!important;
+  }
+}
+
 td, th {
   padding: 15px;
 }
@@ -96,12 +103,6 @@ td, th {
 
 .toast {
   word-break: normal;
-}
-
-@media #{$medium-and-up} {
-  main .row {
-    margin: 0 10px;
-  }
 }
 
 .row {
