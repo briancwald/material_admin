@@ -12,8 +12,8 @@
  *     (Description should only be output if content is not available).
  */
 #}
+ {% if block.title %}
 <div class="panel collection with-header">
-  {% if block.title %}
    <div class="collection-header"> <h5 class="panel__title">{{ block.title }}</h5></div>
   {% endif %}
   {% if block.content %}
@@ -21,4 +21,6 @@
   {% elseif block.description %}
     <div class="panel__description">{{ block.description }}</div>
   {% endif %}
+ {% if block.title %}
 </div>
+  {% endif %}

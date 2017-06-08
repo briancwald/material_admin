@@ -253,8 +253,10 @@ td.is-active {
   }
 }
 
+// in the case where we have to nest collections, remove border and margin
 .collection.with-header > .collection {
   border: none;
+  margin:0;
 }
 
 table {
