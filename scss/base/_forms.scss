@@ -305,7 +305,6 @@ form:valid .input-field label.form-required {
   &.form-has-label {
     margin-top: 45px;
     label {
-      @extend .active;
       top: 0;
     }
   }
