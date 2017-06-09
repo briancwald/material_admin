@@ -689,6 +689,17 @@ details.views-display-column.form-wrapper {
   &:first-of-type {
     padding-top: 1rem;
   }
+  &:only-of-type {
+    padding-top: 0;
+    > .label {
+      display: none;
+    }
+    .collection-item {
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
   padding-top: .5rem;
   .label {
     font-size: 1.3rem;
@@ -699,6 +710,19 @@ details.views-display-column.form-wrapper {
     border: none;
     &:first-of-type {
       margin-top: 5px;
+    }
+  }
+}
+
+#edit-display-settings-top {
+  padding-bottom: 0;
+  border: 0;
+  .views-display-setting {
+    .label {
+      display: none;
+    }
+    a {
+      font-size: 1.5rem;
     }
   }
 }
@@ -724,4 +748,12 @@ details.views-display-column.form-wrapper {
     font-size: 1.6em;
     font-weight: normal;
   }
+}
+
+.views-displays .tabs.secondary li a {
+  padding: 0 24px;
+  font-size: 14px;
+  border: 0;
+  line-height: 48px;
+  background: transparent;
 }
