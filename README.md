@@ -31,7 +31,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Admin/content enhancements 
 - [ ] Views UI (80%)
 - [ ] Form styling defaults (80%)
-- [] Table and bulk selecting (80%)
+- [ ] Table and bulk selecting (80%)
 - [x] Status Message
 - [x] Theme Select page
 - [ ] Node add/edit
