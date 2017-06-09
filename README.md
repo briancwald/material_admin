@@ -29,9 +29,9 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Dropbutton replacement
 - [ ] Throbber/progress icons
 - [x] Admin/content enhancements 
-- [ ] Views UI (Yikes - completely unusable right now. The template structure for this page is very.. bad)
-- [ ] Form styling defaults
-- [x] Table and bulk selecting
+- [ ] Views UI (80%)
+- [ ] Form styling defaults (80%)
+- [] Table and bulk selecting (80%)
 - [x] Status Message
 - [x] Theme Select page
 - [ ] Node add/edit

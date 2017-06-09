@@ -702,3 +702,26 @@ details.views-display-column.form-wrapper {
     }
   }
 }
+
+// views listing page
+
+#views-entity-list {
+  .form-type-search {
+    margin:4em 0;
+  }
+}
+
+.views-ui-view-name {
+  h3 {
+    font-size:1em;
+    font-weight:400;
+  }
+}
+
+.views-list-section {
+  margin:4em 0;
+  h2 {
+    font-size: 1.6em;
+    font-weight: normal;
+  }
+}
