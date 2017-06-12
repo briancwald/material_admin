@@ -121,4 +121,21 @@
     }
   };
 
+  Drupal.behaviors.material_admin_views_ui_add_button = {
+    attach: function (context) {
+      setTimeout(function () {
+        // Build the add display menu and pull the display input buttons into it.
+        var $menu = $(context).find('#views-display-menu-tabs').once('material-admin-views-ui-render-add-view-button');
+        if (!$menu.length) {
+          return;
+        }
+
+        var $addDisplayDropdown = $menu.find('li.add > a');
+        if ($addDisplayDropdown.length) {
+          $addDisplayDropdown.addClass('dropdown-button btn btn-flat darken-3 text-darken-2');
+        }
+      });
+    }
+  }
+
 }(jQuery, Drupal));

@@ -33,13 +33,6 @@ function material_admin_preprocess_breadcrumb(&$variables) {
  * Implements hook_preprocess_HOOK() for HTML document templates.
  */
 function material_admin_preprocess_menu_local_task(&$variables) {
-
-  $link = $variables['element']['#link'];
-  $link += array(
-    'localized_options' => array(),
-  );
-  $link_text = $link['title'];
-
   //add class active so that the materialize tabs js works
   if (!empty($variables['element']['#active'])) {
     $variables['is_active'] = TRUE;

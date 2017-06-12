@@ -727,6 +727,101 @@ details.views-display-column.form-wrapper {
   }
 }
 
+.views-display-top {
+  background-color: inherit;
+  padding: 0;
+}
+
+.views-displays {
+  border: 1px solid #e0e0e0;
+}
+
+.views-admin .unit-title {
+  display: none;
+}
+
+.view-changed {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.views-displays .tabs.secondary li {
+  margin: 0;
+  a {
+    padding: 0 24px;
+    font-size: 14px;
+    border: 0;
+    line-height: 48px;
+    background: transparent;
+    &.active {
+      border-bottom: 2px solid #ee6e73;
+      border-radius: 0;
+    }
+    &:hover {
+      color: #ee6e73;
+    }
+  }
+  &.add {
+    margin-top: 5px;
+    margin-left: 20px;
+    a {
+      line-height: 36px;
+      text-decoration: none;
+      border-radius: 2px;
+      .icon {
+        display: none;
+      }
+      &:hover {
+        color: #343434;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+    ul {
+      background: white;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      border: 0;
+      padding: 0;
+      top: 0;
+      z-index: 51;
+      li {
+        clear: both;
+        color: rgba(0, 0, 0, 0.87);
+        cursor: pointer;
+        min-height: 50px;
+        line-height: 1.5rem;
+        width: 100%;
+        text-align: left;
+        text-transform: none;
+        background: transparent;
+        border: 0;
+        &:hover {
+          background-color: #eee;
+        }
+        i {
+          border: 0;
+          box-shadow: none;
+          display: block;
+          background: none;
+          color: inherit;
+          padding: inherit;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+        input {
+          font-size: 16px;
+          font-weight: normal;
+          color: #26a69a;
+          display: block;
+          line-height: 22px;
+          padding: 14px 16px;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
+
 // views listing page
 
 #views-entity-list {
@@ -748,12 +843,4 @@ details.views-display-column.form-wrapper {
     font-size: 1.6em;
     font-weight: normal;
   }
-}
-
-.views-displays .tabs.secondary li a {
-  padding: 0 24px;
-  font-size: 14px;
-  border: 0;
-  line-height: 48px;
-  background: transparent;
 }
