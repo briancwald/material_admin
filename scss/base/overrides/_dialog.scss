@@ -8,10 +8,12 @@
   z-index: 1260;
   overflow: visible;
   color: #000;
-  background: #fff;
-  border: solid 1px #ccc;
+  border: 0;
   padding: 0;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
 }
+
 @media all and (max-width: 48em) { /* 768px */
   .ui-dialog {
     width: 92% !important;
@@ -19,22 +21,26 @@
 }
 .ui-dialog .ui-dialog-titlebar {
   font-weight: bold;
-  background: #f3f4ee;
-  border-style: solid;
-  border-radius: 0;
-  border-width: 0 0 1px 0;
-  border-color: #ccc;
+  background: #fafafa;
+  padding-top: 20px;
+  border: 0;
 }
 .ui-dialog .ui-dialog-titlebar-close {
   border: 0;
   background: none;
+  top: 1rem;
+}
+.ui-dialog-title {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin: 1.14rem 0 .912rem 0;
 }
 .ui-dialog .ui-dialog-buttonpane {
   margin-top: 0;
-  background: #f3f4ee;
+  background: #fafafa;
   padding: .3em 1em;
-  border-width: 1px 0 0 0;
-  border-color: #ccc;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
 }
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
   margin: 0;
@@ -70,3 +76,28 @@
   display: none;
 }
 
+.views-ui-dialog .views-override:not(:empty),
+.ui-widget-content,
+.ui-dialog .ui-dialog-content,
+.views-ui-dialog,
+.ui-dialog {
+  background-color: #fafafa;
+  border: 0;
+}
+
+.views-ui-dialog .views-override:not(:empty) {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  @extend .btn, .btn-flat, .darken-3, .text-darken-2;
+  background: none;
+  &.ui-state-hover {
+    color: #343434 !important;
+  }
+}
+
+.ui-widget {
+  font-family: inherit;
+  font-size: inherit;
+}

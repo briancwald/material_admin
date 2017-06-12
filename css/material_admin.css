@@ -460,11 +460,11 @@ th {
   background-color: #b9151b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red-text.text-darken-2, .materialize-red-text.warning-text-color, abbr.materialize-red-text.warning, a.materialize-red-text#edit-cancel, .materialize-red-text.status-text-color, table.highlight > tbody > tr.selected a.materialize-red-text.dropdown-button {
+.materialize-red-text.text-darken-2, .materialize-red-text.warning-text-color, abbr.materialize-red-text.warning, a.materialize-red-text#edit-cancel, .materialize-red-text.status-text-color, table.highlight > tbody > tr.selected a.materialize-red-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.materialize-red-text {
   color: #b9151b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.materialize-red.darken-3 {
+.materialize-red.darken-3, .ui-dialog .ui-dialog-buttonpane button.materialize-red {
   background-color: #a21318 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -540,11 +540,11 @@ th {
   background-color: #D32F2F !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item abbr.form-required.warning:after, .form-item a.form-required#edit-cancel:after, abbr.error-text-color.warning, a.error-text-color#edit-cancel, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions abbr.button--danger.warning, #edit-actions a.button--danger#edit-cancel, abbr.red-text.warning, a.red-text#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-text-color, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-text-color, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, table.highlight > tbody > tr.selected a.red-text.dropdown-button, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.dropdown-button:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button:hover, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.dropdown-button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table.highlight > tbody > tr.selected a.dropdown-button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-2, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-2 {
+.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item abbr.form-required.warning:after, .form-item a.form-required#edit-cancel:after, abbr.error-text-color.warning, a.error-text-color#edit-cancel, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .ui-dialog .ui-dialog-buttonpane button.form-required:after, .ui-dialog .ui-dialog-buttonpane .form-item button.form-required:after, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.error-text-color, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions abbr.button--danger.warning, #edit-actions a.button--danger#edit-cancel, abbr.red-text.warning, a.red-text#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a#edit-cancel, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.warning-text-color, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-text-color, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.status-text-color, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, #edit-actions .ui-dialog .ui-dialog-buttonpane button.button--danger, .ui-dialog .ui-dialog-buttonpane #edit-actions button.button--danger, table.highlight > tbody > tr.selected a.red-text.dropdown-button, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.dropdown-button:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button:hover, table.highlight > tbody > tr.selected .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.dropdown-button, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table.highlight > tbody > tr.selected a.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.red-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2:hover, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-2, .form-type-vertical-tabs .vertical-tabs__panes > details > summary.text-darken-2 {
   color: #D32F2F !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.red.darken-3, .darken-3.color-error, .darken-3.error-color, .node-multiple-delete-confirm input.darken-3.form-submit, .darken-3.messages--error, .messages--error.messages-clone .darken-3.card-content, .admin-requirements.collapsible-body .darken-3.admin-prevent-text, .darken-3.button-action {
+.red.darken-3, .darken-3.color-error, .ui-dialog .ui-dialog-buttonpane button.color-error, .darken-3.error-color, .node-multiple-delete-confirm input.darken-3.form-submit, .darken-3.messages--error, .ui-dialog .ui-dialog-buttonpane button.messages--error, .messages--error.messages-clone .darken-3.card-content, .messages--error.messages-clone .ui-dialog .ui-dialog-buttonpane button.card-content, .ui-dialog .ui-dialog-buttonpane .messages--error.messages-clone button.card-content, .admin-requirements.collapsible-body .darken-3.admin-prevent-text, .admin-requirements.collapsible-body .ui-dialog .ui-dialog-buttonpane button.admin-prevent-text, .ui-dialog .ui-dialog-buttonpane .admin-requirements.collapsible-body button.admin-prevent-text, .ui-dialog .ui-dialog-buttonpane button.error-color, .darken-3.button-action, .ui-dialog .ui-dialog-buttonpane button.button-action, .ui-dialog .ui-dialog-buttonpane button.red {
   background-color: #C62828 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -652,11 +652,11 @@ th {
   background-color: #c2185b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.pink-text.text-darken-2, .pink-text.warning-text-color, abbr.pink-text.warning, a.pink-text#edit-cancel, .pink-text.status-text-color, table.highlight > tbody > tr.selected a.pink-text.dropdown-button {
+.pink-text.text-darken-2, .pink-text.warning-text-color, abbr.pink-text.warning, a.pink-text#edit-cancel, .pink-text.status-text-color, table.highlight > tbody > tr.selected a.pink-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.pink-text {
   color: #c2185b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.pink.darken-3 {
+.pink.darken-3, .ui-dialog .ui-dialog-buttonpane button.pink {
   background-color: #ad1457 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -764,11 +764,11 @@ th {
   background-color: #7b1fa2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.purple-text.text-darken-2, .purple-text.warning-text-color, abbr.purple-text.warning, a.purple-text#edit-cancel, .purple-text.status-text-color, table.highlight > tbody > tr.selected a.purple-text.dropdown-button {
+.purple-text.text-darken-2, .purple-text.warning-text-color, abbr.purple-text.warning, a.purple-text#edit-cancel, .purple-text.status-text-color, table.highlight > tbody > tr.selected a.purple-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.purple-text {
   color: #7b1fa2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.purple.darken-3 {
+.purple.darken-3, .ui-dialog .ui-dialog-buttonpane button.purple {
   background-color: #6a1b9a !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -876,11 +876,11 @@ th {
   background-color: #512da8 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple-text.text-darken-2, .deep-purple-text.warning-text-color, abbr.deep-purple-text.warning, a.deep-purple-text#edit-cancel, .deep-purple-text.status-text-color, table.highlight > tbody > tr.selected a.deep-purple-text.dropdown-button {
+.deep-purple-text.text-darken-2, .deep-purple-text.warning-text-color, abbr.deep-purple-text.warning, a.deep-purple-text#edit-cancel, .deep-purple-text.status-text-color, table.highlight > tbody > tr.selected a.deep-purple-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.deep-purple-text {
   color: #512da8 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-purple.darken-3 {
+.deep-purple.darken-3, .ui-dialog .ui-dialog-buttonpane button.deep-purple {
   background-color: #4527a0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -988,11 +988,11 @@ th {
   background-color: #303f9f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.indigo-text.text-darken-2, .indigo-text.warning-text-color, abbr.indigo-text.warning, a.indigo-text#edit-cancel, .indigo-text.status-text-color, table.highlight > tbody > tr.selected a.indigo-text.dropdown-button {
+.indigo-text.text-darken-2, .indigo-text.warning-text-color, abbr.indigo-text.warning, a.indigo-text#edit-cancel, .indigo-text.status-text-color, table.highlight > tbody > tr.selected a.indigo-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.indigo-text {
   color: #303f9f !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.indigo.darken-3 {
+.indigo.darken-3, .ui-dialog .ui-dialog-buttonpane button.indigo {
   background-color: #283593 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1100,11 +1100,11 @@ th {
   background-color: #1976D2 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-text.text-darken-2, .blue-text.warning-text-color, abbr.blue-text.warning, a.blue-text#edit-cancel, .breadcrumb-nav ol li a#edit-cancel, .breadcrumb-nav ol li.warning-text-color, .breadcrumb-nav ol li a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:before, #block-material-admin-page-title h1.page-title em.warning-text-color, .blue-text.status-text-color, .breadcrumb-nav ol li.status-text-color, .breadcrumb-nav ol li a.status-text-color, .breadcrumb-nav ol li.status-text-color:before, #block-material-admin-page-title h1.page-title em.status-text-color, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .breadcrumb-nav ol li a.dropdown-button, .breadcrumb-nav ol li.text-darken-2:before, table.highlight > tbody > tr.selected a.blue-text.dropdown-button, #block-material-admin-page-title h1.page-title em.text-darken-2 {
+.blue-text.text-darken-2, .blue-text.warning-text-color, abbr.blue-text.warning, a.blue-text#edit-cancel, .breadcrumb-nav ol li a#edit-cancel, .breadcrumb-nav ol li.warning-text-color, .breadcrumb-nav ol li a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:before, #block-material-admin-page-title h1.page-title em.warning-text-color, .blue-text.status-text-color, .breadcrumb-nav ol li.status-text-color, .breadcrumb-nav ol li a.status-text-color, .breadcrumb-nav ol li.status-text-color:before, #block-material-admin-page-title h1.page-title em.status-text-color, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .breadcrumb-nav ol li a.dropdown-button, .breadcrumb-nav ol li.text-darken-2:before, table.highlight > tbody > tr.selected a.blue-text.dropdown-button, #block-material-admin-page-title h1.page-title em.text-darken-2, .ui-dialog .ui-dialog-buttonpane button.blue-text {
   color: #1976D2 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper, h2.darken-3.theme-list-title, table .darken-3.region-title {
+.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper, .ui-dialog .ui-dialog-buttonpane button.utility-wrapper, h2.darken-3.theme-list-title, table .darken-3.region-title, table .ui-dialog .ui-dialog-buttonpane button.region-title, .ui-dialog .ui-dialog-buttonpane table button.region-title, .ui-dialog .ui-dialog-buttonpane button.blue {
   background-color: #1565C0 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1212,11 +1212,11 @@ th {
   background-color: #0288d1 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue-text.text-darken-2, .light-blue-text.warning-text-color, abbr.light-blue-text.warning, a.light-blue-text#edit-cancel, .light-blue-text.status-text-color, table.highlight > tbody > tr.selected a.light-blue-text.dropdown-button {
+.light-blue-text.text-darken-2, .light-blue-text.warning-text-color, abbr.light-blue-text.warning, a.light-blue-text#edit-cancel, .light-blue-text.status-text-color, table.highlight > tbody > tr.selected a.light-blue-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.light-blue-text {
   color: #0288d1 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-blue.darken-3 {
+.light-blue.darken-3, .ui-dialog .ui-dialog-buttonpane button.light-blue {
   background-color: #0277bd !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1324,11 +1324,11 @@ th {
   background-color: #0097a7 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.cyan-text.text-darken-2, .cyan-text.warning-text-color, abbr.cyan-text.warning, a.cyan-text#edit-cancel, .cyan-text.status-text-color, table.highlight > tbody > tr.selected a.cyan-text.dropdown-button {
+.cyan-text.text-darken-2, .cyan-text.warning-text-color, abbr.cyan-text.warning, a.cyan-text#edit-cancel, .cyan-text.status-text-color, table.highlight > tbody > tr.selected a.cyan-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.cyan-text {
   color: #0097a7 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.cyan.darken-3 {
+.cyan.darken-3, .ui-dialog .ui-dialog-buttonpane button.cyan {
   background-color: #00838f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1436,11 +1436,11 @@ th {
   background-color: #00796b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.teal-text.text-darken-2, .teal-text.warning-text-color, abbr.teal-text.warning, a.teal-text#edit-cancel, .help-collection .collection .collection-item.has-collection-link a#edit-cancel, .help-collection .collection .collection-item.has-collection-link a.warning-text-color, .teal-text.status-text-color, .help-collection .collection .collection-item.has-collection-link a.status-text-color, .help-collection .collection .collection-item.has-collection-link a.text-darken-2, .help-collection .collection .collection-item.has-collection-link table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .help-collection .collection .collection-item.has-collection-link a.dropdown-button, table.highlight > tbody > tr.selected a.teal-text.dropdown-button {
+.teal-text.text-darken-2, .teal-text.warning-text-color, abbr.teal-text.warning, a.teal-text#edit-cancel, .help-collection .collection .collection-item.has-collection-link a#edit-cancel, .help-collection .collection .collection-item.has-collection-link a.warning-text-color, .teal-text.status-text-color, .help-collection .collection .collection-item.has-collection-link a.status-text-color, .help-collection .collection .collection-item.has-collection-link a.text-darken-2, .help-collection .collection .collection-item.has-collection-link table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .help-collection .collection .collection-item.has-collection-link a.dropdown-button, table.highlight > tbody > tr.selected a.teal-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.teal-text {
   color: #00796b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.teal.darken-3, span.darken-3.marker {
+.teal.darken-3, span.darken-3.marker, .ui-dialog .ui-dialog-buttonpane button.teal {
   background-color: #00695c !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1548,11 +1548,11 @@ th {
   background-color: #388E3C !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.green-text.text-darken-2, .green-text.warning-text-color, abbr.status-text-color.warning, a.status-text-color#edit-cancel, abbr.green-text.warning, a.green-text#edit-cancel, .status-text-color, table.highlight > tbody > tr.selected a.green-text.dropdown-button, table.highlight > tbody > tr.selected a.dropdown-button.status-text-color {
+.green-text.text-darken-2, .green-text.warning-text-color, abbr.status-text-color.warning, a.status-text-color#edit-cancel, abbr.green-text.warning, a.green-text#edit-cancel, .status-text-color, table.highlight > tbody > tr.selected a.green-text.dropdown-button, table.highlight > tbody > tr.selected a.dropdown-button.status-text-color, .ui-dialog .ui-dialog-buttonpane button.green-text, .ui-dialog .ui-dialog-buttonpane button.status-text-color {
   color: #388E3C !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.green.darken-3, .darken-3.color-success, .darken-3.status-color, .darken-3.messages--status, .messages--status.messages-clone .darken-3.card-content {
+.green.darken-3, .darken-3.color-success, .ui-dialog .ui-dialog-buttonpane button.color-success, .darken-3.status-color, .darken-3.messages--status, .ui-dialog .ui-dialog-buttonpane button.messages--status, .messages--status.messages-clone .darken-3.card-content, .messages--status.messages-clone .ui-dialog .ui-dialog-buttonpane button.card-content, .ui-dialog .ui-dialog-buttonpane .messages--status.messages-clone button.card-content, .ui-dialog .ui-dialog-buttonpane button.status-color, .ui-dialog .ui-dialog-buttonpane button.green {
   background-color: #2E7D32 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1660,11 +1660,11 @@ th {
   background-color: #689f38 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.light-green-text.text-darken-2, .light-green-text.warning-text-color, abbr.light-green-text.warning, a.light-green-text#edit-cancel, .light-green-text.status-text-color, table.highlight > tbody > tr.selected a.light-green-text.dropdown-button {
+.light-green-text.text-darken-2, .light-green-text.warning-text-color, abbr.light-green-text.warning, a.light-green-text#edit-cancel, .light-green-text.status-text-color, table.highlight > tbody > tr.selected a.light-green-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.light-green-text {
   color: #689f38 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.light-green.darken-3 {
+.light-green.darken-3, .ui-dialog .ui-dialog-buttonpane button.light-green {
   background-color: #558b2f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1772,11 +1772,11 @@ th {
   background-color: #afb42b !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.lime-text.text-darken-2, .lime-text.warning-text-color, abbr.lime-text.warning, a.lime-text#edit-cancel, .lime-text.status-text-color, table.highlight > tbody > tr.selected a.lime-text.dropdown-button {
+.lime-text.text-darken-2, .lime-text.warning-text-color, abbr.lime-text.warning, a.lime-text#edit-cancel, .lime-text.status-text-color, table.highlight > tbody > tr.selected a.lime-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.lime-text {
   color: #afb42b !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.lime.darken-3 {
+.lime.darken-3, .ui-dialog .ui-dialog-buttonpane button.lime {
   background-color: #9e9d24 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1884,11 +1884,11 @@ th {
   background-color: #fbc02d !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.yellow-text.text-darken-2, .warning-text-color, abbr.warning, a#edit-cancel, .yellow-text.status-text-color, table.highlight > tbody > tr.selected a.yellow-text.dropdown-button, table.highlight > tbody > tr.selected a.dropdown-button.warning-text-color {
+.yellow-text.text-darken-2, .warning-text-color, abbr.warning, a#edit-cancel, .yellow-text.status-text-color, table.highlight > tbody > tr.selected a.yellow-text.dropdown-button, table.highlight > tbody > tr.selected a.dropdown-button.warning-text-color, .ui-dialog .ui-dialog-buttonpane button.yellow-text, .ui-dialog .ui-dialog-buttonpane button.warning-text-color {
   color: #fbc02d !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.yellow.darken-3, .darken-3.color-warning, .darken-3.warning-color, .darken-3.messages--warning, .messages--warning.messages-clone .darken-3.card-content, span.darken-3.theme-status-indicator, tr.darken-3.drag, tr.darken-3.drag-previous {
+.yellow.darken-3, .darken-3.color-warning, .ui-dialog .ui-dialog-buttonpane button.color-warning, .darken-3.warning-color, .darken-3.messages--warning, .ui-dialog .ui-dialog-buttonpane button.messages--warning, .messages--warning.messages-clone .darken-3.card-content, .messages--warning.messages-clone .ui-dialog .ui-dialog-buttonpane button.card-content, .ui-dialog .ui-dialog-buttonpane .messages--warning.messages-clone button.card-content, .ui-dialog .ui-dialog-buttonpane button.warning-color, span.darken-3.theme-status-indicator, tr.darken-3.drag, tr.darken-3.drag-previous, .ui-dialog .ui-dialog-buttonpane button.yellow {
   background-color: #f9a825 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -1996,11 +1996,11 @@ th {
   background-color: #ffa000 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.amber-text.text-darken-2, .amber-text.warning-text-color, abbr.amber-text.warning, a.amber-text#edit-cancel, .amber-text.status-text-color, table.highlight > tbody > tr.selected a.amber-text.dropdown-button {
+.amber-text.text-darken-2, .amber-text.warning-text-color, abbr.amber-text.warning, a.amber-text#edit-cancel, .amber-text.status-text-color, table.highlight > tbody > tr.selected a.amber-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.amber-text {
   color: #ffa000 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.amber.darken-3 {
+.amber.darken-3, .ui-dialog .ui-dialog-buttonpane button.amber {
   background-color: #ff8f00 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2108,11 +2108,11 @@ th {
   background-color: #f57c00 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.orange-text.text-darken-2, .orange-text.warning-text-color, abbr.orange-text.warning, a.orange-text#edit-cancel, .orange-text.status-text-color, table.highlight > tbody > tr.selected a.orange-text.dropdown-button {
+.orange-text.text-darken-2, .orange-text.warning-text-color, abbr.orange-text.warning, a.orange-text#edit-cancel, .orange-text.status-text-color, table.highlight > tbody > tr.selected a.orange-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.orange-text {
   color: #f57c00 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.orange.darken-3 {
+.orange.darken-3, .ui-dialog .ui-dialog-buttonpane button.orange {
   background-color: #ef6c00 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2220,11 +2220,11 @@ th {
   background-color: #e64a19 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange-text.text-darken-2, .deep-orange-text.warning-text-color, abbr.deep-orange-text.warning, a.deep-orange-text#edit-cancel, .deep-orange-text.status-text-color, table.highlight > tbody > tr.selected a.deep-orange-text.dropdown-button {
+.deep-orange-text.text-darken-2, .deep-orange-text.warning-text-color, abbr.deep-orange-text.warning, a.deep-orange-text#edit-cancel, .deep-orange-text.status-text-color, table.highlight > tbody > tr.selected a.deep-orange-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.deep-orange-text {
   color: #e64a19 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.deep-orange.darken-3 {
+.deep-orange.darken-3, .ui-dialog .ui-dialog-buttonpane button.deep-orange {
   background-color: #d84315 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2332,11 +2332,11 @@ th {
   background-color: #5d4037 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.brown-text.text-darken-2, .brown-text.warning-text-color, abbr.brown-text.warning, a.brown-text#edit-cancel, .brown-text.status-text-color, table.highlight > tbody > tr.selected a.brown-text.dropdown-button {
+.brown-text.text-darken-2, .brown-text.warning-text-color, abbr.brown-text.warning, a.brown-text#edit-cancel, .brown-text.status-text-color, table.highlight > tbody > tr.selected a.brown-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.brown-text {
   color: #5d4037 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.brown.darken-3 {
+.brown.darken-3, .ui-dialog .ui-dialog-buttonpane button.brown {
   background-color: #4e342e !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2412,11 +2412,11 @@ th {
   background-color: #455a64 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey-text.text-darken-2, .blue-grey-text.warning-text-color, abbr.blue-grey-text.warning, a.blue-grey-text#edit-cancel, .blue-grey-text.status-text-color, table.highlight > tbody > tr.selected a.blue-grey-text.dropdown-button {
+.blue-grey-text.text-darken-2, .blue-grey-text.warning-text-color, abbr.blue-grey-text.warning, a.blue-grey-text#edit-cancel, .blue-grey-text.status-text-color, table.highlight > tbody > tr.selected a.blue-grey-text.dropdown-button, .ui-dialog .ui-dialog-buttonpane button.blue-grey-text {
   color: #455a64 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.blue-grey.darken-3 {
+.blue-grey.darken-3, .ui-dialog .ui-dialog-buttonpane button.blue-grey {
   background-color: #37474f !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2492,11 +2492,11 @@ th {
   background-color: #616161 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.grey-text.text-darken-2, .grey-text.warning-text-color, abbr.grey-text.warning, table abbr.warning.region-title, a.grey-text#edit-cancel, .breadcrumb-nav ol li:last-child a#edit-cancel, table.highlight > tbody > tr.selected a#edit-cancel.dropdown-button, table a#edit-cancel.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel, .breadcrumb-nav ol li:last-child a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:last-child, table .warning-text-color.region-title, table thead th.warning-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color, .grey-text.status-text-color, .breadcrumb-nav ol li:last-child a.status-text-color, .breadcrumb-nav ol li.status-text-color:last-child, table .status-text-color.region-title, table thead th.status-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li:last-child table.highlight > tbody > tr.selected a.dropdown-button, .breadcrumb-nav ol li.text-darken-2:last-child, table.highlight > tbody > tr.selected a.dropdown-button, table .text-darken-2.region-title, table thead th.text-darken-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button {
+.grey-text.text-darken-2, .grey-text.warning-text-color, abbr.grey-text.warning, table abbr.warning.region-title, a.grey-text#edit-cancel, .breadcrumb-nav ol li:last-child a#edit-cancel, table.highlight > tbody > tr.selected a#edit-cancel.dropdown-button, table a#edit-cancel.region-title, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel, .breadcrumb-nav ol li:last-child a.warning-text-color, .breadcrumb-nav ol li.warning-text-color:last-child, table .warning-text-color.region-title, table thead th.warning-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color, .grey-text.status-text-color, .breadcrumb-nav ol li:last-child a.status-text-color, .breadcrumb-nav ol li.status-text-color:last-child, table .status-text-color.region-title, table thead th.status-text-color, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color, .breadcrumb-nav ol li:last-child a.text-darken-2, .breadcrumb-nav ol li:last-child table.highlight > tbody > tr.selected a.dropdown-button, .breadcrumb-nav ol li.text-darken-2:last-child, table.highlight > tbody > tr.selected a.dropdown-button, table .text-darken-2.region-title, table .ui-dialog .ui-dialog-buttonpane button.region-title, .ui-dialog .ui-dialog-buttonpane table button.region-title, table thead th.text-darken-2, .ui-dialog .ui-dialog-buttonpane button.grey-text, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2, .form-type-vertical-tabs ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button {
   color: #616161 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
-.grey.darken-3, table.highlight > tbody > tr.darken-3:hover, table.highlight > tbody > tr.darken-3.selected, table.highlight > tbody > tr.selected td.darken-3, tr.darken-3.field-plugin-settings-editing, .form-type-vertical-tabs ul.vertical-tabs__menu li.darken-3.vertical-tabs__menu-item.is-selected {
+.grey.darken-3, table.highlight > tbody > tr.darken-3:hover, table.highlight > tbody > tr.darken-3.selected, table.highlight > tbody > tr.selected td.darken-3, tr.darken-3.field-plugin-settings-editing, .ui-dialog .ui-dialog-buttonpane button.grey, .form-type-vertical-tabs ul.vertical-tabs__menu li.darken-3.vertical-tabs__menu-item.is-selected {
   background-color: #424242 !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
@@ -2757,11 +2757,11 @@ a {
   box-shadow: none !important; }
 
 /* line 57, node_modules/materialize-css/sass/components/_global.scss */
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 /* line 60, node_modules/materialize-css/sass/components/_global.scss */
-.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane button:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 /* line 63, node_modules/materialize-css/sass/components/_global.scss */
@@ -4366,7 +4366,7 @@ nav ul a span.badge, nav ul a span.marker {
   margin-top: calc(24px - 11px); }
 
 /* line 2, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a,
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button,
 .btn-flat,
 .button-link,
 .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight,
@@ -4375,7 +4375,8 @@ nav ul a span.badge, nav ul a span.marker {
 #edit-actions .button--danger,
 a#edit-cancel,
 .field-suffix small span.admin-link,
-.dropbutton-wrapper.dropbutton-single .edit a {
+.dropbutton-wrapper.dropbutton-single .edit a,
+.ui-dialog .ui-dialog-buttonpane button {
   border: none;
   border-radius: 2px;
   display: inline-block;
@@ -4387,7 +4388,7 @@ a#edit-cancel,
   -webkit-tap-highlight-color: transparent; }
 
 /* line 17, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn.disabled, .disabled.btn-large, .disabled.button-action, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, input.disabled.button, .dropbutton-wrapper.dropbutton-single .edit a.disabled,
+.btn.disabled, .disabled.btn-large, .disabled.button-action, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, input.disabled.button, .dropbutton-wrapper.dropbutton-single .edit a.disabled, .ui-dialog .ui-dialog-buttonpane button.disabled,
 .btn-floating.disabled,
 .btn-large.disabled,
 .btn-flat.disabled,
@@ -4399,6 +4400,7 @@ a#edit-cancel,
 a.disabled#edit-cancel,
 .field-suffix small span.disabled.admin-link,
 .dropbutton-wrapper.dropbutton-single .edit a.disabled,
+.ui-dialog .ui-dialog-buttonpane button.disabled,
 .btn:disabled,
 .btn-large:disabled,
 .button-action:disabled,
@@ -4407,6 +4409,7 @@ a.disabled#edit-cancel,
 .compact-link a:disabled,
 input.button:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a:disabled,
+.ui-dialog .ui-dialog-buttonpane button:disabled,
 .btn-floating:disabled,
 .btn-large:disabled,
 .btn-flat:disabled,
@@ -4418,6 +4421,7 @@ input.button:disabled,
 a#edit-cancel:disabled,
 .field-suffix small span.admin-link:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a:disabled,
+.ui-dialog .ui-dialog-buttonpane button:disabled,
 .btn[disabled],
 [disabled].btn-large,
 [disabled].button-action,
@@ -4426,6 +4430,7 @@ a#edit-cancel:disabled,
 .compact-link a[disabled],
 input[disabled].button,
 .dropbutton-wrapper.dropbutton-single .edit a[disabled],
+.ui-dialog .ui-dialog-buttonpane button[disabled],
 .btn-floating[disabled],
 .btn-large[disabled],
 .btn-flat[disabled],
@@ -4436,14 +4441,15 @@ input[disabled].button,
 #edit-actions [disabled].button--danger,
 a[disabled]#edit-cancel,
 .field-suffix small span[disabled].admin-link,
-.dropbutton-wrapper.dropbutton-single .edit a[disabled] {
+.dropbutton-wrapper.dropbutton-single .edit a[disabled],
+.ui-dialog .ui-dialog-buttonpane button[disabled] {
   pointer-events: none;
   background-color: #DFDFDF !important;
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
   /* line 35, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, .disabled.button-link:hover, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight:hover, .compact-link a.disabled:hover, input.disabled.button:hover, .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, .disabled.button-link:hover, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight:hover, .compact-link a.disabled:hover, input.disabled.button:hover, .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover, .ui-dialog .ui-dialog-buttonpane button.disabled:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   .btn-flat.disabled:hover,
@@ -4455,6 +4461,7 @@ a[disabled]#edit-cancel,
   a.disabled#edit-cancel:hover,
   .field-suffix small span.disabled.admin-link:hover,
   .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover,
+  .ui-dialog .ui-dialog-buttonpane button.disabled:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   .button-action:disabled:hover,
@@ -4463,6 +4470,7 @@ a[disabled]#edit-cancel,
   .compact-link a:disabled:hover,
   input.button:disabled:hover,
   .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
+  .ui-dialog .ui-dialog-buttonpane button:disabled:hover,
   .btn-floating:disabled:hover,
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
@@ -4474,6 +4482,7 @@ a[disabled]#edit-cancel,
   a#edit-cancel:disabled:hover,
   .field-suffix small span.admin-link:disabled:hover,
   .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
+  .ui-dialog .ui-dialog-buttonpane button:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   [disabled].button-action:hover,
@@ -4482,6 +4491,7 @@ a[disabled]#edit-cancel,
   .compact-link a[disabled]:hover,
   input[disabled].button:hover,
   .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover,
+  .ui-dialog .ui-dialog-buttonpane button[disabled]:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   .btn-flat[disabled]:hover,
@@ -4492,12 +4502,13 @@ a[disabled]#edit-cancel,
   #edit-actions [disabled].button--danger:hover,
   a[disabled]#edit-cancel:hover,
   .field-suffix small span[disabled].admin-link:hover,
-  .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover {
+  .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover,
+  .ui-dialog .ui-dialog-buttonpane button[disabled]:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
 /* line 42, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a,
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button,
 .btn-floating,
 .btn-large,
 .btn-flat,
@@ -4508,24 +4519,25 @@ a[disabled]#edit-cancel,
 #edit-actions .button--danger,
 a#edit-cancel,
 .field-suffix small span.admin-link,
-.dropbutton-wrapper.dropbutton-single .edit a {
+.dropbutton-wrapper.dropbutton-single .edit a,
+.ui-dialog .ui-dialog-buttonpane button {
   font-size: 1rem;
   outline: 0; }
   /* line 49, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i,
+  .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i, .ui-dialog .ui-dialog-buttonpane button i,
   .btn-floating i,
   .btn-large i,
-  .btn-flat i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .button--small i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i, .dropbutton-wrapper.dropbutton-single .edit a i {
+  .btn-flat i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .button--small i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i, .dropbutton-wrapper.dropbutton-single .edit a i, .ui-dialog .ui-dialog-buttonpane button i {
     font-size: 1.3rem;
     line-height: inherit; }
 
 /* line 58, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn:focus, .btn-large:focus, .button-action:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, input.button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus,
+.btn:focus, .btn-large:focus, .button-action:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, input.button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
 /* line 64, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a {
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -4534,7 +4546,7 @@ a#edit-cancel,
   transition: .2s ease-out;
   cursor: pointer; }
   /* line 74, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
+  .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane button:hover {
     background-color: #2bbbad; }
 
 /* line 81, node_modules/materialize-css/sass/components/_buttons.scss */
@@ -4685,24 +4697,24 @@ button.btn-floating {
         transform: scale(0); }
 
 /* line 253, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .dropbutton-wrapper.dropbutton-single .edit a {
+.btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
   /* line 260, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active, .ui-dialog .ui-dialog-buttonpane button:active {
     background-color: transparent; }
   /* line 265, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover {
+  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane button:hover {
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
   /* line 271, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active {
+  .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active, .ui-dialog .ui-dialog-buttonpane button:active {
     background-color: rgba(0, 0, 0, 0.2); }
   /* line 275, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.disabled {
+  .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.disabled, .ui-dialog .ui-dialog-buttonpane button.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
@@ -5696,7 +5708,7 @@ select:disabled {
   .file-field input.file-path {
     width: 100%; }
   /* line 14, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/node_modules/materialize-css/sass/components/forms/_file-input.scss */
-  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field .button-link, .file-field .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .file-field .tabledrag-toggle-weight, .file-field .compact-link a, .compact-link .file-field a, .file-field input.button, .file-field .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .file-field a {
+  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field .button-link, .file-field .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .file-field .tabledrag-toggle-weight, .file-field .compact-link a, .compact-link .file-field a, .file-field input.button, .file-field .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .file-field a, .file-field .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .file-field button {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -6066,7 +6078,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 56px;
     width: 100%; }
     /* line 40, node_modules/materialize-css/sass/components/_modal.scss */
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .modal .modal-footer button, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .modal .modal-footer button {
       float: right;
       margin: 6px 0; }
 
@@ -6192,7 +6204,7 @@ input[type=range]:focus::-ms-fill-upper {
   -ms-flex-pack: justify;
       justify-content: space-between; }
   /* line 45, node_modules/materialize-css/sass/components/_toast.scss */
-  .toast .btn, .toast .btn-large, .toast .button-action, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .btn-flat, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast .button--small, .toast #edit-actions .button--danger, #edit-actions .toast .button--danger, .toast a#edit-cancel, .toast .field-suffix small span.admin-link, .field-suffix small .toast span.admin-link, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a {
+  .toast .btn, .toast .btn-large, .toast .button-action, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast input.button, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .toast button, .toast .btn-flat, .toast .button-link, .toast .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .toast .tabledrag-toggle-weight, .toast .compact-link a, .compact-link .toast a, .toast .button--small, .toast #edit-actions .button--danger, #edit-actions .toast .button--danger, .toast a#edit-cancel, .toast .field-suffix small span.admin-link, .field-suffix small .toast span.admin-link, .toast .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .toast a, .toast .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .toast button {
     margin: 0;
     margin-left: 3rem; }
   /* line 50, node_modules/materialize-css/sass/components/_toast.scss */
@@ -6350,13 +6362,13 @@ input[type=range]:focus::-ms-fill-upper {
     .card .card-action:last-child {
       border-radius: 0 0 2px 2px; }
     /* line 169, node_modules/materialize-css/sass/components/_cards.scss */
-    .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.btn-large):not(.btn-floating) {
+    .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane button):not(.btn-large):not(.btn-floating) {
       color: #ffab40;
       margin-right: 24px;
       transition: color .3s ease;
       text-transform: uppercase; }
       /* line 175, node_modules/materialize-css/sass/components/_cards.scss */
-      .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.btn-large):not(.btn-floating):hover {
+      .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane button):not(.btn-large):not(.btn-floating):hover {
         color: #ffd8a6; }
   /* line 179, node_modules/materialize-css/sass/components/_cards.scss */
   .card .card-reveal {
@@ -7185,20 +7197,20 @@ button {
   color: #343434; }
 
 /* line 304, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:focus, .btn-floating.button-link:focus, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:focus, .compact-link a.btn-floating:focus, .btn-floating.button--small:focus, #edit-actions .btn-floating.button--danger:focus, a.btn-floating#edit-cancel:focus, .field-suffix small span.btn-floating.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:focus, .btn-floating.btn-flat:visited, .btn-floating.button-link:visited, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:visited, .compact-link a.btn-floating:visited, .btn-floating.button--small:visited, #edit-actions .btn-floating.button--danger:visited, a.btn-floating#edit-cancel:visited, .field-suffix small span.btn-floating.admin-link:visited, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:visited {
+.btn-floating.btn-flat:focus, .btn-floating.button-link:focus, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:focus, .compact-link a.btn-floating:focus, .btn-floating.button--small:focus, #edit-actions .btn-floating.button--danger:focus, a.btn-floating#edit-cancel:focus, .field-suffix small span.btn-floating.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:focus, .ui-dialog .ui-dialog-buttonpane button.btn-floating:focus, .btn-floating.btn-flat:visited, .btn-floating.button-link:visited, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:visited, .compact-link a.btn-floating:visited, .btn-floating.button--small:visited, #edit-actions .btn-floating.button--danger:visited, a.btn-floating#edit-cancel:visited, .field-suffix small span.btn-floating.admin-link:visited, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:visited, .ui-dialog .ui-dialog-buttonpane button.btn-floating:visited {
   background-color: transparent; }
 
 /* line 308, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:hover, .btn-floating.button-link:hover, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:hover, .compact-link a.btn-floating:hover, .btn-floating.button--small:hover, #edit-actions .btn-floating.button--danger:hover, a.btn-floating#edit-cancel:hover, .field-suffix small span.btn-floating.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:hover {
+.btn-floating.btn-flat:hover, .btn-floating.button-link:hover, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:hover, .compact-link a.btn-floating:hover, .btn-floating.button--small:hover, #edit-actions .btn-floating.button--danger:hover, a.btn-floating#edit-cancel:hover, .field-suffix small span.btn-floating.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:hover, .ui-dialog .ui-dialog-buttonpane button.btn-floating:hover {
   box-shadow: none;
   background-color: transparent; }
 
 /* line 312, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active {
+.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active, .ui-dialog .ui-dialog-buttonpane button.btn-floating.active {
   background-color: rgba(0, 150, 136, 0.25); }
 
 /* line 315, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:active, .btn-floating.button-link:active, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:active, .compact-link a.btn-floating:active, .btn-floating.button--small:active, #edit-actions .btn-floating.button--danger:active, a.btn-floating#edit-cancel:active, .field-suffix small span.btn-floating.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:active {
+.btn-floating.btn-flat:active, .btn-floating.button-link:active, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:active, .compact-link a.btn-floating:active, .btn-floating.button--small:active, #edit-actions .btn-floating.button--danger:active, a.btn-floating#edit-cancel:active, .field-suffix small span.btn-floating.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:active, .ui-dialog .ui-dialog-buttonpane button.btn-floating:active {
   background-color: rgba(0, 150, 136, 0.5); }
 
 /* line 323, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
@@ -10315,7 +10327,7 @@ td, th {
   user-select: none; }
 
 /* line 131, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/_common.scss */
-.btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a {
+.btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .ui-dialog .ui-dialog-buttonpane button + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .ui-dialog .ui-dialog-buttonpane button + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .ui-dialog .ui-dialog-buttonpane button + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .ui-dialog .ui-dialog-buttonpane button + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .ui-dialog .ui-dialog-buttonpane .tabledrag-toggle-weight-wrapper button + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane button + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .ui-dialog .ui-dialog-buttonpane .compact-link button + a, .compact-link .ui-dialog .ui-dialog-buttonpane button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .ui-dialog .ui-dialog-buttonpane button + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .ui-dialog .ui-dialog-buttonpane .dropbutton-wrapper.dropbutton-single .edit button + a, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane button + a, .ui-dialog .ui-dialog-buttonpane .btn + button, .ui-dialog .ui-dialog-buttonpane .btn-large + button, .ui-dialog .ui-dialog-buttonpane .button-action + button, .ui-dialog .ui-dialog-buttonpane .button-link + button, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .tabledrag-toggle-weight + button, .ui-dialog .ui-dialog-buttonpane .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + button, .compact-link .ui-dialog .ui-dialog-buttonpane a + button, .ui-dialog .ui-dialog-buttonpane .compact-link a + button, .ui-dialog .ui-dialog-buttonpane input.button + button, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane a + button, .ui-dialog .ui-dialog-buttonpane .dropbutton-wrapper.dropbutton-single .edit a + button, .ui-dialog .ui-dialog-buttonpane button + button {
   margin: 0 10px; }
 
 /* line 135, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/_common.scss */
@@ -11473,54 +11485,60 @@ tr .ajax-progress-throbber .throbber {
   z-index: 1260;
   overflow: visible;
   color: #000;
-  background: #fff;
-  border: solid 1px #ccc;
-  padding: 0; }
+  border: 0;
+  padding: 0;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 2px; }
 
 @media all and (max-width: 48em) {
   /* 768px */
-  /* line 16, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+  /* line 18, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
   .ui-dialog {
     width: 92% !important; } }
 
-/* line 20, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 22, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-titlebar {
   font-weight: bold;
-  background: #f3f4ee;
-  border-style: solid;
-  border-radius: 0;
-  border-width: 0 0 1px 0;
-  border-color: #ccc; }
+  background: #fafafa;
+  padding-top: 20px;
+  border: 0; }
 
 /* line 28, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-titlebar-close {
   border: 0;
-  background: none; }
+  background: none;
+  top: 1rem; }
 
-/* line 32, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 33, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+.ui-dialog-title {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin: 1.14rem 0 .912rem 0; }
+
+/* line 38, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-buttonpane {
   margin-top: 0;
-  background: #f3f4ee;
+  background: #fafafa;
   padding: .3em 1em;
-  border-width: 1px 0 0 0;
-  border-color: #ccc; }
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 39, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 45, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
   margin: 0;
   padding: 0; }
 
-/* line 43, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 49, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-buttonpane .ui-button-text-only .ui-button-text {
   padding: 0; }
 
 /* Form action buttons are moved in dialogs. Remove empty space. */
-/* line 48, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 54, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ui-dialog-content .form-actions {
   padding: 0;
   margin: 0; }
 
-/* line 52, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 58, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ajax-progress-throbber {
   /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
   left: 49%;
@@ -11537,10 +11555,35 @@ tr .ajax-progress-throbber .throbber {
   padding: 4px;
   width: 150px; }
 
-/* line 68, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+/* line 74, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
 .ui-dialog .ajax-progress-throbber .throbber,
 .ui-dialog .ajax-progress-throbber .message {
   display: none; }
+
+/* line 79, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+.views-ui-dialog .views-override:not(:empty),
+.ui-widget-content,
+.ui-dialog .ui-dialog-content,
+.views-ui-dialog,
+.ui-dialog {
+  background-color: #fafafa;
+  border: 0; }
+
+/* line 88, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+.views-ui-dialog .views-override:not(:empty) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 92, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+.ui-dialog .ui-dialog-buttonpane button {
+  background: none; }
+  /* line 95, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+  .ui-dialog .ui-dialog-buttonpane button.ui-state-hover {
+    color: #343434 !important; }
+
+/* line 100, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/base/overrides/_dialog.scss */
+.ui-widget {
+  font-family: inherit;
+  font-size: inherit; }
 
 /* @file
  * Vertical tabs override
