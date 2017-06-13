@@ -29,14 +29,16 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Dropbutton replacement
 - [ ] Throbber/progress icons
 - [x] Admin/content enhancements 
-- [ ] Views UI (80%)
+- [x] Views UI
 - [ ] Form styling defaults (80%)
-- [ ] Table and bulk selecting (80%)
+- [x] Tables
+- [ ] Status pages
 - [x] Status Message
 - [x] Theme Select page
 - [ ] Node add/edit
 - [ ] jQueryUI Dialog Theme & Enhancements
 - [ ] Behat Testing
+- [ ] Visual Regression Testing
 
 ## Clean-up oganization To-Do
 Since this is just a POC, code is not very well organized and needs to be matured. here is what I see so far:
