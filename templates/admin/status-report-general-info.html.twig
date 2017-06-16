@@ -1,0 +1,78 @@
+{#
+/**
+ * @file
+ * Theme override for the status report general info.
+ *
+ * Available variables:
+ * - drupal: The status of Drupal installation:
+ *   - value: The current status of Drupal installation.
+ *   - description: The description for current status of Drupal installation.
+ * - cron: The status of cron:
+ *   - value: The current status of cron.
+ *   - description: The description for current status of cron.
+ *   - cron.run_cron: An array to render a button for running cron.
+ * - database_system: The status of database system:
+ *   - value: The current status of database sytem.
+ *   - description: The description for current status of cron.
+ * - database_system_version: The info about current database version:
+ *   - value: The current version of database.
+ *   - description: The description for current version of database.
+ * - php: The current version of PHP:
+ *   - value: The status of currently installed PHP version.
+ *   - description: The description for current installed PHP version.
+ * - php_memory_limit: The info about current PHP memory limit:
+ *   - value: The status of currently set PHP memory limit.
+ *   - description: The description for currently set PHP memory limit.
+ * - webserver: The info about currently installed web server:
+ *   - value: The status of currently installed web server.
+ *   - description: The description for the status of currently installed web
+ *     server.
+ */
+#}
+<div class="row">
+  <h2 class="small-header">{{ 'General System Information'|t }}</h2>
+  <div class="system-status-general-info__item col m4 s12">
+    <div class="card small">
+      <div class="card-content">
+        <span class="system-status-general-info__item-title card-title"><i class="fa fa-drupal" aria-hidden="true"></i> {{ 'Drupal Version'|t }}</span><p> {{ drupal.value }} {% if drupal.description %} {{ drupal.description }} {% endif %}</p>
+      </div>
+    </div>
+  </div>
+  <div class="system-status-general-info__item col s12 m8">
+    <div class="card small">
+      <div class="card-content">
+        <span class="system-status-general-info__item-title card-title"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> {{ 'Last Cron Run'|t }}</span> <p>{{ cron.value }} {% if cron.run_cron %} {{ cron.run_cron }} {% endif %} {% if cron.description %} {{ cron.description }} {% endif %}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="system-status-general-info__item col s12 m4">
+    <div class="card small">
+      <div class="card-content">
+        <span class="system-status-general-info__item-title card-title"><i class="fa fa-server" aria-hidden="true"></i> {{ 'Web Server'|t }}</span> <p>{{ webserver.value }} {% if webserver.description %} {{ webserver.description }} {% endif %}</p>
+      </div>
+    </div>
+  </div>
+  <div class="system-status-general-info__item col s12 m4">
+    <div class="card small">
+      <div class="card-content">
+        <span class="system-status-general-info__item-title card-title"><i class="fa fa-code" aria-hidden="true"></i> {{ 'PHP'|t }}</span>
+        <p><strong>{{ 'Version'|t }}</strong></p>{{ php.value }} {% if php.description %} {{ php.description }} {% endif %}
+        <hr />
+        <p><strong>{{ 'Memory limit'|t }}</strong></p>{{ php_memory_limit.value }} {% if php_memory_limit.description %} {{ php_memory_limit.description }} {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="system-status-general-info__item col s12 m4">
+    <div class="card small">
+      <div class="card-content">
+        <span class="system-status-general-info__item-title card-title"><i class="fa fa-database" aria-hidden="true"></i>
+{{ 'Database'|t }}</span>
+        <p><strong>{{ 'Version'|t }}</strong></p>{{ database_system_version.value }} {% if database_system_version.description %} {{ database_system_version.description }} {% endif %}
+        <hr />
+        <p><strong>{{ 'System'|t }}</strong></p>{{ database_system.value }} {% if database_system.description %} {{ database_system.description }} {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

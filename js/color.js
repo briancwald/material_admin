@@ -11,7 +11,7 @@
       $(document).ready(function () {
         $('.color-placeholder').each(function () {
           var $this = $(this);
-          $this.wrap('<div class="wrap-placeholder-fab hide-on-small-only"></div>')
+          $this.wrap('<div class="wrap-placeholder-fab hide-on-small-only"></div>');
           var $target = $('.color-palette');
           var $navOffset = $('#toolbar-bar:visible').outerHeight() + $('#toolbar-item-administration-tray:visible').outerHeight() + $(this).outerHeight() - 10;
           $this.pushpin({

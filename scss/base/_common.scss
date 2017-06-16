@@ -9,6 +9,9 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  &.small-header {
+    font-size:1.5rem;
+  }
 }
 
 h3 {
@@ -21,14 +24,29 @@ body {
 }
 
 @media #{$medium-and-up} {
-  .material-container, .material-conatainer.row {
+  .material-container.row {
     width: 95%;
     margin:0 auto!important;
   }
 }
 
+@media #{$small-and-down} {
+  #main-wrapper > .material-container.row {
+    padding:20px 0px;
+  }
+}
+
+.row .row {
+  padding:20px 0;
+}
+
 td, th {
   padding: 15px;
+}
+
+hr {
+  border: 1px solid map-get($grey, lighten-2);
+  margin:1em 0;
 }
 
 .description {
@@ -55,15 +73,15 @@ td, th {
   @extend .green-text, .text-darken-2;
 }
 
-.color-warning, .warning-color {
+.color-warning, .warning-color, .warnings-color {
   @extend .yellow, .lighten-4;
 }
 
-.color-success, .status-color {
+.color-success, .status-color, .checked-color {
   @extend .green, .lighten-4
 }
 
-.color-error, .error-color {
+.color-error, .error-color, .errors-color {
   @extend .red, .lighten-4;
 }
 
@@ -213,12 +231,22 @@ details {
 
 //arrows indicating open/closed collapsible component
   .collapsible li {
+    position:relative;
   &.active {
     .collapsible-header.with-arrows {
       &:before {
         @extend .fa-standard;
         content: $fa-var-angle-down;
         padding: 0px 5px;
+      }
+    }
+    .collapsible-header.right-arrows {
+      &:after {
+        @extend .fa-standard;
+        content: $fa-var-angle-down;
+        padding: 0px 5px;
+        right:10px;
+        position:absolute;
       }
     }
   }
@@ -228,6 +256,23 @@ details {
       content: $fa-var-angle-right;
       padding: 0px 5px;
     }
+  }
+  .collapsible-header.right-arrows{
+    &:after {
+      @extend .fa-standard;
+      content: $fa-var-angle-right;
+      padding: 0px 5px;
+      right:1em;
+      position:absolute;
+    }
+  }
+}
+
+.collapsible-body {
+  font-weight:500;
+  .description {
+    padding:1em 0;
+    font-weight:300;
   }
 }
 
