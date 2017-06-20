@@ -10989,8 +10989,12 @@ table {
     margin-left: 10px;
     content: "";
     display: inline; }
+  /* line 360, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .dropdown-button.ellipsis-icon:after {
+    content: '';
+    display: none; }
 
-/* line 365, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 369, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .dropdown-content li .button {
   display: block;
   background: none;
@@ -10998,11 +11002,11 @@ table {
   box-shadow: none;
   padding: inherit; }
 
-/* line 387, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 391, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 h2.theme-list-title {
   padding: 2rem; }
 
-/* line 392, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 396, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 span.theme-status-indicator {
   position: absolute;
   top: 0;
@@ -11011,20 +11015,20 @@ span.theme-status-indicator {
   padding: 5px 10px;
   z-index: 2; }
 
-/* line 404, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 408, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before {
   content: "";
   padding-right: 5px; }
 
-/* line 410, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 414, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
   content: ""; }
 
-/* line 416, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 420, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .details-item .collapsible-body {
   padding: 15px; }
 
-/* line 422, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 426, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #block-material-admin-page-title h1.page-title em {
   text-transform: uppercase;
   width: 100%;
@@ -11034,55 +11038,55 @@ span.theme-status-indicator {
   vertical-align: baseline;
   font-weight: 100; }
 
-/* line 435, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 439, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table .region-title {
   font-weight: normal; }
 
-/* line 442, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 446, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table td {
   font-weight: 200; }
 
-/* line 446, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 450, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table thead th {
   font-weight: normal;
   font-size: .9em; }
 
-/* line 456, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 460, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tablesort.tablesort--asc {
   background-image: none; }
-  /* line 458, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 462, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .tablesort.tablesort--asc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 464, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 468, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tablesort.tablesort--desc {
   background-image: none; }
-  /* line 466, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 470, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .tablesort.tablesort--desc:after {
     content: "";
     padding-left: 5px; }
 
-/* line 474, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 478, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag {
   border-bottom: 1px dashed #666;
   border-top: 1px dashed #666; }
 
-/* line 480, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 484, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
   border-bottom: 2px dashed #f0f4c3;
   border-top: 2px dashed #f0f4c3; }
 
-/* line 487, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 491, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.field-plugin-settings-editing {
   border-bottom: 2px dashed #666;
   border-top: 2px dashed #666; }
 
-/* line 493, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 497, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {
   padding: 10px; }
 
-/* line 497, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 501, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
   /* With less: .text-overflow(); */
   white-space: nowrap;
@@ -11090,11 +11094,11 @@ tr.field-plugin-settings-editing {
   text-overflow: ellipsis;
   display: inline-block; }
 
-/* line 506, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 510, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li:first-child a {
   visibility: hidden;
   max-width: 20px; }
-  /* line 509, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 513, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
@@ -11102,77 +11106,77 @@ tr.field-plugin-settings-editing {
     text-indent: 0;
     visibility: visible; }
 
-/* line 521, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 525, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 526, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 530, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 530, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 534, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 533, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 537, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 540, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 544, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 545, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 549, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 548, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 552, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 555, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 559, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 559, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 563, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 566, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 570, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 569, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 573, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 
-/* line 577, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 581, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection .collection-item > .item-list .collection {
   border: none; }
-  /* line 579, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 583, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection .collection-item > .item-list .collection .collection-item {
     border: none; }
-    /* line 580, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 584, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection .collection-item > .item-list .collection .collection-item:before {
       content: "";
       padding-right: 5px; }
 
-/* line 591, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 595, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection.item-list__comma-list {
   border: none; }
-  /* line 593, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 597, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection.item-list__comma-list .collection-item {
     line-height: 1em;
     border: none;
     padding: inherit; }
 
-/* line 600, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 604, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .sticky-node-actions {
   position: fixed;
   bottom: 0;
@@ -11182,62 +11186,62 @@ tr.field-plugin-settings-editing {
   border-top: 1px solid #bdbdbd;
   z-index: 100; }
 
-/* line 612, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 616, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .admin-requirements.collapsible-body {
   padding: 1em; }
-  /* line 614, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 618, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .admin-prevent-text {
     padding: .5em;
     margin-bottom: .5em;
     display: block;
     font-weight: bold; }
-  /* line 621, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 625, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .admin-requirements.collapsible-body .item-list li {
     padding: 10px 0; }
 
-/* line 630, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 634, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #system-themes-page .card .card-content .card-title {
   max-width: 90%;
   position: relative; }
-  /* line 633, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 637, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   #system-themes-page .card .card-content .card-title i {
     top: 0;
     right: -10%;
     position: absolute; }
 
-/* line 641, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 645, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #system-themes-page .card .card-image img {
   max-height: 300px;
   width: 100%;
   width: auto;
   margin: 0 auto; }
 
-/* line 652, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 656, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket__title {
   font-size: 1.5rem; }
 
-/* line 656, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 660, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0; }
 
-/* line 661, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 665, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-display-column {
   border: none; }
 
-/* line 665, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 669, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
   background-color: #fff; }
 
-/* line 669, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 673, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting {
   font-size: inherit; }
 
-/* line 673, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 677, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-display-setting .label, .views-display-setting .views-ajax-link {
   float: none; }
 
-/* line 677, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 681, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-admin .dropbutton-wrapper a.icon.add {
   text-indent: 0;
   background: inherit;
@@ -11245,29 +11249,29 @@ tr.field-plugin-settings-editing {
   width: inherit;
   border: inherit; }
 
-/* line 685, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 689, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-admin .dropbutton-wrapper a.icon.add:hover {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: none; }
 
-/* line 690, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 694, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-admin .collection-item, .views-admin .collection {
   overflow: visible; }
 
-/* line 694, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 698, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
   padding: 0; }
 
-/* line 698, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 702, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .dropbutton-wrapper {
   position: absolute;
   right: 0; }
 
-/* line 703, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 707, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket {
   padding-top: 0; }
 
-/* line 707, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 711, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-actions .dropbutton-wrapper li a, .views-ui-display-tab-actions .dropbutton-wrapper input {
   font-size: 16px;
   color: #26a69a;
@@ -11276,111 +11280,111 @@ tr.field-plugin-settings-editing {
   padding: 14px 16px;
   text-transform: none; }
 
-/* line 716, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 720, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-display-top .dropbutton-wrapper {
   z-index: 1; }
 
-/* line 720, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 724, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 details.views-display-column.form-wrapper {
   margin-left: 2%;
   margin-top: 0.5rem; }
-  /* line 723, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 727, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   details.views-display-column.form-wrapper > .details-wrapper {
     padding: 0; }
-  /* line 726, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 730, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   details.views-display-column.form-wrapper .collection:not(:first-child) {
     border-bottom: 1px solid #e0e0e0; }
 
-/* line 731, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 735, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection > .collection.views-subcollection {
   padding-top: .5rem; }
-  /* line 732, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 736, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection > .collection.views-subcollection:first-of-type {
     padding-top: 1rem; }
-  /* line 735, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 739, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection > .collection.views-subcollection:only-of-type {
     padding-top: 0; }
-    /* line 737, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 741, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection > .collection.views-subcollection:only-of-type > .label {
       display: none; }
-    /* line 741, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 745, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection > .collection.views-subcollection:only-of-type .collection-item:first-of-type {
       margin-top: 0; }
-  /* line 747, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 751, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection > .collection.views-subcollection .label {
     font-size: .9rem;
     padding-left: 15px; }
-  /* line 751, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 755, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection > .collection.views-subcollection .collection-item {
     padding-left: 40px;
     border: none; }
-    /* line 754, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 758, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection > .collection.views-subcollection .collection-item:first-of-type {
       margin-top: 5px; }
 
-/* line 760, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 764, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #edit-display-settings-top {
   padding-bottom: 0;
   border: 0; }
-  /* line 764, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 768, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   #edit-display-settings-top .views-display-setting .label {
     display: none; }
-  /* line 767, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 771, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   #edit-display-settings-top .views-display-setting a {
     font-size: 1.5rem; }
 
-/* line 773, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 777, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-display-top {
   background-color: inherit;
   padding: 0; }
 
-/* line 778, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 782, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-displays {
   border: 1px solid #e0e0e0; }
 
-/* line 782, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 786, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-admin .unit-title {
   display: none; }
 
-/* line 786, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 790, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .view-changed {
   font-size: 1rem;
   font-weight: normal; }
 
-/* line 791, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 795, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-displays .tabs.secondary li {
   margin: 0; }
-  /* line 793, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 797, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .views-displays .tabs.secondary li a {
     padding: 0 24px;
     font-size: 14px;
     border: 0;
     line-height: 48px;
     background: transparent; }
-    /* line 799, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 803, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li a.active {
       border-bottom: 2px solid #ee6e73;
       border-radius: 0; }
-    /* line 803, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 807, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li a:hover {
       color: #ee6e73; }
-  /* line 807, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 811, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .views-displays .tabs.secondary li.add {
     margin-top: 5px;
     margin-left: 20px; }
-    /* line 810, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 814, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li.add a {
       line-height: 36px;
       text-decoration: none;
       border-radius: 2px; }
-      /* line 814, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+      /* line 818, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
       .views-displays .tabs.secondary li.add a .icon {
         display: none; }
-      /* line 817, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+      /* line 821, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
       .views-displays .tabs.secondary li.add a:hover {
         color: #343434;
         background-color: rgba(0, 0, 0, 0.1); }
-    /* line 822, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+    /* line 826, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li.add ul {
       background: white;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -11388,7 +11392,7 @@ details.views-display-column.form-wrapper {
       padding: 0;
       top: 0;
       z-index: 51; }
-      /* line 829, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+      /* line 833, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
       .views-displays .tabs.secondary li.add ul li {
         clear: both;
         color: rgba(0, 0, 0, 0.87);
@@ -11400,10 +11404,10 @@ details.views-display-column.form-wrapper {
         text-transform: none;
         background: transparent;
         border: 0; }
-        /* line 840, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+        /* line 844, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
         .views-displays .tabs.secondary li.add ul li:hover {
           background-color: #eee; }
-        /* line 843, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+        /* line 847, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
         .views-displays .tabs.secondary li.add ul li i {
           border: 0;
           box-shadow: none;
@@ -11411,10 +11415,10 @@ details.views-display-column.form-wrapper {
           background: none;
           color: inherit;
           padding: inherit; }
-          /* line 850, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+          /* line 854, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
           .views-displays .tabs.secondary li.add ul li i:hover {
             background-color: transparent; }
-        /* line 854, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+        /* line 858, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
         .views-displays .tabs.secondary li.add ul li input {
           font-size: 16px;
           font-weight: normal;
@@ -11424,27 +11428,27 @@ details.views-display-column.form-wrapper {
           padding: 14px 16px;
           text-transform: none; }
 
-/* line 870, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 874, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 #views-entity-list .form-type-search {
   margin: 4em 0; }
 
-/* line 876, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 880, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-view-name h3 {
   font-size: 1em;
   font-weight: 400; }
 
-/* line 882, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 886, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-list-section {
   margin: 4em 0; }
-  /* line 884, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 888, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .views-list-section h2 {
     font-size: 1.6em;
     font-weight: normal; }
 
-/* line 893, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 897, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .system-status-report-counters .card .card-content {
   text-align: center; }
-  /* line 895, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 899, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .system-status-report-counters .card .card-content .card-title.report-counter-amount {
     text-align: center;
     padding: 15px;
@@ -11452,7 +11456,7 @@ details.views-display-column.form-wrapper {
     height: 2.5em;
     display: inline-block;
     border-radius: 50%; }
-  /* line 903, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  /* line 907, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .system-status-report-counters .card .card-content .card-actions {
     padding-top: 1em; }
 

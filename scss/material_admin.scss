@@ -56,4 +56,6 @@
 @import "base/overrides/dialog";
 @import "base/overrides/vertical-tabs";
 @import "base/overrides/color.admin";
+// There is no easy to to manage contrib beyond common drupal patterns, so this is attempt to manage common contrib styling
+@import "base/contrib";
 

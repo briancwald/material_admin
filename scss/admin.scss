@@ -357,6 +357,10 @@ table {
     content: $fa-var-caret-up;
     display: inline;
   }
+  &.ellipsis-icon:after {
+    content:'';
+    display:none;
+  }
 }
 
 //dont show button styles in dropdowns
