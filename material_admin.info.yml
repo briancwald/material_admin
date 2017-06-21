@@ -31,6 +31,7 @@ stylesheets-remove:
 
 libraries-override:
   core/drupal.dropbutton: material_admin/dropbutton
+  user/drupal.user.permissions: material_admin/permissions
         
 regions:
   header: 'Header'

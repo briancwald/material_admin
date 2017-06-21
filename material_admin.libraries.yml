@@ -50,3 +50,10 @@ color:
     js/color.js: {}
   dependencies:
     - core/jquery
+
+permissions:
+  version: VERSION
+  js:
+    js/user.permissions.js: {}
+  dependencies:
+    - core/jquery
