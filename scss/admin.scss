@@ -76,6 +76,13 @@ header.header-wrapper {
   }
 }
 
+.messages--warning,
+.messages--status,
+.messages--error {
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
 .messages--warning {
   @extend .warning-color, .black-text;
   &.messages-clone {
