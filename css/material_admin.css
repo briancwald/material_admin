@@ -10755,6 +10755,14 @@ details.form-wrapper .details-wrapper {
       background: #ddd;
       text-decoration: none; }
 
+/* line 351, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+i.waves-input-wrapper.input-form-submit {
+  padding: 0 !important; }
+  /* line 353, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  i.waves-input-wrapper.input-form-submit .waves-button-input {
+    padding: 0 2em;
+    height: 100%; }
+
 /* @file
  * Specific styling for admin
  *

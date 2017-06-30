@@ -346,4 +346,16 @@ a#edit-cancel {
   }
 }
 
+// 'waves' input button padding fix
+
+i.waves-input-wrapper.input-form-submit {
+  padding:0!important;
+  .waves-button-input {
+    padding:0 2em;
+    height:100%;
+  }
+}
+
+
+
 
