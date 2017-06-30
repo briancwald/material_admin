@@ -21,7 +21,7 @@
 }
 .ui-dialog .ui-dialog-titlebar {
   font-weight: bold;
-  background: #fafafa;
+  background: color("shades", "white");
   padding-top: 20px;
   border: 0;
 }
@@ -37,7 +37,7 @@
 }
 .ui-dialog .ui-dialog-buttonpane {
   margin-top: 0;
-  background: #fafafa;
+  background: color("shades", "white");
   padding: .3em 1em;
   border: 0;
   border-top: 1px solid rgba(0,0,0,0.1);
@@ -81,7 +81,7 @@
 .ui-dialog .ui-dialog-content,
 .views-ui-dialog,
 .ui-dialog {
-  background-color: #fafafa;
+  background: color("shades", "white");
   border: 0;
 }
 

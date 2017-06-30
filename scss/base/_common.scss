@@ -20,7 +20,7 @@ h3 {
 
 body {
   font-family: $body-font-family;
-  background: map-get($shades,white);
+  background: color("shades", "white");
 }
 
 @media #{$medium-and-up} {
