@@ -45,7 +45,7 @@ td, th {
 }
 
 hr {
-  border: 1px solid map-get($grey, lighten-2);
+  border: 1px solid color("grey", "lighten-2");
   margin:1em 0;
 }
 

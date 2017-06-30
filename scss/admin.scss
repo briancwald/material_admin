@@ -614,8 +614,8 @@ tr.field-plugin-settings-editing {
   width: 100%;
   left: 0;
   padding: 0.5rem 1.5rem;
-  background: map-get($shades, white);
-  border-top: 1px solid map-get($grey, lighten-1);
+  background: color("shades", "white");
+  border-top: 1px solid color("grey", "lighten-1");
   z-index: 100;
 }
 

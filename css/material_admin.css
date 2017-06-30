@@ -10655,6 +10655,7 @@ details.form-wrapper .details-wrapper {
   padding: 4px 0;
   margin: 0 0 10px 25px;
   list-style: none;
+  background-color: #FFFFFF;
   border-color: #bdbdbd;
   border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
@@ -11191,6 +11192,7 @@ tr.field-plugin-settings-editing {
   width: 100%;
   left: 0;
   padding: 0.5rem 1.5rem;
+  background: #FFFFFF;
   border-top: 1px solid #bdbdbd;
   z-index: 100; }
 
