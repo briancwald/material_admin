@@ -10307,7 +10307,7 @@ hr {
 /* line 90, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button-action:before {
   content: "";
-  color: #fefefe;
+  color: #FFFFFF;
   margin: 0 10px 0 0px; }
 
 /* line 101, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
@@ -10835,7 +10835,7 @@ header.header-wrapper .row, header.header-wrapper .form-type-vertical-tabs {
     /* line 143, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .messages-clone .card-content .messages__list li.messages__item {
       margin-bottom: 10px;
-      border-bottom: 1px solid #666;
+      border-bottom: 1px solid #616161;
       padding-bottom: 10px; }
       /* line 147, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
       .messages-clone .card-content .messages__list li.messages__item:last-child {
@@ -10861,10 +10861,10 @@ a.modal-trigger {
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
-  color: #0a0a0a; }
+  color: #000000; }
   /* line 181, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   a.modal-trigger:hover {
-    color: #666; }
+    color: #616161; }
 
 /* line 186, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabs {
@@ -10879,7 +10879,7 @@ a.modal-trigger {
 
 /* line 200, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .modal-content .notification-title {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #616161;
   padding-bottom: 10px;
   font-size: 1.7rem; }
 
@@ -10913,7 +10913,7 @@ a.modal-trigger {
 
 /* line 246, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 table.highlight > tbody > tr:hover {
-  color: #0a0a0a; }
+  color: #000000; }
   /* line 249, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   table.highlight > tbody > tr:hover a, table.highlight > tbody > tr:hover button {
     cursor: pointer; }
@@ -10954,17 +10954,17 @@ td.is-active {
   /* line 295, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item:hover .collection-item-description {
     text-decoration: none;
-    color: #333; }
+    color: #424242; }
   /* line 299, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .collection-item .collection-item-description {
     text-decoration: none;
-    color: #666;
+    color: #616161;
     font-size: 12px;
     margin-left: 20px; }
     /* line 304, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .collection-item .collection-item-description:hover {
       text-decoration: none;
-      color: #333; }
+      color: #424242; }
 
 /* line 312, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .collection.with-header > .collection {
@@ -11086,18 +11086,18 @@ table thead th {
 
 /* line 485, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag {
-  border-bottom: 1px dashed #666;
-  border-top: 1px dashed #666; }
+  border-bottom: 1px dashed #616161;
+  border-top: 1px dashed #616161; }
 
 /* line 491, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
-  border-bottom: 2px dashed #f0f4c3;
-  border-top: 2px dashed #f0f4c3; }
+  border-bottom: 2px dashed #fff9c4;
+  border-top: 2px dashed #fff9c4; }
 
 /* line 498, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 tr.field-plugin-settings-editing {
-  border-bottom: 2px dashed #666;
-  border-top: 2px dashed #666; }
+  border-bottom: 2px dashed #616161;
+  border-top: 2px dashed #616161; }
 
 /* line 504, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .tabledrag-changed-warning {

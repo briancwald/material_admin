@@ -90,7 +90,7 @@ hr {
   &:before {
     @extend .fa-standard;
     content: $fa-var-plus;
-    color: $white;
+    color: color("shades", "white");
     margin: 0 10px 0 0px;
   }
   &:hover {
