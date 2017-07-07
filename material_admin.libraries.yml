@@ -57,3 +57,11 @@ permissions:
     js/user.permissions.js: {}
   dependencies:
     - core/jquery
+
+tableselect:
+  version: VERSION
+  js:
+    js/tableselect.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui

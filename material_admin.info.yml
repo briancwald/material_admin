@@ -32,7 +32,8 @@ stylesheets-remove:
 libraries-override:
   core/drupal.dropbutton: material_admin/dropbutton
   user/drupal.user.permissions: material_admin/permissions
-        
+  core/drupal.tableselect: material_admin/tableselect
+
 regions:
   header: 'Header'
   status: 'Status area'
