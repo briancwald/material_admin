@@ -27,16 +27,16 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Submit button loading UX
 - [x] Admin landing page / group styling
 - [x] Dropbutton replacement
-- [ ] Throbber/progress icons
+- [x] Throbber/progress icons
 - [x] Admin/content enhancements 
 - [x] Views UI
-- [ ] Form styling defaults (80%)
+- [ ] Form styling defaults (90%)
 - [x] Tables
-- [ ] Status pages
+- [x] Status pages
 - [x] Status Message
 - [x] Theme Select page
-- [ ] Node add/edit
-- [ ] jQueryUI Dialog Theme & Enhancements
+- [ ] Node add/edit (70%)
+- [ ] jQueryUI Dialog Theme & Enhancements (70%)
 - [ ] Behat Testing
 - [ ] Visual Regression Testing
 
