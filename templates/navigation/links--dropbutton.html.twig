@@ -32,9 +32,9 @@
  */
 #}
 {% if attributes.hasClass('views-ui-settings-bucket-operations') or attributes.id == 'views-display-extra-actions' %}
-  {% set btn_classses = 'dropdown-button btn btn-flat darken-3 text-darken-2' %}
+  {% set btn_classses = 'dropdown-button ellipsis-icon btn btn-flat darken-3 text-darken-2' %}
 {% else %}
-  {% set btn_classses = 'dropdown-button btn grey lighten-3 grey-text text-darken-2' %}
+  {% set btn_classses = 'dropdown-button ellipsis-icon btn grey lighten-3 grey-text text-darken-2' %}
 {% endif %}
 {% if links -%}
   {%- if heading -%}
@@ -45,7 +45,7 @@
     {%- endif -%}
   {%- endif -%}
   {%- if links|length > 1 -%}
-  <a class="{{ btn_classses }}" href="#" data-constrainWidth="0">{% trans %}MANAGE{% endtrans %}</a>
+  <a class="{{ btn_classses }}" href="#" data-constrainWidth="0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
   <ul{{ attributes.addClass('dropdown-content') }}>
     {%- for item in links -%}
       <li{{ item.attributes }}>

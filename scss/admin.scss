@@ -898,6 +898,11 @@ details.views-display-column.form-wrapper {
   }
 }
 
+// FOUC fix for Views UI add button.
+#views-display-menu-tabs ~ input.add-display {
+  display: none;
+}
+
 // status report page 
 .system-status-report-counters {
   .card {
