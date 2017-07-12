@@ -11504,10 +11504,18 @@ details.views-display-column.form-wrapper {
 #views-display-menu-tabs ~ input.add-display {
   display: none; }
 
-/* line 909, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+/* line 906, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+.view-changed.messages.js-hide {
+  display: none; }
+
+/* line 910, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+#edit-display-settings-top .dropbutton:not(.dropdown-content) {
+  display: none; }
+
+/* line 917, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
 .system-status-report-counters .card .card-content {
   text-align: center; }
-  /* line 911, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 919, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .system-status-report-counters .card .card-content .card-title.report-counter-amount {
     text-align: center;
     padding: 15px;
@@ -11515,7 +11523,7 @@ details.views-display-column.form-wrapper {
     height: 2.5em;
     display: inline-block;
     border-radius: 50%; }
-  /* line 919, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
+  /* line 927, /Users/samuel.mortenson/Sites/drupal/themes/material_admin/scss/admin.scss */
   .system-status-report-counters .card .card-content .card-actions {
     padding-top: 1em; }
 

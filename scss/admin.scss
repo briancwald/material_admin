@@ -898,8 +898,16 @@ details.views-display-column.form-wrapper {
   }
 }
 
-// FOUC fix for Views UI add button.
+// FOUC fixes for Views UI.
 #views-display-menu-tabs ~ input.add-display {
+  display: none;
+}
+
+.view-changed.messages.js-hide {
+  display: none;
+}
+
+#edit-display-settings-top .dropbutton:not(.dropdown-content) {
   display: none;
 }
 
