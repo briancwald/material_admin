@@ -2909,48 +2909,47 @@ video.responsive-video {
   .breadcrumb:last-child {
     color: #fff; }
 
-/* line 231, node_modules/materialize-css/sass/components/_global.scss */
+/* line 230, node_modules/materialize-css/sass/components/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px; }
-
-/* line 237, node_modules/materialize-css/sass/components/_global.scss */
-.parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1; }
-  /* line 245, node_modules/materialize-css/sass/components/_global.scss */
-  .parallax img {
-    display: none;
+  /* line 235, node_modules/materialize-css/sass/components/_global.scss */
+  .parallax-container .parallax {
     position: absolute;
-    left: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translate3d(0, 0, 0);
-    -ms-transform: translateX(-50%);
-        transform: translateX(-50%); }
+    z-index: -1; }
+    /* line 243, node_modules/materialize-css/sass/components/_global.scss */
+    .parallax-container .parallax img {
+      display: none;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate3d(0, 0, 0);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
 
-/* line 259, node_modules/materialize-css/sass/components/_global.scss */
+/* line 258, node_modules/materialize-css/sass/components/_global.scss */
 .pin-top, .pin-bottom {
   position: relative; }
 
-/* line 262, node_modules/materialize-css/sass/components/_global.scss */
+/* line 261, node_modules/materialize-css/sass/components/_global.scss */
 .pinned {
   position: fixed !important; }
 
 /*********************
   Transition Classes
 **********************/
-/* line 270, node_modules/materialize-css/sass/components/_global.scss */
+/* line 269, node_modules/materialize-css/sass/components/_global.scss */
 ul.staggered-list li {
   opacity: 0; }
 
-/* line 274, node_modules/materialize-css/sass/components/_global.scss */
+/* line 273, node_modules/materialize-css/sass/components/_global.scss */
 .fade-in {
   opacity: 0;
   -ms-transform-origin: 0 50%;
@@ -2960,65 +2959,65 @@ ul.staggered-list li {
   Media Query Classes
 **********************/
 @media only screen and (max-width: 600px) {
-  /* line 283, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 282, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 288, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 287, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 293, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 292, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 298, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 297, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 303, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 302, node_modules/materialize-css/sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 308, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 307, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-large {
     display: block !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 313, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 312, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium {
     display: block !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 318, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 317, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-small {
     display: block !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 323, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 322, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium-and-up {
     display: block !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 328, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 327, node_modules/materialize-css/sass/components/_global.scss */
   .show-on-medium-and-down {
     display: block !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 336, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 335, node_modules/materialize-css/sass/components/_global.scss */
   .center-on-small-only {
     text-align: center; } }
 
-/* line 343, node_modules/materialize-css/sass/components/_global.scss */
+/* line 342, node_modules/materialize-css/sass/components/_global.scss */
 .page-footer {
   padding-top: 20px;
   background-color: #ee6e73; }
-  /* line 347, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 346, node_modules/materialize-css/sass/components/_global.scss */
   .page-footer .footer-copyright {
     overflow: hidden;
     min-height: 50px;
@@ -3030,39 +3029,39 @@ ul.staggered-list li {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(51, 51, 51, 0.08); }
 
-/* line 360, node_modules/materialize-css/sass/components/_global.scss */
+/* line 359, node_modules/materialize-css/sass/components/_global.scss */
 table, th, td {
   border: none; }
 
-/* line 364, node_modules/materialize-css/sass/components/_global.scss */
+/* line 363, node_modules/materialize-css/sass/components/_global.scss */
 table {
   width: 100%;
   display: table; }
-  /* line 368, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 367, node_modules/materialize-css/sass/components/_global.scss */
   table.bordered > thead > tr,
   table.bordered > tbody > tr {
     border-bottom: 1px solid #d0d0d0; }
-  /* line 374, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 373, node_modules/materialize-css/sass/components/_global.scss */
   table.striped > tbody > tr:nth-child(odd) {
     background-color: #f2f2f2; }
-  /* line 378, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 377, node_modules/materialize-css/sass/components/_global.scss */
   table.striped > tbody > tr > td {
     border-radius: 0; }
-  /* line 383, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 382, node_modules/materialize-css/sass/components/_global.scss */
   table.highlight > tbody > tr {
     transition: background-color .25s ease; }
-    /* line 385, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 384, node_modules/materialize-css/sass/components/_global.scss */
     table.highlight > tbody > tr:hover {
       background-color: #f2f2f2; }
-  /* line 391, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 390, node_modules/materialize-css/sass/components/_global.scss */
   table.centered thead tr th, table.centered tbody tr td {
     text-align: center; }
 
-/* line 398, node_modules/materialize-css/sass/components/_global.scss */
+/* line 397, node_modules/materialize-css/sass/components/_global.scss */
 thead {
   border-bottom: 1px solid #d0d0d0; }
 
-/* line 402, node_modules/materialize-css/sass/components/_global.scss */
+/* line 401, node_modules/materialize-css/sass/components/_global.scss */
 td, th {
   padding: 15px 5px;
   display: table-cell;
@@ -3071,7 +3070,7 @@ td, th {
   border-radius: 2px; }
 
 @media only screen and (max-width: 992px) {
-  /* line 413, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 412, node_modules/materialize-css/sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -3079,91 +3078,91 @@ td, th {
     display: block;
     position: relative;
     /* sort out borders */ }
-    /* line 420, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 419, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table td:empty:before {
       content: '\00a0'; }
-    /* line 424, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 423, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th,
     table.responsive-table td {
       margin: 0;
       vertical-align: top; }
-    /* line 430, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 429, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th {
       text-align: left; }
-    /* line 431, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 430, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table thead {
       display: block;
       float: left; }
-      /* line 435, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 434, node_modules/materialize-css/sass/components/_global.scss */
       table.responsive-table thead tr {
         display: block;
         padding: 0 10px 0 0; }
-        /* line 439, node_modules/materialize-css/sass/components/_global.scss */
+        /* line 438, node_modules/materialize-css/sass/components/_global.scss */
         table.responsive-table thead tr th::before {
           content: "\00a0"; }
-    /* line 444, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 443, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table tbody {
       display: block;
       width: auto;
       position: relative;
       overflow-x: auto;
       white-space: nowrap; }
-      /* line 451, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 450, node_modules/materialize-css/sass/components/_global.scss */
       table.responsive-table tbody tr {
         display: inline-block;
         vertical-align: top; }
-    /* line 456, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 455, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table th {
       display: block;
       text-align: right; }
-    /* line 460, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 459, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table td {
       display: block;
       min-height: 1.25em;
       text-align: left; }
-    /* line 465, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 464, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table tr {
       padding: 0 10px; }
-    /* line 468, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 467, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table thead {
       border: 0;
       border-right: 1px solid #d0d0d0; }
-    /* line 474, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 473, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered th {
       border-bottom: 0;
       border-left: 0; }
-    /* line 475, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 474, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered td {
       border-left: 0;
       border-right: 0;
       border-bottom: 0; }
-    /* line 476, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 475, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered tr {
       border: 0; }
-    /* line 477, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 476, node_modules/materialize-css/sass/components/_global.scss */
     table.responsive-table.bordered tbody tr {
       border-right: 1px solid #d0d0d0; } }
 
-/* line 486, node_modules/materialize-css/sass/components/_global.scss */
+/* line 485, node_modules/materialize-css/sass/components/_global.scss */
 .collection {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
   position: relative; }
-  /* line 493, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 492, node_modules/materialize-css/sass/components/_global.scss */
   .collection .collection-item {
     background-color: #fff;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0; }
-    /* line 501, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 500, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item.avatar {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      /* line 506, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 505, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .circle {
         position: absolute;
         width: 42px;
@@ -3172,71 +3171,71 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      /* line 515, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 514, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar i.circle {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
         background-color: #999;
         text-align: center; }
-      /* line 524, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 523, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .title {
         font-size: 16px; }
-      /* line 528, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 527, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar p {
         margin: 0; }
-      /* line 532, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 531, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.avatar .secondary-content {
         position: absolute;
         top: 16px;
         right: 16px; }
-    /* line 541, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 540, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item:last-child {
       border-bottom: none; }
-    /* line 545, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 544, node_modules/materialize-css/sass/components/_global.scss */
     .collection .collection-item.active {
       background-color: #26a69a;
       color: #eafaf9; }
-      /* line 549, node_modules/materialize-css/sass/components/_global.scss */
+      /* line 548, node_modules/materialize-css/sass/components/_global.scss */
       .collection .collection-item.active .secondary-content {
         color: #fff; }
-  /* line 554, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 553, node_modules/materialize-css/sass/components/_global.scss */
   .collection a.collection-item {
     display: block;
     transition: .25s;
     color: #26a69a; }
-    /* line 559, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 558, node_modules/materialize-css/sass/components/_global.scss */
     .collection a.collection-item:not(.active):hover {
       background-color: #ddd; }
-  /* line 566, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 565, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 20px; }
-  /* line 571, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 570, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-item {
     padding-left: 30px; }
-  /* line 574, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 573, node_modules/materialize-css/sass/components/_global.scss */
   .collection.with-header .collection-item.avatar {
     padding-left: 72px; }
 
-/* line 581, node_modules/materialize-css/sass/components/_global.scss */
+/* line 580, node_modules/materialize-css/sass/components/_global.scss */
 .secondary-content {
   float: right;
   color: #26a69a; }
 
-/* line 585, node_modules/materialize-css/sass/components/_global.scss */
+/* line 584, node_modules/materialize-css/sass/components/_global.scss */
 .collapsible .collection, details.form-wrapper .collection {
   margin: 0;
   border: none; }
 
-/* line 593, node_modules/materialize-css/sass/components/_global.scss */
+/* line 592, node_modules/materialize-css/sass/components/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden; }
-  /* line 599, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 598, node_modules/materialize-css/sass/components/_global.scss */
   .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;
@@ -3244,7 +3243,7 @@ td, th {
     width: 100%;
     height: 100%; }
 
-/* line 609, node_modules/materialize-css/sass/components/_global.scss */
+/* line 608, node_modules/materialize-css/sass/components/_global.scss */
 .progress {
   position: relative;
   height: 4px;
@@ -3254,7 +3253,7 @@ td, th {
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden; }
-  /* line 618, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 617, node_modules/materialize-css/sass/components/_global.scss */
   .progress .determinate {
     position: absolute;
     top: 0;
@@ -3262,10 +3261,10 @@ td, th {
     bottom: 0;
     background-color: #26a69a;
     transition: width .3s linear; }
-  /* line 626, node_modules/materialize-css/sass/components/_global.scss */
+  /* line 625, node_modules/materialize-css/sass/components/_global.scss */
   .progress .indeterminate {
     background-color: #26a69a; }
-    /* line 628, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 627, node_modules/materialize-css/sass/components/_global.scss */
     .progress .indeterminate:before {
       content: '';
       position: absolute;
@@ -3275,7 +3274,7 @@ td, th {
       bottom: 0;
       will-change: left, right;
       animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
-    /* line 640, node_modules/materialize-css/sass/components/_global.scss */
+    /* line 639, node_modules/materialize-css/sass/components/_global.scss */
     .progress .indeterminate:after {
       content: '';
       position: absolute;
@@ -3312,31 +3311,31 @@ td, th {
 /*******************
   Utility Classes
 *******************/
-/* line 689, node_modules/materialize-css/sass/components/_global.scss */
+/* line 688, node_modules/materialize-css/sass/components/_global.scss */
 .hide {
   display: none !important; }
 
-/* line 694, node_modules/materialize-css/sass/components/_global.scss */
+/* line 693, node_modules/materialize-css/sass/components/_global.scss */
 .left-align {
   text-align: left; }
 
-/* line 697, node_modules/materialize-css/sass/components/_global.scss */
+/* line 696, node_modules/materialize-css/sass/components/_global.scss */
 .right-align {
   text-align: right; }
 
-/* line 700, node_modules/materialize-css/sass/components/_global.scss */
+/* line 699, node_modules/materialize-css/sass/components/_global.scss */
 .center, .center-align {
   text-align: center; }
 
-/* line 704, node_modules/materialize-css/sass/components/_global.scss */
+/* line 703, node_modules/materialize-css/sass/components/_global.scss */
 .left {
   float: left !important; }
 
-/* line 707, node_modules/materialize-css/sass/components/_global.scss */
+/* line 706, node_modules/materialize-css/sass/components/_global.scss */
 .right {
   float: right !important; }
 
-/* line 712, node_modules/materialize-css/sass/components/_global.scss */
+/* line 711, node_modules/materialize-css/sass/components/_global.scss */
 .no-select, input[type=range],
 input[type=range] + .thumb {
   -webkit-touch-callout: none;
@@ -3345,24 +3344,24 @@ input[type=range] + .thumb {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 721, node_modules/materialize-css/sass/components/_global.scss */
+/* line 720, node_modules/materialize-css/sass/components/_global.scss */
 .circle {
   border-radius: 50%; }
 
-/* line 725, node_modules/materialize-css/sass/components/_global.scss */
+/* line 724, node_modules/materialize-css/sass/components/_global.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 731, node_modules/materialize-css/sass/components/_global.scss */
+/* line 730, node_modules/materialize-css/sass/components/_global.scss */
 .truncate {
   display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-/* line 738, node_modules/materialize-css/sass/components/_global.scss */
+/* line 737, node_modules/materialize-css/sass/components/_global.scss */
 .no-padding {
   padding: 0 !important; }
 
@@ -4155,12 +4154,13 @@ input[type=range] + .thumb {
 .collapsible-header, details.form-wrapper summary {
   display: block;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   min-height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
-  /* line 18, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 19, node_modules/materialize-css/sass/components/_collapsible.scss */
   .collapsible-header i, details.form-wrapper summary i {
     width: 2rem;
     font-size: 1.6rem;
@@ -4170,26 +4170,26 @@ input[type=range] + .thumb {
     text-align: center;
     margin-right: 1rem; }
 
-/* line 29, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 30, node_modules/materialize-css/sass/components/_collapsible.scss */
 .collapsible-body {
   display: none;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
   padding: 2rem; }
 
-/* line 40, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 41, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible, .side-nav details.form-wrapper,
 .side-nav.fixed .collapsible,
 .side-nav.fixed details.form-wrapper {
   border: none;
   box-shadow: none; }
-  /* line 44, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 45, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible li, .side-nav details.form-wrapper li,
   .side-nav.fixed .collapsible li,
   .side-nav.fixed details.form-wrapper li {
     padding: 0; }
 
-/* line 47, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 48, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible-header, .side-nav details.form-wrapper summary, details.form-wrapper .side-nav summary,
 .side-nav.fixed .collapsible-header,
 .side-nav.fixed details.form-wrapper summary, details.form-wrapper
@@ -4199,39 +4199,39 @@ input[type=range] + .thumb {
   line-height: inherit;
   height: inherit;
   padding: 0 16px; }
-  /* line 54, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 55, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-header:hover, .side-nav details.form-wrapper summary:hover, details.form-wrapper .side-nav summary:hover,
   .side-nav.fixed .collapsible-header:hover,
   .side-nav.fixed details.form-wrapper summary:hover, details.form-wrapper
   .side-nav.fixed summary:hover {
     background-color: rgba(0, 0, 0, 0.05); }
-  /* line 55, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 56, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-header i, .side-nav details.form-wrapper summary i, details.form-wrapper .side-nav summary i,
   .side-nav.fixed .collapsible-header i,
   .side-nav.fixed details.form-wrapper summary i, details.form-wrapper
   .side-nav.fixed summary i {
     line-height: inherit; }
 
-/* line 58, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 59, node_modules/materialize-css/sass/components/_collapsible.scss */
 .side-nav .collapsible-body,
 .side-nav.fixed .collapsible-body {
   border: 0;
   background-color: #fff; }
-  /* line 62, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 63, node_modules/materialize-css/sass/components/_collapsible.scss */
   .side-nav .collapsible-body li a,
   .side-nav.fixed .collapsible-body li a {
     padding: 0 23.5px 0 31px; }
 
-/* line 72, node_modules/materialize-css/sass/components/_collapsible.scss */
+/* line 73, node_modules/materialize-css/sass/components/_collapsible.scss */
 .collapsible.popout, details.popout.form-wrapper {
   border: none;
   box-shadow: none; }
-  /* line 75, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 76, node_modules/materialize-css/sass/components/_collapsible.scss */
   .collapsible.popout > li, details.popout.form-wrapper > li {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     margin: 0 24px;
     transition: margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-  /* line 81, node_modules/materialize-css/sass/components/_collapsible.scss */
+  /* line 82, node_modules/materialize-css/sass/components/_collapsible.scss */
   .collapsible.popout > li.active, details.popout.form-wrapper > li.active {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     margin: 16px 0; }
@@ -4644,8 +4644,9 @@ button.btn-floating {
       display: -ms-flexbox;
       display: flex;
       top: 0;
-      bottom: 0; }
-      /* line 187, node_modules/materialize-css/sass/components/_buttons.scss */
+      bottom: 0;
+      z-index: 1; }
+      /* line 188, node_modules/materialize-css/sass/components/_buttons.scss */
       .fixed-action-btn.toolbar ul li {
         -ms-flex: 1;
             flex: 1;
@@ -4653,7 +4654,7 @@ button.btn-floating {
         margin: 0;
         height: 100%;
         transition: none; }
-        /* line 194, node_modules/materialize-css/sass/components/_buttons.scss */
+        /* line 195, node_modules/materialize-css/sass/components/_buttons.scss */
         .fixed-action-btn.toolbar ul li a {
           display: block;
           overflow: hidden;
@@ -4665,10 +4666,10 @@ button.btn-floating {
           color: #fff;
           line-height: 56px;
           z-index: 1; }
-          /* line 206, node_modules/materialize-css/sass/components/_buttons.scss */
+          /* line 207, node_modules/materialize-css/sass/components/_buttons.scss */
           .fixed-action-btn.toolbar ul li a i {
             line-height: inherit; }
-  /* line 221, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 222, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn ul {
     left: 0;
     right: 0;
@@ -4677,13 +4678,13 @@ button.btn-floating {
     bottom: 64px;
     margin: 0;
     visibility: hidden; }
-    /* line 230, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 231, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn ul li {
       margin-bottom: 15px; }
-    /* line 234, node_modules/materialize-css/sass/components/_buttons.scss */
+    /* line 235, node_modules/materialize-css/sass/components/_buttons.scss */
     .fixed-action-btn ul a.btn-floating {
       opacity: 0; }
-  /* line 239, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 240, node_modules/materialize-css/sass/components/_buttons.scss */
   .fixed-action-btn .fab-backdrop {
     position: absolute;
     top: 0;
@@ -4696,38 +4697,34 @@ button.btn-floating {
     -ms-transform: scale(0);
         transform: scale(0); }
 
-/* line 253, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 254, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-flat, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .button--small, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane button {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  /* line 260, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus, .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active, .ui-dialog .ui-dialog-buttonpane button:active {
-    background-color: transparent; }
-  /* line 265, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 261, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus, .btn-flat:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .button--small:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
     box-shadow: none; }
-  /* line 271, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn-flat:active, .button-link:active, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:active, .compact-link a:active, .button--small:active, #edit-actions .button--danger:active, a#edit-cancel:active, .field-suffix small span.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a:active, .ui-dialog .ui-dialog-buttonpane button:active {
-    background-color: rgba(0, 0, 0, 0.2); }
-  /* line 275, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 266, node_modules/materialize-css/sass/components/_buttons.scss */
+  .btn-flat:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .button--small:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane button:focus {
+    background-color: rgba(0, 0, 0, 0.1); }
+  /* line 270, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-flat.disabled, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .disabled.button--small, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.disabled, .ui-dialog .ui-dialog-buttonpane button.disabled {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
 
-/* line 283, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 278, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-large {
   height: 54px;
   line-height: 54px; }
-  /* line 288, node_modules/materialize-css/sass/components/_buttons.scss */
+  /* line 283, node_modules/materialize-css/sass/components/_buttons.scss */
   .btn-large i {
     font-size: 1.6rem; }
 
-/* line 294, node_modules/materialize-css/sass/components/_buttons.scss */
+/* line 289, node_modules/materialize-css/sass/components/_buttons.scss */
 .btn-block {
   display: block; }
 
@@ -4769,17 +4766,17 @@ label {
 /* Text inputs */
 /* line 24, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input:not([type]),
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=url],
-input[type=time],
-input[type=date],
-input[type=datetime],
-input[type=datetime-local],
-input[type=tel],
-input[type=number],
-input[type=search],
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   background-color: transparent;
   border: none;
@@ -4796,28 +4793,28 @@ textarea.materialize-textarea {
   transition: all 0.3s; }
   /* line 54, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]):disabled, input:not([type])[readonly="readonly"],
-  input[type=text]:disabled,
-  input[type=text][readonly="readonly"],
-  input[type=password]:disabled,
-  input[type=password][readonly="readonly"],
-  input[type=email]:disabled,
-  input[type=email][readonly="readonly"],
-  input[type=url]:disabled,
-  input[type=url][readonly="readonly"],
-  input[type=time]:disabled,
-  input[type=time][readonly="readonly"],
-  input[type=date]:disabled,
-  input[type=date][readonly="readonly"],
-  input[type=datetime]:disabled,
-  input[type=datetime][readonly="readonly"],
-  input[type=datetime-local]:disabled,
-  input[type=datetime-local][readonly="readonly"],
-  input[type=tel]:disabled,
-  input[type=tel][readonly="readonly"],
-  input[type=number]:disabled,
-  input[type=number][readonly="readonly"],
-  input[type=search]:disabled,
-  input[type=search][readonly="readonly"],
+  input[type=text]:not(.browser-default):disabled,
+  input[type=text]:not(.browser-default)[readonly="readonly"],
+  input[type=password]:not(.browser-default):disabled,
+  input[type=password]:not(.browser-default)[readonly="readonly"],
+  input[type=email]:not(.browser-default):disabled,
+  input[type=email]:not(.browser-default)[readonly="readonly"],
+  input[type=url]:not(.browser-default):disabled,
+  input[type=url]:not(.browser-default)[readonly="readonly"],
+  input[type=time]:not(.browser-default):disabled,
+  input[type=time]:not(.browser-default)[readonly="readonly"],
+  input[type=date]:not(.browser-default):disabled,
+  input[type=date]:not(.browser-default)[readonly="readonly"],
+  input[type=datetime]:not(.browser-default):disabled,
+  input[type=datetime]:not(.browser-default)[readonly="readonly"],
+  input[type=datetime-local]:not(.browser-default):disabled,
+  input[type=datetime-local]:not(.browser-default)[readonly="readonly"],
+  input[type=tel]:not(.browser-default):disabled,
+  input[type=tel]:not(.browser-default)[readonly="readonly"],
+  input[type=number]:not(.browser-default):disabled,
+  input[type=number]:not(.browser-default)[readonly="readonly"],
+  input[type=search]:not(.browser-default):disabled,
+  input[type=search]:not(.browser-default)[readonly="readonly"],
   textarea.materialize-textarea:disabled,
   textarea.materialize-textarea[readonly="readonly"] {
     color: rgba(0, 0, 0, 0.26);
@@ -4825,86 +4822,86 @@ textarea.materialize-textarea {
   /* line 61, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]):disabled + label,
   input:not([type])[readonly="readonly"] + label,
-  input[type=text]:disabled + label,
-  input[type=text][readonly="readonly"] + label,
-  input[type=password]:disabled + label,
-  input[type=password][readonly="readonly"] + label,
-  input[type=email]:disabled + label,
-  input[type=email][readonly="readonly"] + label,
-  input[type=url]:disabled + label,
-  input[type=url][readonly="readonly"] + label,
-  input[type=time]:disabled + label,
-  input[type=time][readonly="readonly"] + label,
-  input[type=date]:disabled + label,
-  input[type=date][readonly="readonly"] + label,
-  input[type=datetime]:disabled + label,
-  input[type=datetime][readonly="readonly"] + label,
-  input[type=datetime-local]:disabled + label,
-  input[type=datetime-local][readonly="readonly"] + label,
-  input[type=tel]:disabled + label,
-  input[type=tel][readonly="readonly"] + label,
-  input[type=number]:disabled + label,
-  input[type=number][readonly="readonly"] + label,
-  input[type=search]:disabled + label,
-  input[type=search][readonly="readonly"] + label,
+  input[type=text]:not(.browser-default):disabled + label,
+  input[type=text]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=password]:not(.browser-default):disabled + label,
+  input[type=password]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=email]:not(.browser-default):disabled + label,
+  input[type=email]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=url]:not(.browser-default):disabled + label,
+  input[type=url]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=time]:not(.browser-default):disabled + label,
+  input[type=time]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=date]:not(.browser-default):disabled + label,
+  input[type=date]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=datetime]:not(.browser-default):disabled + label,
+  input[type=datetime]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=datetime-local]:not(.browser-default):disabled + label,
+  input[type=datetime-local]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=tel]:not(.browser-default):disabled + label,
+  input[type=tel]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=number]:not(.browser-default):disabled + label,
+  input[type=number]:not(.browser-default)[readonly="readonly"] + label,
+  input[type=search]:not(.browser-default):disabled + label,
+  input[type=search]:not(.browser-default)[readonly="readonly"] + label,
   textarea.materialize-textarea:disabled + label,
   textarea.materialize-textarea[readonly="readonly"] + label {
     color: rgba(0, 0, 0, 0.26); }
   /* line 67, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]):focus:not([readonly]),
-  input[type=text]:focus:not([readonly]),
-  input[type=password]:focus:not([readonly]),
-  input[type=email]:focus:not([readonly]),
-  input[type=url]:focus:not([readonly]),
-  input[type=time]:focus:not([readonly]),
-  input[type=date]:focus:not([readonly]),
-  input[type=datetime]:focus:not([readonly]),
-  input[type=datetime-local]:focus:not([readonly]),
-  input[type=tel]:focus:not([readonly]),
-  input[type=number]:focus:not([readonly]),
-  input[type=search]:focus:not([readonly]),
+  input[type=text]:not(.browser-default):focus:not([readonly]),
+  input[type=password]:not(.browser-default):focus:not([readonly]),
+  input[type=email]:not(.browser-default):focus:not([readonly]),
+  input[type=url]:not(.browser-default):focus:not([readonly]),
+  input[type=time]:not(.browser-default):focus:not([readonly]),
+  input[type=date]:not(.browser-default):focus:not([readonly]),
+  input[type=datetime]:not(.browser-default):focus:not([readonly]),
+  input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+  input[type=tel]:not(.browser-default):focus:not([readonly]),
+  input[type=number]:not(.browser-default):focus:not([readonly]),
+  input[type=search]:not(.browser-default):focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #26a69a;
     box-shadow: 0 1px 0 0 #26a69a; }
   /* line 73, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]):focus:not([readonly]) + label,
-  input[type=text]:focus:not([readonly]) + label,
-  input[type=password]:focus:not([readonly]) + label,
-  input[type=email]:focus:not([readonly]) + label,
-  input[type=url]:focus:not([readonly]) + label,
-  input[type=time]:focus:not([readonly]) + label,
-  input[type=date]:focus:not([readonly]) + label,
-  input[type=datetime]:focus:not([readonly]) + label,
-  input[type=datetime-local]:focus:not([readonly]) + label,
-  input[type=tel]:focus:not([readonly]) + label,
-  input[type=number]:focus:not([readonly]) + label,
-  input[type=search]:focus:not([readonly]) + label,
+  input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=search]:not(.browser-default):focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
     color: #26a69a; }
   /* line 78, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]).valid, input:not([type]):focus.valid,
-  input[type=text].valid,
-  input[type=text]:focus.valid,
-  input[type=password].valid,
-  input[type=password]:focus.valid,
-  input[type=email].valid,
-  input[type=email]:focus.valid,
-  input[type=url].valid,
-  input[type=url]:focus.valid,
-  input[type=time].valid,
-  input[type=time]:focus.valid,
-  input[type=date].valid,
-  input[type=date]:focus.valid,
-  input[type=datetime].valid,
-  input[type=datetime]:focus.valid,
-  input[type=datetime-local].valid,
-  input[type=datetime-local]:focus.valid,
-  input[type=tel].valid,
-  input[type=tel]:focus.valid,
-  input[type=number].valid,
-  input[type=number]:focus.valid,
-  input[type=search].valid,
-  input[type=search]:focus.valid,
+  input[type=text]:not(.browser-default).valid,
+  input[type=text]:not(.browser-default):focus.valid,
+  input[type=password]:not(.browser-default).valid,
+  input[type=password]:not(.browser-default):focus.valid,
+  input[type=email]:not(.browser-default).valid,
+  input[type=email]:not(.browser-default):focus.valid,
+  input[type=url]:not(.browser-default).valid,
+  input[type=url]:not(.browser-default):focus.valid,
+  input[type=time]:not(.browser-default).valid,
+  input[type=time]:not(.browser-default):focus.valid,
+  input[type=date]:not(.browser-default).valid,
+  input[type=date]:not(.browser-default):focus.valid,
+  input[type=datetime]:not(.browser-default).valid,
+  input[type=datetime]:not(.browser-default):focus.valid,
+  input[type=datetime-local]:not(.browser-default).valid,
+  input[type=datetime-local]:not(.browser-default):focus.valid,
+  input[type=tel]:not(.browser-default).valid,
+  input[type=tel]:not(.browser-default):focus.valid,
+  input[type=number]:not(.browser-default).valid,
+  input[type=number]:not(.browser-default):focus.valid,
+  input[type=search]:not(.browser-default).valid,
+  input[type=search]:not(.browser-default):focus.valid,
   textarea.materialize-textarea.valid,
   textarea.materialize-textarea:focus.valid {
     border-bottom: 1px solid #4CAF50;
@@ -4912,28 +4909,28 @@ textarea.materialize-textarea {
   /* line 85, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]).valid + label:after,
   input:not([type]):focus.valid + label:after,
-  input[type=text].valid + label:after,
-  input[type=text]:focus.valid + label:after,
-  input[type=password].valid + label:after,
-  input[type=password]:focus.valid + label:after,
-  input[type=email].valid + label:after,
-  input[type=email]:focus.valid + label:after,
-  input[type=url].valid + label:after,
-  input[type=url]:focus.valid + label:after,
-  input[type=time].valid + label:after,
-  input[type=time]:focus.valid + label:after,
-  input[type=date].valid + label:after,
-  input[type=date]:focus.valid + label:after,
-  input[type=datetime].valid + label:after,
-  input[type=datetime]:focus.valid + label:after,
-  input[type=datetime-local].valid + label:after,
-  input[type=datetime-local]:focus.valid + label:after,
-  input[type=tel].valid + label:after,
-  input[type=tel]:focus.valid + label:after,
-  input[type=number].valid + label:after,
-  input[type=number]:focus.valid + label:after,
-  input[type=search].valid + label:after,
-  input[type=search]:focus.valid + label:after,
+  input[type=text]:not(.browser-default).valid + label:after,
+  input[type=text]:not(.browser-default):focus.valid + label:after,
+  input[type=password]:not(.browser-default).valid + label:after,
+  input[type=password]:not(.browser-default):focus.valid + label:after,
+  input[type=email]:not(.browser-default).valid + label:after,
+  input[type=email]:not(.browser-default):focus.valid + label:after,
+  input[type=url]:not(.browser-default).valid + label:after,
+  input[type=url]:not(.browser-default):focus.valid + label:after,
+  input[type=time]:not(.browser-default).valid + label:after,
+  input[type=time]:not(.browser-default):focus.valid + label:after,
+  input[type=date]:not(.browser-default).valid + label:after,
+  input[type=date]:not(.browser-default):focus.valid + label:after,
+  input[type=datetime]:not(.browser-default).valid + label:after,
+  input[type=datetime]:not(.browser-default):focus.valid + label:after,
+  input[type=datetime-local]:not(.browser-default).valid + label:after,
+  input[type=datetime-local]:not(.browser-default):focus.valid + label:after,
+  input[type=tel]:not(.browser-default).valid + label:after,
+  input[type=tel]:not(.browser-default):focus.valid + label:after,
+  input[type=number]:not(.browser-default).valid + label:after,
+  input[type=number]:not(.browser-default):focus.valid + label:after,
+  input[type=search]:not(.browser-default).valid + label:after,
+  input[type=search]:not(.browser-default):focus.valid + label:after,
   textarea.materialize-textarea.valid + label:after,
   textarea.materialize-textarea:focus.valid + label:after {
     content: attr(data-success);
@@ -4941,28 +4938,28 @@ textarea.materialize-textarea {
     opacity: 1; }
   /* line 93, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]).invalid, input:not([type]):focus.invalid,
-  input[type=text].invalid,
-  input[type=text]:focus.invalid,
-  input[type=password].invalid,
-  input[type=password]:focus.invalid,
-  input[type=email].invalid,
-  input[type=email]:focus.invalid,
-  input[type=url].invalid,
-  input[type=url]:focus.invalid,
-  input[type=time].invalid,
-  input[type=time]:focus.invalid,
-  input[type=date].invalid,
-  input[type=date]:focus.invalid,
-  input[type=datetime].invalid,
-  input[type=datetime]:focus.invalid,
-  input[type=datetime-local].invalid,
-  input[type=datetime-local]:focus.invalid,
-  input[type=tel].invalid,
-  input[type=tel]:focus.invalid,
-  input[type=number].invalid,
-  input[type=number]:focus.invalid,
-  input[type=search].invalid,
-  input[type=search]:focus.invalid,
+  input[type=text]:not(.browser-default).invalid,
+  input[type=text]:not(.browser-default):focus.invalid,
+  input[type=password]:not(.browser-default).invalid,
+  input[type=password]:not(.browser-default):focus.invalid,
+  input[type=email]:not(.browser-default).invalid,
+  input[type=email]:not(.browser-default):focus.invalid,
+  input[type=url]:not(.browser-default).invalid,
+  input[type=url]:not(.browser-default):focus.invalid,
+  input[type=time]:not(.browser-default).invalid,
+  input[type=time]:not(.browser-default):focus.invalid,
+  input[type=date]:not(.browser-default).invalid,
+  input[type=date]:not(.browser-default):focus.invalid,
+  input[type=datetime]:not(.browser-default).invalid,
+  input[type=datetime]:not(.browser-default):focus.invalid,
+  input[type=datetime-local]:not(.browser-default).invalid,
+  input[type=datetime-local]:not(.browser-default):focus.invalid,
+  input[type=tel]:not(.browser-default).invalid,
+  input[type=tel]:not(.browser-default):focus.invalid,
+  input[type=number]:not(.browser-default).invalid,
+  input[type=number]:not(.browser-default):focus.invalid,
+  input[type=search]:not(.browser-default).invalid,
+  input[type=search]:not(.browser-default):focus.invalid,
   textarea.materialize-textarea.invalid,
   textarea.materialize-textarea:focus.invalid {
     border-bottom: 1px solid #F44336;
@@ -4970,28 +4967,28 @@ textarea.materialize-textarea {
   /* line 100, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]).invalid + label:after,
   input:not([type]):focus.invalid + label:after,
-  input[type=text].invalid + label:after,
-  input[type=text]:focus.invalid + label:after,
-  input[type=password].invalid + label:after,
-  input[type=password]:focus.invalid + label:after,
-  input[type=email].invalid + label:after,
-  input[type=email]:focus.invalid + label:after,
-  input[type=url].invalid + label:after,
-  input[type=url]:focus.invalid + label:after,
-  input[type=time].invalid + label:after,
-  input[type=time]:focus.invalid + label:after,
-  input[type=date].invalid + label:after,
-  input[type=date]:focus.invalid + label:after,
-  input[type=datetime].invalid + label:after,
-  input[type=datetime]:focus.invalid + label:after,
-  input[type=datetime-local].invalid + label:after,
-  input[type=datetime-local]:focus.invalid + label:after,
-  input[type=tel].invalid + label:after,
-  input[type=tel]:focus.invalid + label:after,
-  input[type=number].invalid + label:after,
-  input[type=number]:focus.invalid + label:after,
-  input[type=search].invalid + label:after,
-  input[type=search]:focus.invalid + label:after,
+  input[type=text]:not(.browser-default).invalid + label:after,
+  input[type=text]:not(.browser-default):focus.invalid + label:after,
+  input[type=password]:not(.browser-default).invalid + label:after,
+  input[type=password]:not(.browser-default):focus.invalid + label:after,
+  input[type=email]:not(.browser-default).invalid + label:after,
+  input[type=email]:not(.browser-default):focus.invalid + label:after,
+  input[type=url]:not(.browser-default).invalid + label:after,
+  input[type=url]:not(.browser-default):focus.invalid + label:after,
+  input[type=time]:not(.browser-default).invalid + label:after,
+  input[type=time]:not(.browser-default):focus.invalid + label:after,
+  input[type=date]:not(.browser-default).invalid + label:after,
+  input[type=date]:not(.browser-default):focus.invalid + label:after,
+  input[type=datetime]:not(.browser-default).invalid + label:after,
+  input[type=datetime]:not(.browser-default):focus.invalid + label:after,
+  input[type=datetime-local]:not(.browser-default).invalid + label:after,
+  input[type=datetime-local]:not(.browser-default):focus.invalid + label:after,
+  input[type=tel]:not(.browser-default).invalid + label:after,
+  input[type=tel]:not(.browser-default):focus.invalid + label:after,
+  input[type=number]:not(.browser-default).invalid + label:after,
+  input[type=number]:not(.browser-default):focus.invalid + label:after,
+  input[type=search]:not(.browser-default).invalid + label:after,
+  input[type=search]:not(.browser-default):focus.invalid + label:after,
   textarea.materialize-textarea.invalid + label:after,
   textarea.materialize-textarea:focus.invalid + label:after {
     content: attr(data-error);
@@ -4999,62 +4996,63 @@ textarea.materialize-textarea {
     opacity: 1; }
   /* line 108, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]).validate + label,
-  input[type=text].validate + label,
-  input[type=password].validate + label,
-  input[type=email].validate + label,
-  input[type=url].validate + label,
-  input[type=time].validate + label,
-  input[type=date].validate + label,
-  input[type=datetime].validate + label,
-  input[type=datetime-local].validate + label,
-  input[type=tel].validate + label,
-  input[type=number].validate + label,
-  input[type=search].validate + label,
+  input[type=text]:not(.browser-default).validate + label,
+  input[type=password]:not(.browser-default).validate + label,
+  input[type=email]:not(.browser-default).validate + label,
+  input[type=url]:not(.browser-default).validate + label,
+  input[type=time]:not(.browser-default).validate + label,
+  input[type=date]:not(.browser-default).validate + label,
+  input[type=datetime]:not(.browser-default).validate + label,
+  input[type=datetime-local]:not(.browser-default).validate + label,
+  input[type=tel]:not(.browser-default).validate + label,
+  input[type=number]:not(.browser-default).validate + label,
+  input[type=search]:not(.browser-default).validate + label,
   textarea.materialize-textarea.validate + label {
     width: 100%;
     pointer-events: none; }
   /* line 114, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   input:not([type]) + label:after,
-  input[type=text] + label:after,
-  input[type=password] + label:after,
-  input[type=email] + label:after,
-  input[type=url] + label:after,
-  input[type=time] + label:after,
-  input[type=date] + label:after,
-  input[type=datetime] + label:after,
-  input[type=datetime-local] + label:after,
-  input[type=tel] + label:after,
-  input[type=number] + label:after,
-  input[type=search] + label:after,
+  input[type=text]:not(.browser-default) + label:after,
+  input[type=password]:not(.browser-default) + label:after,
+  input[type=email]:not(.browser-default) + label:after,
+  input[type=url]:not(.browser-default) + label:after,
+  input[type=time]:not(.browser-default) + label:after,
+  input[type=date]:not(.browser-default) + label:after,
+  input[type=datetime]:not(.browser-default) + label:after,
+  input[type=datetime-local]:not(.browser-default) + label:after,
+  input[type=tel]:not(.browser-default) + label:after,
+  input[type=number]:not(.browser-default) + label:after,
+  input[type=search]:not(.browser-default) + label:after,
   textarea.materialize-textarea + label:after {
     display: block;
     content: "";
     position: absolute;
     top: 60px;
+    left: 0;
     opacity: 0;
     transition: .2s opacity ease-out, .2s color ease-out; }
 
-/* line 125, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 126, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .input-field {
   position: relative;
   margin-top: 1rem; }
-  /* line 127, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 128, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.inline {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5px; }
-    /* line 132, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 133, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field.inline input,
     .input-field.inline .select-dropdown {
       margin-bottom: 1rem; }
-  /* line 140, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 141, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.col label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu label, .form-type-vertical-tabs .input-field.vertical-tabs__panes label, .color-form .input-field.wrap-placeholder-fab label, .color-palette .input-field.form-item:not(.form-item-scheme) label {
     left: 0.75rem; }
-  /* line 144, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 145, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.col .prefix ~ label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu .prefix ~ label, .form-type-vertical-tabs .input-field.vertical-tabs__panes .prefix ~ label, .color-form .input-field.wrap-placeholder-fab .prefix ~ label, .color-palette .input-field.form-item:not(.form-item-scheme) .prefix ~ label,
   .input-field.col .prefix ~ .validate ~ label, .form-type-vertical-tabs ul.input-field.vertical-tabs__menu .prefix ~ .validate ~ label, .form-type-vertical-tabs .input-field.vertical-tabs__panes .prefix ~ .validate ~ label, .color-form .input-field.wrap-placeholder-fab .prefix ~ .validate ~ label, .color-palette .input-field.form-item:not(.form-item-scheme) .prefix ~ .validate ~ label {
     width: calc(100% - 3rem - 1.5rem); }
-  /* line 153, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 154, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field label {
     color: #9e9e9e;
     position: absolute;
@@ -5064,21 +5062,21 @@ textarea.materialize-textarea {
     cursor: text;
     transition: .2s ease-out;
     text-align: initial; }
-    /* line 163, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 164, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field label:not(.label-icon).active {
       font-size: 0.8rem;
       -ms-transform: translateY(-140%);
           transform: translateY(-140%); }
-  /* line 170, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 171, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix {
     position: absolute;
     width: 3rem;
     font-size: 2rem;
     transition: color .2s; }
-    /* line 176, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 177, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix.active {
       color: #26a69a; }
-  /* line 179, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 180, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea,
   .input-field .prefix ~ label,
@@ -5087,42 +5085,42 @@ textarea.materialize-textarea {
     margin-left: 3rem;
     width: 92%;
     width: calc(100% - 3rem); }
-  /* line 189, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 190, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ label {
     margin-left: 3rem; }
   @media only screen and (max-width: 992px) {
-    /* line 192, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 193, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
   @media only screen and (max-width: 600px) {
-    /* line 199, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 200, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 80%;
       width: calc(100% - 3rem); } }
 
 /* Search Field */
-/* line 209, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 210, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .input-field input[type=search] {
   display: block;
   line-height: inherit;
   padding-left: 4rem;
   width: calc(100% - 4rem); }
-  /* line 215, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 216, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search]:focus {
     background-color: #fff;
     border: 0;
     box-shadow: none;
     color: #444; }
-    /* line 221, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 222, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field input[type=search]:focus + label i,
     .input-field input[type=search]:focus ~ .mdi-navigation-close,
     .input-field input[type=search]:focus ~ .material-icons {
       color: #444; }
-  /* line 228, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 229, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] + label {
     left: 1rem; }
-  /* line 232, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 233, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] ~ .mdi-navigation-close,
   .input-field input[type=search] ~ .material-icons {
     position: absolute;
@@ -5134,12 +5132,12 @@ textarea.materialize-textarea {
     transition: .3s color; }
 
 /* Textarea */
-/* line 248, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 249, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 textarea {
   width: 100%;
   height: 3rem;
   background-color: transparent; }
-  /* line 253, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 254, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   textarea.materialize-textarea {
     overflow-y: hidden;
     /* prevents scroll bar flash */
@@ -5148,7 +5146,7 @@ textarea {
     resize: none;
     min-height: 3rem; }
 
-/* line 262, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 263, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -5161,16 +5159,16 @@ textarea {
   top: 0; }
 
 /* Autocomplete */
-/* line 276, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 277, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .autocomplete-content {
   margin-top: -20px;
   display: block;
   opacity: 1;
   position: static; }
-  /* line 283, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 284, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li .highlight {
     color: #444; }
-  /* line 285, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 286, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li img {
     height: 40px;
     width: 40px;
@@ -5527,52 +5525,64 @@ form p:last-child {
   .switch label input[type=checkbox]:checked + .lever {
     background-color: #84c7c1; }
     /* line 24, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+    .switch label input[type=checkbox]:checked + .lever:before, .switch label input[type=checkbox]:checked + .lever:after {
+      left: 18px; }
+    /* line 28, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
     .switch label input[type=checkbox]:checked + .lever:after {
-      background-color: #26a69a;
-      left: 24px; }
+      background-color: #26a69a; }
 
-/* line 31, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+/* line 34, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
 .switch label .lever {
   content: "";
   display: inline-block;
   position: relative;
-  width: 40px;
-  height: 15px;
-  background-color: #818181;
+  width: 36px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.38);
   border-radius: 15px;
   margin-right: 10px;
   transition: background 0.3s ease;
   vertical-align: middle;
   margin: 0 16px; }
-  /* line 44, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
-  .switch label .lever:after {
+  /* line 47, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+  .switch label .lever:before, .switch label .lever:after {
     content: "";
     position: absolute;
     display: inline-block;
-    width: 21px;
-    height: 21px;
-    background-color: #F1F1F1;
-    border-radius: 21px;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
-    left: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
     top: -3px;
-    transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease; }
+    transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease; }
+  /* line 59, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+  .switch label .lever:before {
+    background-color: rgba(38, 166, 154, 0.15); }
+  /* line 63, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+  .switch label .lever:after {
+    background-color: #F1F1F1;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12); }
 
-/* line 60, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
-input[type=checkbox]:checked:not(:disabled) ~ .lever:active::after,
-input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::after {
-  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(38, 166, 154, 0.1); }
+/* line 70, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
+input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
+  -ms-transform: scale(2.4);
+      transform: scale(2.4);
+  background-color: rgba(38, 166, 154, 0.15); }
 
-/* line 65, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
-input[type=checkbox]:not(:disabled) ~ .lever:active:after,
-input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
-  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08); }
+/* line 76, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+input[type=checkbox]:not(:disabled) ~ .lever:active:before,
+input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
+  -ms-transform: scale(2.4);
+      transform: scale(2.4);
+  background-color: rgba(0, 0, 0, 0.08); }
 
-/* line 71, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+/* line 83, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
 .switch input[type=checkbox][disabled] + .lever {
-  cursor: default; }
+  cursor: default;
+  background-color: rgba(0, 0, 0, 0.12); }
 
-/* line 75, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
+/* line 88, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_switches.scss */
 .switch label input[type=checkbox][disabled] + .lever:after,
 .switch label input[type=checkbox][disabled]:checked + .lever:after {
   background-color: #BDBDBD; }
@@ -6076,17 +6086,17 @@ input[type=range]:focus::-ms-fill-upper {
     background-color: #fafafa;
     padding: 4px 6px;
     height: 56px;
-    width: 100%; }
-    /* line 40, node_modules/materialize-css/sass/components/_modal.scss */
+    width: 100%;
+    text-align: right; }
+    /* line 41, node_modules/materialize-css/sass/components/_modal.scss */
     .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .modal .modal-footer button, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane button, .ui-dialog .ui-dialog-buttonpane .modal .modal-footer button {
-      float: right;
       margin: 6px 0; }
 
 /* line 46, node_modules/materialize-css/sass/components/_modal.scss */
 .modal-overlay {
   position: fixed;
   z-index: 999;
-  top: -100px;
+  top: -25%;
   left: 0;
   bottom: 0;
   right: 0;
@@ -6578,6 +6588,16 @@ input[type=range]:focus::-ms-fill-upper {
     top: 10%;
     bottom: auto; } }
 
+@media only screen and (min-width: 601px) {
+  /* line 204, node_modules/materialize-css/sass/components/date_picker/_default.scss */
+  .picker__box {
+    display: -ms-flexbox;
+    display: flex; }
+  /* line 207, node_modules/materialize-css/sass/components/date_picker/_default.scss */
+  .picker__frame {
+    width: 80%;
+    max-width: 600px; } }
+
 /* ==========================================================================
    $BASE-DATE-PICKER
    ========================================================================== */
@@ -6586,12 +6606,14 @@ input[type=range]:focus::-ms-fill-upper {
  */
 /* line 7, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__box {
-  padding: 0 1em; }
+  padding: 0;
+  border-radius: 2px;
+  overflow: hidden; }
 
 /**
  * The header containing the month and year stuff.
  */
-/* line 13, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 15, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__header {
   text-align: center;
   position: relative;
@@ -6600,7 +6622,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year labels.
  */
-/* line 21, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 23, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__month,
 .picker__year {
   display: inline-block;
@@ -6610,7 +6632,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year selectors.
  */
-/* line 31, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 33, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__select--month,
 .picker__select--year {
   height: 2em;
@@ -6618,19 +6640,19 @@ input[type=range]:focus::-ms-fill-upper {
   margin-left: .25em;
   margin-right: .25em; }
 
-/* line 41, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 43, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__select--month.browser-default {
   display: inline;
   background-color: #FFFFFF;
   width: 40%; }
 
-/* line 46, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 48, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__select--year.browser-default {
   display: inline;
   background-color: #FFFFFF;
   width: 26%; }
 
-/* line 51, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 53, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__select--month:focus,
 .picker__select--year:focus {
   border-color: rgba(0, 0, 0, 0.05); }
@@ -6638,7 +6660,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month navigation buttons.
  */
-/* line 58, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 60, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--prev,
 .picker__nav--next {
   position: absolute;
@@ -6648,17 +6670,17 @@ input[type=range]:focus::-ms-fill-upper {
   box-sizing: content-box;
   top: -0.25em; }
 
-/* line 73, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 75, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--prev {
   left: -1em;
   padding-right: 1.25em; }
 
-/* line 82, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 84, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--next {
   right: -1em;
   padding-left: 1.25em; }
 
-/* line 92, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 94, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--disabled,
 .picker__nav--disabled:hover,
 .picker__nav--disabled:before,
@@ -6671,7 +6693,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The calendar table of dates
  */
-/* line 104, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 106, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__table {
   text-align: center;
   border-collapse: collapse;
@@ -6682,11 +6704,11 @@ input[type=range]:focus::-ms-fill-upper {
   margin-top: .75em;
   margin-bottom: .5em; }
 
-/* line 117, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 119, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__table th, .picker__table td {
   text-align: center; }
 
-/* line 126, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 128, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__table td {
   margin: 0;
   padding: 0; }
@@ -6694,7 +6716,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The weekday labels
  */
-/* line 133, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 135, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__weekday {
   width: 14.285714286%;
   font-size: .75em;
@@ -6704,14 +6726,14 @@ input[type=range]:focus::-ms-fill-upper {
   /* Increase the spacing a tad */ }
 
 @media (min-height: 33.875em) {
-  /* line 142, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  /* line 144, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
   .picker__weekday {
     padding-bottom: .5em; } }
 
 /**
  * The days on the calendar
  */
-/* line 150, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 152, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--today {
   position: relative;
   color: #595959;
@@ -6720,34 +6742,34 @@ input[type=range]:focus::-ms-fill-upper {
   font-weight: 400;
   border: 1px solid transparent; }
 
-/* line 170, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 172, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--disabled:before {
   border-top-color: #aaaaaa; }
 
-/* line 175, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 177, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--infocus:hover {
   cursor: pointer;
   color: #000;
   font-weight: 500; }
 
-/* line 181, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 183, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--outfocus {
   display: none;
   padding: .75rem 0;
   color: #fff; }
 
-/* line 187, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 189, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--outfocus:hover {
   cursor: pointer;
   color: #dddddd;
   font-weight: 500; }
 
-/* line 198, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 200, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--highlighted:hover,
 .picker--focused .picker__day--highlighted {
   cursor: pointer; }
 
-/* line 205, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 207, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--selected,
 .picker__day--selected:hover,
 .picker--focused .picker__day--selected {
@@ -6757,7 +6779,7 @@ input[type=range]:focus::-ms-fill-upper {
   background: #0089ec;
   color: #ffffff; }
 
-/* line 216, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 218, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--disabled,
 .picker__day--disabled:hover,
 .picker--focused .picker__day--disabled {
@@ -6766,7 +6788,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #dddddd;
   cursor: default; }
 
-/* line 224, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 226, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--highlighted.picker__day--disabled,
 .picker__day--highlighted.picker__day--disabled:hover {
   background: #bbbbbb; }
@@ -6774,17 +6796,11 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The footer containing the "today", "clear", and "close" buttons.
  */
-/* line 231, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 233, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__footer {
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
+  text-align: right; }
 
-/* line 237, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 236, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today,
 .picker__button--clear,
 .picker__button--close {
@@ -6797,7 +6813,7 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   vertical-align: bottom; }
 
-/* line 249, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 248, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today:hover,
 .picker__button--clear:hover,
 .picker__button--close:hover {
@@ -6806,7 +6822,7 @@ input[type=range]:focus::-ms-fill-upper {
   background: #b1dcfb;
   border-bottom-color: #b1dcfb; }
 
-/* line 257, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 256, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today:focus,
 .picker__button--clear:focus,
 .picker__button--close:focus {
@@ -6814,7 +6830,7 @@ input[type=range]:focus::-ms-fill-upper {
   border-color: rgba(0, 0, 0, 0.05);
   outline: none; }
 
-/* line 264, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 263, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today:before,
 .picker__button--clear:before,
 .picker__button--close:before {
@@ -6822,26 +6838,26 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   height: 0; }
 
-/* line 271, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 270, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today:before,
 .picker__button--clear:before {
   content: " ";
   margin-right: .45em; }
 
-/* line 276, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 275, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today:before {
   top: -0.05em;
   width: 0;
   border-top: 0.66em solid #0059bc;
   border-left: .66em solid transparent; }
 
-/* line 282, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 281, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--clear:before {
   top: -0.25em;
   width: .66em;
   border-top: 3px solid #ee2200; }
 
-/* line 287, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 286, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--close:before {
   content: "\D7";
   top: -0.1em;
@@ -6850,7 +6866,7 @@ input[type=range]:focus::-ms-fill-upper {
   margin-right: .35em;
   color: #777777; }
 
-/* line 295, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 294, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today[disabled],
 .picker__button--today[disabled]:hover {
   background: #f5f5f5;
@@ -6858,94 +6874,110 @@ input[type=range]:focus::-ms-fill-upper {
   color: #dddddd;
   cursor: default; }
 
-/* line 302, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 301, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__button--today[disabled]:before {
   border-top-color: #aaaaaa; }
 
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-/* line 309, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__box {
+/*.picker__box {
   border-radius: 2px;
-  overflow: hidden; }
-
-/* line 314, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  overflow: hidden;
+}*/
+/* line 313, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__date-display {
-  text-align: center;
+  text-align: left;
   background-color: #26a69a;
   color: #fff;
-  padding-bottom: 15px;
+  padding: 18px;
   font-weight: 300; }
 
-/* line 322, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+@media only screen and (min-width: 601px) {
+  /* line 322, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  .picker__date-display {
+    -ms-flex: 1;
+        flex: 1; }
+  /* line 325, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  .picker__weekday-display {
+    display: block; }
+  /* line 328, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  .picker__container__wrapper {
+    -ms-flex: 2;
+        flex: 2; } }
+
+/* line 333, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--prev:hover,
 .picker__nav--next:hover {
   cursor: pointer;
   color: #000000;
   background: #a1ded8; }
 
-/* line 329, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 340, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__weekday-display {
-  background-color: #1f897f;
-  padding: 10px;
-  font-weight: 200;
-  letter-spacing: .5;
-  font-size: 1rem;
-  margin-bottom: 15px; }
-
-/* line 338, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__month-display {
-  text-transform: uppercase;
-  font-size: 2rem; }
-
-/* line 342, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__day-display {
-  font-size: 4.5rem;
-  font-weight: 400; }
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-right: 5px;
+  margin-top: 4px; }
 
 /* line 347, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__year-display {
-  font-size: 1.8rem;
-  color: rgba(255, 255, 255, 0.4); }
+.picker__month-display {
+  font-size: 2.8rem;
+  font-weight: 500; }
 
 /* line 352, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__box {
-  padding: 0; }
+.picker__day-display {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-right: 5px; }
 
-/* line 355, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 357, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+.picker__year-display {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7); }
+
+/*.picker__box {
+  padding: 0;
+}*/
+/* line 366, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__calendar-container {
   padding: 0 1rem; }
-  /* line 358, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  /* line 369, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
   .picker__calendar-container thead {
     border: none; }
 
-/* line 364, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 375, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__table {
   margin-top: 0;
   margin-bottom: .5em; }
 
-/* line 369, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 380, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--infocus {
-  color: #595959;
-  letter-spacing: -.3;
-  padding: .75rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: -.3px;
+  padding: 0.75rem 0;
   font-weight: 400;
   border: 1px solid transparent; }
 
-/* line 378, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+@media only screen and (min-width: 601px) {
+  /* line 388, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  .picker__day--infocus {
+    padding: 1.1rem 0; } }
+
+/* line 395, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today {
   color: #26a69a; }
 
-/* line 382, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 399, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today.picker__day--selected {
   color: #fff; }
 
-/* line 387, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 404, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__weekday {
   font-size: .9rem; }
 
-/* line 392, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 409, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__day--selected,
 .picker__day--selected:hover,
 .picker--focused .picker__day--selected {
@@ -6954,24 +6986,29 @@ input[type=range]:focus::-ms-fill-upper {
       transform: scale(0.9);
   background-color: #26a69a;
   color: #ffffff; }
-  /* line 399, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+  /* line 416, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
   .picker__day--selected.picker__day--outfocus,
   .picker__day--selected:hover.picker__day--outfocus,
   .picker--focused .picker__day--selected.picker__day--outfocus {
     background-color: #a1ded8; }
 
-/* line 405, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 422, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__footer {
   text-align: right;
   padding: 5px 10px; }
 
-/* line 411, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
-.picker__close, .picker__today {
+/* line 428, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+.picker__close, .picker__today, .picker__clear {
   font-size: 1.1rem;
   padding: 0 1rem;
   color: #26a69a; }
 
-/* line 418, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 433, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+.picker__clear {
+  color: #f44336;
+  float: left; }
+
+/* line 439, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--prev:before,
 .picker__nav--next:before {
   content: " ";
@@ -6983,12 +7020,12 @@ input[type=range]:focus::-ms-fill-upper {
   display: block;
   margin: 0 auto; }
 
-/* line 429, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 450, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 .picker__nav--next:before {
   border-right: 0;
   border-left: 0.75em solid #676767; }
 
-/* line 433, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
+/* line 454, node_modules/materialize-css/sass/components/date_picker/_default.date.scss */
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #a1ded8; }
 
