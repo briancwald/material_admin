@@ -13,7 +13,8 @@
       $('.form-date').pickadate({
         selectMonths: true, // Creates a dropdown to control month
         formatSubmit: 'yyyy-mm-dd',
-        hiddenName: true
+        hiddenName: true,
+        autoclose:true
       });
     }
   };
@@ -24,7 +25,8 @@
         autoclose: true,
         twelvehour: false,
         closeOnSelect: true,
-        formatSubmit:'h:i A'
+        formatSubmit:'h:i A',
+        aftershow: function(){} //Function for after opening timepicker  
       });
     }
   };

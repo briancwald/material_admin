@@ -5,7 +5,6 @@ global-styling:
       css/material_admin.css: {}
   js:
     js/lib/materialize.min.js: {}
-    js/lib/materialize.clockpicker.js: {}
     js/material_admin.js: {}
   dependencies:
     - core/drupal

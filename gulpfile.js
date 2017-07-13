@@ -27,13 +27,13 @@ gulp.task('rename', function(){
     .pipe(gulp.dest('js/lib'));
 });
 
-// Grab all the other plugin js and add to project
-gulp.task('copy', function() {
-return gulp.src([
-  'node_modules/materialize-clockpicker/dist/js/materialize.clockpicker.js',
-  ])
-  .pipe(gulpCopy('js/lib',{prefix: 4}));
-});
+// COMMENTED OUT FOR REFERNCE: Grab all the other plugin js and add to project
+// gulp.task('copy', function() {
+// return gulp.src([
+//   'path/to/file',
+//   ])
+//   .pipe(gulpCopy('js/lib',{prefix: 4}));
+// });
 
 gulp.task('sass', function() {
   return gulp.src(['scss/material_admin.scss'])
