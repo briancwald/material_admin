@@ -22,6 +22,13 @@ function material_admin_form_system_theme_settings_alter(&$form, \Drupal\Core\Fo
     '#default_value' => theme_get_setting('material_admin_node_actions'),
   );
 
+  $form['theme_ui_options']['material_admin_portal_login'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Use portal style for user login page'),
+    '#description' => t('If you are using material admin for the front-end theme (I.E. decoupled implimentation) this will provide a portal style login page.'),
+    '#default_value' => theme_get_setting('material_admin_portal_login'),
+  );
+
   $form['theme_ui_options']['material_admin_message_length'] = array(
     '#type' => 'textfield',
     '#title' => t('Max allowed width of status message'),

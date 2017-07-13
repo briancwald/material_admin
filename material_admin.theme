@@ -12,9 +12,14 @@ require_once('inc/form.inc');
  *
  * Adds overall theme class to the body.
  */
-function material_admin_preprocess_html(&$variables) {
-  $variables['attributes']['class'][] = 'material_admin';
-}
+// function material_admin_preprocess_html(&$variables) {
+//   $route_match = \Drupal::routeMatch()->getRouteName();
+//   $variables['attributes']['class'][] = 'material_admin';
+//   $portal_paths = array('user.pass', 'user.login', 'user.register');
+//   if (in_array($route_match, $portal_paths)  && theme_get_setting('material_admin_portal_login')) {
+//      $variables['attributes']['class'][] = 'material_login';
+//   }
+// }
 
 /**
  * Implements hook_preprocess_breadcrumb().
@@ -161,4 +166,15 @@ function material_admin_preprocess_links__dropbutton(&$variables) {
  */
 function material_admin_preprocess_color_scheme_form(&$variables) {
   $variables['#attached']['library'][] =  'material_admin/color';
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function material_admin_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  $route_match = \Drupal::routeMatch()->getRouteName();
+  $portal_paths = array('user.pass', 'user.login', 'user.register');
+  if (in_array($route_match, $portal_paths, true)) {
+    $suggestions[] = 'page__portal_login';
+  }
 }

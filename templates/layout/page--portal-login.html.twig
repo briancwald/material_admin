@@ -1,0 +1,77 @@
+{#
+/**
+ * @file
+ * Theme override for portal login
+ *
+ * The doctype, html, head and body tags are not in this template. Instead they
+ * can be found in the html.html.twig template in this directory.
+ *
+ * Available variables:
+ *
+ * General utility variables:
+ * - base_path: The base URL path of the Drupal installation. Will usually be
+ *   "/" unless you have installed Drupal in a sub-directory.
+ * - is_front: A flag indicating if the current page is the front page.
+ * - logged_in: A flag indicating if the user is registered and signed in.
+ * - is_admin: A flag indicating if the user has permission to access
+ *   administration pages.
+ *
+ * Page content (in order of occurrence in the default page.html.twig):
+ * - node: Fully loaded node, if there is an automatically-loaded node
+ *   associated with the page and the node ID is the second argument in the
+ *   page's path (e.g. node/12345 and node/12345/revisions, but not
+ *   comment/reply/12345).
+ *
+ *
+ * @see template_preprocess_page()
+ * @see html.html.twig
+ */
+#}
+<div class="layout-container">
+  <div id="messageContainer" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4 class="notification-title">Message Notifications</h4>
+      <div class="allmessages">{{ page.status }}
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a data-href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
+    </div>
+  </div>
+  <header class="header" role="banner">
+    <div class="row material-container">
+      <div class="s12 col">
+                <div class="collection right" id="notification-wrapper">
+          <a class="modal-trigger collection-item message-trigger waves-effect" href="#messageContainer"><span class="fa fa-inbox"></span> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge messages--status">0</span><span class="badge messages--warning">0</span><span class="badge messages--error">0</span></a>
+        </div>
+         {% if page.status %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  <main role="main-wrapper">
+    <div class="row material-container fixed-width-row">
+      <div class="s12 m8 l6 push-l3 push-m2 col">
+        <div class="login-header center grey-text">
+          {{ page.header }}
+          </div>
+     <div class="card white">
+        <div class="card-content">
+          <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+           <span class="card-title grey-text blue text-darken-4"></span>
+          <p> {{ page.content }}</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  {% if page.footer %}
+  <footer role="contentinfo">
+    <div clas="row material-container">
+      {{ page.footer }}
+    </div>
+  </footer>
+  {% endif %}
+</div>{# /.layout-container #}
+

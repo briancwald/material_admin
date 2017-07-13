@@ -28,6 +28,10 @@ body {
     width: 95%;
     margin:0 auto!important;
   }
+ .fixed-width-row.row {
+   width: $global-width;
+   margin:0 auto!important;
+ }
 }
 
 @media #{$small-and-down} {
