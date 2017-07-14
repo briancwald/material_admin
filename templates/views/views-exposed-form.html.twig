@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Theme override for a views exposed form.
+ *
+ * Available variables:
+ * - form: A render element representing the form.
+ *
+ * @see template_preprocess_views_exposed_form()
+ */
+#}
+<ul class="collapsible exposed-form-collapsible" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header">
+      <i class="fa fa-filter" aria-hidden="true"></i>
+    </div>
+    <div class="collapsible-body">
+      {% if q is not empty %}
+        {#
+          This ensures that, if clean URLs are off, the 'q' is added first,
+          as a hidden form element, so that it shows up first in the POST URL.
+        #}
+      {{ q }}
+      {% endif %}
+      <div class="form--inline clearfix">
+        {{ form }}
+      </div>
+    </div>
+  </li>
+</ul>
