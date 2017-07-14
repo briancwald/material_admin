@@ -625,3 +625,20 @@ body.material_login {
     }
   }
 }
+
+// Views exposed form and bulk filter styles.
+
+// This block overrides normal .collapsible styles.
+.exposed-form-collapsible {
+  box-shadow: none;
+  border: none;
+  .collapsible-header {
+    border: none;
+    i {
+      float: right;
+    }
+  }
+  .collapsible-body {
+    border: none;
+  }
+}
