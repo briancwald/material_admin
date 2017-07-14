@@ -11549,11 +11549,11 @@ details.views-display-column.form-wrapper {
 .login-header .block-local-tasks-block nav.tabs li.indicator {
   background: #EF5350; }
 
-/* line 961, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-.login-header a.site-logo img {
+/* line 964, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+#block-material-admin-sitebranding a.site-logo img {
   max-width: 125px; }
 
-/* line 967, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+/* line 970, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 body.material_login {
   background: #f5f5f5; }
 
