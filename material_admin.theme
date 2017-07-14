@@ -174,7 +174,7 @@ function material_admin_preprocess_color_scheme_form(&$variables) {
 function material_admin_theme_suggestions_page_alter(array &$suggestions, array $variables) {
   $route_match = \Drupal::routeMatch()->getRouteName();
   $portal_paths = array('user.pass', 'user.login', 'user.register');
-  if (in_array($route_match, $portal_paths, true)) {
+  if (in_array($route_match, $portal_paths, true) && theme_get_setting('material_admin_portal_login')) {
     $suggestions[] = 'page__portal_login';
   }
 }
