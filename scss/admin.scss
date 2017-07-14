@@ -684,18 +684,18 @@ tr.field-plugin-settings-editing {
 .views-display-setting .label, .views-display-setting .views-ajax-link {
   float: none;
 }
-
-.views-admin .dropbutton-wrapper a.icon.add {
-  text-indent: 0;
-  background: inherit;
-  height: inherit;
-  width: inherit;
-  border: inherit;
-}
-
-.views-admin .dropbutton-wrapper a.icon.add:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: none;
+.views-admin .dropbutton-wrapper {
+  a.icon.add, a.ellipsis-icon {
+    text-indent: 0;
+    background: inherit;
+    height: inherit;
+    width: inherit;
+    border: inherit;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      box-shadow: none;
+    }
+  }
 }
 
 .views-admin .collection-item, .views-admin .collection {
