@@ -6,7 +6,7 @@ dependencies:
 id: material_admin_sitebranding
 theme: material_admin
 region: header
-weight: -1
+weight: -10
 provider: null
 plugin: system_branding_block
 settings:
