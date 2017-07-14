@@ -25,7 +25,7 @@ function material_admin_form_system_theme_settings_alter(&$form, \Drupal\Core\Fo
   $form['theme_ui_options']['material_admin_portal_login'] = array(
     '#type' => 'checkbox',
     '#title' => t('Use portal style for user login page'),
-    '#description' => t('If you are using material admin for the front-end theme (I.E. decoupled implimentation) this will provide a portal style login page.'),
+    '#description' => t('Provides a portal style login, It is recommended you install https://drupal.org/project/admin_login_path so your login pages will use the administration theme. Otherwise this will not have an effect unless you are use material admin as your default theme.'),
     '#default_value' => theme_get_setting('material_admin_portal_login'),
   );
 

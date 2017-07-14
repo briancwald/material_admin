@@ -10,10 +10,13 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 
 ## Dev Setup 
  - `yarn install` installs Yarn dependencies
- - `gulp libsrc` gets libraries
+ - `gulp libsrc` gets libraries (currently not needed)
  - `gulp rename` renames conflict with jQueryUI and Materialize CSS autocomplete plugin
  - `gulp copy` moves updated libraries over to js/lib folder
  - `gulp sass` or `gulp` to watch sass changes
+
+ ## Features Notes
+ Portal style login [screenshot](https://dl.dropboxusercontent.com/u/8476966/portal-login.png). To use this, you will want to alter the login paths to use the admin theme. I created a simple module that does this for you: https://www.drupal.org/project/admin_login_path
 
 ## To-Do
 - [x] Gulp Setup
