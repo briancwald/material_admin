@@ -90,7 +90,7 @@
   Drupal.theme.verticalTab = function (settings) {
     var tab = {};
     tab.item = $('<li class="vertical-tabs__menu-item waves-effect" tabindex="-1"></li>')
-      .append(tab.link = $('<a href="#"></a>')
+      .append(tab.link = $('<a class="vertical-tab-link" href="#"></a>')
         .append(tab.title = $('<strong class="vertical-tabs__menu-item-title"></strong>').text(settings.title))
         .append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>'))
       );
@@ -142,6 +142,7 @@
     Drupal.behaviors.material_admin_smooth_anchor_scroll = {
     attach: function (context) {
       $('a[href*="#"]')
+        .not('a.vertical-tab-link')
         .not('[href="#"]')
         .not('[href="#0"]')
         .click(function (event) {
