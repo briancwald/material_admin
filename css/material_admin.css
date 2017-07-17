@@ -10865,7 +10865,7 @@ header.header-wrapper .row, header.header-wrapper .form-type-vertical-tabs {
 
 /* line 132, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .messages-clone {
-  background: #fff !important; }
+  background: #FFFFFF !important; }
   /* line 135, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .messages-clone .card-title:before, .messages-clone .card-title .message-number {
     padding-right: 10px; }
@@ -11290,7 +11290,7 @@ tr.field-plugin-settings-editing {
 
 /* line 676, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
-  background-color: #fff; }
+  background-color: #FFFFFF; }
 
 /* line 680, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-ui-display-tab-bucket .views-display-setting {
@@ -11421,11 +11421,11 @@ details.views-display-column.form-wrapper {
     background: transparent; }
     /* line 810, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li a.active {
-      border-bottom: 2px solid #ee6e73;
+      border-bottom: 2px solid #EF5350;
       border-radius: 0; }
     /* line 814, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li a:hover {
-      color: #ee6e73; }
+      color: #EF5350; }
   /* line 818, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
   .views-displays .tabs.secondary li.add {
     margin-top: 5px;
@@ -11444,7 +11444,7 @@ details.views-display-column.form-wrapper {
         background-color: rgba(0, 0, 0, 0.1); }
     /* line 833, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
     .views-displays .tabs.secondary li.add ul {
-      background: white;
+      background: #FFFFFF;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
       border: 0;
       padding: 0;

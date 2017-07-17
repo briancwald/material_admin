@@ -130,7 +130,7 @@ header.header-wrapper {
 }
 
 .messages-clone {
-  background: #fff!important;
+  background: color("shades", "white")!important;
   .card-title {
     &:before, .message-number {
       padding-right: 10px;
@@ -665,8 +665,8 @@ tr.field-plugin-settings-editing {
 }
 
 .views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid color("grey", "lighten-2");
+  border-bottom: 1px solid color("grey", "lighten-2");
 }
 
 .views-display-column {
@@ -674,7 +674,7 @@ tr.field-plugin-settings-editing {
 }
 
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
-  background-color: #fff;
+  background-color: color("shades", "white");
 }
 
 .views-ui-display-tab-bucket .views-display-setting {
@@ -717,7 +717,7 @@ tr.field-plugin-settings-editing {
 
 .views-ui-display-tab-actions .dropbutton-wrapper li a, .views-ui-display-tab-actions .dropbutton-wrapper input {
   font-size: 16px;
-  color: #26a69a;
+  color: color("teal", "lighten-1");
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -735,7 +735,7 @@ details.views-display-column.form-wrapper {
     padding: 0;
   }
   .collection:not(:first-child) {
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid color("grey", "lighten-2");
   }
 }
 
@@ -787,7 +787,7 @@ details.views-display-column.form-wrapper {
 }
 
 .views-displays {
-  border: 1px solid #e0e0e0;
+  border: 1px solid color("grey", "lighten-2");
 }
 
 .views-admin .unit-title {
@@ -808,11 +808,11 @@ details.views-display-column.form-wrapper {
     line-height: 48px;
     background: transparent;
     &.active {
-      border-bottom: 2px solid #ee6e73;
+      border-bottom: 2px solid color("red", "lighten-1");
       border-radius: 0;
     }
     &:hover {
-      color: #ee6e73;
+      color: color("red", "lighten-1");
     }
   }
   &.add {
@@ -831,7 +831,7 @@ details.views-display-column.form-wrapper {
       }
     }
     ul {
-      background: white;
+      background: color("shades", "white");
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
       border: 0;
       padding: 0;
@@ -865,7 +865,7 @@ details.views-display-column.form-wrapper {
         input {
           font-size: 16px;
           font-weight: normal;
-          color: #26a69a;
+          color: color("teal", "lighten-1");
           display: block;
           line-height: 22px;
           padding: 14px 16px;
