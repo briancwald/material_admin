@@ -1,4 +1,256 @@
 /* @file
- * Common low level styles
+ * Common low level styles for Views UI
  *
  */
+
+// Views UI.
+.views-ui-display-tab-bucket__title {
+  font-size: 1.5rem;
+}
+
+.views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
+  border-top: 1px solid color("grey", "lighten-2");
+  border-bottom: 1px solid color("grey", "lighten-2");
+}
+
+.views-display-column {
+  border: none;
+}
+
+.views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
+  background-color: color("shades", "white");
+}
+
+.views-ui-display-tab-bucket .views-display-setting {
+  font-size: inherit;
+}
+
+.views-display-setting .label, .views-display-setting .views-ajax-link {
+  float: none;
+}
+.views-admin .dropbutton-wrapper {
+  a.icon.add, a.ellipsis-icon {
+    text-indent: 0;
+    background: inherit;
+    height: inherit;
+    width: inherit;
+    border: inherit;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+      box-shadow: none;
+    }
+  }
+}
+
+.views-admin .collection-item, .views-admin .collection {
+  overflow: visible;
+}
+
+.views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
+  padding: 0;
+}
+
+.views-ui-display-tab-bucket .dropbutton-wrapper {
+  position: absolute;
+  right: 0;
+}
+
+.views-ui-display-tab-bucket {
+  padding-top: 0;
+}
+
+.views-ui-display-tab-actions .dropbutton-wrapper li a, .views-ui-display-tab-actions .dropbutton-wrapper input {
+  font-size: 16px;
+  color: color("teal", "lighten-1");
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+  text-transform: none;
+}
+
+.views-display-top .dropbutton-wrapper {
+  z-index: 1;
+}
+
+details.views-display-column.form-wrapper {
+  margin-left: 2%;
+  margin-top: 0.5rem;
+  > .details-wrapper {
+    padding: 0;
+  }
+  .collection:not(:first-child) {
+    border-bottom: 1px solid color("grey", "lighten-2");
+  }
+}
+
+.collection > .collection.views-subcollection {
+  &:first-of-type {
+    padding-top: 1rem;
+  }
+  &:only-of-type {
+    padding-top: 0;
+    > .label {
+      display: none;
+    }
+    .collection-item {
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
+  padding-top: .5rem;
+  .label {
+    font-size: .9rem;
+    padding-left: 15px;
+  }
+  .collection-item {
+    padding-left: 40px;
+    border: none;
+    &:first-of-type {
+      margin-top: 5px;
+    }
+  }
+}
+
+#edit-display-settings-top {
+  padding-bottom: 0;
+  border: 0;
+  .views-display-setting {
+    .label {
+      display: none;
+    }
+    a {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.views-display-top {
+  background-color: inherit;
+  padding: 0;
+}
+
+.views-displays {
+  border: 1px solid color("grey", "lighten-2");
+}
+
+.views-admin .unit-title {
+  display: none;
+}
+
+.view-changed {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.views-displays .tabs.secondary li {
+  margin: 0;
+  a {
+    padding: 0 24px;
+    font-size: 14px;
+    border: 0;
+    line-height: 48px;
+    background: transparent;
+    &.active {
+      border-bottom: 2px solid color("red", "lighten-1");
+      border-radius: 0;
+    }
+    &:hover {
+      color: color("red", "lighten-1");
+    }
+  }
+  &.add {
+    margin-top: 5px;
+    margin-left: 20px;
+    a {
+      line-height: 36px;
+      text-decoration: none;
+      border-radius: 2px;
+      .icon {
+        display: none;
+      }
+      &:hover {
+        color: #343434;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+    ul {
+      background: color("shades", "white");
+      @extend .z-depth-2;
+      border: 0;
+      padding: 0;
+      top: 0;
+      z-index: 51;
+      li {
+        clear: both;
+        color: rgba(0, 0, 0, 0.87);
+        cursor: pointer;
+        min-height: 50px;
+        line-height: 1.5rem;
+        width: 100%;
+        text-align: left;
+        text-transform: none;
+        background: transparent;
+        border: 0;
+        &:hover {
+          background-color: #eee;
+        }
+        i {
+          border: 0;
+          box-shadow: none;
+          display: block;
+          background: none;
+          color: inherit;
+          padding: inherit;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+        input {
+          font-size: 16px;
+          font-weight: normal;
+          color: color("teal", "lighten-1");
+          display: block;
+          line-height: 22px;
+          padding: 14px 16px;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
+
+// views listing page
+#views-entity-list {
+  .form-type-search {
+    margin: 4em 0;
+  }
+}
+
+.views-ui-view-name {
+  h3 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+
+.views-list-section {
+  margin: 4em 0;
+  h2 {
+    font-size: 1.6em;
+    font-weight: normal;
+  }
+}
+
+// FOUC fixes for Views UI.
+#views-display-menu-tabs ~ input.add-display {
+  display: none;
+}
+
+.view-changed.messages.js-hide {
+  display: none;
+}
+
+#edit-display-settings-top .dropbutton:not(.dropdown-content) {
+  display: none;
+}
