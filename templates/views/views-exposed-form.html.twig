@@ -12,7 +12,9 @@
 <ul class="collapsible exposed-form-collapsible" data-collapsible="accordion">
   <li>
     <div class="collapsible-header">
-      <i class="fa fa-filter" aria-hidden="true"></i>
+      <a class="pulse dropdown-button ellipsis-icon btn btn-flat darken-3 text-darken-2">
+        <i class="fa fa-filter" aria-hidden="true" title="{{ 'Filter' | t }}"></i>
+      </a>
     </div>
     <div class="collapsible-body">
       {% if q is not empty %}

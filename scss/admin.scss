@@ -977,13 +977,35 @@ body.material_login {
 .exposed-form-collapsible {
   box-shadow: none;
   border: none;
+  margin-right: 50px;
   .collapsible-header {
     border: none;
-    i {
+    a {
       float: right;
+    }
+    i {
+      margin-right: 0;
     }
   }
   .collapsible-body {
     border: none;
+    font-weight: inherit;
+    padding: 0;
+  }
+}
+
+.view {
+  position: relative;
+}
+
+.views-bulk-form-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  > .form-wrapper {
+    display: none;
+  }
+  label[for="edit-action"] {
+    display: none;
   }
 }
