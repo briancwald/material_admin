@@ -173,6 +173,39 @@
         });
     }
   };
+ //jqueryUI dialog enhancments: disallow background page scroll when modal is open. allow clicking away from dialog to close modal.
+ Drupal.behaviors.material_admin_jqueryui_dialog_enhancements = {
+   attach: function (context, settings) {
+     //if the checkbox is checked in the theme settings UI.
+     if (drupalSettings.material_admin.material_admin_jqueryui_dialog_close || drupalSettings.material_admin.material_admin_jqueryui_dialog_background) {
+       $(document).ready(function () {
+         $(window).on({
+           'dialog:aftercreate': function (event, dialog, $modal, settings) {
+             if (drupalSettings.material_admin.material_admin_jqueryui_dialog_close) {
+               $("body").on('click', '.ui-widget-overlay', function () {
+                 if ($("div.ui-dialog").is(":visible")) {
+                   var openDialogId = $(".ui-dialog").find(".ui-dialog-content:visible").attr("id");
+                   if ($("#" + openDialogId).dialog("isOpen")) {
+                     $("#" + openDialogId).dialog('close');
+                   }
+                 }
+               });
+             }
+             if (drupalSettings.material_admin.material_admin_jqueryui_dialog_background) {
+               $('body').css('overflow', 'hidden');
+               $modal.dialog({
+                 close: function () {
+                   $('body').css('overflow', 'auto');
+                 }
+               });
+             }
+           }
+         });
+       });
+     }
+   }
+ }
+
 
 
 }(jQuery, Drupal));
