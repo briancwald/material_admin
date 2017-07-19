@@ -10522,6 +10522,14 @@ span.marker {
 .offset-tabs {
   margin-left: -20px; }
 
+/* line 328, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.file-upload-btn.btn-floating {
+  height: inherit;
+  line-height: inherit; }
+  /* line 331, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  .file-upload-btn.btn-floating i {
+    font-size: 1.3em; }
+
 /* @file
  * Form specific styling
  *
@@ -11486,35 +11494,41 @@ details.views-display-column.form-wrapper {
  */
 /* line 6, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav ol {
-  padding: .5em;
+  padding: 0 .5em;
   margin: 0; }
   /* line 9, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol li {
     font-size: 16px;
     display: inline-block;
     list-style: none;
-    padding: 0; }
-    /* line 15, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+    padding: 0;
+    line-height: 16px;
+    vertical-align: middle; }
+    /* line 17, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol li a, .breadcrumb-nav ol li span {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      display: inline-block; }
-    /* line 25, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 16px; }
+    /* line 29, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol li:before {
       content: "";
       font-size: 23px;
-      margin: -5px 10px 0 8px;
+      margin: 0px 10px 0px 8px;
+      line-height: 16px;
+      vertical-align: middle;
       -webkit-font-smoothing: antialiased; }
-    /* line 33, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+    /* line 39, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol li:first-child:before {
       display: none; }
 
-/* line 44, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+/* line 50, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav ol li:first-child a {
   visibility: hidden;
   max-width: 20px; }
-  /* line 47, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+  /* line 53, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
     content: "";
@@ -11522,53 +11536,53 @@ details.views-display-column.form-wrapper {
     text-indent: 0;
     visibility: visible; }
 
-/* line 59, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+/* line 65, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav li.current span.url-segement-title {
   text-transform: capitalize; }
 
-/* line 64, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+/* line 70, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav ol li {
   display: inline; }
 
-/* line 68, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+/* line 74, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px; }
-  /* line 71, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+  /* line 77, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol li a:before {
     content: '...';
     display: inline-block;
     visibility: visible; }
 
-/* line 78, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+/* line 84, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
 .breadcrumb-nav ol > *:first-child a {
   display: inline-block !important; }
 
 @media only screen and (max-width: 600px) {
-  /* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+  /* line 89, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px; }
-    /* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+    /* line 92, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+2) a:before {
       display: none; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 93, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+  /* line 99, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
     visibility: visible;
     display: inline-block;
     max-width: 100px; }
-    /* line 97, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+    /* line 103, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+4) a:before {
       display: none; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+  /* line 110, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
   .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px; }
-    /* line 107, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
+    /* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_breadcrumbs.scss */
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a:before {
       display: none; } }
 

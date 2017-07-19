@@ -4,7 +4,7 @@
 
 .breadcrumb-nav {
   ol {
-    padding: .5em;
+    padding: 0 .5em;
     margin: 0;
     li {
       @extend .blue-text, .text-lighten-4;
@@ -12,12 +12,16 @@
       display: inline-block;
       list-style: none;
       padding: 0;
+      line-height: 16px;
+      vertical-align: middle;
       a, span {
         @extend .blue-text, .text-lighten-4;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        display: inline-block;        
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 16px; 
       }
       span {
         @extend .white-text;
@@ -27,7 +31,9 @@
         @extend .blue-text, .text-lighten-4;
         @extend .fa-standard;
         font-size: 23px;
-        margin: -5px 10px 0 8px;
+        margin: 0px 10px 0px 8px;
+        line-height: 16px;
+        vertical-align: middle;
         -webkit-font-smoothing: antialiased;
       }
       &:first-child:before {

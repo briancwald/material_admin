@@ -324,3 +324,12 @@ span.marker {
  .offset-tabs {
   margin-left:-20px
  }
+
+ .file-upload-btn.btn-floating {
+   height: inherit;
+   line-height: inherit;
+   i {
+     font-size: 1.3em;
+   }
+ }
+
