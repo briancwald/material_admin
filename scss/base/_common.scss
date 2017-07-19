@@ -53,6 +53,18 @@ hr {
   margin:1em 0;
 }
 
+// Inputs inside dropbuttons dont align properly without this browser specifc styling.
+ul.dropbutton {
+  input {
+    vertical-align: -moz-middle-with-baseline;
+    vertical-align: -webkit-baseline-middle;
+  }
+}
+
+label {
+  box-sizing:border-box;
+}
+
 .description {
   //tooltip readability
   .material-tooltip {

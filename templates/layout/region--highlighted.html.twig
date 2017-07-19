@@ -18,7 +18,7 @@
     'region-' ~ region|clean_class,
   ]
 %}
-{% if content %}
+{% if content|striptags %}
  <div class="row material-container">
     <div class="s12 col">
 		{% spaceless %}
