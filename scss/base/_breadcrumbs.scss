@@ -1,0 +1,117 @@
+/* @file
+ * Breadcrumbs
+ */
+
+.breadcrumb-nav {
+  ol {
+    padding: 0 .5em;
+    margin: 0;
+    li {
+      @extend .blue-text, .text-lighten-4;
+      font-size: 16px;
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+      line-height: 16px;
+      vertical-align: middle;
+      a, span {
+        @extend .blue-text, .text-lighten-4;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 16px; 
+      }
+      span {
+        @extend .white-text;
+      }
+      &:before {
+        content: $fa-var-angle-right;
+        @extend .blue-text, .text-lighten-4;
+        @extend .fa-standard;
+        font-size: 23px;
+        margin: 0px 10px 0px 8px;
+        line-height: 16px;
+        vertical-align: middle;
+        -webkit-font-smoothing: antialiased;
+      }
+      &:first-child:before {
+        display: none;
+      }
+      &:last-child a, &:last-child {
+        @extend .grey-text, .lighten-4;
+      }
+    }
+  }
+}
+
+.breadcrumb-nav ol li:first-child {
+  a {
+    visibility: hidden;
+    max-width: 20px;
+    &:before {
+      float: left;
+      content: $fa-var-home;
+      @extend .fa-standard;
+      display: inline-block;
+      text-indent: 0;
+      visibility: visible;
+    }
+  }
+}
+
+//dynamic breadcrumb title
+.breadcrumb-nav li.current span.url-segement-title {
+  text-transform: capitalize;
+}
+
+//responsive bredcrumb
+.breadcrumb-nav ol li {
+  display: inline;
+}
+
+.breadcrumb-nav ol li a {
+  visibility: hidden;
+  max-width: 15px;
+  &:before {
+    content: '...';
+    display: inline-block;
+    visibility: visible;
+  }
+}
+
+.breadcrumb-nav ol > *:first-child a {
+  display: inline-block!important;
+}
+
+@media #{$small-and-down} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
+    visibility: visible;
+    max-width: 60px;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
+    visibility: visible;
+    display: inline-block;
+    max-width: 100px;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+@media #{$large-and-up} {
+  .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
+    visibility: visible;
+    max-width: 170px;
+    &:before {
+      display: none;
+    }
+  }
+}

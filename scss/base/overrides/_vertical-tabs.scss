@@ -3,9 +3,8 @@
  *
  */
 
-.form-type-vertical-tabs {
+.vertical-tab-wrapper {
   height:auto;
-  @extend .row;
   > label {
     font-size: 20px;
     text-transform: uppercase;
@@ -17,7 +16,7 @@
     @extend .col, .m3;
     position: relative;
     z-index:2;
-    padding-right:0;
+    padding-right:0!important;
     margin-right:0;    
     border-right:3px solid map-get($grey,base);;
     li.vertical-tabs__menu-item {

@@ -53,6 +53,18 @@ hr {
   margin:1em 0;
 }
 
+// Inputs inside dropbuttons dont align properly without this browser specifc styling.
+ul.dropbutton {
+  input {
+    vertical-align: -moz-middle-with-baseline;
+    vertical-align: -webkit-baseline-middle;
+  }
+}
+
+label {
+  box-sizing:border-box;
+}
+
 .description {
   //tooltip readability
   .material-tooltip {
@@ -312,3 +324,31 @@ span.marker {
  .offset-tabs {
   margin-left:-20px
  }
+
+ .file-upload-btn.btn-floating {
+   height: inherit;
+   line-height: inherit;
+   i {
+     font-size: 1.3em;
+   }
+ }
+
+ //override materializecss: dont set form width, only max width and allow the form fields to use its length.
+
+ input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  max-width: 100%;
+  width:inherit;
+}
+

@@ -85,6 +85,10 @@
   border: 0;
 }
 
+.ui-dialog .ui-widget-content a {
+  color: color("blue", "base");
+}
+
 .views-ui-dialog .views-override:not(:empty) {
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }

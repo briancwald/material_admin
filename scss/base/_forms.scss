@@ -51,9 +51,15 @@
   overflow: initial;
 }
 
-//form items in tables require less margin
-table td > .form-item {
-  margin: 10px 0;
+//form items in tables require less margin (but only the tope level item)
+table td > .form-item, table td > .ajax-new-content > .form-item {
+  margin: 0;
+  &~ .form-wrapper {
+    margin:25px 0;
+  }
+  .select-wrapper input.select-dropdown {
+    margin:0;
+  }
 }
 
 .input-field.js-form-type-checkbox label {
@@ -66,7 +72,6 @@ input[type=checkbox] {
 
 #edit-actions {
   .button {
-    margin: 10px 10px 10px 0;
   }
   .button--danger {
     @extend .btn-flat;
