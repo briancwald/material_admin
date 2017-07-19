@@ -20,6 +20,7 @@
         e.preventDefault();
         e.stopPropagation();
         var action = $(this).prop('hash');
+        action = action.substr(1, action.length);
         $(this).closest('.views-bulk-form-header').find('select').val(action);
         $(this).closest('.views-bulk-form-header').find('input[type="submit"]').trigger('click');
       });
