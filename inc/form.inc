@@ -6,9 +6,6 @@ use Drupal\Core\Url;
 
 /**
  * Implements hook_form_alter().
- * @param $form
- * @param $form_state
- * @param $form_id
  */
 function material_admin_form_alter(&$form, FormStateInterface $form_state, $form_id) {
  	if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
@@ -21,7 +18,13 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
     if (isset($form['header'])) {
       $children = Element::getVisibleChildren($form['header']);
       if (count($children) === 1 && strpos($children[0], '_bulk_form') !== FALSE) {
+        $form['actions']['submit']['#attributes']['class'][] = 'visually-hidden';
         $form['header']['#attributes']['class'][] = 'views-bulk-form-header';
+        $form['header']['#attributes']['title'] = t('Bulk operations');
+        $form['header']['count'] = [
+          '#type' => 'container',
+          '#attributes' => ['class' => ['views-bulk-form-count']],
+        ];
         $form['header']['dropdown'] = [
           '#type' => 'dropbutton',
           '#links' => [],

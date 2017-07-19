@@ -7029,6 +7029,36 @@ input[type=range]:focus::-ms-fill-upper {
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #a1ded8; }
 
+/* line 1, node_modules/materialize-css/sass/components/_pulse.scss */
+.pulse {
+  overflow: initial;
+  position: relative; }
+  /* line 2, node_modules/materialize-css/sass/components/_pulse.scss */
+  .pulse::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    border-radius: inherit;
+    transition: opacity .3s, transform .3s;
+    animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    z-index: -1; }
+
+@keyframes pulse-animation {
+  0% {
+    opacity: 1;
+    transform: scale(1); }
+  50% {
+    opacity: 0;
+    transform: scale(1.5); }
+  100% {
+    opacity: 0;
+    transform: scale(1.5); } }
+
 /*!
  * ClockPicker v0.0.7 for jQuery (http://weareoutman.github.io/clockpicker/)
  * Copyright 2014 Wang Shenwei.
@@ -11560,37 +11590,62 @@ body.material_login {
 .exposed-form-collapsible {
   box-shadow: none;
   border: none;
-  margin-right: 50px; }
-  /* line 981, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  padding: 1rem;
+  opacity: 1;
+  transition: .2s; }
+  /* line 983, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
-    border: none; }
-    /* line 983, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
-    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
-      float: right; }
+    border: none;
+    padding: 0; }
     /* line 986, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
+      float: right;
+      margin-right: 5px; }
+    /* line 990, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
       margin-right: 0; }
-  /* line 990, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 994, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-body {
     border: none;
     font-weight: inherit;
     padding: 0; }
 
-/* line 997, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 1001, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .view {
   position: relative; }
 
-/* line 1001, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
-.views-bulk-form-header {
+/* line 1006, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+.views-element-container .views-bulk-form-header {
   position: absolute;
   top: 0;
-  right: 0; }
-  /* line 1005, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
-  .views-bulk-form-header > .form-wrapper {
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #b2dfdb;
+  opacity: 0;
+  transition: .2s;
+  border-bottom: 1px solid #bdbdbd; }
+  /* line 1016, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .views-element-container .views-bulk-form-header > .form-wrapper:first-child {
     display: none; }
-  /* line 1008, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
-  .views-bulk-form-header label[for="edit-action"] {
+  /* line 1019, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .views-element-container .views-bulk-form-header label[for="edit-action"] {
     display: none; }
+  /* line 1022, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .views-element-container .views-bulk-form-header .dropbutton-wrapper {
+    float: right; }
+  /* line 1025, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .views-element-container .views-bulk-form-header .views-bulk-form-count {
+    float: left;
+    color: #00897b; }
+
+/* line 1031, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+.views-element-container.has-selection .views-bulk-form-header {
+  opacity: 1; }
+
+/* line 1034, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+.views-element-container.has-selection .exposed-form-collapsible {
+  opacity: 0; }
 
 /* @file
  * Common low level styles
