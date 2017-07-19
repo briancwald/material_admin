@@ -613,3 +613,15 @@ tr.field-plugin-settings-editing {
 body.material_login {
   background: color("grey", "lighten-4")
 }
+
+//region title action 
+
+.region-title__action {
+  .button {
+    @extend .btn-flat;
+    &:after {
+    @extend .fa-standard;
+    content: $fa-var-plus;
+    }
+  }
+}
