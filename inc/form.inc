@@ -18,7 +18,7 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
   if (isset($form['#id']) && strpos($form['#id'], 'views-form') === 0) {
     if (isset($form['header'])) {
       $children = Element::getVisibleChildren($form['header']);
-      if (count($children) === 1 && strpos($children[0], '_bulk_form') !== FALSE) {
+      if (count($children) === 1 && strpos($children[0], 'bulk_form') !== FALSE) {
         $form['actions']['submit']['#attributes']['class'][] = 'visually-hidden';
         $form['header']['#attributes']['class'][] = 'views-bulk-form-header';
         $form['header']['#attributes']['title'] = t('Bulk operations');
