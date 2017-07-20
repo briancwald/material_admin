@@ -12,6 +12,7 @@ h2 {
   &.small-header {
     font-size:1.3rem;
     font-weight:300;
+    line-height:25px;
     @extend .grey-text, .text-darken-3;
   }
 }
@@ -356,5 +357,9 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   max-width: 100%;
   width:inherit;
+}
+
+.collection.with-header .collection-header.no-bottom-border {
+  border-bottom:0;
 }
 

@@ -19,15 +19,16 @@
   set classes = [
     'views-ui-display-tab-bucket',
     'collection with-header',
+    'z-depth-1',
     name ? name|clean_class,
     overridden ? 'overridden',
   ]
 %}
 <div{{ attributes.addClass(classes) }}>
   {% if title -%}
-    <h3 class="collection-header views-ui-display-tab-bucket__title">{{ title }}</h3>
+    <h2 class="collection-header no-bottom-border views-ui-display-tab-bucket__title small-header grey lighten-4">{{ title }}</h3>
   {% elseif attributes.hasClass('access') %}
-    <h3 class="collection-header views-ui-display-tab-bucket__title">{{ 'Access' | t }}</h3>
+    <h2 class="collection-header no-bottom-border views-ui-display-tab-bucket__title small-header grey lighten-4">{{ 'Access' | t }}</h3>
   {%- endif %}
   {% if actions -%}
     {{ actions }}
