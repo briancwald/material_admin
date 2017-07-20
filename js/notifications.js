@@ -6,9 +6,6 @@
 
 (function ($, Drupal, Materialize) {
 
-  // @todo Remove when Materialize bug is fixed.
-  window.$ = $;
-
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
 
