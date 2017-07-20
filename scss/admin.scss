@@ -653,6 +653,9 @@ body.material_login {
     border: none;
     font-weight: inherit;
     padding: 0;
+    .form--inline {
+      justify-content: flex-end;
+    }
   }
   .exposed-form-chips {
     margin-right: .5rem;
