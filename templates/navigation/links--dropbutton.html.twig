@@ -34,7 +34,7 @@
 
 {% set manage_btn_classses = 'dropdown-button btn grey lighten-3 grey-text text-darken-2' %}
   
-{% if attributes.hasClass('views-ui-settings-bucket-operations') or attributes.id == 'views-display-extra-actions' or attributes.hasClass('views-bulk-form-dropdown') %}
+{% if attributes.hasClass('views-ui-settings-bucket-operations') or attributes.id == 'views-display-extra-actions' %}
   {% set btn_classses = 'dropdown-button ellipsis-icon btn btn-flat darken-3 text-darken-2' %}
 {% elseif attributes.hasClass('views-bulk-form-dropdown') %}
   {% set btn_classses = 'dropdown-button btn btn-floating pulse' %}
