@@ -284,6 +284,7 @@ details {
       content: $fa-var-angle-right;
       padding: 0px 5px;
       right:1em;
+      top:1em;
       position:absolute;
     }
   }
@@ -296,6 +297,11 @@ details {
     font-weight:300;
   }
 }
+
+details.form-wrapper summary {
+  align-items: center;
+}
+
 
 // for the default drupal 'marker' add the badge styles 
 span.marker {

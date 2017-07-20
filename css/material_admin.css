@@ -10644,51 +10644,57 @@ details {
     content: "";
     padding: 0px 5px;
     right: 1em;
+    top: 1em;
     position: absolute; }
 
-/* line 292, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 293, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .collapsible-body {
   font-weight: 500; }
-  /* line 294, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+  /* line 295, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
   .collapsible-body .description {
     padding: 1em 0;
     font-weight: 300; }
 
 /* line 301, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+details.form-wrapper summary {
+  -ms-flex-align: center;
+      align-items: center; }
+
+/* line 307, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 309, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 315, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 313, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 319, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 318, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 324, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before, .ckeditor-buttons:after, .ckeditor-buttons {
   box-sizing: initial; }
 
-/* line 323, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 329, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .tabs.tabs-transparent {
   border: none; }
 
-/* line 329, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 335, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .offset-tabs {
   margin-left: -20px; }
 
-/* line 333, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 339, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit; }
-  /* line 336, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+  /* line 342, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
   .file-upload-btn.btn-floating i {
     font-size: 1.3em; }
 
-/* line 343, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 349, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -10705,7 +10711,7 @@ textarea.materialize-textarea {
   max-width: 100%;
   width: inherit; }
 
-/* line 360, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
+/* line 366, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/base/_common.scss */
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
