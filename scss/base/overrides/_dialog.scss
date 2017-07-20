@@ -10,98 +10,107 @@
   color: #000;
   border: 0;
   padding: 0;
-  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  @extend .z-depth-5;
   border-radius: 2px;
+  background: color("shades", "white");
+  border: 0;
+  .ui-dialog-buttonpane {
+    margin-top: 0;
+    background: color("shades", "white");
+    padding: .3em 1em;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    .ui-dialog-buttonset {
+      margin: 0;
+      padding: 0;
+      button {
+        @extend .btn,
+        .btn-flat,
+        .darken-3,
+        .text-darken-2;
+        background: none;
+        &.ui-state-hover {
+          color: #343434 !important;
+        }
+      }
+    }
+    .ui-button-text-only .ui-button-text {
+      padding: 0;
+    }
+  }
+  .views-offset-top {
+    border-bottom: 1px solid color("grey", "lighten-1");
+  }
+  .ui-dialog-titlebar {
+    font-weight: bold;
+    background: color("shades", "white");
+    padding-top: 20px;
+    border: 0;
+    border-bottom: 1px solid color("grey", "lighten-1");
+    .ui-dialog-title {
+      font-weight: normal;
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    .ui-dialog-titlebar-close {
+      border: 0;
+      background: none;
+      top: 2rem;
+      right: 2rem;
+    }
+  }
+  .ajax-progress-throbber {
+    /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
+    left: 49%;
+    position: fixed;
+    top: 48.5%;
+    z-index: 1000;
+    background-color: transparent;
+    background-image: url(../images/spinner.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    height: 150px;
+    opacity: 0.9;
+    padding: 4px;
+    width: 150px;
+    .throbber,
+    .message {
+      display: none;
+    }
+  }
+  .views-override:not(:empty) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .ui-dialog-content {
+    .form-actions {
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      color: color("blue", "base");
+    }
+  }
 }
 
-@media all and (max-width: 48em) { /* 768px */
+@media #{$medium-and-down} {
   .ui-dialog {
     width: 92% !important;
   }
-}
-.ui-dialog .ui-dialog-titlebar {
-  font-weight: bold;
-  background: color("shades", "white");
-  padding-top: 20px;
-  border: 0;
-}
-.ui-dialog .ui-dialog-titlebar-close {
-  border: 0;
-  background: none;
-  top: 1rem;
-}
-.ui-dialog-title {
-  font-weight: normal;
-  font-size: 1.5rem;
-  margin: 1.14rem 0 .912rem 0;
-}
-.ui-dialog .ui-dialog-buttonpane {
-  margin-top: 0;
-  background: color("shades", "white");
-  padding: .3em 1em;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,0.1);
-}
-.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
-  margin: 0;
-  padding: 0;
-}
-.ui-dialog .ui-dialog-buttonpane .ui-button-text-only .ui-button-text {
-  padding: 0;
-}
-
-/* Form action buttons are moved in dialogs. Remove empty space. */
-.ui-dialog .ui-dialog-content .form-actions {
-  padding: 0;
-  margin: 0;
-}
-.ui-dialog .ajax-progress-throbber {
-  /* Can't do center:50% middle: 50%, so approximate it for a typical window size. */
-  left: 49%;
-  position: fixed;
-  top: 48.5%;
-  z-index: 1000;
-  background-color: transparent;
-  background-image: url(../images/spinner.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 7px;
-  height: 150px;
-  opacity: 0.9;
-  padding: 4px;
-  width: 150px;
-}
-.ui-dialog .ajax-progress-throbber .throbber,
-.ui-dialog .ajax-progress-throbber .message {
-  display: none;
 }
 
 .views-ui-dialog .views-override:not(:empty),
 .ui-widget-content,
 .ui-dialog .ui-dialog-content,
-.views-ui-dialog,
-.ui-dialog {
+.views-ui-dialog {
   background: color("shades", "white");
   border: 0;
 }
 
-.ui-dialog .ui-widget-content a {
-  color: color("blue", "base");
-}
-
-.views-ui-dialog .views-override:not(:empty) {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.ui-dialog .ui-dialog-buttonpane button {
-  @extend .btn, .btn-flat, .darken-3, .text-darken-2;
-  background: none;
-  &.ui-state-hover {
-    color: #343434 !important;
-  }
-}
-
-.ui-widget {
-  font-family: inherit;
-  font-size: inherit;
+.ui-widget, .ui-dialog, .ui-widget-content, .ui-widget-header, .ui-widget button{
+  font-family: $body-font-family;
+  font-size: $global-font-size;
+  color:$body-font-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

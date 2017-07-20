@@ -8,7 +8,7 @@
   font-size: 1.5rem;
 }
 
-.views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
+.views-ui-display-tab-bucket+.views-ui-display-tab-bucket {
   border-top: 1px solid color("grey", "lighten-2");
   border-bottom: 1px solid color("grey", "lighten-2");
 }
@@ -25,11 +25,14 @@
   font-size: inherit;
 }
 
-.views-display-setting .label, .views-display-setting .views-ajax-link {
+.views-display-setting .label,
+.views-display-setting .views-ajax-link {
   float: none;
 }
+
 .views-admin .dropbutton-wrapper {
-  a.icon.add, a.ellipsis-icon {
+  a.icon.add,
+  a.ellipsis-icon {
     text-indent: 0;
     background: inherit;
     height: inherit;
@@ -43,17 +46,24 @@
 }
 
 .views-admin {
-    .form-edit .form-actions {
-        background-color: color("grey", "lighten-4");
-    }
+  .form-edit .form-actions {
+    background-color: color("grey", "lighten-4");
+    border: none;
+    padding:1em;
+  }
 }
 
-.views-admin .collection-item, .views-admin .collection {
+.views-admin .collection-item,
+.views-admin .collection {
   overflow: visible;
 }
 
 .views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
   padding: 0;
+}
+
+.views-ui-display-tab-bucket.views-ui-display-tab-actions {
+  padding:15px 0px;
 }
 
 .views-ui-display-tab-bucket .dropbutton-wrapper {
@@ -67,7 +77,8 @@
   padding-top: 0;
 }
 
-.views-ui-display-tab-actions .dropbutton-wrapper li a, .views-ui-display-tab-actions .dropbutton-wrapper input {
+.views-ui-display-tab-actions .dropbutton-wrapper li a,
+.views-ui-display-tab-actions .dropbutton-wrapper input {
   font-size: 16px;
   color: color("teal", "lighten-1");
   display: block;
@@ -83,7 +94,7 @@
 details.views-display-column.form-wrapper {
   margin-left: 2%;
   margin-top: 0.5rem;
-  > .details-wrapper {
+  >.details-wrapper {
     padding: 0;
   }
   .collection:not(:first-child) {
@@ -91,13 +102,13 @@ details.views-display-column.form-wrapper {
   }
 }
 
-.collection > .collection.views-subcollection {
+.collection>.collection.views-subcollection {
   &:first-of-type {
     padding-top: 1rem;
   }
   &:only-of-type {
     padding-top: 0;
-    > .label {
+    >.label {
       display: none;
     }
     .collection-item {
@@ -139,7 +150,7 @@ details.views-display-column.form-wrapper {
 }
 
 .views-displays {
-  border: 1px solid color("grey", "lighten-2");
+  border: none
 }
 
 .views-admin .unit-title {
@@ -251,7 +262,7 @@ details.views-display-column.form-wrapper {
 }
 
 // FOUC fixes for Views UI.
-#views-display-menu-tabs ~ input.add-display {
+#views-display-menu-tabs~input.add-display {
   display: none;
 }
 
@@ -263,7 +274,17 @@ details.views-display-column.form-wrapper {
   display: none;
 }
 
-.view-preview-form__title {
-  background: color("grey", "lighten-4");
-  @extend .small-header;
+.views-preview-wrapper{
+  margin-top:3em;
+  .view-preview-form__title {
+    background: color("grey", "lighten-4");
+    @extend .small-header;
+  }
+}
+
+.views-filterable-options {
+  border-top: none;
+  .filterable-option .title {
+    font-weight: $global-weight-normal;
+  }
 }

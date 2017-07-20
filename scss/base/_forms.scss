@@ -331,6 +331,10 @@ a#edit-cancel {
         border-bottom: 1px solid color("teal", "lighten-1")
       }
     }
+    i.fa-search.prefix {
+      font-size:1.5rem;
+      margin-top:12px;
+    }
   }
 }
 
@@ -358,6 +362,20 @@ i.waves-input-wrapper.input-form-submit {
   .waves-button-input {
     padding:0 2em;
     height:100%;
+  }
+}
+
+.form-item-selected {
+  .views-ui-view-title {
+    display:inline-block;
+    padding:5px 10px;
+    font-weight: 400;
+  }
+  .views-selected-options {
+    display:inline-block;
+    padding:5px 10px;
+    font-weight:300;
+     transition: all 2s ease-in;
   }
 }
 
