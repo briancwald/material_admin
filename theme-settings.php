@@ -30,7 +30,7 @@ function material_admin_form_system_theme_settings_alter(&$form, \Drupal\Core\Fo
   );
 
   $form['theme_ui_options']['material_admin_message_length'] = array(
-    '#type' => 'textfield',
+    '#type' => 'number',
     '#title' => t('Max allowed width of status message'),
     '#description' => t('Status messages use google material toast notifcation system, but this limits the length shown in the status message. Note: the full message will always appear in the bottom drawer'),
     '#default_value' => theme_get_setting('material_admin_message_length'),
