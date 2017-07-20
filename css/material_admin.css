@@ -7067,6 +7067,87 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     opacity: 0;
     transform: scale(1.5); } }
 
+/* line 1, node_modules/materialize-css/sass/components/_chips.scss */
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px; }
+  /* line 14, node_modules/materialize-css/sass/components/_chips.scss */
+  .chip > img {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%; }
+  /* line 22, node_modules/materialize-css/sass/components/_chips.scss */
+  .chip .close {
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px; }
+
+/* line 31, node_modules/materialize-css/sass/components/_chips.scss */
+.chips {
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  box-shadow: none;
+  margin: 0 0 20px 0;
+  min-height: 45px;
+  outline: none;
+  transition: all .3s; }
+  /* line 40, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips.focus {
+    border-bottom: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a; }
+  /* line 45, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips:hover {
+    cursor: text; }
+  /* line 49, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips .chip.selected {
+    background-color: #26a69a;
+    color: #fff; }
+  /* line 54, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips .input {
+    background: none;
+    border: 0;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 32px;
+    outline: 0;
+    margin: 0;
+    padding: 0 !important;
+    width: 120px !important; }
+  /* line 68, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips .input:focus {
+    border: 0 !important;
+    box-shadow: none !important; }
+  /* line 74, node_modules/materialize-css/sass/components/_chips.scss */
+  .chips .autocomplete-content {
+    margin-top: 0; }
+
+/* line 80, node_modules/materialize-css/sass/components/_chips.scss */
+.prefix ~ .chips {
+  margin-left: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem); }
+
+/* line 85, node_modules/materialize-css/sass/components/_chips.scss */
+.chips:empty ~ label {
+  font-size: 0.8rem;
+  -ms-transform: translateY(-140%);
+      transform: translateY(-140%); }
+
 /*!
  * ClockPicker v0.0.7 for jQuery (http://weareoutman.github.io/clockpicker/)
  * Copyright 2014 Wang Shenwei.
@@ -11321,25 +11402,30 @@ body.material_login {
   /* line 638, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
     border: none;
-    padding: 0; }
-    /* line 641, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    padding: 0;
+    margin-bottom: 2rem; }
+    /* line 642, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
       float: right;
       margin-right: 5px; }
-    /* line 645, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 646, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
       margin-right: 0; }
-  /* line 649, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 650, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-body {
     border: none;
     font-weight: inherit;
     padding: 0; }
+  /* line 655, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .exposed-form-collapsible .exposed-form-chips {
+    float: right;
+    margin-right: .5rem; }
 
-/* line 656, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 661, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .view {
   position: relative; }
 
-/* line 661, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 666, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container .views-bulk-form-header {
   position: absolute;
   top: 0;
@@ -11350,25 +11436,25 @@ body.material_login {
   opacity: 0;
   transition: .2s;
   border-bottom: 1px solid #bdbdbd; }
-  /* line 671, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 676, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header > .form-wrapper:first-child {
     display: none; }
-  /* line 674, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 679, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header label[for="edit-action"] {
     display: none; }
-  /* line 677, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 682, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header .dropbutton-wrapper {
     float: right; }
-  /* line 680, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 685, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header .views-bulk-form-count {
     float: left;
     color: #00897b; }
 
-/* line 686, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 691, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container.has-selection .views-bulk-form-header {
   opacity: 1; }
 
-/* line 689, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 694, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container.has-selection .exposed-form-collapsible {
   opacity: 0; }
 

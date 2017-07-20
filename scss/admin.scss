@@ -638,6 +638,7 @@ body.material_login {
   .collapsible-header {
     border: none;
     padding: 0;
+    margin-bottom: 2rem;
     a {
       float: right;
       margin-right: 5px;
@@ -650,6 +651,10 @@ body.material_login {
     border: none;
     font-weight: inherit;
     padding: 0;
+  }
+  .exposed-form-chips {
+    float: right;
+    margin-right: .5rem;
   }
 }
 
