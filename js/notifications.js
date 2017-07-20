@@ -4,20 +4,25 @@
  *
  */
 
-(function ($, Drupal) {
+(function ($, Drupal, Materialize) {
+
+  // @todo Remove when Materialize bug is fixed.
+  window.$ = $;
 
   // Max message length to show in the notification prompt
   // @ToDo make this default configurable in theme settings
 
   Drupal.behaviors.material_notification = {
     attach: function (context, settings) {
-      maxMessageLength = drupalSettings.material_admin.material_admin_message_length;
+      var maxMessageLength = drupalSettings.material_admin.material_admin_message_length;
       var messages = $('div.messages');
       messages.once('material_notification').each(function () {
-        messageMax = maxMessageLength;
-        messageContent = $(this).find('.message-content');
+        var messageMax = maxMessageLength;
+        var messageContent = $(this).find('.message-content');
 
         messageContent.each(function () {
+          var statusType = '';
+          var statusText = '';
           if ($(this).closest($('.messages')).hasClass('messages--status')) {
             statusType = 'messages--status';
             statusText = ' Status ';
@@ -30,11 +35,11 @@
             statusType = 'messages--error';
             statusText = ' Error ';
           }
-          thisMessageSize = messageContent.text().length;
+          var thisMessageSize = messageContent.text().length;
 
           // Check to see if the message is too long for reasonable reading inside a toast notification
           if (thisMessageSize <= messageMax) {
-            thisItem = $(this).closest($('.messages'));
+            var thisItem = $(this).closest($('.messages'));
             var itemContent = $(this).text();
             Materialize.toast(itemContent, 5000, statusType);
             messageInbox(statusType, thisItem);
@@ -55,18 +60,18 @@
   function messageInbox(statusType, thisItem) {
     thisItem.each(function () {
       $(this).appendTo('#messageContainer .region-status').removeClass('messages').addClass('messages-clone').show();
-      itemforMessageCenter = thisItem;
-      messageCounter(itemforMessageCenter, statusType);
+      messageCounter(thisItem, statusType);
 
     });
   }
   //add badge for each message type
   function messageCounter(itemforMessageCenter, statusType) {
     var currentValue = parseInt($('.message-trigger span.badge.' + statusType).text(), 10);
-    messageCount = currentValue + 1;
+    var messageCount = currentValue + 1;
     $('.message-trigger span.badge.' + statusType).text(messageCount).show();
     if (messageCount >= 1) {
       $('#notification-wrapper').show();
     }
   }
-}(jQuery, Drupal));
+
+}(jQuery, Drupal, Materialize));
