@@ -14,6 +14,7 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
   }
   // Detect if a Views bulk form is the only element visible in the header, and
   // if so style it inline with the filters.
+  $form['#attached']['library'][] = 'material_admin/views-bulk-form';
   if (isset($form['#id']) && strpos($form['#id'], 'views-form') === 0) {
     if (isset($form['header'])) {
       $children = Element::getVisibleChildren($form['header']);
@@ -36,7 +37,6 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
             'url' => Url::fromUri('internal:#' . $key),
           ];
         }
-        $form['#attached']['library'][] = 'material_admin/views-bulk-form';
       }
     }
   }

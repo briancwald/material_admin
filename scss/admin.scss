@@ -639,8 +639,10 @@ body.material_login {
     border: none;
     padding: 0;
     margin-bottom: 2rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    vertical-align: middle;
     a {
-      float: right;
       margin-right: 5px;
     }
     i {
@@ -653,8 +655,12 @@ body.material_login {
     padding: 0;
   }
   .exposed-form-chips {
-    float: right;
     margin-right: .5rem;
+    display: flex;
+    align-items: center;
+    .chip {
+      margin-bottom: 0;
+    }
   }
 }
 
