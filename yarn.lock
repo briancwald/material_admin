@@ -1638,7 +1638,7 @@ jquery-lazyload@1.9.7:
   version "1.9.7"
   resolved "https://registry.yarnpkg.com/jquery-lazyload/-/jquery-lazyload-1.9.7.tgz#9982b388c533c0b611214b3c5aaa0b9fede071f7"
 
-jquery@^3.2.1:
+"jquery@^3.0.0 || ^2.1.4":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
@@ -2025,12 +2025,12 @@ materialize-clockpicker@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/materialize-clockpicker/-/materialize-clockpicker-1.0.1.tgz#e815d2665b4e77eb9f60e983650a53de87dd8ffe"
 
-materialize-css@^0.99.0:
-  version "0.99.0"
-  resolved "https://registry.yarnpkg.com/materialize-css/-/materialize-css-0.99.0.tgz#a5d97ac65d171d5aa1bc6a1a19d984b5e17a9202"
+materialize-css@^0.100.0:
+  version "0.100.0"
+  resolved "https://registry.yarnpkg.com/materialize-css/-/materialize-css-0.100.0.tgz#162fcbd816c3236c47051fcb39826e9a027dda79"
   dependencies:
     hammerjs "^2.0.8"
-    jquery "^3.2.1"
+    jquery "^3.0.0 || ^2.1.4"
 
 media-typer@0.3.0:
   version "0.3.0"
