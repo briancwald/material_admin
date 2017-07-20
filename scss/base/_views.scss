@@ -42,6 +42,12 @@
   }
 }
 
+.views-admin {
+    .form-edit .form-actions {
+        background-color: color("grey", "lighten-4");
+    }
+}
+
 .views-admin .collection-item, .views-admin .collection {
   overflow: visible;
 }
@@ -54,6 +60,8 @@
   position: absolute;
   right: 0;
 }
+
+
 
 .views-ui-display-tab-bucket {
   padding-top: 0;
@@ -253,4 +261,9 @@ details.views-display-column.form-wrapper {
 
 #edit-display-settings-top .dropbutton:not(.dropdown-content) {
   display: none;
+}
+
+.view-preview-form__title {
+  background: color("grey", "lighten-4");
+  @extend .small-header;
 }

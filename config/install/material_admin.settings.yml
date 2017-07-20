@@ -10,3 +10,5 @@ favicon:
 material_admin_node_actions: 0
 material_admin_message_length: '88'
 material_admin_portal_login: 1
+material_admin_jqueryui_dialog_background: 1
+material_admin_jqueryui_dialog_close: 1

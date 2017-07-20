@@ -10,7 +10,10 @@ h1 {
 h2 {
   font-size: 2rem;
   &.small-header {
-    font-size:1.5rem;
+    font-size:1.3rem;
+    font-weight:300;
+    line-height:25px;
+    @extend .grey-text, .text-darken-3;
   }
 }
 
@@ -193,6 +196,10 @@ a.button {
   }
 }
 
+.x-small {
+  height:150px;
+}
+
 .card {
   .card-content {
     .card-title {
@@ -350,5 +357,9 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   max-width: 100%;
   width:inherit;
+}
+
+.collection.with-header .collection-header.no-bottom-border {
+  border-bottom:0;
 }
 
