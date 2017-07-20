@@ -1,19 +1,45 @@
 <?php
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Url;
 
 /**
  * Implements hook_form_alter().
- * @param $form
- * @param $form_state
- * @param $form_id
  */
 function material_admin_form_alter(&$form, FormStateInterface $form_state, $form_id) {
-
  	if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
-    	$form['actions']['submit']['#attributes']['class'][] = 'success';
-    	$form['actions']['submit']['#attributes']['class'][] = 'button';
-  	}
+    $form['actions']['submit']['#attributes']['class'][] = 'success';
+    $form['actions']['submit']['#attributes']['class'][] = 'button';
+  }
+  // Detect if a Views bulk form is the only element visible in the header, and
+  // if so style it inline with the filters.
+  if (isset($form['#id']) && strpos($form['#id'], 'views-form') === 0) {
+    if (isset($form['header'])) {
+      $children = Element::getVisibleChildren($form['header']);
+      if (count($children) === 1 && strpos($children[0], '_bulk_form') !== FALSE) {
+        $form['actions']['submit']['#attributes']['class'][] = 'visually-hidden';
+        $form['header']['#attributes']['class'][] = 'views-bulk-form-header';
+        $form['header']['#attributes']['title'] = t('Bulk operations');
+        $form['header']['count'] = [
+          '#type' => 'container',
+          '#attributes' => ['class' => ['views-bulk-form-count']],
+        ];
+        $form['header']['dropdown'] = [
+          '#type' => 'dropbutton',
+          '#links' => [],
+          '#attributes' => ['class' => ['views-bulk-form-dropdown']],
+        ];
+        foreach ($form['header'][$children[0]]['action']['#options'] as $key => $option) {
+          $form['header']['dropdown']['#links'][$key] = [
+            'title' => $option,
+            'url' => Url::fromUri('internal:#' . $key),
+          ];
+        }
+        $form['#attached']['library'][] = 'material_admin/views-bulk-form';
+      }
+    }
+  }
 }
 
 /**

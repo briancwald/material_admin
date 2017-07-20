@@ -64,3 +64,11 @@ tableselect:
   dependencies:
     - core/jquery
     - core/jquery.ui
+
+views-bulk-form:
+  version: VERSION
+  js:
+    js/views_bulk_form.js: {}
+  dependencies:
+    - core/drupl
+    - core/jquery
