@@ -10,7 +10,9 @@ h1 {
 h2 {
   font-size: 2rem;
   &.small-header {
-    font-size:1.5rem;
+    font-size:1.3rem;
+    font-weight:300;
+    @extend .grey-text, .text-darken-3;
   }
 }
 
@@ -191,6 +193,10 @@ a.button {
   &:hover {
     text-decoration: none;
   }
+}
+
+.x-small {
+  height:150px;
 }
 
 .card {

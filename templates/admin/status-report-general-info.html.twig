@@ -32,14 +32,14 @@
 <div class="row">
   <h2 class="small-header">{{ 'General System Information'|t }}</h2>
   <div class="system-status-general-info__item col m4 s12">
-    <div class="card small">
+    <div class="card x-small">
       <div class="card-content">
         <span class="system-status-general-info__item-title card-title"><i class="fa fa-drupal" aria-hidden="true"></i> {{ 'Drupal Version'|t }}</span><p> {{ drupal.value }} {% if drupal.description %} {{ drupal.description }} {% endif %}</p>
       </div>
     </div>
   </div>
   <div class="system-status-general-info__item col s12 m8">
-    <div class="card small">
+    <div class="card x-small">
       <div class="card-content">
         <span class="system-status-general-info__item-title card-title"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> {{ 'Last Cron Run'|t }}</span> <p>{{ cron.value }} {% if cron.run_cron %} {{ cron.run_cron }} {% endif %} {% if cron.description %} {{ cron.description }} {% endif %}</p>
       </div>
