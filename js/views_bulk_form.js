@@ -40,6 +40,7 @@
         if (count >= 1) {
           var text = Drupal.formatPlural(count, '@count item selected', '@count items selected');
           $(this).find('.views-bulk-form-count').html('<p>' + text + '</p>');
+          $exposed.collapsible('close', 0);
         }
       });
       $('.views-bulk-form-dropdown li a', context).on('click', function (e) {
