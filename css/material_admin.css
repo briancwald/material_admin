@@ -11580,7 +11580,11 @@ body.material_login {
   padding: 1rem;
   opacity: 1;
   transition: .2s; }
-  /* line 638, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  @media only screen and (max-width: 600px) {
+    /* line 639, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    .exposed-form-collapsible div.collapsible-header {
+      margin-bottom: 0; } }
+  /* line 643, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
     border: none;
     padding: 0;
@@ -11589,38 +11593,46 @@ body.material_login {
         flex-direction: row-reverse;
     -ms-flex-pack: start;
         justify-content: flex-start;
-    vertical-align: middle; }
-    /* line 645, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    vertical-align: middle;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    /* line 651, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
       margin-right: 5px; }
-    /* line 648, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 654, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
       margin-right: 0; }
-  /* line 652, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 658, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .collapsible-body {
     border: none;
     font-weight: inherit;
     padding: 0; }
-    /* line 656, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 662, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .collapsible-body .form--inline {
       -ms-flex-pack: end;
           justify-content: flex-end; }
-  /* line 660, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 666, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .exposed-form-collapsible .exposed-form-chips {
     margin-right: .5rem;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-align: center;
-        align-items: center; }
-    /* line 664, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin-top: 10px; }
+    /* line 673, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .exposed-form-collapsible .exposed-form-chips .chip {
-      margin-bottom: 0; }
+      overflow: hidden;
+      white-space: nowrap; }
 
-/* line 670, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 680, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .view {
   position: relative; }
 
-/* line 675, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 685, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container .views-bulk-form-header {
   position: absolute;
   top: 0;
@@ -11631,57 +11643,57 @@ body.material_login {
   opacity: 0;
   transition: .2s;
   border-bottom: 1px solid #bdbdbd; }
-  /* line 685, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 695, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header > .form-wrapper:first-child {
     display: none; }
-  /* line 688, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 698, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header label[for="edit-action"] {
     display: none; }
-  /* line 691, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 701, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header .dropbutton-wrapper {
     float: right; }
-  /* line 694, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 704, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-element-container .views-bulk-form-header .views-bulk-form-count {
     float: left;
     color: #00897b; }
 
-/* line 700, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 710, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container.has-selection .views-bulk-form-header {
   opacity: 1; }
 
-/* line 703, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 713, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-element-container.has-selection .exposed-form-collapsible {
   opacity: 0; }
 
 @media only screen and (max-width: 600px) {
-  /* line 713, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 723, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack thead .select-all.views-field {
     display: block; }
-    /* line 715, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 725, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack thead .select-all.views-field label {
       color: #9e9e9e; }
-  /* line 720, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 730, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack tbody tr {
     position: relative; }
-  /* line 723, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 733, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack tbody td {
     padding: 20px 0 0 20px; }
-    /* line 726, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 736, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td[class*="bulk-form"] .tablesaw-cell-label {
       display: none; }
-    /* line 729, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 739, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td[class*="bulk-form"] .form-item {
       margin: 0; }
-    /* line 734, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 744, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td.views-field-operations .tablesaw-cell-label {
       display: none; }
-    /* line 737, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 747, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td.views-field-operations .tablesaw-cell-content {
       position: absolute;
       top: 10px;
       right: 0; } }
 
-/* line 749, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 759, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-table .select-all.views-field label {
   color: transparent; }
 
