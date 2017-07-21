@@ -642,6 +642,7 @@ body.material_login {
     flex-direction: row-reverse;
     justify-content: flex-start;
     vertical-align: middle;
+    flex-wrap: wrap;
     a {
       margin-right: 5px;
     }
@@ -660,9 +661,13 @@ body.material_login {
   .exposed-form-chips {
     margin-right: .5rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
     .chip {
-      margin-bottom: 0;
+      overflow: hidden;
+      white-space: nowrap;
     }
   }
 }
