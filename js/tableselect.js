@@ -60,7 +60,7 @@
     };
 
     // Find all <th> with class select-all, and insert the check all checkbox.
-    $table.find('th.select-all').prepend($('<input type="checkbox" class="form-checkbox" id="select-all" /><label for="select-all"></label>').attr('title', strings.selectAll)).on('click', function (event) {
+    $table.find('th.select-all').prepend($('<input type="checkbox" class="form-checkbox" id="select-all" /><label for="select-all">Select all</label>').attr('title', strings.selectAll)).on('click', function (event) {
       if ($(event.target).is('input[type="checkbox"]')) {
         // Loop through all checkboxes and set their state to the select all
         // checkbox' state.

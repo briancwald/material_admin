@@ -11,12 +11,20 @@ var sassPaths = [
   'node_modules'
 ];
 
-//get materialize min libary
+// Copy materialize and tablesaw libraries.
 gulp.task('libsrc', function() {
-return gulp.src([
-  'node_modules/materialize-css/dist/js/materialize.min.js',
+  gulp.src([
+    'node_modules/materialize-css/dist/js/materialize.min.js'
   ])
   .pipe(gulpCopy('js/vendor',{prefix: 4}));
+  gulp.src([
+    'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js'
+  ])
+  .pipe(gulpCopy('js/lib', {prefix: 4}));
+  gulp.src([
+    'node_modules/tablesaw/dist/tablesaw-init.js'
+  ])
+  .pipe(gulpCopy('js/lib', {prefix: 3}));
 });
 
 // rename the autocomplete function as it conflicts with jqueryUI and then move to source control folder js/lib

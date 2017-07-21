@@ -705,3 +705,47 @@ body.material_login {
     }
   }
 }
+
+// Responsive Views styles.
+
+@media #{$small-and-down} {
+  .views-table.tablesaw-stack {
+    thead .select-all.views-field {
+      display: block;
+      label {
+        color: color("grey", "base");
+      }
+    }
+    tbody {
+      tr {
+        position: relative;
+      }
+      td {
+        padding: 20px 0 0 20px;
+        &[class*="bulk-form"] {
+          .tablesaw-cell-label {
+            display: none;
+          }
+          .form-item {
+            margin: 0;
+          }
+        }
+        &.views-field-operations {
+          .tablesaw-cell-label {
+            display: none;
+          }
+          .tablesaw-cell-content {
+            position: absolute;
+            top: 10px;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.views-table .select-all.views-field label {
+  color: transparent;
+}

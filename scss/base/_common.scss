@@ -24,6 +24,7 @@ h3 {
 body {
   font-family: $body-font-family;
   background: color("shades", "white");
+  @include tablesaw-stack( $small-screen );
 }
 
 @media #{$medium-and-up} {
