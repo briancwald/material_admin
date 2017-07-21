@@ -719,6 +719,9 @@ body.material_login {
 // Responsive Views styles.
 
 @media #{$small-and-down} {
+  .sticky-header {
+    top: 0 !important;
+  }
   .views-table.tablesaw-stack {
     thead .select-all.views-field {
       display: block;

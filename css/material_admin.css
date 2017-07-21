@@ -11666,34 +11666,37 @@ body.material_login {
   opacity: 0; }
 
 @media only screen and (max-width: 600px) {
-  /* line 723, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 722, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  .sticky-header {
+    top: 0 !important; }
+  /* line 726, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack thead .select-all.views-field {
     display: block; }
-    /* line 725, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 728, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack thead .select-all.views-field label {
       color: #9e9e9e; }
-  /* line 730, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 733, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack tbody tr {
     position: relative; }
-  /* line 733, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+  /* line 736, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
   .views-table.tablesaw-stack tbody td {
     padding: 20px 0 0 20px; }
-    /* line 736, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 739, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td[class*="bulk-form"] .tablesaw-cell-label {
       display: none; }
-    /* line 739, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 742, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td[class*="bulk-form"] .form-item {
       margin: 0; }
-    /* line 744, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 747, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td.views-field-operations .tablesaw-cell-label {
       display: none; }
-    /* line 747, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+    /* line 750, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
     .views-table.tablesaw-stack tbody td.views-field-operations .tablesaw-cell-content {
       position: absolute;
       top: 10px;
       right: 0; } }
 
-/* line 759, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
+/* line 762, /Users/sam.mortenson/Sites/df/docroot/themes/material_admin/scss/admin.scss */
 .views-table .select-all.views-field label {
   color: transparent; }
 
