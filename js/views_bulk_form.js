@@ -31,7 +31,7 @@
           }
         });
         $($chips.children().get().reverse()).each(function (index) {
-          $(this).hide().delay(250 + (200 * index)).fadeIn(1000);
+          $(this).fadeTo(0, 0).delay(250 + (250 * index)).fadeTo(500, 1);
         });
       }
       $('.views-bulk-form-dropdown').closest('form').on('change', function () {
