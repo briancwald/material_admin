@@ -384,3 +384,17 @@ i.waves-input-wrapper.input-form-submit {
     line-height: 40px;
   }
 }
+.layout-node-form {
+    details.form-wrapper {
+      margin:0;
+      .details-wrapper {
+        padding:0.5rem 2rem;
+        }
+      }
+  .entity-meta__header {
+    margin-bottom:1em;
+  }
+  .form-actions {
+    margin-top:1em;
+  }
+}

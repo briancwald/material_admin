@@ -11029,6 +11029,21 @@ i.waves-input-wrapper.input-form-submit {
   margin: 0;
   line-height: 40px; }
 
+/* line 388, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.layout-node-form details.form-wrapper {
+  margin: 0; }
+  /* line 390, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .layout-node-form details.form-wrapper .details-wrapper {
+    padding: 0.5rem 2rem; }
+
+/* line 394, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.layout-node-form .entity-meta__header {
+  margin-bottom: 1em; }
+
+/* line 397, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.layout-node-form .form-actions {
+  margin-top: 1em; }
+
 /* @file
  * Specific styling for admin
  *
