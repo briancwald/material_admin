@@ -1,0 +1,14 @@
+material_admin.settings:
+  type: theme_settings
+  label: 'Material Admin settings'
+  mapping:
+    material_admin_node_actions:
+      type: boolean
+    material_admin_message_length:
+      type: integer
+    material_admin_portal_login:
+      type: boolean
+    material_admin_jqueryui_dialog_background:
+      type: boolean
+    material_admin_jqueryui_dialog_close:
+      type: boolean
