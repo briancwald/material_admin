@@ -734,6 +734,16 @@ body.material_login {
         position: relative;
       }
       td {
+        .tablesaw-cell-label {
+          font-weight:200;
+          color:color("grey", "base");
+          &:after {
+            content: ":";
+            right:0;
+            color:color("grey", "base");
+            font-weight:400;
+          }
+        }
         padding: 20px 0 0 20px;
         &[class*="bulk-form"] {
           .tablesaw-cell-label {
@@ -757,6 +767,8 @@ body.material_login {
     }
   }
 }
+
+.tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-labe
 
 
 .views-table .select-all.views-field label {

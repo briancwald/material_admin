@@ -377,3 +377,10 @@ i.waves-input-wrapper.input-form-submit {
      transition: all 2s ease-in;
   }
 }
+
+
+//tablesaw fixes for form elements 
+
+.tablesaw-cell-content .form-item {
+  margin:0;
+}
