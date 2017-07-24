@@ -689,9 +689,6 @@ body.material_login {
 
 .view {
   position: relative;
-}
-
-.views-element-container {
   .views-bulk-form-header {
     position: absolute;
     top: 0;
@@ -722,6 +719,20 @@ body.material_login {
     }
     .exposed-form-collapsible {
       opacity: 0;
+    }
+  }
+}
+
+#views-live-preview {
+  .view {
+    &.has-selection {
+      .exposed-form-collapsible {
+        opacity: 1;
+      }
+    }
+    .views-bulk-form-header {
+      position: relative;
+      display: inline-block;
     }
   }
 }
