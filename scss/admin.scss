@@ -302,6 +302,16 @@ td.is-active {
 }
 
 table {
+  .collection {
+    margin:inherit;
+    border:none;
+    .collection-item {
+      background:inherit;
+    }
+  }
+}
+
+table {
   margin: 20px 0;
   &.responsive-table {
     @media #{$medium-and-down} {
