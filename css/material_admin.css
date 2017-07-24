@@ -11711,7 +11711,7 @@ body.material_login {
       right: 0; } }
 
 /* line 771, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
-.tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-labe .views-table .select-all.views-field label {
+.views-table .select-all.views-field label {
   color: transparent; }
 
 /* @file
