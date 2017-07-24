@@ -10946,7 +10946,7 @@ details.form-wrapper .details-wrapper {
 
 /* line 294, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
-  display: inline; }
+  min-width: 300px; }
 
 /* line 298, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-moderation-wrapper {
@@ -11594,6 +11594,18 @@ body.material_login {
 /* line 723, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
 .views-element-container.has-selection .exposed-form-collapsible {
   opacity: 0; }
+
+/* line 731, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+.item-list__comma-list li.chip {
+  display: inline-block;
+  font-weight: 200; }
+  /* line 734, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+  .item-list__comma-list li.chip:after {
+    content: ""; }
+
+/* line 739, /Users/brian.wald/Sites/material_admin/scss/admin.scss */
+table.highlight > tbody > tr:hover li.chip {
+  background-color: #fafafa; }
 
 /* @file
  * Common low level styles for Views UI

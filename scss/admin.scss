@@ -304,7 +304,7 @@ td.is-active {
 table {
   .collection {
     margin:inherit;
-    border:none;
+    border:none;  
     .collection-item {
       background:inherit;
     }
@@ -724,4 +724,18 @@ body.material_login {
       opacity: 0;
     }
   }
+}
+
+//chips for lists 
+
+.item-list__comma-list li.chip {
+  display:inline-block;
+  font-weight:200;
+  &:after {
+    content:"";
+  }
+}
+
+table.highlight > tbody > tr:hover li.chip {
+    background-color:color("grey", "lighten-5");
 }

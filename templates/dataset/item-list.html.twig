@@ -29,9 +29,9 @@
       <h3>{{ title }}</h3>
     {%- endif -%}
     {%- if items -%}
-      <{{ list_type }}{{ attributes.addClass('collection') }}>
+      <{{ list_type }}{{ attributes }}>
         {%- for item in items -%}
-          <li{{ item.attributes.addClass('collection-item') }}>{{ item.value }}</li>
+          <li{{ item.attributes.addClass('chip') }}>{{ item.value }}</li>
         {%- endfor -%}
       </{{ list_type }}>
     {%- else -%}
