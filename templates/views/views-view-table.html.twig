@@ -37,11 +37,12 @@
     'bordered',
     'highlight',
     'cols-' ~ header|length,
-    responsive ? 'responsive-table',
     sticky ? 'sticky-enabled',
+    responsive ? 'tablesaw tablesaw-stack',
   ]
 %}
-<table{{ attributes.addClass(classes) }}>
+{{ attach_library('material_admin/tables') }}
+<table{{ attributes.addClass(classes) }} {% if responsive %} data-tablesaw-mode="stack" {% endif %}>
   {% if caption_needed %}
     <caption>
     {% if caption %}

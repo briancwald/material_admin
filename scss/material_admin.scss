@@ -42,6 +42,9 @@
 @import "materialize-clockpicker/src/sass/components/variables";
 @import "materialize-clockpicker/src/sass/components/primary";
 
+// Tablesaw
+@import "tablesaw/dist/stackonly/tablesaw.stackonly.scss";
+
 // Fonts! Using Font awesome due to popularity - though maybe should swap for material icons for consistency 
 @import "base/fonts/font-awesome";
 

@@ -378,6 +378,13 @@ i.waves-input-wrapper.input-form-submit {
   }
 }
 
+
+//tablesaw fixes for form elements 
+
+.tablesaw-cell-content .form-item {
+  margin:0;
+}
+
 .views-bulk-form-count {
   p {
     margin:0;
@@ -418,3 +425,4 @@ i.waves-input-wrapper.input-form-submit {
     pointer-events:initial;
   }
 }
+
