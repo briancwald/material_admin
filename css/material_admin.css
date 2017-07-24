@@ -11044,6 +11044,24 @@ i.waves-input-wrapper.input-form-submit {
 .layout-node-form .form-actions {
   margin-top: 1em; }
 
+/* line 402, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.image-style-new {
+  display: inline-block; }
+  /* line 404, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .image-style-new div {
+    min-width: 200px;
+    display: inline-block;
+    margin: 0; }
+  /* line 409, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  .image-style-new i.waves-input-wrapper.input-form-submit {
+    margin: 0 1em !important; }
+
+/* line 415, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.form-item-data-anchor input.form-radio {
+  opacity: 1;
+  position: relative;
+  pointer-events: initial; }
+
 /* @file
  * Specific styling for admin
  *

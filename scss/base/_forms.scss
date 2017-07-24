@@ -398,3 +398,23 @@ i.waves-input-wrapper.input-form-submit {
     margin-top:1em;
   }
 }
+
+.image-style-new {
+  display: inline-block;
+  div {
+    min-width: 200px;
+    display: inline-block;
+    margin:0;
+  }
+   i.waves-input-wrapper.input-form-submit {
+      margin: 0 1em!important;
+    }
+}
+
+.form-item-data-anchor {
+  input.form-radio {
+    opacity:1;
+    position:relative;
+    pointer-events:initial;
+  }
+}
