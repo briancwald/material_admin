@@ -302,6 +302,16 @@ td.is-active {
 }
 
 table {
+  .collection {
+    margin:inherit;
+    border:none;  
+    .collection-item {
+      background:inherit;
+    }
+  }
+}
+
+table {
   margin: 20px 0;
   &.responsive-table {
     @media #{$medium-and-down} {
@@ -770,4 +780,18 @@ body.material_login {
 
 .views-table .select-all.views-field label {
   color: transparent;
+}
+
+//chips for lists
+
+.item-list__comma-list li.chip {
+  display:inline-block;
+  font-weight:200;
+  &:after {
+    content:"";
+  }
+}
+
+table.highlight > tbody > tr:hover li.chip {
+    background-color:color("grey", "lighten-5");
 }

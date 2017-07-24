@@ -292,7 +292,7 @@ a#edit-cancel {
 }
 
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
-  display: inline;
+ min-width:300px;
 }
 
 .entity-moderation-wrapper {
@@ -384,3 +384,45 @@ i.waves-input-wrapper.input-form-submit {
 .tablesaw-cell-content .form-item {
   margin:0;
 }
+
+.views-bulk-form-count {
+  p {
+    margin:0;
+    line-height: 40px;
+  }
+}
+.layout-node-form {
+    details.form-wrapper {
+      margin:0;
+      .details-wrapper {
+        padding:0.5rem 2rem;
+        }
+      }
+  .entity-meta__header {
+    margin-bottom:1em;
+  }
+  .form-actions {
+    margin-top:1em;
+  }
+}
+
+.image-style-new {
+  display: inline-block;
+  div {
+    min-width: 200px;
+    display: inline-block;
+    margin:0;
+  }
+   i.waves-input-wrapper.input-form-submit {
+      margin: 0 1em!important;
+    }
+}
+
+.form-item-data-anchor {
+  input.form-radio {
+    opacity:1;
+    position:relative;
+    pointer-events:initial;
+  }
+}
+
