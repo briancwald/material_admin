@@ -68,7 +68,9 @@
   ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {% if label_display in ['before', 'invisible'] %}
+  {% if label_display == 'none' and label['#id'] %}
+    <label for="{{ label['#id'] }}"></label>
+  {% elseif label_display in ['before', 'invisible'] %}
     {{ label }}
   {% endif %}
   {% if prefix is not empty %}
