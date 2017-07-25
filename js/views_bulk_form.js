@@ -12,9 +12,8 @@
       $exposed.collapsible();
       if ($exposed.find('[data-drupal-selector="edit-reset"]').length === 1) {
         var $chips = $exposed.find('.exposed-form-chips');
-        var $form = $exposed.closest('form');
         $chips.empty();
-        $form.find('input[name]:not([type="submit"]),select[name]').each(function () {
+        $exposed.find('input[name]:not([type="submit"]),select[name]').each(function () {
           var value;
           if (this.tagName === 'SELECT') {
             value = $(this).find('option:selected').text();
@@ -36,7 +35,7 @@
       }
       $('.views-bulk-form-dropdown').closest('form').on('change', function () {
         var count = $(this).find('input[name*="bulk_form"][type="checkbox"]:checked').length;
-        $(this).closest('.views-element-container').toggleClass('has-selection', !!count);
+        $(this).closest('.view').toggleClass('has-selection', !!count);
         if (count >= 1) {
           var text = Drupal.formatPlural(count, '@count item selected', '@count items selected');
           $(this).find('.views-bulk-form-count').html('<p>' + text + '</p>');
