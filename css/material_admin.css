@@ -11078,105 +11078,104 @@ details.form-wrapper .details-wrapper {
 
 /* line 309, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .input-field.has-initial-content label {
-  font-size: 0.8rem;
   -ms-transform: translateY(-14px) scale(0.8);
       transform: translateY(-14px) scale(0.8);
   -ms-transform-origin: 0 0;
       transform-origin: 0 0; }
 
-/* line 316, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 315, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .input-field.file-field.form-has-label {
   margin-top: 45px; }
-  /* line 318, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 317, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .input-field.file-field.form-has-label > label {
     position: relative;
     font-size: 0.8rem; }
 
-/* line 325, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 324, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .input-field .search-wrapper {
   margin: 0 12px; }
-  /* line 327, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 326, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper input[type=search] {
     padding-left: 0; }
-    /* line 329, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+    /* line 328, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
     .input-field .search-wrapper input[type=search]:focus {
       border-bottom: 1px solid #26a69a; }
-  /* line 333, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 332, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper i.fa-search.prefix {
     font-size: 1.5rem;
     margin-top: 12px; }
 
-/* line 342, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 341, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .help-collection .collection .collection-item.has-collection-link {
   padding: 0; }
-  /* line 344, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 343, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .help-collection .collection .collection-item.has-collection-link a {
     padding: 10px 20px;
     display: block;
     width: 100%; }
-    /* line 349, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+    /* line 348, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
     .help-collection .collection .collection-item.has-collection-link a:hover {
       background: #ddd;
       text-decoration: none; }
 
-/* line 359, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 358, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 i.waves-input-wrapper.input-form-submit {
   padding: 0 !important; }
-  /* line 361, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 360, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   i.waves-input-wrapper.input-form-submit .waves-button-input {
     padding: 0 2em;
     height: 100%; }
 
-/* line 368, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 367, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-ui-view-title {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 400; }
 
-/* line 373, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 372, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-selected-options {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 300;
   transition: all 2s ease-in; }
 
-/* line 384, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 383, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .tablesaw-cell-content .form-item {
   margin: 0; }
 
-/* line 389, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 388, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .views-bulk-form-count p {
   margin: 0;
   line-height: 40px; }
 
-/* line 395, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 394, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .layout-node-form details.form-wrapper {
   margin: 0; }
-  /* line 397, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 396, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .layout-node-form details.form-wrapper .details-wrapper {
     padding: 0.5rem 2rem; }
 
-/* line 401, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 400, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .layout-node-form .entity-meta__header {
   margin-bottom: 1em; }
 
-/* line 404, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 403, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .layout-node-form .form-actions {
   margin-top: 1em; }
 
-/* line 409, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 408, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .image-style-new {
   display: inline-block; }
-  /* line 411, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 410, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .image-style-new div {
     min-width: 200px;
     display: inline-block;
     margin: 0; }
-  /* line 416, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+  /* line 415, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
   .image-style-new i.waves-input-wrapper.input-form-submit {
     margin: 0 1em !important; }
 
-/* line 422, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
+/* line 421, /Users/sam.mortenson/Sites/drupal/themes/material_admin/scss/base/_forms.scss */
 .form-item-data-anchor input.form-radio {
   opacity: 1;
   position: relative;
