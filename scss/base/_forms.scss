@@ -314,10 +314,9 @@ a#edit-cancel {
 .input-field.file-field {
   &.form-has-label {
     margin-top: 45px;
-    label {
-      top: 0;
+    > label {
+      position: relative;
       font-size: 0.8rem;
-      transform: translateY(-25%);
     }
   }
 }
