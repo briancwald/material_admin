@@ -178,10 +178,12 @@ details.form-wrapper {
   }
   &[open] summary:after {
     @extend .fa-standard, .fa-collapse-down;
+    line-height: 1em;
 
   }
   summary:after {
     @extend .fa-standard, .fa-collapse-right;
+    line-height: 1em;
   }
 }
 

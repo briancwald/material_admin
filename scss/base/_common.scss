@@ -156,7 +156,7 @@ label {
 
 .fa-collapse-right {
   content: $fa-var-angle-right;
-  right: 10px;
+  right: 20px;
   position:absolute;
   color: color("grey", "base");
   font-weight: 700;
@@ -166,7 +166,7 @@ label {
 
 .fa-collapse-down {
   content: $fa-var-angle-down;
-  right: 10px;
+  right: 20px;
   color: color("grey", "base");
   position:absolute;
   font-weight: 700;
@@ -299,7 +299,7 @@ details {
     .collapsible-header.right-arrows {
       &:after {
         @extend .fa-standard, .fa-collapse-down;
-        top:.5em;
+        top:0.5em;
       }
     }
   }
@@ -313,7 +313,7 @@ details {
   .collapsible-header.right-arrows {
     &:after {
       @extend .fa-standard, .fa-collapse-right;
-      top:.5em;
+      top:0.5em;
     }
   }
 }
