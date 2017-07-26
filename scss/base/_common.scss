@@ -10,10 +10,11 @@ h1 {
 h2 {
   font-size: 2rem;
   &.small-header {
-    font-size:1.3rem;
-    font-weight:300;
-    line-height:25px;
-    @extend .grey-text, .text-darken-3;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 25px;
+    @extend .grey-text,
+    .text-darken-3;
   }
 }
 
@@ -24,37 +25,38 @@ h3 {
 body {
   font-family: $body-font-family;
   background: color("shades", "white");
-  @include tablesaw-stack( $small-screen );
+  @include tablesaw-stack( $small-screen);
 }
 
 @media #{$medium-and-up} {
   .material-container.row {
     width: 95%;
-    margin:0 auto!important;
+    margin: 0 auto!important;
   }
- .fixed-width-row.row {
-   width: $global-width;
-   margin:0 auto!important;
- }
+  .fixed-width-row.row {
+    width: $global-width;
+    margin: 0 auto!important;
+  }
 }
 
 @media #{$small-and-down} {
-  #main-wrapper > .material-container.row {
-    padding:20px 0px;
+  #main-wrapper>.material-container.row {
+    padding: 20px 0px;
   }
 }
 
 .row .row {
-  padding:20px 0;
+  padding: 20px 0;
 }
 
-td, th {
+td,
+th {
   padding: 15px;
 }
 
 hr {
   border: 1px solid color("grey", "lighten-2");
-  margin:1em 0;
+  margin: 1em 0;
 }
 
 // Inputs inside dropbuttons dont align properly without this browser specifc styling.
@@ -66,7 +68,7 @@ ul.dropbutton {
 }
 
 label {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 .description {
@@ -82,31 +84,46 @@ label {
 }
 
 .error-text-color {
-  @extend .red-text, .text-lighten-3;
+  @extend .red-text,
+  .text-lighten-3;
 }
 
 .warning-text-color {
-  @extend .yellow-text, .text-darken-2;
+  @extend .yellow-text,
+  .text-darken-2;
 }
 
 .status-text-color {
-  @extend .green-text, .text-darken-2;
+  @extend .green-text,
+  .text-darken-2;
 }
 
-.color-warning, .warning-color, .warnings-color {
-  @extend .yellow, .lighten-4;
+.color-warning,
+.warning-color,
+.warnings-color {
+  @extend .yellow,
+  .lighten-4;
 }
 
-.color-success, .status-color, .checked-color {
-  @extend .green, .lighten-4
+.color-success,
+.status-color,
+.checked-color {
+  @extend .green,
+  .lighten-4
 }
 
-.color-error, .error-color, .errors-color {
-  @extend .red, .lighten-4;
+.color-error,
+.error-color,
+.errors-color {
+  @extend .red,
+  .lighten-4;
 }
 
 .button-action {
-  @extend .btn, .red, .accent-2, .white-text;
+  @extend .btn,
+  .red,
+  .accent-2,
+  .white-text;
   &:before {
     @extend .fa-standard;
     content: $fa-var-plus;
@@ -137,6 +154,25 @@ label {
   -webkit-font-smoothing: antialiased;
 }
 
+.fa-collapse-right {
+  content: $fa-var-angle-right;
+  right: 10px;
+  position:absolute;
+  color: color("grey", "base");
+  font-weight: 700;
+  font-size: 1.5em;
+
+}
+
+.fa-collapse-down {
+  content: $fa-var-angle-down;
+  right: 10px;
+  color: color("grey", "base");
+  position:absolute;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 .toast {
   word-break: normal;
 }
@@ -164,8 +200,8 @@ input.button {
   @extend .btn;
 }
 
-.btn + .btn {
-  margin:0 10px;
+.btn+.btn {
+  margin: 0 10px;
 }
 
 nav {
@@ -196,7 +232,7 @@ a.button {
 }
 
 .x-small {
-  height:150px;
+  height: 150px;
 }
 
 .card {
@@ -227,7 +263,7 @@ a.button {
 }
 
 details {
-  border:none!important;
+  border: none!important;
 }
 
 .shadow-box {
@@ -245,15 +281,13 @@ details {
 
 //change how clear fix works so it doesnt disrupt OOTB drupal clearfix
 .clearfix {
-  clear:none;
-  &:after {
-
-  }
+  clear: none;
+  &:after {}
 }
 
 //arrows indicating open/closed collapsible component
-  .collapsible li {
-    position:relative;
+.collapsible li {
+  position: relative;
   &.active {
     .collapsible-header.with-arrows {
       &:before {
@@ -264,11 +298,8 @@ details {
     }
     .collapsible-header.right-arrows {
       &:after {
-        @extend .fa-standard;
-        content: $fa-var-angle-down;
-        padding: 0px 5px;
-        right:10px;
-        position:absolute;
+        @extend .fa-standard, .fa-collapse-down;
+        top:.5em;
       }
     }
   }
@@ -279,23 +310,19 @@ details {
       padding: 0px 5px;
     }
   }
-  .collapsible-header.right-arrows{
+  .collapsible-header.right-arrows {
     &:after {
-      @extend .fa-standard;
-      content: $fa-var-angle-right;
-      padding: 0px 5px;
-      right:1em;
-      top:1em;
-      position:absolute;
+      @extend .fa-standard, .fa-collapse-right;
+      top:.5em;
     }
   }
 }
 
 .collapsible-body {
-  font-weight:500;
+  font-weight: 500;
   .description {
-    padding:1em 0;
-    font-weight:300;
+    padding: 1em 0;
+    font-weight: 300;
   }
 }
 
@@ -306,10 +333,13 @@ details.form-wrapper summary {
 
 // for the default drupal 'marker' add the badge styles 
 span.marker {
-  @extend .badge, .teal, .lighten-2, .white-text;
-  font-size:.8em;
+  @extend .badge,
+  .teal,
+  .lighten-2,
+  .white-text;
+  font-size: .8em;
   font-weight: 300;
-  border-radius:2px;
+  border-radius: 2px;
 }
 
 // override waves wrapper
@@ -317,37 +347,31 @@ span.marker {
   vertical-align: middle;
 }
 
- .select-wrapper + label {
-  left:0;
- }
-
- //ckeditor fix as it wont work with box-sizing
- .ckeditor-buttons:before, .ckeditor-buttons:after, .ckeditor-buttons {
-  box-sizing:initial;
- }
+.select-wrapper+label {
+  left: 0;
+} //ckeditor fix as it wont work with box-sizing
+.ckeditor-buttons:before,
+.ckeditor-buttons:after,
+.ckeditor-buttons {
+  box-sizing: initial;
+}
 
 //hide border from getting added to tabs by jqueryUI
- .tabs.tabs-transparent {
-  border:none;
- }
+.tabs.tabs-transparent {
+  border: none;
+} //offset top tabs by removing the row margin to line the text up with the header 
+.offset-tabs {
+  margin-left: -20px
+}
 
- //offset top tabs by removing the row margin to line the text up with the header 
-
- .offset-tabs {
-  margin-left:-20px
- }
-
- .file-upload-btn.btn-floating {
-   height: inherit;
-   line-height: inherit;
-   i {
-     font-size: 1.3em;
-   }
- }
-
- //override materializecss: dont set form width, only max width and allow the form fields to use its length.
-
- input:not([type]),
+.file-upload-btn.btn-floating {
+  height: inherit;
+  line-height: inherit;
+  i {
+    font-size: 1.3em;
+  }
+} //override materializecss: dont set form width, only max width and allow the form fields to use its length.
+input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
 input[type=email]:not(.browser-default),
@@ -361,10 +385,9 @@ input[type=number]:not(.browser-default),
 input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   max-width: 100%;
-  width:inherit;
+  width: inherit;
 }
 
 .collection.with-header .collection-header.no-bottom-border {
-  border-bottom:0;
+  border-bottom: 0;
 }
-

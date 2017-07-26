@@ -35,7 +35,8 @@
   }
 }
 
-.form-item, .filter-wrapper .form-item {
+.form-item,
+.filter-wrapper .form-item {
   margin: 25px 0;
   position: relative;
   .form-required {
@@ -51,13 +52,14 @@
 }
 
 //form items in tables require less margin (but only the tope level item)
-table td > .form-item, table td > .ajax-new-content > .form-item {
+table td>.form-item,
+table td>.ajax-new-content>.form-item {
   margin: 0;
-  &~ .form-wrapper {
-    margin:25px 0;
+  &~.form-wrapper {
+    margin: 25px 0;
   }
   .select-wrapper input.select-dropdown {
-    margin:0;
+    margin: 0;
   }
 }
 
@@ -70,11 +72,11 @@ input[type=checkbox] {
 }
 
 #edit-actions {
-  .button {
-  }
+  .button {}
   .button--danger {
     @extend .btn-flat;
-    @extend .red-text, .lighten-2
+    @extend .red-text,
+    .lighten-2
   }
 }
 
@@ -117,7 +119,19 @@ abbr[title] {
 }
 
 //form field handling 
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
   width: inherit;
   max-width: 100%;
 }
@@ -128,7 +142,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     position: relative!important;
     clip: inherit;
     visibility: hidden;
-    &:before, &:after {
+    &:before,
+    &:after {
       visibility: visible;
     }
   }
@@ -149,7 +164,24 @@ details.form-wrapper {
     }
   }
   .details-wrapper {
-    padding: 2rem;
+    padding: 1rem 2rem;
+  }
+}
+
+details.form-wrapper {
+  position: relative;
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary {
+    display:block;
+  }
+  &[open] summary:after {
+    @extend .fa-standard, .fa-collapse-down;
+
+  }
+  summary:after {
+    @extend .fa-standard, .fa-collapse-right;
   }
 }
 
@@ -157,7 +189,9 @@ details.form-wrapper {
   @extend .shadow-box;
 }
 
-.entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
+.entity-meta__last-saved h4,
+.entity-meta__author h4,
+.field--name-created h4 {
   font-size: 1rem;
   font-weight: bold;
   &:before {
@@ -199,7 +233,8 @@ details.form-wrapper {
   display: inline;
 }
 
-.form--inline, .dblog-filter-form {
+.form--inline,
+.dblog-filter-form {
   .form-actions {
     padding: 0 10px;
   }
@@ -238,7 +273,7 @@ details.form-wrapper {
   *border-bottom-width: 2px;
 }
 
-.ui-menu-item > a.ui-corner-all {
+.ui-menu-item>a.ui-corner-all {
   display: block;
   padding: 3px 15px;
   clear: both;
@@ -249,7 +284,8 @@ details.form-wrapper {
   text-decoration: none;
 }
 
-.ui-state-hover, .ui-state-active {
+.ui-state-hover,
+.ui-state-active {
   @extend .white-text;
   text-decoration: none;
   background-color: color("blue", "darken-2");
@@ -291,15 +327,16 @@ a#edit-cancel {
   padding-right: 10px;
 }
 
-.dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
- min-width:300px;
+.dblog-filter-form .form-item-type,
+.dblog-filter-form .form-item-severity {
+  min-width: 300px;
 }
 
 .entity-moderation-wrapper {
   padding-top: 10px;
 }
 
-.input-field.has-initial-content .select-wrapper + label {
+.input-field.has-initial-content .select-wrapper+label {
   position: absolute;
   top: -14px;
   font-size: 0.8rem;
@@ -314,12 +351,13 @@ a#edit-cancel {
 .input-field.file-field {
   &.form-has-label {
     margin-top: 45px;
-    > label {
+    >label {
       position: relative;
       font-size: 0.8rem;
     }
   }
 }
+
 .input-field {
   .search-wrapper {
     margin: 0 12px;
@@ -330,23 +368,24 @@ a#edit-cancel {
       }
     }
     i.fa-search.prefix {
-      font-size:1.5rem;
-      margin-top:12px;
+      font-size: 1.5rem;
+      margin-top: 12px;
     }
   }
 }
 
 //special case colleciton with links and no links to allow for large click area
 .help-collection .collection {
-  .collection-item.has-collection-link{
-    padding:0;
+  .collection-item.has-collection-link {
+    padding: 0;
     a {
-      padding:10px 20px;
-      display:block;
-      width:100%;
-      @extend .teal-text, .lighten-1;
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+      @extend .teal-text,
+      .lighten-1;
       &:hover {
-        background:#ddd;
+        background: #ddd;
         text-decoration: none;
       }
     }
@@ -354,54 +393,53 @@ a#edit-cancel {
 }
 
 // 'waves' input button padding fix
-
 i.waves-input-wrapper.input-form-submit {
-  padding:0!important;
+  padding: 0!important;
   .waves-button-input {
-    padding:0 2em;
-    height:100%;
+    padding: 0 2em;
+    height: 100%;
   }
 }
 
 .form-item-selected {
   .views-ui-view-title {
-    display:inline-block;
-    padding:5px 10px;
+    display: inline-block;
+    padding: 5px 10px;
     font-weight: 400;
   }
   .views-selected-options {
-    display:inline-block;
-    padding:5px 10px;
-    font-weight:300;
-     transition: all 2s ease-in;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    transition: all 2s ease-in;
   }
 }
 
 
 //tablesaw fixes for form elements 
-
 .tablesaw-cell-content .form-item {
-  margin:0;
+  margin: 0;
 }
 
 .views-bulk-form-count {
   p {
-    margin:0;
+    margin: 0;
     line-height: 40px;
   }
 }
+
 .layout-node-form {
-    details.form-wrapper {
-      margin:0;
-      .details-wrapper {
-        padding:0.5rem 2rem;
-        }
-      }
+  details.form-wrapper {
+    margin: 0;
+    .details-wrapper {
+      padding: 0.5rem 2rem;
+    }
+  }
   .entity-meta__header {
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
   .form-actions {
-    margin-top:1em;
+    margin-top: 1em;
   }
 }
 
@@ -410,18 +448,17 @@ i.waves-input-wrapper.input-form-submit {
   div {
     min-width: 200px;
     display: inline-block;
-    margin:0;
+    margin: 0;
   }
-   i.waves-input-wrapper.input-form-submit {
-      margin: 0 1em!important;
-    }
+  i.waves-input-wrapper.input-form-submit {
+    margin: 0 1em!important;
+  }
 }
 
 .form-item-data-anchor {
   input.form-radio {
-    opacity:1;
-    position:relative;
-    pointer-events:initial;
+    opacity: 1;
+    position: relative;
+    pointer-events: initial;
   }
 }
-
