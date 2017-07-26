@@ -11522,6 +11522,13 @@ i.waves-input-wrapper.input-form-submit {
   position: relative;
   pointer-events: initial; }
 
+/* line 469, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+fieldset.form-wrapper span.fieldset-legend {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1em 0 .5em 0;
+  display: block; }
+
 /* @file
  * Specific styling for admin
  *

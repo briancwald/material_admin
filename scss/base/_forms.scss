@@ -464,3 +464,12 @@ i.waves-input-wrapper.input-form-submit {
     pointer-events: initial;
   }
 }
+
+fieldset.form-wrapper {
+  span.fieldset-legend {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding:1em 0 .5em 0;
+    display: block;
+  }
+}
