@@ -21,11 +21,9 @@
     'waves-button-input',
     ]
 %}
-
-{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide')%}
+{# Dont wrap if the display is hidden, visiually hidden, or part of views dropdown. #}
+{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') or attributes.hasClass('add-display') %}
   <input{{ attributes.addClass(classes)}} />{{ children }}
  {% else %}
-  <i class="waves-effect waves-light waves-input-wrapper button btn">
   <input{{ attributes.removeClass(remove_classes).addClass(classes) }} />{{ children }}
-  </i>
 {% endif %}
