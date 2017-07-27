@@ -18,6 +18,7 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
     '#type' => 'details',
     '#title' => t('Material Admin UI Options'),
     '#weight' => -1,
+    '#open' => 'true',
   );
 
   $form['theme_ui_options']['material_admin_node_actions'] = array(
@@ -53,5 +54,12 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
     '#title' => t('Close the dialog when clicking outside modal.'),
     '#description' => t('The dialog spec in Material Admin allows you to close the dialog by clicking anywhere outside it.'),
     '#default_value' => theme_get_setting('material_admin_jqueryui_dialog_close'),
+  );
+
+    $form['theme_ui_options']['material_admin_collapse_module_list'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Collapse the package group on the module extend page'),
+    '#description' => t('The module page is visually hard to handle on most sites, this reduces the clutter while still allowing the search to work.'),
+    '#default_value' => theme_get_setting('material_admin_collapse_module_list'),
   );
 }

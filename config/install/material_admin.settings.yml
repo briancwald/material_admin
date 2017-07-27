@@ -17,3 +17,4 @@ material_admin_message_length: 88
 material_admin_portal_login: true
 material_admin_jqueryui_dialog_background: true
 material_admin_jqueryui_dialog_close: true
+material_admin_collapse_module_list: true

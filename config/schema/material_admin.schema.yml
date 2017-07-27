@@ -12,3 +12,5 @@ material_admin.settings:
       type: boolean
     material_admin_jqueryui_dialog_close:
       type: boolean
+    material_admin_collapse_module_list:
+      type: boolean

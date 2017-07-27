@@ -40,6 +40,13 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
       }
     }
   }
+  
+  if ($form_id == 'system_modules' && theme_get_setting('material_admin_collapse_module_list')) {
+    foreach (Element::children($form['modules']) as $package) {
+      $form['modules'][$package]['#open'] = FALSE;
+    }
+  }
+
 }
 
 /**
