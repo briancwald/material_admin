@@ -395,7 +395,7 @@ a#edit-cancel {
 }
 
 // 'waves' input button padding fix
-i.waves-input-wrapper.input-form-submit {
+i.waves-input-wrapper {
   padding: 0!important;
   .waves-button-input {
     padding: 0 2em;
@@ -472,4 +472,11 @@ fieldset.form-wrapper {
     padding:1em 0 .5em 0;
     display: block;
   }
+}
+
+.image-widget-data {
+  position:relative;
+}
+.file-field input[type=file] {
+  width:auto;
 }

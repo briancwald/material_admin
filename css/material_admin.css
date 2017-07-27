@@ -3042,11 +3042,11 @@ a {
   box-shadow: none !important; }
 
 /* line 57, node_modules/materialize-css/sass/components/_global.scss */
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .btn-floating, .dropdown-content, .toast, .card-panel, .card {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 /* line 60, node_modules/materialize-css/sass/components/_global.scss */
-.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .btn-floating:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
 
 /* line 63, node_modules/materialize-css/sass/components/_global.scss */
@@ -4647,7 +4647,7 @@ nav ul a span.badge, nav ul a span.marker {
   margin-top: calc(24px - 11px); }
 
 /* line 2, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button,
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button,
 .btn-flat,
 .button-link,
 .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight,
@@ -4670,7 +4670,7 @@ a#edit-cancel,
   -webkit-tap-highlight-color: transparent; }
 
 /* line 17, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn.disabled, .disabled.btn-large, .disabled.button-action, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, input.disabled.button, .dropbutton-wrapper.dropbutton-single .edit a.disabled, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled,
+.btn.disabled, .disabled.btn-large, .disabled.button-action, .disabled.button-link, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .compact-link a.disabled, .dropbutton-wrapper.dropbutton-single .edit a.disabled, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled,
 .btn-floating.disabled,
 .btn-large.disabled,
 .btn-flat.disabled,
@@ -4690,7 +4690,6 @@ a.disabled#edit-cancel,
 .button-link:disabled,
 .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:disabled,
 .compact-link a:disabled,
-input.button:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a:disabled,
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:disabled,
 .btn-floating:disabled,
@@ -4712,7 +4711,6 @@ a#edit-cancel:disabled,
 [disabled].button-link,
 .tabledrag-toggle-weight-wrapper [disabled].tabledrag-toggle-weight,
 .compact-link a[disabled],
-input[disabled].button,
 .dropbutton-wrapper.dropbutton-single .edit a[disabled],
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button[disabled],
 .btn-floating[disabled],
@@ -4734,7 +4732,7 @@ a[disabled]#edit-cancel,
   color: #9F9F9F !important;
   cursor: default; }
   /* line 35, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, .disabled.button-link:hover, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight:hover, .compact-link a.disabled:hover, input.disabled.button:hover, .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled:hover,
+  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.button-action:hover, .disabled.button-link:hover, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight:hover, .compact-link a.disabled:hover, .dropbutton-wrapper.dropbutton-single .edit a.disabled:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled:hover,
   .btn-floating.disabled:hover,
   .btn-large.disabled:hover,
   .btn-flat.disabled:hover,
@@ -4754,7 +4752,6 @@ a[disabled]#edit-cancel,
   .button-link:disabled:hover,
   .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:disabled:hover,
   .compact-link a:disabled:hover,
-  input.button:disabled:hover,
   .dropbutton-wrapper.dropbutton-single .edit a:disabled:hover,
   .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:disabled:hover,
   .btn-floating:disabled:hover,
@@ -4776,7 +4773,6 @@ a[disabled]#edit-cancel,
   [disabled].button-link:hover,
   .tabledrag-toggle-weight-wrapper [disabled].tabledrag-toggle-weight:hover,
   .compact-link a[disabled]:hover,
-  input[disabled].button:hover,
   .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover,
   .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button[disabled]:hover,
   .btn-floating[disabled]:hover,
@@ -4796,7 +4792,7 @@ a[disabled]#edit-cancel,
     color: #9F9F9F !important; }
 
 /* line 42, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button,
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button,
 .btn-floating,
 .btn-large,
 .btn-flat,
@@ -4813,7 +4809,7 @@ a#edit-cancel,
   font-size: 1rem;
   outline: 0; }
   /* line 49, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, input.button i, .dropbutton-wrapper.dropbutton-single .edit a i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i,
+  .btn i, .btn-large i, .button-action i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .dropbutton-wrapper.dropbutton-single .edit a i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i,
   .btn-floating i,
   .btn-large i,
   .btn-flat i, .button-link i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .compact-link a i, .button--small i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i, .dropbutton-wrapper.dropbutton-single .edit a i, .region-title__action .button i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i {
@@ -4821,12 +4817,12 @@ a#edit-cancel,
     line-height: inherit; }
 
 /* line 58, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn:focus, .btn-large:focus, .button-action:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, input.button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus,
+.btn:focus, .btn-large:focus, .button-action:focus, .button-link:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .compact-link a:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus,
 .btn-floating:focus {
   background-color: #1d7d74; }
 
 /* line 64, node_modules/materialize-css/sass/components/_buttons.scss */
-.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, input.button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+.btn, .btn-large, .button-action, .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .compact-link a, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
@@ -4835,7 +4831,7 @@ a#edit-cancel,
   transition: .2s ease-out;
   cursor: pointer; }
   /* line 74, node_modules/materialize-css/sass/components/_buttons.scss */
-  .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, input.button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover {
+  .btn:hover, .btn-large:hover, .button-action:hover, .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover {
     background-color: #2bbbad; }
 
 /* line 81, node_modules/materialize-css/sass/components/_buttons.scss */
@@ -6112,7 +6108,7 @@ select:disabled {
   .file-field input.file-path {
     width: 100%; }
   /* line 14, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_file-input.scss */
-  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field .button-link, .file-field .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .file-field .tabledrag-toggle-weight, .file-field .compact-link a, .compact-link .file-field a, .file-field input.button, .file-field .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .file-field a, .file-field .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .file-field button {
+  .file-field .btn, .file-field .btn-large, .file-field .button-action, .file-field .button-link, .file-field .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .file-field .tabledrag-toggle-weight, .file-field .compact-link a, .compact-link .file-field a, .file-field .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .file-field a, .file-field .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .file-field button {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -6486,7 +6482,7 @@ input[type=range]:focus::-ms-fill-upper {
     width: 100%;
     text-align: right; }
     /* line 41, node_modules/materialize-css/sass/components/_modal.scss */
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer input.button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .region-title__action .button, .region-title__action .modal .modal-footer .button, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .button--small, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .region-title__action .button, .region-title__action .modal .modal-footer .button, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button {
       margin: 6px 0; }
 
 /* line 46, node_modules/materialize-css/sass/components/_modal.scss */
@@ -6763,13 +6759,13 @@ input[type=range]:focus::-ms-fill-upper {
     .card .card-action:last-child {
       border-radius: 0 0 2px 2px; }
     /* line 169, node_modules/materialize-css/sass/components/_cards.scss */
-    .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button):not(.btn-large):not(.btn-floating) {
+    .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button):not(.btn-large):not(.btn-floating) {
       color: #ffab40;
       margin-right: 24px;
       transition: color .3s ease;
       text-transform: uppercase; }
       /* line 175, node_modules/materialize-css/sass/components/_cards.scss */
-      .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(input.button):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button):not(.btn-large):not(.btn-floating):hover {
+      .card .card-action a:not(.btn):not(.btn-large):not(.button-action):not(.button-link):not(.tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight):not(.compact-link a):not(.dropbutton-wrapper.dropbutton-single .edit a):not(.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button):not(.btn-large):not(.btn-floating):hover {
         color: #ffd8a6; }
   /* line 179, node_modules/materialize-css/sass/components/_cards.scss */
   .card .card-reveal {
@@ -11037,148 +11033,148 @@ label {
   -o-user-select: none;
   user-select: none; }
 
-/* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, input.button + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, input.button + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, input.button + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, input.button + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper input.button + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper button + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .compact-link input.button + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link button + a, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .btn + input.button, .btn-large + input.button, .button-action + input.button, .button-link + input.button, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + input.button, .compact-link a + input.button, input.button + input.button, .dropbutton-wrapper.dropbutton-single .edit a + input.button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + input.button, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit input.button + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit button + a, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-large + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-action + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-link + button, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + button, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset input.button + button, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + button {
+/* line 199, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper button + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link button + a, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit button + a, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-large + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-action + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-link + button, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + button, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link a + button, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + button {
   margin: 0 10px; }
 
-/* line 207, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 212, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 214, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 210, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 221, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 217, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 223, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 219, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 229, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 225, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 234, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 230, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .x-small {
   height: 150px; }
 
-/* line 240, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 236, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 247, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 243, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li {
   display: inline; }
 
-/* line 250, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 246, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 255, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover {
     color: #ffd8a6; }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow, .shadow-box, .entity-meta__header, .confirm-form-wrapper, .utility-wrapper {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 265, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details {
   border: none !important; }
 
-/* line 269, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 265, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header, .confirm-form-wrapper {
   padding: 10px 15px;
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd; }
 
-/* line 277, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 273, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 283, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 279, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 289, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 285, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li, details.form-wrapper li {
   position: relative; }
-  /* line 293, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 289, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 300, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 296, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after {
     top: 0.5em; }
-  /* line 307, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 303, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 314, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 310, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after {
     top: 0.5em; }
 
-/* line 321, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 317, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible-body {
   font-weight: 500; }
-  /* line 323, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 319, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible-body .description {
     padding: 1em 0;
     font-weight: 300; }
 
-/* line 329, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 325, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details.form-wrapper summary {
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 335, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 331, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 346, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 342, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 350, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 346, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 353, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 349, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before,
 .ckeditor-buttons:after,
 .ckeditor-buttons {
   box-sizing: initial; }
 
-/* line 360, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 356, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .tabs.tabs-transparent {
   border: none; }
 
-/* line 363, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 359, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .offset-tabs {
   margin-left: -20px; }
 
-/* line 367, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 363, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit; }
-  /* line 370, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 366, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .file-upload-btn.btn-floating i {
     font-size: 1.3em; }
 
-/* line 374, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 370, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -11195,7 +11191,7 @@ textarea.materialize-textarea {
   max-width: 100%;
   width: inherit; }
 
-/* line 391, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 387, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
@@ -11267,11 +11263,11 @@ table td > .ajax-new-content > .form-item {
   top: 0; }
 
 /* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
+input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight {
   margin: 5px; }
   @media only screen and (max-width: 992px) {
     /* line 83, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-    input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight, input.button {
+    input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight {
       margin-bottom: 1em; } }
 
 /* line 90, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
@@ -11527,10 +11523,10 @@ details.form-wrapper {
       text-decoration: none; }
 
 /* line 398, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-i.waves-input-wrapper.input-form-submit {
+i.waves-input-wrapper {
   padding: 0 !important; }
   /* line 400, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-  i.waves-input-wrapper.input-form-submit .waves-button-input {
+  i.waves-input-wrapper .waves-button-input {
     padding: 0 2em;
     height: 100%; }
 
@@ -11595,6 +11591,14 @@ fieldset.form-wrapper span.fieldset-legend {
   text-transform: uppercase;
   padding: 1em 0 .5em 0;
   display: block; }
+
+/* line 477, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.image-widget-data {
+  position: relative; }
+
+/* line 480, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.file-field input[type=file] {
+  width: auto; }
 
 /* @file
  * Specific styling for admin

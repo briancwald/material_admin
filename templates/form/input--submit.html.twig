@@ -11,9 +11,21 @@
  */
 #}
 {%
-  set classes = [
-    'btn btn-default input-form-submit waves-effect waves-light'
-  ]
+  set remove_classes = [
+    'button',
+    ]
 %}
 
-<input{{ attributes.addClass(classes)}} />{{ children }}
+{%
+  set classes = [
+    'waves-button-input',
+    ]
+%}
+
+{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide')%}
+  <input{{ attributes.addClass(classes)}} />{{ children }}
+ {% else %}
+  <i class="waves-effect waves-light waves-input-wrapper button btn">
+  <input{{ attributes.removeClass(remove_classes).addClass(classes) }} />{{ children }}
+  </i>
+{% endif %}
