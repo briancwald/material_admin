@@ -176,7 +176,7 @@ details.form-wrapper {
   summary {
     display:block;
   }
-  &[open] summary:after {
+  &[open] > summary:after {
     @extend .fa-standard, .fa-collapse-down;
     line-height: 1em;
 

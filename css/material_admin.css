@@ -5172,9 +5172,65 @@ textarea.materialize-textarea {
   input[type=search]:not(.browser-default).validate + label,
   textarea.materialize-textarea.validate + label {
     width: 100%; }
+  /* line 100, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  input:not([type]).invalid + label:after,
+  input:not([type]).valid + label:after,
+  input[type=text]:not(.browser-default).invalid + label:after,
+  input[type=text]:not(.browser-default).valid + label:after,
+  input[type=password]:not(.browser-default).invalid + label:after,
+  input[type=password]:not(.browser-default).valid + label:after,
+  input[type=email]:not(.browser-default).invalid + label:after,
+  input[type=email]:not(.browser-default).valid + label:after,
+  input[type=url]:not(.browser-default).invalid + label:after,
+  input[type=url]:not(.browser-default).valid + label:after,
+  input[type=time]:not(.browser-default).invalid + label:after,
+  input[type=time]:not(.browser-default).valid + label:after,
+  input[type=date]:not(.browser-default).invalid + label:after,
+  input[type=date]:not(.browser-default).valid + label:after,
+  input[type=datetime]:not(.browser-default).invalid + label:after,
+  input[type=datetime]:not(.browser-default).valid + label:after,
+  input[type=datetime-local]:not(.browser-default).invalid + label:after,
+  input[type=datetime-local]:not(.browser-default).valid + label:after,
+  input[type=tel]:not(.browser-default).invalid + label:after,
+  input[type=tel]:not(.browser-default).valid + label:after,
+  input[type=number]:not(.browser-default).invalid + label:after,
+  input[type=number]:not(.browser-default).valid + label:after,
+  input[type=search]:not(.browser-default).invalid + label:after,
+  input[type=search]:not(.browser-default).valid + label:after,
+  textarea.materialize-textarea.invalid + label:after,
+  textarea.materialize-textarea.valid + label:after {
+    display: none; }
+  /* line 105, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  input:not([type]).invalid + label.active:after,
+  input:not([type]).valid + label.active:after,
+  input[type=text]:not(.browser-default).invalid + label.active:after,
+  input[type=text]:not(.browser-default).valid + label.active:after,
+  input[type=password]:not(.browser-default).invalid + label.active:after,
+  input[type=password]:not(.browser-default).valid + label.active:after,
+  input[type=email]:not(.browser-default).invalid + label.active:after,
+  input[type=email]:not(.browser-default).valid + label.active:after,
+  input[type=url]:not(.browser-default).invalid + label.active:after,
+  input[type=url]:not(.browser-default).valid + label.active:after,
+  input[type=time]:not(.browser-default).invalid + label.active:after,
+  input[type=time]:not(.browser-default).valid + label.active:after,
+  input[type=date]:not(.browser-default).invalid + label.active:after,
+  input[type=date]:not(.browser-default).valid + label.active:after,
+  input[type=datetime]:not(.browser-default).invalid + label.active:after,
+  input[type=datetime]:not(.browser-default).valid + label.active:after,
+  input[type=datetime-local]:not(.browser-default).invalid + label.active:after,
+  input[type=datetime-local]:not(.browser-default).valid + label.active:after,
+  input[type=tel]:not(.browser-default).invalid + label.active:after,
+  input[type=tel]:not(.browser-default).valid + label.active:after,
+  input[type=number]:not(.browser-default).invalid + label.active:after,
+  input[type=number]:not(.browser-default).valid + label.active:after,
+  input[type=search]:not(.browser-default).invalid + label.active:after,
+  input[type=search]:not(.browser-default).valid + label.active:after,
+  textarea.materialize-textarea.invalid + label.active:after,
+  textarea.materialize-textarea.valid + label.active:after {
+    display: block; }
 
 /* Validation Sass Placeholders */
-/* line 102, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 113, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input.valid:not([type]), input.valid:not([type]):focus,
 input[type=text].valid:not(.browser-default),
 input[type=text].valid:not(.browser-default):focus,
@@ -5203,7 +5259,7 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
   border-bottom: 1px solid #4CAF50;
   box-shadow: 0 1px 0 0 #4CAF50; }
 
-/* line 106, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 117, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input.invalid:not([type]), input.invalid:not([type]):focus,
 input[type=text].invalid:not(.browser-default),
 input[type=text].invalid:not(.browser-default):focus,
@@ -5232,7 +5288,7 @@ textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.sel
   border-bottom: 1px solid #F44336;
   box-shadow: 0 1px 0 0 #F44336; }
 
-/* line 110, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 121, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input:not([type]).valid + label:after,
 input:not([type]):focus.valid + label:after,
 input[type=text]:not(.browser-default).valid + label:after,
@@ -5265,7 +5321,7 @@ textarea.materialize-textarea:focus.valid + label:after, .select-wrapper.valid +
   -ms-transform: translateY(9px);
       transform: translateY(9px); }
 
-/* line 116, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 127, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input:not([type]).invalid + label:after,
 input:not([type]):focus.invalid + label:after,
 input[type=text]:not(.browser-default).invalid + label:after,
@@ -5298,7 +5354,7 @@ textarea.materialize-textarea:focus.invalid + label:after, .select-wrapper.inval
   -ms-transform: translateY(9px);
       transform: translateY(9px); }
 
-/* line 122, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 133, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 input:not([type]) + label:after,
 input[type=text]:not(.browser-default) + label:after,
 input[type=password]:not(.browser-default) + label:after,
@@ -5320,27 +5376,27 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   opacity: 0;
   transition: .2s opacity ease-out, .2s color ease-out; }
 
-/* line 134, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 145, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .input-field {
   position: relative;
   margin-top: 1rem; }
-  /* line 136, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 147, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.inline {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5px; }
-    /* line 141, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 152, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field.inline input,
     .input-field.inline .select-dropdown {
       margin-bottom: 1rem; }
-  /* line 149, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 160, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.col label, .vertical-tab-wrapper ul.input-field.vertical-tabs__menu label, .vertical-tab-wrapper .input-field.vertical-tabs__panes label, .color-form .input-field.wrap-placeholder-fab label, .color-palette .input-field.form-item:not(.form-item-scheme) label {
     left: 0.75rem; }
-  /* line 153, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 164, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field.col .prefix ~ label, .vertical-tab-wrapper ul.input-field.vertical-tabs__menu .prefix ~ label, .vertical-tab-wrapper .input-field.vertical-tabs__panes .prefix ~ label, .color-form .input-field.wrap-placeholder-fab .prefix ~ label, .color-palette .input-field.form-item:not(.form-item-scheme) .prefix ~ label,
   .input-field.col .prefix ~ .validate ~ label, .vertical-tab-wrapper ul.input-field.vertical-tabs__menu .prefix ~ .validate ~ label, .vertical-tab-wrapper .input-field.vertical-tabs__panes .prefix ~ .validate ~ label, .color-form .input-field.wrap-placeholder-fab .prefix ~ .validate ~ label, .color-palette .input-field.form-item:not(.form-item-scheme) .prefix ~ .validate ~ label {
     width: calc(100% - 3rem - 1.5rem); }
-  /* line 162, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 173, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field label {
     color: #9e9e9e;
     position: absolute;
@@ -5356,22 +5412,22 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     -ms-transform: translateY(12px);
         transform: translateY(12px);
     pointer-events: none; }
-    /* line 176, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 187, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field label:not(.label-icon).active {
       -ms-transform: translateY(-14px) scale(0.8);
           transform: translateY(-14px) scale(0.8);
       -ms-transform-origin: 0 0;
           transform-origin: 0 0; }
-  /* line 183, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 194, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix {
     position: absolute;
     width: 3rem;
     font-size: 2rem;
     transition: color .2s; }
-    /* line 189, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 200, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix.active {
       color: #26a69a; }
-  /* line 192, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 203, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea,
   .input-field .prefix ~ label,
@@ -5380,47 +5436,47 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     margin-left: 3rem;
     width: 92%;
     width: calc(100% - 3rem); }
-  /* line 202, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 213, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ label {
     margin-left: 3rem; }
   @media only screen and (max-width: 992px) {
-    /* line 205, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 216, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
   @media only screen and (max-width: 600px) {
-    /* line 212, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 223, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field .prefix ~ input {
       width: 80%;
       width: calc(100% - 3rem); } }
 
 /* Search Field */
-/* line 222, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 233, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .input-field input[type=search] {
   display: block;
   line-height: inherit; }
-  /* line 226, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 237, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .nav-wrapper .input-field input[type=search] {
     height: inherit;
     padding-left: 4rem;
     width: calc(100% - 4rem);
     border: 0;
     box-shadow: none; }
-  /* line 234, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 245, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search]:focus {
     background-color: #fff;
     border: 0;
     box-shadow: none;
     color: #444; }
-    /* line 240, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 251, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     .input-field input[type=search]:focus + label i,
     .input-field input[type=search]:focus ~ .mdi-navigation-close,
     .input-field input[type=search]:focus ~ .material-icons {
       color: #444; }
-  /* line 247, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 258, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] + label {
     left: 1rem; }
-  /* line 251, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 262, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .input-field input[type=search] ~ .mdi-navigation-close,
   .input-field input[type=search] ~ .material-icons {
     position: absolute;
@@ -5432,12 +5488,12 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     transition: .3s color; }
 
 /* Textarea */
-/* line 267, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 278, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 textarea {
   width: 100%;
   height: 3rem;
   background-color: transparent; }
-  /* line 272, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 283, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   textarea.materialize-textarea {
     overflow-y: hidden;
     /* prevents scroll bar flash */
@@ -5445,18 +5501,18 @@ textarea {
     /* prevents text jump on Enter keypress */
     resize: none;
     min-height: 3rem; }
-    /* line 274, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+    /* line 285, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
     textarea.materialize-textarea.validate + label {
       height: 100%; }
-      /* line 275, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+      /* line 286, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
       textarea.materialize-textarea.validate + label::after {
         top: calc(100% - 12px); }
-      /* line 278, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+      /* line 289, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
       textarea.materialize-textarea.validate + label:not(.label-icon).active {
         -ms-transform: translateY(-25px);
             transform: translateY(-25px); }
 
-/* line 292, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 303, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -5469,17 +5525,17 @@ textarea {
   top: 0; }
 
 /* Autocomplete */
-/* line 306, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+/* line 317, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
 .autocomplete-content {
   margin-top: -20px;
   margin-bottom: 20px;
   display: block;
   opacity: 1;
   position: static; }
-  /* line 314, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 325, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li .highlight {
     color: #444; }
-  /* line 316, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
+  /* line 327, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_input-fields.scss */
   .autocomplete-content li img {
     height: 40px;
     width: 40px;
@@ -5913,19 +5969,30 @@ select {
   border-radius: 2px;
   height: 3rem; }
 
-/* line 16, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 18, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+.input-field select {
+  display: block;
+  position: absolute;
+  width: 0;
+  pointer-events: none;
+  height: 0;
+  top: 0;
+  left: 0;
+  opacity: 0; }
+
+/* line 30, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-label {
   position: absolute; }
 
-/* line 20, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 34, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-wrapper {
   position: relative; }
-  /* line 41, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 55, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-wrapper.valid + label,
   .select-wrapper.invalid + label {
     width: 100%;
     pointer-events: none; }
-  /* line 53, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 67, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-wrapper input.select-dropdown {
     position: relative;
     cursor: pointer;
@@ -5944,7 +6011,7 @@ select {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; }
-  /* line 70, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 84, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-wrapper span.caret {
     color: initial;
     position: absolute;
@@ -5955,22 +6022,22 @@ select {
     margin: auto 0;
     font-size: 10px;
     line-height: 10px; }
-  /* line 82, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 96, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-wrapper + label {
     position: absolute;
     top: -26px;
     font-size: 0.8rem; }
 
-/* line 90, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 104, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 select:disabled {
   color: rgba(0, 0, 0, 0.42); }
 
-/* line 95, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 109, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-wrapper.disabled span.caret,
 .select-wrapper.disabled + label {
   color: rgba(0, 0, 0, 0.42); }
 
-/* line 101, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 115, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-wrapper input.select-dropdown:disabled {
   color: rgba(0, 0, 0, 0.42);
   cursor: default;
@@ -5979,56 +6046,56 @@ select:disabled {
       -ms-user-select: none;
           user-select: none; }
 
-/* line 107, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 121, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-wrapper i {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 111, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 125, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown li.disabled,
 .select-dropdown li.disabled > span,
 .select-dropdown li.optgroup {
   color: rgba(0, 0, 0, 0.3);
   background-color: transparent; }
 
-/* line 120, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 134, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown.dropdown-content li.active {
   background-color: transparent; }
 
-/* line 124, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 138, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown.dropdown-content li:hover {
   background-color: rgba(0, 0, 0, 0.06); }
 
-/* line 128, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 142, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown.dropdown-content li.selected {
   background-color: rgba(0, 0, 0, 0.03); }
 
-/* line 135, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 149, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .prefix ~ .select-wrapper {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem); }
 
-/* line 141, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 155, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .prefix ~ label {
   margin-left: 3rem; }
 
-/* line 145, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 159, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown li img {
   height: 40px;
   width: 40px;
   margin: 5px 15px;
   float: right; }
 
-/* line 154, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+/* line 168, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
 .select-dropdown li.optgroup {
   border-top: 1px solid #eee; }
-  /* line 157, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 171, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-dropdown li.optgroup.selected > span {
     color: rgba(0, 0, 0, 0.7); }
-  /* line 161, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 175, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-dropdown li.optgroup > span {
     color: rgba(0, 0, 0, 0.4); }
-  /* line 165, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
+  /* line 179, /Users/brian.wald/Sites/material_admin/node_modules/materialize-css/sass/components/forms/_select.scss */
   .select-dropdown li.optgroup ~ li.optgroup-option {
     padding-left: 1rem; }
 
@@ -10921,7 +10988,7 @@ label {
   display: inline; }
 
 /* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper[open] summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before,
+.fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before,
 .entity-meta__author h4:before,
 .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .collection .collection-item > .item-list .collection .collection-item:before, .region-title__action .button:after, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
   vertical-align: top;
@@ -10941,7 +11008,7 @@ label {
   font-size: 1.5em; }
 
 /* line 167, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.fa-collapse-down, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper[open] summary:after {
+.fa-collapse-down, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper[open] > summary:after {
   content: "";
   right: 20px;
   color: #9e9e9e;
@@ -11286,7 +11353,7 @@ details.form-wrapper {
   details.form-wrapper summary {
     display: block; }
   /* line 179, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-  details.form-wrapper[open] summary:after {
+  details.form-wrapper[open] > summary:after {
     line-height: 1em; }
   /* line 184, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   details.form-wrapper summary:after {
