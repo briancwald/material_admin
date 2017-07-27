@@ -3538,7 +3538,7 @@ td, th {
   margin: 0.5rem 0 1rem 0;
   overflow: hidden; }
   /* line 617, node_modules/materialize-css/sass/components/_global.scss */
-  .progress .determinate {
+  .progress .determinate, .progress .progress__track .progress__bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -11194,6 +11194,27 @@ textarea.materialize-textarea {
 /* line 387, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
+
+/* line 391, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.progress {
+  overflow: inherit;
+  height: 10px; }
+  /* line 394, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  .progress .progress__track {
+    background-color: #a7ffeb;
+    border-color: #a7ffeb;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 10px; }
+    /* line 401, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+    .progress .progress__track .progress__bar {
+      border: 0;
+      background: none;
+      background-color: #26a69a;
+      margin: 0;
+      height: 10px;
+      border-radius: 0; }
 
 /* @file
  * Form specific styling
