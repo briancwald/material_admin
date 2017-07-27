@@ -16,21 +16,21 @@ header.header-wrapper {
     font-weight: 300;
     font-size: 2rem;
     margin: 2rem 0 2rem 0;
-    text-transform:capitalize;
-     @media #{$small-and-down} {
-      font-size:1.5rem;
+    text-transform: capitalize;
+    @media #{$small-and-down} {
+      font-size: 1.5rem;
       margin: 2rem 0 2rem 0;
     }
   }
   .row.material-container {
     padding-bottom: 0px;
-    padding-top:0px;
+    padding-top: 0px;
   }
 }
 
 #block-material-admin-page-title h1.page-title {
   em {
-    font-style:normal;
+    font-style: normal;
   }
   em:not(.placeholder) {
     &:after {
@@ -40,7 +40,9 @@ header.header-wrapper {
 }
 
 .utility-wrapper {
-  @extend .blue, .lighten-2, .shadow;
+  @extend .blue,
+  .lighten-2,
+  .shadow;
 }
 
 .messages {
@@ -58,14 +60,16 @@ header.header-wrapper {
   .collapsible-header {
     &:before {
       content: $fa-var-check;
-      @extend .fa-standard, .status-text-color;
+      @extend .fa-standard,
+      .status-text-color;
       padding-right: 1em;
     }
   }
 }
 
 .messages--status {
-  @extend .status-color, .black-text;
+  @extend .status-color,
+  .black-text;
   &.messages-clone {
     .card-content {
       @extend .status-color;
@@ -83,7 +87,8 @@ header.header-wrapper {
   .collapsible-header {
     &:before {
       content: $fa-var-exclamation-triangle;
-      @extend .fa-standard, .warning-text-color;
+      @extend .fa-standard,
+      .warning-text-color;
       padding-right: 1em;
     }
   }
@@ -103,7 +108,8 @@ header.header-wrapper {
 }
 
 .messages--warning {
-  @extend .warning-color, .black-text;
+  @extend .warning-color,
+  .black-text;
   &.messages-clone {
     .card-content {
       @extend .warning-color;
@@ -121,7 +127,8 @@ header.header-wrapper {
   .collapsible-header {
     &:before {
       content: $fa-var-times-circle-o;
-      @extend .fa-standard, .error-text-color;
+      @extend .fa-standard,
+      .error-text-color;
       padding-right: 1em;
     }
   }
@@ -134,7 +141,8 @@ header.header-wrapper {
 }
 
 .messages--error {
-  @extend .error-color, .black-text;
+  @extend .error-color,
+  .black-text;
   &.messages-clone {
     .card-content {
       @extend .error-color;
@@ -151,7 +159,8 @@ header.header-wrapper {
 .messages-clone {
   background: color("shades", "white")!important;
   .card-title {
-    &:before, .message-number {
+    &:before,
+    .message-number {
       padding-right: 10px;
     }
   }
@@ -196,7 +205,8 @@ a.modal-trigger {
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
-  color: color("shades", "black");;
+  color: color("shades", "black");
+  ;
   &:hover {
     color: color("grey", "darken-2");
   }
@@ -226,25 +236,32 @@ a.modal-trigger {
   display: block;
 }
 
-.primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
+.primary.tabs a.is-active,
+.primary.tabs a:focus,
+.primary.tabs a:hover {
   background-color: transparent!important;
 }
 
-table.highlight > tbody > tr:hover {
-  @extend .grey, .lighten-3;
-  color: color("shades", "black");;
-  a, button {
+table.highlight>tbody>tr:hover {
+  @extend .grey,
+  .lighten-3;
+  color: color("shades", "black");
+  ;
+  a,
+  button {
     cursor: pointer;
   }
 }
 
-table.highlight > tbody > tr.selected {
-  @extend .grey, .lighten-4;
+table.highlight>tbody>tr.selected {
+  @extend .grey,
+  .lighten-4;
   a {
     text-decoration: none;
   }
   a.dropdown-button {
-    @extend .grey-text, .text-darken-2;
+    @extend .grey-text,
+    .text-darken-2;
     text-decoration: none;
   }
   .dropbutton-widget li {
@@ -255,7 +272,8 @@ table.highlight > tbody > tr.selected {
     }
   }
   td {
-    @extend .grey, .lighten-4;
+    @extend .grey,
+    .lighten-4;
   }
 }
 
@@ -296,17 +314,17 @@ td.is-active {
 }
 
 // in the case where we have to nest collections, remove border and margin
-.collection.with-header > .collection {
+.collection.with-header>.collection {
   border: none;
   margin: 0;
 }
 
 table {
   .collection {
-    margin:inherit;
-    border:none;  
+    margin: inherit;
+    border: none;
     .collection-item {
-      background:inherit;
+      background: inherit;
     }
   }
 }
@@ -362,8 +380,8 @@ table {
     display: inline;
   }
   &.ellipsis-icon:after {
-    content:'';
-    display:none;
+    content: '';
+    display: none;
   }
 }
 
@@ -394,7 +412,8 @@ table {
 
 h2.theme-list-title {
   padding: 2rem;
-  @extend .blue, .lighten-5;
+  @extend .blue,
+  .lighten-5;
 }
 
 span.theme-status-indicator {
@@ -425,9 +444,11 @@ span.theme-status-indicator {
     padding: 15px;
   }
 }
+
 table {
   .region-title {
-    @extend .blue, .lighten-5;
+    @extend .blue,
+    .lighten-5;
     @extend .grey-text;
     font-weight: normal;
   }
@@ -438,7 +459,8 @@ table td {
 }
 
 table thead th {
-  @extend .grey-text, .darken-1;
+  @extend .grey-text,
+  .darken-1;
   font-weight: normal;
   font-size: .9em;
   a {
@@ -466,20 +488,25 @@ table thead th {
 }
 
 tr.drag {
-  @extend .yellow, .lighten-4;
+  @extend .yellow,
+  .lighten-4;
   border-bottom: 1px dashed color("grey", "darken-2");
   border-top: 1px dashed color("grey", "darken-2");
 }
 
-tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
-  @extend .yellow, .lighten-5;
+tr.drag-previous,
+tr.drag-previous.field-plugin-settings-editing,
+tr.drag.field-plugin-settings-editing {
+  @extend .yellow,
+  .lighten-5;
   border-bottom: 2px dashed color("yellow", "lighten-4");
   border-top: 2px dashed color("yellow", "lighten-4");
 }
 
 //editing widget table styling 
 tr.field-plugin-settings-editing {
-  @extend .grey, .lighten-5;
+  @extend .grey,
+  .lighten-5;
   border-bottom: 2px dashed color("grey", "darken-2");
   border-top: 2px dashed color("grey", "darken-2");
 }
@@ -489,7 +516,7 @@ tr.field-plugin-settings-editing {
 }
 
 //nested collection styling
-.collection .collection-item > .item-list {
+.collection .collection-item>.item-list {
   .collection {
     border: none;
     .collection-item {
@@ -585,7 +612,6 @@ tr.field-plugin-settings-editing {
 }
 
 // user login / password 
-
 .login-header {
   .block-page-title-block {
     h1 {
@@ -625,19 +651,17 @@ body.material_login {
 }
 
 //region title action
-
 .region-title__action {
   .button {
     @extend .btn-flat;
     &:after {
-    @extend .fa-standard;
-    content: $fa-var-plus;
+      @extend .fa-standard;
+      content: $fa-var-plus;
     }
   }
 }
 
 // Views exposed form and bulk filter styles.
-
 // This block overrides normal .collapsible styles.
 .exposed-form-collapsible {
   box-shadow: none;
@@ -699,7 +723,7 @@ body.material_login {
     opacity: 0;
     transition: .2s;
     border-bottom: 1px solid color("grey", "lighten-1");
-    > .form-wrapper:first-child {
+    >.form-wrapper:first-child {
       display: none;
     }
     label[for="edit-action"] {
@@ -738,7 +762,6 @@ body.material_login {
 }
 
 // Responsive Views styles.
-
 @media #{$small-and-down} {
   .sticky-header {
     top: 0 !important;
@@ -756,13 +779,13 @@ body.material_login {
       }
       td {
         .tablesaw-cell-label {
-          font-weight:200;
-          color:color("grey", "base");
+          font-weight: 200;
+          color: color("grey", "base");
           &:after {
             content: ":";
-            right:0;
-            color:color("grey", "base");
-            font-weight:400;
+            right: 0;
+            color: color("grey", "base");
+            font-weight: 400;
           }
         }
         padding: 20px 0 0 20px;
@@ -794,15 +817,19 @@ body.material_login {
 }
 
 //chips for lists
-
-.item-list__comma-list li.chip {
-  display:inline-block;
-  font-weight:200;
-  &:after {
-    content:"";
+.item-list--comma-list {
+    margin:0.5em 0;
+.item-list__comma-list {
+  li.chip {
+    display: inline-block;
+    font-weight: 200;
+    &:after {
+      content: "";
+    }
   }
 }
+}
 
-table.highlight > tbody > tr:hover li.chip {
-    background-color:color("grey", "lighten-5");
+table.highlight>tbody>tr:hover li.chip {
+  background-color: color("grey", "lighten-5");
 }
