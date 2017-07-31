@@ -58,8 +58,8 @@
   overflow: visible;
 }
 
-.views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
-  padding: 0;
+.views-ui-display-tab-bucket .views-display-setting:not(.collection-item):not(.views-ui-display-tab-setting){
+  padding: 15px;
 }
 
 .views-ui-display-tab-bucket.views-ui-display-tab-actions {

@@ -12302,8 +12302,8 @@ table.highlight > tbody > tr:hover li.chip {
   overflow: visible; }
 
 /* line 61, /Users/brian.wald/Sites/material_admin/scss/base/_views.scss */
-.views-ui-display-tab-bucket .views-display-setting:not(.collection-item) {
-  padding: 0; }
+.views-ui-display-tab-bucket .views-display-setting:not(.collection-item):not(.views-ui-display-tab-setting) {
+  padding: 15px; }
 
 /* line 65, /Users/brian.wald/Sites/material_admin/scss/base/_views.scss */
 .views-ui-display-tab-bucket.views-ui-display-tab-actions {
