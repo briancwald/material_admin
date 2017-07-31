@@ -10,22 +10,15 @@
  * @see template_preprocess_input()
  */
 #}
-{%
-  set remove_classes = [
-    'button',
-    ]
-%}
 
 {%
   set classes = [
-    'waves-button-input',
+    'waves-effect waves-light waves-input-wrapper button btn',
     ]
 %}
 
-{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') or attributes.hasClass('add-display') %}
-  <input{{ attributes.addClass(classes)}} />{{ children }}
+{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') %}
+  <input{{ attributes.addClass('js-hide') }} />{{ children }}
  {% else %}
-  <i class="waves-effect waves-light waves-input-wrapper button btn">
-  <input{{ attributes.removeClass(remove_classes).addClass(classes) }} />{{ children }}
-  </i>
+  <input{{ attributes.addClass(classes) }} />{{ children }}
 {% endif %}
