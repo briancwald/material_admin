@@ -24,13 +24,14 @@
 
   Drupal.behaviors.material_pickatime = {
     attach: function (context, settings) {
-      $('.form-time').pickatime({
+     $(context).find('.form-time').once('material_pickatime').each(function (k, v) {
+      $(this).pickatime({
         autoclose: true,
         twelvehour: false,
         closeOnSelect: true,
-        formatSubmit:'h:i A',
-        aftershow: function(){} //Function for after opening timepicker  
+        formatSubmit:'h:i A' 
       });
+    });
     }
   };
 
