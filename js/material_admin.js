@@ -26,7 +26,7 @@
 
   Drupal.behaviors.material_tooltip = {
     attach: function (context) {
-      $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150 });
+      $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150, html: true });
     }
   };
 

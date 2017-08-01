@@ -93,7 +93,7 @@
   {% endif %}
   {% if description_display in ['after', 'invisible'] and description.content %}
     <div{{ description.attributes.addClass(description_classes) }}>
-         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
     </div>
   {% endif %}
 </div>
