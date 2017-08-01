@@ -42,7 +42,7 @@ header.header-wrapper {
 .utility-wrapper {
   @extend .blue,
   .lighten-2,
-  .shadow;
+  .z-depth-1;
 }
 
 .messages {
