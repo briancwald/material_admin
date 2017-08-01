@@ -10,13 +10,16 @@
 
   Drupal.behaviors.material_pickadate = {
     attach: function (context, settings) {
-      $('.form-date').pickadate({
+      $(context).find('.form-date').once('material_pickadate').each(function (k, v) {
+        $(this).pickadate({
         selectMonths: true, // Creates a dropdown to control month
         formatSubmit: 'yyyy-mm-dd',
+        format:'yyyy-mm-dd',
         hiddenName: true,
         autoclose:true
       });
-    }
+    });
+  }
   };
 
   Drupal.behaviors.material_pickatime = {
