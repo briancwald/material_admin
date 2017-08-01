@@ -212,7 +212,7 @@ details.form-wrapper {
 }
 
 .entity-meta__header {
-  @extend .z-depth-1;
+  @extend .shadow-box, .z-depth-1;
 }
 
 .entity-meta__last-saved h4,

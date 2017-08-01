@@ -11090,85 +11090,93 @@ a.button:hover {
     color: #ffd8a6; }
 
 /* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+
+/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details {
   border: none !important; }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 265, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.shadow-box, .entity-meta__header {
+  padding: 10px 15px; }
+
+/* line 269, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 267, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 275, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 273, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 281, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li, details.form-wrapper li {
   position: relative; }
-  /* line 277, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 285, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 284, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 292, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after {
     top: 0.5em; }
-  /* line 291, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 299, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 298, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 306, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after {
     top: 0.5em; }
 
-/* line 305, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 313, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible-body {
   font-weight: 500; }
-  /* line 307, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 315, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible-body .description {
     padding: 1em 0;
     font-weight: 300; }
 
-/* line 313, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 321, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details.form-wrapper summary {
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 319, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 327, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 330, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 338, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 334, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 342, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 337, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 345, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before,
 .ckeditor-buttons:after,
 .ckeditor-buttons {
   box-sizing: initial; }
 
-/* line 344, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 352, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .tabs.tabs-transparent {
   border: none; }
 
-/* line 347, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 355, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .offset-tabs {
   margin-left: -20px; }
 
-/* line 351, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 359, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit; }
-  /* line 354, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 362, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .file-upload-btn.btn-floating i {
     font-size: 1.3em; }
 
-/* line 358, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 366, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -11185,15 +11193,15 @@ textarea.materialize-textarea {
   max-width: 100%;
   width: inherit; }
 
-/* line 375, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 383, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
-/* line 379, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 387, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .progress {
   overflow: inherit;
   height: 10px; }
-  /* line 382, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 390, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .progress .progress__track {
     background-color: #a7ffeb;
     border-color: #a7ffeb;
@@ -11201,7 +11209,7 @@ textarea.materialize-textarea {
     box-shadow: none;
     border-radius: 0;
     height: 10px; }
-    /* line 389, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+    /* line 397, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
     .progress .progress__track .progress__bar {
       border: 0;
       background: none;
