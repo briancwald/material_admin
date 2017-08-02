@@ -493,7 +493,9 @@ th {
 
 /* line 373, node_modules/materialize-css/sass/components/_color.scss */
 .red-text, .error-text-color, .form-item .form-required:after,
-.filter-wrapper .form-item .form-required:after, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .collapsible-body, #edit-actions .button--danger, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .vertical-tab-wrapper .vertical-tabs__panes > details > summary {
+.filter-wrapper .form-item .form-required:after,
+.form-item.password-parent .form-required:after,
+.form-item.confirm-parent .form-required:after, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .collapsible-body, #edit-actions .button--danger, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a, .vertical-tab-wrapper .vertical-tabs__panes > details > summary {
   color: #F44336 !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -554,7 +556,9 @@ li.vertical-tabs__menu-item.is-selected.errors-color {
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
 .red-text.text-lighten-3, .error-text-color, .form-item .form-required:after,
-.filter-wrapper .form-item .form-required:after, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .collapsible-body, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after, #edit-actions .system-status-report__status-icon--error .button--danger.collapsible-header:before, .system-status-report__status-icon--error #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--error details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--error details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--error summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--error #edit-actions summary.button--danger:before, #edit-actions .system-status-report__status-icon--error .button--danger.collapsible-body, .system-status-report__status-icon--error #edit-actions .button--danger.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:hover:after, .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:hover:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-header:hover:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-body:hover, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-3, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-text-color, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .form-item a.form-required:after, .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--error a.collapsible-body, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-body, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.text-lighten-3, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.error-text-color, .vertical-tab-wrapper .form-item .vertical-tabs__panes > details > summary.form-required:after, .form-item .vertical-tab-wrapper .vertical-tabs__panes > details > summary.form-required:after, .vertical-tab-wrapper .system-status-report__status-icon--error .vertical-tabs__panes > details > summary.collapsible-header:before, .system-status-report__status-icon--error .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--error .vertical-tabs__panes > details > summary.collapsible-body, .system-status-report__status-icon--error .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-body {
+.filter-wrapper .form-item .form-required:after,
+.form-item.password-parent .form-required:after,
+.form-item.confirm-parent .form-required:after, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .collapsible-body, #edit-actions .text-lighten-3.button--danger, #edit-actions .button--danger.error-text-color, #edit-actions .form-item .button--danger.form-required:after, .form-item #edit-actions .button--danger.form-required:after, #edit-actions .system-status-report__status-icon--error .button--danger.collapsible-header:before, .system-status-report__status-icon--error #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--error details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--error details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--error summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--error #edit-actions summary.button--danger:before, #edit-actions .system-status-report__status-icon--error .button--danger.collapsible-body, .system-status-report__status-icon--error #edit-actions .button--danger.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:hover:after, .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:hover:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-header:hover:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-body:hover, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-lighten-3, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.error-text-color, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .form-item a.form-required:after, .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--error a.collapsible-body, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-body, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.text-lighten-3, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.error-text-color, .vertical-tab-wrapper .form-item .vertical-tabs__panes > details > summary.form-required:after, .form-item .vertical-tab-wrapper .vertical-tabs__panes > details > summary.form-required:after, .vertical-tab-wrapper .system-status-report__status-icon--error .vertical-tabs__panes > details > summary.collapsible-header:before, .system-status-report__status-icon--error .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--error .vertical-tabs__panes > details > summary.collapsible-body, .system-status-report__status-icon--error .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-body {
   color: #EF9A9A !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -594,7 +598,40 @@ li.vertical-tabs__menu-item.is-selected.errors-color {
   background-color: #D32F2F !important; }
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
-.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item abbr.form-required.warning:after, .form-item a.form-required#edit-cancel:after, .form-item .system-status-report__status-icon--warning .form-required.collapsible-body:after, .system-status-report__status-icon--warning .form-item .form-required.collapsible-body:after, abbr.error-text-color.warning, .system-status-report__status-icon--error abbr.warning.collapsible-header:before, .system-status-report__status-icon--error abbr.warning.collapsible-body, a.error-text-color#edit-cancel, .system-status-report__status-icon--error a#edit-cancel.collapsible-header:before, .system-status-report__status-icon--error a#edit-cancel.collapsible-body, .system-status-report__status-icon--warning .error-text-color.collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary.error-text-color:before, details.form-wrapper .system-status-report__status-icon--warning summary.error-text-color:before, .system-status-report__status-icon--warning .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--warning details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--warning .error-text-color.collapsible-body, .system-status-report__status-icon--warning .system-status-report__status-icon--error .collapsible-body, .system-status-report__status-icon--error .system-status-report__status-icon--warning .collapsible-body, .system-status-report__status-icon--error .warning-text-color.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.warning-text-color:before, details.form-wrapper .system-status-report__status-icon--error summary.warning-text-color:before, .system-status-report__status-icon--error .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .warning-text-color.collapsible-body, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .system-status-report__status-icon--checked .error-text-color.collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary.error-text-color:before, details.form-wrapper .system-status-report__status-icon--checked summary.error-text-color:before, .system-status-report__status-icon--checked .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--checked details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--error .status-text-color.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.status-text-color:before, details.form-wrapper .system-status-report__status-icon--error summary.status-text-color:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .status-text-color.collapsible-body, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.form-required:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .form-item button.form-required:after, .system-status-report__status-icon--error .text-darken-2.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.text-darken-2:before, details.form-wrapper .system-status-report__status-icon--error summary.text-darken-2:before, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-header.dropdown-button:before, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-header.dropdown-button:before, .system-status-report__status-icon--error .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.collapsible-header:before, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .system-status-report__status-icon--error button.collapsible-header:before, .system-status-report__status-icon--error .text-darken-2.collapsible-body, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-body.dropdown-button, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-body.dropdown-button, .system-status-report__status-icon--error .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.collapsible-body, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .system-status-report__status-icon--error button.collapsible-body, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.error-text-color, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions abbr.button--danger.warning, #edit-actions a.button--danger#edit-cancel, #edit-actions .system-status-report__status-icon--warning .button--danger.collapsible-header:before, .system-status-report__status-icon--warning #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--warning details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--warning details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--warning summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--warning #edit-actions summary.button--danger:before, #edit-actions .system-status-report__status-icon--warning .button--danger.collapsible-body, .system-status-report__status-icon--warning #edit-actions .button--danger.collapsible-body, abbr.red-text.warning, a.red-text#edit-cancel, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a#edit-cancel, .system-status-report__status-icon--warning .red-text.collapsible-header:before, .system-status-report__status-icon--warning #edit-actions details.form-wrapper summary.button--danger:before, details.form-wrapper #edit-actions .system-status-report__status-icon--warning summary.button--danger:before, .system-status-report__status-icon--warning details.form-wrapper summary.red-text:before, details.form-wrapper .system-status-report__status-icon--warning summary.red-text:before, .system-status-report__status-icon--warning details.form-wrapper .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--warning .vertical-tab-wrapper details.form-wrapper .vertical-tabs__panes > details > summary:before, .vertical-tab-wrapper details.form-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--warning a.collapsible-header:hover:before, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--warning a.collapsible-header:before, .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary.collapsible-header:before, .system-status-report__status-icon--warning .red-text.collapsible-body, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--warning a.collapsible-body:hover, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--warning a.collapsible-body, .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-body, .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-text-color, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.warning-text-color, .vertical-tab-wrapper .system-status-report__status-icon--warning details.form-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, #edit-actions .system-status-report__status-icon--checked .button--danger.collapsible-header:before, .system-status-report__status-icon--checked #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--checked details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--checked details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--checked summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--checked #edit-actions summary.button--danger:before, .system-status-report__status-icon--checked .red-text.collapsible-header:before, .system-status-report__status-icon--checked #edit-actions details.form-wrapper summary.button--danger:before, details.form-wrapper #edit-actions .system-status-report__status-icon--checked summary.button--danger:before, .system-status-report__status-icon--checked details.form-wrapper summary.red-text:before, details.form-wrapper .system-status-report__status-icon--checked summary.red-text:before, .system-status-report__status-icon--checked details.form-wrapper .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .vertical-tab-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--checked .vertical-tab-wrapper details.form-wrapper .vertical-tabs__panes > details > summary:before, .vertical-tab-wrapper details.form-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--checked .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--checked a.collapsible-header:hover:before, .system-status-report__status-icon--checked .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--checked a.collapsible-header:before, .system-status-report__status-icon--checked .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-text-color, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.status-text-color, .vertical-tab-wrapper .system-status-report__status-icon--checked details.form-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .system-status-report__status-icon--checked .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, #edit-actions .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset #edit-actions button.button--danger, table.highlight > tbody > tr.selected a.red-text.dropdown-button, table.highlight > tbody > tr.selected .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.dropdown-button:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button:hover, table.highlight > tbody > tr.selected .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.dropdown-button, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table.highlight > tbody > tr.selected a.dropdown-button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.red-text, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-2, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.text-darken-2 {
+.red-text.text-darken-2, .text-darken-2.error-text-color, .error-text-color.warning-text-color, .form-item .warning-text-color.form-required:after, .form-item abbr.form-required.warning:after, .form-item a.form-required#edit-cancel:after, .form-item .system-status-report__status-icon--warning .form-required.collapsible-body:after, .system-status-report__status-icon--warning .form-item .form-required.collapsible-body:after, abbr.error-text-color.warning, .system-status-report__status-icon--error abbr.warning.collapsible-header:before, .system-status-report__status-icon--error abbr.warning.collapsible-body, a.error-text-color#edit-cancel, .system-status-report__status-icon--error a#edit-cancel.collapsible-header:before, .system-status-report__status-icon--error a#edit-cancel.collapsible-body, .system-status-report__status-icon--warning .error-text-color.collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary.error-text-color:before, details.form-wrapper .system-status-report__status-icon--warning summary.error-text-color:before, .system-status-report__status-icon--warning .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--warning details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--warning .error-text-color.collapsible-body, .system-status-report__status-icon--warning .system-status-report__status-icon--error .collapsible-body, .system-status-report__status-icon--error .system-status-report__status-icon--warning .collapsible-body, .system-status-report__status-icon--error .warning-text-color.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.warning-text-color:before, details.form-wrapper .system-status-report__status-icon--error summary.warning-text-color:before, .system-status-report__status-icon--error .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .warning-text-color.collapsible-body, .error-text-color.status-text-color, .form-item .status-text-color.form-required:after, .system-status-report__status-icon--checked .error-text-color.collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary.error-text-color:before, details.form-wrapper .system-status-report__status-icon--checked summary.error-text-color:before, .system-status-report__status-icon--checked .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--checked details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--error .status-text-color.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.status-text-color:before, details.form-wrapper .system-status-report__status-icon--error summary.status-text-color:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked .system-status-report__status-icon--error summary:before, .system-status-report__status-icon--error .status-text-color.collapsible-body, .form-item .text-darken-2.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.form-required:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .form-item button.form-required:after,
+.filter-wrapper .form-item .text-darken-2.form-required:after,
+.filter-wrapper .form-item .form-required.warning-text-color:after,
+.filter-wrapper .form-item abbr.form-required.warning:after,
+.filter-wrapper .form-item a.form-required#edit-cancel:after,
+.filter-wrapper .form-item .system-status-report__status-icon--warning .form-required.collapsible-body:after, .system-status-report__status-icon--warning
+.filter-wrapper .form-item .form-required.collapsible-body:after,
+.filter-wrapper .form-item .form-required.status-text-color:after,
+.filter-wrapper .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.filter-wrapper .form-item a.form-required.dropdown-button:after,
+.filter-wrapper .form-item .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.form-required:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset
+.filter-wrapper .form-item button.form-required:after,
+.form-item.password-parent .text-darken-2.form-required:after,
+.form-item.password-parent .form-required.warning-text-color:after,
+.form-item.password-parent abbr.form-required.warning:after,
+.form-item.password-parent a.form-required#edit-cancel:after,
+.form-item.password-parent .system-status-report__status-icon--warning .form-required.collapsible-body:after, .system-status-report__status-icon--warning
+.form-item.password-parent .form-required.collapsible-body:after,
+.form-item.password-parent .form-required.status-text-color:after,
+.form-item.password-parent table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.form-item.password-parent a.form-required.dropdown-button:after,
+.form-item.password-parent .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.form-required:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset
+.form-item.password-parent button.form-required:after,
+.form-item.confirm-parent .text-darken-2.form-required:after,
+.form-item.confirm-parent .form-required.warning-text-color:after,
+.form-item.confirm-parent abbr.form-required.warning:after,
+.form-item.confirm-parent a.form-required#edit-cancel:after,
+.form-item.confirm-parent .system-status-report__status-icon--warning .form-required.collapsible-body:after, .system-status-report__status-icon--warning
+.form-item.confirm-parent .form-required.collapsible-body:after,
+.form-item.confirm-parent .form-required.status-text-color:after,
+.form-item.confirm-parent table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.form-item.confirm-parent a.form-required.dropdown-button:after,
+.form-item.confirm-parent .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.form-required:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset
+.form-item.confirm-parent button.form-required:after, .system-status-report__status-icon--error .text-darken-2.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.text-darken-2:before, details.form-wrapper .system-status-report__status-icon--error summary.text-darken-2:before, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-header.dropdown-button:before, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-header.dropdown-button:before, .system-status-report__status-icon--error .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.collapsible-header:before, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .system-status-report__status-icon--error button.collapsible-header:before, .system-status-report__status-icon--error .text-darken-2.collapsible-body, .system-status-report__status-icon--error .system-status-report__status-icon--warning .collapsible-body.collapsible-header:before, .system-status-report__status-icon--warning .system-status-report__status-icon--error .collapsible-body.collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--warning details.form-wrapper summary.collapsible-body:before, .system-status-report__status-icon--warning details.form-wrapper .system-status-report__status-icon--error summary.collapsible-body:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--warning summary.collapsible-body:before, details.form-wrapper .system-status-report__status-icon--warning .system-status-report__status-icon--error summary.collapsible-body:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked .collapsible-body.collapsible-header:before, .system-status-report__status-icon--checked .system-status-report__status-icon--error .collapsible-body.collapsible-header:before, .system-status-report__status-icon--error .system-status-report__status-icon--checked details.form-wrapper summary.collapsible-body:before, .system-status-report__status-icon--checked details.form-wrapper .system-status-report__status-icon--error summary.collapsible-body:before, .system-status-report__status-icon--error details.form-wrapper .system-status-report__status-icon--checked summary.collapsible-body:before, details.form-wrapper .system-status-report__status-icon--checked .system-status-report__status-icon--error summary.collapsible-body:before, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-body.dropdown-button, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-body.dropdown-button, .system-status-report__status-icon--error .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.collapsible-body, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .system-status-report__status-icon--error button.collapsible-body, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.error-text-color, .red-text.warning-text-color, #edit-actions .warning-text-color.button--danger, #edit-actions abbr.button--danger.warning, #edit-actions a.button--danger#edit-cancel, #edit-actions .system-status-report__status-icon--warning .button--danger.collapsible-header:before, .system-status-report__status-icon--warning #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--warning details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--warning details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--warning summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--warning #edit-actions summary.button--danger:before, #edit-actions .system-status-report__status-icon--warning .button--danger.collapsible-body, .system-status-report__status-icon--warning #edit-actions .button--danger.collapsible-body, abbr.red-text.warning, a.red-text#edit-cancel, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a#edit-cancel:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a#edit-cancel, .system-status-report__status-icon--warning .red-text.collapsible-header:before, .system-status-report__status-icon--warning #edit-actions details.form-wrapper summary.button--danger:before, details.form-wrapper #edit-actions .system-status-report__status-icon--warning summary.button--danger:before, .system-status-report__status-icon--warning details.form-wrapper summary.red-text:before, details.form-wrapper .system-status-report__status-icon--warning summary.red-text:before, .system-status-report__status-icon--warning details.form-wrapper .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--warning .vertical-tab-wrapper details.form-wrapper .vertical-tabs__panes > details > summary:before, .vertical-tab-wrapper details.form-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--warning a.collapsible-header:hover:before, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--warning a.collapsible-header:before, .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary.collapsible-header:before, .system-status-report__status-icon--warning .red-text.collapsible-body, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--warning a.collapsible-body:hover, .system-status-report__status-icon--warning .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--warning a.collapsible-body, .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-body, .vertical-tab-wrapper .system-status-report__status-icon--warning .vertical-tabs__panes > details > summary.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.warning-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.warning-text-color, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.warning-text-color, .vertical-tab-wrapper .system-status-report__status-icon--warning details.form-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .system-status-report__status-icon--warning .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, .red-text.status-text-color, #edit-actions .status-text-color.button--danger, #edit-actions .system-status-report__status-icon--checked .button--danger.collapsible-header:before, .system-status-report__status-icon--checked #edit-actions .button--danger.collapsible-header:before, #edit-actions .system-status-report__status-icon--checked details.form-wrapper summary.button--danger:before, .system-status-report__status-icon--checked details.form-wrapper #edit-actions summary.button--danger:before, #edit-actions details.form-wrapper .system-status-report__status-icon--checked summary.button--danger:before, details.form-wrapper .system-status-report__status-icon--checked #edit-actions summary.button--danger:before, .system-status-report__status-icon--checked .red-text.collapsible-header:before, .system-status-report__status-icon--checked #edit-actions details.form-wrapper summary.button--danger:before, details.form-wrapper #edit-actions .system-status-report__status-icon--checked summary.button--danger:before, .system-status-report__status-icon--checked details.form-wrapper summary.red-text:before, details.form-wrapper .system-status-report__status-icon--checked summary.red-text:before, .system-status-report__status-icon--checked details.form-wrapper .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .vertical-tab-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--checked .vertical-tab-wrapper details.form-wrapper .vertical-tabs__panes > details > summary:before, .vertical-tab-wrapper details.form-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary:before, .system-status-report__status-icon--checked .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:hover:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--checked a.collapsible-header:hover:before, .system-status-report__status-icon--checked .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected .system-status-report__status-icon--checked a.collapsible-header:before, .system-status-report__status-icon--checked .vertical-tab-wrapper .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper .system-status-report__status-icon--checked .vertical-tabs__panes > details > summary.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.status-text-color:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.status-text-color, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.status-text-color, .vertical-tab-wrapper .system-status-report__status-icon--checked details.form-wrapper .vertical-tabs__panes > details > summary:before, details.form-wrapper .system-status-report__status-icon--checked .vertical-tab-wrapper .vertical-tabs__panes > details > summary:before, #edit-actions .text-darken-2.button--danger, #edit-actions table.highlight > tbody > tr.selected a.button--danger.dropdown-button, table.highlight > tbody > tr.selected #edit-actions a.button--danger.dropdown-button, #edit-actions .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset #edit-actions button.button--danger, table.highlight > tbody > tr.selected a.red-text.dropdown-button, table.highlight > tbody > tr.selected .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.dropdown-button:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item table.highlight > tbody > tr.selected a.dropdown-button:hover, table.highlight > tbody > tr.selected .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.dropdown-button, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected table.highlight > tbody > tr.selected a.dropdown-button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.red-text, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-darken-2:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.text-darken-2, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.text-darken-2 {
   color: #D32F2F !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -2748,8 +2785,54 @@ li.vertical-tabs__menu-item.is-selected.warnings-color {
 
 /* line 381, node_modules/materialize-css/sass/components/_color.scss */
 .grey-text.text-lighten-3, h2.text-lighten-3.small-header, h2.small-header.error-text-color, .form-item h2.small-header.form-required:after, .form-item .views-preview-wrapper h2.form-required.view-preview-form__title:after, .views-preview-wrapper .form-item h2.form-required.view-preview-form__title:after, .system-status-report__status-icon--error h2.small-header.collapsible-header:before, .system-status-report__status-icon--error .views-preview-wrapper h2.collapsible-header.view-preview-form__title:before, .views-preview-wrapper .system-status-report__status-icon--error h2.collapsible-header.view-preview-form__title:before, .system-status-report__status-icon--error h2.small-header.collapsible-body, .system-status-report__status-icon--error .views-preview-wrapper h2.collapsible-body.view-preview-form__title, .views-preview-wrapper .system-status-report__status-icon--error h2.collapsible-body.view-preview-form__title, .views-preview-wrapper h2.error-text-color.view-preview-form__title, .views-preview-wrapper h2.text-lighten-3.view-preview-form__title, .grey-text.error-text-color, .form-item .grey-text.form-required:after, .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected .form-item a.form-required.dropdown-button:after, .form-item table .form-required.region-title:after, table .form-item .form-required.region-title:after, .form-item table thead th.form-required:after, table thead .form-item th.form-required:after, .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child .form-item a.form-required:after, .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol .form-item li.form-required:last-child:after, .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .form-item a.form-required:after,
+.filter-wrapper .form-item .grey-text.form-required:after,
+.filter-wrapper .form-item h2.form-required.small-header:after,
+.filter-wrapper .form-item .views-preview-wrapper h2.form-required.view-preview-form__title:after, .views-preview-wrapper
+.filter-wrapper .form-item h2.form-required.view-preview-form__title:after,
+.filter-wrapper .form-item table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.filter-wrapper .form-item a.form-required.dropdown-button:after,
+.filter-wrapper .form-item table .form-required.region-title:after, table
+.filter-wrapper .form-item .form-required.region-title:after,
 .filter-wrapper .form-item table thead th.form-required:after, table thead
-.filter-wrapper .form-item th.form-required:after, .system-status-report__status-icon--error .grey-text.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.grey-text:before, details.form-wrapper .system-status-report__status-icon--error summary.grey-text:before, .system-status-report__status-icon--error details.form-wrapper table summary.region-title:before, details.form-wrapper table .system-status-report__status-icon--error summary.region-title:before, .system-status-report__status-icon--error table details.form-wrapper summary.region-title:before, table details.form-wrapper .system-status-report__status-icon--error summary.region-title:before, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-header.dropdown-button:before, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-header.dropdown-button:before, .system-status-report__status-icon--error table .collapsible-header.region-title:before, table .system-status-report__status-icon--error .collapsible-header.region-title:before, .system-status-report__status-icon--error table thead th.collapsible-header:before, table thead .system-status-report__status-icon--error th.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li:last-child a.collapsible-header:before, .breadcrumb-nav ol li:last-child .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-header:last-child:before, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-header:last-child:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .grey-text.collapsible-body, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-body.dropdown-button, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-body.dropdown-button, .system-status-report__status-icon--error table .collapsible-body.region-title, table .system-status-report__status-icon--error .collapsible-body.region-title, .system-status-report__status-icon--error table thead th.collapsible-body, table thead .system-status-report__status-icon--error th.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li:last-child a.collapsible-body, .breadcrumb-nav ol li:last-child .system-status-report__status-icon--error a.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-body:last-child, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-body:last-child, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-body, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, table .error-text-color.region-title, table .system-status-report__status-icon--error details.form-wrapper summary.region-title:before, details.form-wrapper .system-status-report__status-icon--error table summary.region-title:before, table thead th.error-text-color, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, table .text-lighten-3.region-title, table thead th.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3 {
+.filter-wrapper .form-item th.form-required:after,
+.filter-wrapper .form-item .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child
+.filter-wrapper .form-item a.form-required:after,
+.filter-wrapper .form-item .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol
+.filter-wrapper .form-item li.form-required:last-child:after,
+.filter-wrapper .form-item .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item
+.filter-wrapper .form-item a.form-required:after,
+.form-item.password-parent .grey-text.form-required:after,
+.form-item.password-parent h2.form-required.small-header:after,
+.form-item.password-parent .views-preview-wrapper h2.form-required.view-preview-form__title:after, .views-preview-wrapper
+.form-item.password-parent h2.form-required.view-preview-form__title:after,
+.form-item.password-parent table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.form-item.password-parent a.form-required.dropdown-button:after,
+.form-item.password-parent table .form-required.region-title:after, table
+.form-item.password-parent .form-required.region-title:after,
+.form-item.password-parent table thead th.form-required:after, table thead
+.form-item.password-parent th.form-required:after,
+.form-item.password-parent .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child
+.form-item.password-parent a.form-required:after,
+.form-item.password-parent .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol
+.form-item.password-parent li.form-required:last-child:after,
+.form-item.password-parent .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item
+.form-item.password-parent a.form-required:after,
+.form-item.confirm-parent .grey-text.form-required:after,
+.form-item.confirm-parent h2.form-required.small-header:after,
+.form-item.confirm-parent .views-preview-wrapper h2.form-required.view-preview-form__title:after, .views-preview-wrapper
+.form-item.confirm-parent h2.form-required.view-preview-form__title:after,
+.form-item.confirm-parent table.highlight > tbody > tr.selected a.form-required.dropdown-button:after, table.highlight > tbody > tr.selected
+.form-item.confirm-parent a.form-required.dropdown-button:after,
+.form-item.confirm-parent table .form-required.region-title:after, table
+.form-item.confirm-parent .form-required.region-title:after,
+.form-item.confirm-parent table thead th.form-required:after, table thead
+.form-item.confirm-parent th.form-required:after,
+.form-item.confirm-parent .breadcrumb-nav ol li:last-child a.form-required:after, .breadcrumb-nav ol li:last-child
+.form-item.confirm-parent a.form-required:after,
+.form-item.confirm-parent .breadcrumb-nav ol li.form-required:last-child:after, .breadcrumb-nav ol
+.form-item.confirm-parent li.form-required:last-child:after,
+.form-item.confirm-parent .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.form-required:after, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item
+.form-item.confirm-parent a.form-required:after, .system-status-report__status-icon--error .grey-text.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.grey-text:before, details.form-wrapper .system-status-report__status-icon--error summary.grey-text:before, .system-status-report__status-icon--error details.form-wrapper table summary.region-title:before, details.form-wrapper table .system-status-report__status-icon--error summary.region-title:before, .system-status-report__status-icon--error table details.form-wrapper summary.region-title:before, table details.form-wrapper .system-status-report__status-icon--error summary.region-title:before, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-header.dropdown-button:before, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-header.dropdown-button:before, .system-status-report__status-icon--error table .collapsible-header.region-title:before, table .system-status-report__status-icon--error .collapsible-header.region-title:before, .system-status-report__status-icon--error table thead th.collapsible-header:before, table thead .system-status-report__status-icon--error th.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li:last-child a.collapsible-header:before, .breadcrumb-nav ol li:last-child .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-header:last-child:before, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-header:last-child:before, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-header:before, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .grey-text.collapsible-body, .system-status-report__status-icon--error table.highlight > tbody > tr.selected a.collapsible-body.dropdown-button, table.highlight > tbody > tr.selected .system-status-report__status-icon--error a.collapsible-body.dropdown-button, .system-status-report__status-icon--error table .collapsible-body.region-title, table .system-status-report__status-icon--error .collapsible-body.region-title, .system-status-report__status-icon--error table thead th.collapsible-body, table thead .system-status-report__status-icon--error th.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li:last-child a.collapsible-body, .breadcrumb-nav ol li:last-child .system-status-report__status-icon--error a.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-body:last-child, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-body:last-child, .system-status-report__status-icon--error .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.collapsible-body, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item .system-status-report__status-icon--error a.collapsible-body, table.highlight > tbody > tr.selected a.error-text-color.dropdown-button, table .error-text-color.region-title, table .system-status-report__status-icon--error details.form-wrapper summary.region-title:before, details.form-wrapper .system-status-report__status-icon--error table summary.region-title:before, table thead th.error-text-color, .breadcrumb-nav ol li:last-child a.error-text-color, .breadcrumb-nav ol li.error-text-color:last-child, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.error-text-color, table.highlight > tbody > tr.selected a.text-lighten-3.dropdown-button, table .text-lighten-3.region-title, table thead th.text-lighten-3, .breadcrumb-nav ol li:last-child a.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:last-child, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.text-lighten-3 {
   color: #eeeeee !important; }
 
 /* line 378, node_modules/materialize-css/sass/components/_color.scss */
@@ -10974,21 +11057,30 @@ label {
   line-height: 1.5em;
   font-weight: 100; }
 
-/* line 81, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
-.description .tooltipped {
+/* line 82, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.tooltipped, .filter-help {
   font-size: .8em; }
 
-/* line 127, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+.description.modal-trigger {
+  text-transform: none;
+  font-size: .8em;
+  padding: 0;
+  margin: 10px 5px;
+  display: block;
+  color: #039be5; }
+
+/* line 136, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button-action:before {
   content: "";
   color: #FFFFFF;
   margin: 0 10px 0 0px; }
 
-/* line 138, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 147, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .inline {
   display: inline; }
 
-/* line 148, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 157, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before,
 .entity-meta__author h4:before,
 .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .collection .collection-item > .item-list .collection .collection-item:before, .region-title__action .button:after, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
@@ -10999,7 +11091,7 @@ label {
   font-style: normal;
   -webkit-font-smoothing: antialiased; }
 
-/* line 157, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-collapse-right, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper summary:after {
   content: "";
   right: 20px;
@@ -11008,7 +11100,7 @@ label {
   font-weight: 700;
   font-size: 1.5em; }
 
-/* line 167, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .fa-collapse-down, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper[open] > summary:after {
   content: "";
   right: 20px;
@@ -11017,20 +11109,20 @@ label {
   font-weight: 700;
   font-size: 1.5em; }
 
-/* line 176, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 185, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .toast {
   word-break: normal; }
 
-/* line 180, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 189, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .row {
   padding: 20px;
   margin: 0; }
 
-/* line 186, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 195, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .region-status .row {
   padding: 0; }
 
-/* line 191, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 200, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper input.select-dropdown {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -11038,145 +11130,145 @@ label {
   -o-user-select: none;
   user-select: none; }
 
-/* line 199, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .btn + .btn, .btn-large + .btn, .button-action + .btn, .button-link + .btn, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn, .compact-link a + .btn, .dropbutton-wrapper.dropbutton-single .edit a + .btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn, .btn + .btn-large, .btn-large + .btn-large, .button-action + .btn-large, .button-link + .btn-large, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .btn-large, .compact-link a + .btn-large, .dropbutton-wrapper.dropbutton-single .edit a + .btn-large, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .btn-large, .btn + .button-action, .btn-large + .button-action, .button-action + .button-action, .button-link + .button-action, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-action, .compact-link a + .button-action, .dropbutton-wrapper.dropbutton-single .edit a + .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-action, .btn + .button-link, .btn-large + .button-link, .button-action + .button-link, .button-link + .button-link, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .button-link, .compact-link a + .button-link, .dropbutton-wrapper.dropbutton-single .edit a + .button-link, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .button-link, .tabledrag-toggle-weight-wrapper .btn + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .btn-large + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-action + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .button-link + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + .tabledrag-toggle-weight, .compact-link .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .compact-link a + .tabledrag-toggle-weight, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper a + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit a + .tabledrag-toggle-weight, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper button + .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + .tabledrag-toggle-weight, .compact-link .btn + a, .compact-link .btn-large + a, .compact-link .button-action + a, .compact-link .button-link + a, .tabledrag-toggle-weight-wrapper .compact-link .tabledrag-toggle-weight + a, .compact-link .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .compact-link a + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link button + a, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .dropbutton-wrapper.dropbutton-single .edit .btn + a, .dropbutton-wrapper.dropbutton-single .edit .btn-large + a, .dropbutton-wrapper.dropbutton-single .edit .button-action + a, .dropbutton-wrapper.dropbutton-single .edit .button-link + a, .tabledrag-toggle-weight-wrapper .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + a, .dropbutton-wrapper.dropbutton-single .edit .compact-link a + a, .dropbutton-wrapper.dropbutton-single .edit a + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit button + a, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + a, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-large + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-action + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .button-link + button, .tabledrag-toggle-weight-wrapper .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight + button, .compact-link .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .compact-link a + button, .dropbutton-wrapper.dropbutton-single .edit .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .dropbutton-wrapper.dropbutton-single .edit a + button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button + button {
   margin: 0 10px; }
 
-/* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 212, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 nav {
   background: transparent;
   box-shadow: none; }
 
-/* line 208, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 217, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .action-links {
   margin-bottom: 2rem; }
-  /* line 210, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 219, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .action-links li {
     list-style: none;
     display: inline-block;
     padding-right: 10px; }
 
-/* line 217, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 226, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a {
   text-decoration: none; }
-  /* line 219, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 228, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 225, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 234, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 a.button:hover {
   text-decoration: none; }
 
-/* line 230, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 239, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .x-small {
   height: 150px; }
 
-/* line 236, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 245, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card .card-content .card-title {
   line-height: 35px; }
 
-/* line 243, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 252, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action li, .package-listing .details-description .links li {
   display: inline; }
 
-/* line 246, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 255, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .card-action a, .package-listing .details-description .links a {
   color: #ffab40;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase; }
-  /* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 260, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .card-action a:hover, .package-listing .details-description .links a:hover {
     color: #ffd8a6; }
 
-/* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 266, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
-/* line 261, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 270, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details {
   border: none !important; }
 
-/* line 265, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 274, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .shadow-box, .entity-meta__header {
   padding: 10px 15px; }
 
-/* line 269, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 278, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .button--small {
   font-size: .8em; }
 
-/* line 275, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 284, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .clearfix {
   clear: none; }
 
-/* line 281, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 290, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible li, details.form-wrapper li {
   position: relative; }
-  /* line 285, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 294, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 292, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 301, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after {
     top: 0.5em; }
-  /* line 299, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 308, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
     content: "";
     padding: 0px 5px; }
-  /* line 306, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 315, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after {
     top: 0.5em; }
 
-/* line 313, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 322, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collapsible-body {
   font-weight: 500; }
-  /* line 315, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 324, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .collapsible-body .description {
     padding: 1em 0;
     font-weight: 300; }
 
-/* line 321, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 330, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 details.form-wrapper summary {
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 327, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 336, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 span.marker {
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px; }
 
-/* line 338, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 347, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .waves-input-wrapper {
   vertical-align: middle; }
 
-/* line 342, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 351, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .select-wrapper + label {
   left: 0; }
 
-/* line 345, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 354, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .ckeditor-buttons:before,
 .ckeditor-buttons:after,
 .ckeditor-buttons {
   box-sizing: initial; }
 
-/* line 352, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 361, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .tabs.tabs-transparent {
   border: none; }
 
-/* line 355, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 364, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .offset-tabs {
   margin-left: -20px; }
 
-/* line 359, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 368, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit; }
-  /* line 362, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 371, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .file-upload-btn.btn-floating i {
     font-size: 1.3em; }
 
-/* line 366, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 375, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -11193,15 +11285,15 @@ textarea.materialize-textarea {
   max-width: 100%;
   width: inherit; }
 
-/* line 383, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 392, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
-/* line 387, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+/* line 396, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
 .progress {
   overflow: inherit;
   height: 10px; }
-  /* line 390, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+  /* line 399, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
   .progress .progress__track {
     background-color: #a7ffeb;
     border-color: #a7ffeb;
@@ -11209,7 +11301,7 @@ textarea.materialize-textarea {
     box-shadow: none;
     border-radius: 0;
     height: 10px; }
-    /* line 397, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
+    /* line 406, /Users/brian.wald/Sites/material_admin/scss/base/_common.scss */
     .progress .progress__track .progress__bar {
       border: 0;
       background: none;
@@ -11256,89 +11348,94 @@ textarea.materialize-textarea {
 
 /* line 38, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item,
-.filter-wrapper .form-item {
+.filter-wrapper .form-item,
+.form-item.password-parent,
+.form-item.confirm-parent {
   margin: 25px 0;
-  position: relative; }
-  /* line 43, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  position: relative;
+  overflow: visible; }
+  /* line 46, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .form-item .form-required:after,
-  .filter-wrapper .form-item .form-required:after {
+  .filter-wrapper .form-item .form-required:after,
+  .form-item.password-parent .form-required:after,
+  .form-item.confirm-parent .form-required:after {
     content: " *"; }
 
-/* line 50, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 53, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .filter-wrapper {
   overflow: initial; }
 
-/* line 56, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 58, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .requirements .admin-requirements {
   padding: .5em 0; }
 
-/* line 60, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 62, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .package-listing .details-description .links {
   position: relative;
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px 24px; }
 
-/* line 68, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 70, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .details-wrapper table thead {
   border: none; }
 
-/* line 72, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 74, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 table td > .form-item,
 table td > .ajax-new-content > .form-item {
   margin: 0; }
-  /* line 75, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 77, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   table td > .form-item ~ .form-wrapper,
   table td > .ajax-new-content > .form-item ~ .form-wrapper {
     margin: 25px 0; }
-  /* line 79, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 81, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   table td > .form-item .select-wrapper input.select-dropdown,
   table td > .ajax-new-content > .form-item .select-wrapper input.select-dropdown {
     margin: 0; }
 
-/* line 84, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 86, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 102, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight {
   margin: 5px; }
   @media only screen and (max-width: 992px) {
-    /* line 102, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 104, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     input.btn, input.btn-large, input.button-action, input.button-link, .tabledrag-toggle-weight-wrapper input.tabledrag-toggle-weight {
       margin-bottom: 1em; } }
 
-/* line 109, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 111, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .draggable {
   min-height: 30px; }
-  /* line 111, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 113, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .draggable a.tabledrag-handle {
     float: none;
     display: inline-block;
     overflow: visible;
     height: auto; }
-    /* line 116, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 118, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .draggable a.tabledrag-handle .handle {
       width: 30px;
       height: 30px; }
 
-/* line 123, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 125, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr.warning {
   text-decoration: none; }
 
-/* line 128, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 130, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .switch label {
   white-space: nowrap; }
 
-/* line 132, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 134, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
-/* line 136, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 138, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 abbr[title] {
   border-bottom: none; }
 
-/* line 141, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 143, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 input:not([type]),
 input[type=text],
 input[type=password],
@@ -11355,95 +11452,95 @@ textarea.materialize-textarea {
   width: inherit;
   max-width: 100%; }
 
-/* line 160, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 162, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .js-form-type-checkbox label.visually-hidden {
   position: relative !important;
   clip: inherit;
   visibility: hidden; }
-  /* line 164, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 166, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
-/* line 171, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 173, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 h4.label {
   font-size: 1rem;
   font-weight: bold; }
 
-/* line 181, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 183, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper summary:focus {
   outline: 0; }
 
-/* line 186, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 188, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper .details-wrapper {
   padding: 1rem 2rem; }
 
-/* line 191, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 details.form-wrapper {
   position: relative; }
-  /* line 193, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 195, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   details.form-wrapper summary::-webkit-details-marker {
     display: none; }
-  /* line 197, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 199, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   details.form-wrapper summary {
     display: block; }
-  /* line 201, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 203, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   details.form-wrapper[open] > summary:after {
     line-height: 1em; }
-  /* line 207, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 209, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   details.form-wrapper summary:after {
     line-height: 1em; }
 
-/* line 218, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 220, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4,
 .entity-meta__author h4,
 .field--name-created h4 {
   font-size: 1rem;
   font-weight: bold; }
-  /* line 223, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 225, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .entity-meta__last-saved h4:before,
   .entity-meta__author h4:before,
   .field--name-created h4:before {
     padding-right: 10px;
     vertical-align: baseline; }
 
-/* line 231, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 233, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-/* line 236, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 238, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-type-date div {
   display: block; }
 
-/* line 240, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 242, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-type-date input.form-date {
   min-width: 175px; }
 
-/* line 245, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 247, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-textarea-wrapper textarea {
   padding: 10px;
   height: auto;
   transition: all 0.3s; }
-  /* line 249, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 251, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .form-textarea-wrapper textarea:focus {
     border: 1px solid #009688;
     box-shadow: 0 0 0 1px #009688;
     outline: none; }
 
-/* line 257, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 259, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline .form-item {
   padding-right: 10px;
   display: inline; }
 
-/* line 264, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 266, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form--inline .form-actions,
 .dblog-filter-form .form-actions {
   padding: 0 10px; }
 
-/* line 270, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 272, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-meta__author h4:before {
   content: ""; }
 
-/* line 275, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 277, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-autocomplete {
   position: absolute;
   top: 100%;
@@ -11466,7 +11563,7 @@ details.form-wrapper {
   *border-right-width: 2px;
   *border-bottom-width: 2px; }
 
-/* line 302, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 304, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-menu-item > a.ui-corner-all {
   display: block;
   padding: 3px 15px;
@@ -11477,7 +11574,7 @@ details.form-wrapper {
   white-space: nowrap;
   text-decoration: none; }
 
-/* line 313, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 315, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .ui-state-hover,
 .ui-state-active {
   text-decoration: none;
@@ -11487,42 +11584,42 @@ details.form-wrapper {
   -moz-border-radius: 0px;
   background-image: none; }
 
-/* line 333, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 335, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .confirm-form-wrapper {
   padding: 1em; }
-  /* line 336, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 338, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .confirm-form-wrapper .form-actions {
     margin-top: 1em; }
 
-/* line 343, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 345, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .field-suffix small {
   padding: 0 10px; }
-  /* line 345, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 347, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.machine-name-value {
     font-weight: bold; }
-  /* line 348, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 350, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .field-suffix small span.admin-link {
     margin: 0 10px; }
 
-/* line 357, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 359, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field label.inline-label {
   position: relative;
   padding-right: 10px; }
 
-/* line 362, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 364, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field .field-prefix {
   padding-right: 15px; }
 
-/* line 367, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 369, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .dblog-filter-form .form-item-type,
 .dblog-filter-form .form-item-severity {
   min-width: 300px; }
 
-/* line 372, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 374, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-moderation-wrapper {
   padding-top: 10px; }
 
-/* line 376, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 378, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.has-initial-content .select-wrapper + label {
   position: absolute;
   top: -14px;
@@ -11530,125 +11627,137 @@ details.form-wrapper {
   -ms-transform: inherit;
       transform: inherit; }
 
-/* line 383, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 385, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.has-initial-content label {
   -ms-transform: translateY(-14px) scale(0.8);
       transform: translateY(-14px) scale(0.8);
   -ms-transform-origin: 0 0;
       transform-origin: 0 0; }
 
-/* line 389, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 391, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.file-field.form-has-label {
   margin-top: 45px; }
-  /* line 391, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 393, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field.file-field.form-has-label > label {
     position: relative;
     font-size: 0.8rem; }
 
-/* line 399, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 401, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field .search-wrapper {
   margin: 0 12px; }
-  /* line 401, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 403, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper input[type=search] {
     padding-left: 0; }
-    /* line 403, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 405, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .input-field .search-wrapper input[type=search]:focus {
       border-bottom: 1px solid #26a69a; }
-  /* line 407, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 409, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper i.fa-search.prefix {
     font-size: 1.5rem;
     margin-top: 12px; }
 
-/* line 416, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 418, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .help-collection .collection .collection-item.has-collection-link {
   padding: 0; }
-  /* line 418, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 420, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .help-collection .collection .collection-item.has-collection-link a {
     padding: 10px 20px;
     display: block;
     width: 100%; }
-    /* line 424, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 426, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .help-collection .collection .collection-item.has-collection-link a:hover {
       background: #ddd;
       text-decoration: none; }
 
-/* line 433, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 435, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 i.waves-input-wrapper {
   padding: 0 !important; }
-  /* line 435, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 437, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   i.waves-input-wrapper .waves-button-input {
     padding: 0 2em;
     height: 100%; }
 
-/* line 442, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 444, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-ui-view-title {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 400; }
 
-/* line 448, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 450, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-selected-options {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 300;
   transition: all 2s ease-in; }
 
-/* line 458, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 460, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .tablesaw-cell-content .form-item {
   margin: 0; }
 
-/* line 463, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 465, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .views-bulk-form-count p {
   margin: 0;
   line-height: 40px; }
 
-/* line 470, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 472, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form details.form-wrapper {
   margin: 0; }
-  /* line 472, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 474, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .layout-node-form details.form-wrapper .details-wrapper {
     padding: 0.5rem 2rem; }
 
-/* line 477, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 479, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form .entity-meta__header {
   margin-bottom: 1em; }
 
-/* line 481, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 483, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form .form-actions {
   margin-top: 1em; }
 
-/* line 486, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 488, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .image-style-new {
   display: inline-block; }
-  /* line 488, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 490, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .image-style-new div {
     min-width: 200px;
     display: inline-block;
     margin: 0; }
-  /* line 494, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 496, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .image-style-new i.waves-input-wrapper.input-form-submit {
     margin: 0 1em !important; }
 
-/* line 500, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 502, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-data-anchor input.form-radio {
   opacity: 1;
   position: relative;
   pointer-events: initial; }
 
-/* line 508, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 510, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 fieldset.form-wrapper span.fieldset-legend {
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 1em 0 .5em 0;
   display: block; }
 
-/* line 516, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 518, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .image-widget-data {
   position: relative; }
 
-/* line 519, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 522, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .file-field input[type=file] {
   width: auto; }
+
+/* line 527, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.has-description-after input {
+  margin-bottom: 10px !important; }
+
+/* line 530, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.has-description-after div.description {
+  margin-bottom: 30px; }
+
+/* line 535, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.container-inline label:empty:after, .container-inline .label:empty:after {
+  content: ""; }
 
 /* @file
  * Specific styling for admin

@@ -78,9 +78,18 @@ label {
     line-height: 1.5em;
     font-weight: 100;
   }
-  .tooltipped {
-    font-size: .8em;
-  }
+}
+.tooltipped, .filter-help {
+  font-size: .8em;
+}
+
+.description.modal-trigger {
+  text-transform: none;
+  font-size:.8em;
+  padding:0;
+  margin:10px 5px;
+  display:block;
+  color: color("light-blue", "darken-1")
 }
 
 .error-text-color {

@@ -36,9 +36,12 @@
 }
 
 .form-item,
-.filter-wrapper .form-item {
+.filter-wrapper .form-item,
+.form-item.password-parent,
+.form-item.confirm-parent {
   margin: 25px 0;
   position: relative;
+  overflow: visible;
   .form-required {
     &:after {
       content: " *";
@@ -50,7 +53,6 @@
 .filter-wrapper {
   overflow: initial;
 }
-
 
 //module extend page styling
 .requirements .admin-requirements {
@@ -516,6 +518,20 @@ fieldset.form-wrapper {
 .image-widget-data {
   position: relative;
 }
+
 .file-field input[type=file] {
   width: auto;
+}
+
+.has-description-after {
+  input {
+    margin-bottom:10px!important;
+  }
+  div.description {
+    margin-bottom:30px;
+  }
+}
+
+.container-inline label:empty:after, .container-inline .label:empty:after {
+  content:"";
 }
