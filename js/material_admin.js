@@ -36,8 +36,7 @@
         //account for field prefix, move the absolute label over to be positioned in the box.
         $(context).find('.input-field').once('material_textfields').each(function () {
           if ($(this).find(' > span.field-prefix').length) {
-            var prefixWidth = $(this).find(' > span.field-prefix').outerWidth();
-            $(this).find(' > label').css('left', prefixWidth + 10);
+            $(this).find(' > label').addClass('inline-label');
           }
           Materialize.updateTextFields();
         });

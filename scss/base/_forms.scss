@@ -353,8 +353,15 @@ a#edit-cancel {
 }
 
 // field-prefix for inline values
-.input-field .field-prefix {
-  padding-right: 10px;
+.input-field {
+  label.inline-label {
+    position: relative;
+    padding-right:10px;
+  }
+
+  .field-prefix {
+    padding-right: 15px;
+  }
 }
 
 .dblog-filter-form .form-item-type,

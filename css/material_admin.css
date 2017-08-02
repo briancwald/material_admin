@@ -11504,20 +11504,25 @@ details.form-wrapper {
   .field-suffix small span.admin-link {
     margin: 0 10px; }
 
-/* line 356, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
-.input-field .field-prefix {
+/* line 357, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.input-field label.inline-label {
+  position: relative;
   padding-right: 10px; }
 
-/* line 360, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 362, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+.input-field .field-prefix {
+  padding-right: 15px; }
+
+/* line 367, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .dblog-filter-form .form-item-type,
 .dblog-filter-form .form-item-severity {
   min-width: 300px; }
 
-/* line 365, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 372, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .entity-moderation-wrapper {
   padding-top: 10px; }
 
-/* line 369, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 376, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.has-initial-content .select-wrapper + label {
   position: absolute;
   top: -14px;
@@ -11525,123 +11530,123 @@ details.form-wrapper {
   -ms-transform: inherit;
       transform: inherit; }
 
-/* line 376, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 383, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.has-initial-content label {
   -ms-transform: translateY(-14px) scale(0.8);
       transform: translateY(-14px) scale(0.8);
   -ms-transform-origin: 0 0;
       transform-origin: 0 0; }
 
-/* line 382, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 389, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field.file-field.form-has-label {
   margin-top: 45px; }
-  /* line 384, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 391, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field.file-field.form-has-label > label {
     position: relative;
     font-size: 0.8rem; }
 
-/* line 392, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 399, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .input-field .search-wrapper {
   margin: 0 12px; }
-  /* line 394, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 401, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper input[type=search] {
     padding-left: 0; }
-    /* line 396, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 403, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .input-field .search-wrapper input[type=search]:focus {
       border-bottom: 1px solid #26a69a; }
-  /* line 400, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 407, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .input-field .search-wrapper i.fa-search.prefix {
     font-size: 1.5rem;
     margin-top: 12px; }
 
-/* line 409, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 416, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .help-collection .collection .collection-item.has-collection-link {
   padding: 0; }
-  /* line 411, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 418, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .help-collection .collection .collection-item.has-collection-link a {
     padding: 10px 20px;
     display: block;
     width: 100%; }
-    /* line 417, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+    /* line 424, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
     .help-collection .collection .collection-item.has-collection-link a:hover {
       background: #ddd;
       text-decoration: none; }
 
-/* line 426, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 433, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 i.waves-input-wrapper {
   padding: 0 !important; }
-  /* line 428, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 435, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   i.waves-input-wrapper .waves-button-input {
     padding: 0 2em;
     height: 100%; }
 
-/* line 435, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 442, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-ui-view-title {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 400; }
 
-/* line 441, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 448, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-selected .views-selected-options {
   display: inline-block;
   padding: 5px 10px;
   font-weight: 300;
   transition: all 2s ease-in; }
 
-/* line 451, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 458, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .tablesaw-cell-content .form-item {
   margin: 0; }
 
-/* line 456, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 463, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .views-bulk-form-count p {
   margin: 0;
   line-height: 40px; }
 
-/* line 463, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 470, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form details.form-wrapper {
   margin: 0; }
-  /* line 465, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 472, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .layout-node-form details.form-wrapper .details-wrapper {
     padding: 0.5rem 2rem; }
 
-/* line 470, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 477, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form .entity-meta__header {
   margin-bottom: 1em; }
 
-/* line 474, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 481, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .layout-node-form .form-actions {
   margin-top: 1em; }
 
-/* line 479, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 486, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .image-style-new {
   display: inline-block; }
-  /* line 481, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 488, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .image-style-new div {
     min-width: 200px;
     display: inline-block;
     margin: 0; }
-  /* line 487, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+  /* line 494, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
   .image-style-new i.waves-input-wrapper.input-form-submit {
     margin: 0 1em !important; }
 
-/* line 493, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 500, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .form-item-data-anchor input.form-radio {
   opacity: 1;
   position: relative;
   pointer-events: initial; }
 
-/* line 501, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 508, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 fieldset.form-wrapper span.fieldset-legend {
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 1em 0 .5em 0;
   display: block; }
 
-/* line 509, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 516, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .image-widget-data {
   position: relative; }
 
-/* line 512, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 519, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .file-field input[type=file] {
   width: auto; }
 
