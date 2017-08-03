@@ -24,7 +24,7 @@ h3 {
 
 body {
   font-family: $body-font-family;
-  background: color("shades", "white");
+  background: $body-background;
   @include tablesaw-stack( $small-screen);
 }
 
@@ -286,6 +286,9 @@ details {
   &:after {}
 }
 
+.collapsible .collapsible-header {
+  background:$body-background;
+}
 //arrows indicating open/closed collapsible component
 .collapsible li {
   position: relative;
@@ -413,4 +416,11 @@ textarea.materialize-textarea {
       border-radius:0;
     }
   }
+}
+
+.message-action {
+  font-size:.8rem;
+  font-weight: 500;
+  margin-right: 0;
+  margin-left: 3rem;
 }

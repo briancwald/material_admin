@@ -157,7 +157,7 @@ header.header-wrapper {
 }
 
 .messages-clone {
-  background: color("shades", "white")!important;
+  background: $body-background!important;
   .card-title {
     &:before,
     .message-number {
