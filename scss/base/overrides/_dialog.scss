@@ -93,6 +93,10 @@
   }
 }
 
+.views-ui-display-tab-bucket.collection .collection-item {
+  background:$body-background;
+}
+
 @media #{$medium-and-down} {
   .ui-dialog {
     width: 92% !important;
@@ -103,7 +107,7 @@
 .ui-widget-content,
 .ui-dialog .ui-dialog-content,
 .views-ui-dialog {
-  background: color("shades", "white");
+  background: $body-background;
   border: 0;
 }
 

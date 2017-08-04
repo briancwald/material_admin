@@ -11758,15 +11758,15 @@ fieldset.form-wrapper span.fieldset-legend {
 .file-field input[type=file] {
   width: auto; }
 
-/* line 526, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 527, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .has-description-after input {
   margin-bottom: 10px !important; }
 
-/* line 529, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 530, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .has-description-after div.description {
   margin-bottom: 30px; }
 
-/* line 534, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
+/* line 535, /Users/brian.wald/Sites/material_admin/scss/base/_forms.scss */
 .container-inline label:empty:after, .container-inline .label:empty:after {
   content: ""; }
 
@@ -12394,7 +12394,7 @@ table.highlight > tbody > tr:hover li.chip {
 
 /* line 20, /Users/brian.wald/Sites/material_admin/scss/base/_views.scss */
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
-  background-color: #FFFFFF; }
+  background-color: #fcfcfc; }
 
 /* line 24, /Users/brian.wald/Sites/material_admin/scss/base/_views.scss */
 .views-ui-display-tab-bucket .views-display-setting {
@@ -12916,20 +12916,24 @@ tr .ajax-progress-throbber .throbber {
   .ui-dialog .ui-dialog-content a {
     color: #2196F3; }
 
+/* line 96, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+.views-ui-display-tab-bucket.collection .collection-item {
+  background: #fcfcfc; }
+
 @media only screen and (max-width: 992px) {
-  /* line 97, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+  /* line 101, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
   .ui-dialog {
     width: 92% !important; } }
 
-/* line 102, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+/* line 106, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
 .views-ui-dialog .views-override:not(:empty),
 .ui-widget-content,
 .ui-dialog .ui-dialog-content,
 .views-ui-dialog {
-  background: #FFFFFF;
+  background: #fcfcfc;
   border: 0; }
 
-/* line 110, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
+/* line 114, /Users/brian.wald/Sites/material_admin/scss/base/overrides/_dialog.scss */
 .ui-widget, .ui-dialog, .ui-widget-content, .ui-widget-header, .ui-widget button {
   font-family: "Roboto", sans-serif;
   font-size: 100%;

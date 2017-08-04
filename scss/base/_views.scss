@@ -18,7 +18,7 @@
 }
 
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
-  background-color: color("shades", "white");
+  background-color: $body-background;
 }
 
 .views-ui-display-tab-bucket .views-display-setting {
