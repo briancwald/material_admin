@@ -7505,6 +7505,291 @@ input[type=range]:focus::-ms-fill-upper {
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #a1ded8; }
 
+/* ==========================================================================
+   $BASE-TIME-PICKER
+   ========================================================================== */
+/**
+ * The list of times.
+ */
+/* line 7, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list {
+  list-style: none;
+  padding: 0.75em 0 4.2em;
+  margin: 0; }
+
+/**
+ * The times on the clock.
+ */
+/* line 15, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: -1px;
+  position: relative;
+  background: #fff;
+  padding: .75em 1.25em; }
+
+@media (min-height: 46.75em) {
+  /* line 24, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+  .picker__list-item {
+    padding: .5em 1em; } }
+
+/* Hovered time */
+/* line 29, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item:hover {
+  cursor: pointer;
+  color: #000;
+  background: #b1dcfb;
+  border-color: #0089ec;
+  z-index: 10; }
+
+/* Highlighted and hovered/focused time */
+/* line 37, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item--highlighted {
+  border-color: #0089ec;
+  z-index: 10; }
+
+/* line 41, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item--highlighted:hover,
+.picker--focused .picker__list-item--highlighted {
+  cursor: pointer;
+  color: #000;
+  background: #b1dcfb; }
+
+/* Selected and hovered/focused time */
+/* line 48, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item--selected,
+.picker__list-item--selected:hover,
+.picker--focused .picker__list-item--selected {
+  background: #0089ec;
+  color: #fff;
+  z-index: 10; }
+
+/* Disabled time */
+/* line 56, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker__list-item--disabled,
+.picker__list-item--disabled:hover,
+.picker--focused .picker__list-item--disabled {
+  background: #f5f5f5;
+  border-color: #f5f5f5;
+  color: #ddd;
+  cursor: default;
+  border-color: #ddd;
+  z-index: auto; }
+
+/**
+ * The clear button
+ */
+/* line 69, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__button--clear {
+  display: block;
+  width: 80%;
+  margin: 1em auto 0;
+  padding: 1em 1.25em;
+  background: none;
+  border: 0;
+  font-weight: 500;
+  font-size: .67em;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.87); }
+
+/* line 82, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__button--clear:hover,
+.picker--time .picker__button--clear:focus {
+  color: #000;
+  background: #b1dcfb;
+  background: #ee2200;
+  border-color: #ee2200;
+  cursor: pointer;
+  color: #fff;
+  outline: none; }
+
+/* line 92, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__button--clear:before {
+  top: -0.25em;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.25em;
+  font-weight: bold; }
+
+/* line 98, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__button--clear:hover:before,
+.picker--time .picker__button--clear:focus:before {
+  color: #fff; }
+
+/* ==========================================================================
+   $DEFAULT-TIME-PICKER
+   ========================================================================== */
+/**
+ * The frame the bounds the time picker.
+ */
+/* line 109, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__frame {
+  min-width: 256px;
+  max-width: 320px; }
+
+/**
+ * The picker box.
+ */
+/* line 116, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.picker--time .picker__box {
+  font-size: 1em;
+  background: #f2f2f2;
+  padding: 0; }
+
+@media (min-height: 40.125em) {
+  /* line 122, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+  .picker--time .picker__box {
+    margin-bottom: 5em; } }
+
+/* ==========================================================================
+   $DEFAULT-TIME-PICKER
+   ========================================================================== */
+/* line 130, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-display {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  clear: both;
+  position: relative; }
+
+/* line 140, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-span-am-pm {
+  font-size: 1.3rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.3rem;
+  line-height: 2rem;
+  font-weight: 500; }
+
+@media only screen and (min-width: 601px) {
+  /* line 149, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+  .clockpicker-display {
+    top: 32%; }
+  /* line 152, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+  .clockpicker-span-am-pm {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    margin-top: 1.2rem; } }
+
+/* line 162, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.text-primary {
+  color: white; }
+
+/* line 165, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-span-hours {
+  margin-right: 3px; }
+
+/* line 168, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-span-minutes {
+  margin-left: 3px; }
+
+/* line 172, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-span-hours,
+.clockpicker-span-minutes,
+.clockpicker-span-am-pm div {
+  cursor: pointer; }
+
+/* line 177, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-moving {
+  cursor: move; }
+
+/* line 180, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-plate {
+  background-color: #eee;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+/* line 192, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas,
+.clockpicker-dial {
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  left: -1px;
+  top: -1px; }
+
+/* line 200, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-minutes {
+  visibility: hidden; }
+
+/* line 203, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-tick {
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer; }
+
+/* line 213, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-tick.active,
+.clockpicker-tick:hover {
+  background-color: rgba(38, 166, 154, 0.25); }
+
+/* line 217, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-dial {
+  transition: transform 350ms, opacity 350ms; }
+
+/* line 224, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-dial-out {
+  opacity: 0; }
+
+/* line 227, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-hours.clockpicker-dial-out {
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+/* line 234, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-minutes.clockpicker-dial-out {
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8); }
+
+/* line 241, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas {
+  transition: opacity 175ms; }
+
+/* line 248, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-out {
+  opacity: 0.25; }
+
+/* line 251, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bearing {
+  stroke: none;
+  fill: #26a69a; }
+
+/* line 255, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bg {
+  stroke: none;
+  fill: #26a69a; }
+
+/* line 259, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bg-trans {
+  fill: #26a69a; }
+
+/* line 262, node_modules/materialize-css/sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas line {
+  stroke: #26a69a;
+  stroke-width: 4;
+  stroke-linecap: round;
+  /*shape-rendering: crispEdges;*/ }
+
 /* line 1, node_modules/materialize-css/sass/components/_pulse.scss */
 .pulse {
   overflow: initial;
@@ -7616,238 +7901,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 0.8rem;
   -ms-transform: translateY(-140%);
       transform: translateY(-140%); }
-
-/*!
- * ClockPicker v0.0.7 for jQuery (http://weareoutman.github.io/clockpicker/)
- * Copyright 2014 Wang Shenwei.
- * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
- *
- * Further modified
- * Copyright 2015 Ching Yaw Hao.
- *
- * Bootstrap v3.1.1 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/* line 14, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.picker__box {
-  background: #fff; }
-
-/* line 18, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.picker__date-display {
-  background-color: #26a69a; }
-
-/* line 22, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-display {
-  vertical-align: middle;
-  display: inline-block;
-  margin: auto;
-  height: 85px;
-  font-size: 70px;
-  padding: 10px;
-  padding-bottom: 0px;
-  color: #b2dfdb; }
-
-/* line 33, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-display-column {
-  float: left; }
-
-/* line 37, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-display-am-pm {
-  padding-left: 5px;
-  vertical-align: bottom;
-  height: 85px; }
-
-/* line 43, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-span-am-pm {
-  display: inline-block;
-  font-size: 23px;
-  line-height: 25px;
-  color: #b2dfdb; }
-
-/* line 50, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-span-hours,
-.clockpicker-span-minutes {
-  animation-duration: 500ms;
-  animation-fill-mode: both;
-  transition: color 500ms;
-  cursor: pointer; }
-
-@keyframes pulse {
-  from {
-    transform: scale3d(1, 1, 1); }
-  50% {
-    transform: scale3d(1.1, 1.1, 1.1); }
-  to {
-    transform: scale3d(1, 1, 1); } }
-
-/* line 136, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-#click-am,
-#click-pm {
-  cursor: pointer; }
-
-/* line 145, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-span-hours.text-primary,
-.clockpicker-span-minutes.text-primary,
-#click-am.text-primary,
-#click-pm.text-primary {
-  animation-name: pulse;
-  color: white; }
-
-/* line 152, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-moving {
-  cursor: move; }
-
-/* line 156, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-plate {
-  background-color: #eeeeee;
-  border-radius: 50%;
-  width: 270px;
-  height: 270px;
-  overflow: visible;
-  position: relative;
-  margin: auto;
-  margin-top: 20px;
-  /* Disable text selection highlighting. Thanks to Hermanya */
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
-/* line 174, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas,
-.clockpicker-dial {
-  width: 270px;
-  height: 270px;
-  position: absolute;
-  left: -1px;
-  top: -1px; }
-
-/* line 183, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-minutes {
-  visibility: hidden; }
-
-/* line 187, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-tick {
-  border-radius: 50%;
-  color: #666;
-  line-height: 40px;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  cursor: pointer;
-  transition: background-color 300ms;
-  background-color: rgba(0, 150, 136, 0); }
-  /* line 202, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .clockpicker-tick.active, .clockpicker-tick:hover {
-    background-color: rgba(0, 150, 136, 0.25); }
-
-/* line 208, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-dial {
-  transition: transform 350ms, opacity 350ms; }
-
-/* line 216, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-dial-out {
-  opacity: 0; }
-
-/* line 220, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-hours.clockpicker-dial-out {
-  -ms-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2); }
-
-/* line 228, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-minutes.clockpicker-dial-out {
-  -ms-transform: scale(0.8, 0.8);
-  transform: scale(0.8, 0.8); }
-
-/* line 236, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas {
-  transition: opacity 300ms; }
-
-/* line 244, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas-out {
-  opacity: 0.25; }
-
-/* line 248, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas-bearing {
-  stroke: none;
-  fill: rgba(0, 77, 64, 0.75); }
-
-/* line 253, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas-fg {
-  stroke: none;
-  fill: rgba(0, 77, 64, 0); }
-  /* line 256, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .clockpicker-canvas-fg.active {
-    fill: rgba(0, 77, 64, 0.5); }
-
-/* line 261, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas-bg {
-  stroke: none;
-  fill: rgba(0, 150, 136, 0.25); }
-
-/* line 266, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas-bg-trans {
-  fill: rgba(0, 150, 136, 0.25); }
-
-/* line 270, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-canvas line {
-  stroke: rgba(0, 150, 136, 0.25);
-  stroke-width: 1;
-  stroke-linecap: round;
-  /*shape-rendering: crispEdges;*/ }
-
-/* line 277, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-am-pm-block {
-  margin-top: -10px;
-  width: 100%;
-  height: 50px; }
-
-/* line 285, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-button.am-button {
-  height: 45px;
-  width: 45px;
-  float: left; }
-
-/* line 290, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.clockpicker-button.pm-button {
-  height: 45px;
-  width: 45px;
-  float: right; }
-
-/* line 297, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-button {
-  color: #343434; }
-
-/* line 304, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:focus, .btn-floating.button-link:focus, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:focus, .compact-link a.btn-floating:focus, .btn-floating.button--small:focus, #edit-actions .btn-floating.button--danger:focus, a.btn-floating#edit-cancel:focus, .field-suffix small span.btn-floating.admin-link:focus, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:focus, .region-title__action .btn-floating.button:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.btn-floating:focus, .btn-floating.btn-flat:visited, .btn-floating.button-link:visited, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:visited, .compact-link a.btn-floating:visited, .btn-floating.button--small:visited, #edit-actions .btn-floating.button--danger:visited, a.btn-floating#edit-cancel:visited, .field-suffix small span.btn-floating.admin-link:visited, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:visited, .region-title__action .btn-floating.button:visited, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.btn-floating:visited {
-  background-color: transparent; }
-
-/* line 308, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:hover, .btn-floating.button-link:hover, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:hover, .compact-link a.btn-floating:hover, .btn-floating.button--small:hover, #edit-actions .btn-floating.button--danger:hover, a.btn-floating#edit-cancel:hover, .field-suffix small span.btn-floating.admin-link:hover, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:hover, .region-title__action .btn-floating.button:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.btn-floating:hover {
-  box-shadow: none;
-  background-color: transparent; }
-
-/* line 312, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat.active, .btn-floating.active.button-link, .tabledrag-toggle-weight-wrapper .btn-floating.active.tabledrag-toggle-weight, .compact-link a.btn-floating.active, .btn-floating.active.button--small, #edit-actions .btn-floating.active.button--danger, a.btn-floating.active#edit-cancel, .field-suffix small span.btn-floating.active.admin-link, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating.active, .region-title__action .btn-floating.active.button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.btn-floating.active {
-  background-color: rgba(0, 150, 136, 0.25); }
-
-/* line 315, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.btn-floating.btn-flat:active, .btn-floating.button-link:active, .tabledrag-toggle-weight-wrapper .btn-floating.tabledrag-toggle-weight:active, .compact-link a.btn-floating:active, .btn-floating.button--small:active, #edit-actions .btn-floating.button--danger:active, a.btn-floating#edit-cancel:active, .field-suffix small span.btn-floating.admin-link:active, .dropbutton-wrapper.dropbutton-single .edit a.btn-floating:active, .region-title__action .btn-floating.button:active, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.btn-floating:active {
-  background-color: rgba(0, 150, 136, 0.5); }
-
-/* line 323, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-.picker__footer .clockpicker-button {
-  margin: auto;
-  margin-top: 15px; }
-  /* line 326, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .picker__footer .clockpicker-button:focus {
-    background-color: transparent; }
-  /* line 329, node_modules/materialize-clockpicker/src/sass/components/_primary.scss */
-  .picker__footer .clockpicker-button:active {
-    background-color: rgba(0, 150, 136, 0.25); }
 
 /*! Tablesaw - v3.0.3 - 2017-07-13
 * https://github.com/filamentgroup/tablesaw
