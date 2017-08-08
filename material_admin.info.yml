@@ -21,6 +21,7 @@ stylesheets-remove:
   - '@classy/css/components/item-list.css'
   - '@classy/css/components/tablesort.css'
   - '@classy/css/components/tabledrag.css'
+  - '@classy/css/components/tableselect.css'
   - '@stable/css/system/components/container-inline.module.css'
   - '@stable/css/system/system.admin.css'
   - '@stable/css/node/node.module.css'

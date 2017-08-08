@@ -50,6 +50,7 @@ gulp.task('rename', function(){
 gulp.task('sass', function() {
   return gulp.src(['scss/material_admin.scss'])
     .pipe(sourcemaps.init())
+    .pipe(sourcemaps.identityMap())
     .pipe($.sass({
       includePaths: sassPaths,
       outputStyle: 'compressed'

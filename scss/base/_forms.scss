@@ -140,6 +140,12 @@ abbr.warning {
   top: 0;
 }
 
+// align multiple checkboxes with label
+.input-field .dropdown-content [type="checkbox"]+label {
+  top:0;
+  display:inline; 
+}
+
 abbr[title] {
   border-bottom: none;
 }
