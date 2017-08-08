@@ -71,8 +71,8 @@
   border: none;
 }
 //form items in tables require less margin (but only the tope level item)
-table td>.form-item,
-table td>.ajax-new-content>.form-item {
+table td > .form-item,
+table td > .ajax-new-content > .form-item {
   margin: 0;
   &~.form-wrapper {
     margin: 25px 0;
@@ -115,6 +115,11 @@ input.btn {
     display: inline-block;
     overflow: visible;
     height: auto;
+    vertical-align: middle;
+    &~ * {
+      display: inline-block;
+      vertical-align: middle;
+    }
     .handle {
       width: 30px;
       height: 30px;
@@ -163,6 +168,8 @@ textarea.materialize-textarea {
     position: relative!important;
     clip: inherit;
     visibility: hidden;
+    width:1px;
+    display:inline-block;
     &:before,
     &:after {
       visibility: visible;
@@ -388,10 +395,14 @@ a#edit-cancel {
 }
 
 .input-field.file-field {
+  input {
+    max-width:100%;
+  }
   &.form-has-label {
     margin: 45px 0;
+    padding:45px 0 0 0;
     >label {
-      position: relative;
+      position: absolute;
       font-size: 0.8rem;
     }
   }
