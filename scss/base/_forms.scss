@@ -37,6 +37,13 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   width: 100%;
 }
 
+.form-radios {
+    margin: 25px 0;
+    .form-item.form-type-radio {
+      margin:10px 0;
+    }
+}
+
 .select-wrapper {
   max-width: 450px;
   width: 100%;

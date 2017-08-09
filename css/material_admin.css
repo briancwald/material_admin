@@ -9151,6 +9151,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   display: block;
   width: 100%; }
 
+.form-radios {
+  margin: 25px 0; }
+  .form-radios .form-item.form-type-radio {
+    margin: 10px 0; }
+
 .select-wrapper {
   max-width: 450px;
   width: 100%; }
