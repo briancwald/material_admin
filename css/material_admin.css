@@ -9279,9 +9279,6 @@ details.form-wrapper {
 .entity-meta__last-saved h4:before {
   content: ""; }
 
-.container-inline .form-type-date div {
-  display: block; }
-
 .form-type-date input.form-date {
   min-width: 175px; }
 
