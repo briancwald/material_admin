@@ -52,8 +52,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.identityMap())
     .pipe($.sass({
-      includePaths: sassPaths,
-      outputStyle: 'compressed'
+      includePaths: sassPaths
     })
     .on('error', $.sass.logError))
     .pipe($.autoprefixer({
