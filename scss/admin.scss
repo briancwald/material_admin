@@ -436,9 +436,6 @@ table {
     @extend .grey-text;
     font-weight: normal;
   }
-  th:last-of-type:not(:only-of-type), td:last-of-type:not(:only-of-type) {
-    text-align: right;
-  }
 }
 
 table td {
