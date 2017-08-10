@@ -22,14 +22,22 @@
   i {
     font-size: 1.3em;
   }
-} //override materializecss: dont set form width, only max width and allow the form fields to use its length.
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), .form-item textarea.materialize-textarea {
+} 
+
+//override materializecss: dont set form width, only max width and allow the form fields to use its length.
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default) {
   max-width: 100%;
   width: inherit;
 }
 
-.form-textarea-wrapper{
-  margin: 0 0 20px 0;
+textarea.materialize-textarea {
+  padding: .8rem .5rem 1.6rem .5rem;
+  // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
+  max-width:95%;
+  width:inherit;
+  &:focus {
+    border:1px solid color("teal", "lighten-1");
+  }
 }
 
 .form--inline .input-field {
@@ -38,10 +46,10 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 .form-radios {
-    margin: 25px 0;
-    .form-item.form-type-radio {
-      margin:10px 0;
-    }
+  margin: 25px 0;
+  .form-item.form-type-radio {
+    margin: 10px 0;
+  }
 }
 
 .select-wrapper {
@@ -60,6 +68,9 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 .form-item, .filter-wrapper .form-item, .form-item.password-parent, .form-item.confirm-parent {
   margin: 25px 0;
+  &.form-has-label:not(.form-type-checkbox):not(.form-type-radio) {
+    margin: 45px 0px 25px 0px;
+  }
   position: relative;
   overflow: visible;
   .form-required {
@@ -167,8 +178,8 @@ abbr[title] {
   border-bottom: none;
 }
 
-//form field handling 
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+//input form field handling 
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search] {
   width: inherit;
   max-width: 100%;
 }
@@ -203,7 +214,11 @@ details.form-wrapper {
     }
   }
   .details-wrapper {
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; //prevent nested wrappers from providing too much z-depth
+    details.form-wrapper {
+      box-shadow: none;
+      border: 1px solid color("grey", "lighten-2")!important;
+    }
   }
 }
 
@@ -247,19 +262,6 @@ details.form-wrapper {
 
 .form-type-date input.form-date {
   min-width: 175px;
-}
-
-.form-textarea-wrapper {
-  textarea {
-    padding: 10px;
-    height: auto;
-    transition: all 0.3s;
-    &:focus {
-      border: 1px solid color("teal", "base");
-      box-shadow: 0 0 0 1px color("teal", "base");
-      outline: none;
-    }
-  }
 }
 
 .container-inline .form-item {
@@ -471,7 +473,7 @@ i.waves-input-wrapper {
   }
 }
 
-.layout-node-form {
+.layout-node-form .layout-region-node-secondary {
   details.form-wrapper {
     margin: 0;
     .details-wrapper {
@@ -498,7 +500,7 @@ i.waves-input-wrapper {
   }
 }
 
-.form-item-data-anchor {
+.form-type-radio.form-no-label {
   input.form-radio {
     opacity: 1;
     position: relative;

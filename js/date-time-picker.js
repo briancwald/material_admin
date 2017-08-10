@@ -4,8 +4,6 @@
  *
  */
 
-
-
 (function ($, Drupal) {
 
   Drupal.behaviors.material_pickadate = {
