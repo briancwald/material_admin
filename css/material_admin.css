@@ -8927,6 +8927,12 @@ label {
 .filter-help {
   font-size: .8em; }
 
+.filter-help {
+  text-align: right; }
+
+.text-format-wrapper {
+  position: relative; }
+
 .description.modal-trigger {
   text-transform: none;
   font-size: .8em;
@@ -9426,7 +9432,7 @@ table.highlight > tbody > tr:hover li.chip {
     -ms-flex-pack: start;
         justify-content: flex-start; }
     .form--inline .input-field {
-      margin: 10px 10px;
+      margin: 10px 10px !important;
       -ms-flex: 0 1 20%;
           flex: 0 1 20%; } }
 
@@ -9815,7 +9821,7 @@ fieldset.form-wrapper span.fieldset-legend {
     text-indent: 0;
     visibility: visible; }
 
-.breadcrumb-nav li.current span.url-segement-title {
+.breadcrumb-nav li span.current.url-segement-title {
   text-transform: capitalize; }
 
 .breadcrumb-nav ol li {

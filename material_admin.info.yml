@@ -27,6 +27,7 @@ stylesheets-remove:
   - '@stable/css/system/components/container-inline.module.css'
   - '@stable/css/system/system.admin.css'
   - '@stable/css/dblog/dblog.module.css'
+  - '@stable/css/filter/filter.admin.css'
   - '@stable/css/node/node.module.css'
   - '@stable/css/system/components/autocomplete-loading.module.css'
   - '@stable/css/system/components/ajax-progress.module.css'

@@ -13,6 +13,6 @@
  *   displayed after the main title tag that appears in the template.
  */
 #}
-{% if title %}
-  <span class="breadcrumb__page-title current">{{ title }}</span>
-{% endif %}
+
+  <span class="breadcrumb__page-title current">{% if title %}{{ title }}{% endif %}</span>
+
