@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Theme override for page titles in the breadcrumb. A placeholder is used to
+ * inject the page title into the breadcrumb array.
+ *
+ * Available variables:
+ * - title_attributes: HTML attributes for the page title element.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title: The page title, for use in the actual content.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ */
+#}
+{% if title %}
+  <span class="breadcrumb__page-title current">{{ title }}</span>
+{% endif %}

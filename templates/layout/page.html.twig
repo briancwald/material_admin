@@ -42,6 +42,12 @@
  * @see html.html.twig
  */
 #}
+
+ {% set utility_nav_classes = [
+    page.breadcrumb|render|striptags|trim is not empty or page.primary_menu |render|striptags|trim is not empty  ? 'utility-wrapper',
+   ]
+ %}
+
 <div class="layout-container">
   <div id="messageContainer" class="modal bottom-sheet">
     <div class="modal-content">
@@ -65,7 +71,8 @@
       {% endif %}
     </div>
   </header>
-  <section class="utility-wrapper">
+
+  <section{{ attributes.addClass(utility_nav_classes)}}>
     <div class="row material-container">
       <div class="s12 col">
       {{ page.primary_menu }}{{ page.breadcrumb }}
