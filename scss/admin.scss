@@ -28,6 +28,10 @@ header.header-wrapper {
   }
 }
 
+.row.material-container {
+  padding: 20px 5px;
+}
+
 #block-material-admin-page-title h1.page-title {
   em {
     font-style: normal;
@@ -40,164 +44,7 @@ header.header-wrapper {
 }
 
 .utility-wrapper {
-  @extend .blue,
-  .lighten-2,
-  .shadow;
-}
-
-.messages {
-  padding: 10px;
-  @extend .flow-text;
-}
-
-.system-status-general-info__item {
-  .card .card-content .card-title {
-    margin-bottom: 1em;
-  }
-}
-
-.system-status-report__status-icon--checked {
-  .collapsible-header {
-    &:before {
-      content: $fa-var-check;
-      @extend .fa-standard,
-      .status-text-color;
-      padding-right: 1em;
-    }
-  }
-}
-
-.messages--status {
-  @extend .status-color,
-  .black-text;
-  &.messages-clone {
-    .card-content {
-      @extend .status-color;
-      .message-header .card-title {
-        &:before {
-          content: $fa-var-check;
-          @extend .fa-standard;
-        }
-      }
-    }
-  }
-}
-
-.system-status-report__status-icon--warning {
-  .collapsible-header {
-    &:before {
-      content: $fa-var-exclamation-triangle;
-      @extend .fa-standard,
-      .warning-text-color;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-    @extend .warning-text-color;
-    .description {
-      @extend .black-text;
-    }
-  }
-}
-
-.messages--warning,
-.messages--status,
-.messages--error {
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-.messages--warning {
-  @extend .warning-color,
-  .black-text;
-  &.messages-clone {
-    .card-content {
-      @extend .warning-color;
-      .message-header .card-title {
-        &:before {
-          content: $fa-var-exclamation-triangle;
-          @extend .fa-standard;
-        }
-      }
-    }
-  }
-}
-
-.system-status-report__status-icon--error {
-  .collapsible-header {
-    &:before {
-      content: $fa-var-times-circle-o;
-      @extend .fa-standard,
-      .error-text-color;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-    @extend .error-text-color;
-    .description {
-      @extend .black-text;
-    }
-  }
-}
-
-.messages--error {
-  @extend .error-color,
-  .black-text;
-  &.messages-clone {
-    .card-content {
-      @extend .error-color;
-      .message-header .card-title {
-        &:before {
-          content: $fa-var-times-circle-o;
-          @extend .fa-standard;
-        }
-      }
-    }
-  }
-}
-
-.messages-clone {
-  background: color("shades", "white")!important;
-  .card-title {
-    &:before,
-    .message-number {
-      padding-right: 10px;
-    }
-  }
-  .card-content {
-    .messages__list {
-      margin-top: 0;
-      padding-left: 30px;
-      li.messages__item {
-        margin-bottom: 10px;
-        border-bottom: 1px solid color("grey", "darken-2");
-        padding-bottom: 10px;
-        &:last-child {
-          border-bottom: none;
-        }
-      }
-    }
-  }
-}
-
-.message-trigger {
-  .mt-text {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  @extend .black-text;
-  span.fa {
-    //padding-left: 5px;
-  }
-  span.badge {
-    @extend .black-text;
-    min-width: inherit;
-    margin-left: 5px;
-    padding: 0 5px;
-    display: none;
-    border-radius: 50%;
-    font-size: 0.9rem;
-  }
+  @extend .blue, .lighten-2, .z-depth-1;
 }
 
 a.modal-trigger {
@@ -221,47 +68,30 @@ a.modal-trigger {
   }
 }
 
-#notification-wrapper {
-  //hide by default, if there is a badge, JS will enable
-  display: none;
-}
-
-.modal-content .notification-title {
-  border-bottom: 1px solid color("grey", "darken-2");
-  padding-bottom: 10px;
-  font-size: 1.7rem;
-}
-
 .region-header {
   display: block;
 }
 
-.primary.tabs a.is-active,
-.primary.tabs a:focus,
-.primary.tabs a:hover {
+.primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
   background-color: transparent!important;
 }
 
 table.highlight>tbody>tr:hover {
-  @extend .grey,
-  .lighten-3;
+  @extend .grey, .lighten-3;
   color: color("shades", "black");
   ;
-  a,
-  button {
+  a, button {
     cursor: pointer;
   }
 }
 
 table.highlight>tbody>tr.selected {
-  @extend .grey,
-  .lighten-4;
+  @extend .grey, .lighten-4;
   a {
     text-decoration: none;
   }
   a.dropdown-button {
-    @extend .grey-text,
-    .text-darken-2;
+    @extend .grey-text, .text-darken-2;
     text-decoration: none;
   }
   .dropbutton-widget li {
@@ -272,8 +102,7 @@ table.highlight>tbody>tr.selected {
     }
   }
   td {
-    @extend .grey,
-    .lighten-4;
+    @extend .grey, .lighten-4;
   }
 }
 
@@ -412,8 +241,7 @@ table {
 
 h2.theme-list-title {
   padding: 2rem;
-  @extend .blue,
-  .lighten-5;
+  @extend .blue, .lighten-5;
 }
 
 span.theme-status-indicator {
@@ -447,8 +275,7 @@ span.theme-status-indicator {
 
 table {
   .region-title {
-    @extend .blue,
-    .lighten-5;
+    @extend .blue, .lighten-5;
     @extend .grey-text;
     font-weight: normal;
   }
@@ -459,8 +286,7 @@ table td {
 }
 
 table thead th {
-  @extend .grey-text,
-  .darken-1;
+  @extend .grey-text, .darken-1;
   font-weight: normal;
   font-size: .9em;
   a {
@@ -488,31 +314,32 @@ table thead th {
 }
 
 tr.drag {
-  @extend .yellow,
-  .lighten-4;
+  @extend .yellow, .lighten-4;
   border-bottom: 1px dashed color("grey", "darken-2");
   border-top: 1px dashed color("grey", "darken-2");
 }
 
-tr.drag-previous,
-tr.drag-previous.field-plugin-settings-editing,
-tr.drag.field-plugin-settings-editing {
-  @extend .yellow,
-  .lighten-5;
-  border-bottom: 2px dashed color("yellow", "lighten-4");
-  border-top: 2px dashed color("yellow", "lighten-4");
+table.highlight, table {
+  tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
+    @extend .yellow, .lighten-5;
+    border-bottom: 2px dashed color("yellow", "lighten-4");
+    border-top: 2px dashed color("yellow", "lighten-4");
+    &:hover {
+      @extend .yellow, .lighten-5;
+    }
+  }
 }
 
 //editing widget table styling 
 tr.field-plugin-settings-editing {
-  @extend .grey,
-  .lighten-5;
+  @extend .grey, .lighten-5;
   border-bottom: 2px dashed color("grey", "darken-2");
   border-top: 2px dashed color("grey", "darken-2");
 }
 
 .tabledrag-changed-warning {
   padding: 10px;
+  font-size: 1em;
 }
 
 //nested collection styling
@@ -661,173 +488,18 @@ body.material_login {
   }
 }
 
-// Views exposed form and bulk filter styles.
-// This block overrides normal .collapsible styles.
-.exposed-form-collapsible {
-  box-shadow: none;
-  border: none;
-  padding: 1rem;
-  opacity: 1;
-  transition: .2s;
-  @media #{$small-and-down} {
-    div.collapsible-header {
-      margin-bottom: 0;
-    }
-  }
-  .collapsible-header {
-    border: none;
-    padding: 0;
-    margin-bottom: 2rem;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    a {
-      margin-right: 5px;
-    }
-    i {
-      margin-right: 0;
-    }
-  }
-  .collapsible-body {
-    border: none;
-    font-weight: inherit;
-    padding: 0;
-    .form--inline {
-      justify-content: flex-end;
-    }
-  }
-  .exposed-form-chips {
-    margin-right: .5rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 10px;
-    .chip {
-      overflow: hidden;
-      white-space: nowrap;
-    }
-  }
-}
-
-.view {
-  position: relative;
-  .views-bulk-form-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-    background-color: color("teal", "lighten-4");
-    opacity: 0;
-    transition: .2s;
-    border-bottom: 1px solid color("grey", "lighten-1");
-    >.form-wrapper:first-child {
-      display: none;
-    }
-    label[for="edit-action"] {
-      display: none;
-    }
-    .dropbutton-wrapper {
-      float: right;
-    }
-    .views-bulk-form-count {
-      float: left;
-      color: color("teal", "darken-1");
-    }
-  }
-  &.has-selection {
-    .views-bulk-form-header {
-      opacity: 1;
-    }
-    .exposed-form-collapsible {
-      opacity: 0;
-    }
-  }
-}
-
-#views-live-preview {
-  .view {
-    &.has-selection {
-      .exposed-form-collapsible {
-        opacity: 1;
-      }
-    }
-    .views-bulk-form-header {
-      position: relative;
-      display: inline-block;
-    }
-  }
-}
-
-// Responsive Views styles.
-@media #{$small-and-down} {
-  .sticky-header {
-    top: 0 !important;
-  }
-  .views-table.tablesaw-stack {
-    thead .select-all.views-field {
-      display: block;
-      label {
-        color: color("grey", "base");
-      }
-    }
-    tbody {
-      tr {
-        position: relative;
-      }
-      td {
-        .tablesaw-cell-label {
-          font-weight: 200;
-          color: color("grey", "base");
-          &:after {
-            content: ":";
-            right: 0;
-            color: color("grey", "base");
-            font-weight: 400;
-          }
-        }
-        padding: 20px 0 0 20px;
-        &[class*="bulk-form"] {
-          .tablesaw-cell-label {
-            display: none;
-          }
-          .form-item {
-            margin: 0;
-          }
-        }
-        &.views-field-operations {
-          .tablesaw-cell-label {
-            display: none;
-          }
-          .tablesaw-cell-content {
-            position: absolute;
-            top: 10px;
-            right: 0;
-          }
-        }
-      }
-    }
-  }
-}
-
-.views-table .select-all.views-field label {
-  color: transparent;
-}
-
 //chips for lists
 .item-list--comma-list {
-    margin:0.5em 0;
-.item-list__comma-list {
-  li.chip {
-    display: inline-block;
-    font-weight: 200;
-    &:after {
-      content: "";
+  margin: 0.5em 0;
+  .item-list__comma-list {
+    li.chip {
+      display: inline-block;
+      font-weight: 200;
+      &:after {
+        content: "";
+      }
     }
   }
-}
 }
 
 table.highlight>tbody>tr:hover li.chip {

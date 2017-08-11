@@ -26,7 +26,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Date and Time selector
 - [x] Submit and action buttons
 - [x] Vertical Tabs support desktop
-- [ ] Vertical Tabs support mobile (menu style)
+- [x] Vertical Tabs support mobile (menu style)
 - [x] Submit button loading UX
 - [x] Admin landing page / group styling
 - [x] Dropbutton replacement
@@ -39,7 +39,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Status Message
 - [x] Theme Select page
 - [ ] Node add/edit (70%)
-- [ ] jQueryUI Dialog Theme & Enhancements (70%)
+- [x] jQueryUI Dialog Theme & Enhancements
 - [ ] Behat Testing
 - [ ] Visual Regression Testing
 

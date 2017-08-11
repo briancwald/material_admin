@@ -18,7 +18,7 @@
 }
 
 .views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
-  background-color: color("shades", "white");
+  background-color: $body-background;
 }
 
 .views-ui-display-tab-bucket .views-display-setting {
@@ -233,6 +233,8 @@ details.views-display-column.form-wrapper {
           line-height: 22px;
           padding: 14px 16px;
           text-transform: none;
+          border:0;
+          box-shadow:none;
         }
       }
     }
@@ -287,4 +289,160 @@ details.views-display-column.form-wrapper {
   .filterable-option .title {
     font-weight: $global-weight-normal;
   }
+}
+
+
+// Views exposed form and bulk filter styles.
+// This block overrides normal .collapsible styles.
+.exposed-form-collapsible {
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  opacity: 1;
+  transition: .2s;
+  @media #{$small-and-down} {
+    div.collapsible-header {
+      margin-bottom: 0;
+    }
+  }
+  .collapsible-header {
+    border: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    a {
+      margin-right: 5px;
+    }
+    i {
+      margin-right: 0;
+    }
+  }
+  .collapsible-body {
+    border: none;
+    font-weight: inherit;
+    padding: 0;
+    .form--inline {
+      justify-content: flex-end;
+    }
+  }
+  .exposed-form-chips {
+    margin-right: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    .chip {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+.view {
+  position: relative;
+  .views-bulk-form-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: color("teal", "lighten-4");
+    opacity: 0;
+    transition: .2s;
+    border-bottom: 1px solid color("grey", "lighten-1");
+    >.form-wrapper:first-child {
+      display: none;
+    }
+    label[for="edit-action"] {
+      display: none;
+    }
+    .dropbutton-wrapper {
+      float: right;
+    }
+    .views-bulk-form-count {
+      float: left;
+      color: color("teal", "darken-1");
+    }
+  }
+  &.has-selection {
+    .views-bulk-form-header {
+      opacity: 1;
+    }
+    .exposed-form-collapsible {
+      opacity: 0;
+    }
+  }
+}
+
+#views-live-preview {
+  .view {
+    &.has-selection {
+      .exposed-form-collapsible {
+        opacity: 1;
+      }
+    }
+    .views-bulk-form-header {
+      position: relative;
+      display: inline-block;
+    }
+  }
+}
+
+// Responsive Views styles.
+@media #{$small-and-down} {
+  .sticky-header {
+    top: 0 !important;
+  }
+  .views-table.tablesaw-stack {
+    thead .select-all.views-field {
+      display: block;
+      label {
+        color: color("grey", "base");
+      }
+    }
+    tbody {
+      tr {
+        position: relative;
+      }
+      td {
+        .tablesaw-cell-label {
+          font-weight: 200;
+          color: color("grey", "base");
+          &:after {
+            content: ":";
+            right: 0;
+            color: color("grey", "base");
+            font-weight: 400;
+          }
+        }
+        padding: 20px 0 0 20px;
+        &[class*="bulk-form"] {
+          .tablesaw-cell-label {
+            display: none;
+          }
+          .form-item {
+            margin: 0;
+          }
+        }
+        &.views-field-operations {
+          .tablesaw-cell-label {
+            display: none;
+          }
+          .tablesaw-cell-content {
+            position: absolute;
+            top: 10px;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.views-table .select-all.views-field label {
+  color: transparent;
 }

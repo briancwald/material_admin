@@ -44,7 +44,7 @@
           if (thisMessageSize >= messageMax) {
             // If the notification is too long, provide a notice to view in an easier to read format
             thisItem = $(this).closest($('.messages'));
-            var messageTrigger = '<a class="modal-trigger" href="#messageContainer">View</a>';
+            var messageTrigger = '<a class="modal-trigger message-action" href="#messageContainer">View</a>';
             var messageNotice = 'There is a' + statusText + 'message in your notification console ' + messageTrigger + '';
             messageInbox(statusType, thisItem);
             Materialize.toast(messageNotice, 5000, statusType);

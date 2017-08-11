@@ -24,7 +24,7 @@ h3 {
 
 body {
   font-family: $body-font-family;
-  background: color("shades", "white");
+  background: $body-background;
   @include tablesaw-stack( $small-screen);
 }
 
@@ -78,9 +78,20 @@ label {
     line-height: 1.5em;
     font-weight: 100;
   }
-  .tooltipped {
-    font-size: .8em;
-  }
+}
+
+.tooltipped,
+.filter-help {
+  font-size: .8em;
+}
+
+.description.modal-trigger {
+  text-transform: none;
+  font-size: .8em;
+  padding: 0;
+  margin: 10px 5px;
+  display: block;
+  color: color("light-blue", "darken-1")
 }
 
 .error-text-color {
@@ -141,8 +152,10 @@ label {
 
 // buttons that appear as flat links
 .button-link {
-  @extend .btn;
   @extend .btn-flat;
+  &:hover {
+    background:color("grey","lighten-3")
+  }
 }
 
 .fa-standard {
@@ -157,18 +170,17 @@ label {
 .fa-collapse-right {
   content: $fa-var-angle-right;
   right: 20px;
-  position:absolute;
+  position: absolute;
   color: color("grey", "base");
   font-weight: 700;
   font-size: 1.5em;
-
 }
 
 .fa-collapse-down {
   content: $fa-var-angle-down;
   right: 20px;
   color: color("grey", "base");
-  position:absolute;
+  position: absolute;
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -263,11 +275,7 @@ details {
 }
 
 .shadow-box {
-  @extend .shadow;
   padding: 10px 15px;
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
 }
 
 .button--small {
@@ -279,6 +287,10 @@ details {
 .clearfix {
   clear: none;
   &:after {}
+}
+
+.collapsible .collapsible-header {
+  background: $body-background;
 }
 
 //arrows indicating open/closed collapsible component
@@ -294,8 +306,9 @@ details {
     }
     .collapsible-header.right-arrows {
       &:after {
-        @extend .fa-standard, .fa-collapse-down;
-        top:0.5em;
+        @extend .fa-standard,
+        .fa-collapse-down;
+        top: 0.5em;
       }
     }
   }
@@ -308,8 +321,9 @@ details {
   }
   .collapsible-header.right-arrows {
     &:after {
-      @extend .fa-standard, .fa-collapse-right;
-      top:0.5em;
+      @extend .fa-standard,
+      .fa-collapse-right;
+      top: 0.5em;
     }
   }
 }
@@ -355,33 +369,14 @@ span.marker {
 //hide border from getting added to tabs by jqueryUI
 .tabs.tabs-transparent {
   border: none;
-} //offset top tabs by removing the row margin to line the text up with the header 
-.offset-tabs {
-  margin-left: -20px
 }
 
-.file-upload-btn.btn-floating {
-  height: inherit;
-  line-height: inherit;
-  i {
-    font-size: 1.3em;
+
+//offset top tabs by removing the row margin to line the text up with the header 
+@media #{$medium-and-up} {
+  .offset-tabs {
+    margin-left: -20px
   }
-} //override materializecss: dont set form width, only max width and allow the form fields to use its length.
-input:not([type]),
-input[type=text]:not(.browser-default),
-input[type=password]:not(.browser-default),
-input[type=email]:not(.browser-default),
-input[type=url]:not(.browser-default),
-input[type=time]:not(.browser-default),
-input[type=date]:not(.browser-default),
-input[type=datetime]:not(.browser-default),
-input[type=datetime-local]:not(.browser-default),
-input[type=tel]:not(.browser-default),
-input[type=number]:not(.browser-default),
-input[type=search]:not(.browser-default),
-textarea.materialize-textarea {
-  max-width: 100%;
-  width: inherit;
 }
 
 .collection.with-header .collection-header.no-bottom-border {
@@ -390,22 +385,29 @@ textarea.materialize-textarea {
 
 .progress {
   overflow: inherit;
-  height:10px;
+  height: 10px;
   .progress__track {
-    background-color:color("teal", "accent-1");
-    border-color:color("teal", "accent-1");
-    background-image:none;
-    box-shadow:none;
-    border-radius:0;
-    height:10px;
+    background-color: color("teal", "accent-1");
+    border-color: color("teal", "accent-1");
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 10px;
     .progress__bar {
       @extend .determinate;
-      border:0;
-      background:none;
-      background-color:color("teal", "lighten-1");
-      margin:0;
-      height:10px;
-      border-radius:0;
+      border: 0;
+      background: none;
+      background-color: color("teal", "lighten-1");
+      margin: 0;
+      height: 10px;
+      border-radius: 0;
     }
   }
+}
+
+.message-action {
+  font-size: .8rem;
+  font-weight: 500;
+  margin-right: 0;
+  margin-left: 3rem;
 }

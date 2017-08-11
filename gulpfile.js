@@ -1,10 +1,14 @@
+'use strict';
+
 var gulp      = require('gulp');
+var sourcemaps = require('gulp-sourcemaps');
+var sass      = require('gulp-sass');
 const jshint  = require('gulp-jshint');
 const stylish = require('jshint-stylish');
 var gulpCopy  = require('gulp-copy');
 var replace   = require('gulp-replace');
 var $         = require('gulp-load-plugins')();
-refresh       = require('gulp-refresh');
+var refresh   = require('gulp-refresh');
 
 // provide a paht to node modules 
 var sassPaths = [
@@ -45,16 +49,16 @@ gulp.task('rename', function(){
 
 gulp.task('sass', function() {
   return gulp.src(['scss/material_admin.scss'])
+    .pipe(sourcemaps.init())
+    .pipe(sourcemaps.identityMap())
     .pipe($.sass({
-      sourceComments: 'map',
-      sourceMap: 'sass',
-      includePaths: sassPaths,
-      outputStyle: 'nested'
+      includePaths: sassPaths
     })
     .on('error', $.sass.logError))
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest('css'))
     .pipe(refresh());
 });

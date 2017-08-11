@@ -52,13 +52,14 @@
     'form-type-' ~ type|clean_class,
     'js-form-item-' ~ name|clean_class,
     'form-item-' ~ name|clean_class,
-    title_display not in ['after', 'before'] ? 'form-no-label',
-    title_display in ['after', 'before'] ? 'form-has-label',
+    label_display not in ['after', 'before'] ? 'form-no-label',
+    label_display in ['after', 'before'] ? 'form-has-label',
     disabled == 'disabled' ? 'form-disabled',
     type in ['textfield', 'select', 'password', 'email', 'number', 'tel', 'search', 'url', 'path', 'entity_autocomplete', 'file', 'managed_file', 'upload'] ? 'input-field',
     type in ['file', 'managed_file', 'upload'] ? 'file-field',
     errors ? 'form-item--error',
     children matches '/value="[^"]+"/' ? 'has-initial-content',
+    description_display == 'after' ? 'has-description-after',
 ]
 %}
 {%
@@ -93,7 +94,7 @@
   {% endif %}
   {% if description_display in ['after', 'invisible'] and description.content %}
     <div{{ description.attributes.addClass(description_classes) }}>
-         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
     </div>
   {% endif %}
 </div>

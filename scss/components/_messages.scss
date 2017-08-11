@@ -1,0 +1,161 @@
+/* @file
+ * Messages
+ *
+ */
+
+.messages {
+  padding: 10px;
+  @extend .flow-text;
+}
+
+#notification-wrapper {
+  //hide by default, if there is a badge, JS will enable
+  display: none;
+}
+
+.modal-content .notification-title {
+  border-bottom: 1px solid color("grey", "darken-2");
+  padding-bottom: 10px;
+  font-size: 1.7rem;
+}
+
+.system-status-general-info__item {
+  .card .card-content .card-title {
+    margin-bottom: 1em;
+  }
+}
+
+.system-status-report__status-icon--checked {
+  .collapsible-header {
+    &:before {
+      content: $fa-var-check;
+      @extend .fa-standard, .status-text-color;
+      padding-right: 1em;
+    }
+  }
+}
+
+.messages--status {
+  @extend .status-color, .black-text;
+  &.messages-clone {
+    .card-content {
+      @extend .status-color;
+      .message-header .card-title {
+        &:before {
+          content: $fa-var-check;
+          @extend .fa-standard;
+        }
+      }
+    }
+  }
+}
+
+.system-status-report__status-icon--warning {
+  .collapsible-header {
+    &:before {
+      content: $fa-var-exclamation-triangle;
+      @extend .fa-standard, .warning-text-color;
+      padding-right: 1em;
+    }
+  }
+  .collapsible-body {
+    @extend .warning-text-color;
+    .description {
+      @extend .black-text;
+    }
+  }
+}
+
+.messages--warning, .messages--status, .messages--error {
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.messages--warning {
+  @extend .warning-color, .black-text;
+  &.messages-clone {
+    .card-content {
+      @extend .warning-color;
+      .message-header .card-title {
+        &:before {
+          content: $fa-var-exclamation-triangle;
+          @extend .fa-standard;
+        }
+      }
+    }
+  }
+}
+
+.system-status-report__status-icon--error {
+  .collapsible-header {
+    &:before {
+      content: $fa-var-times-circle-o;
+      @extend .fa-standard, .error-text-color;
+      padding-right: 1em;
+    }
+  }
+  .collapsible-body {
+    @extend .error-text-color;
+    .description {
+      @extend .black-text;
+    }
+  }
+}
+
+.messages--error {
+  @extend .error-color, .black-text;
+  &.messages-clone {
+    .card-content {
+      @extend .error-color;
+      .message-header .card-title {
+        &:before {
+          content: $fa-var-times-circle-o;
+          @extend .fa-standard;
+        }
+      }
+    }
+  }
+}
+
+.messages-clone {
+  background: $body-background!important;
+  .card-title {
+    &:before, .message-number {
+      padding-right: 10px;
+    }
+  }
+  .card-content {
+    .messages__list {
+      margin-top: 0;
+      padding-left: 30px;
+      li.messages__item {
+        margin-bottom: 10px;
+        border-bottom: 1px solid color("grey", "darken-2");
+        padding-bottom: 10px;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+.message-trigger {
+  .mt-text {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  @extend .black-text;
+  span.fa {
+    //padding-left: 5px;
+  }
+  span.badge {
+    @extend .black-text;
+    min-width: 25px;
+    margin-left: 5px;
+    padding: 0 5px;
+    display: none;
+    border-radius: 50%;
+    font-size: 0.8rem;
+  }
+}

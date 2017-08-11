@@ -35,33 +35,29 @@
 @import "materialize-css/sass/components/transitions";
 @import "materialize-css/sass/components/date_picker/default";
 @import "materialize-css/sass/components/date_picker/default.date";
+@import "materialize-css/sass/components/date_picker/default.time";
 @import "materialize-css/sass/components/pulse";
 @import "materialize-css/sass/components/chips";
 
-//timepicker
-@import "materialize-clockpicker/src/sass/components/variables";
-@import "materialize-clockpicker/src/sass/components/primary";
 
 // Tablesaw
 @import "tablesaw/dist/stackonly/tablesaw.stackonly.scss";
 
-// Fonts! Using Font awesome due to popularity - though maybe should swap for material icons for consistency 
+// Fonts -- using fontawesome instead of material because of the prebuilt sass variable components, which makes it
+// easier when you dont have full control over the HTML output.
 @import "base/fonts/font-awesome";
 
 @import "base/common";
-
-@import "base/forms";
-
 @import "admin";
+@import "components/components";
 
-@import "base/views";
-@import "base/breadcrumbs";
 //overrides of core modules. Moved here to utilize sass and variables
 @import "base/overrides/autocomplete-loading.module";
 @import "base/overrides/ajax-progress.module";
 @import "base/overrides/dialog";
 @import "base/overrides/vertical-tabs";
 @import "base/overrides/color.admin";
+
 // There is no easy to to manage contrib beyond common drupal patterns, so this is attempt to manage common contrib styling
 @import "base/contrib";
 
