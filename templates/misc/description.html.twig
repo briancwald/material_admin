@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Description styling
+#}
+
+{%
+  set description_classes = [
+    'description',
+    description_display == 'invisible' ? 'visually-hidden',
+  ]
+%}
+    <div{{ description.attributes.addClass(description_classes) }}>
+    {% if description.content is not empty %}
+         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+      {% else %}
+        <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="fa fa-question-circle" aria-hidden="true"></i></a>
+    {% endif %}
+    </div>

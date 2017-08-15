@@ -54,7 +54,7 @@
       <span class="field-suffix">{{ suffix }}</span>
     {% endif %}
     {% if description.content %}
-      <div{{ description.attributes.addClass('description') }}>{{ description.content }}</div>
+         {% include '@material_admin/misc/description.html.twig' %}
     {% endif %}
   </div>
 </fieldset>

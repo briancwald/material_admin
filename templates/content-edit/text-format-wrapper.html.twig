@@ -13,6 +13,7 @@
  * @see template_preprocess_text_format_wrapper()
  */
 #}
+
 <div class="js-text-format-wrapper text-format-wrapper js-form-item">
  	{{ children }}
  
@@ -22,6 +23,6 @@
         aria_description ? 'description',
       ]
     %}
-    <div{{ attributes.addClass(classes) }}>{{ description }}</div>
+    {% include '@material_admin/misc/description.html.twig' %}
   {% endif %}
 </div>

@@ -9411,6 +9411,8 @@ body.material_login {
     font-weight: 200; }
     .item-list--comma-list .item-list__comma-list li.chip:after {
       content: ""; }
+    .item-list--comma-list .item-list__comma-list li.chip:empty {
+      visibility: hidden; }
 
 table.highlight > tbody > tr:hover li.chip {
   background-color: #fafafa; }

@@ -498,6 +498,9 @@ body.material_login {
       &:after {
         content: "";
       }
+      &:empty {
+        visibility: hidden;
+      }
     }
   }
 }
