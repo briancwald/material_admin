@@ -8832,6 +8832,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  * Common low level styles
  *
  */
+.material-tooltip {
+  pointer-events: auto; }
+
 h1 {
   font-size: 2.5rem; }
 
