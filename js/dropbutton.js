@@ -7,19 +7,18 @@
 (function ($, Drupal) {
 
   Drupal.behaviors.material_dropbutton = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $('ul.dropbutton', context).each(function () {
         $(this).uniqueId();
         var $dropbutton = $(this).siblings('.dropdown-button');
         if ($dropbutton.length === 0) {
-          var btn_classes;
+          var btnClasses;
           if ($(this).closest('.views-ui-display-tab-actions').length) {
-            btn_classes = 'dropdown-button btn-flat darken-3 text-darken-2';
+            btnClasses = 'dropdown-button btn-flat darken-3 text-darken-2';
+          } else {
+            btnClasses = 'dropdown-button ellipsis-icon btn grey lighten-3 grey-text text-darken-2';
           }
-          else {
-            btn_classes = 'dropdown-button ellipsis-icon btn grey lighten-3 grey-text text-darken-2';
-          }
-          $dropbutton = $('<a class="' + btn_classes + '" href="#" data-constrainWidth="0"><i class="fa fa-clone" aria-hidden="true"></i></a>');
+          $dropbutton = $('<a class="' + btnClasses + '" href="#" data-constrainWidth="0"><i class="fa fa-clone" aria-hidden="true"></i></a>');
           $(this).before($dropbutton);
         }
         $dropbutton.attr('data-activates', $(this).attr('id'));

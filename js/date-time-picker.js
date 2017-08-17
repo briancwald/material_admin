@@ -7,8 +7,8 @@
 (function ($, Drupal) {
 
   Drupal.behaviors.material_pickadate = {
-    attach: function (context, settings) {
-      $(context).find('.form-date').once('material_pickadate').each(function (k, v) {
+    attach: function (context) {
+      $(context).find('.form-date').once('material_pickadate').each(function () {
         $(this).pickadate({
         selectMonths: true, // Creates a dropdown to control month
         formatSubmit: 'yyyy-mm-dd',
@@ -21,8 +21,8 @@
   };
 
   Drupal.behaviors.material_pickatime = {
-    attach: function (context, settings) {
-     $(context).find('.form-time').once('material_pickatime').each(function (k, v) {
+    attach: function (context) {
+     $(context).find('.form-time').once('material_pickatime').each(function () {
       $(this).pickatime({
         autoclose: true,
         twelvehour: false,

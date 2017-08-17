@@ -7,7 +7,7 @@
   Drupal.behaviors.material_checkbox = {
     attach: function (context) {
       // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-      $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function (k, v) {
+      $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function () {
         var label = $('label[for="' + this.id + '"]');
         $(this).insertBefore(label);
       });
@@ -43,7 +43,7 @@
     }
   };
   Drupal.behaviors.material_textfields = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $(document).ready(function () {
         //account for field prefix, move the absolute label over to be positioned in the box.
         $(context).find('.input-field').once('material_textfields').each(function () {
@@ -79,7 +79,7 @@
     }
   }
   Drupal.behaviors.material_modal = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $(context).find('.modal').once('material_modal').modal({
         dismissible: true,
         opacity: 0.5,
@@ -89,7 +89,7 @@
     }
   };
   Drupal.behaviors.material_admin_node_actions = {
-    attach: function (context, settings) {
+    attach: function (context) {
       if (drupalSettings && drupalSettings.material_admin && drupalSettings.material_admin.material_admin_node_actions) {
         var actionsSize = $('.sticky-node-actions').outerHeight();
         $(context).find('body.material_admin').once('material_admin_node_actions').css('padding-bottom', actionsSize);
@@ -101,8 +101,9 @@
     tab.item = $('<li class="vertical-tabs__menu-item waves-effect" tabindex="-1"></li>').append(tab.link = $('<a class="vertical-tab-link" href="#"></a>').append(tab.title = $('<strong class="vertical-tabs__menu-item-title"></strong>').text(settings.title)).append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>')));
     return tab;
   };
+
   Drupal.behaviors.material_admin_resize_textfield = {
-    attach: function (context, settings) {
+    attach: function () {
       // resize the textfiled if the value is longer than the default value
       function resizeInput() {
         var textSize = $(this).attr('size');
@@ -118,7 +119,7 @@
     }
   };
   Drupal.behaviors.material_admin_remove_initial_content = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $('.has-initial-content', context).removeClass('has-initial-content');
     }
   };
@@ -139,7 +140,7 @@
   };
   // For the places that have anchor jump links, provide smooth scrolling
   Drupal.behaviors.material_admin_smooth_anchor_scroll = {
-    attach: function (context) {
+    attach: function () {
       $('a[href*="#"]').not('a.vertical-tab-link').not('[href="#"]').not('[href="#0"]').click(function (event) {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -158,7 +159,7 @@
               } else {
                 $target.attr('tabindex', '-1');
                 $target.focus();
-              };
+              }
             });
           }
         }
@@ -167,7 +168,7 @@
   };
   //jqueryUI dialog enhancments: disallow background page scroll when modal is open. allow clicking away from dialog to close modal.
   Drupal.behaviors.material_admin_jqueryui_dialog_enhancements = {
-    attach: function (context, settings) {
+    attach: function (settings) {
       //if the checkbox is checked in the theme settings UI.
       if (drupalSettings.material_admin.material_admin_jqueryui_dialog_close || drupalSettings.material_admin.material_admin_jqueryui_dialog_background) {
         $(document).ready(function () {

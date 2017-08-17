@@ -7,7 +7,7 @@
 (function ($, Drupal) {
 
   Drupal.behaviors.material_color = {
-    attach: function (context, settings) {
+    attach: function (context) {
       $(document).ready(function () {
         $('.color-placeholder').each(function () {
           var $this = $(this);
@@ -20,9 +20,7 @@
             bottom: $target.offset().top + $target.outerHeight() - $this.outerHeight()
           });
         });
-
       });
-
     }
   };
 
