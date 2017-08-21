@@ -307,7 +307,7 @@ table thead th {
     background-image: none;
     &:after {
       @extend .material-icons;
-      content: 'keyboard_arrow_right';
+      content: 'keyboard_arrow_up';
       padding-left: 5px;
     }
   }

@@ -7178,7 +7178,7 @@ table thead th {
 .tablesort.tablesort--desc {
   background-image: none; }
   .tablesort.tablesort--desc:after {
-    content: 'keyboard_arrow_right';
+    content: 'keyboard_arrow_up';
     padding-left: 5px; }
 
 tr.drag {
