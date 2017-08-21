@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* @file
  * Material Admin 
  *
@@ -2572,7 +2571,41 @@ video.responsive-video {
   color: rgba(255, 255, 255, 0.7); }
   .breadcrumb i,
   .breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
-  .breadcrumb i.material-icons {
+  .breadcrumb i.material-icons,
+  .breadcrumb i.button-action:before,
+  .breadcrumb .collapsible li i.collapsible-header.with-arrows:before, .collapsible li
+  .breadcrumb i.collapsible-header.with-arrows:before,
+  .breadcrumb details.form-wrapper li i.collapsible-header.with-arrows:before, details.form-wrapper li
+  .breadcrumb i.collapsible-header.with-arrows:before,
+  .breadcrumb .collapsible li i.collapsible-header.right-arrows:after, .collapsible li
+  .breadcrumb i.collapsible-header.right-arrows:after,
+  .breadcrumb details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li
+  .breadcrumb i.collapsible-header.right-arrows:after,
+  .breadcrumb i.dropdown-button:after,
+  .breadcrumb .details-item i.collapsible-header:before, .details-item
+  .breadcrumb i.collapsible-header:before,
+  .breadcrumb i.tablesort.tablesort--asc:after,
+  .breadcrumb i.tablesort.tablesort--desc:after,
+  .breadcrumb .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection
+  .breadcrumb i.collection-item:before,
+  .breadcrumb .region-title__action i.button:after, .region-title__action
+  .breadcrumb i.button:after,
+  .breadcrumb .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked
+  .breadcrumb i.collapsible-header:before,
+  .breadcrumb .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header
+  .breadcrumb i.card-title:before,
+  .breadcrumb .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning
+  .breadcrumb i.collapsible-header:before,
+  .breadcrumb .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header
+  .breadcrumb i.card-title:before,
+  .breadcrumb .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error
+  .breadcrumb i.collapsible-header:before,
+  .breadcrumb .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header
+  .breadcrumb i.card-title:before,
+  .breadcrumb .color-palette i.color-palette__hook.is-up:before, .color-palette
+  .breadcrumb i.color-palette__hook.is-up:before,
+  .breadcrumb .color-palette i.color-palette__lock:before, .color-palette
+  .breadcrumb i.color-palette__lock:before {
     display: inline-block;
     float: left;
     font-size: 24px; }
@@ -4458,12 +4491,146 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     color: #444; }
     .input-field input[type=search]:focus + label i,
     .input-field input[type=search]:focus ~ .mdi-navigation-close,
-    .input-field input[type=search]:focus ~ .material-icons {
+    .input-field input[type=search]:focus ~ .material-icons,
+    .input-field input[type=search]:focus ~ .button-action:before,
+    .input-field .collapsible li input[type=search]:focus ~ .collapsible-header.with-arrows:before, .collapsible li
+    .input-field input[type=search]:focus ~ .collapsible-header.with-arrows:before,
+    .input-field details.form-wrapper li input[type=search]:focus ~ .collapsible-header.with-arrows:before, details.form-wrapper li
+    .input-field input[type=search]:focus ~ .collapsible-header.with-arrows:before,
+    .input-field .collapsible li details.form-wrapper input[type=search]:focus ~ summary.with-arrows:before, .collapsible li details.form-wrapper
+    .input-field input[type=search]:focus ~ summary.with-arrows:before,
+    .input-field details.form-wrapper li input[type=search]:focus ~ summary.with-arrows:before, details.form-wrapper li
+    .input-field input[type=search]:focus ~ summary.with-arrows:before,
+    .input-field .collapsible li input[type=search]:focus ~ .collapsible-header.right-arrows:after, .collapsible li
+    .input-field input[type=search]:focus ~ .collapsible-header.right-arrows:after,
+    .input-field details.form-wrapper li input[type=search]:focus ~ .collapsible-header.right-arrows:after, details.form-wrapper li
+    .input-field input[type=search]:focus ~ .collapsible-header.right-arrows:after,
+    .input-field details.form-wrapper li input[type=search]:focus ~ summary.right-arrows:after,
+    .input-field input[type=search]:focus ~ .dropdown-button:after,
+    .input-field .details-item input[type=search]:focus ~ .collapsible-header:before, .details-item
+    .input-field input[type=search]:focus ~ .collapsible-header:before,
+    .input-field .details-item details.form-wrapper input[type=search]:focus ~ summary:before, .details-item details.form-wrapper
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field details.form-wrapper .details-item input[type=search]:focus ~ summary:before, details.form-wrapper .details-item
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field input[type=search]:focus ~ .tablesort.tablesort--asc:after,
+    .input-field input[type=search]:focus ~ .tablesort.tablesort--desc:after,
+    .input-field .collection .collection-item > .item-list .collection input[type=search]:focus ~ .collection-item:before, .collection .collection-item > .item-list .collection
+    .input-field input[type=search]:focus ~ .collection-item:before,
+    .input-field .region-title__action input[type=search]:focus ~ .button:after, .region-title__action
+    .input-field input[type=search]:focus ~ .button:after,
+    .input-field details.form-wrapper input[type=search]:focus ~ summary:after, details.form-wrapper
+    .input-field input[type=search]:focus ~ summary:after,
+    .input-field .entity-meta__last-saved input[type=search]:focus ~ h4:before, .entity-meta__last-saved
+    .input-field input[type=search]:focus ~ h4:before,
+    .input-field .entity-meta__author input[type=search]:focus ~ h4:before, .entity-meta__author
+    .input-field input[type=search]:focus ~ h4:before,
+    .input-field .field--name-created input[type=search]:focus ~ h4:before, .field--name-created
+    .input-field input[type=search]:focus ~ h4:before,
+    .input-field .breadcrumb-nav ol input[type=search]:focus ~ li:before, .breadcrumb-nav ol
+    .input-field input[type=search]:focus ~ li:before,
+    .input-field .breadcrumb-nav ol li:first-child input[type=search]:focus ~ a:before, .breadcrumb-nav ol li:first-child
+    .input-field input[type=search]:focus ~ a:before,
+    .input-field .system-status-report__status-icon--checked input[type=search]:focus ~ .collapsible-header:before, .system-status-report__status-icon--checked
+    .input-field input[type=search]:focus ~ .collapsible-header:before,
+    .input-field .system-status-report__status-icon--checked details.form-wrapper input[type=search]:focus ~ summary:before, .system-status-report__status-icon--checked details.form-wrapper
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field details.form-wrapper .system-status-report__status-icon--checked input[type=search]:focus ~ summary:before, details.form-wrapper .system-status-report__status-icon--checked
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field .messages--status.messages-clone .card-content .message-header input[type=search]:focus ~ .card-title:before, .messages--status.messages-clone .card-content .message-header
+    .input-field input[type=search]:focus ~ .card-title:before,
+    .input-field .system-status-report__status-icon--warning input[type=search]:focus ~ .collapsible-header:before, .system-status-report__status-icon--warning
+    .input-field input[type=search]:focus ~ .collapsible-header:before,
+    .input-field .system-status-report__status-icon--warning details.form-wrapper input[type=search]:focus ~ summary:before, .system-status-report__status-icon--warning details.form-wrapper
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field details.form-wrapper .system-status-report__status-icon--warning input[type=search]:focus ~ summary:before, details.form-wrapper .system-status-report__status-icon--warning
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field .messages--warning.messages-clone .card-content .message-header input[type=search]:focus ~ .card-title:before, .messages--warning.messages-clone .card-content .message-header
+    .input-field input[type=search]:focus ~ .card-title:before,
+    .input-field .system-status-report__status-icon--error input[type=search]:focus ~ .collapsible-header:before, .system-status-report__status-icon--error
+    .input-field input[type=search]:focus ~ .collapsible-header:before,
+    .input-field .system-status-report__status-icon--error details.form-wrapper input[type=search]:focus ~ summary:before, .system-status-report__status-icon--error details.form-wrapper
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field details.form-wrapper .system-status-report__status-icon--error input[type=search]:focus ~ summary:before, details.form-wrapper .system-status-report__status-icon--error
+    .input-field input[type=search]:focus ~ summary:before,
+    .input-field .messages--error.messages-clone .card-content .message-header input[type=search]:focus ~ .card-title:before, .messages--error.messages-clone .card-content .message-header
+    .input-field input[type=search]:focus ~ .card-title:before,
+    .input-field .color-palette input[type=search]:focus ~ .color-palette__hook.is-up:before, .color-palette
+    .input-field input[type=search]:focus ~ .color-palette__hook.is-up:before,
+    .input-field .color-palette input[type=search]:focus ~ .color-palette__lock:before, .color-palette
+    .input-field input[type=search]:focus ~ .color-palette__lock:before {
       color: #444; }
   .input-field input[type=search] + label {
     left: 1rem; }
   .input-field input[type=search] ~ .mdi-navigation-close,
-  .input-field input[type=search] ~ .material-icons {
+  .input-field input[type=search] ~ .material-icons,
+  .input-field input[type=search] ~ .button-action:before,
+  .input-field .collapsible li input[type=search] ~ .collapsible-header.with-arrows:before, .collapsible li
+  .input-field input[type=search] ~ .collapsible-header.with-arrows:before,
+  .input-field details.form-wrapper li input[type=search] ~ .collapsible-header.with-arrows:before, details.form-wrapper li
+  .input-field input[type=search] ~ .collapsible-header.with-arrows:before,
+  .input-field .collapsible li details.form-wrapper input[type=search] ~ summary.with-arrows:before, .collapsible li details.form-wrapper
+  .input-field input[type=search] ~ summary.with-arrows:before,
+  .input-field details.form-wrapper li input[type=search] ~ summary.with-arrows:before, details.form-wrapper li
+  .input-field input[type=search] ~ summary.with-arrows:before,
+  .input-field .collapsible li input[type=search] ~ .collapsible-header.right-arrows:after, .collapsible li
+  .input-field input[type=search] ~ .collapsible-header.right-arrows:after,
+  .input-field details.form-wrapper li input[type=search] ~ .collapsible-header.right-arrows:after, details.form-wrapper li
+  .input-field input[type=search] ~ .collapsible-header.right-arrows:after,
+  .input-field details.form-wrapper li input[type=search] ~ summary.right-arrows:after,
+  .input-field input[type=search] ~ .dropdown-button:after,
+  .input-field .details-item input[type=search] ~ .collapsible-header:before, .details-item
+  .input-field input[type=search] ~ .collapsible-header:before,
+  .input-field .details-item details.form-wrapper input[type=search] ~ summary:before, .details-item details.form-wrapper
+  .input-field input[type=search] ~ summary:before,
+  .input-field details.form-wrapper .details-item input[type=search] ~ summary:before, details.form-wrapper .details-item
+  .input-field input[type=search] ~ summary:before,
+  .input-field input[type=search] ~ .tablesort.tablesort--asc:after,
+  .input-field input[type=search] ~ .tablesort.tablesort--desc:after,
+  .input-field .collection .collection-item > .item-list .collection input[type=search] ~ .collection-item:before, .collection .collection-item > .item-list .collection
+  .input-field input[type=search] ~ .collection-item:before,
+  .input-field .region-title__action input[type=search] ~ .button:after, .region-title__action
+  .input-field input[type=search] ~ .button:after,
+  .input-field details.form-wrapper input[type=search] ~ summary:after, details.form-wrapper
+  .input-field input[type=search] ~ summary:after,
+  .input-field .entity-meta__last-saved input[type=search] ~ h4:before, .entity-meta__last-saved
+  .input-field input[type=search] ~ h4:before,
+  .input-field .entity-meta__author input[type=search] ~ h4:before, .entity-meta__author
+  .input-field input[type=search] ~ h4:before,
+  .input-field .field--name-created input[type=search] ~ h4:before, .field--name-created
+  .input-field input[type=search] ~ h4:before,
+  .input-field .breadcrumb-nav ol input[type=search] ~ li:before, .breadcrumb-nav ol
+  .input-field input[type=search] ~ li:before,
+  .input-field .breadcrumb-nav ol li:first-child input[type=search] ~ a:before, .breadcrumb-nav ol li:first-child
+  .input-field input[type=search] ~ a:before,
+  .input-field .system-status-report__status-icon--checked input[type=search] ~ .collapsible-header:before, .system-status-report__status-icon--checked
+  .input-field input[type=search] ~ .collapsible-header:before,
+  .input-field .system-status-report__status-icon--checked details.form-wrapper input[type=search] ~ summary:before, .system-status-report__status-icon--checked details.form-wrapper
+  .input-field input[type=search] ~ summary:before,
+  .input-field details.form-wrapper .system-status-report__status-icon--checked input[type=search] ~ summary:before, details.form-wrapper .system-status-report__status-icon--checked
+  .input-field input[type=search] ~ summary:before,
+  .input-field .messages--status.messages-clone .card-content .message-header input[type=search] ~ .card-title:before, .messages--status.messages-clone .card-content .message-header
+  .input-field input[type=search] ~ .card-title:before,
+  .input-field .system-status-report__status-icon--warning input[type=search] ~ .collapsible-header:before, .system-status-report__status-icon--warning
+  .input-field input[type=search] ~ .collapsible-header:before,
+  .input-field .system-status-report__status-icon--warning details.form-wrapper input[type=search] ~ summary:before, .system-status-report__status-icon--warning details.form-wrapper
+  .input-field input[type=search] ~ summary:before,
+  .input-field details.form-wrapper .system-status-report__status-icon--warning input[type=search] ~ summary:before, details.form-wrapper .system-status-report__status-icon--warning
+  .input-field input[type=search] ~ summary:before,
+  .input-field .messages--warning.messages-clone .card-content .message-header input[type=search] ~ .card-title:before, .messages--warning.messages-clone .card-content .message-header
+  .input-field input[type=search] ~ .card-title:before,
+  .input-field .system-status-report__status-icon--error input[type=search] ~ .collapsible-header:before, .system-status-report__status-icon--error
+  .input-field input[type=search] ~ .collapsible-header:before,
+  .input-field .system-status-report__status-icon--error details.form-wrapper input[type=search] ~ summary:before, .system-status-report__status-icon--error details.form-wrapper
+  .input-field input[type=search] ~ summary:before,
+  .input-field details.form-wrapper .system-status-report__status-icon--error input[type=search] ~ summary:before, details.form-wrapper .system-status-report__status-icon--error
+  .input-field input[type=search] ~ summary:before,
+  .input-field .messages--error.messages-clone .card-content .message-header input[type=search] ~ .card-title:before, .messages--error.messages-clone .card-content .message-header
+  .input-field input[type=search] ~ .card-title:before,
+  .input-field .color-palette input[type=search] ~ .color-palette__hook.is-up:before, .color-palette
+  .input-field input[type=search] ~ .color-palette__hook.is-up:before,
+  .input-field .color-palette input[type=search] ~ .color-palette__lock:before, .color-palette
+  .input-field input[type=search] ~ .color-palette__lock:before {
     position: absolute;
     top: 0;
     right: 1rem;
@@ -6461,6 +6628,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   -ms-transform: translateY(-140%);
       transform: translateY(-140%); }
 
+/* This is needed for some mobile phones to display the Google Icon font properly */
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .collection .collection-item > .item-list .collection .collection-item:before, .region-title__action .button:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga'; }
+
 /*! Tablesaw - v3.0.3 - 2017-07-13
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2017 Filament Group; Licensed MIT */
@@ -6516,2317 +6688,26 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .tablesaw-stack th.group b.tablesaw-cell-label {
     display: none !important; } }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
+/* fallback */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"); }
+
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .collection .collection-item > .item-list .collection .collection-item:before, .region-title__action .button:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
+  font-family: 'Material Icons';
   font-weight: normal;
-  font-style: normal; }
-
-.fa {
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* makes the font 33% larger relative to the icon container */
-.fa-lg {
-  font-size: 1.33333em;
-  line-height: 0.75em;
-  vertical-align: -15%; }
-
-.fa-2x {
-  font-size: 2em; }
-
-.fa-3x {
-  font-size: 3em; }
-
-.fa-4x {
-  font-size: 4em; }
-
-.fa-5x {
-  font-size: 5em; }
-
-.fa-fw {
-  width: 1.28571em;
-  text-align: center; }
-
-.fa-ul {
-  padding-left: 0;
-  margin-left: 2.14286em;
-  list-style-type: none; }
-  .fa-ul > li {
-    position: relative; }
-
-.fa-li {
-  position: absolute;
-  left: -2.14286em;
-  width: 2.14286em;
-  top: 0.14286em;
-  text-align: center; }
-  .fa-li.fa-lg {
-    left: -1.85714em; }
-
-.fa-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #eee;
-  border-radius: .1em; }
-
-.fa-pull-left {
-  float: left; }
-
-.fa-pull-right {
-  float: right; }
-
-.fa.fa-pull-left {
-  margin-right: .3em; }
-
-.fa.fa-pull-right {
-  margin-left: .3em; }
-
-/* Deprecated as of 4.4.0 */
-.pull-right {
-  float: right; }
-
-.pull-left {
-  float: left; }
-
-.fa.pull-left {
-  margin-right: .3em; }
-
-.fa.pull-right {
-  margin-left: .3em; }
-
-.fa-spin {
-  animation: fa-spin 2s infinite linear; }
-
-.fa-pulse {
-  animation: fa-spin 1s infinite steps(8); }
-
-@keyframes fa-spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(359deg); } }
-
-.fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg); }
-
-.fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg); }
-
-.fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg); }
-
-.fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1); }
-
-.fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -ms-transform: scale(1, -1);
-  transform: scale(1, -1); }
-
-:root .fa-rotate-90,
-:root .fa-rotate-180,
-:root .fa-rotate-270,
-:root .fa-flip-horizontal,
-:root .fa-flip-vertical {
-  filter: none; }
-
-.fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle; }
-
-.fa-stack-1x, .fa-stack-2x {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center; }
-
-.fa-stack-1x {
-  line-height: inherit; }
-
-.fa-stack-2x {
-  font-size: 2em; }
-
-.fa-inverse {
-  color: #fff; }
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-.fa-glass:before {
-  content: ""; }
-
-.fa-music:before {
-  content: ""; }
-
-.fa-search:before {
-  content: ""; }
-
-.fa-envelope-o:before {
-  content: ""; }
-
-.fa-heart:before {
-  content: ""; }
-
-.fa-star:before {
-  content: ""; }
-
-.fa-star-o:before {
-  content: ""; }
-
-.fa-user:before {
-  content: ""; }
-
-.fa-film:before {
-  content: ""; }
-
-.fa-th-large:before {
-  content: ""; }
-
-.fa-th:before {
-  content: ""; }
-
-.fa-th-list:before {
-  content: ""; }
-
-.fa-check:before {
-  content: ""; }
-
-.fa-remove:before,
-.fa-close:before,
-.fa-times:before {
-  content: ""; }
-
-.fa-search-plus:before {
-  content: ""; }
-
-.fa-search-minus:before {
-  content: ""; }
-
-.fa-power-off:before {
-  content: ""; }
-
-.fa-signal:before {
-  content: ""; }
-
-.fa-gear:before,
-.fa-cog:before {
-  content: ""; }
-
-.fa-trash-o:before {
-  content: ""; }
-
-.fa-home:before {
-  content: ""; }
-
-.fa-file-o:before {
-  content: ""; }
-
-.fa-clock-o:before {
-  content: ""; }
-
-.fa-road:before {
-  content: ""; }
-
-.fa-download:before {
-  content: ""; }
-
-.fa-arrow-circle-o-down:before {
-  content: ""; }
-
-.fa-arrow-circle-o-up:before {
-  content: ""; }
-
-.fa-inbox:before {
-  content: ""; }
-
-.fa-play-circle-o:before {
-  content: ""; }
-
-.fa-rotate-right:before,
-.fa-repeat:before {
-  content: ""; }
-
-.fa-refresh:before {
-  content: ""; }
-
-.fa-list-alt:before {
-  content: ""; }
-
-.fa-lock:before {
-  content: ""; }
-
-.fa-flag:before {
-  content: ""; }
-
-.fa-headphones:before {
-  content: ""; }
-
-.fa-volume-off:before {
-  content: ""; }
-
-.fa-volume-down:before {
-  content: ""; }
-
-.fa-volume-up:before {
-  content: ""; }
-
-.fa-qrcode:before {
-  content: ""; }
-
-.fa-barcode:before {
-  content: ""; }
-
-.fa-tag:before {
-  content: ""; }
-
-.fa-tags:before {
-  content: ""; }
-
-.fa-book:before {
-  content: ""; }
-
-.fa-bookmark:before {
-  content: ""; }
-
-.fa-print:before {
-  content: ""; }
-
-.fa-camera:before {
-  content: ""; }
-
-.fa-font:before {
-  content: ""; }
-
-.fa-bold:before {
-  content: ""; }
-
-.fa-italic:before {
-  content: ""; }
-
-.fa-text-height:before {
-  content: ""; }
-
-.fa-text-width:before {
-  content: ""; }
-
-.fa-align-left:before {
-  content: ""; }
-
-.fa-align-center:before {
-  content: ""; }
-
-.fa-align-right:before {
-  content: ""; }
-
-.fa-align-justify:before {
-  content: ""; }
-
-.fa-list:before {
-  content: ""; }
-
-.fa-dedent:before,
-.fa-outdent:before {
-  content: ""; }
-
-.fa-indent:before {
-  content: ""; }
-
-.fa-video-camera:before {
-  content: ""; }
-
-.fa-photo:before,
-.fa-image:before,
-.fa-picture-o:before {
-  content: ""; }
-
-.fa-pencil:before {
-  content: ""; }
-
-.fa-map-marker:before {
-  content: ""; }
-
-.fa-adjust:before {
-  content: ""; }
-
-.fa-tint:before {
-  content: ""; }
-
-.fa-edit:before,
-.fa-pencil-square-o:before {
-  content: ""; }
-
-.fa-share-square-o:before {
-  content: ""; }
-
-.fa-check-square-o:before {
-  content: ""; }
-
-.fa-arrows:before {
-  content: ""; }
-
-.fa-step-backward:before {
-  content: ""; }
-
-.fa-fast-backward:before {
-  content: ""; }
-
-.fa-backward:before {
-  content: ""; }
-
-.fa-play:before {
-  content: ""; }
-
-.fa-pause:before {
-  content: ""; }
-
-.fa-stop:before {
-  content: ""; }
-
-.fa-forward:before {
-  content: ""; }
-
-.fa-fast-forward:before {
-  content: ""; }
-
-.fa-step-forward:before {
-  content: ""; }
-
-.fa-eject:before {
-  content: ""; }
-
-.fa-chevron-left:before {
-  content: ""; }
-
-.fa-chevron-right:before {
-  content: ""; }
-
-.fa-plus-circle:before {
-  content: ""; }
-
-.fa-minus-circle:before {
-  content: ""; }
-
-.fa-times-circle:before {
-  content: ""; }
-
-.fa-check-circle:before {
-  content: ""; }
-
-.fa-question-circle:before {
-  content: ""; }
-
-.fa-info-circle:before {
-  content: ""; }
-
-.fa-crosshairs:before {
-  content: ""; }
-
-.fa-times-circle-o:before {
-  content: ""; }
-
-.fa-check-circle-o:before {
-  content: ""; }
-
-.fa-ban:before {
-  content: ""; }
-
-.fa-arrow-left:before {
-  content: ""; }
-
-.fa-arrow-right:before {
-  content: ""; }
-
-.fa-arrow-up:before {
-  content: ""; }
-
-.fa-arrow-down:before {
-  content: ""; }
-
-.fa-mail-forward:before,
-.fa-share:before {
-  content: ""; }
-
-.fa-expand:before {
-  content: ""; }
-
-.fa-compress:before {
-  content: ""; }
-
-.fa-plus:before {
-  content: ""; }
-
-.fa-minus:before {
-  content: ""; }
-
-.fa-asterisk:before {
-  content: ""; }
-
-.fa-exclamation-circle:before {
-  content: ""; }
-
-.fa-gift:before {
-  content: ""; }
-
-.fa-leaf:before {
-  content: ""; }
-
-.fa-fire:before {
-  content: ""; }
-
-.fa-eye:before {
-  content: ""; }
-
-.fa-eye-slash:before {
-  content: ""; }
-
-.fa-warning:before,
-.fa-exclamation-triangle:before {
-  content: ""; }
-
-.fa-plane:before {
-  content: ""; }
-
-.fa-calendar:before {
-  content: ""; }
-
-.fa-random:before {
-  content: ""; }
-
-.fa-comment:before {
-  content: ""; }
-
-.fa-magnet:before {
-  content: ""; }
-
-.fa-chevron-up:before {
-  content: ""; }
-
-.fa-chevron-down:before {
-  content: ""; }
-
-.fa-retweet:before {
-  content: ""; }
-
-.fa-shopping-cart:before {
-  content: ""; }
-
-.fa-folder:before {
-  content: ""; }
-
-.fa-folder-open:before {
-  content: ""; }
-
-.fa-arrows-v:before {
-  content: ""; }
-
-.fa-arrows-h:before {
-  content: ""; }
-
-.fa-bar-chart-o:before,
-.fa-bar-chart:before {
-  content: ""; }
-
-.fa-twitter-square:before {
-  content: ""; }
-
-.fa-facebook-square:before {
-  content: ""; }
-
-.fa-camera-retro:before {
-  content: ""; }
-
-.fa-key:before {
-  content: ""; }
-
-.fa-gears:before,
-.fa-cogs:before {
-  content: ""; }
-
-.fa-comments:before {
-  content: ""; }
-
-.fa-thumbs-o-up:before {
-  content: ""; }
-
-.fa-thumbs-o-down:before {
-  content: ""; }
-
-.fa-star-half:before {
-  content: ""; }
-
-.fa-heart-o:before {
-  content: ""; }
-
-.fa-sign-out:before {
-  content: ""; }
-
-.fa-linkedin-square:before {
-  content: ""; }
-
-.fa-thumb-tack:before {
-  content: ""; }
-
-.fa-external-link:before {
-  content: ""; }
-
-.fa-sign-in:before {
-  content: ""; }
-
-.fa-trophy:before {
-  content: ""; }
-
-.fa-github-square:before {
-  content: ""; }
-
-.fa-upload:before {
-  content: ""; }
-
-.fa-lemon-o:before {
-  content: ""; }
-
-.fa-phone:before {
-  content: ""; }
-
-.fa-square-o:before {
-  content: ""; }
-
-.fa-bookmark-o:before {
-  content: ""; }
-
-.fa-phone-square:before {
-  content: ""; }
-
-.fa-twitter:before {
-  content: ""; }
-
-.fa-facebook-f:before,
-.fa-facebook:before {
-  content: ""; }
-
-.fa-github:before {
-  content: ""; }
-
-.fa-unlock:before {
-  content: ""; }
-
-.fa-credit-card:before {
-  content: ""; }
-
-.fa-feed:before,
-.fa-rss:before {
-  content: ""; }
-
-.fa-hdd-o:before {
-  content: ""; }
-
-.fa-bullhorn:before {
-  content: ""; }
-
-.fa-bell:before {
-  content: ""; }
-
-.fa-certificate:before {
-  content: ""; }
-
-.fa-hand-o-right:before {
-  content: ""; }
-
-.fa-hand-o-left:before {
-  content: ""; }
-
-.fa-hand-o-up:before {
-  content: ""; }
-
-.fa-hand-o-down:before {
-  content: ""; }
-
-.fa-arrow-circle-left:before {
-  content: ""; }
-
-.fa-arrow-circle-right:before {
-  content: ""; }
-
-.fa-arrow-circle-up:before {
-  content: ""; }
-
-.fa-arrow-circle-down:before {
-  content: ""; }
-
-.fa-globe:before {
-  content: ""; }
-
-.fa-wrench:before {
-  content: ""; }
-
-.fa-tasks:before {
-  content: ""; }
-
-.fa-filter:before {
-  content: ""; }
-
-.fa-briefcase:before {
-  content: ""; }
-
-.fa-arrows-alt:before {
-  content: ""; }
-
-.fa-group:before,
-.fa-users:before {
-  content: ""; }
-
-.fa-chain:before,
-.fa-link:before {
-  content: ""; }
-
-.fa-cloud:before {
-  content: ""; }
-
-.fa-flask:before {
-  content: ""; }
-
-.fa-cut:before,
-.fa-scissors:before {
-  content: ""; }
-
-.fa-copy:before,
-.fa-files-o:before {
-  content: ""; }
-
-.fa-paperclip:before {
-  content: ""; }
-
-.fa-save:before,
-.fa-floppy-o:before {
-  content: ""; }
-
-.fa-square:before {
-  content: ""; }
-
-.fa-navicon:before,
-.fa-reorder:before,
-.fa-bars:before {
-  content: ""; }
-
-.fa-list-ul:before {
-  content: ""; }
-
-.fa-list-ol:before {
-  content: ""; }
-
-.fa-strikethrough:before {
-  content: ""; }
-
-.fa-underline:before {
-  content: ""; }
-
-.fa-table:before {
-  content: ""; }
-
-.fa-magic:before {
-  content: ""; }
-
-.fa-truck:before {
-  content: ""; }
-
-.fa-pinterest:before {
-  content: ""; }
-
-.fa-pinterest-square:before {
-  content: ""; }
-
-.fa-google-plus-square:before {
-  content: ""; }
-
-.fa-google-plus:before {
-  content: ""; }
-
-.fa-money:before {
-  content: ""; }
-
-.fa-caret-down:before {
-  content: ""; }
-
-.fa-caret-up:before {
-  content: ""; }
-
-.fa-caret-left:before {
-  content: ""; }
-
-.fa-caret-right:before {
-  content: ""; }
-
-.fa-columns:before {
-  content: ""; }
-
-.fa-unsorted:before,
-.fa-sort:before {
-  content: ""; }
-
-.fa-sort-down:before,
-.fa-sort-desc:before {
-  content: ""; }
-
-.fa-sort-up:before,
-.fa-sort-asc:before {
-  content: ""; }
-
-.fa-envelope:before {
-  content: ""; }
-
-.fa-linkedin:before {
-  content: ""; }
-
-.fa-rotate-left:before,
-.fa-undo:before {
-  content: ""; }
-
-.fa-legal:before,
-.fa-gavel:before {
-  content: ""; }
-
-.fa-dashboard:before,
-.fa-tachometer:before {
-  content: ""; }
-
-.fa-comment-o:before {
-  content: ""; }
-
-.fa-comments-o:before {
-  content: ""; }
-
-.fa-flash:before,
-.fa-bolt:before {
-  content: ""; }
-
-.fa-sitemap:before {
-  content: ""; }
-
-.fa-umbrella:before {
-  content: ""; }
-
-.fa-paste:before,
-.fa-clipboard:before {
-  content: ""; }
-
-.fa-lightbulb-o:before {
-  content: ""; }
-
-.fa-exchange:before {
-  content: ""; }
-
-.fa-cloud-download:before {
-  content: ""; }
-
-.fa-cloud-upload:before {
-  content: ""; }
-
-.fa-user-md:before {
-  content: ""; }
-
-.fa-stethoscope:before {
-  content: ""; }
-
-.fa-suitcase:before {
-  content: ""; }
-
-.fa-bell-o:before {
-  content: ""; }
-
-.fa-coffee:before {
-  content: ""; }
-
-.fa-cutlery:before {
-  content: ""; }
-
-.fa-file-text-o:before {
-  content: ""; }
-
-.fa-building-o:before {
-  content: ""; }
-
-.fa-hospital-o:before {
-  content: ""; }
-
-.fa-ambulance:before {
-  content: ""; }
-
-.fa-medkit:before {
-  content: ""; }
-
-.fa-fighter-jet:before {
-  content: ""; }
-
-.fa-beer:before {
-  content: ""; }
-
-.fa-h-square:before {
-  content: ""; }
-
-.fa-plus-square:before {
-  content: ""; }
-
-.fa-angle-double-left:before {
-  content: ""; }
-
-.fa-angle-double-right:before {
-  content: ""; }
-
-.fa-angle-double-up:before {
-  content: ""; }
-
-.fa-angle-double-down:before {
-  content: ""; }
-
-.fa-angle-left:before {
-  content: ""; }
-
-.fa-angle-right:before {
-  content: ""; }
-
-.fa-angle-up:before {
-  content: ""; }
-
-.fa-angle-down:before {
-  content: ""; }
-
-.fa-desktop:before {
-  content: ""; }
-
-.fa-laptop:before {
-  content: ""; }
-
-.fa-tablet:before {
-  content: ""; }
-
-.fa-mobile-phone:before,
-.fa-mobile:before {
-  content: ""; }
-
-.fa-circle-o:before {
-  content: ""; }
-
-.fa-quote-left:before {
-  content: ""; }
-
-.fa-quote-right:before {
-  content: ""; }
-
-.fa-spinner:before {
-  content: ""; }
-
-.fa-circle:before {
-  content: ""; }
-
-.fa-mail-reply:before,
-.fa-reply:before {
-  content: ""; }
-
-.fa-github-alt:before {
-  content: ""; }
-
-.fa-folder-o:before {
-  content: ""; }
-
-.fa-folder-open-o:before {
-  content: ""; }
-
-.fa-smile-o:before {
-  content: ""; }
-
-.fa-frown-o:before {
-  content: ""; }
-
-.fa-meh-o:before {
-  content: ""; }
-
-.fa-gamepad:before {
-  content: ""; }
-
-.fa-keyboard-o:before {
-  content: ""; }
-
-.fa-flag-o:before {
-  content: ""; }
-
-.fa-flag-checkered:before {
-  content: ""; }
-
-.fa-terminal:before {
-  content: ""; }
-
-.fa-code:before {
-  content: ""; }
-
-.fa-mail-reply-all:before,
-.fa-reply-all:before {
-  content: ""; }
-
-.fa-star-half-empty:before,
-.fa-star-half-full:before,
-.fa-star-half-o:before {
-  content: ""; }
-
-.fa-location-arrow:before {
-  content: ""; }
-
-.fa-crop:before {
-  content: ""; }
-
-.fa-code-fork:before {
-  content: ""; }
-
-.fa-unlink:before,
-.fa-chain-broken:before {
-  content: ""; }
-
-.fa-question:before {
-  content: ""; }
-
-.fa-info:before {
-  content: ""; }
-
-.fa-exclamation:before {
-  content: ""; }
-
-.fa-superscript:before {
-  content: ""; }
-
-.fa-subscript:before {
-  content: ""; }
-
-.fa-eraser:before {
-  content: ""; }
-
-.fa-puzzle-piece:before {
-  content: ""; }
-
-.fa-microphone:before {
-  content: ""; }
-
-.fa-microphone-slash:before {
-  content: ""; }
-
-.fa-shield:before {
-  content: ""; }
-
-.fa-calendar-o:before {
-  content: ""; }
-
-.fa-fire-extinguisher:before {
-  content: ""; }
-
-.fa-rocket:before {
-  content: ""; }
-
-.fa-maxcdn:before {
-  content: ""; }
-
-.fa-chevron-circle-left:before {
-  content: ""; }
-
-.fa-chevron-circle-right:before {
-  content: ""; }
-
-.fa-chevron-circle-up:before {
-  content: ""; }
-
-.fa-chevron-circle-down:before {
-  content: ""; }
-
-.fa-html5:before {
-  content: ""; }
-
-.fa-css3:before {
-  content: ""; }
-
-.fa-anchor:before {
-  content: ""; }
-
-.fa-unlock-alt:before {
-  content: ""; }
-
-.fa-bullseye:before {
-  content: ""; }
-
-.fa-ellipsis-h:before {
-  content: ""; }
-
-.fa-ellipsis-v:before {
-  content: ""; }
-
-.fa-rss-square:before {
-  content: ""; }
-
-.fa-play-circle:before {
-  content: ""; }
-
-.fa-ticket:before {
-  content: ""; }
-
-.fa-minus-square:before {
-  content: ""; }
-
-.fa-minus-square-o:before {
-  content: ""; }
-
-.fa-level-up:before {
-  content: ""; }
-
-.fa-level-down:before {
-  content: ""; }
-
-.fa-check-square:before {
-  content: ""; }
-
-.fa-pencil-square:before {
-  content: ""; }
-
-.fa-external-link-square:before {
-  content: ""; }
-
-.fa-share-square:before {
-  content: ""; }
-
-.fa-compass:before {
-  content: ""; }
-
-.fa-toggle-down:before,
-.fa-caret-square-o-down:before {
-  content: ""; }
-
-.fa-toggle-up:before,
-.fa-caret-square-o-up:before {
-  content: ""; }
-
-.fa-toggle-right:before,
-.fa-caret-square-o-right:before {
-  content: ""; }
-
-.fa-euro:before,
-.fa-eur:before {
-  content: ""; }
-
-.fa-gbp:before {
-  content: ""; }
-
-.fa-dollar:before,
-.fa-usd:before {
-  content: ""; }
-
-.fa-rupee:before,
-.fa-inr:before {
-  content: ""; }
-
-.fa-cny:before,
-.fa-rmb:before,
-.fa-yen:before,
-.fa-jpy:before {
-  content: ""; }
-
-.fa-ruble:before,
-.fa-rouble:before,
-.fa-rub:before {
-  content: ""; }
-
-.fa-won:before,
-.fa-krw:before {
-  content: ""; }
-
-.fa-bitcoin:before,
-.fa-btc:before {
-  content: ""; }
-
-.fa-file:before {
-  content: ""; }
-
-.fa-file-text:before {
-  content: ""; }
-
-.fa-sort-alpha-asc:before {
-  content: ""; }
-
-.fa-sort-alpha-desc:before {
-  content: ""; }
-
-.fa-sort-amount-asc:before {
-  content: ""; }
-
-.fa-sort-amount-desc:before {
-  content: ""; }
-
-.fa-sort-numeric-asc:before {
-  content: ""; }
-
-.fa-sort-numeric-desc:before {
-  content: ""; }
-
-.fa-thumbs-up:before {
-  content: ""; }
-
-.fa-thumbs-down:before {
-  content: ""; }
-
-.fa-youtube-square:before {
-  content: ""; }
-
-.fa-youtube:before {
-  content: ""; }
-
-.fa-xing:before {
-  content: ""; }
-
-.fa-xing-square:before {
-  content: ""; }
-
-.fa-youtube-play:before {
-  content: ""; }
-
-.fa-dropbox:before {
-  content: ""; }
-
-.fa-stack-overflow:before {
-  content: ""; }
-
-.fa-instagram:before {
-  content: ""; }
-
-.fa-flickr:before {
-  content: ""; }
-
-.fa-adn:before {
-  content: ""; }
-
-.fa-bitbucket:before {
-  content: ""; }
-
-.fa-bitbucket-square:before {
-  content: ""; }
-
-.fa-tumblr:before {
-  content: ""; }
-
-.fa-tumblr-square:before {
-  content: ""; }
-
-.fa-long-arrow-down:before {
-  content: ""; }
-
-.fa-long-arrow-up:before {
-  content: ""; }
-
-.fa-long-arrow-left:before {
-  content: ""; }
-
-.fa-long-arrow-right:before {
-  content: ""; }
-
-.fa-apple:before {
-  content: ""; }
-
-.fa-windows:before {
-  content: ""; }
-
-.fa-android:before {
-  content: ""; }
-
-.fa-linux:before {
-  content: ""; }
-
-.fa-dribbble:before {
-  content: ""; }
-
-.fa-skype:before {
-  content: ""; }
-
-.fa-foursquare:before {
-  content: ""; }
-
-.fa-trello:before {
-  content: ""; }
-
-.fa-female:before {
-  content: ""; }
-
-.fa-male:before {
-  content: ""; }
-
-.fa-gittip:before,
-.fa-gratipay:before {
-  content: ""; }
-
-.fa-sun-o:before {
-  content: ""; }
-
-.fa-moon-o:before {
-  content: ""; }
-
-.fa-archive:before {
-  content: ""; }
-
-.fa-bug:before {
-  content: ""; }
-
-.fa-vk:before {
-  content: ""; }
-
-.fa-weibo:before {
-  content: ""; }
-
-.fa-renren:before {
-  content: ""; }
-
-.fa-pagelines:before {
-  content: ""; }
-
-.fa-stack-exchange:before {
-  content: ""; }
-
-.fa-arrow-circle-o-right:before {
-  content: ""; }
-
-.fa-arrow-circle-o-left:before {
-  content: ""; }
-
-.fa-toggle-left:before,
-.fa-caret-square-o-left:before {
-  content: ""; }
-
-.fa-dot-circle-o:before {
-  content: ""; }
-
-.fa-wheelchair:before {
-  content: ""; }
-
-.fa-vimeo-square:before {
-  content: ""; }
-
-.fa-turkish-lira:before,
-.fa-try:before {
-  content: ""; }
-
-.fa-plus-square-o:before {
-  content: ""; }
-
-.fa-space-shuttle:before {
-  content: ""; }
-
-.fa-slack:before {
-  content: ""; }
-
-.fa-envelope-square:before {
-  content: ""; }
-
-.fa-wordpress:before {
-  content: ""; }
-
-.fa-openid:before {
-  content: ""; }
-
-.fa-institution:before,
-.fa-bank:before,
-.fa-university:before {
-  content: ""; }
-
-.fa-mortar-board:before,
-.fa-graduation-cap:before {
-  content: ""; }
-
-.fa-yahoo:before {
-  content: ""; }
-
-.fa-google:before {
-  content: ""; }
-
-.fa-reddit:before {
-  content: ""; }
-
-.fa-reddit-square:before {
-  content: ""; }
-
-.fa-stumbleupon-circle:before {
-  content: ""; }
-
-.fa-stumbleupon:before {
-  content: ""; }
-
-.fa-delicious:before {
-  content: ""; }
-
-.fa-digg:before {
-  content: ""; }
-
-.fa-pied-piper-pp:before {
-  content: ""; }
-
-.fa-pied-piper-alt:before {
-  content: ""; }
-
-.fa-drupal:before {
-  content: ""; }
-
-.fa-joomla:before {
-  content: ""; }
-
-.fa-language:before {
-  content: ""; }
-
-.fa-fax:before {
-  content: ""; }
-
-.fa-building:before {
-  content: ""; }
-
-.fa-child:before {
-  content: ""; }
-
-.fa-paw:before {
-  content: ""; }
-
-.fa-spoon:before {
-  content: ""; }
-
-.fa-cube:before {
-  content: ""; }
-
-.fa-cubes:before {
-  content: ""; }
-
-.fa-behance:before {
-  content: ""; }
-
-.fa-behance-square:before {
-  content: ""; }
-
-.fa-steam:before {
-  content: ""; }
-
-.fa-steam-square:before {
-  content: ""; }
-
-.fa-recycle:before {
-  content: ""; }
-
-.fa-automobile:before,
-.fa-car:before {
-  content: ""; }
-
-.fa-cab:before,
-.fa-taxi:before {
-  content: ""; }
-
-.fa-tree:before {
-  content: ""; }
-
-.fa-spotify:before {
-  content: ""; }
-
-.fa-deviantart:before {
-  content: ""; }
-
-.fa-soundcloud:before {
-  content: ""; }
-
-.fa-database:before {
-  content: ""; }
-
-.fa-file-pdf-o:before {
-  content: ""; }
-
-.fa-file-word-o:before {
-  content: ""; }
-
-.fa-file-excel-o:before {
-  content: ""; }
-
-.fa-file-powerpoint-o:before {
-  content: ""; }
-
-.fa-file-photo-o:before,
-.fa-file-picture-o:before,
-.fa-file-image-o:before {
-  content: ""; }
-
-.fa-file-zip-o:before,
-.fa-file-archive-o:before {
-  content: ""; }
-
-.fa-file-sound-o:before,
-.fa-file-audio-o:before {
-  content: ""; }
-
-.fa-file-movie-o:before,
-.fa-file-video-o:before {
-  content: ""; }
-
-.fa-file-code-o:before {
-  content: ""; }
-
-.fa-vine:before {
-  content: ""; }
-
-.fa-codepen:before {
-  content: ""; }
-
-.fa-jsfiddle:before {
-  content: ""; }
-
-.fa-life-bouy:before,
-.fa-life-buoy:before,
-.fa-life-saver:before,
-.fa-support:before,
-.fa-life-ring:before {
-  content: ""; }
-
-.fa-circle-o-notch:before {
-  content: ""; }
-
-.fa-ra:before,
-.fa-resistance:before,
-.fa-rebel:before {
-  content: ""; }
-
-.fa-ge:before,
-.fa-empire:before {
-  content: ""; }
-
-.fa-git-square:before {
-  content: ""; }
-
-.fa-git:before {
-  content: ""; }
-
-.fa-y-combinator-square:before,
-.fa-yc-square:before,
-.fa-hacker-news:before {
-  content: ""; }
-
-.fa-tencent-weibo:before {
-  content: ""; }
-
-.fa-qq:before {
-  content: ""; }
-
-.fa-wechat:before,
-.fa-weixin:before {
-  content: ""; }
-
-.fa-send:before,
-.fa-paper-plane:before {
-  content: ""; }
-
-.fa-send-o:before,
-.fa-paper-plane-o:before {
-  content: ""; }
-
-.fa-history:before {
-  content: ""; }
-
-.fa-circle-thin:before {
-  content: ""; }
-
-.fa-header:before {
-  content: ""; }
-
-.fa-paragraph:before {
-  content: ""; }
-
-.fa-sliders:before {
-  content: ""; }
-
-.fa-share-alt:before {
-  content: ""; }
-
-.fa-share-alt-square:before {
-  content: ""; }
-
-.fa-bomb:before {
-  content: ""; }
-
-.fa-soccer-ball-o:before,
-.fa-futbol-o:before {
-  content: ""; }
-
-.fa-tty:before {
-  content: ""; }
-
-.fa-binoculars:before {
-  content: ""; }
-
-.fa-plug:before {
-  content: ""; }
-
-.fa-slideshare:before {
-  content: ""; }
-
-.fa-twitch:before {
-  content: ""; }
-
-.fa-yelp:before {
-  content: ""; }
-
-.fa-newspaper-o:before {
-  content: ""; }
-
-.fa-wifi:before {
-  content: ""; }
-
-.fa-calculator:before {
-  content: ""; }
-
-.fa-paypal:before {
-  content: ""; }
-
-.fa-google-wallet:before {
-  content: ""; }
-
-.fa-cc-visa:before {
-  content: ""; }
-
-.fa-cc-mastercard:before {
-  content: ""; }
-
-.fa-cc-discover:before {
-  content: ""; }
-
-.fa-cc-amex:before {
-  content: ""; }
-
-.fa-cc-paypal:before {
-  content: ""; }
-
-.fa-cc-stripe:before {
-  content: ""; }
-
-.fa-bell-slash:before {
-  content: ""; }
-
-.fa-bell-slash-o:before {
-  content: ""; }
-
-.fa-trash:before {
-  content: ""; }
-
-.fa-copyright:before {
-  content: ""; }
-
-.fa-at:before {
-  content: ""; }
-
-.fa-eyedropper:before {
-  content: ""; }
-
-.fa-paint-brush:before {
-  content: ""; }
-
-.fa-birthday-cake:before {
-  content: ""; }
-
-.fa-area-chart:before {
-  content: ""; }
-
-.fa-pie-chart:before {
-  content: ""; }
-
-.fa-line-chart:before {
-  content: ""; }
-
-.fa-lastfm:before {
-  content: ""; }
-
-.fa-lastfm-square:before {
-  content: ""; }
-
-.fa-toggle-off:before {
-  content: ""; }
-
-.fa-toggle-on:before {
-  content: ""; }
-
-.fa-bicycle:before {
-  content: ""; }
-
-.fa-bus:before {
-  content: ""; }
-
-.fa-ioxhost:before {
-  content: ""; }
-
-.fa-angellist:before {
-  content: ""; }
-
-.fa-cc:before {
-  content: ""; }
-
-.fa-shekel:before,
-.fa-sheqel:before,
-.fa-ils:before {
-  content: ""; }
-
-.fa-meanpath:before {
-  content: ""; }
-
-.fa-buysellads:before {
-  content: ""; }
-
-.fa-connectdevelop:before {
-  content: ""; }
-
-.fa-dashcube:before {
-  content: ""; }
-
-.fa-forumbee:before {
-  content: ""; }
-
-.fa-leanpub:before {
-  content: ""; }
-
-.fa-sellsy:before {
-  content: ""; }
-
-.fa-shirtsinbulk:before {
-  content: ""; }
-
-.fa-simplybuilt:before {
-  content: ""; }
-
-.fa-skyatlas:before {
-  content: ""; }
-
-.fa-cart-plus:before {
-  content: ""; }
-
-.fa-cart-arrow-down:before {
-  content: ""; }
-
-.fa-diamond:before {
-  content: ""; }
-
-.fa-ship:before {
-  content: ""; }
-
-.fa-user-secret:before {
-  content: ""; }
-
-.fa-motorcycle:before {
-  content: ""; }
-
-.fa-street-view:before {
-  content: ""; }
-
-.fa-heartbeat:before {
-  content: ""; }
-
-.fa-venus:before {
-  content: ""; }
-
-.fa-mars:before {
-  content: ""; }
-
-.fa-mercury:before {
-  content: ""; }
-
-.fa-intersex:before,
-.fa-transgender:before {
-  content: ""; }
-
-.fa-transgender-alt:before {
-  content: ""; }
-
-.fa-venus-double:before {
-  content: ""; }
-
-.fa-mars-double:before {
-  content: ""; }
-
-.fa-venus-mars:before {
-  content: ""; }
-
-.fa-mars-stroke:before {
-  content: ""; }
-
-.fa-mars-stroke-v:before {
-  content: ""; }
-
-.fa-mars-stroke-h:before {
-  content: ""; }
-
-.fa-neuter:before {
-  content: ""; }
-
-.fa-genderless:before {
-  content: ""; }
-
-.fa-facebook-official:before {
-  content: ""; }
-
-.fa-pinterest-p:before {
-  content: ""; }
-
-.fa-whatsapp:before {
-  content: ""; }
-
-.fa-server:before {
-  content: ""; }
-
-.fa-user-plus:before {
-  content: ""; }
-
-.fa-user-times:before {
-  content: ""; }
-
-.fa-hotel:before,
-.fa-bed:before {
-  content: ""; }
-
-.fa-viacoin:before {
-  content: ""; }
-
-.fa-train:before {
-  content: ""; }
-
-.fa-subway:before {
-  content: ""; }
-
-.fa-medium:before {
-  content: ""; }
-
-.fa-yc:before,
-.fa-y-combinator:before {
-  content: ""; }
-
-.fa-optin-monster:before {
-  content: ""; }
-
-.fa-opencart:before {
-  content: ""; }
-
-.fa-expeditedssl:before {
-  content: ""; }
-
-.fa-battery-4:before,
-.fa-battery:before,
-.fa-battery-full:before {
-  content: ""; }
-
-.fa-battery-3:before,
-.fa-battery-three-quarters:before {
-  content: ""; }
-
-.fa-battery-2:before,
-.fa-battery-half:before {
-  content: ""; }
-
-.fa-battery-1:before,
-.fa-battery-quarter:before {
-  content: ""; }
-
-.fa-battery-0:before,
-.fa-battery-empty:before {
-  content: ""; }
-
-.fa-mouse-pointer:before {
-  content: ""; }
-
-.fa-i-cursor:before {
-  content: ""; }
-
-.fa-object-group:before {
-  content: ""; }
-
-.fa-object-ungroup:before {
-  content: ""; }
-
-.fa-sticky-note:before {
-  content: ""; }
-
-.fa-sticky-note-o:before {
-  content: ""; }
-
-.fa-cc-jcb:before {
-  content: ""; }
-
-.fa-cc-diners-club:before {
-  content: ""; }
-
-.fa-clone:before {
-  content: ""; }
-
-.fa-balance-scale:before {
-  content: ""; }
-
-.fa-hourglass-o:before {
-  content: ""; }
-
-.fa-hourglass-1:before,
-.fa-hourglass-start:before {
-  content: ""; }
-
-.fa-hourglass-2:before,
-.fa-hourglass-half:before {
-  content: ""; }
-
-.fa-hourglass-3:before,
-.fa-hourglass-end:before {
-  content: ""; }
-
-.fa-hourglass:before {
-  content: ""; }
-
-.fa-hand-grab-o:before,
-.fa-hand-rock-o:before {
-  content: ""; }
-
-.fa-hand-stop-o:before,
-.fa-hand-paper-o:before {
-  content: ""; }
-
-.fa-hand-scissors-o:before {
-  content: ""; }
-
-.fa-hand-lizard-o:before {
-  content: ""; }
-
-.fa-hand-spock-o:before {
-  content: ""; }
-
-.fa-hand-pointer-o:before {
-  content: ""; }
-
-.fa-hand-peace-o:before {
-  content: ""; }
-
-.fa-trademark:before {
-  content: ""; }
-
-.fa-registered:before {
-  content: ""; }
-
-.fa-creative-commons:before {
-  content: ""; }
-
-.fa-gg:before {
-  content: ""; }
-
-.fa-gg-circle:before {
-  content: ""; }
-
-.fa-tripadvisor:before {
-  content: ""; }
-
-.fa-odnoklassniki:before {
-  content: ""; }
-
-.fa-odnoklassniki-square:before {
-  content: ""; }
-
-.fa-get-pocket:before {
-  content: ""; }
-
-.fa-wikipedia-w:before {
-  content: ""; }
-
-.fa-safari:before {
-  content: ""; }
-
-.fa-chrome:before {
-  content: ""; }
-
-.fa-firefox:before {
-  content: ""; }
-
-.fa-opera:before {
-  content: ""; }
-
-.fa-internet-explorer:before {
-  content: ""; }
-
-.fa-tv:before,
-.fa-television:before {
-  content: ""; }
-
-.fa-contao:before {
-  content: ""; }
-
-.fa-500px:before {
-  content: ""; }
-
-.fa-amazon:before {
-  content: ""; }
-
-.fa-calendar-plus-o:before {
-  content: ""; }
-
-.fa-calendar-minus-o:before {
-  content: ""; }
-
-.fa-calendar-times-o:before {
-  content: ""; }
-
-.fa-calendar-check-o:before {
-  content: ""; }
-
-.fa-industry:before {
-  content: ""; }
-
-.fa-map-pin:before {
-  content: ""; }
-
-.fa-map-signs:before {
-  content: ""; }
-
-.fa-map-o:before {
-  content: ""; }
-
-.fa-map:before {
-  content: ""; }
-
-.fa-commenting:before {
-  content: ""; }
-
-.fa-commenting-o:before {
-  content: ""; }
-
-.fa-houzz:before {
-  content: ""; }
-
-.fa-vimeo:before {
-  content: ""; }
-
-.fa-black-tie:before {
-  content: ""; }
-
-.fa-fonticons:before {
-  content: ""; }
-
-.fa-reddit-alien:before {
-  content: ""; }
-
-.fa-edge:before {
-  content: ""; }
-
-.fa-credit-card-alt:before {
-  content: ""; }
-
-.fa-codiepie:before {
-  content: ""; }
-
-.fa-modx:before {
-  content: ""; }
-
-.fa-fort-awesome:before {
-  content: ""; }
-
-.fa-usb:before {
-  content: ""; }
-
-.fa-product-hunt:before {
-  content: ""; }
-
-.fa-mixcloud:before {
-  content: ""; }
-
-.fa-scribd:before {
-  content: ""; }
-
-.fa-pause-circle:before {
-  content: ""; }
-
-.fa-pause-circle-o:before {
-  content: ""; }
-
-.fa-stop-circle:before {
-  content: ""; }
-
-.fa-stop-circle-o:before {
-  content: ""; }
-
-.fa-shopping-bag:before {
-  content: ""; }
-
-.fa-shopping-basket:before {
-  content: ""; }
-
-.fa-hashtag:before {
-  content: ""; }
-
-.fa-bluetooth:before {
-  content: ""; }
-
-.fa-bluetooth-b:before {
-  content: ""; }
-
-.fa-percent:before {
-  content: ""; }
-
-.fa-gitlab:before {
-  content: ""; }
-
-.fa-wpbeginner:before {
-  content: ""; }
-
-.fa-wpforms:before {
-  content: ""; }
-
-.fa-envira:before {
-  content: ""; }
-
-.fa-universal-access:before {
-  content: ""; }
-
-.fa-wheelchair-alt:before {
-  content: ""; }
-
-.fa-question-circle-o:before {
-  content: ""; }
-
-.fa-blind:before {
-  content: ""; }
-
-.fa-audio-description:before {
-  content: ""; }
-
-.fa-volume-control-phone:before {
-  content: ""; }
-
-.fa-braille:before {
-  content: ""; }
-
-.fa-assistive-listening-systems:before {
-  content: ""; }
-
-.fa-asl-interpreting:before,
-.fa-american-sign-language-interpreting:before {
-  content: ""; }
-
-.fa-deafness:before,
-.fa-hard-of-hearing:before,
-.fa-deaf:before {
-  content: ""; }
-
-.fa-glide:before {
-  content: ""; }
-
-.fa-glide-g:before {
-  content: ""; }
-
-.fa-signing:before,
-.fa-sign-language:before {
-  content: ""; }
-
-.fa-low-vision:before {
-  content: ""; }
-
-.fa-viadeo:before {
-  content: ""; }
-
-.fa-viadeo-square:before {
-  content: ""; }
-
-.fa-snapchat:before {
-  content: ""; }
-
-.fa-snapchat-ghost:before {
-  content: ""; }
-
-.fa-snapchat-square:before {
-  content: ""; }
-
-.fa-pied-piper:before {
-  content: ""; }
-
-.fa-first-order:before {
-  content: ""; }
-
-.fa-yoast:before {
-  content: ""; }
-
-.fa-themeisle:before {
-  content: ""; }
-
-.fa-google-plus-circle:before,
-.fa-google-plus-official:before {
-  content: ""; }
-
-.fa-fa:before,
-.fa-font-awesome:before {
-  content: ""; }
-
-.fa-handshake-o:before {
-  content: ""; }
-
-.fa-envelope-open:before {
-  content: ""; }
-
-.fa-envelope-open-o:before {
-  content: ""; }
-
-.fa-linode:before {
-  content: ""; }
-
-.fa-address-book:before {
-  content: ""; }
-
-.fa-address-book-o:before {
-  content: ""; }
-
-.fa-vcard:before,
-.fa-address-card:before {
-  content: ""; }
-
-.fa-vcard-o:before,
-.fa-address-card-o:before {
-  content: ""; }
-
-.fa-user-circle:before {
-  content: ""; }
-
-.fa-user-circle-o:before {
-  content: ""; }
-
-.fa-user-o:before {
-  content: ""; }
-
-.fa-id-badge:before {
-  content: ""; }
-
-.fa-drivers-license:before,
-.fa-id-card:before {
-  content: ""; }
-
-.fa-drivers-license-o:before,
-.fa-id-card-o:before {
-  content: ""; }
-
-.fa-quora:before {
-  content: ""; }
-
-.fa-free-code-camp:before {
-  content: ""; }
-
-.fa-telegram:before {
-  content: ""; }
-
-.fa-thermometer-4:before,
-.fa-thermometer:before,
-.fa-thermometer-full:before {
-  content: ""; }
-
-.fa-thermometer-3:before,
-.fa-thermometer-three-quarters:before {
-  content: ""; }
-
-.fa-thermometer-2:before,
-.fa-thermometer-half:before {
-  content: ""; }
-
-.fa-thermometer-1:before,
-.fa-thermometer-quarter:before {
-  content: ""; }
-
-.fa-thermometer-0:before,
-.fa-thermometer-empty:before {
-  content: ""; }
-
-.fa-shower:before {
-  content: ""; }
-
-.fa-bathtub:before,
-.fa-s15:before,
-.fa-bath:before {
-  content: ""; }
-
-.fa-podcast:before {
-  content: ""; }
-
-.fa-window-maximize:before {
-  content: ""; }
-
-.fa-window-minimize:before {
-  content: ""; }
-
-.fa-window-restore:before {
-  content: ""; }
-
-.fa-times-rectangle:before,
-.fa-window-close:before {
-  content: ""; }
-
-.fa-times-rectangle-o:before,
-.fa-window-close-o:before {
-  content: ""; }
-
-.fa-bandcamp:before {
-  content: ""; }
-
-.fa-grav:before {
-  content: ""; }
-
-.fa-etsy:before {
-  content: ""; }
-
-.fa-imdb:before {
-  content: ""; }
-
-.fa-ravelry:before {
-  content: ""; }
-
-.fa-eercast:before {
-  content: ""; }
-
-.fa-microchip:before {
-  content: ""; }
-
-.fa-snowflake-o:before {
-  content: ""; }
-
-.fa-superpowers:before {
-  content: ""; }
-
-.fa-wpexplorer:before {
-  content: ""; }
-
-.fa-meetup:before {
-  content: ""; }
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0; }
-
-.sr-only-focusable:active, .sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto; }
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased; }
 
 /* @file
  * Common low level styles
@@ -8945,7 +6826,7 @@ label {
   color: #039be5; }
 
 .button-action:before {
-  content: "";
+  content: 'add';
   color: #FFFFFF;
   margin: 0 10px 0 0px; }
 
@@ -8955,24 +6836,16 @@ label {
 .button-link:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .compact-link a:hover {
   background: #eeeeee; }
 
-.fa-standard, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .dropdown-button:after, .dropdown-button.active:after, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .collection .collection-item > .item-list .collection .collection-item:before, .region-title__action .button:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
-  vertical-align: top;
-  display: inline-block;
-  font-family: 'FontAwesome';
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased; }
-
-.fa-collapse-right, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper summary:after {
-  content: "";
+.collapse-right, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, details.form-wrapper summary:after {
+  content: 'keyboard_arrow_right';
   right: 20px;
   position: absolute;
   color: #9e9e9e;
   font-weight: 700;
   font-size: 1.5em; }
 
-.fa-collapse-down, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper[open] > summary:after {
-  content: "";
+.collapse-down, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper[open] > summary:after {
+  content: 'keyboard_arrow_down';
   right: 20px;
   color: #9e9e9e;
   position: absolute;
@@ -9056,12 +6929,12 @@ details {
 .collapsible li, details.form-wrapper li {
   position: relative; }
   .collapsible li.active .collapsible-header.with-arrows:before, details.form-wrapper li.active .collapsible-header.with-arrows:before, .collapsible li.active details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li.active summary.with-arrows:before, details.form-wrapper li.active summary.with-arrows:before {
-    content: "";
+    content: 'keyboard_arrow_down';
     padding: 0px 5px; }
   .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after {
     top: 0.5em; }
   .collapsible li .collapsible-header.with-arrows:before, details.form-wrapper li .collapsible-header.with-arrows:before, .collapsible li details.form-wrapper summary.with-arrows:before, details.form-wrapper .collapsible li summary.with-arrows:before, details.form-wrapper li summary.with-arrows:before {
-    content: "";
+    content: 'keyboard_arrow_right';
     padding: 0px 5px; }
   .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after {
     top: 0.5em; }
@@ -9248,11 +7121,11 @@ table {
     text-decoration: none; }
   .dropdown-button:after {
     margin-left: 10px;
-    content: "";
+    content: 'keyboard_arrow_down';
     display: inline; }
   .dropdown-button.active:after {
     margin-left: 10px;
-    content: "";
+    content: 'keyboard_arrow_up';
     display: inline; }
   .dropdown-button.ellipsis-icon:after {
     content: '';
@@ -9277,11 +7150,11 @@ span.theme-status-indicator {
   z-index: 2; }
 
 .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before {
-  content: "";
+  content: 'keyboard_arrow_right';
   padding-right: 5px; }
 
 .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before {
-  content: ""; }
+  content: 'keyboard_arrow_down'; }
 
 .details-item .collapsible-body {
   padding: 15px; }
@@ -9299,13 +7172,13 @@ table thead th {
 .tablesort.tablesort--asc {
   background-image: none; }
   .tablesort.tablesort--asc:after {
-    content: "";
+    content: 'keyboard_arrow_down';
     padding-left: 5px; }
 
 .tablesort.tablesort--desc {
   background-image: none; }
   .tablesort.tablesort--desc:after {
-    content: "";
+    content: 'keyboard_arrow_right';
     padding-left: 5px; }
 
 tr.drag {
@@ -9329,7 +7202,7 @@ tr.field-plugin-settings-editing {
   .collection .collection-item > .item-list .collection .collection-item {
     border: none; }
     .collection .collection-item > .item-list .collection .collection-item:before {
-      content: "";
+      content: 'keyboard_arrow_right';
       padding-right: 5px; }
 
 .collection.item-list__comma-list {
@@ -9405,7 +7278,7 @@ body.material_login {
   background: #f5f5f5; }
 
 .region-title__action .button:after {
-  content: ""; }
+  content: 'add'; }
 
 .item-list--comma-list {
   margin: 0.5em 0; }
@@ -9593,7 +7466,7 @@ details.form-wrapper {
     vertical-align: baseline; }
 
 .entity-meta__last-saved h4:before {
-  content: ""; }
+  content: 'date_range'; }
 
 .form-type-date input.form-date {
   min-width: 175px; }
@@ -9606,7 +7479,7 @@ details.form-wrapper {
   padding: 0 10px; }
 
 .entity-meta__author h4:before {
-  content: ""; }
+  content: 'person'; }
 
 .ui-autocomplete {
   position: absolute;
@@ -9702,7 +7575,7 @@ details.form-wrapper {
     padding-left: 0; }
     .input-field .search-wrapper input[type=search]:focus {
       border-bottom: 1px solid #26a69a; }
-  .input-field .search-wrapper i.fa-search.prefix {
+  .input-field .search-wrapper i.prefix {
     font-size: 1.5rem;
     margin-top: 12px; }
 
@@ -9807,7 +7680,7 @@ fieldset.form-wrapper span.fieldset-legend {
       vertical-align: middle;
       line-height: 16px; }
     .breadcrumb-nav ol li:before {
-      content: "";
+      content: 'keyboard_arrow_right';
       font-size: 23px;
       margin: 0px 10px 0px 8px;
       line-height: 16px;
@@ -9821,7 +7694,7 @@ fieldset.form-wrapper span.fieldset-legend {
   max-width: 20px; }
   .breadcrumb-nav ol li:first-child a:before {
     float: left;
-    content: "";
+    content: 'home';
     display: inline-block;
     text-indent: 0;
     visibility: visible; }
@@ -10211,14 +8084,14 @@ details.views-display-column.form-wrapper {
   margin-bottom: 1em; }
 
 .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before {
-  content: "";
+  content: 'check';
   padding-right: 1em; }
 
 .messages--status.messages-clone .card-content .message-header .card-title:before {
-  content: ""; }
+  content: 'check'; }
 
 .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before {
-  content: "";
+  content: 'warning';
   padding-right: 1em; }
 
 .messages--warning, .messages--status, .messages--error {
@@ -10226,14 +8099,14 @@ details.views-display-column.form-wrapper {
   box-shadow: none !important; }
 
 .messages--warning.messages-clone .card-content .message-header .card-title:before {
-  content: ""; }
+  content: 'warning'; }
 
 .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
-  content: "";
+  content: 'error';
   padding-right: 1em; }
 
 .messages--error.messages-clone .card-content .message-header .card-title:before {
-  content: ""; }
+  content: 'error'; }
 
 .messages-clone {
   background: #fcfcfc !important; }
@@ -10502,7 +8375,7 @@ tr .ajax-progress-throbber .throbber {
   width: 10%;
   height: 20px; }
   .color-palette .color-palette__hook.is-up:before {
-    content: "";
+    content: 'link';
     position: absolute;
     display: inline-block;
     text-indent: 0; }
@@ -10519,13 +8392,13 @@ tr .ajax-progress-throbber .throbber {
   position: relative;
   text-indent: -9999px; }
   .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before {
-    content: "";
+    content: 'lock_outline';
     position: absolute;
     left: 0;
     display: inline-block;
     text-indent: 0; }
   .color-palette button.color-palette__lock.is-unlocked:before, .color-palette .color-palette__lock.is-unlocked:before {
-    content: ""; }
+    content: 'lock_open'; }
 
 /* @file
  * Manage contrib patterns for common big modules

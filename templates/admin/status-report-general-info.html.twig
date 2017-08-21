@@ -34,14 +34,14 @@
   <div class="system-status-general-info__item col m4 s12">
     <div class="card x-small">
       <div class="card-content">
-        <span class="system-status-general-info__item-title card-title"><i class="fa fa-drupal" aria-hidden="true"></i> {{ 'Drupal Version'|t }}</span><p> {{ drupal.value }} {% if drupal.description %} {{ drupal.description }} {% endif %}</p>
+        <span class="system-status-general-info__item-title card-title"><i class="material-icons" aria-hidden="true">invert_colors</i> {{ 'Drupal Version'|t }}</span><p> {{ drupal.value }} {% if drupal.description %} {{ drupal.description }} {% endif %}</p>
       </div>
     </div>
   </div>
   <div class="system-status-general-info__item col s12 m8">
     <div class="card x-small">
       <div class="card-content">
-        <span class="system-status-general-info__item-title card-title"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> {{ 'Last Cron Run'|t }}</span> <p>{{ cron.value }} {% if cron.run_cron %} {{ cron.run_cron }} {% endif %} {% if cron.description %} {{ cron.description }} {% endif %}</p>
+        <span class="system-status-general-info__item-title card-title"><i class="material-icons" aria-hidden="true">update</i> {{ 'Last Cron Run'|t }}</span> <p>{{ cron.value }} {% if cron.run_cron %} {{ cron.run_cron }} {% endif %} {% if cron.description %} {{ cron.description }} {% endif %}</p>
       </div>
     </div>
   </div>
@@ -50,14 +50,14 @@
   <div class="system-status-general-info__item col s12 m4">
     <div class="card small">
       <div class="card-content">
-        <span class="system-status-general-info__item-title card-title"><i class="fa fa-server" aria-hidden="true"></i> {{ 'Web Server'|t }}</span> <p>{{ webserver.value }} {% if webserver.description %} {{ webserver.description }} {% endif %}</p>
+        <span class="system-status-general-info__item-title card-title"><i class="material-icons" aria-hidden="true">cloud</i> {{ 'Web Server'|t }}</span> <p>{{ webserver.value }} {% if webserver.description %} {{ webserver.description }} {% endif %}</p>
       </div>
     </div>
   </div>
   <div class="system-status-general-info__item col s12 m4">
     <div class="card small">
       <div class="card-content">
-        <span class="system-status-general-info__item-title card-title"><i class="fa fa-code" aria-hidden="true"></i> {{ 'PHP'|t }}</span>
+        <span class="system-status-general-info__item-title card-title"><i class="material-icons" aria-hidden="true">code</i> {{ 'PHP'|t }}</span>
         <p><strong>{{ 'Version'|t }}</strong></p>{{ php.value }} {% if php.description %} {{ php.description }} {% endif %}
         <hr />
         <p><strong>{{ 'Memory limit'|t }}</strong></p>{{ php_memory_limit.value }} {% if php_memory_limit.description %} {{ php_memory_limit.description }} {% endif %}
@@ -67,7 +67,7 @@
   <div class="system-status-general-info__item col s12 m4">
     <div class="card small">
       <div class="card-content">
-        <span class="system-status-general-info__item-title card-title"><i class="fa fa-database" aria-hidden="true"></i>
+        <span class="system-status-general-info__item-title card-title"><i class="material-icons" aria-hidden="true">view_list</i>
 {{ 'Database'|t }}</span>
         <p><strong>{{ 'Version'|t }}</strong></p>{{ database_system_version.value }} {% if database_system_version.description %} {{ database_system_version.description }} {% endif %}
         <hr />

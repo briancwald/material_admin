@@ -197,15 +197,15 @@ table {
     @extend .lighten-5;
   }
   &:after {
-    @extend .fa-standard;
+    @extend .material-icons;
     margin-left: 10px;
-    content: $fa-var-caret-down;
+    content: 'keyboard_arrow_down';
     display: inline;
   }
   &.active:after {
-    @extend .fa-standard;
+    @extend .material-icons;
     margin-left: 10px;
-    content: $fa-var-caret-up;
+    content: 'keyboard_arrow_up';
     display: inline;
   }
   &.ellipsis-icon:after {
@@ -257,14 +257,14 @@ span.theme-status-indicator {
 .details-item {
   .collapsible-header {
     &:before {
-      @extend .fa-standard;
-      content: $fa-var-chevron-right;
+      @extend .material-icons;
+      content: 'keyboard_arrow_right';
       padding-right: 5px;
     }
     &.active {
       &:before {
-        @extend .fa-standard;
-        content: $fa-var-chevron-down;
+        @extend .material-icons;
+        content: 'keyboard_arrow_down';
       }
     }
   }
@@ -298,16 +298,16 @@ table thead th {
   &.tablesort--asc {
     background-image: none;
     &:after {
-      @extend .fa-standard;
-      content: $fa-var-arrow-down;
+      @extend .material-icons;
+      content: 'keyboard_arrow_down';
       padding-left: 5px;
     }
   }
   &.tablesort--desc {
     background-image: none;
     &:after {
-      @extend .fa-standard;
-      content: $fa-var-arrow-up;
+      @extend .material-icons;
+      content: 'keyboard_arrow_right';
       padding-left: 5px;
     }
   }
@@ -348,8 +348,8 @@ tr.field-plugin-settings-editing {
     border: none;
     .collection-item {
       &:before {
-        content: $fa-var-chevron-right;
-        @extend .fa-standard;
+        content: 'keyboard_arrow_right';
+        @extend .material-icons;
         padding-right: 5px;
       }
       border: none;
@@ -482,8 +482,8 @@ body.material_login {
   .button {
     @extend .btn-flat;
     &:after {
-      @extend .fa-standard;
-      content: $fa-var-plus;
+      @extend .material-icons;
+      content: 'add';
     }
   }
 }

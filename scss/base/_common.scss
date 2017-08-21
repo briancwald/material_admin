@@ -148,8 +148,8 @@ label {
   .accent-2,
   .white-text;
   &:before {
-    @extend .fa-standard;
-    content: $fa-var-plus;
+    @extend .material-icons;
+    content: 'add';
     color: color("shades", "white");
     margin: 0 10px 0 0px;
   }
@@ -170,17 +170,8 @@ label {
   }
 }
 
-.fa-standard {
-  vertical-align: top;
-  display: inline-block;
-  font-family: 'FontAwesome';
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-.fa-collapse-right {
-  content: $fa-var-angle-right;
+.collapse-right {
+  content: 'keyboard_arrow_right';
   right: 20px;
   position: absolute;
   color: color("grey", "base");
@@ -188,8 +179,8 @@ label {
   font-size: 1.5em;
 }
 
-.fa-collapse-down {
-  content: $fa-var-angle-down;
+.collapse-down {
+  content: 'keyboard_arrow_down';
   right: 20px;
   color: color("grey", "base");
   position: absolute;
@@ -311,30 +302,30 @@ details {
   &.active {
     .collapsible-header.with-arrows {
       &:before {
-        @extend .fa-standard;
-        content: $fa-var-angle-down;
+        @extend .material-icons;
+        content: 'keyboard_arrow_down';
         padding: 0px 5px;
       }
     }
     .collapsible-header.right-arrows {
       &:after {
-        @extend .fa-standard,
-        .fa-collapse-down;
+        @extend .material-icons,
+        .collapse-down;
         top: 0.5em;
       }
     }
   }
   .collapsible-header.with-arrows {
     &:before {
-      @extend .fa-standard;
-      content: $fa-var-angle-right;
+      @extend .material-icons;
+      content: 'keyboard_arrow_right';
       padding: 0px 5px;
     }
   }
   .collapsible-header.right-arrows {
     &:after {
-      @extend .fa-standard,
-      .fa-collapse-right;
+      @extend .material-icons,
+      .collapse-right;
       top: 0.5em;
     }
   }

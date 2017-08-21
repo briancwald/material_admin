@@ -27,8 +27,8 @@
     height:20px;
     &.is-up {
       &:before {
-      content: $fa-var-link;
-      @extend .fa-standard;
+      content: 'link';
+      @extend .material-icons;
       position: absolute;
       display: inline-block;
       text-indent: 0;
@@ -47,8 +47,8 @@
     position: relative;
     text-indent: -9999px;
     &:before {
-      content: $fa-var-lock;
-      @extend .fa-standard;
+      content: 'lock_outline';
+      @extend .material-icons;
       position: absolute;
       left: 0;
       display: inline-block;
@@ -56,7 +56,7 @@
     }
     &.is-unlocked {
       &:before {
-        content: $fa-var-unlock;
+        content: 'lock_open';
       }
     }
   }

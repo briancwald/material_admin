@@ -9,7 +9,6 @@ screenshot: images/screenshot.png
 
 libraries:
   - material_admin/global-styling
-  - material_admin/font-awesome
 
 #to-do: when all areas look good, remove this section and no longer inherit classy
 stylesheets-remove:

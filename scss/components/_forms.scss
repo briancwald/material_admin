@@ -231,11 +231,11 @@ details.form-wrapper {
     display: block;
   }
   &[open]>summary:after {
-    @extend .fa-standard, .fa-collapse-down;
+    @extend .material-icons, .collapse-down;
     line-height: 1em;
   }
   summary:after {
-    @extend .fa-standard, .fa-collapse-right;
+    @extend .material-icons, .collapse-right;
     line-height: 1em;
   }
 }
@@ -249,14 +249,14 @@ details.form-wrapper {
   font-weight: bold;
   &:before {
     padding-right: 10px;
-    @extend .fa-standard;
+    @extend .material-icons;
     vertical-align: baseline;
   }
 }
 
 .entity-meta__last-saved h4 {
   &:before {
-    content: $fa-var-calendar;
+    content: 'date_range';
   }
 }
 
@@ -277,7 +277,7 @@ details.form-wrapper {
 
 .entity-meta__author h4 {
   &:before {
-    content: $fa-var-user;
+    content: 'person';
   }
 }
 
@@ -414,7 +414,7 @@ a#edit-cancel {
         border-bottom: 1px solid color("teal", "lighten-1")
       }
     }
-    i.fa-search.prefix {
+    i.prefix {
       font-size: 1.5rem;
       margin-top: 12px;
     }
