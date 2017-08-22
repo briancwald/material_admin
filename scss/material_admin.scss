@@ -38,14 +38,13 @@
 @import "materialize-css/sass/components/date_picker/default.time";
 @import "materialize-css/sass/components/pulse";
 @import "materialize-css/sass/components/chips";
-
+@import "materialize-css/sass/components/icons-material-design";
 
 // Tablesaw
 @import "tablesaw/dist/stackonly/tablesaw.stackonly.scss";
 
-// Fonts -- using fontawesome instead of material because of the prebuilt sass variable components, which makes it
-// easier when you dont have full control over the HTML output.
-@import "base/fonts/font-awesome";
+// Fonts
+@import "base/fonts/materialicons";
 
 @import "base/common";
 @import "admin";

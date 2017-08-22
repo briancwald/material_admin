@@ -27,9 +27,9 @@
         @extend .white-text;
       }
       &:before {
-        content: $fa-var-angle-right;
+        content: 'keyboard_arrow_right';
         @extend .blue-text, .text-lighten-4;
-        @extend .fa-standard;
+        @extend .material-icons;
         font-size: 23px;
         margin: 0px 10px 0px 8px;
         line-height: 16px;
@@ -52,8 +52,8 @@
     max-width: 20px;
     &:before {
       float: left;
-      content: $fa-var-home;
-      @extend .fa-standard;
+      content: 'home';
+      @extend .material-icons;
       display: inline-block;
       text-indent: 0;
       visibility: visible;

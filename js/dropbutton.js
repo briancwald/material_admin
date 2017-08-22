@@ -18,7 +18,7 @@
           } else {
             btnClasses = 'dropdown-button ellipsis-icon btn grey lighten-3 grey-text text-darken-2';
           }
-          $dropbutton = $('<a class="' + btnClasses + '" href="#" data-constrainWidth="0"><i class="fa fa-clone" aria-hidden="true"></i></a>');
+          $dropbutton = $('<a class="' + btnClasses + '" href="#" data-constrainWidth="0"><i class="material-icons" aria-hidden="true">content_copy</i></a>');
           $(this).before($dropbutton);
         }
         $dropbutton.attr('data-activates', $(this).attr('id'));

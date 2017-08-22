@@ -53,7 +53,7 @@
     {%- if links.publish -%}
      <a class="{{ manage_btn_classses }}" href="#" data-constrainWidth="0">{% trans %}MANAGE{% endtrans %}</a>
      {%- else -%}
-     <a class="{{ btn_classses }}" href="#" data-constrainWidth="0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+     <a class="{{ btn_classses }}" href="#" data-constrainWidth="0"><i class="material-icons" aria-hidden="true">more_vert</i></a>
     {%- endif -%}
   <ul{{ attributes.addClass('dropdown-content') }}>
     {%- for item in links -%}

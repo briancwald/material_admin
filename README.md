@@ -55,6 +55,4 @@ Since this is just a POC, code is not very well organized and needs to be mature
 
 ## Meta
 
-- Icons: currently using font awesome because sass integration allows for simple integration in D8 admin methods -- but looking at google material icons it might work fine -- switch for consistency?
-
 - Grid: Implement a more structure grid system. The template structure in D8 has basically no notion of grid system. I have started to add in Materialize CSS very light grid system but it's awkward.
