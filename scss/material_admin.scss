@@ -46,17 +46,11 @@
 // Fonts
 @import "base/fonts/materialicons";
 
-@import "base/common";
+// Base files
+@import "base/base";
+
 @import "admin";
+
+// Component files
 @import "components/components";
-
-//overrides of core modules. Moved here to utilize sass and variables
-@import "base/overrides/autocomplete-loading.module";
-@import "base/overrides/ajax-progress.module";
-@import "base/overrides/dialog";
-@import "base/overrides/vertical-tabs";
-@import "base/overrides/color.admin";
-
-// There is no easy to to manage contrib beyond common drupal patterns, so this is attempt to manage common contrib styling
-@import "base/contrib";
 

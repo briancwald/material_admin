@@ -3,49 +3,6 @@
  *
  */
 
-//Header 
-.layout-container {
-  margin: 0;
-  padding: 0;
-}
-
-header.header-wrapper {
-  @extend .blue;
-  h1 {
-    @extend .white-text;
-    font-weight: 300;
-    font-size: 2rem;
-    margin: 2rem 0 2rem 0;
-    text-transform: capitalize;
-    @media #{$small-and-down} {
-      font-size: 1.5rem;
-      margin: 2rem 0 2rem 0;
-    }
-  }
-  .row.material-container {
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
-}
-
-.row.material-container {
-  padding: 20px 5px;
-}
-
-#block-material-admin-page-title h1.page-title {
-  em {
-    font-style: normal;
-  }
-  em:not(.placeholder) {
-    &:after {
-      content: " - ";
-    }
-  }
-}
-
-.utility-wrapper {
-  @extend .blue, .lighten-2, .z-depth-1;
-}
 
 a.modal-trigger {
   transition: color .3s ease;
@@ -68,9 +25,6 @@ a.modal-trigger {
   }
 }
 
-.region-header {
-  display: block;
-}
 
 .primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
   background-color: transparent!important;
