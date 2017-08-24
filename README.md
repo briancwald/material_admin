@@ -46,12 +46,13 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 ## Clean-up oganization To-Do
 Since this is just a POC, code is not very well organized and needs to be matured. here is what I see so far:
 
-- [ ] Make JS features optional in settings
-- [ ] Move SCSS out of admin.scss into sub components (e.g. navigation, buttons, forms (done), etc.)
-- [ ] Move preprocess functions into .inc files and out of .theme
+- [x] Make JS features optional in settings
+- [x] Move SCSS out of admin.scss into sub components (e.g. navigation, buttons, forms (done), etc.)
+- [x] Move preprocess functions into .inc files and out of .theme
 - [ ] Better way to handle Materialize CSS overrides
 - [ ] Remove Classy as a parent theme entirely?
 - [ ] Prod deployment packaging (Min, optimize, etc)
+- [ ] Code standards + Lint
 
 ## Meta
 
