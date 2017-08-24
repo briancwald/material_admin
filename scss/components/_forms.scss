@@ -16,6 +16,8 @@
   }
 }
 
+
+
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit;
@@ -55,6 +57,16 @@ textarea.materialize-textarea {
 .select-wrapper {
   max-width: 450px;
   width: 100%;
+  .caret {
+    visibility: hidden;
+    &:after {
+      @extend .material-icons;
+      content: 'arrow_drop_down';
+      visibility: visible;
+      font-size:2.5em;
+      right:0;
+    }
+  }
   .input.select-dropdown {
     max-width: inherit;
   }

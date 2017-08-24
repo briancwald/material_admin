@@ -35,6 +35,7 @@
     margin-left: 10px;
     content: 'keyboard_arrow_down';
     display: inline;
+    vertical-align: inherit;
   }
   &.active:after {
     @extend .material-icons;
