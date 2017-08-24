@@ -3,6 +3,15 @@
  * Additoinal dropbutton styling in _views.scss for specific view admin styling.
  *
  */
+//table dropdown
+.dropbutton-wrapper.dropbutton-single {
+  .edit {
+    a {
+      @extend .btn;
+      @extend .btn-flat;
+    }
+  }
+}
 
 .dropbutton-wrapper {
   display: inline-block;
@@ -22,15 +31,15 @@
     @extend .lighten-5;
   }
   &:after {
-    @extend .fa-standard;
+    @extend .material-icons;
     margin-left: 10px;
-    content: $fa-var-caret-down;
+    content: 'keyboard_arrow_down';
     display: inline;
   }
   &.active:after {
-    @extend .fa-standard;
+    @extend .material-icons;
     margin-left: 10px;
-    content: $fa-var-caret-up;
+    content: 'keyboard_arrow_up';
     display: inline;
   }
   &.ellipsis-icon:after {
@@ -48,16 +57,6 @@
       color: inherit;
       box-shadow: none;
       padding: inherit;
-    }
-  }
-}
-
-//table dropbutton
-.dropbutton-wrapper.dropbutton-single {
-  .edit {
-    a {
-      @extend .btn;
-      @extend .btn-flat;
     }
   }
 }
@@ -82,4 +81,3 @@ table.highlight>tbody>tr.selected {
     @extend .grey, .lighten-4;
   }
 }
-

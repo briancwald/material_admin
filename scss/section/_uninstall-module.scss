@@ -1,0 +1,18 @@
+/* @file
+ * User login
+ *
+ */
+//specific uninstall page styling
+.admin-requirements.collapsible-body {
+  padding: 1em;
+  .admin-prevent-text {
+    @extend .error-color;
+    padding: .5em;
+    margin-bottom: .5em;
+    display: block;
+    font-weight: bold;
+  }
+  .item-list li {
+    padding: 10px 0;
+  }
+}

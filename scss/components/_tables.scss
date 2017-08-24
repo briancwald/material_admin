@@ -1,0 +1,113 @@
+/* @file
+ * Tables
+ *
+ */
+
+table.highlight>tbody>tr:hover {
+  @extend .grey, .lighten-3;
+  color: color("shades", "black");
+  ;
+  a, button {
+    cursor: pointer;
+  }
+}
+
+td.is-active {
+  background-color: transparent;
+}
+
+table {
+  .collection {
+    margin: inherit;
+    border: none;
+    .collection-item {
+      background: inherit;
+    }
+  }
+}
+
+table {
+  margin: 20px 0;
+  &.responsive-table {
+    @media #{$medium-and-down} {
+      th {
+        width: 100%;
+      }
+    }
+  }
+}
+
+table {
+  .region-title {
+    @extend .blue, .lighten-5;
+    @extend .grey-text;
+    font-weight: normal;
+  }
+}
+
+table td {
+  font-weight: 200;
+}
+
+table thead th {
+  @extend .grey-text, .darken-1;
+  font-weight: normal;
+  font-size: .9em;
+  a {
+    @extend .black-text;
+  }
+}
+
+.tablesort {
+  &.tablesort--asc {
+    background-image: none;
+    &:after {
+      @extend .material-icons;
+      content: 'keyboard_arrow_down';
+      padding-left: 5px;
+    }
+  }
+  &.tablesort--desc {
+    background-image: none;
+    &:after {
+      @extend .material-icons;
+      content: 'keyboard_arrow_up';
+      padding-left: 5px;
+    }
+  }
+}
+
+tr.drag {
+  @extend .yellow, .lighten-4;
+  border-bottom: 1px dashed color("grey", "darken-2");
+  border-top: 1px dashed color("grey", "darken-2");
+}
+
+table.highlight, table {
+  tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
+    @extend .yellow, .lighten-5;
+    border-bottom: 2px dashed color("yellow", "lighten-4");
+    border-top: 2px dashed color("yellow", "lighten-4");
+    &:hover {
+      @extend .yellow, .lighten-5;
+    }
+  }
+}
+
+//editing widget table styling 
+tr.field-plugin-settings-editing {
+  @extend .grey, .lighten-5;
+  border-bottom: 2px dashed color("grey", "darken-2");
+  border-top: 2px dashed color("grey", "darken-2");
+}
+
+.tabledrag-changed-warning {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.tabledrag-toggle-weight-wrapper {
+  .tabledrag-toggle-weight {
+    @extend .button-link;
+  }
+}

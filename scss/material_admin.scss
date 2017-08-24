@@ -49,8 +49,9 @@
 // Base files
 @import "base/base";
 
-@import "admin";
-
 // Component files
 @import "components/components";
+
+// Section specific styling
+@import "section/section";
 

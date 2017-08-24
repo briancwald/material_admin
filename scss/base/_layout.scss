@@ -32,6 +32,42 @@ header.header-wrapper {
   }
 }
 
+#block-material-admin-sitebranding {
+  a.site-logo {
+    img {
+      max-width: 125px;
+    }
+  }
+}
+
+body.material_login {
+  background: color("grey", "lighten-4")
+}
+
+// Trigger notifications button
+a.modal-trigger {
+  transition: color .3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 10px;
+  color: color("shades", "black");
+  ;
+  &:hover {
+    color: color("grey", "darken-2");
+  }
+}
+
+//region title action
+.region-title__action {
+  .button {
+    @extend .btn-flat;
+    &:after {
+      @extend .material-icons;
+      content: 'add';
+    }
+  }
+}
+
 .row.material-container {
   padding: 20px 5px;
 }
@@ -48,5 +84,11 @@ header.header-wrapper {
     &:after {
       content: " - ";
     }
+  }
+}
+
+.compact-link {
+  a {
+    @extend .button-link;
   }
 }

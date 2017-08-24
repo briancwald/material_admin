@@ -1,0 +1,40 @@
+/* @file
+ * Apperance
+ *
+ */
+
+//theme page - force all card images to max height
+#system-themes-page {
+  .card {
+    .card-content {
+      .card-title {
+        max-width: 90%;
+        position: relative;
+        i {
+          top: 0;
+          right: -10%;
+          position: absolute;
+        }
+      }
+    }
+    .card-image {
+      img {
+        max-height: 300px;
+        width: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+span.theme-status-indicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  @extend .yellow;
+  opacity: 0.7;
+  padding: 5px 10px;
+  z-index: 2;
+}
+

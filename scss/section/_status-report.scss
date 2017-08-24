@@ -1,0 +1,24 @@
+/* @file
+ * Status Report page
+ *
+ */
+
+// status report page 
+.system-status-report-counters {
+  .card {
+    .card-content {
+      text-align: center;
+      .card-title.report-counter-amount {
+        text-align: center;
+        padding: 15px;
+        width: 2.5em;
+        height: 2.5em;
+        display: inline-block;
+        border-radius: 50%;
+      }
+      .card-actions {
+        padding-top: 1em;
+      }
+    }
+  }
+}

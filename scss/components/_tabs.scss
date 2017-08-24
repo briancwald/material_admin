@@ -1,0 +1,17 @@
+/* @file
+ * Tabs
+ *
+ */
+
+.tabs {
+  background: inherit;
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.primary.tabs a.is-active, .primary.tabs a:focus, .primary.tabs a:hover {
+  background-color: transparent!important;
+}

@@ -1,0 +1,31 @@
+/* @file
+ * User login
+ *
+ */
+
+// user login / password 
+.login-header {
+  .block-page-title-block {
+    h1 {
+      font-weight: 200;
+    }
+  }
+  .block-local-tasks-block {
+    nav.tabs {
+      li {
+        a {
+          color: color("grey", "base");
+          &:hover {
+            color: color("grey", "darken-1");
+          }
+          &.active {
+            color: color("red", "lighten-1");
+          }
+        }
+        &.indicator {
+          background: color("red", "lighten-1");
+        }
+      }
+    }
+  }
+}

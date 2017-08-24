@@ -1,0 +1,77 @@
+/* @file
+ * Collections
+ *
+ */
+.details-item {
+  .collapsible-header {
+    &:before {
+      @extend .material-icons;
+      content: 'keyboard_arrow_right';
+      padding-right: 5px;
+    }
+    &.active {
+      &:before {
+        @extend .material-icons;
+        content: 'keyboard_arrow_down';
+      }
+    }
+  }
+  .collapsible-body {
+    padding: 15px;
+  }
+}
+
+//nested collection styling
+.collection .collection-item>.item-list {
+  .collection {
+    border: none;
+    .collection-item {
+      &:before {
+        content: 'keyboard_arrow_right';
+        @extend .material-icons;
+        padding-right: 5px;
+      }
+      border: none;
+    }
+  }
+}
+
+//collection comma list
+.collection.item-list__comma-list {
+  border: none;
+  .collection-item {
+    line-height: 1em;
+    border: none;
+    padding: inherit;
+  }
+}
+
+.collection-item {
+  text-decoration: none;
+  i.fa {
+    padding-right: 10px;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  &:hover .collection-item-description {
+    text-decoration: none;
+    color: color("grey", "darken-3");
+  }
+  .collection-item-description {
+    text-decoration: none;
+    color: color("grey", "darken-2");
+    font-size: 12px;
+    margin-left: 20px;
+    &:hover {
+      text-decoration: none;
+      color: color("grey", "darken-3");
+    }
+  }
+}
+
+// in the case where we have to nest collections, remove border and margin
+.collection.with-header>.collection {
+  border: none;
+  margin: 0;
+}
