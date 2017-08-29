@@ -139,6 +139,9 @@ function material_admin_preprocess_links__dropbutton(&$variables) {
     $views_classes = ['btn', 'btn-flat', 'darken-3', 'text-darken-2'];
     foreach ($variables['links'] as &$link) {
       if (isset($link['link'])) {
+        if (!isset($link['link']['#options']['attributes']['class'])) {
+          $link['link']['#options']['attributes']['class'] = [];
+        }
         $link_classes = &$link['link']['#options']['attributes']['class'];
         if (in_array('views-ajax-link', $link_classes)) {
           $link_classes = array_merge($link_classes, $views_classes);
