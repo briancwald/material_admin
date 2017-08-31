@@ -87,6 +87,10 @@ label {
 .tooltipped,
 .filter-help {
   font-size: .8em;
+  .material-icons {
+    font-size: 1.5em;
+    vertical-align: text-bottom;
+  }
 }
 .filter-help {
   text-align: right;
@@ -152,6 +156,7 @@ label {
     content: 'add';
     color: color("shades", "white");
     margin: 0 10px 0 0px;
+    vertical-align: text-top;
   }
   &:hover {
     @extend .lighten-1;

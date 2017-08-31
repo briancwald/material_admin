@@ -6820,6 +6820,86 @@ label {
 .tooltipped,
 .filter-help {
   font-size: .8em; }
+  .tooltipped .material-icons, .tooltipped .button-action:before, .tooltipped details.form-wrapper li.active summary.with-arrows:before, details.form-wrapper li.active .tooltipped summary.with-arrows:before, .tooltipped details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active .tooltipped summary.right-arrows:after, .tooltipped .collapsible li .collapsible-header.with-arrows:before, .collapsible li .tooltipped .collapsible-header.with-arrows:before, .tooltipped details.form-wrapper li .collapsible-header.with-arrows:before, details.form-wrapper li .tooltipped .collapsible-header.with-arrows:before, .tooltipped .collapsible li details.form-wrapper summary.with-arrows:before, .collapsible li details.form-wrapper .tooltipped summary.with-arrows:before, .tooltipped details.form-wrapper li summary.with-arrows:before, details.form-wrapper li .tooltipped summary.with-arrows:before, .tooltipped .collapsible li .collapsible-header.right-arrows:after, .collapsible li .tooltipped .collapsible-header.right-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.right-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.right-arrows:after, .tooltipped details.form-wrapper li summary.right-arrows:after, details.form-wrapper li .tooltipped summary.right-arrows:after, .tooltipped .region-title__action .button:after, .region-title__action .tooltipped .button:after, .tooltipped .color-palette .color-palette__hook.is-up:before, .color-palette .tooltipped .color-palette__hook.is-up:before, .tooltipped .color-palette .color-palette__lock:before, .color-palette .tooltipped .color-palette__lock:before, .tooltipped .select-wrapper .caret:after, .select-wrapper .tooltipped .caret:after, .tooltipped details.form-wrapper summary:after, details.form-wrapper .tooltipped summary:after, .tooltipped .entity-meta__last-saved h4:before, .entity-meta__last-saved .tooltipped h4:before, .tooltipped .entity-meta__author h4:before, .entity-meta__author .tooltipped h4:before, .tooltipped .field--name-created h4:before, .field--name-created .tooltipped h4:before, .tooltipped .details-item .collapsible-header:before, .details-item .tooltipped .collapsible-header:before, .tooltipped .details-item details.form-wrapper summary:before, .details-item details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .details-item summary:before, details.form-wrapper .details-item .tooltipped summary:before, .tooltipped .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection .tooltipped .collection-item:before, .tooltipped .tablesort.tablesort--asc:after, .tooltipped .tablesort.tablesort--desc:after, .tooltipped .breadcrumb-nav ol li:before, .breadcrumb-nav ol .tooltipped li:before, .tooltipped .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child .tooltipped a:before, .tooltipped .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked .tooltipped summary:before, .tooltipped .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning .tooltipped summary:before, .tooltipped .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .tooltipped summary:before, .tooltipped .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .dropdown-button:after,
+  .filter-help .material-icons,
+  .filter-help .button-action:before,
+  .filter-help details.form-wrapper li.active summary.with-arrows:before, details.form-wrapper li.active
+  .filter-help summary.with-arrows:before,
+  .filter-help details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active
+  .filter-help summary.right-arrows:after,
+  .filter-help .collapsible li .collapsible-header.with-arrows:before, .collapsible li
+  .filter-help .collapsible-header.with-arrows:before,
+  .filter-help details.form-wrapper li .collapsible-header.with-arrows:before, details.form-wrapper li
+  .filter-help .collapsible-header.with-arrows:before,
+  .filter-help .collapsible li details.form-wrapper summary.with-arrows:before, .collapsible li details.form-wrapper
+  .filter-help summary.with-arrows:before,
+  .filter-help details.form-wrapper li summary.with-arrows:before, details.form-wrapper li
+  .filter-help summary.with-arrows:before,
+  .filter-help .collapsible li .collapsible-header.right-arrows:after, .collapsible li
+  .filter-help .collapsible-header.right-arrows:after,
+  .filter-help details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li
+  .filter-help .collapsible-header.right-arrows:after,
+  .filter-help .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper
+  .filter-help summary.right-arrows:after,
+  .filter-help details.form-wrapper li summary.right-arrows:after, details.form-wrapper li
+  .filter-help summary.right-arrows:after,
+  .filter-help .region-title__action .button:after, .region-title__action
+  .filter-help .button:after,
+  .filter-help .color-palette .color-palette__hook.is-up:before, .color-palette
+  .filter-help .color-palette__hook.is-up:before,
+  .filter-help .color-palette .color-palette__lock:before, .color-palette
+  .filter-help .color-palette__lock:before,
+  .filter-help .select-wrapper .caret:after, .select-wrapper
+  .filter-help .caret:after,
+  .filter-help details.form-wrapper summary:after, details.form-wrapper
+  .filter-help summary:after,
+  .filter-help .entity-meta__last-saved h4:before, .entity-meta__last-saved
+  .filter-help h4:before,
+  .filter-help .entity-meta__author h4:before, .entity-meta__author
+  .filter-help h4:before,
+  .filter-help .field--name-created h4:before, .field--name-created
+  .filter-help h4:before,
+  .filter-help .details-item .collapsible-header:before, .details-item
+  .filter-help .collapsible-header:before,
+  .filter-help .details-item details.form-wrapper summary:before, .details-item details.form-wrapper
+  .filter-help summary:before,
+  .filter-help details.form-wrapper .details-item summary:before, details.form-wrapper .details-item
+  .filter-help summary:before,
+  .filter-help .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection
+  .filter-help .collection-item:before,
+  .filter-help .tablesort.tablesort--asc:after,
+  .filter-help .tablesort.tablesort--desc:after,
+  .filter-help .breadcrumb-nav ol li:before, .breadcrumb-nav ol
+  .filter-help li:before,
+  .filter-help .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child
+  .filter-help a:before,
+  .filter-help .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked
+  .filter-help .collapsible-header:before,
+  .filter-help .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper
+  .filter-help summary:before,
+  .filter-help details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked
+  .filter-help summary:before,
+  .filter-help .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header
+  .filter-help .card-title:before,
+  .filter-help .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning
+  .filter-help .collapsible-header:before,
+  .filter-help .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper
+  .filter-help summary:before,
+  .filter-help details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning
+  .filter-help summary:before,
+  .filter-help .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header
+  .filter-help .card-title:before,
+  .filter-help .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error
+  .filter-help .collapsible-header:before,
+  .filter-help .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper
+  .filter-help summary:before,
+  .filter-help details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error
+  .filter-help summary:before,
+  .filter-help .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header
+  .filter-help .card-title:before,
+  .filter-help .dropdown-button:after {
+    font-size: 1.5em;
+    vertical-align: text-bottom; }
 
 .filter-help {
   text-align: right; }
@@ -6838,7 +6918,8 @@ label {
 .button-action:before {
   content: 'add';
   color: #FFFFFF;
-  margin: 0 10px 0 0px; }
+  margin: 0 10px 0 0px;
+  vertical-align: text-top; }
 
 .inline {
   display: inline; }
@@ -8306,8 +8387,13 @@ details.views-display-column.form-wrapper {
   margin-left: 5px;
   margin-right: 5px; }
 
+.message-trigger i, .message-trigger span {
+  vertical-align: middle; }
+
 .message-trigger span.badge, .message-trigger span.marker {
   min-width: 25px;
+  min-height: 25px;
+  line-height: 25px;
   margin-left: 5px;
   padding: 0 5px;
   display: none;
