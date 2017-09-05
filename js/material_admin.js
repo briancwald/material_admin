@@ -170,7 +170,7 @@
   Drupal.behaviors.material_admin_jqueryui_dialog_enhancements = {
     attach: function (settings) {
       //if the checkbox is checked in the theme settings UI.
-      if (drupalSettings.material_admin.material_admin_jqueryui_dialog_close || drupalSettings.material_admin.material_admin_jqueryui_dialog_background) {
+      if (drupalSettings.material_admin && (drupalSettings.material_admin.material_admin_jqueryui_dialog_close || drupalSettings.material_admin.material_admin_jqueryui_dialog_background)) {
         $(document).ready(function () {
           $(window).on({
             'dialog:aftercreate': function (event, dialog, $modal, settings) {
