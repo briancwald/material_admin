@@ -400,16 +400,19 @@ a#edit-cancel {
 
 .input-field {
   .search-wrapper {
+    i.material-icons {
+      display:inline-block;
+      padding-right:10px;
+      font-size:1.25em;
+      vertical-align: middle;
+    }
     margin: 0 12px;
     input[type=search] {
       padding-left: 0;
+      display:inline-block;
       &:focus {
-        border-bottom: 1px solid color("teal", "lighten-1")
+        border-bottom: 1px solid color("teal", "lighten-1");
       }
-    }
-    i.prefix {
-      font-size: 1.5rem;
-      margin-top: 12px;
     }
   }
 }

@@ -7652,13 +7652,16 @@ details.form-wrapper {
 
 .input-field .search-wrapper {
   margin: 0 12px; }
+  .input-field .search-wrapper i.material-icons, .input-field .search-wrapper i.button-action:before, .input-field .search-wrapper .collapsible li i.collapsible-header.with-arrows:before, .collapsible li .input-field .search-wrapper i.collapsible-header.with-arrows:before, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.with-arrows:before, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.with-arrows:before, .input-field .search-wrapper .collapsible li i.collapsible-header.right-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper .region-title__action i.button:after, .region-title__action .input-field .search-wrapper i.button:after, .input-field .search-wrapper .color-palette i.color-palette__hook.is-up:before, .color-palette .input-field .search-wrapper i.color-palette__hook.is-up:before, .input-field .search-wrapper .color-palette i.color-palette__lock:before, .color-palette .input-field .search-wrapper i.color-palette__lock:before, .input-field .search-wrapper .select-wrapper i.caret:after, .select-wrapper .input-field .search-wrapper i.caret:after, .input-field .search-wrapper .details-item i.collapsible-header:before, .details-item .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection .input-field .search-wrapper i.collection-item:before, .input-field .search-wrapper i.tablesort.tablesort--asc:after, .input-field .search-wrapper i.tablesort.tablesort--desc:after, .input-field .search-wrapper .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle .input-field .search-wrapper i.handle:before, .input-field .search-wrapper .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper i.dropdown-button:after {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 1.25em;
+    vertical-align: middle; }
   .input-field .search-wrapper input[type=search] {
-    padding-left: 0; }
+    padding-left: 0;
+    display: inline-block; }
     .input-field .search-wrapper input[type=search]:focus {
       border-bottom: 1px solid #26a69a; }
-  .input-field .search-wrapper i.prefix {
-    font-size: 1.5rem;
-    margin-top: 12px; }
 
 .help-collection .collection .collection-item.has-collection-link {
   padding: 0; }
