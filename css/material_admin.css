@@ -7832,6 +7832,9 @@ table .region-title {
   background: #E3F2FD; }
   table .region-title .button.button--small {
     font-size: 0.85em; }
+  table .region-title td {
+    font-weight: normal;
+    font-size: 0.9em; }
 
 table td {
   font-weight: 200; }
