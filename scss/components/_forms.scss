@@ -148,25 +148,6 @@ input.btn {
   }
 }
 
-.draggable {
-  min-height: 30px;
-  a.tabledrag-handle {
-    float: none;
-    display: inline-block;
-    overflow: visible;
-    height: auto;
-    vertical-align: middle;
-    &~* {
-      display: inline-block;
-      vertical-align: middle;
-    }
-    .handle {
-      width: 30px;
-      height: 30px;
-    }
-  }
-}
-
 abbr.warning {
   @extend .warning-text-color;
   text-decoration: none;

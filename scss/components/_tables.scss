@@ -3,12 +3,19 @@
  *
  */
 
-table.highlight>tbody>tr:hover {
-  @extend .grey, .lighten-3;
-  color: color("shades", "black");
-  ;
-  a, button {
-    cursor: pointer;
+table.highlight>tbody>tr {
+  &:hover {
+    @extend .grey, .lighten-3;
+    color: color("shades", "black");
+    a, button {
+      cursor: pointer;
+    }
+  }
+  // dont change background on hover for titles
+  &.region-title {
+    &:hover {
+    background:color("blue", "lighten-5")!important;
+  }
   }
 }
 
@@ -39,9 +46,11 @@ table {
 
 table {
   .region-title {
-    @extend .blue, .lighten-5;
+    background:color("blue", "lighten-5");
     @extend .grey-text;
-    font-weight: normal;
+    .button.button--small {
+      font-size:0.85em;
+    }
   }
 }
 
@@ -83,13 +92,40 @@ tr.drag {
   border-top: 1px dashed color("grey", "darken-2");
 }
 
-table.highlight, table {
-  tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing {
+table.highlight tbody, table tbody {
+  tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing, tr.drag {
     @extend .yellow, .lighten-5;
     border-bottom: 2px dashed color("yellow", "lighten-4");
     border-top: 2px dashed color("yellow", "lighten-4");
     &:hover {
-      @extend .yellow, .lighten-5;
+      background:color("yellow", "lighten-4")!important;
+    }
+  }
+}
+
+.draggable {
+  min-height: 30px;
+  a.tabledrag-handle {
+    float: none;
+    display: inline-block;
+    overflow: visible;
+    height: auto;
+    vertical-align: middle;
+    &~ * {
+      display: inline-block;
+      vertical-align: middle;
+      padding:5px;
+    }
+    .handle {
+      width: 30px;
+      height: 30px;
+      background:none;
+      &:before{
+      @extend .material-icons;
+      content: 'drag_handle';
+      color: color("grey", "darken-2");
+      font-size:20px;
+    }
     }
   }
 }
