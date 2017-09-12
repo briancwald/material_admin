@@ -11,6 +11,7 @@ use Drupal\Component\Utility\Tags;
 require_once('inc/form.inc');
 require_once('inc/preprocess.inc');
 require_once('inc/alters.inc');
+require_once('inc/suggestions.inc');
 
 /**
  * Return values for the breadcrumb title placeholder.
