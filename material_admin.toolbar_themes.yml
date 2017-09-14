@@ -1,0 +1,12 @@
+# Theme definitions for Toolbar themes.
+
+toolbar_material_admin:
+  label: "Material Admin"
+  version: 8.x-1.x
+  description: "Material Admin Toolbar Theme"
+  path: toolbar_theme
+  screen_shot: toolbar-screenshot.png
+  base_theme: toolbar_themes_base
+  libraries:
+    base: material_admin/ma.toolbar_themes.base
+    icons: material_admin/ma.toolbar_themes.icons

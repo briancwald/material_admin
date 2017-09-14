@@ -72,3 +72,20 @@ views-bulk-form:
   dependencies:
     - core/drupl
     - core/jquery
+
+# Toolbar themes
+ma.toolbar_themes.base:
+  version: VERSION
+  css:
+    theme:
+      css/ma_toolbar_theme.css: {}
+  dependencies:
+    - toolbar_themes/toolbar_themes_base.base
+
+ma.toolbar_themes.icons:
+  version: VERSION
+  css:
+    theme:
+      css/ma_toolbar_icons.css: {}
+  dependencies:
+    - toolbar_themes/toolbar_themes_base.icons
