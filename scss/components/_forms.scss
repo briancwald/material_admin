@@ -115,7 +115,7 @@ textarea.materialize-textarea {
 }
 
 //form items in tables require less margin (but only the tope level item)
-table td>.form-item, table td>.ajax-new-content>.form-item {
+table td>.form-item, table td>.ajax-new-content>.form-item, table td .fieldset-wrapper > .form-item {
   margin: 0;
   &~.form-wrapper {
     margin: 25px 0;
@@ -517,6 +517,9 @@ fieldset.form-wrapper {
     text-transform: uppercase;
     padding: 1em 0 .5em 0;
     display: block;
+    &:empty {
+      display:none;
+    }
   }
 }
 
