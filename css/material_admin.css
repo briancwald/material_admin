@@ -7718,10 +7718,12 @@ i.waves-input-wrapper {
   .image-style-new i.waves-input-wrapper.input-form-submit {
     margin: 0 1em !important; }
 
-.form-type-radio.form-no-label input.form-radio {
+.form-no-label.form-type-radio input, .form-no-label.form-type-checkbox input {
   opacity: 1;
   position: relative;
   pointer-events: initial; }
+  .form-no-label.form-type-radio input[type="checkbox"], .form-no-label.form-type-checkbox input[type="checkbox"] {
+    font-size: 2em; }
 
 fieldset.form-wrapper span.fieldset-legend {
   letter-spacing: 1px;

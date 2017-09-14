@@ -496,11 +496,16 @@ i.waves-input-wrapper {
   }
 }
 
-.form-type-radio.form-no-label {
-  input.form-radio {
-    opacity: 1;
-    position: relative;
-    pointer-events: initial;
+.form-no-label {
+  &.form-type-radio, &.form-type-checkbox {
+    input {
+      opacity: 1;
+      position: relative;
+      pointer-events: initial;
+      &[type="checkbox"] {
+        font-size:2em;
+      }
+    }
   }
 }
 
