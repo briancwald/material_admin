@@ -48,7 +48,7 @@ gulp.task('rename', function(){
 // });
 
 gulp.task('sass', function() {
-  return gulp.src(['scss/material_admin.scss'])
+  return gulp.src(['scss/material_admin.scss', 'toolbar_theme/ma_toolbar_theme.scss', 'toolbar_theme/ma_toolbar_icons.scss'])
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.identityMap())
     .pipe($.sass({
@@ -71,5 +71,5 @@ gulp.task('lint', function() {
 
 gulp.task('default', ['sass'], function() {
   refresh.listen()
-  gulp.watch(['scss/**/*.scss'], ['sass']);
+  gulp.watch(['scss/**/*.scss', 'toolbar_theme/**/*.scss'], ['sass']);
 });

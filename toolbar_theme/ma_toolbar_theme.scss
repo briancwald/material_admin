@@ -1,0 +1,500 @@
+/**
+ * ma_toolbar_theme
+ * Theme styles for menus and other toolbar elements. SVG icons are styled in
+ * the [theme]_icons.scss file, while click handles, e.g. origination buttons
+ * are styled here.
+ */
+
+// Import global variables.
+@import "variables";
+
+#toolbar-administration {
+  font-family: $font-family;
+  tap-highlight-color: $tap-highlight;
+  font-weight: 400;
+
+  .toolbar-tab,
+  .toolbar-item {
+    a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .toolbar-item {
+    padding: $toolbar-item-padding;
+  }
+
+  .toolbar__link-label {
+    font-size: 1em;
+  }
+
+  // Button reset.
+  .toolbar-lining button:focus {
+    outline: none;
+  }
+
+
+  // Menu reset.
+  .toolbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  // Wrapper around list item items, injected when tray is vertical (and
+  // persists even if toggled back to vertical).
+  .toolbar-box a {
+    &:focus {
+      outline: none;
+    }
+
+    &:hover:focus {
+      text-decoration: none;
+    }
+  }
+
+
+  // Toolbar bar.
+  .toolbar-bar {
+    background-color: $toolbar-bar-background;
+    color: $toolbar-bar-color;
+
+    @if $drop-shadows == true {
+      box-shadow: $drop-shadow-style;
+
+      [dir="rtl"] & {}
+    }
+
+    .toolbar-item {
+      &:hover,
+      &:focus,
+      &:active,
+      &.is-active {}
+    }
+
+    .toolbar-tab .toolbar-tab__items-wrapper a {
+      color: $tab-color;
+      font-size: 0.9em;
+      padding: 0.5em 1em 0.65em 2em;
+
+      &:hover,
+      &:focus,
+      &.is-active {
+        color: $tab-active-color;
+        text-decoration: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    // Tour is a button.
+    .tour-toolbar-tab {
+      &.toolbar-tab {
+        float: none; // Override tour module CSS.
+      }
+
+      button.toolbar-item {
+        padding: $toolbar-item-padding;
+      }
+    }
+
+    // Edit button.
+    .contextual-toolbar-tab {
+      right: 0.25em;
+      top: 0;
+      padding-left: 0;
+
+      button {
+        top: 0.15em;
+        font-size: 0.9em;
+
+        &:hover,
+        &:focus,
+        &.is-active {
+          color: $tab-active-color;
+          background: none !important;
+        }
+
+        i.toolbar-icon {
+          margin-right: .25em;
+        }
+      }
+    }
+
+    &.no-tabs .toolbar-tab__items-wrapper a {
+      width: 3.3em;
+      height: 2.75em;
+      padding: 0;
+
+      &:before {
+        left: 1.25em;
+        top: 0.675em;
+      }
+    }
+  }
+
+  // Toolbar tray.
+  .toolbar-tray {
+    background-color: $tray-background;
+
+     a {
+      color: $tray-color;
+      cursor: pointer;
+      padding: $toolbar-item-padding;
+
+      &:hover,
+      &:active,
+      &:focus,
+      &.is-active {
+        color: $tray-active;
+      }
+
+      &.is-active[href="/"] {
+        color: $tray-color;
+      }
+    }
+  }
+
+
+  // Horizontal.
+  .toolbar-tray-horizontal {
+    @if $drop-shadows == true {
+      box-shadow: $drop-shadow-style;
+    }
+
+    a:focus {
+      outline: none;
+      background-color: $tray-background;
+    }
+
+    .toolbar-menu-administration > .toolbar-menu > .menu-item > a,
+    .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a {
+      &:hover,
+      &:active,
+      &:focus,
+      &.is-active {
+        background-color: $tray-background-hover ;
+      }
+
+      &.is-active[href="/"] {
+        background-color: transparent;
+
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $tray-background-hover ;
+        }
+      }
+
+      [dir="rtl"] & {
+      }
+    }
+
+    .edit-shortcuts {
+      float: none; // Override shortcut module CSS.
+      position: absolute;
+      right: 3.5em;
+      top: 0;
+    }
+
+    // Admin Toolbar Module drop menus.
+    .toolbar-menu-administration {
+      .toolbar-menu .toolbar-menu {
+        background-color: $drop-menu-background;
+
+        @if $drop-shadows == true {
+          box-shadow: $drop-shadow-style;
+        }
+
+        a {
+          padding: 0.35em 1em;
+        }
+
+        .menu-item {
+          border-bottom: 1px solid $tray-background;
+
+          &:first-child {
+            border-top: 1px solid $tray-background;
+          }
+        }
+
+        // Sub-sub menus
+        .toolbar-menu {
+          @if $drop-shadows == true {
+            box-shadow: $drop-shadow-style;
+          }
+        }
+
+        > .menu-item--expanded > .toolbar-menu {
+          top: -1px;
+        }
+      }
+    }
+
+    .menu-level-2 {
+      font-size: 0.95em;
+    }
+
+    .menu-item {
+      .menu-item {
+        a {
+          color: $drop-menu-color;
+
+          &:hover,
+          &:focus {
+            color: $drop-menu-color;
+          }
+        }
+
+        &:hover,
+        &:focus {
+          background-color: $drop-menu-background-hover;
+        }
+      }
+    }
+
+    // Sub-menu indicator in drop menus.
+    .toolbar-menu-administration > .toolbar-menu .toolbar-menu {
+      > .menu-item--expanded > a,
+      > .menu-item--expanded > .toolbar-box > a {
+        &:after {
+          color: $sub-menu-indicator;
+          right: 0.65em;
+          top: 0.2em;
+          display: block;
+        }
+
+        &:hover,
+        &:focus {
+          &:after {
+            color: $drop-menu-color;
+          }
+        }
+      }
+    }
+  }
+
+  // No tabs
+  .no-tabs .toolbar-tray-horizontal {
+    left: 3em;
+  }
+
+  // Vertical.
+  .toolbar-tray-vertical {
+    background-color: $tray-vertical-background;
+    border-right: 1px solid $border-color;
+
+    @if $drop-shadows == true {
+      box-shadow: $drop-shadow-style;
+    }
+
+    [dir="rtl"] & {
+      border-left: 1px solid $border-color;
+      border-right: 0 none;
+
+      @if $drop-shadows == true {
+        box-shadow: $drop-shadow-style;
+      }
+    }
+
+    .toolbar-menu .toolbar-menu {
+      display: none;
+    }
+
+    .menu-item--expanded.open > .toolbar-menu {
+      display: block;
+      border-bottom-width: 0;
+
+      .toolbar-menu {
+        border-bottom-width: 1px;
+      }
+    }
+
+    .toolbar-handle + a {
+      margin-right: 3em;
+
+      [dir="rtl"] & {
+        margin-left: 3em;
+        margin-right: 0;
+      }
+    }
+
+    .menu-item {
+      + .menu-item {
+        border-top: 1px solid $tray-border-color;
+      }
+
+      &:last-child {
+        border-bottom: 1px solid $tray-border-color;
+      }
+
+      .menu-item {
+        border: 0 none;
+
+         a {
+           color: $drop-menu-color;
+         }
+      }
+
+      .toolbar-box:hover,
+      .toolbar-box:focus {
+        background-color: lighten($tray-background, 5%);
+      }
+
+      .menu-level-2 .toolbar-box:hover,
+      .menu-level-2 .toolbar-box:focus {
+        background-color: lighten($tray-background, 30%);
+      }
+    }
+
+    .toolbar-menu {
+      &.root {
+        border: 0;
+      }
+
+      .toolbar-menu {
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+      }
+    }
+
+    // Loop to generate nested selectors and styles.
+    $self: '.toolbar-menu';
+    @for $i from 1 through 8 {
+      $self: if($i == 1, "ul", nest($self, "ul")) !global;
+      #{$self} > .level-#{$i} > ul {
+        background-color:    darken($toolbar-bar-background , 5 * $i);
+        border-bottom-color: darken($tray-border-color, 5 * $i);
+        border-top-color:    darken($tray-border-color, 5 * $i);
+      }
+    }
+  }
+
+  // Kill sub-menu double borders.
+  .menu-item:last-child > .toolbar-menu {
+    border-bottom: 0;
+  }
+
+
+  // Click handles.
+  .toolbar-icon.toolbar-handle {
+    &:before {
+      color: $tray-color;
+      top: 0.65em;
+    }
+
+    &.open {
+      &:before {
+        color: $tray-active;
+      }
+    }
+  }
+
+  .toolbar-menu {
+    .toolbar-menu {
+      .toolbar-icon.toolbar-handle {
+        &:before {
+          color: $drop-menu-color;
+          top: 0.65em;
+        }
+
+        &.open {
+          &:before {
+            color: $drop-menu-color;
+          }
+        }
+      }
+    }
+  }
+
+
+  // Orientation toggles.
+  .toolbar-toggle-orientation button.toolbar-icon {
+    &:after,
+    &:before {
+      color: $toggle-orientation-color;
+    }
+
+    &:hover,
+    &:focus,
+    &:hover:after,
+    &:focus:before {
+      color: $toggle-orientation-active;
+      background-color: transparent;
+    }
+  }
+
+  .toolbar-toggle-orientation {
+    button.toolbar-icon {
+      width: 3.5em;
+      height: 2.5em;
+      padding: 0;
+    }
+  }
+
+  .toolbar-toggle-orientation button.toolbar-icon[value="vertical"]:before{
+    top: 0.625em;
+    right: 0;
+
+    [dir="rtl"] & {
+      left: 0;
+      right: auto;
+    }
+  }
+
+  .toolbar-toggle-orientation button.toolbar-icon[value="horizontal"]:after {
+    top: 0.5em;
+    right: 1em;
+
+    [dir="rtl"] & {
+      left: 1em;
+      right: 0;
+    }
+  }
+}
+
+
+// Support for the Adminimal admin theme.
+.adminimal {
+
+  #toolbar-bar {
+    font: normal 83.1%/1.5 "Open Sans", sans-serif !important;
+  }
+
+  &.toolbar-tray-open {
+    &.toolbar-fixed {
+      &.toolbar-horizontal {
+        &.toolbar-themes {
+          padding-top: 4.75em !important;
+        }
+
+        #toolbar-administration {
+          background-color: #333;
+        }
+
+        &.toolbar-has-tabs #toolbar-administration {
+          min-height: 4em;
+        }
+
+        &.toolbar-no-tabs #toolbar-administration {
+          min-height: 2em;
+        }
+      }
+    }
+  }
+
+  &.toolbar-fixed.toolbar-vertical.toolbar-has-tabs,
+  &.toolbar-fixed.toolbar-horizontal.toolbar-no-tabs,
+  &.toolbar-fixed.toolbar-vertical.toolbar-no-tabs,
+  &.toolbar-tray-open.toolbar-fixed.toolbar-horizontal.toolbar-no-tabs {
+    padding-top: 2.4em !important;
+  }
+}
+
+

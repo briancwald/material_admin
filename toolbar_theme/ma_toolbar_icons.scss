@@ -1,0 +1,91 @@
+/**
+ * seven_icons
+ */
+
+// Import global variables.
+@import "variables";
+
+
+// Most icons are embedded SVG. Icons are embedded using Grunticon. We are using
+// the original SVG icons from Drupal core, however the width and height
+// attribute have been replaced with a viewBox attribute so we can scale them
+// properly with CSS. Embedded SVG has the advantage of being styled with CSS,
+// and by using Grunticon JS loading we negate most of the bloat and overhead
+// associated with embedding SVG files. For the buttons (orientation toggles &
+// menu click handles), and for sub-menu indicators we use a custom font icon
+// that is tiny and only includes four icons. We rotate and color these in CSS
+// as required.
+
+.toolbar {
+
+  .toolbar-icon {
+    padding: 0 .25em 0 0;
+  }
+
+
+  // Top level icons.
+  .toolbar-bar {
+    .toolbar-tab {
+      .toolbar-tab__items-wrapper {
+        .toolbar-icon {
+          fill: $tab-color ;
+        }
+
+        .toolbar-icon-menu {
+          width: 0.875em;
+          top: 0;
+        }
+
+        a,
+        button {
+          &:hover,
+          &:active,
+          &.is-active {
+            .toolbar-icon {
+              fill: $tab-active-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 24em) {
+    // Toolbar-themes module cannot hide the text, so instead we remove the
+    // icons and other redundant tabs in narrow screens.
+    .toolbar-bar .home-toolbar-tab,
+    .toolbar-bar .tour-toolbar-tab,
+    .toolbar-bar .toolbar-tab__items-wrapper .toolbar-icon {
+      display: none;
+    }
+  }
+
+
+  // Main menu icons.
+  .toolbar-menu {
+    a {
+      fill: $tray-color;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.is-active {
+        fill: $tray-active;
+      }
+
+      &.is-active[href="/"] {
+        fill: $tray-color;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        &[href="/"] {
+          fill: $tray-active;
+        }
+      }
+    }
+  }
+}
+
+
