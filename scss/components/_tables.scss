@@ -135,10 +135,10 @@ table.highlight tbody, table tbody {
 }
 
 //editing widget table styling 
-tr.field-plugin-settings-editing {
+table > tbody > tr.field-plugin-settings-editing {
   @extend .grey, .lighten-5;
-  border-bottom: 2px dashed color("grey", "darken-2");
-  border-top: 2px dashed color("grey", "darken-2");
+  border-bottom: 2px solid color("teal", "darken-2");
+  border-top: 2px solid color("teal", "darken-2");
 }
 
 .tabledrag-changed-warning {
