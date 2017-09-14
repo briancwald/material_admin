@@ -17,7 +17,7 @@
     "gulp-sourcemaps": "^2.6.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
-    "materialize-css": "^0.100.1",
+    "materialize-css": "^0.100.2",
     "node-sass": "^4.5.3"
   },
   "scripts": {

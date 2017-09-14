@@ -3711,13 +3711,14 @@ nav ul a span.badge, nav ul a span.marker {
   float: none;
   margin-left: 4px;
   line-height: 22px;
-  height: 22px; }
+  height: 22px;
+  -webkit-font-smoothing: auto; }
 
 .collection-item span.badge, .collection-item span.marker {
   margin-top: calc(0.75rem - 11px); }
 
 .collapsible span.badge, details.form-wrapper span.badge, .collapsible span.marker, details.form-wrapper span.marker {
-  margin-top: calc(1.5rem - 11px); }
+  margin-left: auto; }
 
 .side-nav span.badge, .side-nav span.marker {
   margin-top: calc(24px - 11px); }
@@ -5026,7 +5027,7 @@ select {
   border-radius: 2px;
   height: 3rem; }
 
-.input-field select {
+.input-field > select {
   display: block;
   position: absolute;
   width: 0;
