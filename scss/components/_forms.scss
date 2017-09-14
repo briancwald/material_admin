@@ -120,9 +120,10 @@ table td>.form-item, table td>.ajax-new-content>.form-item {
   &~.form-wrapper {
     margin: 25px 0;
   }
-  .select-wrapper input.select-dropdown {
+}
+
+table td .form-item .select-wrapper input.select-dropdown {
     margin: 0;
-  }
 }
 
 .input-field.js-form-type-checkbox label {
@@ -496,6 +497,7 @@ i.waves-input-wrapper {
   }
 }
 
+// If a checkbox or radio do not have laebls, use browser defaults or nothing will show at all.
 .form-no-label {
   &.form-type-radio, &.form-type-checkbox {
     input {

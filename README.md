@@ -10,9 +10,8 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 
 ## Dev Setup 
  - `yarn install` installs Yarn dependencies
- - `gulp libsrc` gets libraries (currently not needed)
- - `gulp rename` renames conflict with jQueryUI and Materialize CSS autocomplete plugin
- - `gulp copy` moves updated libraries over to js/lib folder
+ - `gulp libsrc` gets libraries and places them in the vendor directory
+ - `gulp rename` renames conflict with jQueryUI and Materialize CSS autocomplete plugin and places it in /js/lib to manage in git repo.
  - `gulp sass` or `gulp` to watch sass changes
 
  ## Features Notes

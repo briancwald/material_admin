@@ -7474,8 +7474,9 @@ table td > .form-item, table td > .ajax-new-content > .form-item {
   margin: 0; }
   table td > .form-item ~ .form-wrapper, table td > .ajax-new-content > .form-item ~ .form-wrapper {
     margin: 25px 0; }
-  table td > .form-item .select-wrapper input.select-dropdown, table td > .ajax-new-content > .form-item .select-wrapper input.select-dropdown {
-    margin: 0; }
+
+table td .form-item .select-wrapper input.select-dropdown {
+  margin: 0; }
 
 .input-field.js-form-type-checkbox label {
   top: 0; }
