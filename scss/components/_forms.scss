@@ -186,6 +186,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     visibility: hidden;
     width: 1px;
     display: inline-block;
+    vertical-align: middle;
     &:before, &:after {
       visibility: visible;
     }

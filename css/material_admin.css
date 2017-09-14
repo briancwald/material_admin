@@ -7514,7 +7514,8 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
   clip: inherit;
   visibility: hidden;
   width: 1px;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: middle; }
   .js-form-type-checkbox label.visually-hidden:before, .js-form-type-checkbox label.visually-hidden:after {
     visibility: visible; }
 
