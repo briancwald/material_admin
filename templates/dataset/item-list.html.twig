@@ -19,6 +19,13 @@
  * @see template_preprocess_item_list()
  */
 #}
+
+{%
+  set classes = [
+    list_type == 'ul' ? 'chip',
+]
+%}
+
 {% if context.list_style %}
   {%- set wrapper_attributes = wrapper_attributes.addClass('item-list--' ~ context.list_style) %}
   {%- set attributes = attributes.addClass('item-list__' ~ context.list_style) %}
@@ -31,7 +38,7 @@
     {%- if items -%}
       <{{ list_type }}{{ attributes }}>
         {%- for item in items -%}
-          <li{{ item.attributes.addClass('chip') }}>{{ item.value }}</li>
+          <li{{ item.attributes.addClass(classes) }}>{{ item.value }}</li>
         {%- endfor -%}
       </{{ list_type }}>
     {%- else -%}
