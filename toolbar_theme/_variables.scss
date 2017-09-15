@@ -26,12 +26,12 @@ $tray-background-hover            : rgba(255, 255, 255, 0.1);
 $tray-vertical-background         : color("grey", "lighten-4");
 $tray-border-color                : color("grey", "lighten-4");
 
-$drop-menu-color                  : color("grey", "lighten-4");
+$drop-menu-color                  : color("grey", "darken-4");
 $drop-menu-border-color           : none;
 $drop-menu-background             : color("shades", "white");
-$drop-menu-background-hover       : rgba(133, 178, 61, 0.1);
+$drop-menu-background-hover       : color("grey", "lighten-4");
 $sub-menu-indicator               : $tray-background;
 
-$toggle-orientation-color         : rgba(255, 255, 255, 0.65);
-$toggle-orientation-active        : rgba(255, 255, 255, 0.95);
+$toggle-orientation-color         : color("grey", "darken-4");
+$toggle-orientation-active        : color("grey", "base");
 $toggle-orientation-border-color  : rgba(255, 255, 255, 0.65);
