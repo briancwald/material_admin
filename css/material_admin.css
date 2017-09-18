@@ -8462,6 +8462,19 @@ table.highlight > tbody > tr:hover li.chip {
   background-color: #fafafa; }
 
 /* @file
+ * lists
+ *
+ */
+dl {
+  margin: 1em 0; }
+  dl dd {
+    padding-left: 0;
+    font-size: 0.9em;
+    margin-left: 0;
+    margin-bottom: 1em;
+    color: #9e9e9e; }
+
+/* @file
  * Base files
  *
  */
