@@ -14,7 +14,7 @@
 }
 
 header.header-wrapper {
-  @extend .blue;
+  @extend .blue, .darken-1;
   h1 {
     @extend .white-text;
     font-weight: 300;
@@ -73,7 +73,7 @@ a.modal-trigger {
 }
 
 .utility-wrapper {
-  @extend .blue, .lighten-2, .z-depth-1;
+  @extend .blue, .lighten-1, .z-depth-1;
 }
 
 #block-material-admin-page-title h1.page-title {

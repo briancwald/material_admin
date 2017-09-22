@@ -306,7 +306,7 @@ details {
   position: relative;
   &.active {
     .collapsible-header.with-arrows {
-      &:before {
+      &:after {
         @extend .material-icons;
         content: 'keyboard_arrow_down';
         padding: 0px 5px;
@@ -321,7 +321,7 @@ details {
     }
   }
   .collapsible-header.with-arrows {
-    &:before {
+    &:after {
       @extend .material-icons;
       content: 'keyboard_arrow_right';
       padding: 0px 5px;
