@@ -276,54 +276,6 @@ details.form-wrapper {
   }
 }
 
-.ui-autocomplete {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  float: left;
-  display: none;
-  min-width: 160px;
-  padding: 4px 0;
-  margin: 0 0 10px 25px;
-  list-style: none;
-  background-color: color("shades", "white");
-  border-color: color("grey", "lighten-1");
-  border-color: rgba(0, 0, 0, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  box-shadow: none;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
-}
-
-.ui-menu-item>a.ui-corner-all {
-  display: block;
-  padding: 3px 15px;
-  clear: both;
-  font-weight: normal;
-  line-height: 18px;
-  color: color("grey", "darken-2");
-  white-space: nowrap;
-  text-decoration: none;
-}
-
-.ui-state-hover, .ui-state-active {
-  @extend .white-text;
-  text-decoration: none;
-  background-color: color("blue", "darken-2");
-  border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-image: none;
-}
-
 a#edit-cancel {
   @extend .btn-flat;
   @extend .warning-text-color;

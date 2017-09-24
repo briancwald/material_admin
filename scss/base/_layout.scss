@@ -44,19 +44,6 @@ body.material_login {
   background: color("grey", "lighten-4")
 }
 
-// Trigger notifications button
-a.modal-trigger {
-  transition: color .3s ease;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding-left: 10px;
-  color: color("shades", "black");
-  ;
-  &:hover {
-    color: color("grey", "darken-2");
-  }
-}
-
 //region title action
 .region-title__action {
   .button {

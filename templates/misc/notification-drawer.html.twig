@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Notifcation drawer for status messages
+#}
+<div id="messageContainer" class="modal bottom-sheet">
+  <div class="modal-content">
+    <h4 class="notification-title">{% trans %} Message Notifications {% endtrans %}</h4>
+    <div class="allmessages">{{ page.status }}
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a data-href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">{% trans %} Close {% endtrans %}</a>
+    <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">{% trans %} View Log {% endtrans %}</a>
+  </div>
+</div>

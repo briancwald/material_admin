@@ -53,11 +53,6 @@ body {
   padding: 20px 0;
 }
 
-td,
-th {
-  padding: 15px;
-}
-
 hr {
   border: 1px solid color("grey", "lighten-2");
   margin: 1em 0;
@@ -101,14 +96,6 @@ label {
 
 }
 
-.description.modal-trigger {
-  text-transform: none;
-  font-size: .8em;
-  padding: 0;
-  margin: 10px 5px;
-  display: block;
-  color: color("light-blue", "darken-1")
-}
 
 .error-text-color {
   @extend .red-text,
@@ -411,11 +398,4 @@ span.marker {
       border-radius: 0;
     }
   }
-}
-
-.message-action {
-  font-size: .8rem;
-  font-weight: 500;
-  margin-right: 0;
-  margin-left: 3rem;
 }

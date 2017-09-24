@@ -3,6 +3,12 @@
  *
  */
 
+
+td,
+th {
+  padding: 15px;
+}
+
 table.highlight>tbody>tr {
   &:hover {
     @extend .grey, .lighten-3;
