@@ -7277,12 +7277,18 @@ tr .ajax-progress-throbber .throbber {
     position: relative; }
   .cke_dialog .cke_dialog_footer {
     background: none; }
-  .cke_dialog .cke_dialog_ui_labeled_label {
-    display: none; }
+  .cke_dialog .cke_dialog_ui_select {
+    position: relative; }
   .cke_dialog .cke_dialog_contents {
     margin-bottom: 0; }
   .cke_dialog div.cke_dialog_ui_input_select {
     display: block; }
+  .cke_dialog input.cke_dialog_ui_input_text:hover, .cke_dialog input.cke_dialog_ui_input_password:hover, .cke_dialog textarea.cke_dialog_ui_input_textarea:hover,
+  .cke_dialog input.cke_dialog_ui_input_text:focus, .cke_dialog input.cke_dialog_ui_input_password:focus, .cke_dialog textarea.cke_dialog_ui_input_textarea:focus, .cke_dialog select.cke_dialog_ui_input_select:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 0; }
 
 /* @file
  * Vertical tabs override
