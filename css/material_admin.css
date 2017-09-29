@@ -4052,8 +4052,6 @@ label {
 /* Text Inputs + Textarea
    ========================================================================== */
 /* Style Placeholders */
-::-webkit-input-placeholder {
-  color: #d1d1d1; }
 :-ms-input-placeholder {
   color: #d1d1d1; }
 ::placeholder {
@@ -7250,6 +7248,41 @@ tr .ajax-progress-throbber .throbber {
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.cke_dialog {
+  font-weight: bold;
+  background: #FFFFFF;
+  padding-top: 20px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #bdbdbd;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
+  .cke_dialog > tbody > tr > td {
+    padding: 0; }
+  .cke_dialog .cke_dialog_title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    background: none; }
+  .cke_dialog .cke_resizer {
+    position: absolute;
+    margin: 0 !important; }
+  .cke_dialog .cke_resizer_rtl {
+    left: 5px;
+    bottom: 5px; }
+  .cke_dialog .cke_resizer_ltr {
+    right: 5px;
+    bottom: 5px; }
+  .cke_dialog .cke_dialog_body {
+    position: relative; }
+  .cke_dialog .cke_dialog_footer {
+    background: none; }
+  .cke_dialog .cke_dialog_ui_labeled_label {
+    display: none; }
+  .cke_dialog .cke_dialog_contents {
+    margin-bottom: 0; }
+  .cke_dialog div.cke_dialog_ui_input_select {
+    display: block; }
 
 /* @file
  * Vertical tabs override
