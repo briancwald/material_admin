@@ -24,7 +24,7 @@
   i {
     font-size: 1.3em;
   }
-} 
+}
 
 //override materializecss: dont set form width, only max width and allow the form fields to use its length.
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default) {
@@ -33,12 +33,11 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 }
 
 textarea.materialize-textarea {
-  padding: .8rem .5rem 1.6rem .5rem;
-  // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
-  max-width:95%;
-  width:inherit;
+  padding: .8rem .5rem 1.6rem .5rem; // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
+  max-width: 95%;
+  width: inherit;
   &:focus {
-    border:1px solid color("teal", "lighten-1");
+    border: 1px solid color("teal", "lighten-1");
   }
 }
 
@@ -63,8 +62,8 @@ textarea.materialize-textarea {
       @extend .material-icons;
       content: 'arrow_drop_down';
       visibility: visible;
-      font-size:2.5em;
-      right:0;
+      font-size: 2.5em;
+      right: 0;
     }
   }
   .input.select-dropdown {
@@ -115,7 +114,7 @@ textarea.materialize-textarea {
 }
 
 //form items in tables require less margin (but only the tope level item)
-table td>.form-item, table td>.ajax-new-content>.form-item, table td .fieldset-wrapper > .form-item {
+table td>.form-item, table td>.ajax-new-content>.form-item, table td .fieldset-wrapper>.form-item {
   margin: 0;
   &~.form-wrapper {
     margin: 25px 0;
@@ -123,7 +122,7 @@ table td>.form-item, table td>.ajax-new-content>.form-item, table td .fieldset-w
 }
 
 table td .form-item .select-wrapper input.select-dropdown {
-    margin: 0;
+  margin: 0;
 }
 
 .input-field.js-form-type-checkbox label {
@@ -355,15 +354,15 @@ a#edit-cancel {
 .input-field {
   .search-wrapper {
     i.material-icons {
-      display:inline-block;
-      padding-right:10px;
-      font-size:1.25em;
+      display: inline-block;
+      padding-right: 10px;
+      font-size: 1.25em;
       vertical-align: middle;
     }
     margin: 0 12px;
     input[type=search] {
       padding-left: 0;
-      display:inline-block;
+      display: inline-block;
       &:focus {
         border-bottom: 1px solid color("teal", "lighten-1");
       }
@@ -458,20 +457,27 @@ i.waves-input-wrapper {
       position: relative;
       pointer-events: initial;
       &[type="checkbox"] {
-        font-size:2em;
+        font-size: 2em;
       }
     }
   }
 }
 
 fieldset.form-wrapper {
-  span.fieldset-legend {
-    letter-spacing: 1px;
+	margin-left:0px;
+	padding:10px;
+  legend {
+    @extend .blue, .white-text, .z-depth-1;
+    padding:5px 10px;
+    margin:0 5px 5px 0;
+    font-size: 16px;
     text-transform: uppercase;
-    padding: 1em 0 .5em 0;
-    display: block;
-    &:empty {
-      display:none;
+    letter-spacing: .5px;
+    span.fieldset-legend {
+      &:empty {
+        display: none;
+        padding:5px 10px;
+      }
     }
   }
 }

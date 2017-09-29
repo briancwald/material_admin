@@ -938,91 +938,91 @@ td.errors-color {
 .indigo-text.text-accent-4 {
   color: #304ffe !important; }
 
-.blue, header.header-wrapper, .utility-wrapper {
+.blue, header.header-wrapper, .utility-wrapper, fieldset.form-wrapper legend {
   background-color: #2196F3 !important; }
 
 .blue-text, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li span, .breadcrumb-nav ol li:before {
   color: #2196F3 !important; }
 
-.blue.lighten-5, header.lighten-5.header-wrapper, header.header-wrapper.dropdown-button:hover, .lighten-5.utility-wrapper, table tbody tr.utility-wrapper.drag-previous, table tbody tr.utility-wrapper.drag, table > tbody > tr.utility-wrapper.field-plugin-settings-editing, .utility-wrapper.dropdown-button:hover, table tbody tr.blue.drag-previous, table tbody tr.blue.drag, table > tbody > tr.blue.field-plugin-settings-editing, .blue.dropdown-button:hover {
+.blue.lighten-5, header.lighten-5.header-wrapper, header.header-wrapper.dropdown-button:hover, .lighten-5.utility-wrapper, table tbody tr.utility-wrapper.drag-previous, table tbody tr.utility-wrapper.drag, table > tbody > tr.utility-wrapper.field-plugin-settings-editing, .utility-wrapper.dropdown-button:hover, fieldset.form-wrapper legend.lighten-5, fieldset.form-wrapper legend.dropdown-button:hover, table tbody tr.blue.drag-previous, table tbody tr.blue.drag, table > tbody > tr.blue.field-plugin-settings-editing, .blue.dropdown-button:hover {
   background-color: #E3F2FD !important; }
 
 .blue-text.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5, .breadcrumb-nav ol li a.text-lighten-5, .breadcrumb-nav ol li span.text-lighten-5, .breadcrumb-nav ol li.text-lighten-5:before {
   color: #E3F2FD !important; }
 
-.blue.lighten-4, .blue.color-warning, header.color-warning.header-wrapper, .color-warning.utility-wrapper,
-.blue.warning-color, header.warning-color.header-wrapper, header.header-wrapper.messages--warning, .messages--warning.messages-clone header.header-wrapper.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, .blue.messages--warning, .messages--warning.messages-clone .blue.card-content,
-.blue.warnings-color, header.warnings-color.header-wrapper, .warnings-color.utility-wrapper, .blue.color-success, header.color-success.header-wrapper, .color-success.utility-wrapper,
-.blue.status-color, header.status-color.header-wrapper, header.header-wrapper.messages--status, .messages--status.messages-clone header.header-wrapper.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, .blue.messages--status, .messages--status.messages-clone .blue.card-content,
-.blue.checked-color, header.checked-color.header-wrapper, .checked-color.utility-wrapper, .blue.color-error, header.color-error.header-wrapper, .color-error.utility-wrapper,
-.blue.error-color, header.error-color.header-wrapper, header.header-wrapper.messages--error, .messages--error.messages-clone header.header-wrapper.card-content, .admin-requirements.collapsible-body header.header-wrapper.admin-prevent-text, .error-color.utility-wrapper, .node-multiple-delete-confirm input.utility-wrapper.form-submit, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .node-multiple-delete-confirm input.blue.form-submit, .blue.messages--error, .messages--error.messages-clone .blue.card-content, .admin-requirements.collapsible-body .blue.admin-prevent-text,
-.blue.errors-color, header.errors-color.header-wrapper, .errors-color.utility-wrapper, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.utility-wrapper.vertical-tabs__menu-item.is-selected, tr.utility-wrapper.drag, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li.utility-wrapper:last-child, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.blue.vertical-tabs__menu-item.is-selected, tr.blue.drag, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li.blue:last-child, table.highlight > tbody > tr.blue.selected, table.highlight > tbody > tr.selected td.blue {
+.blue.lighten-4, .blue.color-warning, header.color-warning.header-wrapper, .color-warning.utility-wrapper, fieldset.form-wrapper legend.color-warning,
+.blue.warning-color, header.warning-color.header-wrapper, header.header-wrapper.messages--warning, .messages--warning.messages-clone header.header-wrapper.card-content, .warning-color.utility-wrapper, .utility-wrapper.messages--warning, .messages--warning.messages-clone .utility-wrapper.card-content, fieldset.form-wrapper legend.warning-color, fieldset.form-wrapper legend.messages--warning, fieldset.form-wrapper .messages--warning.messages-clone legend.card-content, .messages--warning.messages-clone fieldset.form-wrapper legend.card-content, .blue.messages--warning, .messages--warning.messages-clone .blue.card-content,
+.blue.warnings-color, header.warnings-color.header-wrapper, .warnings-color.utility-wrapper, fieldset.form-wrapper legend.warnings-color, .blue.color-success, header.color-success.header-wrapper, .color-success.utility-wrapper, fieldset.form-wrapper legend.color-success,
+.blue.status-color, header.status-color.header-wrapper, header.header-wrapper.messages--status, .messages--status.messages-clone header.header-wrapper.card-content, .status-color.utility-wrapper, .utility-wrapper.messages--status, .messages--status.messages-clone .utility-wrapper.card-content, fieldset.form-wrapper legend.status-color, fieldset.form-wrapper legend.messages--status, fieldset.form-wrapper .messages--status.messages-clone legend.card-content, .messages--status.messages-clone fieldset.form-wrapper legend.card-content, .blue.messages--status, .messages--status.messages-clone .blue.card-content,
+.blue.checked-color, header.checked-color.header-wrapper, .checked-color.utility-wrapper, fieldset.form-wrapper legend.checked-color, .blue.color-error, header.color-error.header-wrapper, .color-error.utility-wrapper, fieldset.form-wrapper legend.color-error,
+.blue.error-color, header.error-color.header-wrapper, header.header-wrapper.messages--error, .messages--error.messages-clone header.header-wrapper.card-content, .admin-requirements.collapsible-body header.header-wrapper.admin-prevent-text, .error-color.utility-wrapper, .node-multiple-delete-confirm input.utility-wrapper.form-submit, .utility-wrapper.messages--error, .messages--error.messages-clone .utility-wrapper.card-content, .admin-requirements.collapsible-body .utility-wrapper.admin-prevent-text, .node-multiple-delete-confirm input.blue.form-submit, fieldset.form-wrapper legend.error-color, fieldset.form-wrapper legend.messages--error, fieldset.form-wrapper .messages--error.messages-clone legend.card-content, .messages--error.messages-clone fieldset.form-wrapper legend.card-content, fieldset.form-wrapper .admin-requirements.collapsible-body legend.admin-prevent-text, .admin-requirements.collapsible-body fieldset.form-wrapper legend.admin-prevent-text, .blue.messages--error, .messages--error.messages-clone .blue.card-content, .admin-requirements.collapsible-body .blue.admin-prevent-text,
+.blue.errors-color, header.errors-color.header-wrapper, .errors-color.utility-wrapper, fieldset.form-wrapper legend.errors-color, header.lighten-4.header-wrapper, .lighten-4.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.utility-wrapper.vertical-tabs__menu-item.is-selected, tr.utility-wrapper.drag, .breadcrumb-nav ol li:last-child a.utility-wrapper, .breadcrumb-nav ol li.utility-wrapper:last-child, table.highlight > tbody > tr.utility-wrapper.selected, table.highlight > tbody > tr.selected td.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.blue.vertical-tabs__menu-item.is-selected, fieldset.form-wrapper legend.lighten-4, tr.blue.drag, .breadcrumb-nav ol li:last-child a.blue, .breadcrumb-nav ol li.blue:last-child, table.highlight > tbody > tr.blue.selected, table.highlight > tbody > tr.selected td.blue {
   background-color: #BBDEFB !important; }
 
 .blue-text.text-lighten-4, .breadcrumb-nav ol li, .breadcrumb-nav ol li a, .breadcrumb-nav ol li span, .breadcrumb-nav ol li:before {
   color: #BBDEFB !important; }
 
-.blue.lighten-3, header.lighten-3.header-wrapper, .lighten-3.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, table.highlight > tbody > tr.blue:hover {
+.blue.lighten-3, header.lighten-3.header-wrapper, .lighten-3.utility-wrapper, table.highlight > tbody > tr.utility-wrapper:hover, fieldset.form-wrapper legend.lighten-3, table.highlight > tbody > tr.blue:hover {
   background-color: #90CAF9 !important; }
 
 .blue-text.text-lighten-3, .blue-text.error-text-color, .form-item .blue-text.form-required:after, .form-item .breadcrumb-nav ol li.form-required:after, .breadcrumb-nav ol .form-item li.form-required:after, .form-item .breadcrumb-nav ol li a.form-required:after, .breadcrumb-nav ol li .form-item a.form-required:after, .form-item .breadcrumb-nav ol li span.form-required:after, .breadcrumb-nav ol li .form-item span.form-required:after, .breadcrumb-nav ol li.error-text-color, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-header:before, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-body, .breadcrumb-nav ol li a.error-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--error a.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li a.collapsible-header:before, .breadcrumb-nav ol li .system-status-report__status-icon--error a.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li a.collapsible-body, .breadcrumb-nav ol li span.error-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--error span.collapsible-header:before, .system-status-report__status-icon--error .breadcrumb-nav ol li span.collapsible-header:before, .breadcrumb-nav ol li .system-status-report__status-icon--error span.collapsible-body, .system-status-report__status-icon--error .breadcrumb-nav ol li span.collapsible-body, .breadcrumb-nav ol li.error-text-color:before, .breadcrumb-nav ol .system-status-report__status-icon--error li.collapsible-body:before, .system-status-report__status-icon--error .breadcrumb-nav ol li.collapsible-body:before, .system-status-report__status-icon--error .blue-text.collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary.blue-text:before, details.form-wrapper .system-status-report__status-icon--error summary.blue-text:before, .system-status-report__status-icon--error .blue-text.collapsible-body, .breadcrumb-nav ol li.text-lighten-3, .breadcrumb-nav ol li a.text-lighten-3, .breadcrumb-nav ol li span.text-lighten-3, .breadcrumb-nav ol li.text-lighten-3:before {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, span.blue.marker, span.marker.utility-wrapper, header.lighten-2.header-wrapper, #edit-actions header.header-wrapper.button--danger, .lighten-2.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.utility-wrapper:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.utility-wrapper, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.utility-wrapper, #edit-actions .utility-wrapper.button--danger, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.blue, #edit-actions .blue.button--danger {
+.blue.lighten-2, span.blue.marker, span.marker.utility-wrapper, header.lighten-2.header-wrapper, #edit-actions header.header-wrapper.button--danger, .lighten-2.utility-wrapper, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.utility-wrapper:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.utility-wrapper, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.utility-wrapper, #edit-actions .utility-wrapper.button--danger, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a.blue:hover, .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item.is-selected a.blue, .vertical-tab-wrapper .vertical-tabs__panes > details > summary.blue, #edit-actions .blue.button--danger, #edit-actions fieldset.form-wrapper legend.button--danger, fieldset.form-wrapper #edit-actions legend.button--danger, fieldset.form-wrapper legend.lighten-2 {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2, .breadcrumb-nav ol li a.text-lighten-2, .breadcrumb-nav ol li span.text-lighten-2, .breadcrumb-nav ol li.text-lighten-2:before {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .blue.button-action:hover, header.button-action.header-wrapper:hover, .button-action.utility-wrapper:hover, header.lighten-1.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, .help-collection .collection .collection-item.has-collection-link a.blue, .help-collection .collection .collection-item.has-collection-link a.utility-wrapper {
+.blue.lighten-1, .blue.button-action:hover, header.button-action.header-wrapper:hover, .button-action.utility-wrapper:hover, fieldset.form-wrapper legend.button-action:hover, header.lighten-1.header-wrapper, header.header-wrapper.utility-wrapper, .utility-wrapper, .help-collection .collection .collection-item.has-collection-link a.blue, .help-collection .collection .collection-item.has-collection-link a.utility-wrapper, fieldset.form-wrapper legend.lighten-1, fieldset.form-wrapper legend.utility-wrapper {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1, .breadcrumb-nav ol li a.text-lighten-1, .breadcrumb-nav ol li span.text-lighten-1, .breadcrumb-nav ol li.text-lighten-1:before {
   color: #42A5F5 !important; }
 
-.blue.darken-1, header.header-wrapper, .darken-1.utility-wrapper, table thead th.utility-wrapper, table thead th.blue {
+.blue.darken-1, header.header-wrapper, .darken-1.utility-wrapper, table thead th.utility-wrapper, fieldset.form-wrapper legend.darken-1, table thead th.blue {
   background-color: #1E88E5 !important; }
 
 .blue-text.text-darken-1, .breadcrumb-nav ol li.text-darken-1, .breadcrumb-nav ol li a.text-darken-1, .breadcrumb-nav ol li span.text-darken-1, .breadcrumb-nav ol li.text-darken-1:before {
   color: #1E88E5 !important; }
 
-.blue.darken-2, header.darken-2.header-wrapper, .darken-2.utility-wrapper {
+.blue.darken-2, header.darken-2.header-wrapper, .darken-2.utility-wrapper, fieldset.form-wrapper legend.darken-2 {
   background-color: #1976D2 !important; }
 
 .blue-text.text-darken-2, .blue-text.warning-text-color, abbr.blue-text.warning, a.blue-text#edit-cancel, .breadcrumb-nav ol li a#edit-cancel, .breadcrumb-nav ol li.warning-text-color, .breadcrumb-nav ol .system-status-report__status-icon--warning li.collapsible-header:before, .system-status-report__status-icon--warning .breadcrumb-nav ol li.collapsible-header:before, .breadcrumb-nav ol .system-status-report__status-icon--warning li.collapsible-body, .system-status-report__status-icon--warning .breadcrumb-nav ol li.collapsible-body, .breadcrumb-nav ol li a.warning-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--warning a.collapsible-header:before, .system-status-report__status-icon--warning .breadcrumb-nav ol li a.collapsible-header:before, .breadcrumb-nav ol li .system-status-report__status-icon--warning a.collapsible-body, .system-status-report__status-icon--warning .breadcrumb-nav ol li a.collapsible-body, .breadcrumb-nav ol li span.warning-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--warning span.collapsible-header:before, .system-status-report__status-icon--warning .breadcrumb-nav ol li span.collapsible-header:before, .breadcrumb-nav ol li .system-status-report__status-icon--warning span.collapsible-body, .system-status-report__status-icon--warning .breadcrumb-nav ol li span.collapsible-body, .breadcrumb-nav ol li.warning-text-color:before, .breadcrumb-nav ol .system-status-report__status-icon--warning li.collapsible-body:before, .system-status-report__status-icon--warning .breadcrumb-nav ol li.collapsible-body:before, .system-status-report__status-icon--warning .blue-text.collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary.blue-text:before, details.form-wrapper .system-status-report__status-icon--warning summary.blue-text:before, .system-status-report__status-icon--warning .blue-text.collapsible-body, .blue-text.status-text-color, .breadcrumb-nav ol li.status-text-color, .breadcrumb-nav ol .system-status-report__status-icon--checked li.collapsible-header:before, .system-status-report__status-icon--checked .breadcrumb-nav ol li.collapsible-header:before, .breadcrumb-nav ol li a.status-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--checked a.collapsible-header:before, .system-status-report__status-icon--checked .breadcrumb-nav ol li a.collapsible-header:before, .breadcrumb-nav ol li span.status-text-color, .breadcrumb-nav ol li .system-status-report__status-icon--checked span.collapsible-header:before, .system-status-report__status-icon--checked .breadcrumb-nav ol li span.collapsible-header:before, .breadcrumb-nav ol li.status-text-color:before, .system-status-report__status-icon--checked .blue-text.collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary.blue-text:before, details.form-wrapper .system-status-report__status-icon--checked summary.blue-text:before, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.blue-text, .breadcrumb-nav ol li.text-darken-2, .breadcrumb-nav ol li a.text-darken-2, .breadcrumb-nav ol li table.highlight > tbody > tr.selected a.dropdown-button, table.highlight > tbody > tr.selected .breadcrumb-nav ol li a.dropdown-button, .breadcrumb-nav ol li span.text-darken-2, .breadcrumb-nav ol li.text-darken-2:before, table.highlight > tbody > tr.selected a.blue-text.dropdown-button {
   color: #1976D2 !important; }
 
-.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.utility-wrapper, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.blue {
+.blue.darken-3, header.darken-3.header-wrapper, .darken-3.utility-wrapper, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.utility-wrapper, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.blue, fieldset.form-wrapper legend.darken-3 {
   background-color: #1565C0 !important; }
 
 .blue-text.text-darken-3, h2.blue-text.small-header, .views-preview-wrapper h2.blue-text.view-preview-form__title, .breadcrumb-nav ol li.text-darken-3, .breadcrumb-nav ol li a.text-darken-3, .breadcrumb-nav ol li span.text-darken-3, .breadcrumb-nav ol li.text-darken-3:before {
   color: #1565C0 !important; }
 
-.blue.darken-4, header.darken-4.header-wrapper, .darken-4.utility-wrapper {
+.blue.darken-4, header.darken-4.header-wrapper, .darken-4.utility-wrapper, fieldset.form-wrapper legend.darken-4 {
   background-color: #0D47A1 !important; }
 
 .blue-text.text-darken-4, .breadcrumb-nav ol li.text-darken-4, .breadcrumb-nav ol li a.text-darken-4, .breadcrumb-nav ol li span.text-darken-4, .breadcrumb-nav ol li.text-darken-4:before {
   color: #0D47A1 !important; }
 
-.blue.accent-1, header.accent-1.header-wrapper, .accent-1.utility-wrapper {
+.blue.accent-1, header.accent-1.header-wrapper, .accent-1.utility-wrapper, fieldset.form-wrapper legend.accent-1 {
   background-color: #82B1FF !important; }
 
 .blue-text.text-accent-1, .breadcrumb-nav ol li.text-accent-1, .breadcrumb-nav ol li a.text-accent-1, .breadcrumb-nav ol li span.text-accent-1, .breadcrumb-nav ol li.text-accent-1:before {
   color: #82B1FF !important; }
 
-.blue.accent-2, .blue.button-action, header.button-action.header-wrapper, .button-action.utility-wrapper, header.accent-2.header-wrapper, .accent-2.utility-wrapper {
+.blue.accent-2, .blue.button-action, header.button-action.header-wrapper, .button-action.utility-wrapper, fieldset.form-wrapper legend.button-action, header.accent-2.header-wrapper, .accent-2.utility-wrapper, fieldset.form-wrapper legend.accent-2 {
   background-color: #448AFF !important; }
 
 .blue-text.text-accent-2, .breadcrumb-nav ol li.text-accent-2, .breadcrumb-nav ol li a.text-accent-2, .breadcrumb-nav ol li span.text-accent-2, .breadcrumb-nav ol li.text-accent-2:before {
   color: #448AFF !important; }
 
-.blue.accent-3, header.accent-3.header-wrapper, .accent-3.utility-wrapper {
+.blue.accent-3, header.accent-3.header-wrapper, .accent-3.utility-wrapper, fieldset.form-wrapper legend.accent-3 {
   background-color: #2979FF !important; }
 
 .blue-text.text-accent-3, .breadcrumb-nav ol li.text-accent-3, .breadcrumb-nav ol li a.text-accent-3, .breadcrumb-nav ol li span.text-accent-3, .breadcrumb-nav ol li.text-accent-3:before {
   color: #2979FF !important; }
 
-.blue.accent-4, header.accent-4.header-wrapper, .accent-4.utility-wrapper {
+.blue.accent-4, header.accent-4.header-wrapper, .accent-4.utility-wrapper, fieldset.form-wrapper legend.accent-4 {
   background-color: #2962FF !important; }
 
 .blue-text.text-accent-4, .breadcrumb-nav ol li.text-accent-4, .breadcrumb-nav ol li a.text-accent-4, .breadcrumb-nav ol li span.text-accent-4, .breadcrumb-nav ol li.text-accent-4:before {
@@ -2255,7 +2255,7 @@ span.theme-status-indicator.warnings-color {
 .white {
   background-color: #FFFFFF !important; }
 
-.white-text, .button-action, span.marker, header.header-wrapper h1, .breadcrumb-nav ol li span, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus a, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover a, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active a {
+.white-text, .button-action, span.marker, header.header-wrapper h1, fieldset.form-wrapper legend, .breadcrumb-nav ol li span, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus a, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover a, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active a {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -2436,7 +2436,7 @@ a {
 .z-depth-0 {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .btn-floating:hover {
@@ -7657,13 +7657,18 @@ i.waves-input-wrapper {
   .form-no-label.form-type-radio input[type="checkbox"], .form-no-label.form-type-checkbox input[type="checkbox"] {
     font-size: 2em; }
 
-fieldset.form-wrapper span.fieldset-legend {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 1em 0 .5em 0;
-  display: block; }
-  fieldset.form-wrapper span.fieldset-legend:empty {
-    display: none; }
+fieldset.form-wrapper {
+  margin-left: 0px;
+  padding: 10px; }
+  fieldset.form-wrapper legend {
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5px; }
+    fieldset.form-wrapper legend span.fieldset-legend:empty {
+      display: none;
+      padding: 5px 10px; }
 
 .image-widget-data {
   position: relative; }
