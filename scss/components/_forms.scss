@@ -464,19 +464,19 @@ i.waves-input-wrapper {
 }
 
 fieldset.form-wrapper {
-	margin-left:0px;
-	padding:10px;
+  margin-left: 0px;
+  padding: 10px;
   legend {
-    @extend .blue, .white-text, .z-depth-1;
-    padding:5px 10px;
-    margin:0 5px 5px 0;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: .5px;
+    margin: 0 5px 5px 0;
     span.fieldset-legend {
+      @extend .blue, .white-text, .z-depth-1;
+      font-size: 16px;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
       &:empty {
         display: none;
-        padding:5px 10px;
+        padding: 5px 10px;
       }
     }
   }
