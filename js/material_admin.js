@@ -198,4 +198,28 @@
       }
     }
   };
+
+  var ckeditor_wait = setInterval(function () {
+    if (typeof CKEDITOR !== 'undefined') {
+      clearInterval(ckeditor_wait);
+      for (var i in CKEDITOR.instances) {
+        CKEDITOR.instances[i].on('dialogShow', function (e) {
+          var element = e.data.parts.dialog.$;
+          element.parentElement.classList.remove('cke_reset_all');
+          element.style.width = 'auto';
+          var cancel = element.querySelector('.cke_dialog_ui_button_cancel');
+          var ok = element.querySelector('.cke_dialog_ui_button_ok');
+          if (cancel) {
+            cancel.classList.remove('cke_dialog_ui_button_cancel', 'cke_dialog_ui_button');
+            cancel.classList.add('btn', 'btn-flat', 'darken-3', 'text-darken-2');
+          }
+          if (ok) {
+            ok.classList.remove('cke_dialog_ui_button_ok', 'cke_dialog_ui_button');
+            ok.classList.add('btn', 'btn-flat', 'darken-3', 'text-darken-2');
+          }
+          Drupal.attachBehaviors(element);
+        });
+      }
+    }
+  }, 100);
 }(jQuery, Drupal));

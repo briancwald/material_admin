@@ -119,3 +119,56 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.cke_dialog {
+  font-weight: bold;
+  background: color("shades", "white");
+  padding-top: 20px;
+  border: 0;
+  border-radius:0;
+  border-bottom: 1px solid color("grey", "lighten-1");
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  > tbody > tr > td {
+    padding: 0;
+  }
+  .cke_dialog_title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    background: none;
+  }
+  .cke_resizer {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .cke_resizer_rtl {
+    left: 5px;
+    bottom: 5px;
+  }
+  .cke_resizer_ltr {
+    right: 5px;
+    bottom: 5px;
+  }
+  .cke_dialog_body {
+    position: relative;
+  }
+  .cke_dialog_footer {
+    background: none;
+  }
+  .cke_dialog_ui_select {
+    position: relative;
+  }
+  .cke_dialog_contents {
+    margin-bottom: 0;
+  }
+  div.cke_dialog_ui_input_select {
+    display: block;
+  }
+  input.cke_dialog_ui_input_text:hover, input.cke_dialog_ui_input_password:hover, textarea.cke_dialog_ui_input_textarea:hover,
+  input.cke_dialog_ui_input_text:focus, input.cke_dialog_ui_input_password:focus, textarea.cke_dialog_ui_input_textarea:focus, select.cke_dialog_ui_input_select:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 0;
+  }
+}

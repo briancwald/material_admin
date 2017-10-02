@@ -7251,6 +7251,47 @@ tr .ajax-progress-throbber .throbber {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.cke_dialog {
+  font-weight: bold;
+  background: #FFFFFF;
+  padding-top: 20px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #bdbdbd;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
+  .cke_dialog > tbody > tr > td {
+    padding: 0; }
+  .cke_dialog .cke_dialog_title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    background: none; }
+  .cke_dialog .cke_resizer {
+    position: absolute;
+    margin: 0 !important; }
+  .cke_dialog .cke_resizer_rtl {
+    left: 5px;
+    bottom: 5px; }
+  .cke_dialog .cke_resizer_ltr {
+    right: 5px;
+    bottom: 5px; }
+  .cke_dialog .cke_dialog_body {
+    position: relative; }
+  .cke_dialog .cke_dialog_footer {
+    background: none; }
+  .cke_dialog .cke_dialog_ui_select {
+    position: relative; }
+  .cke_dialog .cke_dialog_contents {
+    margin-bottom: 0; }
+  .cke_dialog div.cke_dialog_ui_input_select {
+    display: block; }
+  .cke_dialog input.cke_dialog_ui_input_text:hover, .cke_dialog input.cke_dialog_ui_input_password:hover, .cke_dialog textarea.cke_dialog_ui_input_textarea:hover,
+  .cke_dialog input.cke_dialog_ui_input_text:focus, .cke_dialog input.cke_dialog_ui_input_password:focus, .cke_dialog textarea.cke_dialog_ui_input_textarea:focus, .cke_dialog select.cke_dialog_ui_input_select:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 0; }
+
 /* @file
  * Vertical tabs override
  *
