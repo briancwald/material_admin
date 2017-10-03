@@ -49,7 +49,7 @@ Since this is just a POC, code is not very well organized and needs to be mature
 - [x] Move SCSS out of admin.scss into sub components (e.g. navigation, buttons, forms (done), etc.)
 - [x] Move preprocess functions into .inc files and out of .theme
 - [ ] Better way to handle Materialize CSS overrides
-- [ ] Remove Classy as a parent theme entirely?
+- [ ] ~Remove Classy as a parent theme entirely?~ Should not remove Classy as there are some things contrib modules rely on. Instead, better method of excluding css files in the .info.
 - [ ] Prod deployment packaging (Min, optimize, etc)
 - [ ] Code standards + Lint
 
