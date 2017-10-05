@@ -12,8 +12,8 @@
 %}
     <div{{ description.attributes.addClass(description_classes) }}>
     {% if description.content is not empty %}
-         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
+         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
       {% else %}
-        <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description|e('html')|convert_encoding('HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
+        <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
     {% endif %}
     </div>
