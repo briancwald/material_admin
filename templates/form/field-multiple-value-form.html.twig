@@ -22,9 +22,7 @@
 {% if multiple %}
   <div class="js-form-item form-item">
     {{ table }}
-    {% if description.content %}
-      {% include '@material_admin/misc/description.html.twig' %}
-    {% endif %}
+    {% include '@material_admin/misc/description.html.twig' %}
     {% if button %}
       <div class="clearfix">{{ button }}</div>
     {% endif %}

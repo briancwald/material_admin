@@ -86,7 +86,7 @@
       <strong>{{ errors }}</strong>
     </div>
   {% endif %}
-  {% if description_display in ['after', 'invisible'] and description.content %}
-   {% include '@material_admin/misc/description.html.twig' %}
+  {% if description_display in ['after', 'invisible'] %}
+    {% include '@material_admin/misc/description.html.twig' %}
   {% endif %}
 </div>
