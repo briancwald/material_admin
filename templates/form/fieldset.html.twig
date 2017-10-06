@@ -53,8 +53,6 @@
     {% if suffix %}
       <span class="field-suffix">{{ suffix }}</span>
     {% endif %}
-    {% if description.content %}
-         {% include '@material_admin/misc/description.html.twig' %}
-    {% endif %}
+    {% include '@material_admin/misc/description.html.twig' %}
   </div>
 </fieldset>

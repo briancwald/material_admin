@@ -2,6 +2,12 @@
 /**
  * @file
  * Description styling
+ *
+ * Available variables:
+ * - description: Either a singleton (markup), or an array in the format:
+ *    - content: A description of the form element, may not be set.
+ *    - attributes: (optional) A list of HTML attributes to apply to the
+ *      description content wrapper. Will only be set when description is set.
 #}
 
 {%
@@ -10,10 +16,18 @@
     description_display == 'invisible' ? 'visually-hidden',
   ]
 %}
-    <div{{ description.attributes.addClass(description_classes) }}>
-    {% if description.content is not empty %}
-         <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description.content|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
-      {% else %}
-        <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ description|e('html')|convert_encoding('UTF-8', 'HTML-ENTITIES') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
-    {% endif %}
-    </div>
+
+{% if description is not iterable %}
+  {%
+    set description = {
+      content: description,
+      attributes: create_attribute({}),
+    }
+  %}
+{% endif %}
+
+{% if description.content is not empty %}
+  <div{{ description.attributes.addClass(description_classes) }}>
+    <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ render_var(description.content) | e('html_attr') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
+  </div>
+{% endif %}
