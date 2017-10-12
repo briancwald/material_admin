@@ -120,9 +120,11 @@
   };
   Drupal.behaviors.material_admin_remove_initial_content = {
     attach: function (context) {
-      $('.has-initial-content', context).removeClass('has-initial-content');
-    }
-  };
+      $(context).find('.has-initial-content input').each(function () {
+        $(this).on("focus").parent().removeClass('has-initial-content');
+    });
+  }
+};
   Drupal.behaviors.material_admin_views_ui_add_button = {
     attach: function (context) {
       setTimeout(function () {
