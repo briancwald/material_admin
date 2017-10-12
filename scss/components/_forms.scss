@@ -16,8 +16,6 @@
   }
 }
 
-
-
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit;
@@ -326,10 +324,8 @@ a#edit-cancel {
 }
 
 .input-field.has-initial-content .select-wrapper+label {
-  position: absolute;
-  top: -14px;
-  font-size: 0.8rem;
-  transform: inherit;
+  transform:none;
+  transition:none;
 }
 
 .input-field.has-initial-content label {

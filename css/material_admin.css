@@ -7602,11 +7602,9 @@ details.form-wrapper {
   padding-top: 10px; }
 
 .input-field.has-initial-content .select-wrapper + label {
-  position: absolute;
-  top: -14px;
-  font-size: 0.8rem;
-  -ms-transform: inherit;
-      transform: inherit; }
+  -ms-transform: none;
+      transform: none;
+  transition: none; }
 
 .input-field.has-initial-content label {
   -ms-transform: translateY(-14px) scale(0.8);
