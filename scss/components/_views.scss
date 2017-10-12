@@ -276,11 +276,17 @@ details.views-display-column.form-wrapper {
   display: none;
 }
 
-.views-preview-wrapper{
-  margin-top:3em;
-  .view-preview-form__title {
-    background: color("grey", "lighten-4");
-    @extend .small-header;
+.views-preview-wrapper {
+  margin-top: 3em;
+  .view-preview-form {
+    .view-preview-form__title {
+      background: color("grey", "lighten-4");
+      @extend .small-header;
+    }
+    .arguments-preview,
+    .form-item-view-args {
+      margin: 10px 20px!important;
+    }
   }
 }
 
