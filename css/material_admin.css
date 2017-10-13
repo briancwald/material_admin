@@ -7312,14 +7312,13 @@ tr .ajax-progress-throbber .throbber {
     margin-right: 0;
     border-right: 3px solid #9e9e9e; }
     .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item {
-      padding: 0.5em;
       display: block; }
       .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item:focus {
         outline: none; }
       .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a {
         text-transform: uppercase;
         text-decoration: none;
-        padding: .5em 1em;
+        padding: 1em;
         display: block;
         width: 100%; }
         .vertical-tab-wrapper ul.vertical-tabs__menu li.vertical-tabs__menu-item a strong {
