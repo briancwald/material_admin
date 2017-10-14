@@ -17,7 +17,12 @@
   // (not intended for cardinality select boxes)
   Drupal.behaviors.material_select_box = {
     attach: function (context) {
-      $(context).find('select').once('material_select_box').material_select();
+      $('select', context).once('material_select_box').each(function () {
+        $(this).material_select();
+        $(this).parent('.select-wrapper').removeClass(function (index, className) {
+          return (className.match(/\S+delta-order/) || []).join(' ');
+        });
+      });
     }
   };
   // textareas that have initial content need to be auto resized.
