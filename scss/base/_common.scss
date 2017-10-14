@@ -378,28 +378,6 @@ span.marker {
   border-bottom: 0;
 }
 
-.progress {
-  overflow: inherit;
-  height: 10px;
-  .progress__track {
-    background-color: color("teal", "accent-1");
-    border-color: color("teal", "accent-1");
-    background-image: none;
-    box-shadow: none;
-    border-radius: 0;
-    height: 10px;
-    .progress__bar {
-      @extend .determinate;
-      border: 0;
-      background: none;
-      background-color: color("teal", "lighten-1");
-      margin: 0;
-      height: 10px;
-      border-radius: 0;
-    }
-  }
-}
-
 // Toolbar causes a white bar because of transforms getting miscalculated in the navbar logic
 #toolbar-administration * {
   transition: color .2s, background .2s, background-color .2s, opacity .2s !important;
