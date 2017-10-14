@@ -7825,6 +7825,11 @@ details.form-wrapper {
   -ms-transform-origin: 0 0;
       transform-origin: 0 0; }
 
+.input-field.has-placeholder label {
+  -ms-transform: none;
+      transform: none;
+  top: -14px; }
+
 .input-field.file-field input {
   max-width: 100%; }
 

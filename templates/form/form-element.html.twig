@@ -59,6 +59,7 @@
     type in ['file', 'managed_file', 'upload'] ? 'file-field',
     errors ? 'form-item--error',
     children matches '/value="[^"]+"/' ? 'has-initial-content',
+    children matches '/placeholder="[^"]+"/' ? 'has-placeholder',
     description_display == 'after' ? 'has-description-after',
 ]
 %}

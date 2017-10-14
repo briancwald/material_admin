@@ -333,6 +333,10 @@ a#edit-cancel {
   transform-origin: 0 0;
 }
 
+.input-field.has-placeholder label {
+  transform: none;
+}
+
 .input-field.file-field {
   input {
     max-width: 100%;
