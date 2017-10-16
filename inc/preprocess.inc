@@ -174,3 +174,13 @@ function material_admin_preprocess_block(&$variables) {
     $variables['attributes']['class'] = array_diff($variables['attributes']['class'], ['contextual-region']);
   }
 }
+
+/**
+ * Implements hook_preprocess_textarea() for textarea content.
+ *
+ * set the default cols to 100 instead of Drupal default of 60, for better readability.
+ */
+function material_admin_preprocess_textarea(&$variables) {
+  $element = $variables['element'];
+  $variables['attributes']['cols'] = '100';
+}
