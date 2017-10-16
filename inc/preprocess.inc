@@ -181,6 +181,5 @@ function material_admin_preprocess_block(&$variables) {
  * set the default cols to 100 instead of Drupal default of 60, for better readability.
  */
 function material_admin_preprocess_textarea(&$variables) {
-  $element = $variables['element'];
   $variables['attributes']['cols'] = '100';
 }
