@@ -10,9 +10,14 @@
     padding: .5em;
     margin-bottom: .5em;
     display: block;
-    font-weight: bold;
+    font-weight:normal;
   }
   .item-list li {
     padding: 10px 0;
+    font-weight:normal;
   }
+}
+
+.uninstall-checkbox label.visually-hidden{
+  display: block;
 }

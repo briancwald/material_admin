@@ -58,6 +58,10 @@ hr {
   margin: 1em 0;
 }
 
+.v-middle {
+  vertical-align: middle;
+}
+
 // Inputs inside dropbuttons dont align properly without this browser specifc styling.
 ul.dropbutton {
   input {
@@ -294,9 +298,8 @@ details {
   &.active {
     .collapsible-header.with-arrows {
       &:after {
-        @extend .material-icons;
-        content: 'keyboard_arrow_down';
-        padding: 0px 5px;
+        @extend .material-icons, .collapse-down;
+
       }
     }
     .collapsible-header.right-arrows {
@@ -309,9 +312,7 @@ details {
   }
   .collapsible-header.with-arrows {
     &:after {
-      @extend .material-icons;
-      content: 'keyboard_arrow_right';
-      padding: 0px 5px;
+      @extend .material-icons, .collapse-right;
     }
   }
   .collapsible-header.right-arrows {

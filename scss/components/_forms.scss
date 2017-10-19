@@ -482,6 +482,24 @@ fieldset.form-wrapper {
   }
 }
 
+// For fieldgroups dont use teh fieldset border or z-depth to reduce clutter.
+fieldset.fieldgroup.form-wrapper {
+  padding-left:0;
+  legend {
+    font-weight:500;
+    margin:15px 0 0 0;
+    span.fieldset-legend {
+      @extend .grey, .lighten-5, .blue-text, .z-depth-0;
+      padding-left:0;
+    }
+  }
+  .fieldset-wrapper {
+    .form-radios {
+      margin-top:10px;
+    }
+  }
+}
+
 .image-widget-data {
   position: relative;
 }

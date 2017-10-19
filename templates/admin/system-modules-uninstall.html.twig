@@ -33,7 +33,7 @@
     {% for module in modules %}
       {% set zebra = cycle(['odd', 'even'], loop.index0) -%}
       <tr{{ module.attributes.addClass(zebra) }}>
-        <td align="center" class="checkbox">
+        <td align="center" class="checkbox uninstall-checkbox">
           {{- module.checkbox -}}
         </td>
         <td>
@@ -56,10 +56,14 @@
               <div class="item-list">
                 <ul>
                   {%- for reason in module.validation_reasons -%}
-                    <li>{{ reason }}</li>
+                    <li><i class="material-icons v-middle">warning</i> {{ reason }}</li>
                   {%- endfor -%}
-                  {%- if module.required_by -%}
-                    <li>{{ 'Required by: @module-list'|t({'@module-list': module.required_by|safe_join(', ') }) }}</li>
+                    {%- if module.required_by -%}
+                      <li>{{ 'Required by: '|t}}      
+                        {% for keys in module.required_by %}
+                          <span class="chip">{{keys}}</span>
+                        {% endfor %}
+                    </li>
                   {%- endif -%}
                 </ul>
               </div>
