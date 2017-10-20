@@ -19,66 +19,63 @@
  * @see template_preprocess_system_modules_uninstall()
  */
 #}
-{{ form.filters }}
+{%
+  set card = [
+    'card',
+    'sticky-actions',
+    'medium'
+  ]
+%}
 
-<table class="responsive-enabled" data-striping="1">
-  <thead>
-    <tr>
-      <th>{{ 'Uninstall'|t }}</th>
-      <th>{{ 'Name'|t }}</th>
-      <th>{{ 'Description'|t }}</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for module in modules %}
-      {% set zebra = cycle(['odd', 'even'], loop.index0) -%}
-      <tr{{ module.attributes.addClass(zebra) }}>
-        <td align="center" class="checkbox uninstall-checkbox">
-          {{- module.checkbox -}}
-        </td>
-        <td>
-          <label for="{{ module.checkbox_id }}" class="module-name table-filter-text-source">{{ module.name }}</label>
-        </td>
-        <td class="description">
-          {% if module.reasons_count <= 0 %}
-          <div class="text module-description">{{module.description}}</div>
-          {% endif %}
-          {% if module.reasons_count > 0 %}
-          <ul class="collapsible" data-collapsible="expandable">
-            <li>
-          <div class="text collapsible-header with-arrows module-description">{{ module.description }}</div>
-            <div class="admin-requirements collapsible-body">
-              <span class="admin-prevent-text">{%- trans -%}
+{%
+  set caption = [
+
+  ]
+%}
+
+{{ form.filters }}
+<div class="uninstall-modules-wrapper row">
+  {% for module in modules %}
+  <div class="col s12 m6 l4 lx3">
+    <div {{ module.attributes.addClass(card) }}>
+      <div class="card-content">
+        <span class="card-title module-name table-filter-text-source activator grey-text text-darken-4">{{ module.name }}<i class="material-icons right">more_vert</i></span>
+        <div class="text module-description"><p>{{module.description}}</p></div>
+         {%- if module.required_by -%}
+         <p> <span class=" new red badge" data-badge-caption="
+          {%- trans -%}
+          Modules Require This
+          {%- endtrans %}">{{ module.required_by|length }}
+          </span>
+         </p>
+         {%- endif -%} 
+      </div>
+      <div class="card-action">
+        <p>{{- module.checkbox -}}</p>
+        <label for="{{ module.checkbox_id }}" class="module-name visually-hidden">{{ module.name }}</label>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">{{ module.name }}<i class="material-icons right">close</i></span>
+        {% if module.reasons_count > 0 %} 
+          {%- for reason in module.validation_reasons -%}
+            <li><i class="material-icons v-middle">warning</i> {{ reason }}</li>
+          {%- endfor -%}
+          <p><span class="admin-prevent-text">{%- trans -%}
                 The following reason prevents {{ module.module_name }} from being uninstalled:
               {%- plural module.reasons_count -%}
                 The following reasons prevent {{ module.module_name }} from being uninstalled:
               {%- endtrans %}</span>
-              <div class="item-list">
-                <ul>
-                  {%- for reason in module.validation_reasons -%}
-                    <li><i class="material-icons v-middle">warning</i> {{ reason }}</li>
-                  {%- endfor -%}
-                    {%- if module.required_by -%}
-                      <li>{{ 'Required by: '|t}}      
-                        {% for keys in module.required_by %}
-                          <span class="chip">{{keys}}</span>
-                        {% endfor %}
-                    </li>
-                  {%- endif -%}
-                </ul>
-              </div>
-            </div>
-          {% endif %}
-            </li>
-          </ul>
-        </td>
-      </tr>
-    {% else %}
-      <tr class="odd">
-        <td colspan="3" class="empty message">{{ 'No modules are available to uninstall.'|t }}</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-{{ form|without('filters', 'modules', 'uninstall') }}
+          </p>
+        {%- if module.required_by -%}
+        <ul>
+          <li>{{ 'Required by: '|t}} {% for keys in module.required_by %}
+            <span class="chip">{{keys}}</span> {% endfor %}
+          </li>
+        </ul>
+        {%- endif -%} 
+      {%- endif -%}
+      </div>
+    </div>
+  </div>
+      {% endfor %} {{ form|without('filters', 'modules', 'uninstall') }}
+</div>
