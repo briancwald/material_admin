@@ -1,0 +1,27 @@
+/* @file
+ * Entity Browser overrides
+ *
+ */
+
+.entities-list {
+	margin:10px 0;
+  .item-container {
+  	background: color("grey", "lighten-4");
+  	padding:10px;
+  	margin:5px;
+    &.rendered-entity {
+      text-align: center;
+    }
+    &.ui-sortable-handle {
+      &:before {
+        @extend .material-icons;
+        content: 'drag_handle';
+        padding:5px;
+      }
+    }
+    .btn {
+      @extend .btn-flat,
+      .btn-flat-action;
+    }
+  }
+}

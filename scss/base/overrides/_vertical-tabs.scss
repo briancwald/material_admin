@@ -64,7 +64,6 @@
     padding-left: 1em;
     border-left: 3px solid map-get($grey, base);
     transition: max-height 0.66s ease-out;
-    max-height: 100vh;
     @extend .col, .m9, .s12;
     >details {
       border: none;

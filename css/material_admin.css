@@ -2571,7 +2571,9 @@ video.responsive-video {
   .breadcrumb i.tablesort.tablesort--asc:after,
   .breadcrumb i.tablesort.tablesort--desc:after,
   .breadcrumb .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle
-  .breadcrumb i.handle:before {
+  .breadcrumb i.handle:before,
+  .breadcrumb .entities-list i.item-container.ui-sortable-handle:before, .entities-list
+  .breadcrumb i.item-container.ui-sortable-handle:before {
     display: inline-block;
     float: left;
     font-size: 24px; }
@@ -3734,7 +3736,10 @@ nav ul a span.badge, nav ul a span.marker {
 .dropbutton-wrapper.dropbutton-single .edit a,
 #edit-actions .button--danger,
 a#edit-cancel,
-.field-suffix small span.admin-link {
+.field-suffix small span.admin-link,
+.entities-list .item-container .btn,
+.entities-list .item-container .btn-large,
+.entities-list .item-container .button-action {
   border: none;
   border-radius: 2px;
   display: inline-block;
@@ -3759,6 +3764,9 @@ a#edit-cancel,
 #edit-actions .disabled.button--danger,
 a.disabled#edit-cancel,
 .field-suffix small span.disabled.admin-link,
+.entities-list .item-container .disabled.btn,
+.entities-list .item-container .disabled.btn-large,
+.entities-list .item-container .disabled.button-action,
 .btn:disabled,
 .btn-large:disabled,
 .button-action:disabled,
@@ -3777,6 +3785,9 @@ a.disabled#edit-cancel,
 #edit-actions .button--danger:disabled,
 a#edit-cancel:disabled,
 .field-suffix small span.admin-link:disabled,
+.entities-list .item-container .btn:disabled,
+.entities-list .item-container .btn-large:disabled,
+.entities-list .item-container .button-action:disabled,
 .btn[disabled],
 [disabled].btn-large,
 [disabled].button-action,
@@ -3794,7 +3805,10 @@ a#edit-cancel:disabled,
 .dropbutton-wrapper.dropbutton-single .edit a[disabled],
 #edit-actions [disabled].button--danger,
 a[disabled]#edit-cancel,
-.field-suffix small span[disabled].admin-link {
+.field-suffix small span[disabled].admin-link,
+.entities-list .item-container [disabled].btn,
+.entities-list .item-container [disabled].btn-large,
+.entities-list .item-container [disabled].button-action {
   pointer-events: none;
   background-color: #DFDFDF !important;
   box-shadow: none;
@@ -3814,6 +3828,9 @@ a[disabled]#edit-cancel,
   #edit-actions .disabled.button--danger:hover,
   a.disabled#edit-cancel:hover,
   .field-suffix small span.disabled.admin-link:hover,
+  .entities-list .item-container .disabled.btn:hover,
+  .entities-list .item-container .disabled.btn-large:hover,
+  .entities-list .item-container .disabled.button-action:hover,
   .btn:disabled:hover,
   .btn-large:disabled:hover,
   .button-action:disabled:hover,
@@ -3832,6 +3849,9 @@ a[disabled]#edit-cancel,
   #edit-actions .button--danger:disabled:hover,
   a#edit-cancel:disabled:hover,
   .field-suffix small span.admin-link:disabled:hover,
+  .entities-list .item-container .btn:disabled:hover,
+  .entities-list .item-container .btn-large:disabled:hover,
+  .entities-list .item-container .button-action:disabled:hover,
   .btn[disabled]:hover,
   [disabled].btn-large:hover,
   [disabled].button-action:hover,
@@ -3849,7 +3869,10 @@ a[disabled]#edit-cancel,
   .dropbutton-wrapper.dropbutton-single .edit a[disabled]:hover,
   #edit-actions [disabled].button--danger:hover,
   a[disabled]#edit-cancel:hover,
-  .field-suffix small span[disabled].admin-link:hover {
+  .field-suffix small span[disabled].admin-link:hover,
+  .entities-list .item-container [disabled].btn:hover,
+  .entities-list .item-container [disabled].btn-large:hover,
+  .entities-list .item-container [disabled].button-action:hover {
     background-color: #DFDFDF !important;
     color: #9F9F9F !important; }
 
@@ -3866,13 +3889,16 @@ a[disabled]#edit-cancel,
 .dropbutton-wrapper.dropbutton-single .edit a,
 #edit-actions .button--danger,
 a#edit-cancel,
-.field-suffix small span.admin-link {
+.field-suffix small span.admin-link,
+.entities-list .item-container .btn,
+.entities-list .item-container .btn-large,
+.entities-list .item-container .button-action {
   font-size: 1rem;
   outline: 0; }
   .btn i, .btn-large i, .button-action i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i, .dropbutton-wrapper.dropbutton-single .edit a i,
   .btn-floating i,
   .btn-large i,
-  .btn-flat i, .button-link i, .compact-link a i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .button--small i, .region-title__action .button i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i, .dropbutton-wrapper.dropbutton-single .edit a i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i {
+  .btn-flat i, .button-link i, .compact-link a i, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight i, .button--small i, .region-title__action .button i, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button i, .dropbutton-wrapper.dropbutton-single .edit a i, #edit-actions .button--danger i, a#edit-cancel i, .field-suffix small span.admin-link i, .entities-list .item-container .btn i, .entities-list .item-container .btn-large i, .entities-list .item-container .button-action i {
     font-size: 1.3rem;
     line-height: inherit; }
 
@@ -4014,17 +4040,17 @@ button.btn-floating {
     -ms-transform: scale(0);
         transform: scale(0); }
 
-.btn-flat, .button-link, .compact-link a, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .button--small, .region-title__action .button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link {
+.btn-flat, .button-link, .compact-link a, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .button--small, .region-title__action .button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, #edit-actions .button--danger, a#edit-cancel, .field-suffix small span.admin-link, .entities-list .item-container .btn, .entities-list .item-container .btn-large, .entities-list .item-container .button-action {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer;
   transition: background-color .2s; }
-  .btn-flat:focus, .button-link:focus, .compact-link a:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .button--small:focus, .region-title__action .button:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .btn-flat:hover, .button-link:hover, .compact-link a:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .button--small:hover, .region-title__action .button:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover {
+  .btn-flat:focus, .button-link:focus, .compact-link a:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .button--small:focus, .region-title__action .button:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .entities-list .item-container .btn:focus, .entities-list .item-container .btn-large:focus, .entities-list .item-container .button-action:focus, .btn-flat:hover, .button-link:hover, .compact-link a:hover, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:hover, .button--small:hover, .region-title__action .button:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, #edit-actions .button--danger:hover, a#edit-cancel:hover, .field-suffix small span.admin-link:hover, .entities-list .item-container .btn:hover, .entities-list .item-container .btn-large:hover, .entities-list .item-container .button-action:hover {
     box-shadow: none; }
-  .btn-flat:focus, .button-link:focus, .compact-link a:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .button--small:focus, .region-title__action .button:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus {
+  .btn-flat:focus, .button-link:focus, .compact-link a:focus, .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight:focus, .button--small:focus, .region-title__action .button:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, #edit-actions .button--danger:focus, a#edit-cancel:focus, .field-suffix small span.admin-link:focus, .entities-list .item-container .btn:focus, .entities-list .item-container .btn-large:focus, .entities-list .item-container .button-action:focus {
     background-color: rgba(0, 0, 0, 0.1); }
-  .btn-flat.disabled, .disabled.button-link, .compact-link a.disabled, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .disabled.button--small, .region-title__action .disabled.button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled, .dropbutton-wrapper.dropbutton-single .edit a.disabled, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link {
+  .btn-flat.disabled, .disabled.button-link, .compact-link a.disabled, .tabledrag-toggle-weight-wrapper .disabled.tabledrag-toggle-weight, .disabled.button--small, .region-title__action .disabled.button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.disabled, .dropbutton-wrapper.dropbutton-single .edit a.disabled, #edit-actions .disabled.button--danger, a.disabled#edit-cancel, .field-suffix small span.disabled.admin-link, .entities-list .item-container .disabled.btn, .entities-list .item-container .disabled.btn-large, .entities-list .item-container .disabled.button-action {
     background-color: transparent !important;
     color: #b3b3b3 !important;
     cursor: default; }
@@ -4526,7 +4552,9 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     .input-field input[type=search]:focus ~ .tablesort.tablesort--asc:after,
     .input-field input[type=search]:focus ~ .tablesort.tablesort--desc:after,
     .input-field .draggable a.tabledrag-handle input[type=search]:focus ~ .handle:before, .draggable a.tabledrag-handle
-    .input-field input[type=search]:focus ~ .handle:before {
+    .input-field input[type=search]:focus ~ .handle:before,
+    .input-field .entities-list input[type=search]:focus ~ .item-container.ui-sortable-handle:before, .entities-list
+    .input-field input[type=search]:focus ~ .item-container.ui-sortable-handle:before {
       color: #444; }
   .input-field input[type=search] + label {
     left: 1rem; }
@@ -4599,7 +4627,9 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   .input-field input[type=search] ~ .tablesort.tablesort--asc:after,
   .input-field input[type=search] ~ .tablesort.tablesort--desc:after,
   .input-field .draggable a.tabledrag-handle input[type=search] ~ .handle:before, .draggable a.tabledrag-handle
-  .input-field input[type=search] ~ .handle:before {
+  .input-field input[type=search] ~ .handle:before,
+  .input-field .entities-list input[type=search] ~ .item-container.ui-sortable-handle:before, .entities-list
+  .input-field input[type=search] ~ .item-container.ui-sortable-handle:before {
     position: absolute;
     top: 0;
     right: 1rem;
@@ -5452,7 +5482,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 56px;
     width: 100%;
     text-align: right; }
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .button--small, .modal .modal-footer .region-title__action .button, .region-title__action .modal .modal-footer .button, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .button-action, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer .btn-flat, .modal .modal-footer .button-link, .modal .modal-footer .compact-link a, .compact-link .modal .modal-footer a, .modal .modal-footer .tabledrag-toggle-weight-wrapper .tabledrag-toggle-weight, .tabledrag-toggle-weight-wrapper .modal .modal-footer .tabledrag-toggle-weight, .modal .modal-footer .button--small, .modal .modal-footer .region-title__action .button, .region-title__action .modal .modal-footer .button, .modal .modal-footer .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .modal .modal-footer button, .modal .modal-footer .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .modal .modal-footer a, .modal .modal-footer #edit-actions .button--danger, #edit-actions .modal .modal-footer .button--danger, .modal .modal-footer a#edit-cancel, .modal .modal-footer .field-suffix small span.admin-link, .field-suffix small .modal .modal-footer span.admin-link, .modal .modal-footer .entities-list .item-container .btn, .entities-list .item-container .modal .modal-footer .btn, .modal .modal-footer .entities-list .item-container .btn-large, .entities-list .item-container .modal .modal-footer .btn-large, .modal .modal-footer .entities-list .item-container .button-action, .entities-list .item-container .modal .modal-footer .button-action {
       margin: 6px 0; }
 
 .modal-overlay {
@@ -6598,7 +6628,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       transform: translateY(-140%); }
 
 /* This is needed for some mobile phones to display the Google Icon font properly */
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .entities-list .item-container.ui-sortable-handle:before {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
@@ -6664,7 +6694,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"); }
 
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .entities-list .item-container.ui-sortable-handle:before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -6782,7 +6812,7 @@ label {
 .tooltipped,
 .filter-help {
   font-size: .8em; }
-  .tooltipped .material-icons, .tooltipped .button-action:before, .tooltipped details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active .tooltipped summary.right-arrows:after, .tooltipped .collapsible li .collapsible-header.with-arrows:after, .collapsible li .tooltipped .collapsible-header.with-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.with-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.with-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.with-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li summary.with-arrows:after, details.form-wrapper li .tooltipped summary.with-arrows:after, .tooltipped .collapsible li .collapsible-header.right-arrows:after, .collapsible li .tooltipped .collapsible-header.right-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.right-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.right-arrows:after, .tooltipped details.form-wrapper li summary.right-arrows:after, details.form-wrapper li .tooltipped summary.right-arrows:after, .tooltipped .region-title__action .button:after, .region-title__action .tooltipped .button:after, .tooltipped .color-palette .color-palette__hook.is-up:before, .color-palette .tooltipped .color-palette__hook.is-up:before, .tooltipped .color-palette .color-palette__lock:before, .color-palette .tooltipped .color-palette__lock:before, .tooltipped .breadcrumb-nav ol li:before, .breadcrumb-nav ol .tooltipped li:before, .tooltipped .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child .tooltipped a:before, .tooltipped .details-item .collapsible-header:before, .details-item .tooltipped .collapsible-header:before, .tooltipped .details-item details.form-wrapper summary:before, .details-item details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .details-item summary:before, details.form-wrapper .details-item .tooltipped summary:before, .tooltipped .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection .tooltipped .collection-item:before, .tooltipped .dropdown-button:after, .tooltipped .select-wrapper .caret:after, .select-wrapper .tooltipped .caret:after, .tooltipped details.form-wrapper summary:after, details.form-wrapper .tooltipped summary:after, .tooltipped .entity-meta__last-saved h4:before, .entity-meta__last-saved .tooltipped h4:before, .tooltipped .entity-meta__author h4:before, .entity-meta__author .tooltipped h4:before, .tooltipped .field--name-created h4:before, .field--name-created .tooltipped h4:before, .tooltipped .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked .tooltipped summary:before, .tooltipped .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning .tooltipped summary:before, .tooltipped .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .tooltipped summary:before, .tooltipped .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .tablesort.tablesort--asc:after, .tooltipped .tablesort.tablesort--desc:after, .tooltipped .draggable a.tabledrag-handle .handle:before, .draggable a.tabledrag-handle .tooltipped .handle:before,
+  .tooltipped .material-icons, .tooltipped .button-action:before, .tooltipped details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active .tooltipped summary.right-arrows:after, .tooltipped .collapsible li .collapsible-header.with-arrows:after, .collapsible li .tooltipped .collapsible-header.with-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.with-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.with-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.with-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li summary.with-arrows:after, details.form-wrapper li .tooltipped summary.with-arrows:after, .tooltipped .collapsible li .collapsible-header.right-arrows:after, .collapsible li .tooltipped .collapsible-header.right-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.right-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.right-arrows:after, .tooltipped details.form-wrapper li summary.right-arrows:after, details.form-wrapper li .tooltipped summary.right-arrows:after, .tooltipped .region-title__action .button:after, .region-title__action .tooltipped .button:after, .tooltipped .color-palette .color-palette__hook.is-up:before, .color-palette .tooltipped .color-palette__hook.is-up:before, .tooltipped .color-palette .color-palette__lock:before, .color-palette .tooltipped .color-palette__lock:before, .tooltipped .breadcrumb-nav ol li:before, .breadcrumb-nav ol .tooltipped li:before, .tooltipped .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child .tooltipped a:before, .tooltipped .details-item .collapsible-header:before, .details-item .tooltipped .collapsible-header:before, .tooltipped .details-item details.form-wrapper summary:before, .details-item details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .details-item summary:before, details.form-wrapper .details-item .tooltipped summary:before, .tooltipped .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection .tooltipped .collection-item:before, .tooltipped .dropdown-button:after, .tooltipped .select-wrapper .caret:after, .select-wrapper .tooltipped .caret:after, .tooltipped details.form-wrapper summary:after, details.form-wrapper .tooltipped summary:after, .tooltipped .entity-meta__last-saved h4:before, .entity-meta__last-saved .tooltipped h4:before, .tooltipped .entity-meta__author h4:before, .entity-meta__author .tooltipped h4:before, .tooltipped .field--name-created h4:before, .field--name-created .tooltipped h4:before, .tooltipped .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked .tooltipped summary:before, .tooltipped .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning .tooltipped summary:before, .tooltipped .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .tooltipped summary:before, .tooltipped .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .tablesort.tablesort--asc:after, .tooltipped .tablesort.tablesort--desc:after, .tooltipped .draggable a.tabledrag-handle .handle:before, .draggable a.tabledrag-handle .tooltipped .handle:before, .tooltipped .entities-list .item-container.ui-sortable-handle:before, .entities-list .tooltipped .item-container.ui-sortable-handle:before,
   .filter-help .material-icons,
   .filter-help .button-action:before,
   .filter-help details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active
@@ -6861,7 +6891,9 @@ label {
   .filter-help .tablesort.tablesort--asc:after,
   .filter-help .tablesort.tablesort--desc:after,
   .filter-help .draggable a.tabledrag-handle .handle:before, .draggable a.tabledrag-handle
-  .filter-help .handle:before {
+  .filter-help .handle:before,
+  .filter-help .entities-list .item-container.ui-sortable-handle:before, .entities-list
+  .filter-help .item-container.ui-sortable-handle:before {
     font-size: 1.5em;
     vertical-align: text-bottom; }
 
@@ -6876,6 +6908,9 @@ label {
   color: #FFFFFF;
   margin: 0 10px 0 0px;
   vertical-align: text-top; }
+
+.btn-flat-action, .entities-list .item-container .btn, .entities-list .item-container .btn-large, .entities-list .item-container .button-action, .entities-list .item-container .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .entities-list .item-container button, .entities-list .item-container .dropbutton-wrapper.dropbutton-single .edit a, .dropbutton-wrapper.dropbutton-single .edit .entities-list .item-container a {
+  color: #ffab40; }
 
 .inline {
   display: inline; }
@@ -7318,8 +7353,7 @@ tr .ajax-progress-throbber .throbber {
     margin-left: -3px !important;
     padding-left: 1em;
     border-left: 3px solid #9e9e9e;
-    transition: max-height 0.66s ease-out;
-    max-height: 100vh; }
+    transition: max-height 0.66s ease-out; }
     .vertical-tab-wrapper .vertical-tabs__panes > details {
       border: none;
       box-shadow: none; }
@@ -7751,6 +7785,8 @@ details.form-wrapper {
     details.form-wrapper .details-wrapper details.form-wrapper {
       box-shadow: none;
       border: 1px solid #e0e0e0 !important; }
+    details.form-wrapper .details-wrapper .details-description {
+      padding: 10px 0; }
 
 details.form-wrapper {
   position: relative; }
@@ -7838,7 +7874,7 @@ details.form-wrapper {
 
 .input-field .search-wrapper {
   margin: 0 12px; }
-  .input-field .search-wrapper i.material-icons, .input-field .search-wrapper i.button-action:before, .input-field .search-wrapper .collapsible li i.collapsible-header.with-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.with-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper .collapsible li i.collapsible-header.right-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper .region-title__action i.button:after, .region-title__action .input-field .search-wrapper i.button:after, .input-field .search-wrapper .color-palette i.color-palette__hook.is-up:before, .color-palette .input-field .search-wrapper i.color-palette__hook.is-up:before, .input-field .search-wrapper .color-palette i.color-palette__lock:before, .color-palette .input-field .search-wrapper i.color-palette__lock:before, .input-field .search-wrapper .details-item i.collapsible-header:before, .details-item .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection .input-field .search-wrapper i.collection-item:before, .input-field .search-wrapper i.dropdown-button:after, .input-field .search-wrapper .select-wrapper i.caret:after, .select-wrapper .input-field .search-wrapper i.caret:after, .input-field .search-wrapper .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper i.tablesort.tablesort--asc:after, .input-field .search-wrapper i.tablesort.tablesort--desc:after, .input-field .search-wrapper .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle .input-field .search-wrapper i.handle:before {
+  .input-field .search-wrapper i.material-icons, .input-field .search-wrapper i.button-action:before, .input-field .search-wrapper .collapsible li i.collapsible-header.with-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.with-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper .collapsible li i.collapsible-header.right-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper .region-title__action i.button:after, .region-title__action .input-field .search-wrapper i.button:after, .input-field .search-wrapper .color-palette i.color-palette__hook.is-up:before, .color-palette .input-field .search-wrapper i.color-palette__hook.is-up:before, .input-field .search-wrapper .color-palette i.color-palette__lock:before, .color-palette .input-field .search-wrapper i.color-palette__lock:before, .input-field .search-wrapper .details-item i.collapsible-header:before, .details-item .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection .input-field .search-wrapper i.collection-item:before, .input-field .search-wrapper i.dropdown-button:after, .input-field .search-wrapper .select-wrapper i.caret:after, .select-wrapper .input-field .search-wrapper i.caret:after, .input-field .search-wrapper .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper i.tablesort.tablesort--asc:after, .input-field .search-wrapper i.tablesort.tablesort--desc:after, .input-field .search-wrapper .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle .input-field .search-wrapper i.handle:before, .input-field .search-wrapper .entities-list i.item-container.ui-sortable-handle:before, .entities-list .input-field .search-wrapper i.item-container.ui-sortable-handle:before {
     display: inline-block;
     padding-right: 10px;
     font-size: 1.25em;
@@ -8529,6 +8565,26 @@ details.views-display-column.form-wrapper {
 
 .views-table .select-all.views-field label {
   color: transparent; }
+
+/* @file
+ * Contrib overrides
+ *
+ */
+/* @file
+ * Entity Browser overrides
+ *
+ */
+.entities-list {
+  margin: 10px 0; }
+  .entities-list .item-container {
+    background: #f5f5f5;
+    padding: 10px;
+    margin: 5px; }
+    .entities-list .item-container.rendered-entity {
+      text-align: center; }
+    .entities-list .item-container.ui-sortable-handle:before {
+      content: 'drag_handle';
+      padding: 5px; }
 
 /* @file
  * Base files
