@@ -17,6 +17,20 @@ function material_admin_theme_suggestions_page_alter(array &$suggestions, array 
   }
 }
 
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+
+function material_admin_theme_suggestions_system_modules_uninstall_alter(array &$suggestions, array $variables) {
+  if (theme_get_setting('material_admin_card_layout')) {
+    $suggestions[] = 'system_modules_uninstall__card';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+
 function material_admin_theme() {
   $path = drupal_get_path('theme', 'material_admin');
   return [

@@ -28,6 +28,13 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
     '#default_value' => theme_get_setting('material_admin_node_actions'),
   );
 
+  $form['theme_ui_options']['material_admin_card_layout'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Replace various table layouts with card layouts'),
+    '#description' => t('Replace module pages with card layout instead of table layout for better mobile support'),
+    '#default_value' => theme_get_setting('material_admin_card_layout'),
+  );
+
   $form['theme_ui_options']['material_admin_portal_login'] = array(
     '#type' => 'checkbox',
     '#title' => t('Use portal style for user login page'),
