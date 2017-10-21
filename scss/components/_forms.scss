@@ -452,20 +452,6 @@ i.waves-input-wrapper {
   }
 }
 
-// If a checkbox or radio do not have laebls, use browser defaults or nothing will show at all.
-.form-no-label {
-  &.form-type-radio, &.form-type-checkbox {
-    input {
-      opacity: 1;
-      position: relative;
-      pointer-events: initial;
-      &[type="checkbox"] {
-        font-size: 2em;
-      }
-    }
-  }
-}
-
 fieldset.form-wrapper {
   margin-left: 0px;
   padding: 10px;

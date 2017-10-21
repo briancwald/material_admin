@@ -52,7 +52,7 @@
     'form-type-' ~ type|clean_class,
     'js-form-item-' ~ name|clean_class,
     'form-item-' ~ name|clean_class,
-    label_display not in ['after', 'before', 'invisible'] ? 'form-no-label',
+    label_display == 'none' ? 'form-no-label',
     label_display in ['after', 'before'] ? 'form-has-label',
     disabled == 'disabled' ? 'form-disabled',
     type in ['textfield', 'select', 'password', 'email', 'number', 'tel', 'search', 'url', 'path', 'entity_autocomplete', 'file', 'managed_file', 'upload'] ? 'input-field',
@@ -64,7 +64,7 @@
 ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {% if label_display in ['before', 'invisible', 'none'] %}
+  {% if label_display in ['before', 'invisible'] %}
     {{ label }}
   {% endif %}
   {% if prefix is not empty %}
