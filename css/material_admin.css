@@ -7529,6 +7529,15 @@ tr .ajax-progress-throbber .throbber {
       display: none; } }
 
 /* @file
+ * Card
+ *
+ */
+.card-action .form-item, .package-listing .details-description .links .form-item {
+  margin: 5px 0; }
+  .card-action .form-item label.visually-hidden, .package-listing .details-description .links .form-item label.visually-hidden {
+    display: block; }
+
+/* @file
  * Chips
  *
  */
@@ -8680,6 +8689,27 @@ span.theme-status-indicator {
 
 .uninstall-checkbox label.visually-hidden {
   display: block; }
+
+.card .module-description {
+  padding: 15px 0px; }
+
+.uninstall-submit-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 30px;
+  border-top: 1px solid #ccc;
+  background: #f5f5f5;
+  width: 100%; }
+
+.module-uninstall-issues {
+  padding-bottom: 20px;
+  font-size: 0.85em; }
+  .module-uninstall-issues i {
+    vertical-align: middle;
+    padding-right: 5px;
+    font-size: 1.25em; }
 
 /* @file
  * Permissions page

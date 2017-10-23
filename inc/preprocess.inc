@@ -98,6 +98,7 @@ function material_admin_preprocess_system_modules_uninstall(&$variables) {
   foreach ($variables['modules'] as &$module) {
     $module['checkbox']['#theme'] = 'input__switch__uninstall';
     $module['checkbox']['#attributes']['class'][] = 'item-switch';
+    $module['disabled'] = !empty($module['checkbox']['#attributes']['disabled']) ? $module['checkbox']['#attributes']['disabled'] : NULL;
   }
 }
 

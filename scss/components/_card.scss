@@ -1,0 +1,13 @@
+/* @file
+ * Card
+ *
+ */
+
+.card-action {
+  .form-item {
+    margin: 5px 0;
+    label.visually-hidden {
+      display: block;
+    }
+  }
+}

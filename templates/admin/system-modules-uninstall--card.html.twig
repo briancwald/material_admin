@@ -15,6 +15,7 @@
  *   - description: The description of the module.
  *   - disabled_reasons: (optional) A list of reasons why this module cannot be
  *     uninstalled.
+ *   - disabled: if the checkbox is disabled
  *
  * @see template_preprocess_system_modules_uninstall()
  */
@@ -24,11 +25,6 @@
     'card',
     'sticky-actions',
     'medium'
-  ]
-%}
-
-{%
-  set caption = [
 
   ]
 %}
@@ -36,30 +32,57 @@
 {{ form.filters }}
 <div class="uninstall-modules-wrapper row">
   {% for module in modules %}
-  <div class="col s12 m6 l4 lx3">
+    {%
+        set title_attr = [
+        'card-title',
+        'module-name',
+        'table-filter-text-source',
+        'grey-text',
+        'text-darken-4',
+        'activator'
+        ]
+    %}
+  <div class="col s12 m6 l4 xl3">
     <div {{ module.attributes.addClass(card) }}>
       <div class="card-content">
-        <span class="card-title module-name table-filter-text-source activator grey-text text-darken-4">{{ module.name }}<i class="material-icons right">more_vert</i></span>
+        {%- if module.disabled -%}
+        <span {{ attributes.addClass(title_attr) }}>{{ module.name }}<i class="material-icons right">more_vert</i></span>
+      {%- else -%}
+        <span {{ attributes.addClass(title_attr).removeClass('activator') }}>{{ module.name }}</span>
+         {%- endif -%}
         <div class="text module-description"><p>{{module.description}}</p></div>
-         {%- if module.required_by -%}
-         <p> <span class=" new red badge" data-badge-caption="
-          {%- trans -%}
-          Modules Require This
-          {%- endtrans %}">{{ module.required_by|length }}
-          </span>
-         </p>
-         {%- endif -%} 
       </div>
       <div class="card-action">
-        <p>{{- module.checkbox -}}</p>
+        {%- if module.disabled -%}
+         <div class="module-uninstall-issues">
+           {%- if module.required_by -%}
+             <p class="require-by-modules"> <i class="material-icons">link </i> {%- trans -%}
+                Module has dependencies
+              {%- endtrans %}<span class=" new red badge" data-badge-caption="{{ module.required_by|length }}">
+              </span>
+             </p>
+           {%- endif -%}
+           {%- if module.validation_reasons > 0 -%}
+             <p class="prevent-reasons"> <i class="material-icons">info </i> 
+                {%- trans -%}
+               Other uninstall conflicts
+                {%- endtrans %}<span class=" new badge" data-badge-caption="{{ module.validation_reasons|length }}">
+              </span>
+             </p>
+           {%- endif -%}           
+         </div> 
+         {%- endif -%}
+        {{- module.checkbox -}}
         <label for="{{ module.checkbox_id }}" class="module-name visually-hidden">{{ module.name }}</label>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">{{ module.name }}<i class="material-icons right">close</i></span>
         {% if module.reasons_count > 0 %} 
+          <ul class="item-list">
           {%- for reason in module.validation_reasons -%}
-            <li><i class="material-icons v-middle">warning</i> {{ reason }}</li>
+            <li>{{ reason }}</li>
           {%- endfor -%}
+        </ul>
           <p><span class="admin-prevent-text">{%- trans -%}
                 The following reason prevents {{ module.module_name }} from being uninstalled:
               {%- plural module.reasons_count -%}
@@ -77,5 +100,6 @@
       </div>
     </div>
   </div>
-      {% endfor %} {{ form|without('filters', 'modules', 'uninstall') }}
+      {% endfor %} 
+    <div class="uninstall-submit-wrapper">{{ form|without('filters', 'modules', 'uninstall') }}</div>
 </div>

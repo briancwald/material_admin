@@ -2,7 +2,7 @@
  * User login
  *
  */
-//specific uninstall page styling
+//specific for table uninstall page 
 .admin-requirements.collapsible-body {
   padding: 1em;
   .admin-prevent-text {
@@ -20,4 +20,30 @@
 
 .uninstall-checkbox label.visually-hidden{
   display: block;
+}
+
+// specific for card uninstall page
+
+.card .module-description {
+  padding:15px 0px;
+}
+.uninstall-submit-wrapper {
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:10px 30px;
+  border-top:1px solid #ccc;
+  background:color("grey","lighten-4");
+  width:100%;
+}
+
+.module-uninstall-issues {
+  padding-bottom:20px;
+  font-size:0.85em;
+  i {
+    vertical-align: middle;
+    padding-right:5px;
+    font-size: 1.25em;
+  }
 }
