@@ -77,20 +77,20 @@
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4">{{ module.name }}<i class="material-icons right">close</i></span>
-        {% if module.reasons_count > 0 %} 
-          <ul class="item-list">
-          {%- for reason in module.validation_reasons -%}
-            <li>{{ reason }}</li>
-          {%- endfor -%}
-        </ul>
-          <p><span class="admin-prevent-text">{%- trans -%}
+        <p><span class="admin-prevent-text">{%- trans -%}
                 The following reason prevents {{ module.module_name }} from being uninstalled:
               {%- plural module.reasons_count -%}
                 The following reasons prevent {{ module.module_name }} from being uninstalled:
               {%- endtrans %}</span>
           </p>
+        {% if module.reasons_count > 0 %}
+          <ul class="item-list uninstall-list">
+          {%- for reason in module.validation_reasons -%}
+            <li>{{ reason }}</li>
+          {%- endfor -%}
+        </ul>
         {%- if module.required_by -%}
-        <ul>
+        <ul class="item-list uninstall-list">
           <li>{{ 'Required by: '|t}} {% for keys in module.required_by %}
             <span class="chip">{{keys}}</span> {% endfor %}
           </li>

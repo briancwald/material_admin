@@ -8693,6 +8693,9 @@ span.theme-status-indicator {
 .card .module-description {
   padding: 15px 0px; }
 
+.card .uninstall-list {
+  font-size: 0.85em; }
+
 .uninstall-submit-wrapper {
   position: fixed;
   bottom: 0;

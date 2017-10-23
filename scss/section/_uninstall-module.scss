@@ -2,6 +2,7 @@
  * User login
  *
  */
+
 //specific for table uninstall page 
 .admin-requirements.collapsible-body {
   padding: 1em;
@@ -10,40 +11,45 @@
     padding: .5em;
     margin-bottom: .5em;
     display: block;
-    font-weight:normal;
+    font-weight: normal;
   }
   .item-list li {
     padding: 10px 0;
-    font-weight:normal;
+    font-weight: normal;
   }
 }
 
-.uninstall-checkbox label.visually-hidden{
+.uninstall-checkbox label.visually-hidden {
   display: block;
 }
 
 // specific for card uninstall page
-
-.card .module-description {
-  padding:15px 0px;
+.card {
+  .module-description {
+    padding: 15px 0px;
+  }
+  .uninstall-list {
+    font-size: 0.85em;
+  }
 }
+
 .uninstall-submit-wrapper {
   position: fixed;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:10px 30px;
-  border-top:1px solid #ccc;
-  background:color("grey","lighten-4");
-  width:100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 30px;
+  border-top: 1px solid #ccc;
+  background: color("grey", "lighten-4");
+  width: 100%;
 }
 
 .module-uninstall-issues {
-  padding-bottom:20px;
-  font-size:0.85em;
+  padding-bottom: 20px;
+  font-size: 0.85em;
   i {
     vertical-align: middle;
-    padding-right:5px;
+    padding-right: 5px;
     font-size: 1.25em;
   }
 }
