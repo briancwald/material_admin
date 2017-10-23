@@ -362,6 +362,10 @@ a#edit-cancel {
       font-size: 1.25em;
       vertical-align: middle;
     }
+    //align description with the textfield rather than the icon
+    ~ .description {
+      margin-left:40px;
+    }
     margin: 0 12px;
     input[type=search] {
       padding-left: 0;

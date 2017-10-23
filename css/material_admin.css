@@ -7879,6 +7879,8 @@ details.form-wrapper {
     padding-right: 10px;
     font-size: 1.25em;
     vertical-align: middle; }
+  .input-field .search-wrapper ~ .description {
+    margin-left: 40px; }
   .input-field .search-wrapper input[type=search] {
     padding-left: 0;
     display: inline-block; }
