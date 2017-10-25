@@ -48,7 +48,7 @@ gulp.task('rename', function(){
 // });
 
 gulp.task('sass', function() {
-  return gulp.src(['scss/material_admin.scss', 'toolbar_theme/ma_toolbar_theme.scss', 'toolbar_theme/ma_toolbar_icons.scss'])
+  return gulp.src(['scss/material_admin.scss', 'toolbar_theme/ma_toolbar.scss'])
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.identityMap())
     .pipe($.sass({

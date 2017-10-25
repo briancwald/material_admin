@@ -5,9 +5,6 @@
  * are styled here.
  */
 
-// Import global variables.
-@import "variables";
-
 #toolbar-administration {
   font-family: $font-family;
   tap-highlight-color: $tap-highlight;
@@ -163,7 +160,7 @@
 
 
   // Horizontal.
-  .toolbar-tray-horizontal {
+.toolbar-horizontal .toolbar-tray {
     @if $drop-shadows == true {
       box-shadow: $drop-shadow-style;
     }
@@ -281,7 +278,7 @@
   }
 
   // No tabs
-  .no-tabs .toolbar-tray-horizontal {
+  .toolbar-horizontal .no-tabs .toolbar-tray{
     left: 3em;
   }
 
@@ -496,5 +493,3 @@
     padding-top: 2.4em !important;
   }
 }
-
-

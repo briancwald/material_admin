@@ -1606,6 +1606,15 @@
 .transparent-text {
   color: transparent !important; }
 
+/**
+ * ma_toolbar.base
+ */
+/**
+ * ma_toolbar_theme
+ * Theme styles for menus and other toolbar elements. SVG icons are styled in
+ * the [theme]_icons.scss file, while click handles, e.g. origination buttons
+ * are styled here.
+ */
 #toolbar-administration {
   font-family: "Roboto", sans-serif;
   tap-highlight-color: #000000;
@@ -1674,62 +1683,62 @@
         color: #212121; }
       #toolbar-administration .toolbar-tray a.is-active[href="/"] {
         color: #212121; }
-  #toolbar-administration .toolbar-tray-horizontal {
+  #toolbar-administration .toolbar-horizontal .toolbar-tray {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
-    #toolbar-administration .toolbar-tray-horizontal a:focus {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray a:focus {
       outline: none;
       background-color: #f5f5f5; }
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a:hover, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a:active, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a:focus, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:hover,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:active,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:focus,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a:hover, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a:active, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a:focus, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:hover,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:active,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a:focus,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active {
       background-color: rgba(255, 255, 255, 0.1); }
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"],
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"] {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"],
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"] {
       background-color: transparent; }
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:hover, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:active, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:focus,
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:hover,
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:active,
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:focus {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:hover, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:active, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > a.is-active[href="/"]:focus,
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:hover,
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:active,
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu > .menu-item > .toolbar-box a.is-active[href="/"]:focus {
         background-color: rgba(255, 255, 255, 0.1); }
-    #toolbar-administration .toolbar-tray-horizontal .edit-shortcuts {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .edit-shortcuts {
       float: none;
       position: absolute;
       right: 3.5em;
       top: 0; }
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu {
       background-color: #FFFFFF;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu a {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu a {
         padding: 0.5em 1em; }
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu .menu-item {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu .menu-item {
         border-bottom: 1px solid #f5f5f5; }
-        #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu .menu-item:first-child {
+        #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu .menu-item:first-child {
           border-top: 1px solid #f5f5f5; }
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu .toolbar-menu {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu .toolbar-menu {
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
-      #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-menu {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-menu {
         top: -1px; }
-    #toolbar-administration .toolbar-tray-horizontal .menu-level-2 {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-level-2 {
       font-size: 0.95em; }
-    #toolbar-administration .toolbar-tray-horizontal .menu-item .menu-item a {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-item .menu-item a {
       color: #212121; }
-      #toolbar-administration .toolbar-tray-horizontal .menu-item .menu-item a:hover, #toolbar-administration .toolbar-tray-horizontal .menu-item .menu-item a:focus {
+      #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-item .menu-item a:hover, #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-item .menu-item a:focus {
         color: #212121; }
-    #toolbar-administration .toolbar-tray-horizontal .menu-item .menu-item:hover, #toolbar-administration .toolbar-tray-horizontal .menu-item .menu-item:focus {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-item .menu-item:hover, #toolbar-administration .toolbar-horizontal .toolbar-tray .menu-item .menu-item:focus {
       background-color: #f5f5f5; }
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:after,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:after {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:after,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:after {
       color: #424242;
       right: 0.65em;
       top: 0.6em;
       display: block; }
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:hover:after, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:focus:after,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:hover:after,
-    #toolbar-administration .toolbar-tray-horizontal .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:focus:after {
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:hover:after, #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > a:focus:after,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:hover:after,
+    #toolbar-administration .toolbar-horizontal .toolbar-tray .toolbar-menu-administration > .toolbar-menu .toolbar-menu > .menu-item--expanded > .toolbar-box > a:focus:after {
       color: #212121; }
-  #toolbar-administration .no-tabs .toolbar-tray-horizontal {
+  #toolbar-administration .toolbar-horizontal .no-tabs .toolbar-tray {
     left: 3em; }
   #toolbar-administration .toolbar-tray-vertical {
     background-color: #f5f5f5;
@@ -1854,4 +1863,38 @@
 .adminimal.toolbar-fixed.toolbar-vertical.toolbar-has-tabs, .adminimal.toolbar-fixed.toolbar-horizontal.toolbar-no-tabs, .adminimal.toolbar-fixed.toolbar-vertical.toolbar-no-tabs, .adminimal.toolbar-tray-open.toolbar-fixed.toolbar-horizontal.toolbar-no-tabs {
   padding-top: 2.4em !important; }
 
-/*# sourceMappingURL=maps/ma_toolbar_theme.css.map */
+/**
+ * seven_icons
+ */
+.toolbar .toolbar-icon {
+  padding: 0 .25em 0 0; }
+
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper .toolbar-icon {
+  fill: #000000; }
+
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper .toolbar-icon-menu {
+  width: 0.875em;
+  top: 0; }
+
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper a:hover .toolbar-icon, .toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper a:active .toolbar-icon, .toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper a.is-active .toolbar-icon,
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper button:hover .toolbar-icon,
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper button:active .toolbar-icon,
+.toolbar .toolbar-bar .toolbar-tab .toolbar-tab__items-wrapper button.is-active .toolbar-icon {
+  fill: #90CAF9; }
+
+@media only screen and (max-width: 24em) {
+  .toolbar .toolbar-bar .home-toolbar-tab,
+  .toolbar .toolbar-bar .tour-toolbar-tab,
+  .toolbar .toolbar-bar .toolbar-tab__items-wrapper .toolbar-icon {
+    display: none; } }
+
+.toolbar .toolbar-menu a {
+  fill: #212121; }
+  .toolbar .toolbar-menu a:hover, .toolbar .toolbar-menu a:focus, .toolbar .toolbar-menu a:active, .toolbar .toolbar-menu a.is-active {
+    fill: #212121; }
+  .toolbar .toolbar-menu a.is-active[href="/"] {
+    fill: #212121; }
+  .toolbar .toolbar-menu a:hover[href="/"], .toolbar .toolbar-menu a:focus[href="/"], .toolbar .toolbar-menu a:active[href="/"] {
+    fill: #212121; }
+
+/*# sourceMappingURL=maps/ma_toolbar.css.map */

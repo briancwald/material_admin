@@ -74,18 +74,11 @@ views-bulk-form:
     - core/jquery
 
 # Toolbar themes
-ma.toolbar_themes.base:
+ma.toolbar:
   version: VERSION
   css:
     theme:
-      css/ma_toolbar_theme.css: {}
+      css/ma_toolbar.css: {}
   dependencies:
     - toolbar_themes/toolbar_themes_base.base
-
-ma.toolbar_themes.icons:
-  version: VERSION
-  css:
-    theme:
-      css/ma_toolbar_icons.css: {}
-  dependencies:
     - toolbar_themes/toolbar_themes_base.icons

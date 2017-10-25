@@ -2,10 +2,6 @@
  * seven_icons
  */
 
-// Import global variables.
-@import "variables";
-
-
 // Most icons are embedded SVG. Icons are embedded using Grunticon. We are using
 // the original SVG icons from Drupal core, however the width and height
 // attribute have been replaced with a viewBox attribute so we can scale them
@@ -21,7 +17,6 @@
   .toolbar-icon {
     padding: 0 .25em 0 0;
   }
-
 
   // Top level icons.
   .toolbar-bar {
@@ -87,5 +82,3 @@
     }
   }
 }
-
-

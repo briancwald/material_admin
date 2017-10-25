@@ -1,0 +1,14 @@
+/**
+ * ma_toolbar_theme
+ * Theme styles for menus and other toolbar elements. SVG icons are styled in
+ * the [theme]_icons.scss file, while click handles, e.g. origination buttons
+ * are styled here.
+ */
+
+// Import variables.
+@import "_variables";
+
+// compile theme files
+@import "_ma_toolbar.base.scss";
+@import "_ma_toolbar.theme.scss";
+@import "_ma_toolbar.icons.scss";

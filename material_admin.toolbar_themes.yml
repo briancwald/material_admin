@@ -8,5 +8,4 @@ toolbar_material_admin:
   screen_shot: toolbar-screenshot.png
   base_theme: toolbar_themes_base
   libraries:
-    base: material_admin/ma.toolbar_themes.base
-    icons: material_admin/ma.toolbar_themes.icons
+    theme: material_admin/ma.toolbar
