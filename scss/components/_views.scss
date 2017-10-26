@@ -314,7 +314,7 @@ details.views-display-column.form-wrapper {
   .collapsible-header {
     border: none;
     padding: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     flex-direction: row-reverse;
     justify-content: flex-start;
     vertical-align: middle;
@@ -327,11 +327,16 @@ details.views-display-column.form-wrapper {
     }
   }
   .collapsible-body {
+    @extend .grey, .lighten-3;
     border: none;
     font-weight: inherit;
-    padding: 0;
+    //account for labels being absolute positioned with padding-top
+    padding: 45px 10px 10px 10px;
     .form--inline {
       justify-content: flex-end;
+      .form-actions {
+        padding-top:15px;
+      }
     }
   }
   .exposed-form-chips {
