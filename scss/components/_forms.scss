@@ -155,6 +155,18 @@ abbr.warning {
   white-space: nowrap;
 }
 
+
+//switch labels are overridden, so it tries to add it in via JS, this prevents 2 labels.
+.switch label:not(.switch-label) {
+    position: relative !important;
+    clip: inherit;
+    visibility: hidden;
+    width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    padding:0;
+}
+
 .input-field.js-form-type-checkbox label {
   top: 0;
 }

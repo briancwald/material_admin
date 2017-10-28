@@ -15,9 +15,7 @@
     margin: 0 0 10px 25px;
     list-style: none;
     background-color: color("shades", "white");
-    border:1px solid color("grey", "lighten-1");
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
+    border: 1px solid color("grey", "lighten-1");
     border-radius: 0px;
     box-shadow: none;
     .ui-menu-item {
@@ -32,14 +30,16 @@
         white-space: nowrap;
         text-decoration: none;
       }
-      &.ui-state-focus, &.ui-state-hover, &.ui-state-active {
+      &.ui-state-focus,
+      &.ui-state-hover,
+      &.ui-state-active {
         background: color("teal", "lighten-1");
         @extend .white-text;
         list-style-image: none;
-        border-radius:0;
+        border-radius: 0;
         text-decoration: none;
         a {
-        	 @extend .white-text;
+          @extend .white-text;
         }
       }
     }

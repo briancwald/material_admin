@@ -5,6 +5,8 @@
 
 .material-tooltip {
   pointer-events: auto;
+ //set max width to a readible length (700px max)
+  max-width:43em;
 }
 
 h1 {
@@ -204,10 +206,6 @@ label {
 }
 
 .select-wrapper input.select-dropdown {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none; // latest Opera versions support -webkit-
   user-select: none;
 }
 
