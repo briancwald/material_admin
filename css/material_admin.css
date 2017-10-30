@@ -7500,6 +7500,8 @@ tr .ajax-progress-throbber .throbber {
 
 .breadcrumb-nav ol li {
   display: inline; }
+  .breadcrumb-nav ol li div {
+    display: inline; }
 
 .breadcrumb-nav ol li a {
   visibility: hidden;

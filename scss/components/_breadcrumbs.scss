@@ -69,6 +69,11 @@
 //responsive bredcrumb
 .breadcrumb-nav ol li {
   display: inline;
+  // If bigpipe is turned on, ajax leaves an empty div. 
+  // @ToDo: remove this when https://www.drupal.org/node/736066 is resolved. 
+  div {
+    display:inline;
+  }
 }
 
 .breadcrumb-nav ol li a {
