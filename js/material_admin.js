@@ -18,7 +18,7 @@
   //If form API checkbox or radio has no label, add one so we can use materializecss styling
   Drupal.behaviors.material_checkbox_no_label = {
     attach: function (context) {
-      $(context).find('.form-no-label input[type=checkbox], .form-no-label input[type=radio]').once('material_checkbox_no_label').each(function() {
+      $(context).find('.form-no-label input[type=checkbox]:not(.item-switch), .form-no-label input[type=radio]').once('material_checkbox_no_label').each(function() {
         if(this.nextSibling.nodeName != 'label') {
           $(this).after('<label for="'+this.id+'"></label>')
         }
