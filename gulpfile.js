@@ -31,12 +31,13 @@ gulp.task('libsrc', function() {
   .pipe(gulpCopy('js/lib', {prefix: 3}));
 });
 
-// rename the autocomplete function as it conflicts with jqueryUI and then move to source control folder js/lib
-// (Core and too many libraries rely on jquery autocomplete, replacing it would likely cause too many issues)
+// rename functions that conflict with jqueryUI and then move to source control folder js/lib
 gulp.task('rename', function(){
   gulp.src(['js/vendor/materialize.min.js'])
     .pipe(replace('fn.autocomplete', 'fn.autocomplete_materialize'))
-    .pipe(gulp.dest('js/lib'));
+    .pipe(replace('fn.tabs', 'fn.tabs_materialize'))
+  .pipe(replace('.tabs(', '.tabs_materialize('))
+  .pipe(gulp.dest('js/lib'));
 });
 
 // COMMENTED OUT FOR REFERNCE: Grab all the other plugin js and add to project
