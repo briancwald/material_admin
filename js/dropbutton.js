@@ -6,7 +6,7 @@
 
 (function ($, Drupal) {
 
-  Drupal.behaviors.material_dropbutton = {
+  Drupal.behaviors.dropButton = {
     attach: function (context) {
       $('ul.dropbutton', context).each(function () {
         $(this).uniqueId();
@@ -21,6 +21,11 @@
           $dropbutton = $('<a class="' + btnClasses + '" href="#" data-constrainWidth="0"><i class="material-icons" aria-hidden="true">content_copy</i></a>');
           $(this).before($dropbutton);
         }
+
+        if ($dropbutton.closest('.webform-dropbutton').find('li.submissions').length) {
+          $dropbutton.children('.material-icons').text('move_to_inbox');
+        }
+
         $dropbutton.attr('data-activates', $(this).attr('id'));
 
         if (!$(this).hasClass('dropdown-content')) {

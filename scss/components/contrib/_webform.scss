@@ -1,0 +1,13 @@
+/* @file
+ * Webform overrides
+ *
+ */
+
+.webform-element-help {
+  font-size: 12px;
+  line-height: 10px;
+}
+
+.input-field label > [data-webform-help] {
+  pointer-events: initial;
+}
