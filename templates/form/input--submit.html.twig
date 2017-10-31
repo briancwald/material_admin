@@ -11,14 +11,10 @@
  */
 #}
 
-{%
-  set classes = [
-    'waves-effect waves-light waves-input-wrapper button btn',
-    ]
-%}
-
-{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') %}
-  <input{{ attributes.addClass('js-hide') }} />{{ children }}
- {% else %}
-  <input{{ attributes.addClass(classes) }} />{{ children }}
-{% endif %}
+<i class="waves-effect waves-light waves-input-wrapper button btn">
+  {% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') %}
+    <input{{ attributes.addClass('js-hide waves-button-input') }} />{{ children }}
+   {% else %}
+    <input{{ attributes.addClass('waves-button-input') }} />{{ children }}
+  {% endif %}
+</i>
