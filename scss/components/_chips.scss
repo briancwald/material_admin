@@ -23,3 +23,11 @@
 table.highlight>tbody>tr:hover li.chip {
   background-color: color("grey", "lighten-5");
 }
+
+.chip.ui-tabs-tab {
+  display: inherit;
+  height: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 3px 3px 0 0;
+}

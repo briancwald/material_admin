@@ -7250,7 +7250,7 @@ tr .ajax-progress-throbber .throbber {
   .ui-dialog .ui-dialog-content .form-actions {
     padding: 0;
     margin: 0; }
-  .ui-dialog .ui-dialog-content a {
+  .ui-dialog .ui-dialog-content a:not(.ui-tabs-anchor):not(.webform-element-help) {
     color: #2196F3; }
 
 .views-ui-display-tab-bucket.collection .collection-item {
@@ -7416,6 +7416,18 @@ tr .ajax-progress-throbber .throbber {
     content: 'lock_open'; }
 
 /* @file
+ * jQuery UI tooltip override.
+ *
+ */
+.ui-tooltip {
+  background-color: #323232;
+  color: white;
+  box-shadow: none;
+  border: none; }
+  .ui-tooltip a {
+    color: #039be5; }
+
+/* @file
  * Components
  *
  */
@@ -7552,6 +7564,13 @@ tr .ajax-progress-throbber .throbber {
 
 table.highlight > tbody > tr:hover li.chip {
   background-color: #fafafa; }
+
+.chip.ui-tabs-tab {
+  display: inherit;
+  height: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 3px 3px 0 0; }
 
 /* @file
  * Collections

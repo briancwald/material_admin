@@ -1,0 +1,14 @@
+/* @file
+ * jQuery UI tooltip override.
+ *
+ */
+
+.ui-tooltip {
+  background-color: #323232;
+  color: white;
+  box-shadow: none;
+  border: none;
+  a {
+    color: #039be5;
+  }
+}
