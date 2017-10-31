@@ -15,7 +15,7 @@
   <input{{ attributes.addClass('js-hide') }} />{{ children }}
 {% else %}
   {# Views UI does not use core's dropbutton for adding displays #}
-  {% if not attributes.id matches '/^edit-displays-top-add-display.*$/' %}
+  {% if not (attributes.id matches '/^edit-displays-top-add-display.*$/') %}
     <i class="waves-effect waves-light waves-input-wrapper button btn">
       <input{{ attributes.addClass('waves-button-input') }} />{{ children }}
     </i>
