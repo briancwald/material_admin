@@ -3,11 +3,24 @@
  *
  */
 
-.card-action {
-  .form-item {
-    margin: 5px 0;
-    label.visually-hidden {
-      display: block;
+.card {
+  .card-title {
+    max-width: 90%;
+  }
+  .card-content,
+  .card-reveal {
+    .more-info {
+      position: absolute;
+      top: 25px;
+      right: 20px;
+    }
+  }
+  .card-action {
+    .form-item {
+      margin: 5px 0;
+      label.visually-hidden {
+        display: block;
+      }
     }
   }
 }

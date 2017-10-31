@@ -70,5 +70,13 @@ views-bulk-form:
   js:
     js/views_bulk_form.js: {}
   dependencies:
-    - core/drupl
+    - core/drupal
     - core/jquery
+
+card-sort:
+  version: VERSION
+  js:
+    js/lib/list.min.js: {}
+    js/card_sort.js: {}
+  dependencies:
+    - core/drupal

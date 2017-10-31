@@ -22,7 +22,8 @@ gulp.task('libsrc', function() {
   ])
   .pipe(gulpCopy('js/vendor',{prefix: 4}));
   gulp.src([
-    'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js'
+    'node_modules/tablesaw/dist/stackonly/tablesaw.stackonly.jquery.js',
+    'node_modules/list.js/dist/list.min.js'
   ])
   .pipe(gulpCopy('js/lib', {prefix: 4}));
   gulp.src([

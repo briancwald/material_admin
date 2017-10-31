@@ -29,7 +29,16 @@
     padding: 15px 0px;
   }
   .uninstall-list {
-    font-size: 0.85em;
+    font-size: 0.9em;
+  }
+  .required-list {
+    display: block;
+    padding: 5px;
+    &:before {
+      @extend .material-icons;
+      content: 'link';
+      padding-right: 5px;
+    }
   }
 }
 
