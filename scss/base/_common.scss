@@ -103,7 +103,7 @@ label {
 }
 
 
-.error-text-color {
+.error-text-color, .button--danger {
   @extend .red-text,
   .text-lighten-3;
 }
@@ -154,6 +154,13 @@ label {
   &:hover {
     @extend .lighten-1;
   }
+}
+
+
+.button.button--danger{
+  &:hover {
+  background:color("grey","lighten-4")!important;
+}
 }
 
 .btn-flat-action {

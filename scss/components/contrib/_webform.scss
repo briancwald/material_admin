@@ -8,6 +8,38 @@
   line-height: 10px;
 }
 
-.input-field label > [data-webform-help] {
+.input-field label>[data-webform-help] {
   pointer-events: initial;
+}
+
+.webform-tabs {
+  .ui-widget-header {
+    background: none;
+    border: none;
+    .ui-state-default {
+      background: none;
+      border: none;
+      a {
+        text-transform: uppercase;
+        color: $tabs-text-color;
+        opacity: 0.8;
+        transition: color .28s ease;
+        &:hover {
+        	opacity: 1;
+        }
+      }
+    }
+    .ui-state-active {
+      background: none;
+      border: none;
+      border-bottom: 2px solid $tabs-text-color;
+      a {
+        color: $tabs-text-color;
+        opacity: 1;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: color .28s ease;
+      }
+    }
+  }
 }
