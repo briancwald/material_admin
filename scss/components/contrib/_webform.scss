@@ -43,3 +43,9 @@
     }
   }
 }
+
+.button-action.webform-ajax-link{
+	@extend .z-depth-1;
+	font-size:1em;
+	margin-bottom:2em;
+}

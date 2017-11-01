@@ -2442,7 +2442,7 @@ a {
 .z-depth-0, .ui-widget.ui-widget-content details.form-wrapper, fieldset.fieldgroup.form-wrapper legend span.fieldset-legend {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .button-action.webform-ajax-link {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .btn-floating:hover {
@@ -9597,6 +9597,10 @@ details.views-display-column.form-wrapper {
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease; }
+
+.button-action.webform-ajax-link {
+  font-size: 1em;
+  margin-bottom: 2em; }
 
 /* @file
  * Base files
