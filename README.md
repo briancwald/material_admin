@@ -37,7 +37,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 - [x] Status pages
 - [x] Status Message
 - [x] Theme Select page
-- [ ] Node add/edit (70%)
+- [x] Node add/edit
 - [x] jQueryUI Dialog Theme & Enhancements
 - [ ] Behat Testing
 - [ ] Visual Regression Testing
@@ -45,9 +45,10 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 ## Contrib module admin UI support
 Some contrib modules have complex UIs defined and the only way to really support them is by adding specific styling.
 
-- [x] Entity Browser
-- [ ] Paragraphs
-- [ ] Webform
+- [x] [Entity Browser](https://www.drupal.org/project/entity_browser)
+- [ ] [Paragraphs](https://www.drupal.org/project/paragraphs)
+- [x] [Webform](https://www.drupal.org/project/webform)
+- [x] [Fieldgroup](https://www.drupal.org/project/field_group)
 
 ## Clean-up oganization To-Do
 Since this is just a POC, code is not very well organized and needs to be matured. here is what I see so far:
