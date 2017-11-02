@@ -61,7 +61,7 @@
          <div class="module-uninstall-issues">
            {%- if module.required_by -%}
              <p class="require-by-modules"> <i class="material-icons">link </i> {%- trans -%}
-                Module has dependencies
+                Module dependencies
               {%- endtrans %}<span class=" new red badge" data-badge-caption="{{ module.required_by|length }}">
               </span>
              </p>
@@ -69,7 +69,7 @@
            {%- if module.validation_reasons > 0 -%}
              <p class="prevent-reasons"> <i class="material-icons">info </i> 
                 {%- trans -%}
-               Other uninstall conflicts
+                Uninstall conflicts
                 {%- endtrans %}<span class=" new badge" data-badge-caption="{{ module.validation_reasons|length }}">
               </span>
              </p>
