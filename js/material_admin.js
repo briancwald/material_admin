@@ -29,7 +29,7 @@
   // (not intended for cardinality select boxes)
   Drupal.behaviors.material_select_box = {
     attach: function (context) {
-      $('select', context).once('material_select_box').each(function () {
+      $('select:not(.field-parent)', context).once('material_select_box').each(function () {
         $(this).material_select();
         $(this).parent('.select-wrapper').removeClass(function (index, className) {
           return (className.match(/\S+delta-order/) || []).join(' ');
