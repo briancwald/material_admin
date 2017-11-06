@@ -8796,6 +8796,9 @@ details.form-wrapper {
   padding-right: 10px;
   display: inline; }
 
+.container-inline label:empty:after, .container-inline .label:empty:after {
+  content: ""; }
+
 .form--inline .form-actions, .dblog-filter-form .form-actions {
   padding: 0 10px; }
 
@@ -8820,6 +8823,10 @@ details.form-wrapper {
 
 .input-field .field-prefix {
   padding-right: 15px; }
+
+.has-prefix-and-suffix > * {
+  display: inline-block;
+  width: inherit; }
 
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
   min-width: 300px; }
@@ -8956,9 +8963,6 @@ fieldset.fieldgroup.form-wrapper {
 
 .has-description-after div.description {
   margin-bottom: 30px; }
-
-.container-inline label:empty:after, .container-inline .label:empty:after {
-  content: ""; }
 
 /* @file
  * lists

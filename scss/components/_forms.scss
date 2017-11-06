@@ -276,6 +276,10 @@ details.form-wrapper {
   display: inline;
 }
 
+.container-inline label:empty:after, .container-inline .label:empty:after {
+  content: "";
+}
+
 .form--inline, .dblog-filter-form {
   .form-actions {
     padding: 0 10px;
@@ -327,6 +331,13 @@ a#edit-cancel {
   }
   .field-prefix {
     padding-right: 15px;
+  }
+}
+
+.has-prefix-and-suffix {
+  >* {
+    display:inline-block;
+    width:inherit;
   }
 }
 
@@ -520,8 +531,4 @@ fieldset.fieldgroup.form-wrapper {
   div.description {
     margin-bottom: 30px;
   }
-}
-
-.container-inline label:empty:after, .container-inline .label:empty:after {
-  content: "";
 }
