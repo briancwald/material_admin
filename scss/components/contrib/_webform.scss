@@ -44,15 +44,18 @@
   }
 }
 
-.button-action.webform-ajax-link{
+.action-links .button-action.webform-ajax-link{
 	@extend .z-depth-1;
 	font-size:1em;
 	margin-bottom:2em;
 }
 
+.ui-dialog-content .webform-ajax-link {
+  @extend .button-link, .btn;
+}
+
 .webform-details-toggle-state-wrapper {
   .webform-details-toggle-state {
-    @extend .button-link;
-    @extend .btn;
+    @extend .button-link, .btn;
   }
 }
