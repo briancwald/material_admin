@@ -49,3 +49,10 @@
 	font-size:1em;
 	margin-bottom:2em;
 }
+
+.webform-details-toggle-state-wrapper {
+  .webform-details-toggle-state {
+    @extend .button-link;
+    @extend .btn;
+  }
+}

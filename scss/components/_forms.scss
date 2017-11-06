@@ -334,7 +334,7 @@ a#edit-cancel {
   }
 }
 
-.has-prefix-and-suffix {
+.has-prefix-and-suffix, .has-prefix, .has-suffix {
   >* {
     display:inline-block;
     width:inherit;

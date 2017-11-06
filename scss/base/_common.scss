@@ -51,6 +51,16 @@ body {
   }
 }
 
+.row.highlighted-container.material-container {
+  padding:0;
+ .region-highlighted > *:first-child {
+    padding-top:20px;
+  }
+ .region-highlighted > *:last-child {
+    padding-bottom:20px;
+  }
+}
+
 .row .row {
   padding: 20px 0;
 }
@@ -149,7 +159,6 @@ label {
     content: 'add';
     color: color("shades", "white");
     margin: 0 10px 0 0px;
-    vertical-align: text-top;
   }
   &:hover {
     @extend .lighten-1;
@@ -287,7 +296,6 @@ details {
 }
 
 .button--small {
-  @extend .btn-flat;
   font-size: .8em;
 }
 

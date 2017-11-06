@@ -121,21 +121,21 @@ table.highlight tbody, table tbody {
     overflow: visible;
     height: auto;
     vertical-align: middle;
-    &~ * {
+    &~* {
       display: inline-block;
       vertical-align: middle;
-      padding:5px;
+      padding: 5px;
     }
     .handle {
       width: 30px;
       height: 30px;
-      background:none;
-      &:before{
-      @extend .material-icons;
-      content: 'drag_handle';
-      color: color("grey", "darken-2");
-      font-size:20px;
-    }
+      background: none;
+      &:before {
+        @extend .material-icons;
+        content: 'drag_handle';
+        color: color("grey", "darken-2");
+        font-size: 20px;
+      }
     }
   }
 }
