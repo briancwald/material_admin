@@ -21,6 +21,7 @@ stylesheets-remove:
   - '@classy/css/components/inline-form.css'
   - '@classy/css/components/form.css'
   - '@classy/css/components/dialog.css' #scss/base/overrides/_dialog.scss
+  - '@classy/css/components/file.css' #scss/base/overrides/_file.scss
   - '@classy/css/components/item-list.css'
   - '@classy/css/components/tablesort.css'
   - '@classy/css/components/tabledrag.css'
