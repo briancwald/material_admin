@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp sass",
+    "gulp": "gulp"
   },
   "author": "Brian Wald <briancwald@gmail.com>",
   "license": "MIT",
