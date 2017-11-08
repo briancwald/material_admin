@@ -9,6 +9,12 @@ th {
   padding: 15px;
 }
 
+th.select-all {
+  label {
+    display:inline;
+  }
+}
+
 table.highlight>tbody>tr {
   &:hover {
     @extend .grey, .lighten-3;

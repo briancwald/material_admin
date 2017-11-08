@@ -9212,6 +9212,9 @@ td,
 th {
   padding: 15px; }
 
+th.select-all label {
+  display: inline; }
+
 table.highlight > tbody > tr:hover {
   color: #000000; }
   table.highlight > tbody > tr:hover a, table.highlight > tbody > tr:hover button {
@@ -9721,9 +9724,10 @@ details.views-display-column.form-wrapper {
     position: absolute; }
 
 #system-themes-page .card .card-image {
-  height: 60%; }
+  height: auto; }
   #system-themes-page .card .card-image img {
     width: 100%;
+    height: auto;
     margin: 0 auto; }
 
 #system-themes-page .card .card-action .operations, #system-themes-page .card .package-listing .details-description .links .operations, .package-listing .details-description #system-themes-page .card .links .operations {
