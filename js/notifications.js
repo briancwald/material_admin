@@ -47,7 +47,10 @@
             var messageTrigger = '<a class="modal-trigger message-action" href="#messageContainer">View</a>';
             var messageNotice = 'There is a' + statusText + 'message in your notification console ' + messageTrigger + '';
             messageInbox(statusType, thisItem);
-            Materialize.toast(messageNotice, 5000, statusType);
+            // only display if message prompt setting is 0.
+            if (drupalSettings.material_admin.material_admin_message_prompt) {
+             Materialize.toast(messageNotice, 5000, statusType);
+           }
           }
         });
       });

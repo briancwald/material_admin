@@ -4,8 +4,6 @@ material_admin.settings:
   mapping:
     material_admin_node_actions:
       type: boolean
-    material_admin_message_length:
-      type: integer
     material_admin_portal_login:
       type: boolean
     material_admin_jqueryui_dialog_background:
@@ -13,4 +11,8 @@ material_admin.settings:
     material_admin_jqueryui_dialog_close:
       type: boolean
     material_admin_collapse_module_list:
+      type: boolean
+    material_admin_message_length:
+      type: integer
+    material_admin_message_prompt:
       type: boolean
