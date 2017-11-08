@@ -6,7 +6,7 @@
 .material-tooltip {
   pointer-events: auto;
  //set max width to a readible length (700px max)
-  max-width:43em;
+  max-width: $max-readability-width;
 }
 
 h1 {
@@ -89,7 +89,7 @@ label {
 .description {
   //tooltip readability
   .material-tooltip {
-    max-width: 36em;
+    max-width: $max-readability-width;
     line-height: 1.5em;
     font-weight: 100;
   }
@@ -257,20 +257,20 @@ a.button {
 }
 
 .x-small {
-  height: 150px;
+  height: $card-xs-height;
 }
 
 .card {
   .card-content {
     .card-title {
-      line-height: 35px;
+      line-height: $card-title-height;
     }
   }
 }
 
 .card-action {
   li {
-    display: inline;
+    display: inline-block;
   }
   a {
     color: $card-link-color;
@@ -284,7 +284,7 @@ a.button {
 }
 
 .shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+  @extend .z-depth-1;
 }
 
 details {
@@ -394,9 +394,4 @@ span.marker {
 
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0;
-}
-
-// Toolbar causes a white bar because of transforms getting miscalculated in the navbar logic
-#toolbar-administration * {
-  transition: color .2s, background .2s, background-color .2s, opacity .2s !important;
 }

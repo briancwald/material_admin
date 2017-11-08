@@ -37,7 +37,7 @@
         'clearfix',
       ]
     %}
-   <h2 class="small-header">{{ theme_group.title }}</h2>
+   <div class="row"><h2 class="small-header col s12">{{ theme_group.title }}</h2></div>
     <div{{ theme_group.attributes.addClass(theme_group_classes) }}>
       
       {% for theme in theme_group.themes %}
@@ -48,8 +48,9 @@
             'theme-selector',
             'col',
             's12',
-            'l3',
             'm6',
+            'l3',
+            'xl3'
           ]
         %}
         <div{{ theme.attributes.addClass(theme_classes) }}>
@@ -72,7 +73,8 @@
               <p> {{ theme.version -}} </p>
             </div>
             <div class="card-action">
-              {# Display operation links if the theme is compatible. #} {% if theme.incompatible %}
+              {# Display operation links if the theme is compatible. #} 
+              {% if theme.incompatible %}
               <div class="incompatible">{{ theme.incompatible }}</div>
               {% else %} {{ theme.operations }} {% endif %}
             </div>

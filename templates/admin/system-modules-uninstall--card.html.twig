@@ -1,0 +1,107 @@
+{% extends 'card.html.twig' %}
+{#
+/**
+ * @file
+ * Theme override for the modules uninstall page.
+ *
+ * Available variables:
+ * - form: The modules uninstall form.
+ * - modules: Contains multiple module instances. Each module contains:
+ *   - attributes: Attributes on the row.
+ *   - module_name: The name of the module.
+ *   - checkbox: A checkbox for uninstalling the module.
+ *   - checkbox_id: A unique identifier for interacting with the checkbox
+ *     element.
+ *   - name: The human-readable name of the module.
+ *   - description: The description of the module.
+ *   - disabled_reasons: (optional) A list of reasons why this module cannot be
+ *     uninstalled.
+ *   - disabled: if the checkbox is disabled
+ *
+ * @see template_preprocess_system_modules_uninstall()
+ */
+#}
+{{ attach_library('material_admin/card-sort') }}
+
+{% set card = { 'sticky-actions': 'medium' }|merge(card) %}
+  
+<div id="cardGrid">
+{{ form.filters }}
+<div class="uninstall-modules-wrapper list row">
+  {% for module in modules %}
+    {%
+        set title_attr = [
+        'card-title',
+        'module-name',
+        'table-filter-text-source',
+        'grey-text',
+        'text-darken-4',
+        'activator',
+        'truncate',
+        ]
+    %}
+  <div class="col s12 m6 l4 xl3">
+    <div {{ module.attributes.addClass(card) }}>
+      <div class="card-content">
+        {%- if module.disabled -%}
+        <span {{ attributes.addClass(title_attr) }}>{{ module.name }}<i class="material-icons more-info">more_vert</i></span>
+      {%- else -%}
+        <span {{ attributes.addClass(title_attr).removeClass('activator') }}>{{ module.name }}</span>
+         {%- endif -%}
+        <div class="text module-description"><p>{{module.description}}</p></div>
+      </div>
+      <div class="card-action">
+        {%- if module.disabled -%}
+         <div class="module-uninstall-issues">
+           {%- if module.required_by -%}
+             <p class="require-by-modules"> <i class="material-icons">link </i> {%- trans -%}
+                Module dependencies
+              {%- endtrans %}<span class=" new red badge" data-badge-caption="{{ module.required_by|length }}">
+              </span>
+             </p>
+           {%- endif -%}
+           {%- if module.validation_reasons > 0 -%}
+             <p class="prevent-reasons"> <i class="material-icons">info </i> 
+                {%- trans -%}
+                Uninstall conflicts
+                {%- endtrans %}<span class=" new badge" data-badge-caption="{{ module.validation_reasons|length }}">
+              </span>
+             </p>
+           {%- endif -%}           
+         </div> 
+         {%- endif -%}
+         {%- if module.disabled is empty and module.validation_reason == 0 -%}
+        {{- module.checkbox -}}
+        <label for="{{ module.checkbox_id }}" class="module-name visually-hidden">{{ module.name }}</label>
+      {%- endif -%}
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text truncate text-darken-4">{{ module.name }}<i class="material-icons more-info">close</i></span>
+        <p><span class="admin-prevent-text red-text">{%- trans -%}
+                The following reason prevents {{ module.module_name }} from being uninstalled:
+              {%- plural module.reasons_count -%}
+                The following reasons prevent {{ module.module_name }} from being uninstalled:
+              {%- endtrans %}</span>
+          </p>
+        {% if module.reasons_count > 0 %}
+          <ul class="item-list uninstall-list">
+          {%- for reason in module.validation_reasons -%}
+            <li>{{ reason }}</li>
+          </ul>
+        {%- endfor -%}
+
+        {%- if module.required_by -%}
+        <ul class="item-list uninstall-list">
+          <li>{{ 'Required by: '|t}} {% for keys in module.required_by %}
+            <span class="required-list">{{keys}}</span> {% endfor %}
+          </li>
+        </ul>
+        {%- endif -%} 
+      {%- endif -%}
+      </div>
+    </div>
+  </div>
+      {% endfor %} 
+  </div>
+  <div class="uninstall-submit-wrapper">{{ form|without('filters', 'modules', 'uninstall') }}</div>
+</div>

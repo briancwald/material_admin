@@ -5,8 +5,8 @@
 //  Table of Contents:
 //
 //   1. Global
-//   2. Breakpoints
-//   3. Tables
+//   2. Vertical Rhythm 
+//   3. Card
 //   4. Base Typography
 //   5. Typography Helpers
 
@@ -29,8 +29,11 @@ $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
 
-// 3. Tables 
+// 2. Vertical Rhythm 
 
+// 3. Card
+$card-xs-height: 150px;
+$card-title-height: 2.5rem;
 // 4. Base Typography
 // ------------------
 
@@ -39,6 +42,7 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
+$max-readability-width: 43rem;
 
 // 5. Typography Helpers
 // ---------------------

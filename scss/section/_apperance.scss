@@ -18,11 +18,18 @@
       }
     }
     .card-image {
+      height:60%;
       img {
-        max-height: 300px;
         width: 100%;
-        width: auto;
         margin: 0 auto;
+      }
+    }
+    .card-action {
+      .operations {
+        margin:0;
+        li {
+          padding:10px 0;
+        }
       }
     }
   }

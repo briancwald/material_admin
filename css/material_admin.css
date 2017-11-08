@@ -2442,7 +2442,7 @@ a {
 .z-depth-0, .ui-widget.ui-widget-content details.form-wrapper, fieldset.fieldgroup.form-wrapper legend span.fieldset-legend {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .action-links .button-action.webform-ajax-link {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .action-links .button-action.webform-ajax-link {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog-content .webform-ajax-link:hover, .webform-details-toggle-state-wrapper .webform-details-toggle-state:hover, .btn-floating:hover {
@@ -6751,7 +6751,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  */
 .material-tooltip {
   pointer-events: auto;
-  max-width: 43em; }
+  max-width: 43rem; }
 
 h1 {
   font-size: 2.5rem; }
@@ -6846,7 +6846,7 @@ label {
   box-sizing: border-box; }
 
 .description .material-tooltip {
-  max-width: 36em;
+  max-width: 43rem;
   line-height: 1.5em;
   font-weight: 100; }
 
@@ -7020,10 +7020,10 @@ a.button:hover {
   height: 150px; }
 
 .card .card-content .card-title {
-  line-height: 35px; }
+  line-height: 2.5rem; }
 
 .card-action li, .package-listing .details-description .links li {
-  display: inline; }
+  display: inline-block; }
 
 .card-action a, .package-listing .details-description .links a {
   color: #ffab40;
@@ -7032,9 +7032,6 @@ a.button:hover {
   text-transform: uppercase; }
   .card-action a:hover, .package-listing .details-description .links a:hover {
     color: #ffd8a6; }
-
-.shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 details {
   border: none !important; }
@@ -7094,6 +7091,10 @@ span.marker {
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
+/* @file
+ * Drupal common overrides
+ *
+ */
 #toolbar-administration * {
   transition: color .2s, background .2s, background-color .2s, opacity .2s !important; }
 
@@ -9719,11 +9720,16 @@ details.views-display-column.form-wrapper {
     right: -10%;
     position: absolute; }
 
-#system-themes-page .card .card-image img {
-  max-height: 300px;
-  width: 100%;
-  width: auto;
-  margin: 0 auto; }
+#system-themes-page .card .card-image {
+  height: 60%; }
+  #system-themes-page .card .card-image img {
+    width: 100%;
+    margin: 0 auto; }
+
+#system-themes-page .card .card-action .operations, #system-themes-page .card .package-listing .details-description .links .operations, .package-listing .details-description #system-themes-page .card .links .operations {
+  margin: 0; }
+  #system-themes-page .card .card-action .operations li, #system-themes-page .card .package-listing .details-description .links .operations li, .package-listing .details-description #system-themes-page .card .links .operations li {
+    padding: 10px 0; }
 
 span.theme-status-indicator {
   position: absolute;
