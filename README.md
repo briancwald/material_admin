@@ -59,6 +59,7 @@ Since this is just a POC, code is not very well organized and needs to be mature
 - [x] Make JS features optional in settings
 - [x] Move SCSS out of admin.scss into sub components (e.g. navigation, buttons, forms (done), etc.)
 - [x] Move preprocess functions into .inc files and out of .theme
+- [x] Easy color swap in SCSS variables (_settings.scss)
 - [ ] Better way to handle Materialize CSS overrides
 - [ ] Prod deployment packaging (Min, optimize, etc)
 - [ ] Code standards + Lint
