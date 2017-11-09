@@ -14,6 +14,8 @@
 // Variables;
 @import "materialize-css/sass/components/variables";
 
+// Color Schema 
+@import '_color_schema';
 //This is your _settings.scss file where you can manage/replace specific variables outside material design framework. 
 @import 'settings';
 

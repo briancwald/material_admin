@@ -61,28 +61,8 @@ $stat-font-size: 2.5rem;
 // 6. Colors
 // --------------------
 
-//change theme by editing these values
-// ---
-$primary: 'blue';
-$secondary: 'materialize-red';
-$accent: 'teal';
-$action: 'orange';
-$utility: 'grey'; // This most likely wont change.
-
-// Variable map
-
-
-$success-color-base: 'grey';
-$error-color-base: 'red';
-$warning-color-base: 'yellow';
-$status-color-base: 'green';
-$link-color-base: 'blue';
-//--- end of theme change values
-
 $highlight-color-base:"yellow";
-
-$black: color("shades", "black");
-$white: color("shades", "white");
+$link-color-base: $primary;
 
 $link-color: color($link-color-base, "lighten-1");
 $primary-base: color($primary, "base");
@@ -102,7 +82,6 @@ $secondary-color-dark: darken($secondary-base, 15%);
 $header-bg: color($primary, "darken-1");
 $header-title: $white;
 $header-title-small: color($utility, "darken-3");
-
 
 // Utility Colors
 
