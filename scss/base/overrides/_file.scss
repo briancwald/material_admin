@@ -9,7 +9,7 @@
   display: inline-block;
   background: none;
   /* LTR */
-  color: color("shades", "black");
+  color: $black;
   &:before {
     @extend .material-icons;
     vertical-align: middle;

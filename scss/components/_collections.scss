@@ -56,16 +56,16 @@
   }
   &:hover .collection-item-description {
     text-decoration: none;
-    color: color("grey", "darken-3");
+    color: color($utility, "darken-3");
   }
   .collection-item-description {
     text-decoration: none;
-    color: color("grey", "darken-2");
+    color: color($utility, "darken-2");
     font-size: 12px;
     margin-left: 20px;
     &:hover {
       text-decoration: none;
-      color: color("grey", "darken-3");
+      color: color($utility, "darken-3");
     }
   }
 }

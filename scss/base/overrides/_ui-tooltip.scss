@@ -4,11 +4,11 @@
  */
 
 .ui-tooltip {
-  background-color: #323232;
+  background-color: $toast-color;
   color: white;
   box-shadow: none;
   border: none;
   a {
-    color: #039be5;
+    color: $link-color;
   }
 }

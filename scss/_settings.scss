@@ -9,6 +9,7 @@
 //   3. Card
 //   4. Base Typography
 //   5. Typography Helpers
+//   6. Color Palette
 
 // 1. Global
 // ---------
@@ -55,3 +56,69 @@ $subheader-font-weight: $global-weight-normal;
 $subheader-margin-top: 0.2rem;
 $subheader-margin-bottom: 0.5rem;
 $stat-font-size: 2.5rem;
+
+
+// 6. Colors
+// --------------------
+
+//change theme by editing these values
+// ---
+$primary: 'blue';
+$secondary: 'materialize-red';
+$accent: 'teal';
+$utility: 'grey';
+$action: 'orange';
+
+$success-color-base: 'grey';
+$error-color-base: 'red';
+$warning-color-base: 'yellow';
+$status-color-base: 'green';
+$link-color-base: 'blue';
+//--- end of theme change values
+
+$highlight-color-base:"yellow";
+
+$black: color("shades", "black");
+$white: color("shades", "white");
+
+
+
+$link-color: color($link-color-base, "lighten-1");
+$primary-base: color($primary, "base");
+$secondary-base: color($secondary, "lighten-2") !default;
+$accent-base:  color($accent, "base");
+
+$primary-color-light: lighten($primary-base, 15%) !default;
+$primary-color-dark: darken($primary-base, 15%) !default;
+
+$secondary-color-light: lighten($secondary-base, 15%);
+$secondary-color-dark: darken($secondary-base, 15%);
+
+
+// 6.1 Header Colors
+$header-bg: color($primary, "darken-1");
+$header-title: $white;
+$header-title-small: color($utility, "darken-3");
+
+
+// utility colors
+
+// error
+$error-text: color($error-color-base, "lighten-3");
+$error-bg: color($error-color-base, "lighten-4");
+
+// warning
+$warning-text: color($warning-color-base, "darken-2");
+$warning-bg: color($warning-color-base, "lighten-4");
+
+// status
+$status-text: color($status-color-base, "darken-2");
+$status-bg: color($status-color-base, "lighten-4");
+
+//tabs
+$tabs-text-color: $secondary-base;
+$tabs-underline-color: $secondary-base;
+$tabs-bg-color: transparent !default;
+
+// toast & tooltips
+$toast-color: color($utility, "darken-4");

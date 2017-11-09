@@ -21,7 +21,7 @@
 }
 
 table.highlight>tbody>tr:hover li.chip {
-  background-color: color("grey", "lighten-5");
+  background-color: color($utility, "lighten-5");
 }
 
 .chip.ui-tabs-tab {

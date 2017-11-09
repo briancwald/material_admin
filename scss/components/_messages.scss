@@ -18,10 +18,10 @@ a.modal-trigger {
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
-  color: color("shades", "black");
+  color: $black
   ;
   &:hover {
-    color: color("grey", "darken-2");
+    color: color($utility, "darken-2");
   }
 }
 
@@ -31,11 +31,11 @@ a.modal-trigger {
   padding: 0;
   margin: 10px 5px;
   display: block;
-  color: color("light-blue", "darken-1")
+  color: color($primary, "darken-1")
 }
 
 .modal-content .notification-title {
-  border-bottom: 1px solid color("grey", "darken-2");
+  border-bottom: 1px solid color($utility, "darken-2");
   padding-bottom: 10px;
   font-size: 1.7rem;
 }
@@ -111,14 +111,15 @@ a.modal-trigger {
   .collapsible-header {
     &:before {
       content: 'error';
-      @extend .material-icons, .error-text-color;
+      @extend .material-icons;
+      color: $error-text;
       padding-right: 1em;
     }
   }
   .collapsible-body {
-    @extend .error-text-color;
+   color: $error-text;
     .description {
-      @extend .black-text;
+      color:$black;
     }
   }
 }
@@ -151,7 +152,7 @@ a.modal-trigger {
       padding-left: 30px;
       li.messages__item {
         margin-bottom: 10px;
-        border-bottom: 1px solid color("grey", "darken-2");
+        border-bottom: 1px solid color($utility, "darken-2");
         padding-bottom: 10px;
         &:last-child {
           border-bottom: none;
@@ -166,7 +167,7 @@ a.modal-trigger {
     margin-left: 5px;
     margin-right: 5px;
   }
-  @extend .black-text;
+  color:$black;
   span.fa {
     //padding-left: 5px;
   }
@@ -174,7 +175,7 @@ a.modal-trigger {
     vertical-align: middle;
   }
   span.badge {
-    @extend .black-text;
+    color:$black;
     min-width: 25px;
     min-height: 25px;
     line-height: 25px;

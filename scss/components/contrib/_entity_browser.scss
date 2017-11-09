@@ -6,7 +6,7 @@
 .entities-list {
 	margin:10px 0;
   .item-container {
-  	background: color("grey", "lighten-4");
+  	background: color($utility, "lighten-4");
   	padding:10px;
   	margin:5px;
     &.rendered-entity {

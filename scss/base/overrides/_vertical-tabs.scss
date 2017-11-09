@@ -8,7 +8,7 @@
   >label {
     font-size: 20px;
     text-transform: uppercase;
-    border-bottom: 1px solid map-get($grey, lighten-2);
+    border-bottom: 1px solid color($utility, "lighten-2");
     width: 100%;
     display: block;
   }
@@ -19,7 +19,7 @@
     width: 100%;
     padding-right: 0!important;
     margin-right: 0;
-    border-right: 3px solid map-get($grey, base);
+    border-right: 3px solid color($utility, "base");
     ;
     li.vertical-tabs__menu-item {
       display: block;
@@ -33,7 +33,7 @@
 
         display: block;
         width: 100%;
-        @extend .grey-text;
+        color: color($utility, "base");
         strong {
          letter-spacing: .5px;
          font-weight:normal;
@@ -44,16 +44,16 @@
           text-transform: initial;
         }
         &:hover {
-          @extend .red-text, .lighten-2;
+          color: color($secondary, "lighten-2");
         }
       }
       &.is-selected {
-        border-right: 3px solid map-get($red, lighten-2);
+        border-right: 3px solid color($secondary, "lighten-2");
         margin-right: -3px;
         z-index: 2;
-        @extend .grey, .lighten-4;
+        background: color($utility, "lighten-4");
         a {
-          @extend .red-text, .lighten-2;
+          color: color($secondary, "lighten-2");
         }
       }
     }
@@ -62,14 +62,14 @@
     // add margin to go beyond border width 
     margin-left: -3px!important;
     padding-left: 1em;
-    border-left: 3px solid map-get($grey, base);
+    border-left: 3px solid color($utility, base);
     transition: max-height 0.66s ease-out;
     @extend .col, .m9, .s12;
     >details {
       border: none;
       box-shadow: none;
       >summary {
-        @extend .red-text, .lighten-2;
+       color: color($secondary, "lighten-2");
         text-transform: uppercase;
       }
     }

@@ -9,8 +9,8 @@
 }
 
 .views-ui-display-tab-bucket+.views-ui-display-tab-bucket {
-  border-top: 1px solid color("grey", "lighten-2");
-  border-bottom: 1px solid color("grey", "lighten-2");
+  border-top: 1px solid color($utility, "lighten-2");
+  border-bottom: 1px solid color($utility, "lighten-2");
 }
 
 .views-display-column {
@@ -47,7 +47,7 @@
 
 .views-admin {
   .form-edit .form-actions {
-    background-color: color("grey", "lighten-4");
+    background-color: color($utility, "lighten-4");
     border: none;
     padding:1em;
   }
@@ -80,7 +80,7 @@
 .views-ui-display-tab-actions .dropbutton-wrapper li a,
 .views-ui-display-tab-actions .dropbutton-wrapper input {
   font-size: 16px;
-  color: color("teal", "lighten-1");
+  color: color($accent, "lighten-1");
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -98,7 +98,7 @@ details.views-display-column.form-wrapper {
     padding: 0;
   }
   .collection:not(:first-child) {
-    border-bottom: 1px solid color("grey", "lighten-2");
+    border-bottom: 1px solid color($utility, "lighten-2");
   }
 }
 
@@ -171,11 +171,11 @@ details.views-display-column.form-wrapper {
     line-height: 48px;
     background: transparent;
     &.active {
-      border-bottom: 2px solid color("red", "lighten-1");
+      border-bottom: 2px solid color($secondary, "lighten-1");
       border-radius: 0;
     }
     &:hover {
-      color: color("red", "lighten-1");
+      color: color($secondary, "lighten-1");
     }
   }
   &.add {
@@ -189,12 +189,12 @@ details.views-display-column.form-wrapper {
         display: none;
       }
       &:hover {
-        color: #343434;
+        color: color($utility, "darken-3");
         background-color: rgba(0, 0, 0, 0.1);
       }
     }
     ul {
-      background: color("shades", "white");
+      background: $white;
       @extend .z-depth-2;
       border: 0;
       padding: 0;
@@ -228,7 +228,7 @@ details.views-display-column.form-wrapper {
         input {
           font-size: 16px;
           font-weight: normal;
-          color: color("teal", "lighten-1");
+          color: color($accent, "lighten-1");
           display: block;
           line-height: 22px;
           padding: 14px 16px;
@@ -280,7 +280,7 @@ details.views-display-column.form-wrapper {
   margin-top: 3em;
   .view-preview-form {
     .view-preview-form__title {
-      background: color("grey", "lighten-4");
+      background: color($utility, "lighten-4");
       @extend .small-header;
     }
     .arguments-preview,
@@ -327,7 +327,7 @@ details.views-display-column.form-wrapper {
     }
   }
   .collapsible-body {
-    @extend .grey, .lighten-4;
+    background: color($utility, "lighten-4");
     border: none;
     font-weight: inherit;
     //account for labels being absolute positioned with padding-top
@@ -361,10 +361,10 @@ details.views-display-column.form-wrapper {
     left: 0;
     width: 100%;
     padding: 1rem;
-    background-color: color("teal", "lighten-4");
+    background-color: color($accent, "lighten-4");
     opacity: 0;
     transition: .2s;
-    border-bottom: 1px solid color("grey", "lighten-1");
+    border-bottom: 1px solid color($utility, "lighten-1");
     >.form-wrapper:first-child {
       display: none;
     }
@@ -376,7 +376,7 @@ details.views-display-column.form-wrapper {
     }
     .views-bulk-form-count {
       float: left;
-      color: color("teal", "darken-1");
+      color: color($accent, "darken-1");
     }
   }
   &.has-selection {
@@ -412,7 +412,7 @@ details.views-display-column.form-wrapper {
     thead .select-all.views-field {
       display: block;
       label {
-        color: color("grey", "base");
+        color: color($utility, "base");
       }
     }
     tbody {
@@ -422,11 +422,11 @@ details.views-display-column.form-wrapper {
       td {
         .tablesaw-cell-label {
           font-weight: 200;
-          color: color("grey", "base");
+          color: color($utility, "base");
           &:after {
             content: ":";
             right: 0;
-            color: color("grey", "base");
+            color: color($utility, "base");
             font-weight: 400;
           }
         }

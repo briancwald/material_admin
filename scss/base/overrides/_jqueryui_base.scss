@@ -3,13 +3,12 @@
  *
  */
 
-$color_1: color("grey", "darken-3");
-$color_2: color("grey", "darken-2");
-$color_3: color("grey", "darken-4");
-$color_4: color("shades", "white");
+$color_1: color($utility, "darken-3");
+$color_2: color($utility, "darken-2");
+$color_3: color($utility, "darken-4");
+$color_4: $white;
 $highlight: color("yellow", "lighten-4");
 $color_6: color("red", "lighten-3");
-$background_color_1: color("shades", "white");
 
 //icon paths to core sprites
 $icons_444444: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png");
@@ -46,7 +45,7 @@ $icons_777777: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_77
   border: none;
   details.form-wrapper {
     @extend .z-depth-0;
-    border:1px solid color("grey","lighten-2")!important;
+    border:1px solid color($utility,"lighten-2")!important;
   }
 }
 .ui-widget-content {
@@ -56,18 +55,18 @@ $icons_777777: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_77
   }
   .ui-state-default {
     border: 1px solid #c5c5c5;
-    background: #f6f6f6;
+    background: color($utility,"lighten-4");
     font-weight: normal;
     color: $color_2;
   }
   .ui-state-hover {
-    border: 1px solid #cccccc;
+    border: 1px solid color($utility, "lighten-1");
     background: #ededed;
     font-weight: normal;
     color: $color_3;
   }
   .ui-state-focus {
-    border: 1px solid #cccccc;
+    border: 1px solid color($utility, "lighten-1");
     background: #ededed;
     font-weight: normal;
     color: $color_3;
@@ -345,7 +344,7 @@ a {
   color: $color_4;
   .ui-icon-background {
     border: #003eff;
-    background-color: $background_color_1;
+    background-color: $white;
   }
   a {
     color: $color_4;
@@ -373,7 +372,7 @@ a {
 }
 .ui-icon-background {
   border: #003eff;
-  background-color: $background_color_1;
+  background-color: $white;
 }
 .ui-state-highlight {
   border: 1px solid #dad55e;

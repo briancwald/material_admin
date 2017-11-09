@@ -19,8 +19,7 @@ h2 {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 25px;
-    @extend .grey-text,
-    .text-darken-3;
+    color:$header-title-small;
   }
 }
 
@@ -66,7 +65,7 @@ body {
 }
 
 hr {
-  border: 1px solid color("grey", "lighten-2");
+  border: 1px solid color($utility, "lighten-2");
   margin: 1em 0;
 }
 
@@ -114,39 +113,33 @@ label {
 
 
 .error-text-color, .button--danger {
-  @extend .red-text,
-  .text-lighten-3;
-}
-
-.warning-text-color {
-  @extend .yellow-text,
-  .text-darken-2;
-}
-
-.status-text-color {
-  @extend .green-text,
-  .text-darken-2;
-}
-
-.color-warning,
-.warning-color,
-.warnings-color {
-  @extend .yellow,
-  .lighten-4;
-}
-
-.color-success,
-.status-color,
-.checked-color {
-  @extend .green,
-  .lighten-4
+ color: $error-text;
 }
 
 .color-error,
 .error-color,
 .errors-color {
-  @extend .red,
-  .lighten-4;
+  background:$error-bg;
+}
+
+.warning-text-color {
+ color:$warning-text;
+}
+
+.color-warning,
+.warning-color,
+.warnings-color {
+  background:$warning-bg;
+}
+
+.status-text-color {
+  color:$status-text;
+}
+
+.color-success,
+.status-color,
+.checked-color {
+  background:$status-bg;
 }
 
 .button-action {
@@ -157,7 +150,7 @@ label {
   &:before {
     @extend .material-icons;
     content: 'add';
-    color: color("shades", "white");
+    color: $white;
     margin: 0 10px 0 0px;
   }
   &:hover {
@@ -168,12 +161,12 @@ label {
 
 .button.button--danger{
   &:hover {
-  background:color("grey","lighten-4")!important;
+  background:color($utility,"lighten-4")!important;
 }
 }
 
 .btn-flat-action {
-  color:color("orange", "accent-2")
+  color:color($action, "accent-2")
 }
 
 .inline {
@@ -184,7 +177,7 @@ label {
 .button-link {
   @extend .btn-flat;
   &:hover {
-    background:color("grey","lighten-3")
+    background:color($utility,"lighten-3")
   }
 }
 
@@ -192,7 +185,7 @@ label {
   content: 'keyboard_arrow_right';
   right: 20px;
   position: absolute;
-  color: color("grey", "base");
+  color: color($utility, "base");
   font-weight: 700;
   font-size: 1.5em;
 }
@@ -200,7 +193,7 @@ label {
 .collapse-down {
   content: 'keyboard_arrow_down';
   right: 20px;
-  color: color("grey", "base");
+  color: color($utility, "base");
   position: absolute;
   font-weight: 700;
   font-size: 1.5em;
@@ -356,10 +349,9 @@ details.form-wrapper summary {
 
 // for the default drupal 'marker' add the badge styles 
 span.marker {
-  @extend .badge,
-  .teal,
-  .lighten-2,
-  .white-text;
+  @extend .badge;
+  background: color($accent, "lighten-2");
+  color:$white;
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px;

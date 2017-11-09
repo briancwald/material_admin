@@ -7,16 +7,16 @@
   position: absolute;
   z-index: 1260;
   overflow: visible;
-  color: #000;
+  color: $black;
   border: 0;
   padding: 0;
   @extend .z-depth-5;
   border-radius: 2px;
-  background: color("shades", "white");
+  background: $white;
   border: 0;
   .ui-dialog-buttonpane {
     margin-top: 0;
-    background: color("shades", "white");
+    background: $white;
     padding: .3em 1em;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -24,13 +24,10 @@
       margin: 0;
       padding: 0;
       button {
-        @extend .btn,
-        .btn-flat,
-        .darken-3,
-        .text-darken-2;
+        @extend .btn, .btn-flat;
         background: none;
         &.ui-state-hover {
-          color: #343434 !important;
+          color: color($utility, "darken-4") !important;
         }
       }
     }
@@ -39,15 +36,15 @@
     }
   }
   .views-offset-top {
-    border-bottom: 1px solid color("grey", "lighten-1");
+    border-bottom: 1px solid color($utility, "lighten-1");
   }
   .ui-dialog-titlebar {
     font-weight: bold;
-    background: color("shades", "white");
+    background: $white;
     padding-top: 20px;
     border: 0;
     border-radius:0;
-    border-bottom: 1px solid color("grey", "lighten-1");
+    border-bottom: 1px solid color($utility, "lighten-1");
     .ui-dialog-title {
       font-weight: normal;
       font-size: 1.5rem;
@@ -89,7 +86,7 @@
       margin: 0;
     }
     a:not(.ui-tabs-anchor):not(.webform-element-help) {
-      color: color("blue", "base");
+      color: color($primary, "base");
     }
   }
 }
@@ -122,11 +119,11 @@
 
 .cke_dialog {
   font-weight: bold;
-  background: color("shades", "white");
+  background: $white;
   padding-top: 20px;
   border: 0;
   border-radius:0;
-  border-bottom: 1px solid color("grey", "lighten-1");
+  border-bottom: 1px solid color($utility, "lighten-1");
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
   > tbody > tr > td {
     padding: 0;

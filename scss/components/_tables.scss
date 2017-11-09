@@ -17,8 +17,8 @@ th.select-all {
 
 table.highlight>tbody>tr {
   &:hover {
-    @extend .grey, .lighten-3;
-    color: color("shades", "black");
+    background: color($utility, "lighten-3");
+    color: $black
     a, button {
       cursor: pointer;
     }
@@ -26,7 +26,7 @@ table.highlight>tbody>tr {
   // dont change background on hover for titles
   &.region-title {
     &:hover {
-    background:color("blue", "lighten-5")!important;
+    background: color($primary, "lighten-5")!important;
   }
   }
 }
@@ -58,8 +58,8 @@ table {
 
 table {
   .region-title {
-    background:color("blue", "lighten-5");
-    @extend .grey-text;
+    background:color($primary, "lighten-5");
+    color: color($utility, "base");
     .button.button--small {
       font-size:0.85em;
     }
@@ -75,11 +75,11 @@ table td {
 }
 
 table thead th {
-  @extend .grey-text, .darken-1;
+  color: color($utility, "darken-1");
   font-weight: normal;
   font-size: .9em;
   a {
-    @extend .black-text;
+    color:$black;
   }
 }
 
@@ -103,18 +103,18 @@ table thead th {
 }
 
 tr.drag {
-  @extend .yellow, .lighten-4;
-  border-bottom: 1px dashed color("grey", "darken-2");
-  border-top: 1px dashed color("grey", "darken-2");
+  background: color($highlight-color-base, "lighten-4");
+  border-bottom: 1px dashed color($utility, "darken-2");
+  border-top: 1px dashed color($utility, "darken-2");
 }
 
 table.highlight tbody, table tbody {
   tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing, tr.drag {
     @extend .yellow, .lighten-5;
-    border-bottom: 2px dashed color("yellow", "lighten-4");
-    border-top: 2px dashed color("yellow", "lighten-4");
+    border-bottom: 2px dashed color($highlight-color-base, "lighten-4");
+    border-top: 2px dashed color($highlight-color-base, "lighten-4");
     &:hover {
-      background:color("yellow", "lighten-4")!important;
+      background:color($highlight-color-base, "lighten-4")!important;
     }
   }
 }
@@ -139,7 +139,7 @@ table.highlight tbody, table tbody {
       &:before {
         @extend .material-icons;
         content: 'drag_handle';
-        color: color("grey", "darken-2");
+        color: color($utility, "darken-2");
         font-size: 20px;
       }
     }
@@ -149,8 +149,8 @@ table.highlight tbody, table tbody {
 //editing widget table styling 
 table > tbody > tr.field-plugin-settings-editing {
   @extend .grey, .lighten-5;
-  border-bottom: 2px solid color("teal", "darken-2");
-  border-top: 2px solid color("teal", "darken-2");
+  border-bottom: 2px solid color($accent, "darken-2");
+  border-top: 2px solid color($accent, "darken-2");
 }
 
 .tabledrag-changed-warning {

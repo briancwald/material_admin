@@ -63,22 +63,22 @@
 }
 
 table.highlight>tbody>tr.selected {
-  @extend .grey, .lighten-4;
+  background: color($utility, "lighten-4");
   a {
     text-decoration: none;
   }
   a.dropdown-button {
-    @extend .grey-text, .text-darken-2;
+    color: color($utility, "darken-2");
     text-decoration: none;
   }
   .dropbutton-widget li {
-    @extend .black-text;
+    color:$black;
     a {
-      @extend .black-text;
+      color:$black;
       text-decoration: none;
     }
   }
   td {
-    @extend .grey, .lighten-4;
+    background: color($utility, "lighten-4");
   }
 }

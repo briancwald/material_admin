@@ -11,6 +11,6 @@ dl {
     font-size: 0.9em;
     margin-left: 0;
     margin-bottom: 1em;
-    color: color("grey", "base");
+    color: color($utility, "base");
   }
 }

@@ -7,7 +7,7 @@
     padding: 0 .5em;
     margin: 0;
     li {
-      @extend .blue-text, .text-lighten-4;
+      color: color($primary, "lighten-4");
       font-size: 16px;
       display: inline-block;
       list-style: none;
@@ -15,7 +15,7 @@
       line-height: 16px;
       vertical-align: middle;
       a, span {
-        @extend .blue-text, .text-lighten-4;
+        color: color($primary, "lighten-4");
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -24,11 +24,11 @@
         line-height: 16px; 
       }
       span {
-        @extend .white-text;
+        color:$white;
       }
       &:before {
         content: 'keyboard_arrow_right';
-        @extend .blue-text, .text-lighten-4;
+        color: color($primary, "lighten-4");
         @extend .material-icons;
         font-size: 23px;
         margin: 0px 10px 0px 8px;
@@ -40,7 +40,7 @@
         display: none;
       }
       &:last-child a, &:last-child {
-        @extend .grey-text, .lighten-4;
+        color: color($utility, "lighten-4");
       }
     }
   }

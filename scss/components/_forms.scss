@@ -35,7 +35,7 @@ textarea.materialize-textarea {
   max-width: 95%;
   width: inherit;
   &:focus {
-    border: 1px solid color("teal", "lighten-1");
+    border: 1px solid color($accent, "lighten-1");
   }
 }
 
@@ -85,7 +85,7 @@ textarea.materialize-textarea {
   .form-required {
     &:after {
       content: " *";
-      @extend .error-text-color;
+      color:$error-color;
     }
   }
 }
@@ -135,7 +135,7 @@ input[type=checkbox] {
   .button {}
   .button--danger {
     @extend .btn-flat;
-    @extend .red-text, .lighten-2
+    color:$error-text;
   }
 }
 
@@ -147,7 +147,7 @@ input.btn {
 }
 
 abbr.warning {
-  @extend .warning-text-color;
+ color:$warning-text;
   text-decoration: none;
 }
 
@@ -221,7 +221,7 @@ details.form-wrapper {
     padding: 1rem 2rem; //prevent nested wrappers from providing too much z-depth
     details.form-wrapper {
       box-shadow: none;
-      border: 1px solid color("grey", "lighten-2")!important;
+      border: 1px solid color($utility, "lighten-2")!important;
     }
     .details-description {
       padding:10px 0;
@@ -294,7 +294,7 @@ details.form-wrapper {
 
 a#edit-cancel {
   @extend .btn-flat;
-  @extend .warning-text-color;
+  color: $warning-text;
 }
 
 .node-multiple-delete-confirm input.form-submit {
@@ -394,7 +394,7 @@ a#edit-cancel {
       padding-left: 0;
       display: inline-block;
       &:focus {
-        border-bottom: 1px solid color("teal", "lighten-1");
+        border-bottom: 1px solid color($accent, "lighten-1");
       }
     }
   }
@@ -408,9 +408,9 @@ a#edit-cancel {
       padding: 10px 20px;
       display: block;
       width: 100%;
-      @extend .teal-text, .lighten-1;
+      color: color($accent, "lighten-1");
       &:hover {
-        background: #ddd;
+        background: color($utility, "lighten-2");
         text-decoration: none;
       }
     }
@@ -485,7 +485,9 @@ fieldset.form-wrapper {
   legend {
     margin: 0 5px 5px 0;
     span.fieldset-legend {
-      @extend .blue, .white-text, .z-depth-1;
+      @extend .z-depth-1;
+      background: color($primary, "base");
+      color:$white;
       font-size: 16px;
       padding: 5px 10px;
       text-transform: uppercase;
@@ -505,7 +507,9 @@ fieldset.fieldgroup.form-wrapper {
     font-weight:500;
     margin:15px 0 0 0;
     span.fieldset-legend {
-      @extend .grey, .lighten-5, .blue-text, .z-depth-0;
+      @extend .z-depth-0;
+      background: color($utility, "lighten-5");
+      color: color($primary, "base");
       padding-left:0;
     }
   }

@@ -14,9 +14,9 @@
 }
 
 header.header-wrapper {
-  @extend .blue, .darken-1;
+  background:$header-bg;
   h1 {
-    @extend .white-text;
+    color: $header-title;
     font-weight: 300;
     font-size: 2rem;
     margin: 2rem 0 2rem 0;
@@ -41,7 +41,7 @@ header.header-wrapper {
 }
 
 body.material_login {
-  background: color("grey", "lighten-4")
+  background: color($utility, "lighten-4")
 }
 
 //region title action
@@ -60,7 +60,8 @@ body.material_login {
 }
 
 .utility-wrapper {
-  @extend .blue, .lighten-1, .z-depth-1;
+  background:color($primary, "lighten-1");
+  @extend .z-depth-1;
 }
 
 #block-material-admin-page-title h1.page-title {

@@ -7,8 +7,8 @@
   overflow: inherit;
   height: 10px;
   .progress__track {
-    background-color: color("teal", "accent-1");
-    border-color: color("teal", "accent-1");
+    background-color: color($accent, "accent-1");
+    border-color: color($accent, "accent-1");
     background-image: none;
     box-shadow: none;
     border-radius: 0;
@@ -17,7 +17,7 @@
       @extend .determinate;
       border: 0;
       background: none;
-      background-color: color("teal", "lighten-1");
+      background-color: color($accent, "lighten-1");
       margin: 0;
       height: 10px;
       border-radius: 0;
