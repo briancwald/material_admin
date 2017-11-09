@@ -66,8 +66,11 @@ $stat-font-size: 2.5rem;
 $primary: 'blue';
 $secondary: 'materialize-red';
 $accent: 'teal';
-$utility: 'grey';
 $action: 'orange';
+$utility: 'grey'; // This most likely wont change.
+
+// Variable map
+
 
 $success-color-base: 'grey';
 $error-color-base: 'red';
@@ -81,12 +84,12 @@ $highlight-color-base:"yellow";
 $black: color("shades", "black");
 $white: color("shades", "white");
 
-
-
 $link-color: color($link-color-base, "lighten-1");
 $primary-base: color($primary, "base");
-$secondary-base: color($secondary, "lighten-2") !default;
+$primary-color: $primary-base;
+$secondary-base: color($secondary, "lighten-2");
 $accent-base:  color($accent, "base");
+$secondary-color: $accent-base;
 
 $primary-color-light: lighten($primary-base, 15%) !default;
 $primary-color-dark: darken($primary-base, 15%) !default;
@@ -101,24 +104,57 @@ $header-title: $white;
 $header-title-small: color($utility, "darken-3");
 
 
-// utility colors
+// Utility Colors
 
-// error
+// Error
 $error-text: color($error-color-base, "lighten-3");
 $error-bg: color($error-color-base, "lighten-4");
 
-// warning
+// Warning
 $warning-text: color($warning-color-base, "darken-2");
 $warning-bg: color($warning-color-base, "lighten-4");
 
-// status
+// Status
 $status-text: color($status-color-base, "darken-2");
 $status-bg: color($status-color-base, "lighten-4");
 
-//tabs
+// Tabs
 $tabs-text-color: $secondary-base;
 $tabs-underline-color: $secondary-base;
 $tabs-bg-color: transparent !default;
+
+$button-raised-background: color($accent, "lighten-1");
+$button-raised-background-hover: lighten($button-raised-background, 5%);
+$button-raised-color: $white;
+
+// Flat buttons
+$button-flat-color: color($utility, "darken-3");
+$button-flat-disabled-color: lighten(#999, 10%) !default;
+
+// Floating buttons
+$button-floating-background: $accent-base;
+$button-floating-background-hover: $button-floating-background;
+$button-floating-color: $white;
+
+// Form 
+
+$radio-fill-color: $accent-base;
+$radio-empty-color: #5a5a5a !default;
+$radio-border: 2px solid $radio-fill-color;
+
+$dropdown-bg-color: $white;
+$dropdown-hover-bg-color: color($utility, "lighten-3");
+$dropdown-color: $accent-base;
+
+$switch-bg-color: $accent-base;
+$switch-checked-lever-bg: desaturate(lighten($switch-bg-color, 25%), 25%);
+$switch-unchecked-bg: color($utility, "lighten-4");
+
+$collection-bg-color: $white;
+$collection-link-color: $accent-base;
+$collection-active-bg-color: $accent-base;
+$collection-active-color: lighten($accent-base, 55%) !default;
+
 
 // toast & tooltips
 $toast-color: color($utility, "darken-4");
