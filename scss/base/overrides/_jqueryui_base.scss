@@ -10,13 +10,14 @@ $color_4: $white;
 $highlight: color("yellow", "lighten-4");
 $color_6: color("red", "lighten-3");
 
-//icon paths to core sprites
-$icons_444444: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png");
-$icons_555555: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png");
-$icons_ffffff: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png");
-$icons_777620: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png");
-$icons_cc0000: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png");
-$icons_777777: url("/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777777_256x240.png");
+//icon paths to core sprites. 
+//@ToDO: replace this with icon font for retina support.
+$icons_444444: url("../images/jquery.ui/ui-icons_444444_256x240.png");
+$icons_555555: url("../images/jquery.ui/ui-icons_555555_256x240.png");
+$icons_ffffff: url("../images/jquery.ui/ui-icons_ffffff_256x240.png");
+$icons_777620: url("../images/jquery.ui/ui-icons_777620_256x240.png");
+$icons_cc0000: url("..images/jquery.ui/ui-icons_cc0000_256x240.png");
+$icons_777777: url("../images/jquery.ui/ui-icons_777777_256x240.png");
 
 .ui-widget {
   font-family: $body-font-family;
