@@ -143,10 +143,7 @@ label {
 }
 
 .button-action {
-  @extend .btn,
-  .red,
-  .accent-2,
-  .white-text;
+  @extend .btn;
   &:before {
     @extend .material-icons;
     content: 'add';

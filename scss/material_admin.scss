@@ -10,12 +10,12 @@
 
 // Colors need to be called before variables
 @import "materialize-css/sass/components/color";
+// Color Schema 
+@import '_color_schema';
 
 // Variables;
 @import "materialize-css/sass/components/variables";
 
-// Color Schema 
-@import '_color_schema';
 //This is your _settings.scss file where you can manage/replace specific variables outside material design framework. 
 @import 'settings';
 

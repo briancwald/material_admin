@@ -102,7 +102,9 @@ $tabs-text-color: $secondary-base;
 $tabs-underline-color: $secondary-base;
 $tabs-bg-color: transparent !default;
 
-$button-raised-background: color($accent, "lighten-1");
+
+$button-background-focus: lighten($accent-base, 4%);
+$button-raised-background: $accent-base;
 $button-raised-background-hover: lighten($button-raised-background, 5%);
 $button-raised-color: $white;
 
@@ -116,6 +118,9 @@ $button-floating-background-hover: $button-floating-background;
 $button-floating-color: $white;
 
 // Form 
+
+$input-success-color: $success-color !default;
+$input-focus-color: $accent;
 
 $radio-fill-color: $accent-base;
 $radio-empty-color: #5a5a5a !default;

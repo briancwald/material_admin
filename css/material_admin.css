@@ -418,85 +418,85 @@ th {
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red, .button-action {
+.red {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .lighten-5.button-action, .button-action.dropdown-button:hover, table tbody tr.button-action.drag-previous, table tbody tr.button-action.drag, table > tbody > tr.button-action.field-plugin-settings-editing, .red.dropdown-button:hover, table tbody tr.red.drag-previous, table tbody tr.red.drag, table > tbody > tr.red.field-plugin-settings-editing {
+.red.lighten-5, .red.dropdown-button:hover, table tbody tr.red.drag-previous, table tbody tr.red.drag, table > tbody > tr.red.field-plugin-settings-editing {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4, .lighten-4.button-action {
+.red.lighten-4 {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3, .lighten-3.button-action {
+.red.lighten-3 {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, .lighten-2.button-action {
+.red.lighten-2 {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .lighten-1.button-action, .button-action:hover {
+.red.lighten-1, .red.button-action:hover {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .darken-1.button-action {
+.red.darken-1 {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, .darken-2.button-action {
+.red.darken-2 {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3, .darken-3.button-action {
+.red.darken-3 {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4, .darken-4.button-action {
+.red.darken-4 {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1, .accent-1.button-action {
+.red.accent-1 {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2, .button-action {
+.red.accent-2 {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3, .accent-3.button-action {
+.red.accent-3 {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4, .accent-4.button-action {
+.red.accent-4 {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -568,7 +568,7 @@ th {
 .pink-text.text-accent-1 {
   color: #ff80ab !important; }
 
-.pink.accent-2, .pink.button-action {
+.pink.accent-2 {
   background-color: #ff4081 !important; }
 
 .pink-text.text-accent-2 {
@@ -652,7 +652,7 @@ th {
 .purple-text.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2, .purple.button-action {
+.purple.accent-2 {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2 {
@@ -736,7 +736,7 @@ th {
 .deep-purple-text.text-accent-1 {
   color: #b388ff !important; }
 
-.deep-purple.accent-2, .deep-purple.button-action {
+.deep-purple.accent-2 {
   background-color: #7c4dff !important; }
 
 .deep-purple-text.text-accent-2 {
@@ -820,7 +820,7 @@ th {
 .indigo-text.text-accent-1 {
   color: #8c9eff !important; }
 
-.indigo.accent-2, .indigo.button-action {
+.indigo.accent-2 {
   background-color: #536dfe !important; }
 
 .indigo-text.text-accent-2 {
@@ -904,7 +904,7 @@ th {
 .blue-text.text-accent-1 {
   color: #82B1FF !important; }
 
-.blue.accent-2, .blue.button-action {
+.blue.accent-2 {
   background-color: #448AFF !important; }
 
 .blue-text.text-accent-2 {
@@ -988,7 +988,7 @@ th {
 .light-blue-text.text-accent-1 {
   color: #80d8ff !important; }
 
-.light-blue.accent-2, .light-blue.button-action {
+.light-blue.accent-2 {
   background-color: #40c4ff !important; }
 
 .light-blue-text.text-accent-2 {
@@ -1072,7 +1072,7 @@ th {
 .cyan-text.text-accent-1 {
   color: #84ffff !important; }
 
-.cyan.accent-2, .cyan.button-action {
+.cyan.accent-2 {
   background-color: #18ffff !important; }
 
 .cyan-text.text-accent-2 {
@@ -1156,7 +1156,7 @@ th {
 .teal-text.text-accent-1 {
   color: #a7ffeb !important; }
 
-.teal.accent-2, .teal.button-action {
+.teal.accent-2 {
   background-color: #64ffda !important; }
 
 .teal-text.text-accent-2 {
@@ -1240,7 +1240,7 @@ th {
 .green-text.text-accent-1 {
   color: #B9F6CA !important; }
 
-.green.accent-2, .green.button-action {
+.green.accent-2 {
   background-color: #69F0AE !important; }
 
 .green-text.text-accent-2 {
@@ -1324,7 +1324,7 @@ th {
 .light-green-text.text-accent-1 {
   color: #ccff90 !important; }
 
-.light-green.accent-2, .light-green.button-action {
+.light-green.accent-2 {
   background-color: #b2ff59 !important; }
 
 .light-green-text.text-accent-2 {
@@ -1408,7 +1408,7 @@ th {
 .lime-text.text-accent-1 {
   color: #f4ff81 !important; }
 
-.lime.accent-2, .lime.button-action {
+.lime.accent-2 {
   background-color: #eeff41 !important; }
 
 .lime-text.text-accent-2 {
@@ -1492,7 +1492,7 @@ th {
 .yellow-text.text-accent-1 {
   color: #ffff8d !important; }
 
-.yellow.accent-2, .yellow.button-action, table tbody tr.button-action.drag-previous, table tbody tr.button-action.drag, span.button-action.theme-status-indicator, table tbody tr.accent-2.drag-previous, table tbody tr.accent-2.drag, span.accent-2.theme-status-indicator {
+.yellow.accent-2, table tbody tr.accent-2.drag-previous, table tbody tr.accent-2.drag, span.accent-2.theme-status-indicator {
   background-color: #ffff00 !important; }
 
 .yellow-text.text-accent-2 {
@@ -1576,7 +1576,7 @@ th {
 .amber-text.text-accent-1 {
   color: #ffe57f !important; }
 
-.amber.accent-2, .amber.button-action {
+.amber.accent-2 {
   background-color: #ffd740 !important; }
 
 .amber-text.text-accent-2 {
@@ -1660,7 +1660,7 @@ th {
 .orange-text.text-accent-1 {
   color: #ffd180 !important; }
 
-.orange.accent-2, .orange.button-action {
+.orange.accent-2 {
   background-color: #ffab40 !important; }
 
 .orange-text.text-accent-2 {
@@ -1744,7 +1744,7 @@ th {
 .deep-orange-text.text-accent-1 {
   color: #ff9e80 !important; }
 
-.deep-orange.accent-2, .deep-orange.button-action {
+.deep-orange.accent-2 {
   background-color: #ff6e40 !important; }
 
 .deep-orange-text.text-accent-2 {
@@ -1951,7 +1951,7 @@ th {
 .white {
   background-color: #FFFFFF !important; }
 
-.white-text, .button-action, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active {
+.white-text, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-focus, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-hover, .ui-autocomplete.ui-menu .ui-menu-item.ui-state-active {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -3629,18 +3629,18 @@ a#edit-cancel,
 
 .btn:focus, .btn-large:focus, .button-action:focus, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:focus, .dropbutton-wrapper.dropbutton-single .edit a:focus, .ui-dialog-content .webform-ajax-link:focus, .webform-details-toggle-state-wrapper .webform-details-toggle-state:focus,
 .btn-floating:focus {
-  background-color: #1d7d74; }
+  background-color: #00635a; }
 
 .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state {
   text-decoration: none;
   color: #FFFFFF;
-  background-color: #26a69a;
+  background-color: #009688;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover, .button-action:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .ui-dialog-content .webform-ajax-link:hover, .webform-details-toggle-state-wrapper .webform-details-toggle-state:hover {
-    background-color: #2bbbad; }
+    background-color: #00b09f; }
 
 .btn-floating {
   display: inline-block;
@@ -3794,7 +3794,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #2ab7a9; }
+  background-color: #00aa9a; }
 
 label {
   font-size: 0.8rem;
@@ -3904,8 +3904,8 @@ textarea.materialize-textarea {
   input[type=number]:not(.browser-default):focus:not([readonly]),
   input[type=search]:not(.browser-default):focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #26a69a;
-    box-shadow: 0 1px 0 0 #26a69a; }
+    border-bottom: 1px solid "teal";
+    box-shadow: 0 1px 0 0 "teal"; }
   input:not([type]):focus:not([readonly]) + label,
   input[type=text]:not(.browser-default):focus:not([readonly]) + label,
   input[type=password]:not(.browser-default):focus:not([readonly]) + label,
@@ -3919,7 +3919,7 @@ textarea.materialize-textarea {
   input[type=number]:not(.browser-default):focus:not([readonly]) + label,
   input[type=search]:not(.browser-default):focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #26a69a; }
+    color: "teal"; }
   input:not([type]).validate + label,
   input[type=text]:not(.browser-default).validate + label,
   input[type=password]:not(.browser-default).validate + label,
@@ -4172,7 +4172,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     font-size: 2rem;
     transition: color .2s; }
     .input-field .prefix.active {
-      color: #26a69a; }
+      color: "teal"; }
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea,
   .input-field .prefix ~ label,
