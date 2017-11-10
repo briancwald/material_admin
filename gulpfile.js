@@ -35,6 +35,7 @@ gulp.task('libsrc', function() {
 gulp.task('rename', function(){
   gulp.src(['js/vendor/materialize.min.js'])
     .pipe(replace('fn.autocomplete', 'fn.autocomplete_materialize'))
+    .pipe(replace('r.autocomplete', 'r.autocomplete_materialize'))
     .pipe(replace('fn.tabs', 'fn.tabs_materialize'))
   .pipe(replace('.tabs(', '.tabs_materialize('))
   .pipe(gulp.dest('js/lib'));
