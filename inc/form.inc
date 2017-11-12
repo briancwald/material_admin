@@ -3,6 +3,8 @@
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Url;
+use Drupal\views\Views;
+
 
 /**
  * Implements hook_form_alter().
@@ -47,6 +49,21 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
     }
   }
 
+
+  if ($form['#id']  == 'view-edit-form') {
+    $form['actions']['submit']['#attributes']['data-twig-suggestion'] = 'views_button_submit';
+    $form['actions']['cancel']['#attributes']['data-twig-suggestion'] = 'views_button_cancel';
+    $form['actions']['submit']['#attributes']['class'][] = 'views-button succes';
+    $form['actions']['cancel']['#attributes']['class'][] = 'views-button cancel';
+    foreach (Element::children($form['displays']['top']['add_display']) as $key) {
+      $form['displays']['top']['add_display'][$key]['#attributes']['data-twig-suggestion']= 'views_button_add_display';
+    }
+  }
+
+  if ($form['#id'] == 'views-ui-preview-form') {
+    $form['actions']['button']['#attributes']['data-twig-suggestion'] = 'views_button_preview';
+    $form['actions']['button']['#attributes']['class'][] = 'views-button';
+  }
 }
 
 /**

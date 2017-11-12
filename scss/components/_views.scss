@@ -457,3 +457,11 @@ details.views-display-column.form-wrapper {
 .views-table .select-all.views-field label {
   color: transparent;
 }
+
+.views-button {
+  span, i {
+    display:inline-block;
+    vertical-align: middle;
+    line-height: inherit;
+  }
+}

@@ -9434,6 +9434,11 @@ details.views-display-column.form-wrapper {
 .views-table .select-all.views-field label {
   color: transparent; }
 
+.views-button span, .views-button i {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: inherit; }
+
 /* @file
  * Contrib overrides
  *
