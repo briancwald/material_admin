@@ -15,10 +15,69 @@
         height: 2.5em;
         display: inline-block;
         border-radius: 50%;
+        color:$white;
       }
       .card-actions {
         padding-top: 1em;
       }
     }
   }
+}
+
+
+.system-status-general-info__item {
+  .card .card-content .card-title {
+    margin-bottom: 1em;
+  }
+}
+
+.system-status-report__status-icon--checked {
+  .collapsible-header {
+    &:before {
+      content: 'check';
+      color:$status-text;
+      @extend .material-icons;
+      padding-right: 1em;
+    }
+  }
+}
+
+.system-status-report__status-icon--warning {
+  .collapsible-header {
+    &:before {
+      content: 'warning';
+      @extend .material-icons;
+      color:$warning-text;
+      padding-right: 1em;
+    }
+  }
+  .collapsible-body {
+    color:$warning-text;
+    .description {
+      color:$black;
+    }
+  }
+}
+
+.system-status-report__status-icon--error {
+  .collapsible-header {
+    &:before {
+      content: 'error';
+      @extend .material-icons;
+      color: $error-text;
+      padding-right: 1em;
+    }
+  }
+  .collapsible-body {
+   color: $error-text;
+    .description {
+      color:$black;
+    }
+  }
+}
+
+.cron-description__run-cron {
+  margin:0px 10px;
+  text-transform: uppercase;
+
 }

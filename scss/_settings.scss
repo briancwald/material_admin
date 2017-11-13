@@ -85,16 +85,16 @@ $header-title-small: color($utility, "darken-3");
 // Utility Colors
 
 // Error
-$error-text: color($error-color-base, "lighten-3");
-$error-bg: color($error-color-base, "lighten-4");
+$error-text: color($error-color-base, "darken-1");
+$error-bg: color($error-color-base, "darken-1");
 
 // Warning
-$warning-text: color($warning-color-base, "darken-2");
-$warning-bg: color($warning-color-base, "lighten-4");
+$warning-text: color($warning-color-base, "darken-3");
+$warning-bg: color($warning-color-base, "darken-3");
 
 // Status
 $status-text: color($status-color-base, "darken-2");
-$status-bg: color($status-color-base, "lighten-4");
+$status-bg: color($status-color-base, "base");
 
 // Tabs
 $tabs-text-color: $secondary-base;

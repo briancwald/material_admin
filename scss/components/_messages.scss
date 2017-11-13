@@ -7,6 +7,51 @@
   padding: 10px;
 }
 
+.message-trigger {
+  color: $black;
+  .mt-text {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: $black;
+  }
+  i,
+  span {
+    vertical-align: middle;
+    color: $black;
+  }
+  span.badge {
+    color: $white;
+    min-width: 25px;
+    min-height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    padding: 0 5px;
+    display: none;
+    border-radius: 50%;
+    font-size: 0.8rem;
+  }
+}
+
+.message-action {
+  font-size: .8rem;
+  font-weight: 500;
+  margin-right: 0;
+  margin-left: 3rem;
+}
+
+.messages--warning,
+.messages--status,
+.messages--error, {
+  background-image: none !important;
+  box-shadow: none !important;
+  &.messages-clone .card {
+    @extend .z-depth-0;
+  }
+  &.toast {
+    color: $white;
+  }
+}
+
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
   display: none;
@@ -18,8 +63,7 @@ a.modal-trigger {
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 10px;
-  color: $black
-  ;
+  color: $black;
   &:hover {
     color: color($utility, "darken-2");
   }
@@ -40,99 +84,51 @@ a.modal-trigger {
   font-size: 1.7rem;
 }
 
-.system-status-general-info__item {
-  .card .card-content .card-title {
-    margin-bottom: 1em;
-  }
-}
-
-.system-status-report__status-icon--checked {
-  .collapsible-header {
-    &:before {
-      content: 'check';
-      @extend .material-icons, .status-text-color;
-      padding-right: 1em;
-    }
-  }
-}
-
 .messages--status {
-  @extend .status-color, .black-text;
+  background-color: $status-bg!important;
   &.messages-clone {
     .card-content {
-      @extend .status-color;
+      border: 2px solid $status-bg!important;
+      color: $black;
       .message-header .card-title {
         &:before {
           content: 'check';
+          color: $status-bg;
           @extend .material-icons;
         }
       }
     }
   }
-}
-
-.system-status-report__status-icon--warning {
-  .collapsible-header {
-    &:before {
-      content: 'warning';
-      @extend .material-icons, .warning-text-color;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-    @extend .warning-text-color;
-    .description {
-      @extend .black-text;
-    }
-  }
-}
-
-.messages--warning, .messages--status, .messages--error {
-  background-image: none !important;
-  box-shadow: none !important;
 }
 
 .messages--warning {
-  @extend .warning-color, .black-text;
+  background-color: $warning-bg!important;
   &.messages-clone {
     .card-content {
-      @extend .warning-color;
+      border: 2px solid $warning-bg!important;
+      color: $black;
       .message-header .card-title {
         &:before {
           content: 'warning';
+          color: $warning-bg;
           @extend .material-icons;
         }
       }
-    }
-  }
-}
-
-.system-status-report__status-icon--error {
-  .collapsible-header {
-    &:before {
-      content: 'error';
-      @extend .material-icons;
-      color: $error-text;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-   color: $error-text;
-    .description {
-      color:$black;
     }
   }
 }
 
 .messages--error {
-  background-color:$error-bg!important;
-  color:$black;
+  background: $error-bg!important;
+  color: $black;
   &.messages-clone {
     .card-content {
-      @extend .error-color;
+      border: 2px solid $error-bg!important;
+      color: $black;
       .message-header .card-title {
         &:before {
           content: 'error';
+          color: $error-bg;
           @extend .material-icons;
         }
       }
@@ -143,7 +139,8 @@ a.modal-trigger {
 .messages-clone {
   background: $body-background!important;
   .card-title {
-    &:before, .message-number {
+    &:before,
+    .message-number {
       padding-right: 10px;
     }
   }
@@ -161,35 +158,4 @@ a.modal-trigger {
       }
     }
   }
-}
-
-.message-trigger {
-  color:$black;
-  .mt-text {
-    margin-left: 5px;
-    margin-right: 5px;
-    color:$black;
-  }
-  i,span {
-    vertical-align: middle;
-    color:$black;
-  }
-  span.badge {
-    color:$black;
-    min-width: 25px;
-    min-height: 25px;
-    line-height: 25px;
-    margin-left: 5px;
-    padding: 0 5px;
-    display: none;
-    border-radius: 50%;
-    font-size: 0.8rem;
-  }
-}
-
-.message-action {
-  font-size: .8rem;
-  font-weight: 500;
-  margin-right: 0;
-  margin-left: 3rem;
 }
