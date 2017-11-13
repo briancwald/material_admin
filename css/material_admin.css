@@ -8467,7 +8467,8 @@ table.highlight > tbody > tr:hover li.chip {
   background: none;
   color: inherit;
   box-shadow: none;
-  padding: inherit; }
+  padding: inherit;
+  min-height: 50px; }
 
 table.highlight > tbody > tr.selected {
   background: #f5f5f5; }
