@@ -26,8 +26,9 @@
       button {
         @extend .btn, .btn-flat;
         background: none;
-        &.ui-state-hover {
+        &.ui-state-hover, &:hover {
           color: color($utility, "darken-4") !important;
+          background: color($utility, "lighten-3");
         }
       }
     }

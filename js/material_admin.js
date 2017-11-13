@@ -152,7 +152,7 @@
         }
         var $addDisplayDropdown = $menu.find('li.add > a');
         if ($addDisplayDropdown.length) {
-          $addDisplayDropdown.addClass('dropdown-button btn btn-flat darken-3 text-darken-2');
+          $addDisplayDropdown.addClass('dropdown-button');
         }
       });
     }

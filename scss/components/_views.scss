@@ -182,6 +182,7 @@ details.views-display-column.form-wrapper {
     margin-top: 5px;
     margin-left: 20px;
     a {
+      @extend .btn, .btn-flat;
       line-height: 36px;
       text-decoration: none;
       border-radius: 2px;
@@ -464,4 +465,13 @@ details.views-display-column.form-wrapper {
     vertical-align: middle;
     line-height: inherit;
   }
+}
+
+.views-admin .form-type-checkbox label, .views-admin .form-type-radio label {
+  line-height: inherit;
+}
+
+.view-preview-form .form-item-live-preview {
+  top:5px;
+  font-size: 1.3rem;
 }
