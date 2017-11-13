@@ -144,6 +144,8 @@ label {
 
 .button-action {
   @extend .btn;
+  background:$button-action;
+  color:$button-action-text;
   &:before {
     @extend .material-icons;
     content: 'add';
@@ -151,7 +153,7 @@ label {
     margin: 0 10px 0 0px;
   }
   &:hover {
-    @extend .lighten-1;
+    background: $button-action-hover;
   }
 }
 

@@ -388,7 +388,7 @@ th {
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1, .materialize-red.button-action:hover {
+.materialize-red.lighten-1 {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -448,7 +448,7 @@ th {
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1, .red.button-action:hover {
+.red.lighten-1 {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
@@ -532,7 +532,7 @@ th {
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1, .pink.button-action:hover {
+.pink.lighten-1 {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -616,7 +616,7 @@ th {
 .purple-text.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1, .purple.button-action:hover {
+.purple.lighten-1 {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1 {
@@ -700,7 +700,7 @@ th {
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1, .deep-purple.button-action:hover {
+.deep-purple.lighten-1 {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -784,7 +784,7 @@ th {
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1, .indigo.button-action:hover {
+.indigo.lighten-1 {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -868,7 +868,7 @@ th {
 .blue-text.text-lighten-2 {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .blue.button-action:hover {
+.blue.lighten-1 {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1 {
@@ -952,7 +952,7 @@ th {
 .light-blue-text.text-lighten-2 {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .light-blue.button-action:hover {
+.light-blue.lighten-1 {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1 {
@@ -1036,7 +1036,7 @@ th {
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1, .cyan.button-action:hover {
+.cyan.lighten-1 {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -1120,7 +1120,7 @@ th {
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1, .teal.button-action:hover {
+.teal.lighten-1 {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -1204,7 +1204,7 @@ th {
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1, .green.button-action:hover {
+.green.lighten-1 {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -1288,7 +1288,7 @@ th {
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1, .light-green.button-action:hover {
+.light-green.lighten-1 {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -1372,7 +1372,7 @@ th {
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1, .lime.button-action:hover {
+.lime.lighten-1 {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -1456,7 +1456,7 @@ th {
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1, .yellow.button-action:hover, table tbody tr.button-action.drag-previous:hover, table tbody tr.button-action.drag:hover, span.button-action.theme-status-indicator:hover, table tbody tr.lighten-1.drag-previous, table tbody tr.lighten-1.drag, span.lighten-1.theme-status-indicator {
+.yellow.lighten-1, table tbody tr.lighten-1.drag-previous, table tbody tr.lighten-1.drag, span.lighten-1.theme-status-indicator {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -1540,7 +1540,7 @@ th {
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1, .amber.button-action:hover {
+.amber.lighten-1 {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -1624,7 +1624,7 @@ th {
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1, .orange.button-action:hover {
+.orange.lighten-1 {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -1708,7 +1708,7 @@ th {
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1, .deep-orange.button-action:hover {
+.deep-orange.lighten-1 {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -1792,7 +1792,7 @@ th {
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1, .brown.button-action:hover {
+.brown.lighten-1 {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -1852,7 +1852,7 @@ th {
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1, .blue-grey.button-action:hover {
+.blue-grey.lighten-1 {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -1912,7 +1912,7 @@ th {
 .grey-text.text-lighten-2 {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1, .grey.button-action:hover, table > tbody > tr.button-action.field-plugin-settings-editing:hover, table > tbody > tr.lighten-1.field-plugin-settings-editing {
+.grey.lighten-1, table > tbody > tr.lighten-1.field-plugin-settings-editing {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1 {
@@ -2545,7 +2545,7 @@ td, th {
 
 .secondary-content {
   float: right;
-  color: #009688; }
+  color: #26a69a; }
 
 .collapsible .collection, details.form-wrapper .collection {
   margin: 0;
@@ -4661,8 +4661,8 @@ form p:last-child {
   top: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid #009688;
-  background-color: #009688;
+  border: 2px solid #26a69a;
+  background-color: #26a69a;
   z-index: 0; }
 
 [type="checkbox"].filled-in.tabbed:focus + label:after, input[type="checkbox"].tabbed[type=checkbox]:focus + label:after {
@@ -4672,8 +4672,8 @@ form p:last-child {
 
 [type="checkbox"].filled-in.tabbed:checked:focus + label:after, input[type="checkbox"].tabbed[type=checkbox]:checked:focus + label:after {
   border-radius: 2px;
-  background-color: #009688;
-  border-color: #009688; }
+  background-color: #26a69a;
+  border-color: #26a69a; }
 
 [type="checkbox"].filled-in:disabled:not(:checked) + label:before, input[type="checkbox"][type=checkbox]:disabled:not(:checked) + label:before {
   background-color: transparent;
@@ -6217,7 +6217,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .clockpicker-tick.active,
 .clockpicker-tick:hover {
-  background-color: rgba(0, 150, 136, 0.25); }
+  background-color: rgba(38, 166, 154, 0.25); }
 
 .clockpicker-dial {
   transition: transform 350ms, opacity 350ms; }
@@ -6241,17 +6241,17 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .clockpicker-canvas-bearing {
   stroke: none;
-  fill: #009688; }
+  fill: #26a69a; }
 
 .clockpicker-canvas-bg {
   stroke: none;
-  fill: #009688; }
+  fill: #26a69a; }
 
 .clockpicker-canvas-bg-trans {
-  fill: #009688; }
+  fill: #26a69a; }
 
 .clockpicker-canvas line {
-  stroke: #009688;
+  stroke: #26a69a;
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
@@ -6671,10 +6671,15 @@ label {
 .checked-color {
   background: #C8E6C9; }
 
-.button-action:before {
-  content: 'add';
-  color: #FFFFFF;
-  margin: 0 10px 0 0px; }
+.button-action {
+  background: #ee6e73;
+  color: #FFFFFF !important; }
+  .button-action:before {
+    content: 'add';
+    color: #FFFFFF;
+    margin: 0 10px 0 0px; }
+  .button-action:hover {
+    background: #f18589; }
 
 .button.button--danger:hover {
   background: #f5f5f5 !important; }

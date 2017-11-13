@@ -69,7 +69,6 @@ $primary-base: color($primary, "base");
 $primary-color: $primary-base;
 $secondary-base: color($secondary, "lighten-2");
 $accent-base:  color($accent, "base");
-$secondary-color: $accent-base;
 
 $primary-color-light: lighten($primary-base, 15%) !default;
 $primary-color-dark: darken($primary-base, 15%) !default;
@@ -116,6 +115,10 @@ $button-flat-disabled-color: lighten(#999, 10%) !default;
 $button-floating-background: $accent-base;
 $button-floating-background-hover: $button-floating-background;
 $button-floating-color: $white;
+
+$button-action: $secondary-base;
+$button-action-hover: lighten($button-action, 5%);
+$button-action-text: $white!important;
 
 // Form 
 
