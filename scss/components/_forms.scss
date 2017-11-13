@@ -77,7 +77,7 @@ textarea.materialize-textarea {
 
 .form-item, .filter-wrapper .form-item, .form-item.password-parent, .form-item.confirm-parent {
   margin: 25px 0;
-  &.form-has-label:not(.form-type-checkbox):not(.form-type-radio) {
+  &.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix) {
     margin: 45px 0px 25px 0px;
   }
   position: relative;
@@ -336,8 +336,9 @@ a#edit-cancel {
 
 .has-prefix-and-suffix, .has-prefix, .has-suffix {
   >* {
-    display:inline-block;
+    display:inline;
     width:inherit;
+    vertical-align: middle;
   }
 }
 

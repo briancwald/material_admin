@@ -8547,7 +8547,7 @@ textarea.materialize-textarea {
   margin: 25px 0;
   position: relative;
   overflow: visible; }
-  .form-item.form-has-label:not(.form-type-checkbox):not(.form-type-radio), .filter-wrapper .form-item.form-has-label:not(.form-type-checkbox):not(.form-type-radio), .form-item.password-parent.form-has-label:not(.form-type-checkbox):not(.form-type-radio), .form-item.confirm-parent.form-has-label:not(.form-type-checkbox):not(.form-type-radio) {
+  .form-item.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix), .filter-wrapper .form-item.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix), .form-item.password-parent.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix), .form-item.confirm-parent.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix) {
     margin: 45px 0px 25px 0px; }
   .form-item .form-required:after, .filter-wrapper .form-item .form-required:after, .form-item.password-parent .form-required:after, .form-item.confirm-parent .form-required:after {
     content: " *";
@@ -8704,8 +8704,9 @@ a#edit-cancel {
   padding-right: 15px; }
 
 .has-prefix-and-suffix > *, .has-prefix > *, .has-suffix > * {
-  display: inline-block;
-  width: inherit; }
+  display: inline;
+  width: inherit;
+  vertical-align: middle; }
 
 .dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
   min-width: 300px; }
