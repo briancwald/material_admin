@@ -110,6 +110,8 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
   );
   $form['revision_information']['#type'] = 'container';
   $form['revision_information']['#group'] = 'meta';
+  $form['status']['#group'] = 'actions';
+  
   if (isset($form['moderation_state'])) {
     $form['moderation_wrapper'] = array(
       '#type' => 'container',
