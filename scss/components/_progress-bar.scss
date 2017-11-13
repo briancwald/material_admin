@@ -6,6 +6,7 @@
 .progress {
   overflow: inherit;
   height: 10px;
+  background-color: transparent;
   .progress__track {
     background-color: color($accent, "accent-1");
     border-color: color($accent, "accent-1");
@@ -15,6 +16,7 @@
     height: 10px;
     .progress__bar {
       @extend .determinate;
+      position: relative;
       border: 0;
       background: none;
       background-color: color($accent, "lighten-1");

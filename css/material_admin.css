@@ -3815,8 +3815,6 @@ label {
 /* Text Inputs + Textarea
    ========================================================================== */
 /* Style Placeholders */
-::-webkit-input-placeholder {
-  color: #d1d1d1; }
 :-ms-input-placeholder {
   color: #d1d1d1; }
 ::placeholder {
@@ -6371,10 +6369,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
-/*! Tablesaw - v3.0.3 - 2017-07-13
+/*! Tablesaw - v3.0.5 - 2017-10-30
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2017 Filament Group; Licensed MIT */
-/*! Tablesaw - v3.0.3 - 2017-07-13
+/*! Tablesaw - v3.0.5 - 2017-10-30
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2017 Filament Group; Licensed MIT */
 .tablesaw {
@@ -8988,7 +8986,8 @@ a.modal-trigger {
  */
 .progress {
   overflow: inherit;
-  height: 10px; }
+  height: 10px;
+  background-color: transparent; }
   .progress .progress__track {
     background-color: #a7ffeb;
     border-color: #a7ffeb;
@@ -8997,6 +8996,7 @@ a.modal-trigger {
     border-radius: 0;
     height: 10px; }
     .progress .progress__track .progress__bar {
+      position: relative;
       border: 0;
       background: none;
       background-color: #26a69a;
