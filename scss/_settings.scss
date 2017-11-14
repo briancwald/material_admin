@@ -122,8 +122,8 @@ $button-action-text: $white!important;
 
 // Form 
 
-$input-success-color: $success-color !default;
-$input-focus-color: $accent;
+$input-success-color: $success-color;
+$input-focus-color: $accent-base;
 
 $radio-fill-color: $accent-base;
 $radio-empty-color: #5a5a5a !default;

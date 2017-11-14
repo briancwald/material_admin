@@ -68,9 +68,17 @@
             $(this).find(' > label').addClass('inline-label');
           }
           Materialize.updateTextFields();
+          removeInitialContent(context);
         });
       });
     }
+  };
+  
+  // remove initial class after materialize updates textfields
+  function removeInitialContent(context) {
+     $(context).find('div.has-initial-content').each(function () {
+      $(this).removeClass('has-initial-content');
+  })
   };
   //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
   // @ToDO Titles in core need to be better descriptive of the actual page.
@@ -135,13 +143,7 @@
         .each(resizeInput);
     }
   };
-  Drupal.behaviors.material_admin_remove_initial_content = {
-    attach: function (context) {
-      $(context).find('.has-initial-content input').each(function () {
-        $(this).on("focus").parent().removeClass('has-initial-content');
-    });
-  }
-};
+
   Drupal.behaviors.material_admin_views_ui_add_button = {
     attach: function (context) {
       setTimeout(function () {
