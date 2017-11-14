@@ -41,7 +41,8 @@
   Drupal.behaviors.material_textarea = {
     attach: function (context) {
       $(document).ready(function () {
-        $(context).find('.form-textarea-wrapper textarea').once('material_textarea').each(function () {
+        var $textWrapper = $('.form-textarea-wrapper textarea');
+        $(context).find($textWrapper).once('material_textarea').each(function () {
           $(this).trigger('autoresize');
         })
       })
@@ -49,7 +50,8 @@
   };
   Drupal.behaviors.material_tooltip = {
     attach: function (context) {
-      $(context).find('.tooltipped').once('material_tooltip').tooltip({ delay: 150, html: true });
+      var $tooltipped = $('.tooltipped');
+      $(context).find($tooltipped).once('material_tooltip').tooltip({ delay: 150, html: true });
       $(document).once('material_tooltip')
         .on('mouseenter', '.material-tooltip', function() {
           $('[data-tooltip-id="' + this.id + '"]').trigger('mouseenter');
@@ -73,12 +75,11 @@
       });
     }
   };
-  
+
   // remove initial class after materialize updates textfields
   function removeInitialContent(context) {
-     $(context).find('div.has-initial-content').each(function () {
-      $(this).removeClass('has-initial-content');
-  })
+    var $initialContent = $('.has-initial-content');
+     $(context).find($initialContent).removeClass('has-initial-content');
   };
   //without a module, I dont have a method to get the current page title on certain non-node pages, this is a temp workaround.
   // @ToDO Titles in core need to be better descriptive of the actual page.
@@ -105,7 +106,8 @@
   }
   Drupal.behaviors.material_modal = {
     attach: function (context) {
-      $(context).find('.modal').once('material_modal').modal({
+      var $modal = $('.modal');
+      $(context).find($modal).once('material_modal').modal({
         dismissible: true,
         opacity: 0.5,
         in_duration: 200,
