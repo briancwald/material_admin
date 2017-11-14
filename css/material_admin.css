@@ -6657,17 +6657,19 @@ label {
 .error-text-color, .button--danger {
   color: #E53935; }
 
-.color-error,
-.error-color,
-.node-multiple-delete-confirm input.form-submit,
-.admin-requirements.collapsible-body .admin-prevent-text,
+.color-error {
+  background: #FFCDD2; }
+
+.error-color, .node-multiple-delete-confirm input.form-submit, .admin-requirements.collapsible-body .admin-prevent-text,
 .errors-color {
   background: #E53935; }
 
 .warning-text-color {
   color: #f9a825; }
 
-.color-warning,
+.color-warning {
+  background: #fff9c4; }
+
 .warning-color,
 .warnings-color {
   background: #f9a825; }
@@ -6675,7 +6677,9 @@ label {
 .status-text-color {
   color: #388E3C; }
 
-.color-success,
+.color-success {
+  background: #C8E6C9; }
+
 .status-color,
 .checked-color {
   background: #4CAF50; }
