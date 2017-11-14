@@ -2135,7 +2135,7 @@ a {
 
 .z-depth-0, .ui-widget.ui-widget-content details.form-wrapper, fieldset.fieldgroup.form-wrapper legend span.fieldset-legend, .messages--warning.messages-clone .card,
 .messages--status.messages-clone .card,
-.messages--error.messages-clone .card {
+.messages--error.messages-clone .card, .webform-form table a.button-action {
   box-shadow: none !important; }
 
 .z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .action-links .button-action.webform-ajax-link {
@@ -9526,6 +9526,10 @@ details.views-display-column.form-wrapper {
 .action-links .button-action.webform-ajax-link {
   font-size: 1em;
   margin-bottom: 2em; }
+
+.webform-modal .has-prefix-and-suffix > *,
+.webform-modal .has-prefix > * {
+  display: inline-block; }
 
 /* @file
  * Base files
