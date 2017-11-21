@@ -15,6 +15,13 @@
     }
   };
 
+    Drupal.behaviors.material_multiple_select = {
+    attach: function (context) {
+      $(context).find('select[multiple]').once('material_multiple_select').each(function () {
+        $(this).prepend("<option value='' disabled > - </option>");
+      })
+     }
+  };
   //If form API checkbox or radio has no label, add one so we can use materializecss styling
   Drupal.behaviors.material_checkbox_no_label = {
     attach: function (context) {
