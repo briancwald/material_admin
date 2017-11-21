@@ -1,0 +1,80 @@
+/* @file
+ * AcquiaDAM overrides
+ *
+ */
+
+.acquiadam-browser-breadcrumb-container {
+  padding: 10px 20px;
+  i {
+    input.acquiadam-browser-breadcrumb {
+      color: color($utility, 'darken-2');
+      padding: 0 1em;
+      margin: 0;
+    }
+    &:after {
+      @extend .material-icons;
+      content: 'keyboard_arrow_right';
+      vertical-align: top;
+      line-height: inherit;
+    }
+    @extend .btn-flat;
+    &:hover {
+      background-color: transparent;
+      input {
+        color: color($secondary, 'lighten-1');
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.acquiadam-asset-browser {
+  @extend .col;
+  .acquiadam-browser-folder-link {
+    background-image: none!important;
+    padding: 10px;
+    vertical-align: top;
+    &:hover,
+    &:focus {
+      &:before {
+        color: $primary-base;
+      }
+    }
+    &:before {
+      @extend .material-icons;
+      content: 'folder';
+      position: absolute;
+      font-size: 170px;
+    }
+    i {
+      width: 100%;
+      height: 100%;
+      line-height:180px;
+      .acquiadam-folder-link-button {
+        background-position: center center;
+        background-repeat: no-repeat;
+        &:hover,
+        &:focus {
+          background-position: center center;
+          background-size: auto;
+          height: inherit;
+          width: inherit;
+        }
+      }
+    }
+  }
+   .form-item.form-type-checkbox {
+   	margin:20px;
+   	width:auto;
+   	height:auto;
+   	[type="checkbox"] + label {
+   		height:auto;
+   		line-height: auto;
+   	}
+   	.acquiadam-asset-checkbox {
+   		margin-top:0;
+   		padding:5px 0;
+   	}
+   }
+}
+
