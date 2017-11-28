@@ -59,6 +59,11 @@
       box-shadow: none;
       padding: inherit;
       min-height: 50px;
+      width:100%;
+      &.btn-paragraph-action {
+        padding:10px;
+        text-align: left;
+      }
     }
   }
 }

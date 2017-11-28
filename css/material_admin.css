@@ -8491,7 +8491,11 @@ table.highlight > tbody > tr:hover li.chip {
   color: inherit;
   box-shadow: none;
   padding: inherit;
-  min-height: 50px; }
+  min-height: 50px;
+  width: 100%; }
+  .dropdown-content li .button.btn-paragraph-action {
+    padding: 10px;
+    text-align: left; }
 
 table.highlight > tbody > tr.selected {
   background: #f5f5f5; }
@@ -9567,6 +9571,22 @@ details.views-display-column.form-wrapper {
     .entities-list .item-container.ui-sortable-handle:before {
       content: 'drag_handle';
       padding: 5px; }
+
+/* @file
+ * Paragraphs overrides
+ *
+ */
+.btn-paragraph-action {
+  color: #ff9800;
+  font-weight: 400; }
+  .btn-paragraph-action:hover {
+    color: #ffcc80; }
+
+.paragraphs-dropdown-action.button {
+  font-weight: 300; }
+
+.js .paragraph-top .paragraph-type {
+  display: inherit; }
 
 /* @file
  * Webform overrides
