@@ -3829,8 +3829,6 @@ label {
 /* Text Inputs + Textarea
    ========================================================================== */
 /* Style Placeholders */
-::-webkit-input-placeholder {
-  color: #d1d1d1; }
 :-ms-input-placeholder {
   color: #d1d1d1; }
 ::placeholder {
@@ -6393,10 +6391,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
-/*! Tablesaw - v3.0.3 - 2017-07-13
+/*! Tablesaw - v3.0.6 - 2017-11-20
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2017 Filament Group; Licensed MIT */
-/*! Tablesaw - v3.0.3 - 2017-07-13
+/*! Tablesaw - v3.0.6 - 2017-11-20
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2017 Filament Group; Licensed MIT */
 .tablesaw {
