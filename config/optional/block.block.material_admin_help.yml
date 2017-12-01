@@ -8,7 +8,7 @@ dependencies:
 id: material_admin_help
 theme: material_admin
 region: highlighted
-weight: 0
+weight: 10
 provider: null
 plugin: help_block
 settings:
