@@ -58,6 +58,13 @@ body {
  .region-highlighted > *:last-child {
     padding-bottom:20px;
   }
+  .region-highlighted > #block-material-admin-help {
+    padding-top:20px;
+    >*:last-child {
+      padding-bottom:0;
+      margin-bottom:0;
+    }
+  }
 }
 
 .row .row {

@@ -6554,6 +6554,11 @@ body {
     padding-top: 20px; }
   .row.highlighted-container.material-container .region-highlighted > *:last-child {
     padding-bottom: 20px; }
+  .row.highlighted-container.material-container .region-highlighted > #block-material-admin-help {
+    padding-top: 20px; }
+    .row.highlighted-container.material-container .region-highlighted > #block-material-admin-help > *:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0; }
 
 .row .row {
   padding: 20px 0; }
