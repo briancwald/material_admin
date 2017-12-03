@@ -15,7 +15,9 @@
       $exposed.find('input[name]:not([type="submit"]),select[name]').each(function () {
         var value;
         if (this.tagName === 'SELECT') {
-          value = $(this).find('option:selected').text();
+          value = $(this).find('option:selected').map(function () {
+            return $(this).text();
+            }).get().join(', ');
         }
         else {
           value = $(this).val();
