@@ -8577,6 +8577,9 @@ textarea.materialize-textarea {
   .select-wrapper .input.select-dropdown {
     max-width: inherit; }
 
+.views-field-node-bulk-form .form-type-checkbox {
+  width: 35px; }
+
 .form-type-entity-autocomplete label {
   padding-right: 1em; }
 
