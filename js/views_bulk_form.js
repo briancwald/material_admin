@@ -24,7 +24,7 @@
         }
         if (value.length) {
           var $label = $(this).closest('.form-item').find('label');
-          var label = $label.length === 1 ?$label.text() : $(this).attr('name');
+          var label = $label.length === 1 ?$label.text() : $(this).attr('name').replace('[]','');
           var $chip = $('<div class="chip"></div>');
           $chip.text(label + ': ' + value);
           $chips.append($chip);

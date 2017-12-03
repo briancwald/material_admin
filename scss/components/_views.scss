@@ -342,6 +342,7 @@ details.views-display-column.form-wrapper {
   }
   .exposed-form-chips {
     margin-right: .5rem;
+    text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

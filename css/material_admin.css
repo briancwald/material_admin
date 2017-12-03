@@ -9412,6 +9412,7 @@ details.views-display-column.form-wrapper {
         padding-top: 15px; }
   .exposed-form-collapsible .exposed-form-chips {
     margin-right: .5rem;
+    text-transform: capitalize;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
