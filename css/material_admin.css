@@ -8563,6 +8563,10 @@ textarea.materialize-textarea {
 .select-wrapper {
   max-width: 450px;
   width: 100%; }
+  .select-wrapper + label {
+    transition: none;
+    -ms-transform: none;
+        transform: none; }
   .select-wrapper .caret {
     visibility: hidden; }
     .select-wrapper .caret:after {

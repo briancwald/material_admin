@@ -54,6 +54,10 @@ textarea.materialize-textarea {
 .select-wrapper {
   max-width: 450px;
   width: 100%;
+  + label {
+    transition:none;
+    transform: none;
+  }
   .caret {
     visibility: hidden;
     &:after {
