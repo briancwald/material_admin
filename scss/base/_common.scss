@@ -4,8 +4,7 @@
  */
 
 .material-tooltip {
-  pointer-events: auto;
- //set max width to a readible length (700px max)
+  pointer-events: auto; //set max width to a readible length (700px max)
   max-width: $max-readability-width;
 }
 
@@ -19,7 +18,7 @@ h2 {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 25px;
-    color:$header-title-small;
+    color: $header-title-small;
   }
 }
 
@@ -51,18 +50,18 @@ body {
 }
 
 .row.highlighted-container.material-container {
-  padding:0;
- .region-highlighted > *:first-child {
-    padding-top:20px;
+  padding: 0;
+  .region-highlighted>*:first-child {
+    padding-top: 20px;
   }
- .region-highlighted > *:last-child {
-    padding-bottom:20px;
+  .region-highlighted>*:last-child {
+    padding-bottom: 20px;
   }
-  .region-highlighted > #block-material-admin-help {
-    padding-top:20px;
+  .region-highlighted>#block-material-admin-help {
+    padding-top: 20px;
     >*:last-child {
-      padding-bottom:0;
-      margin-bottom:0;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
   }
 }
@@ -109,17 +108,18 @@ label {
     vertical-align: text-bottom;
   }
 }
+
 .filter-help {
   text-align: right;
 }
 
 .text-format-wrapper {
-  position:relative;
-
+  position: relative;
 }
 
-.error-text-color, .button--danger {
- color: $error-text;
+.error-text-color,
+.button--danger {
+  color: $error-text;
 }
 
 .color-error {
@@ -128,39 +128,39 @@ label {
 
 .error-color,
 .errors-color {
-  background:$error-bg;
+  background: $error-bg;
 }
 
 .warning-text-color {
- color:$warning-text;
+  color: $warning-text;
 }
 
 .color-warning {
-background: color($warning-color-base, "lighten-4");
+  background: color($warning-color-base, "lighten-4");
 }
 
 .warning-color,
 .warnings-color {
-  background:$warning-bg;
+  background: $warning-bg;
 }
 
 .status-text-color {
-  color:$status-text;
+  color: $status-text;
 }
 
 .color-success {
-background: color($status-color-base, "lighten-4");
+  background: color($status-color-base, "lighten-4");
 }
 
 .status-color,
 .checked-color {
-  background:$status-bg;
+  background: $status-bg;
 }
 
 .button-action {
   @extend .btn;
-  background:$button-action;
-  color:$button-action-text;
+  background: $button-action;
+  color: $button-action-text;
   &:before {
     @extend .material-icons;
     content: 'add';
@@ -173,14 +173,14 @@ background: color($status-color-base, "lighten-4");
 }
 
 
-.button.button--danger{
+.button.button--danger {
   &:hover {
-  background:color($utility,"lighten-4")!important;
-}
+    background: color($utility, "lighten-4")!important;
+  }
 }
 
 .btn-flat-action {
-  color:color($action, "accent-2")
+  color: color($action, "accent-2")
 }
 
 .inline {
@@ -191,7 +191,7 @@ background: color($status-color-base, "lighten-4");
 .button-link {
   @extend .btn-flat;
   &:hover {
-    background:color($utility,"lighten-3")
+    background: color($utility, "lighten-3")
   }
 }
 
@@ -322,8 +322,8 @@ details {
   &.active {
     .collapsible-header.with-arrows {
       &:after {
-        @extend .material-icons, .collapse-down;
-
+        @extend .material-icons,
+        .collapse-down;
       }
     }
     .collapsible-header.right-arrows {
@@ -336,7 +336,8 @@ details {
   }
   .collapsible-header.with-arrows {
     &:after {
-      @extend .material-icons, .collapse-right;
+      @extend .material-icons,
+      .collapse-right;
     }
   }
   .collapsible-header.right-arrows {
@@ -365,7 +366,7 @@ details.form-wrapper summary {
 span.marker {
   @extend .badge;
   background: color($accent, "lighten-2");
-  color:$white;
+  color: $white;
   font-size: .8em;
   font-weight: 300;
   border-radius: 2px;
@@ -404,5 +405,5 @@ span.marker {
 
 //FAB override
 .fixed-action-btn.horizontal ul {
-  width:$global-width;
+  width: $global-width;
 }

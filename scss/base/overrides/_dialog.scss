@@ -26,6 +26,30 @@
       button {
         @extend .btn, .btn-flat;
         background: none;
+        &.button--danger {
+          @extend .button--danger;
+          &:before {
+            @extend .material-icons;
+            content:"delete";
+            display:inline;
+            vertical-align: middle;
+            vertical-align: text-top;
+            font-size:1.3rem;
+            padding-right:5px;
+          }
+        }
+        &.success {
+          @extend .status-text-color;
+          &:before {
+            @extend .material-icons;
+            content:"send";
+            display:inline;
+            vertical-align: middle;
+            vertical-align: text-top;
+            font-size:1.3rem;
+            padding-right:5px;
+          }
+        }
         &.ui-state-hover, &:hover {
           color: color($utility, "darken-4") !important;
           background: color($utility, "lighten-3");

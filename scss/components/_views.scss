@@ -476,3 +476,9 @@ details.views-display-column.form-wrapper {
   top:5px;
   font-size: 1.3rem;
 }
+
+.views-ui-dialog .views-override:not(:empty) {
+  padding:20px 15px;
+  @extend .z-depth-1;
+  z-index:3;
+}

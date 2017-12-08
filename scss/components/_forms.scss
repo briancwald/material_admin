@@ -517,7 +517,7 @@ fieldset.fieldgroup.form-wrapper {
     margin:15px 0 0 0;
     span.fieldset-legend {
       @extend .z-depth-0;
-      background: color($utility, "lighten-5");
+      background: transparent;
       color: color($primary, "base");
       padding-left:0;
     }
