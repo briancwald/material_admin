@@ -6864,6 +6864,9 @@ span.marker {
 .collection.with-header .collection-header.no-bottom-border {
   border-bottom: 0; }
 
+.fixed-action-btn.horizontal ul {
+  width: 1200px; }
+
 /* @file
  * Drupal common overrides
  *
