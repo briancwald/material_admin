@@ -86,7 +86,7 @@
       line-height: auto;
       padding-left: 0;
       &:before,&:after {
-        opacity: 0;
+        margin: 5px;
       }
       transition: .2s;
     }

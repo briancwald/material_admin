@@ -9617,7 +9617,7 @@ details.views-display-column.form-wrapper {
       padding-left: 0;
       transition: .2s; }
       .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:before, .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:after {
-        opacity: 0; }
+        margin: 5px; }
     .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"]:checked + label {
       transform: translateZ(0) scale(0.98); }
     .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-checkbox {
