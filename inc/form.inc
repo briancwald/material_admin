@@ -3,7 +3,6 @@
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Url;
-use Drupal\views\Views;
 
 
 /**
@@ -42,7 +41,7 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
       }
     }
   }
-  
+
   if ($form_id == 'system_modules' && theme_get_setting('material_admin_collapse_module_list')) {
     foreach (Element::children($form['modules']) as $package) {
       $form['modules'][$package]['#open'] = FALSE;
@@ -63,6 +62,10 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
   if ($form['#id'] == 'views-ui-preview-form') {
     $form['actions']['button']['#attributes']['data-twig-suggestion'] = 'views_button_preview';
     $form['actions']['button']['#attributes']['class'][] = 'views-button';
+  }
+
+  if (get_class($form_state->getFormObject()) === 'Drupal\entity_browser\Form\EntityBrowserForm') {
+    _material_admin_form_entity_browser_form_alter($form, $form_state);
   }
 }
 
@@ -122,5 +125,44 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
         ),
       );
     $form['moderation_state']['#group'] = 'moderation_wrapper';
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function _material_admin_form_entity_browser_form_alter(&$form, FormStateInterface $form_state) {
+  if (in_array('Acquia DAM', $form_state->getValues(), TRUE)) {
+    if (isset($form['widget']['asset-container'])) {
+      foreach (Element::getVisibleChildren($form['widget']['asset-container']) as $asset_title) {
+        $asset = &$form['widget']['asset-container'][$asset_title];
+        foreach (Element::getVisibleChildren($asset) as $key) {
+          $child = &$asset[$key];
+          if (isset($child['#name']) && $child['#name'] === 'acquiadam_folder') {
+            $folder_style = $child['#attributes']['style'];
+            $child['#attributes']['class'][] = 'no-wrap';
+            break;
+          }
+        }
+        if (!isset($folder_style)) {
+          continue;
+        }
+        $form['widget']['asset-container'][$asset_title]['folder_icon'] = [
+          '#type' => 'container',
+          '#attributes' => [
+            'style' =>  $asset['#attributes']['style'],
+            'class' => ['acquiadam-browser-folder-icon']
+          ],
+          '#weight' => -1,
+        ];
+        $form['widget']['asset-container'][$asset_title]['folder_preview'] = [
+          '#type' => 'container',
+          '#attributes' => [
+            'style' => $folder_style,
+            'class' => ['acquiadam-browser-folder-preview'],
+          ],
+        ];
+      }
+    }
   }
 }

@@ -30,51 +30,94 @@
 
 .acquiadam-asset-browser {
   @extend .col;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
   .acquiadam-browser-folder-link {
-    background-image: none!important;
-    padding: 10px;
-    vertical-align: top;
-    &:hover,
-    &:focus {
-      &:before {
-        color: $primary-base;
-      }
+    display: flex;
+    align-items: center;
+    background-size: 0;
+    position: relative;
+    width: 40%;
+    height: 65px;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    margin: 0;
+    border-bottom: 1px solid color('grey', 'lighten-1');
+    p {
+      display: inline-block;
+      vertical-align: middle;
+      text-transform: uppercase;
+      margin: 0;
+      margin-right: .5rem;
+      pointer-events: none;
     }
-    &:before {
-      @extend .material-icons;
-      content: 'folder';
+    input {
       position: absolute;
-      font-size: 170px;
-    }
-    i {
-      width: 100%;
+      background-size: 0 !important;
+      left: 0;
       height: 100%;
-      line-height:180px;
-      .acquiadam-folder-link-button {
-        background-position: center center;
-        background-repeat: no-repeat;
-        &:hover,
-        &:focus {
-          background-position: center center;
-          background-size: auto;
-          height: inherit;
-          width: inherit;
-        }
-      }
+      width: 100%;
+      top: 0;
+      display: block;
+    }
+    .acquiadam-browser-folder-icon {
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+    }
+    .acquiadam-browser-folder-preview {
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-color: color('grey', 'darken-3');
+      border-radius: 50%;
+      margin-left: auto;
     }
   }
-   .form-item.form-type-checkbox {
-   	margin:20px;
-   	width:auto;
-   	height:auto;
-   	[type="checkbox"] + label {
-   		height:auto;
-   		line-height: auto;
-   	}
-   	.acquiadam-asset-checkbox {
-   		margin-top:0;
-   		padding:5px 0;
-   	}
-   }
+  .form-item.form-type-checkbox {
+    margin:20px;
+    padding: 0;
+    width:auto;
+    height:auto;
+    border-radius: 2px;
+    border: 0;
+    [type="checkbox"] + label {
+      height:auto;
+      line-height: auto;
+      padding-left: 0;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      &:before,&:after {
+        opacity: 0;
+      }
+      transition: .2s;
+      &:hover {
+        transform: translateZ(0) scale(.98);
+      }
+    }
+    [type="checkbox"]:checked + label {
+      transform: translateZ(0) scale(.98);
+    }
+    .acquiadam-asset-checkbox {
+      margin-top:0;
+    }
+    p.acquiadam-asset-filename {
+      margin: 0;
+    }
+    .acquiadam-asset-details {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: center;
+      background: color('blue', 'base');
+      color: white;
+      padding: .5rem;
+    }
+    .acquiadam-asset-browser-icon {
+      filter: invert(100%);
+    }
+  }
 }
 
