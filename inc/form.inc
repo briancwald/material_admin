@@ -139,29 +139,10 @@ function _material_admin_form_entity_browser_form_alter(&$form, FormStateInterfa
         foreach (Element::getVisibleChildren($asset) as $key) {
           $child = &$asset[$key];
           if (isset($child['#name']) && $child['#name'] === 'acquiadam_folder') {
-            $folder_style = $child['#attributes']['style'];
             $child['#attributes']['class'][] = 'no-wrap';
             break;
           }
         }
-        if (!isset($folder_style)) {
-          continue;
-        }
-        $form['widget']['asset-container'][$asset_title]['folder_icon'] = [
-          '#type' => 'container',
-          '#attributes' => [
-            'style' =>  $asset['#attributes']['style'],
-            'class' => ['acquiadam-browser-folder-icon']
-          ],
-          '#weight' => -1,
-        ];
-        $form['widget']['asset-container'][$asset_title]['folder_preview'] = [
-          '#type' => 'container',
-          '#attributes' => [
-            'style' => $folder_style,
-            'class' => ['acquiadam-browser-folder-preview'],
-          ],
-        ];
       }
     }
   }

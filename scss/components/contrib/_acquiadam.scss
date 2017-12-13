@@ -36,45 +36,43 @@
   width: 70%;
   margin: 0 auto;
   .acquiadam-browser-folder-link {
-    display: flex;
-    align-items: center;
-    background-size: 0;
+    background-color: color('blue', 'darken-3');
+    width: 214px;
+    height: 185px;
+    background-size: 150px;
+    margin: 20px;
     position: relative;
-    width: 40%;
-    height: 65px;
-    padding-bottom: 1rem;
-    overflow: hidden;
-    margin: 0;
-    border-bottom: 1px solid color('grey', 'lighten-1');
-    p {
-      display: inline-block;
-      vertical-align: middle;
-      text-transform: uppercase;
-      margin: 0;
-      margin-right: .5rem;
-      pointer-events: none;
-    }
-    input {
-      position: absolute;
-      background-size: 0 !important;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      top: 0;
+    padding: 0;
+    input,
+    input:hover,
+    input:focus,
+    input:active {
       display: block;
+      position: absolute;
+      background-position-x: center;
+      background-size: 100px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
-    .acquiadam-browser-folder-icon {
-      width: 30px;
-      height: 30px;
-      background-size: cover;
+    p {
+      position: absolute;
+      pointer-events: none;
+      bottom: 0;
+      padding: .5rem;
+      background: color('blue', 'base');
+      width: 100%;
     }
-    .acquiadam-browser-folder-preview {
-      width: 50px;
-      height: 50px;
-      background-size: cover;
-      background-color: color('grey', 'darken-3');
-      border-radius: 50%;
-      margin-left: auto;
+  }
+  .form-item.form-type-checkbox [type="checkbox"] + label,
+  .acquiadam-browser-folder-link {
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+    color: white;
+    &:hover {
+      transform: translateZ(0) scale(.98);
     }
   }
   .form-item.form-type-checkbox {
@@ -82,20 +80,15 @@
     padding: 0;
     width:auto;
     height:auto;
-    border-radius: 2px;
     border: 0;
     [type="checkbox"] + label {
       height:auto;
       line-height: auto;
       padding-left: 0;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
       &:before,&:after {
         opacity: 0;
       }
       transition: .2s;
-      &:hover {
-        transform: translateZ(0) scale(.98);
-      }
     }
     [type="checkbox"]:checked + label {
       transform: translateZ(0) scale(.98);

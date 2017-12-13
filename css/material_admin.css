@@ -9570,61 +9570,54 @@ details.views-display-column.form-wrapper {
   width: 70%;
   margin: 0 auto; }
   .acquiadam-asset-browser .acquiadam-browser-folder-link {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-        align-items: center;
-    background-size: 0;
+    background-color: #1565C0;
+    width: 214px;
+    height: 185px;
+    background-size: 150px;
+    margin: 20px;
     position: relative;
-    width: 40%;
-    height: 65px;
-    padding-bottom: 1rem;
-    overflow: hidden;
-    margin: 0;
-    border-bottom: 1px solid #bdbdbd; }
-    .acquiadam-asset-browser .acquiadam-browser-folder-link p {
-      display: inline-block;
-      vertical-align: middle;
-      text-transform: uppercase;
-      margin: 0;
-      margin-right: .5rem;
-      pointer-events: none; }
-    .acquiadam-asset-browser .acquiadam-browser-folder-link input {
+    padding: 0; }
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:hover,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:focus,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:active {
+      display: block;
       position: absolute;
-      background-size: 0 !important;
-      left: 0;
-      height: 100%;
-      width: 100%;
+      background-position-x: center;
+      background-size: 100px;
       top: 0;
-      display: block; }
-    .acquiadam-asset-browser .acquiadam-browser-folder-link .acquiadam-browser-folder-icon {
-      width: 30px;
-      height: 30px;
-      background-size: cover; }
-    .acquiadam-asset-browser .acquiadam-browser-folder-link .acquiadam-browser-folder-preview {
-      width: 50px;
-      height: 50px;
-      background-size: cover;
-      background-color: #424242;
-      border-radius: 50%;
-      margin-left: auto; }
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .acquiadam-asset-browser .acquiadam-browser-folder-link p {
+      position: absolute;
+      pointer-events: none;
+      bottom: 0;
+      padding: .5rem;
+      background: #2196F3;
+      width: 100%; }
+  .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label,
+  .acquiadam-asset-browser .acquiadam-browser-folder-link {
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+    color: white; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:hover,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link:hover {
+      transform: translateZ(0) scale(0.98); }
   .acquiadam-asset-browser .form-item.form-type-checkbox {
     margin: 20px;
     padding: 0;
     width: auto;
     height: auto;
-    border-radius: 2px;
     border: 0; }
     .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label {
       height: auto;
       line-height: auto;
       padding-left: 0;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
       transition: .2s; }
       .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:before, .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:after {
         opacity: 0; }
-      .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:hover {
-        transform: translateZ(0) scale(0.98); }
     .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"]:checked + label {
       transform: translateZ(0) scale(0.98); }
     .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-checkbox {
