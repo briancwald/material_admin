@@ -28,26 +28,24 @@
         background: none;
         &.button--danger {
           @extend .button--danger;
-          &:before {
+          &:after {
             @extend .material-icons;
-            content:"delete";
+            content:'delete';
             display:inline;
-            vertical-align: middle;
             vertical-align: text-top;
-            font-size:1.3rem;
-            padding-right:5px;
+            font-size:1.2rem;
+            padding-left:5px;
           }
         }
         &.success {
           @extend .status-text-color;
-          &:before {
+          &:after {
             @extend .material-icons;
-            content:"send";
+            content:'send';
             display:inline;
-            vertical-align: middle;
             vertical-align: text-top;
-            font-size:1.3rem;
-            padding-right:5px;
+            font-size:1.2rem;
+            padding-left:5px;
           }
         }
         &.ui-state-hover, &:hover {
