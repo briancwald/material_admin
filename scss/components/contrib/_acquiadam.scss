@@ -10,6 +10,7 @@
       color: color($utility, 'darken-2');
       padding: 0 1em;
       margin: 0;
+      outline:0;
     }
     &:after {
       @extend .material-icons;
@@ -20,61 +21,126 @@
     @extend .btn-flat;
     &:hover {
       background-color: transparent;
+      color:$secondary-base;
       input {
         color: color($secondary, 'lighten-1');
         text-decoration: none;
+        outline:0;
       }
+    }
+  }
+  li:first-child i {
+    input.acquiadam-browser-breadcrumb {
+      padding-left:0;
+    }
+    &:before {
+      @extend .material-icons;
+      content: "home";
+      vertical-align: top;
+      line-height: inherit;
+    }
+  }
+   li:only-of-type i {
+      &:before {
+        color: $secondary-base;
+      }
+    }
+  li:last-child i {
+    border-bottom: 1px solid $secondary-base;
+    input.acquiadam-browser-breadcrumb {
+      color: $secondary-base;
+    }
+    &:after {
+      display: none;
     }
   }
 }
 
 .acquiadam-asset-browser {
   @extend .col;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0 auto;
   .acquiadam-browser-folder-link {
-    background-image: none!important;
-    padding: 10px;
-    vertical-align: top;
-    &:hover,
-    &:focus {
-      &:before {
-        color: $primary-base;
-      }
-    }
-    &:before {
-      @extend .material-icons;
-      content: 'folder';
+    background-color: color($utility, 'lighten-2');
+    width: 214px;
+    height: 185px;
+    background-size: 150px;
+    margin: 20px;
+    position: relative;
+    padding: 0;
+    input,
+    input:hover,
+    input:focus,
+    input:active {
+      display: block;
       position: absolute;
-      font-size: 170px;
-    }
-    i {
+      background-position-x: center;
+      background-size: 100px;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
-      line-height:180px;
-      .acquiadam-folder-link-button {
-        background-position: center center;
-        background-repeat: no-repeat;
-        &:hover,
-        &:focus {
-          background-position: center center;
-          background-size: auto;
-          height: inherit;
-          width: inherit;
-        }
-      }
+    }
+    p {
+      position: absolute;
+      pointer-events: none;
+      bottom: 0;
+      padding: .5rem;
+      background: color('blue', 'base');
+      width: 100%;
     }
   }
-   .form-item.form-type-checkbox {
-   	margin:20px;
-   	width:auto;
-   	height:auto;
-   	[type="checkbox"] + label {
-   		height:auto;
-   		line-height: auto;
-   	}
-   	.acquiadam-asset-checkbox {
-   		margin-top:0;
-   		padding:5px 0;
-   	}
-   }
+  .form-item.form-type-checkbox [type="checkbox"]+label,
+  .acquiadam-browser-folder-link {
+    border-radius: 2px;
+    @extend .z-depth-1;
+    transition: .2s;
+    color: white;
+    &:hover {
+      transform: translateZ(0) scale(.98);
+    }
+  }
+  .form-item.form-type-checkbox {
+    margin: 20px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: 0;
+    [type="checkbox"]+label {
+      height: auto;
+      line-height: auto;
+      padding-left: 0;
+      &:before,
+      &:after {
+        margin: 5px;
+      }
+      transition: .2s;
+    }
+    [type="checkbox"]:checked+label {
+      transform: translateZ(0) scale(.98);
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+    .acquiadam-asset-checkbox {
+      margin-top: 0;
+    }
+    p.acquiadam-asset-filename {
+      margin: 0;
+    }
+    .acquiadam-asset-details {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: center;
+      background: color('blue', 'base');
+      color: white;
+      padding: .5rem;
+    }
+    .acquiadam-asset-browser-icon {
+      filter: invert(100%);
+    }
+  }
 }
-

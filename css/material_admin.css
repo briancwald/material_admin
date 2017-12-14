@@ -2138,7 +2138,8 @@ a {
 .messages--error.messages-clone .card, .webform-form table a.button-action {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .views-ui-dialog .views-override:not(:empty), .action-links .button-action.webform-ajax-link {
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .views-ui-dialog .views-override:not(:empty), .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label,
+.acquiadam-asset-browser .acquiadam-browser-folder-link, .action-links .button-action.webform-ajax-link {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .button-action:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button:hover, .dropbutton-wrapper.dropbutton-single .edit a:hover, .views-displays .tabs.secondary li.add a:hover, .ui-dialog-content .webform-ajax-link:hover, .webform-details-toggle-state-wrapper .webform-details-toggle-state:hover, .btn-floating:hover {
@@ -2271,8 +2272,8 @@ video.responsive-video {
   .breadcrumb i.handle:before,
   .breadcrumb .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container
   .breadcrumb i:after,
-  .breadcrumb .acquiadam-asset-browser i.acquiadam-browser-folder-link:before, .acquiadam-asset-browser
-  .breadcrumb i.acquiadam-browser-folder-link:before,
+  .breadcrumb .acquiadam-browser-breadcrumb-container li:first-child i:before, .acquiadam-browser-breadcrumb-container li:first-child
+  .breadcrumb i:before,
   .breadcrumb .entities-list i.item-container.ui-sortable-handle:before, .entities-list
   .breadcrumb i.item-container.ui-sortable-handle:before,
   .breadcrumb .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked
@@ -4291,8 +4292,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
     .input-field input[type=search]:focus ~ .handle:before,
     .input-field .acquiadam-browser-breadcrumb-container input[type=search]:focus ~ i:after, .acquiadam-browser-breadcrumb-container
     .input-field input[type=search]:focus ~ i:after,
-    .input-field .acquiadam-asset-browser input[type=search]:focus ~ .acquiadam-browser-folder-link:before, .acquiadam-asset-browser
-    .input-field input[type=search]:focus ~ .acquiadam-browser-folder-link:before,
+    .input-field .acquiadam-browser-breadcrumb-container li:first-child input[type=search]:focus ~ i:before, .acquiadam-browser-breadcrumb-container li:first-child
+    .input-field input[type=search]:focus ~ i:before,
     .input-field .entities-list input[type=search]:focus ~ .item-container.ui-sortable-handle:before, .entities-list
     .input-field input[type=search]:focus ~ .item-container.ui-sortable-handle:before,
     .input-field .system-status-report__status-icon--checked input[type=search]:focus ~ .collapsible-header:before, .system-status-report__status-icon--checked
@@ -4375,8 +4376,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   .input-field input[type=search] ~ .handle:before,
   .input-field .acquiadam-browser-breadcrumb-container input[type=search] ~ i:after, .acquiadam-browser-breadcrumb-container
   .input-field input[type=search] ~ i:after,
-  .input-field .acquiadam-asset-browser input[type=search] ~ .acquiadam-browser-folder-link:before, .acquiadam-asset-browser
-  .input-field input[type=search] ~ .acquiadam-browser-folder-link:before,
+  .input-field .acquiadam-browser-breadcrumb-container li:first-child input[type=search] ~ i:before, .acquiadam-browser-breadcrumb-container li:first-child
+  .input-field input[type=search] ~ i:before,
   .input-field .entities-list input[type=search] ~ .item-container.ui-sortable-handle:before, .entities-list
   .input-field input[type=search] ~ .item-container.ui-sortable-handle:before,
   .input-field .system-status-report__status-icon--checked input[type=search] ~ .collapsible-header:before, .system-status-report__status-icon--checked
@@ -6395,7 +6396,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       transform: translateY(-140%); }
 
 /* This is needed for some mobile phones to display the Google Icon font properly */
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-asset-browser .acquiadam-browser-folder-link:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
@@ -6461,7 +6462,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"); }
 
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-asset-browser .acquiadam-browser-folder-link:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -6593,7 +6594,7 @@ label {
 .tooltipped,
 .filter-help {
   font-size: .8em; }
-  .tooltipped .material-icons, .tooltipped .button-action:before, .tooltipped details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active .tooltipped summary.right-arrows:after, .tooltipped .collapsible li .collapsible-header.with-arrows:after, .collapsible li .tooltipped .collapsible-header.with-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.with-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.with-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.with-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li summary.with-arrows:after, details.form-wrapper li .tooltipped summary.with-arrows:after, .tooltipped .collapsible li .collapsible-header.right-arrows:after, .collapsible li .tooltipped .collapsible-header.right-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.right-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.right-arrows:after, .tooltipped details.form-wrapper li summary.right-arrows:after, details.form-wrapper li .tooltipped summary.right-arrows:after, .tooltipped .region-title__action .button:after, .region-title__action .tooltipped .button:after, .tooltipped .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tooltipped button.button--danger:after, .tooltipped .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tooltipped button.success:after, .tooltipped .color-palette .color-palette__hook.is-up:before, .color-palette .tooltipped .color-palette__hook.is-up:before, .tooltipped .color-palette .color-palette__lock:before, .color-palette .tooltipped .color-palette__lock:before, .tooltipped .file:before, .tooltipped .breadcrumb-nav ol li:before, .breadcrumb-nav ol .tooltipped li:before, .tooltipped .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child .tooltipped a:before, .tooltipped .details-item .collapsible-header:before, .details-item .tooltipped .collapsible-header:before, .tooltipped .details-item details.form-wrapper summary:before, .details-item details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .details-item summary:before, details.form-wrapper .details-item .tooltipped summary:before, .tooltipped .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection .tooltipped .collection-item:before, .tooltipped .dropdown-button:after, .tooltipped .select-wrapper .caret:after, .select-wrapper .tooltipped .caret:after, .tooltipped details.form-wrapper summary:after, details.form-wrapper .tooltipped summary:after, .tooltipped .entity-meta__last-saved h4:before, .entity-meta__last-saved .tooltipped h4:before, .tooltipped .entity-meta__author h4:before, .entity-meta__author .tooltipped h4:before, .tooltipped .field--name-created h4:before, .field--name-created .tooltipped h4:before, .tooltipped .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .tablesort.tablesort--asc:after, .tooltipped .tablesort.tablesort--desc:after, .tooltipped .draggable a.tabledrag-handle .handle:before, .draggable a.tabledrag-handle .tooltipped .handle:before, .tooltipped .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container .tooltipped i:after, .tooltipped .acquiadam-asset-browser .acquiadam-browser-folder-link:before, .acquiadam-asset-browser .tooltipped .acquiadam-browser-folder-link:before, .tooltipped .entities-list .item-container.ui-sortable-handle:before, .entities-list .tooltipped .item-container.ui-sortable-handle:before, .tooltipped .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked .tooltipped summary:before, .tooltipped .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning .tooltipped summary:before, .tooltipped .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .tooltipped summary:before,
+  .tooltipped .material-icons, .tooltipped .button-action:before, .tooltipped details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li.active summary.right-arrows:after, details.form-wrapper li.active .tooltipped summary.right-arrows:after, .tooltipped .collapsible li .collapsible-header.with-arrows:after, .collapsible li .tooltipped .collapsible-header.with-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.with-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.with-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.with-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.with-arrows:after, .tooltipped details.form-wrapper li summary.with-arrows:after, details.form-wrapper li .tooltipped summary.with-arrows:after, .tooltipped .collapsible li .collapsible-header.right-arrows:after, .collapsible li .tooltipped .collapsible-header.right-arrows:after, .tooltipped details.form-wrapper li .collapsible-header.right-arrows:after, details.form-wrapper li .tooltipped .collapsible-header.right-arrows:after, .tooltipped .collapsible li details.form-wrapper summary.right-arrows:after, .collapsible li details.form-wrapper .tooltipped summary.right-arrows:after, .tooltipped details.form-wrapper li summary.right-arrows:after, details.form-wrapper li .tooltipped summary.right-arrows:after, .tooltipped .region-title__action .button:after, .region-title__action .tooltipped .button:after, .tooltipped .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tooltipped button.button--danger:after, .tooltipped .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .tooltipped button.success:after, .tooltipped .color-palette .color-palette__hook.is-up:before, .color-palette .tooltipped .color-palette__hook.is-up:before, .tooltipped .color-palette .color-palette__lock:before, .color-palette .tooltipped .color-palette__lock:before, .tooltipped .file:before, .tooltipped .breadcrumb-nav ol li:before, .breadcrumb-nav ol .tooltipped li:before, .tooltipped .breadcrumb-nav ol li:first-child a:before, .breadcrumb-nav ol li:first-child .tooltipped a:before, .tooltipped .details-item .collapsible-header:before, .details-item .tooltipped .collapsible-header:before, .tooltipped .details-item details.form-wrapper summary:before, .details-item details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .details-item summary:before, details.form-wrapper .details-item .tooltipped summary:before, .tooltipped .collection .collection-item > .item-list .collection .collection-item:before, .collection .collection-item > .item-list .collection .tooltipped .collection-item:before, .tooltipped .dropdown-button:after, .tooltipped .select-wrapper .caret:after, .select-wrapper .tooltipped .caret:after, .tooltipped details.form-wrapper summary:after, details.form-wrapper .tooltipped summary:after, .tooltipped .entity-meta__last-saved h4:before, .entity-meta__last-saved .tooltipped h4:before, .tooltipped .entity-meta__author h4:before, .entity-meta__author .tooltipped h4:before, .tooltipped .field--name-created h4:before, .field--name-created .tooltipped h4:before, .tooltipped .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .tooltipped .card-title:before, .tooltipped .tablesort.tablesort--asc:after, .tooltipped .tablesort.tablesort--desc:after, .tooltipped .draggable a.tabledrag-handle .handle:before, .draggable a.tabledrag-handle .tooltipped .handle:before, .tooltipped .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container .tooltipped i:after, .tooltipped .acquiadam-browser-breadcrumb-container li:first-child i:before, .acquiadam-browser-breadcrumb-container li:first-child .tooltipped i:before, .tooltipped .entities-list .item-container.ui-sortable-handle:before, .entities-list .tooltipped .item-container.ui-sortable-handle:before, .tooltipped .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--checked details.form-wrapper summary:before, .system-status-report__status-icon--checked details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--checked summary:before, details.form-wrapper .system-status-report__status-icon--checked .tooltipped summary:before, .tooltipped .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--warning details.form-wrapper summary:before, .system-status-report__status-icon--warning details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--warning summary:before, details.form-wrapper .system-status-report__status-icon--warning .tooltipped summary:before, .tooltipped .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error .tooltipped .collapsible-header:before, .tooltipped .system-status-report__status-icon--error details.form-wrapper summary:before, .system-status-report__status-icon--error details.form-wrapper .tooltipped summary:before, .tooltipped details.form-wrapper .system-status-report__status-icon--error summary:before, details.form-wrapper .system-status-report__status-icon--error .tooltipped summary:before,
   .filter-help .material-icons,
   .filter-help .button-action:before,
   .filter-help details.form-wrapper li.active summary.with-arrows:after, details.form-wrapper li.active
@@ -6662,8 +6663,8 @@ label {
   .filter-help .handle:before,
   .filter-help .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container
   .filter-help i:after,
-  .filter-help .acquiadam-asset-browser .acquiadam-browser-folder-link:before, .acquiadam-asset-browser
-  .filter-help .acquiadam-browser-folder-link:before,
+  .filter-help .acquiadam-browser-breadcrumb-container li:first-child i:before, .acquiadam-browser-breadcrumb-container li:first-child
+  .filter-help i:before,
   .filter-help .entities-list .item-container.ui-sortable-handle:before, .entities-list
   .filter-help .item-container.ui-sortable-handle:before,
   .filter-help .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked
@@ -8810,7 +8811,7 @@ a#edit-cancel {
 
 .input-field .search-wrapper {
   margin: 0 12px; }
-  .input-field .search-wrapper i.material-icons, .input-field .search-wrapper i.button-action:before, .input-field .search-wrapper .collapsible li i.collapsible-header.with-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.with-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper .collapsible li i.collapsible-header.right-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper .region-title__action i.button:after, .region-title__action .input-field .search-wrapper i.button:after, .input-field .search-wrapper .color-palette i.color-palette__hook.is-up:before, .color-palette .input-field .search-wrapper i.color-palette__hook.is-up:before, .input-field .search-wrapper .color-palette i.color-palette__lock:before, .color-palette .input-field .search-wrapper i.color-palette__lock:before, .input-field .search-wrapper i.file:before, .input-field .search-wrapper .details-item i.collapsible-header:before, .details-item .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection .input-field .search-wrapper i.collection-item:before, .input-field .search-wrapper i.dropdown-button:after, .input-field .search-wrapper .select-wrapper i.caret:after, .select-wrapper .input-field .search-wrapper i.caret:after, .input-field .search-wrapper .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper i.tablesort.tablesort--asc:after, .input-field .search-wrapper i.tablesort.tablesort--desc:after, .input-field .search-wrapper .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle .input-field .search-wrapper i.handle:before, .input-field .search-wrapper .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container .input-field .search-wrapper i:after, .input-field .search-wrapper .acquiadam-asset-browser i.acquiadam-browser-folder-link:before, .acquiadam-asset-browser .input-field .search-wrapper i.acquiadam-browser-folder-link:before, .input-field .search-wrapper .entities-list i.item-container.ui-sortable-handle:before, .entities-list .input-field .search-wrapper i.item-container.ui-sortable-handle:before, .input-field .search-wrapper .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error .input-field .search-wrapper i.collapsible-header:before {
+  .input-field .search-wrapper i.material-icons, .input-field .search-wrapper i.button-action:before, .input-field .search-wrapper .collapsible li i.collapsible-header.with-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.with-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.with-arrows:after, .input-field .search-wrapper .collapsible li i.collapsible-header.right-arrows:after, .collapsible li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper details.form-wrapper li i.collapsible-header.right-arrows:after, details.form-wrapper li .input-field .search-wrapper i.collapsible-header.right-arrows:after, .input-field .search-wrapper .region-title__action i.button:after, .region-title__action .input-field .search-wrapper i.button:after, .input-field .search-wrapper .color-palette i.color-palette__hook.is-up:before, .color-palette .input-field .search-wrapper i.color-palette__hook.is-up:before, .input-field .search-wrapper .color-palette i.color-palette__lock:before, .color-palette .input-field .search-wrapper i.color-palette__lock:before, .input-field .search-wrapper i.file:before, .input-field .search-wrapper .details-item i.collapsible-header:before, .details-item .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .collection .collection-item > .item-list .collection i.collection-item:before, .collection .collection-item > .item-list .collection .input-field .search-wrapper i.collection-item:before, .input-field .search-wrapper i.dropdown-button:after, .input-field .search-wrapper .select-wrapper i.caret:after, .select-wrapper .input-field .search-wrapper i.caret:after, .input-field .search-wrapper .messages--status.messages-clone .card-content .message-header i.card-title:before, .messages--status.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .messages--warning.messages-clone .card-content .message-header i.card-title:before, .messages--warning.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper .messages--error.messages-clone .card-content .message-header i.card-title:before, .messages--error.messages-clone .card-content .message-header .input-field .search-wrapper i.card-title:before, .input-field .search-wrapper i.tablesort.tablesort--asc:after, .input-field .search-wrapper i.tablesort.tablesort--desc:after, .input-field .search-wrapper .draggable a.tabledrag-handle i.handle:before, .draggable a.tabledrag-handle .input-field .search-wrapper i.handle:before, .input-field .search-wrapper .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container .input-field .search-wrapper i:after, .input-field .search-wrapper .acquiadam-browser-breadcrumb-container li:first-child i:before, .acquiadam-browser-breadcrumb-container li:first-child .input-field .search-wrapper i:before, .input-field .search-wrapper .entities-list i.item-container.ui-sortable-handle:before, .entities-list .input-field .search-wrapper i.item-container.ui-sortable-handle:before, .input-field .search-wrapper .system-status-report__status-icon--checked i.collapsible-header:before, .system-status-report__status-icon--checked .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .system-status-report__status-icon--warning i.collapsible-header:before, .system-status-report__status-icon--warning .input-field .search-wrapper i.collapsible-header:before, .input-field .search-wrapper .system-status-report__status-icon--error i.collapsible-header:before, .system-status-report__status-icon--error .input-field .search-wrapper i.collapsible-header:before {
     display: inline-block;
     padding-right: 10px;
     font-size: 1.25em;
@@ -8917,6 +8918,56 @@ fieldset.fieldgroup.form-wrapper {
 
 .has-description-after div.description {
   margin-bottom: 30px; }
+
+.exposed-form-collapsible {
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  opacity: 1;
+  transition: .2s; }
+  @media only screen and (max-width: 600px) {
+    .exposed-form-collapsible div.collapsible-header {
+      margin-bottom: 0; } }
+  .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    vertical-align: middle;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
+      margin-right: 5px; }
+    .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
+      margin-right: 0; }
+  .exposed-form-collapsible .collapsible-body {
+    background: #f5f5f5;
+    border: none;
+    font-weight: inherit;
+    padding: 45px 10px 10px 10px; }
+    .exposed-form-collapsible .collapsible-body .form--inline {
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
+        padding-top: 15px; }
+  .exposed-form-collapsible .exposed-form-chips {
+    margin-right: .5rem;
+    text-transform: capitalize;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin-top: 10px; }
+    .exposed-form-collapsible .exposed-form-chips .chip {
+      overflow: hidden;
+      white-space: nowrap; }
 
 /* @file
  * lists
@@ -9412,56 +9463,6 @@ details.views-display-column.form-wrapper {
   .views-filterable-options .filterable-option .title {
     font-weight: normal; }
 
-.exposed-form-collapsible {
-  box-shadow: none;
-  border: none;
-  padding: 1rem;
-  opacity: 1;
-  transition: .2s; }
-  @media only screen and (max-width: 600px) {
-    .exposed-form-collapsible div.collapsible-header {
-      margin-bottom: 0; } }
-  .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
-    border: none;
-    padding: 0;
-    margin-bottom: 1rem;
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    vertical-align: middle;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
-      margin-right: 5px; }
-    .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
-      margin-right: 0; }
-  .exposed-form-collapsible .collapsible-body {
-    background: #f5f5f5;
-    border: none;
-    font-weight: inherit;
-    padding: 45px 10px 10px 10px; }
-    .exposed-form-collapsible .collapsible-body .form--inline {
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-      .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
-        padding-top: 15px; }
-  .exposed-form-collapsible .exposed-form-chips {
-    margin-right: .5rem;
-    text-transform: capitalize;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    margin-top: 10px; }
-    .exposed-form-collapsible .exposed-form-chips .chip {
-      overflow: hidden;
-      white-space: nowrap; }
-
 .view {
   position: relative; }
   .view .views-bulk-form-header {
@@ -9557,50 +9558,113 @@ details.views-display-column.form-wrapper {
   .acquiadam-browser-breadcrumb-container i input.acquiadam-browser-breadcrumb {
     color: #616161;
     padding: 0 1em;
-    margin: 0; }
+    margin: 0;
+    outline: 0; }
   .acquiadam-browser-breadcrumb-container i:after {
     content: 'keyboard_arrow_right';
     vertical-align: top;
     line-height: inherit; }
   .acquiadam-browser-breadcrumb-container i:hover {
-    background-color: transparent; }
+    background-color: transparent;
+    color: #ee6e73; }
     .acquiadam-browser-breadcrumb-container i:hover input {
       color: #ea454b;
-      text-decoration: none; }
+      text-decoration: none;
+      outline: 0; }
+  .acquiadam-browser-breadcrumb-container li:first-child i input.acquiadam-browser-breadcrumb {
+    padding-left: 0; }
+  .acquiadam-browser-breadcrumb-container li:first-child i:before {
+    content: "home";
+    vertical-align: top;
+    line-height: inherit; }
+  .acquiadam-browser-breadcrumb-container li:only-of-type i:before {
+    color: #ee6e73; }
+  .acquiadam-browser-breadcrumb-container li:last-child i {
+    border-bottom: 1px solid #ee6e73; }
+    .acquiadam-browser-breadcrumb-container li:last-child i input.acquiadam-browser-breadcrumb {
+      color: #ee6e73; }
+    .acquiadam-browser-breadcrumb-container li:last-child i:after {
+      display: none; }
 
-.acquiadam-asset-browser .acquiadam-browser-folder-link {
-  background-image: none !important;
-  padding: 10px;
-  vertical-align: top; }
-  .acquiadam-asset-browser .acquiadam-browser-folder-link:hover:before, .acquiadam-asset-browser .acquiadam-browser-folder-link:focus:before {
-    color: #2196F3; }
-  .acquiadam-asset-browser .acquiadam-browser-folder-link:before {
-    content: 'folder';
-    position: absolute;
-    font-size: 170px; }
-  .acquiadam-asset-browser .acquiadam-browser-folder-link i {
-    width: 100%;
-    height: 100%;
-    line-height: 180px; }
-    .acquiadam-asset-browser .acquiadam-browser-folder-link i .acquiadam-folder-link-button {
-      background-position: center center;
-      background-repeat: no-repeat; }
-      .acquiadam-asset-browser .acquiadam-browser-folder-link i .acquiadam-folder-link-button:hover, .acquiadam-asset-browser .acquiadam-browser-folder-link i .acquiadam-folder-link-button:focus {
-        background-position: center center;
-        background-size: auto;
-        height: inherit;
-        width: inherit; }
-
-.acquiadam-asset-browser .form-item.form-type-checkbox {
-  margin: 20px;
-  width: auto;
-  height: auto; }
-  .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label {
+.acquiadam-asset-browser {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: left;
+      justify-content: left;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto; }
+  .acquiadam-asset-browser .acquiadam-browser-folder-link {
+    background-color: #e0e0e0;
+    width: 214px;
+    height: 185px;
+    background-size: 150px;
+    margin: 20px;
+    position: relative;
+    padding: 0; }
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:hover,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:focus,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link input:active {
+      display: block;
+      position: absolute;
+      background-position-x: center;
+      background-size: 100px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .acquiadam-asset-browser .acquiadam-browser-folder-link p {
+      position: absolute;
+      pointer-events: none;
+      bottom: 0;
+      padding: .5rem;
+      background: #2196F3;
+      width: 100%; }
+  .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label,
+  .acquiadam-asset-browser .acquiadam-browser-folder-link {
+    border-radius: 2px;
+    transition: .2s;
+    color: white; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:hover,
+    .acquiadam-asset-browser .acquiadam-browser-folder-link:hover {
+      transform: translateZ(0) scale(0.98); }
+  .acquiadam-asset-browser .form-item.form-type-checkbox {
+    margin: 20px;
+    padding: 0;
+    width: auto;
     height: auto;
-    line-height: auto; }
-  .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-checkbox {
-    margin-top: 0;
-    padding: 5px 0; }
+    border: 0; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label {
+      height: auto;
+      line-height: auto;
+      padding-left: 0;
+      transition: .2s; }
+      .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:before, .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"] + label:after {
+        margin: 5px; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox [type="checkbox"]:checked + label {
+      transform: translateZ(0) scale(0.98);
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-checkbox {
+      margin-top: 0; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox p.acquiadam-asset-filename {
+      margin: 0; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-details {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+      -ms-flex-pack: center;
+          justify-content: center;
+      background: #2196F3;
+      color: white;
+      padding: .5rem; }
+    .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-browser-icon {
+      filter: invert(100%); }
 
 /* @file
  * Entity Browser overrides

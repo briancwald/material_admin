@@ -65,10 +65,17 @@ tableselect:
     - core/jquery
     - core/jquery.ui
 
+collapsed-form:
+  version: VERSION
+  js:
+    js/collapsed_form_chips.js: {}
+  dependencies:
+    - core/drupl
+    - core/jquery
+
 views-bulk-form:
   version: VERSION
   js:
     js/views_bulk_form.js: {}
   dependencies:
-    - core/drupl
-    - core/jquery
+    - 'material_admin/collapsed-form'
