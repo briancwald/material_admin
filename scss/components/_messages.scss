@@ -84,8 +84,9 @@ a.modal-trigger {
   font-size: 1.7rem;
 }
 
-.messages--status {
+.messages--status, .messages--status.messages {
   background-color: $status-bg!important;
+  color:$white;
   &.messages-clone {
     .card-content {
       border: 2px solid $status-bg!important;
@@ -101,8 +102,9 @@ a.modal-trigger {
   }
 }
 
-.messages--warning {
+.messages--warning, .messages--warning.messages {
   background-color: $warning-bg!important;
+  color:$white;
   &.messages-clone {
     .card-content {
       border: 2px solid $warning-bg!important;
@@ -118,9 +120,9 @@ a.modal-trigger {
   }
 }
 
-.messages--error {
+.messages--error, .messages--error.messages {
   background: $error-bg!important;
-  color: $black;
+  color: $white;
   &.messages-clone {
     .card-content {
       border: 2px solid $error-bg!important;

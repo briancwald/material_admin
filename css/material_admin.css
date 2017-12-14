@@ -6396,7 +6396,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       transform: translateY(-140%); }
 
 /* This is needed for some mobile phones to display the Google Icon font properly */
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
 
@@ -6462,7 +6462,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"); }
 
-.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
+.material-icons, .button-action:before, .collapsible li.active .collapsible-header.with-arrows:after, details.form-wrapper li.active .collapsible-header.with-arrows:after, .collapsible li.active details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li.active summary.with-arrows:after, details.form-wrapper li.active summary.with-arrows:after, .collapsible li.active .collapsible-header.right-arrows:after, details.form-wrapper li.active .collapsible-header.right-arrows:after, .collapsible li.active details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li.active summary.right-arrows:after, details.form-wrapper li.active summary.right-arrows:after, .collapsible li .collapsible-header.with-arrows:after, details.form-wrapper li .collapsible-header.with-arrows:after, .collapsible li details.form-wrapper summary.with-arrows:after, details.form-wrapper .collapsible li summary.with-arrows:after, details.form-wrapper li summary.with-arrows:after, .collapsible li .collapsible-header.right-arrows:after, details.form-wrapper li .collapsible-header.right-arrows:after, .collapsible li details.form-wrapper summary.right-arrows:after, details.form-wrapper .collapsible li summary.right-arrows:after, details.form-wrapper li summary.right-arrows:after, .region-title__action .button:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger:after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success:after, .color-palette .color-palette__hook.is-up:before, .color-palette button.color-palette__lock:before, .color-palette .color-palette__lock:before, .file:before, .breadcrumb-nav ol li:before, .breadcrumb-nav ol li:first-child a:before, .details-item .collapsible-header:before, .details-item details.form-wrapper summary:before, details.form-wrapper .details-item summary:before, .details-item .collapsible-header.active:before, .details-item details.form-wrapper summary.active:before, details.form-wrapper .details-item summary.active:before, .collection .collection-item > .item-list .collection .collection-item:before, .dropdown-button:after, .dropdown-button.active:after, .select-wrapper .caret:after, details.form-wrapper[open] > summary:after, details.form-wrapper summary:after, .entity-meta__last-saved h4:before, .entity-meta__author h4:before, .field--name-created h4:before, .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages.messages-clone .card-content .message-header .card-title:before, .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages.messages-clone .card-content .message-header .card-title:before, .tablesort.tablesort--asc:after, .tablesort.tablesort--desc:after, .draggable a.tabledrag-handle .handle:before, .acquiadam-browser-breadcrumb-container i:after, .acquiadam-browser-breadcrumb-container li:first-child i:before, .entities-list .item-container.ui-sortable-handle:before, .system-status-report__status-icon--checked .collapsible-header:before, .system-status-report__status-icon--checked details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--checked summary:before, .system-status-report__status-icon--warning .collapsible-header:before, .system-status-report__status-icon--warning details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--warning summary:before, .system-status-report__status-icon--error .collapsible-header:before, .system-status-report__status-icon--error details.form-wrapper summary:before, details.form-wrapper .system-status-report__status-icon--error summary:before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -7026,11 +7026,11 @@ tr .ajax-progress-throbber .throbber {
   border: 0;
   padding: 0;
   border-radius: 2px;
-  background: #FFFFFF;
+  background: #fcfcfc;
   border: 0; }
   .ui-dialog .ui-dialog-buttonpane {
     margin-top: 0;
-    background: #FFFFFF;
+    background: #fcfcfc;
     padding: .3em 1em;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
@@ -7060,7 +7060,7 @@ tr .ajax-progress-throbber .throbber {
     border-bottom: 1px solid #bdbdbd; }
   .ui-dialog .ui-dialog-titlebar {
     font-weight: bold;
-    background: #FFFFFF;
+    background: #fcfcfc;
     padding-top: 20px;
     border: 0;
     border-radius: 0;
@@ -9051,31 +9051,33 @@ a.modal-trigger {
   padding-bottom: 10px;
   font-size: 1.7rem; }
 
-.messages--status {
-  background-color: #4CAF50 !important; }
-  .messages--status.messages-clone .card-content {
+.messages--status, .messages--status.messages {
+  background-color: #4CAF50 !important;
+  color: #FFFFFF; }
+  .messages--status.messages-clone .card-content, .messages--status.messages.messages-clone .card-content {
     border: 2px solid #4CAF50 !important;
     color: #000000; }
-    .messages--status.messages-clone .card-content .message-header .card-title:before {
+    .messages--status.messages-clone .card-content .message-header .card-title:before, .messages--status.messages.messages-clone .card-content .message-header .card-title:before {
       content: 'check';
       color: #4CAF50; }
 
-.messages--warning {
-  background-color: #f9a825 !important; }
-  .messages--warning.messages-clone .card-content {
+.messages--warning, .messages--warning.messages {
+  background-color: #f9a825 !important;
+  color: #FFFFFF; }
+  .messages--warning.messages-clone .card-content, .messages--warning.messages.messages-clone .card-content {
     border: 2px solid #f9a825 !important;
     color: #000000; }
-    .messages--warning.messages-clone .card-content .message-header .card-title:before {
+    .messages--warning.messages-clone .card-content .message-header .card-title:before, .messages--warning.messages.messages-clone .card-content .message-header .card-title:before {
       content: 'warning';
       color: #f9a825; }
 
-.messages--error {
+.messages--error, .messages--error.messages {
   background: #E53935 !important;
-  color: #000000; }
-  .messages--error.messages-clone .card-content {
+  color: #FFFFFF; }
+  .messages--error.messages-clone .card-content, .messages--error.messages.messages-clone .card-content {
     border: 2px solid #E53935 !important;
     color: #000000; }
-    .messages--error.messages-clone .card-content .message-header .card-title:before {
+    .messages--error.messages-clone .card-content .message-header .card-title:before, .messages--error.messages.messages-clone .card-content .message-header .card-title:before {
       content: 'error';
       color: #E53935; }
 
@@ -9541,9 +9543,11 @@ details.views-display-column.form-wrapper {
   top: 5px;
   font-size: 1.3rem; }
 
-.views-ui-dialog .views-override:not(:empty) {
-  padding: 20px 15px;
-  z-index: 3; }
+.views-ui-dialog {
+  padding: 1em 2em; }
+  .views-ui-dialog .views-override:not(:empty) {
+    padding: 20px 15px;
+    z-index: 3; }
 
 /* @file
  * Contrib overrides

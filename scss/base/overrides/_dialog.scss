@@ -12,11 +12,11 @@
   padding: 0;
   @extend .z-depth-5;
   border-radius: 2px;
-  background: $white;
+  background: $body-background;
   border: 0;
   .ui-dialog-buttonpane {
     margin-top: 0;
-    background: $white;
+    background: $body-background;
     padding: .3em 1em;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
   }
   .ui-dialog-titlebar {
     font-weight: bold;
-    background: $white;
+    background: $body-background;
     padding-top: 20px;
     border: 0;
     border-radius:0;
