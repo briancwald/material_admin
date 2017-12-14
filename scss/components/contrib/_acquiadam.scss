@@ -31,9 +31,8 @@
 .acquiadam-asset-browser {
   @extend .col;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   flex-wrap: wrap;
-  width: 70%;
   margin: 0 auto;
   .acquiadam-browser-folder-link {
     background-color: color('blue', 'darken-3');

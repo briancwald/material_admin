@@ -25,9 +25,15 @@ function material_admin_theme() {
       'base hook' => 'page_title',
       'path' => $path . '/templates/navigation',
     ],
+    'material_admin_collapsed_form' => [
+      'base hook' => 'material_admin_collapsed_form',
+      'path' => $path . '/templates/form',
+      'variables' => [
+        'children' => [],
+      ],
+    ],
   ];
 }
-
 
 function material_admin_theme_suggestions_input_alter(&$suggestions, array $variables) {
   $element = $variables['element'];

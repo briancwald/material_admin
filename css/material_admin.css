@@ -8910,6 +8910,56 @@ fieldset.fieldgroup.form-wrapper {
 .has-description-after div.description {
   margin-bottom: 30px; }
 
+.exposed-form-collapsible {
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  opacity: 1;
+  transition: .2s; }
+  @media only screen and (max-width: 600px) {
+    .exposed-form-collapsible div.collapsible-header {
+      margin-bottom: 0; } }
+  .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    vertical-align: middle;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
+      margin-right: 5px; }
+    .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
+      margin-right: 0; }
+  .exposed-form-collapsible .collapsible-body {
+    background: #f5f5f5;
+    border: none;
+    font-weight: inherit;
+    padding: 45px 10px 10px 10px; }
+    .exposed-form-collapsible .collapsible-body .form--inline {
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
+        padding-top: 15px; }
+  .exposed-form-collapsible .exposed-form-chips {
+    margin-right: .5rem;
+    text-transform: capitalize;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    margin-top: 10px; }
+    .exposed-form-collapsible .exposed-form-chips .chip {
+      overflow: hidden;
+      white-space: nowrap; }
+
 /* @file
  * lists
  *
@@ -9404,56 +9454,6 @@ details.views-display-column.form-wrapper {
   .views-filterable-options .filterable-option .title {
     font-weight: normal; }
 
-.exposed-form-collapsible {
-  box-shadow: none;
-  border: none;
-  padding: 1rem;
-  opacity: 1;
-  transition: .2s; }
-  @media only screen and (max-width: 600px) {
-    .exposed-form-collapsible div.collapsible-header {
-      margin-bottom: 0; } }
-  .exposed-form-collapsible .collapsible-header, .exposed-form-collapsible details.form-wrapper summary, details.form-wrapper .exposed-form-collapsible summary {
-    border: none;
-    padding: 0;
-    margin-bottom: 1rem;
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse;
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    vertical-align: middle;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-    .exposed-form-collapsible .collapsible-header a, .exposed-form-collapsible details.form-wrapper summary a, details.form-wrapper .exposed-form-collapsible summary a {
-      margin-right: 5px; }
-    .exposed-form-collapsible .collapsible-header i, .exposed-form-collapsible details.form-wrapper summary i, details.form-wrapper .exposed-form-collapsible summary i {
-      margin-right: 0; }
-  .exposed-form-collapsible .collapsible-body {
-    background: #f5f5f5;
-    border: none;
-    font-weight: inherit;
-    padding: 45px 10px 10px 10px; }
-    .exposed-form-collapsible .collapsible-body .form--inline {
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-      .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
-        padding-top: 15px; }
-  .exposed-form-collapsible .exposed-form-chips {
-    margin-right: .5rem;
-    text-transform: capitalize;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    margin-top: 10px; }
-    .exposed-form-collapsible .exposed-form-chips .chip {
-      overflow: hidden;
-      white-space: nowrap; }
-
 .view {
   position: relative; }
   .view .views-bulk-form-header {
@@ -9563,11 +9563,10 @@ details.views-display-column.form-wrapper {
 .acquiadam-asset-browser {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: left;
+      justify-content: left;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 70%;
   margin: 0 auto; }
   .acquiadam-asset-browser .acquiadam-browser-folder-link {
     background-color: #1565C0;

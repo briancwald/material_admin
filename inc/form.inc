@@ -132,18 +132,26 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
  * Implements hook_form_FORM_ID_alter().
  */
 function _material_admin_form_entity_browser_form_alter(&$form, FormStateInterface $form_state) {
-  if (in_array('Acquia DAM', $form_state->getValues(), TRUE)) {
-    if (isset($form['widget']['asset-container'])) {
-      foreach (Element::getVisibleChildren($form['widget']['asset-container']) as $asset_title) {
-        $asset = &$form['widget']['asset-container'][$asset_title];
-        foreach (Element::getVisibleChildren($asset) as $key) {
-          $child = &$asset[$key];
-          if (isset($child['#name']) && $child['#name'] === 'acquiadam_folder') {
-            $child['#attributes']['class'][] = 'no-wrap';
-            break;
-          }
+  if (isset($form['widget']['asset-container'])) {
+    foreach (Element::getVisibleChildren($form['widget']['asset-container']) as $asset_title) {
+      $asset = &$form['widget']['asset-container'][$asset_title];
+      foreach (Element::getVisibleChildren($asset) as $key) {
+        $child = &$asset[$key];
+        if (isset($child['#name']) && $child['#name'] === 'acquiadam_folder') {
+          $child['#attributes']['class'][] = 'no-wrap';
+          break;
         }
       }
     }
+  }
+  if (isset($form['widget']['filter-sort-container'])) {
+    $form['widget']['filter-sort-container']['#theme_wrappers'] = ['material_admin_collapsed_form'];
+    $form['widget']['filter-sort-container']['filter-actions'] = [
+      '#type' => 'container',
+      'filter-sort-submit' => $form['widget']['filter-sort-container']['filter-sort-submit'],
+      'filter-sort-reset' => $form['widget']['filter-sort-container']['filter-sort-reset'],
+    ];
+    unset($form['widget']['filter-sort-container']['filter-sort-submit']);
+    unset($form['widget']['filter-sort-container']['filter-sort-reset']);
   }
 }
