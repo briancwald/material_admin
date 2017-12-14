@@ -10,6 +10,7 @@
       color: color($utility, 'darken-2');
       padding: 0 1em;
       margin: 0;
+      outline:0;
     }
     &:after {
       @extend .material-icons;
@@ -20,10 +21,37 @@
     @extend .btn-flat;
     &:hover {
       background-color: transparent;
+      color:$secondary-base;
       input {
         color: color($secondary, 'lighten-1');
         text-decoration: none;
+        outline:0;
       }
+    }
+  }
+  li:first-child i {
+    input.acquiadam-browser-breadcrumb {
+      padding-left:0;
+    }
+    &:before {
+      @extend .material-icons;
+      content: "home";
+      vertical-align: top;
+      line-height: inherit;
+    }
+  }
+   li:only-of-type i {
+      &:before {
+        color: $secondary-base;
+      }
+    }
+  li:last-child i {
+    border-bottom: 1px solid $secondary-base;
+    input.acquiadam-browser-breadcrumb {
+      color: $secondary-base;
+    }
+    &:after {
+      display: none;
     }
   }
 }
@@ -35,7 +63,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   .acquiadam-browser-folder-link {
-    background-color: color('blue', 'darken-3');
+    background-color: color($utility, 'lighten-2');
     width: 214px;
     height: 185px;
     background-size: 150px;
@@ -64,10 +92,10 @@
       width: 100%;
     }
   }
-  .form-item.form-type-checkbox [type="checkbox"] + label,
+  .form-item.form-type-checkbox [type="checkbox"]+label,
   .acquiadam-browser-folder-link {
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    @extend .z-depth-1;
     transition: .2s;
     color: white;
     &:hover {
@@ -75,25 +103,29 @@
     }
   }
   .form-item.form-type-checkbox {
-    margin:20px;
+    margin: 20px;
     padding: 0;
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
     border: 0;
-    [type="checkbox"] + label {
-      height:auto;
+    [type="checkbox"]+label {
+      height: auto;
       line-height: auto;
       padding-left: 0;
-      &:before,&:after {
+      &:before,
+      &:after {
         margin: 5px;
       }
       transition: .2s;
     }
-    [type="checkbox"]:checked + label {
+    [type="checkbox"]:checked+label {
       transform: translateZ(0) scale(.98);
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
     }
     .acquiadam-asset-checkbox {
-      margin-top:0;
+      margin-top: 0;
     }
     p.acquiadam-asset-filename {
       margin: 0;
@@ -112,4 +144,3 @@
     }
   }
 }
-
