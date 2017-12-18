@@ -67,9 +67,10 @@
 ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {% if label_display in ['before', 'invisible'] %}
+  {% if label_display in ['before', 'invisible'] and type != 'select'%}
     {{ label }}
   {% endif %}
+  
   {% if prefix is not empty %}
     <span class="field-prefix">{{ prefix }}</span>
   {% endif %}
@@ -82,7 +83,7 @@
   {% if suffix is not empty %}
     <span class="field-suffix">{{ suffix }}</span>
   {% endif %}
-  {% if label_display == 'after' %}
+  {% if label_display == 'after' or type == 'select' %}
     {{ label }}
   {% endif %}
   {% if errors %}
