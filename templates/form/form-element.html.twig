@@ -55,7 +55,7 @@
     label_display == 'none' ? 'form-no-label',
     label_display in ['after', 'before'] ? 'form-has-label',
     disabled == 'disabled' ? 'form-disabled',
-    type in ['textfield', 'select', 'password', 'email', 'number', 'tel', 'search', 'url', 'path', 'entity_autocomplete', 'file', 'managed_file', 'upload'] ? 'input-field',
+    type in ['textfield', 'password', 'email', 'number', 'tel', 'search', 'url', 'path', 'entity_autocomplete', 'file', 'managed_file', 'upload'] ? 'input-field',
     type in ['file', 'managed_file', 'upload'] ? 'file-field',
     prefix and not suffix ? 'has-prefix',
     suffix and not prefix ?  'has-suffix',
@@ -67,10 +67,9 @@
 ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {% if label_display in ['before', 'invisible'] and type != 'select'%}
+  {% if label_display in ['before', 'invisible'] %}
     {{ label }}
   {% endif %}
-  
   {% if prefix is not empty %}
     <span class="field-prefix">{{ prefix }}</span>
   {% endif %}
@@ -83,7 +82,7 @@
   {% if suffix is not empty %}
     <span class="field-suffix">{{ suffix }}</span>
   {% endif %}
-  {% if label_display == 'after' or type == 'select' %}
+  {% if label_display == 'after' %}
     {{ label }}
   {% endif %}
   {% if errors %}
