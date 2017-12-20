@@ -7,7 +7,7 @@
   Drupal.behaviors.material_checkbox = {
     attach: function (context) {
       // limitation of drupal placing <label> before checkbox, which is bad idea and doesnt work with materialize checkboxes
-      $(context).find(':checkbox:not(.item-switch)').once('material_checkbox').each(function () {
+      $(context).find(':checkbox:not(.item-switch), select').once('material_checkbox').each(function () {
         var label = $('label[for="' + this.id + '"]');
         $(this).insertBefore(label);
       });
