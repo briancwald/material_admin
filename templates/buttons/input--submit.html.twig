@@ -11,16 +11,20 @@
  */
 #}
 
-{% if attributes.hasClass('visually-hidden') or  attributes.hasClass('js-hide') %}
+{% set nowrap = [
+  attributes.id matches '/^edit-options-expose-button.*$/' ? 'no-wrap',
+]
+%}
+
+{% if attributes.hasClass('visually-hidden') or attributes.hasClass('js-hide') %}
   <input{{ attributes.addClass('js-hide') }} />{{ children }}
 {% else %}
   {# Views UI does not use core's dropbutton for adding displays #}
-  {% if not (attributes.class matches '/^add-display.*$/') %}
+  {% if not (attributes.addClass(nowrap).hasClass('no-wrap') or attributes.hasClass('add-display')) %}
     <i class="waves-effect waves-light waves-input-wrapper button btn">
       <input{{ attributes.addClass('waves-button-input') }} />{{ children }}
     </i>
   {% else %}
-   {# Since core wipes all data attributes after ajax submit, point back to the add-display template #}
-   {% include '@material_admin/buttons/input--submit--views-button-add-display.html.twig' %}
+    <input{{ attributes }} />{{ children }}
   {% endif %}
 {% endif %}
