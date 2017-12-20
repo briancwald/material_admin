@@ -17,6 +17,23 @@ function material_admin_theme_suggestions_page_alter(array &$suggestions, array 
   }
 }
 
+function material_admin_theme_suggestions_input_alter(&$suggestions, array $variables) {
+  $element = $variables['element'];
+  if (isset($element['#attributes']['data-twig-suggestion'])) {
+    $suggestions[] = 'input__' . $element['#type'] . '__' . $element['#attributes']['data-twig-suggestion'];
+  }
+}
+
+function material_admin_theme_suggestions_form_element_alter(array &$suggestions, array $variables, $hook) {
+  if ( $variables['element']['#type'] === 'select') {
+    $suggestions[] = $hook . '__select';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+
 function material_admin_theme() {
   $path = drupal_get_path('theme', 'material_admin');
   return [
@@ -33,11 +50,4 @@ function material_admin_theme() {
       ],
     ],
   ];
-}
-
-function material_admin_theme_suggestions_input_alter(&$suggestions, array $variables) {
-  $element = $variables['element'];
-  if (isset($element['#attributes']['data-twig-suggestion'])) {
-    $suggestions[] = 'input__' . $element['#type'] . '__' . $element['#attributes']['data-twig-suggestion'];
-  }
 }
