@@ -65,14 +65,14 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
 
   $form['theme_ui_options']['material_admin_message']['material_admin_message_length'] = array(
     '#type' => 'number',
-    '#title' => t('Max allowed width of status message'),
-    '#description' => t('Status messages use google material toast notifcation system, but this limits the length shown in the status message. Note: the full message will always appear in the bottom drawer'),
+    '#title' => t('Max allowed characters of status messages in notification'),
+    '#description' => t('limits the characters shown in the <a href="https://material.io/guidelines/components/snackbars-toasts.html" target="_blank">Toast </a> status message to avoid distracting long notifications. Notes: the full message will always appear in the bottom drawer. leave blank for infinite.'),
     '#default_value' => theme_get_setting('material_admin_message_length'),
   );
     $form['theme_ui_options']['material_admin_message']['material_admin_message_prompt'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Skip toast notice if the message is too long'),
-    '#description' => t('If checked, a long message will skip the toast notice and only show up in the drawer'),
+    '#title' => t('Skip toast notice entirely if the message is too long'),
+    '#description' => t('If checked, a long message will skip the toast notice and only show up in the bottom drawer'),
     '#default_value' => theme_get_setting('material_admin_message_prompt'),
   );
 }

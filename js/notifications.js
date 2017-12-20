@@ -11,7 +11,12 @@
 
   Drupal.behaviors.material_notification = {
     attach: function (context, settings) {
+      if ($.isNumeric(drupalSettings.material_admin.material_admin_message_length)) {
       var maxMessageLength = drupalSettings.material_admin.material_admin_message_length;
+      } else {
+        maxMessageLength = Infinity;
+      }
+
       var messages = $('div.messages');
       messages.once('material_notification').each(function () {
         var messageMax = maxMessageLength;
