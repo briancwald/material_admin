@@ -2,16 +2,19 @@
  * Collections
  *
  */
+
 .details-item {
   .collapsible-header {
-    &:before {
+    &::before {
       @extend .material-icons;
-      content: 'keyboard_arrow_right';
+
       padding-right: 5px;
+      content: 'keyboard_arrow_right';
     }
     &.active {
-      &:before {
+      &::before {
         @extend .material-icons;
+
         content: 'keyboard_arrow_down';
       }
     }
@@ -24,25 +27,26 @@
 //nested collection styling
 .collection .collection-item>.item-list {
   .collection {
-    border: none;
+    border: 0;
     .collection-item {
-      &:before {
-        content: 'keyboard_arrow_right';
+      border: 0;
+      &::before {
         @extend .material-icons;
+
         padding-right: 5px;
+        content: 'keyboard_arrow_right';
       }
-      border: none;
     }
   }
 }
 
 //collection comma list
 .collection.item-list__comma-list {
-  border: none;
+  border: 0;
   .collection-item {
-    line-height: 1em;
-    border: none;
+    border: 0;
     padding: inherit;
+    line-height: 1em;
   }
 }
 
@@ -56,22 +60,22 @@
   }
   &:hover .collection-item-description {
     text-decoration: none;
-    color: color($utility, "darken-3");
+    color: color($utility, 'darken-3');
   }
   .collection-item-description {
-    text-decoration: none;
-    color: color($utility, "darken-2");
-    font-size: 12px;
     margin-left: 20px;
+    text-decoration: none;
+    color: color($utility, 'darken-2');
+    font-size: 12px;
     &:hover {
       text-decoration: none;
-      color: color($utility, "darken-3");
+      color: color($utility, 'darken-3');
     }
   }
 }
 
 // in the case where we have to nest collections, remove border and margin
 .collection.with-header>.collection {
-  border: none;
   margin: 0;
+  border: 0;
 }

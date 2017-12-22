@@ -2,22 +2,24 @@
  * User login
  *
  */
+
 //specific uninstall page styling
 .admin-requirements.collapsible-body {
   padding: 1em;
   .admin-prevent-text {
     @extend .error-color;
-    padding: .5em;
-    margin-bottom: .5em;
+
     display: block;
-    font-weight:normal;
+    margin-bottom: .5em;
+    padding: .5em;
+    font-weight: normal;
   }
   .item-list li {
     padding: 10px 0;
-    font-weight:normal;
+    font-weight: normal;
   }
 }
 
-.uninstall-checkbox label.visually-hidden{
+.uninstall-checkbox label.visually-hidden {
   display: block;
 }

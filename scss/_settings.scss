@@ -2,6 +2,7 @@
  * settings variables
  *
  */
+
 //  Table of Contents:
 //
 //   1. Global
@@ -10,18 +11,17 @@
 //   4. Base Typography
 //   5. Typography Helpers
 //   6. Color Palette
-
 // 1. Global
 // ---------
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,50i,700,700i');
+@import '//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,50i,700,700i';
 
 $global-font-size: 100%;
 $global-width: 1200px;
 $global-lineheight: 1.5;
 $body-background: #fcfcfc;
-$body-font-color: color("shades", "black");
-$body-font-family: 'Roboto', sans-serif;
+$body-font-color: color('shades', 'black');
+$body-font-family: 'Roboto',
+sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -31,44 +31,44 @@ $global-radius: 0;
 $global-text-direction: ltr;
 
 // 2. Vertical Rhythm 
-
 // 3. Card
 $card-xs-height: 150px;
 $card-title-height: 2.5rem;
 // 4. Base Typography
 // ------------------
-
 $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
-$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$font-family-monospace: Consolas,
+'Liberation Mono',
+Courier,
+monospace;
 $header-color: inherit;
 $max-readability-width: 43rem;
 
 // 5. Typography Helpers
 // ---------------------
-
 $lead-font-size: $global-font-size * 1.25;
 $lead-lineheight: 1.6;
 $subheader-lineheight: 1.4;
-$subheader-color: color("grey", "darken-3");
+$subheader-color: color('grey', 'darken-3');
 $subheader-font-weight: $global-weight-normal;
-$subheader-margin-top: 0.2rem;
-$subheader-margin-bottom: 0.5rem;
+$subheader-margin-top: .2rem;
+$subheader-margin-bottom: .5rem;
 $stat-font-size: 2.5rem;
 
 
 // 6. Colors
 // --------------------
-
-$highlight-color-base:"yellow";
+$highlight-color-base: 'yellow';
 $link-color-base: $primary;
 
-$link-color: color($link-color-base, "lighten-1");
-$primary-base: color($primary, "base");
+$link-color: color($link-color-base, 'lighten-1');
+$primary-base: color($primary, 'base');
 $primary-color: $primary-base;
-$secondary-base: color($secondary, "lighten-2");
-$accent-base:  color($accent, "base");
+$secondary-base: color($secondary, 'lighten-2');
+$accent-base: color($accent, 'base');
+$utility-base: color($utility, 'base');
 
 $primary-color-light: lighten($primary-base, 15%) !default;
 $primary-color-dark: darken($primary-base, 15%) !default;
@@ -77,24 +77,25 @@ $secondary-color-light: lighten($secondary-base, 15%);
 $secondary-color-dark: darken($secondary-base, 15%);
 
 
+$transparent-black: rgba(0, 0, 0, 0.1);
+
 // 6.1 Header Colors
-$header-bg: color($primary, "darken-1");
+$header-bg: color($primary, 'darken-1');
 $header-title: $white;
-$header-title-small: color($utility, "darken-3");
+$header-title-small: color($utility, 'darken-3');
 
 // Utility Colors
-
 // Error
-$error-text: color($error-color-base, "darken-1");
-$error-bg: color($error-color-base, "darken-1");
+$error-text: color($error-color-base, 'darken-1');
+$error-bg: color($error-color-base, 'darken-1');
 
 // Warning
-$warning-text: color($warning-color-base, "darken-3");
-$warning-bg: color($warning-color-base, "darken-3");
+$warning-text: color($warning-color-base, 'darken-3');
+$warning-bg: color($warning-color-base, 'darken-3');
 
 // Status
-$status-text: color($status-color-base, "darken-2");
-$status-bg: color($status-color-base, "base");
+$status-text: color($status-color-base, 'darken-2');
+$status-bg: color($status-color-base, 'base');
 
 // Tabs
 $tabs-text-color: $secondary-base;
@@ -108,8 +109,8 @@ $button-raised-background-hover: lighten($button-raised-background, 5%);
 $button-raised-color: $white;
 
 // Flat buttons
-$button-flat-color: color($utility, "darken-3");
-$button-flat-disabled-color: lighten(#999, 10%) !default;
+$button-flat-color: color($utility, 'darken-3');
+$button-flat-disabled-color: lighten($utility-base, 10%) !default;
 
 // Floating buttons
 $button-floating-background: $accent-base;
@@ -118,10 +119,9 @@ $button-floating-color: $white;
 
 $button-action: $secondary-base;
 $button-action-hover: lighten($button-action, 5%);
-$button-action-text: $white!important;
+$button-action-text: $white !important;
 
 // Form 
-
 $input-success-color: $success-color;
 $input-focus-color: $accent-base;
 
@@ -130,12 +130,12 @@ $radio-empty-color: #5a5a5a !default;
 $radio-border: 2px solid $radio-fill-color;
 
 $dropdown-bg-color: $white;
-$dropdown-hover-bg-color: color($utility, "lighten-3");
+$dropdown-hover-bg-color: color($utility, 'lighten-3');
 $dropdown-color: $accent-base;
 
 $switch-bg-color: $accent-base;
 $switch-checked-lever-bg: desaturate(lighten($switch-bg-color, 25%), 25%);
-$switch-unchecked-bg: color($utility, "lighten-4");
+$switch-unchecked-bg: color($utility, 'lighten-4');
 
 $collection-bg-color: $white;
 $collection-link-color: $accent-base;
@@ -144,4 +144,4 @@ $collection-active-color: lighten($accent-base, 55%) !default;
 
 
 // toast & tooltips
-$toast-color: color($utility, "darken-4");
+$toast-color: color($utility, 'darken-4');

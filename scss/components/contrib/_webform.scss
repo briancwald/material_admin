@@ -4,8 +4,8 @@
  */
 
 .webform-element-help {
-  font-size: 12px;
   line-height: 10px;
+  font-size: 12px;
 }
 
 .input-field label>[data-webform-help] {
@@ -14,31 +14,31 @@
 
 .webform-tabs {
   .ui-widget-header {
+    border: 0;
     background: none;
-    border: none;
     .ui-state-default {
+      border: 0;
       background: none;
-      border: none;
       a {
+        transition: color .28s ease;
+        opacity: 0.8;
         text-transform: uppercase;
         color: $tabs-text-color;
-        opacity: 0.8;
-        transition: color .28s ease;
         &:hover {
           opacity: 1;
         }
       }
     }
     .ui-state-active {
-      background: none;
-      border: none;
+      border: 0;
       border-bottom: 2px solid $tabs-text-color;
+      background: none;
       a {
-        color: $tabs-text-color;
-        opacity: 1;
-        text-overflow: ellipsis;
-        overflow: hidden;
         transition: color .28s ease;
+        opacity: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $tabs-text-color;
       }
     }
   }
@@ -46,8 +46,9 @@
 
 .action-links .button-action.webform-ajax-link {
   @extend .z-depth-1;
-  font-size: 1em;
+
   margin-bottom: 2em;
+  font-size: 1em;
 }
 
 .webform-modal {
@@ -59,7 +60,7 @@
   }
 }
 
-.webform-form table{
+.webform-form table {
   a.button-action {
     @extend .z-depth-0;
   }

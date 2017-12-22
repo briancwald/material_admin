@@ -4,19 +4,20 @@
  */
 
 .entities-list {
-	margin:10px 0;
+  margin: 10px 0;
   .item-container {
-  	background: color($utility, "lighten-4");
-  	padding:10px;
-  	margin:5px;
+    margin: 5px;
+    background: color($utility, 'lighten-4');
+    padding: 10px;
     &.rendered-entity {
       text-align: center;
     }
     &.ui-sortable-handle {
-      &:before {
+      &::before {
         @extend .material-icons;
+
+        padding: 5px;
         content: 'drag_handle';
-        padding:5px;
       }
     }
     .btn {

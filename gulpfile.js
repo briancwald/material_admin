@@ -1,23 +1,20 @@
 'use strict';
-
 /*global require:true*/
 /*jshint esversion: 6 */
-
-var gulp        = require('gulp');
-var sourcemaps  = require('gulp-sourcemaps');
-var sass        = require('gulp-sass');
-const jshint    = require('gulp-jshint');
-const stylish   = require('jshint-stylish');
-var gulpCopy    = require('gulp-copy');
-var replace     = require('gulp-replace');
-var $           = require('gulp-load-plugins')();
-var refresh     = require('gulp-refresh');
-
+var gulp = require('gulp');
+var sourcemaps = require('gulp-sourcemaps');
+var sass = require('gulp-sass');
+var sassLint = require('gulp-sass-lint');
+const jshint = require('gulp-jshint');
+const stylish = require('jshint-stylish');
+var gulpCopy = require('gulp-copy');
+var replace = require('gulp-replace');
+var $ = require('gulp-load-plugins')();
+var refresh = require('gulp-refresh');
 // provide a paht to node modules 
 var sassPaths = [
   'node_modules'
 ];
-
 // Copy materialize and tablesaw libraries.
 gulp.task('libsrc', function() {
   gulp.src([
@@ -33,7 +30,6 @@ gulp.task('libsrc', function() {
     ])
     .pipe(gulpCopy('js/lib', { prefix: 3 }));
 });
-
 // Rename functions that conflict with jQueryUI; then move to source control folder js/lib
 gulp.task('rename', function() {
   gulp.src(['js/vendor/materialize.min.js'])
@@ -43,9 +39,13 @@ gulp.task('rename', function() {
     .pipe(replace('.tabs(', '.tabs_materialize('))
     .pipe(gulp.dest('js/lib'));
 });
-
 gulp.task('sass', function() {
-  return gulp.src(['scss/material_admin.scss'])
+  return gulp.src(['scss/**/**.scss'])
+    .pipe(sassLint({
+      configFile: 'scss/.sass-lint.yml',
+    }))
+    .pipe(sassLint.format())
+    .pipe(sassLint.failOnError())
     .pipe(sourcemaps.init())
     .pipe(sourcemaps.identityMap())
     .pipe($.sass({
@@ -59,14 +59,12 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('css'))
     .pipe(refresh());
 });
-
 gulp.task('lint', function() {
   return gulp.src(['./js/*.js', '!./js/vendor.all.js'])
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
-
 gulp.task('default', ['sass'], function() {
-  refresh.listen(); 
+  refresh.listen();
   gulp.watch(['scss/**/*.scss'], ['sass']);
 });

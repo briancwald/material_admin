@@ -6,54 +6,50 @@
 // Make sure the charset is set appropriately
 @charset 'utf-8';
 
-@import "materialize-css/sass/components/normalize";
+@import 'materialize-css/sass/components/normalize';
 
 // Colors need to be called before variables
-@import "materialize-css/sass/components/color";
+@import 'materialize-css/sass/components/color';
 // Color Schema 
-@import '_color_schema';
+@import 'color_schema';
 
 // Variables;
-@import "materialize-css/sass/components/variables";
+@import 'materialize-css/sass/components/variables';
 
 //This is your _settings.scss file where you can manage/replace specific variables outside material design framework. 
 @import 'settings';
 
 // material design components
-@import "materialize-css/sass/components/typography";
-@import "materialize-css/sass/components/global";
-@import "materialize-css/sass/components/grid";
-@import "materialize-css/sass/components/collapsible";
-@import "materialize-css/sass/components/tabs";
-@import "materialize-css/sass/components/badges";
-@import "materialize-css/sass/components/buttons";
-@import "materialize-css/sass/components/forms/forms";
-@import "materialize-css/sass/components/waves";
-@import "materialize-css/sass/components/dropdown";
-@import "materialize-css/sass/components/modal";
-@import "materialize-css/sass/components/tooltip";
-@import "materialize-css/sass/components/toast";
-@import "materialize-css/sass/components/cards";
-@import "materialize-css/sass/components/transitions";
-@import "materialize-css/sass/components/date_picker/default";
-@import "materialize-css/sass/components/date_picker/default.date";
-@import "materialize-css/sass/components/date_picker/default.time";
-@import "materialize-css/sass/components/pulse";
-@import "materialize-css/sass/components/chips";
-@import "materialize-css/sass/components/icons-material-design";
+@import 'materialize-css/sass/components/typography';
+@import 'materialize-css/sass/components/global';
+@import 'materialize-css/sass/components/grid';
+@import 'materialize-css/sass/components/collapsible';
+@import 'materialize-css/sass/components/tabs';
+@import 'materialize-css/sass/components/badges';
+@import 'materialize-css/sass/components/buttons';
+@import 'materialize-css/sass/components/forms/forms';
+@import 'materialize-css/sass/components/waves';
+@import 'materialize-css/sass/components/dropdown';
+@import 'materialize-css/sass/components/modal';
+@import 'materialize-css/sass/components/tooltip';
+@import 'materialize-css/sass/components/toast';
+@import 'materialize-css/sass/components/cards';
+@import 'materialize-css/sass/components/transitions';
+@import 'materialize-css/sass/components/date_picker/default';
+@import 'materialize-css/sass/components/date_picker/default.date';
+@import 'materialize-css/sass/components/date_picker/default.time';
+@import 'materialize-css/sass/components/pulse';
+@import 'materialize-css/sass/components/chips';
+@import 'materialize-css/sass/components/icons-material-design';
 
 // Tablesaw
-@import "tablesaw/dist/stackonly/tablesaw.stackonly.scss";
-
-// Fonts
-@import "base/fonts/materialicons";
+@import 'tablesaw/dist/stackonly/tablesaw.stackonly.scss';
 
 // Base files
-@import "base/base";
+@import 'base/base';
 
 // Component files
-@import "components/components";
+@import 'components/components';
 
 // Section specific styling
-@import "section/section";
-
+@import 'section/section';
