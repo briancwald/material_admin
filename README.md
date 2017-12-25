@@ -14,6 +14,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
  - `gulp rename` renames conflict with jQueryUI and Materialize CSS autocomplete plugin and places it in /js/lib to manage in git repo.
  - `gulp sass` or `gulp` to watch sass changes
 
+
  ## Features Notes
 
  - Additional features supported with [Material Admin Support](https://github.com/briancwald/material_admin_support) module.
@@ -62,4 +63,4 @@ Since this is just a POC, code is not very well organized and needs to be mature
 - [x] Easy color swap in SCSS variables (_settings.scss)
 - [ ] Better way to handle Materialize CSS overrides
 - [ ] Prod deployment packaging (Min, optimize, etc)
-- [ ] Code standards + Lint
+- [x] Code standards + Lint
