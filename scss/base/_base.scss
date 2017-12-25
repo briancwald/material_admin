@@ -3,10 +3,13 @@
  *
  */
 
-@import "_common";
-@import "_drupal";
-@import "_layout";
-@import "_mixins";
+//material icon font
+@import 'fonts/_materialicons';
+
+@import '_common';
+@import '_drupal';
+@import '_layout';
+@import '_mixins';
 
 //import all overrides of core files
-@import "overrides/overrides";
+@import 'overrides/overrides';

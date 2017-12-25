@@ -3,23 +3,20 @@
  *
  */
 
-@import "_autocomplete-ui";
-@import "_breadcrumbs";
-@import "_chips";
-@import "_collections";
-@import "_dropbutton";
-@import "_forms";
-@import "_lists";
-@import "_messages";
-@import "_pager";
-@import "_progress-bar";
-@import "_tables";
-@import "_tabs";
-@import "_views";
+@import '_autocomplete-ui';
+@import '_breadcrumbs';
+@import '_chips';
+@import '_collections';
+@import '_dropbutton';
+@import '_forms';
+@import '_lists';
+@import '_messages';
+@import '_pager';
+@import '_progress-bar';
+@import '_tables';
+@import '_tabs';
+@import '_views';
 
 
 // Specific overrides to common contrib modules that provide a UI.
-@import "contrib/_contrib";
-
-
-
+@import 'contrib/_contrib';

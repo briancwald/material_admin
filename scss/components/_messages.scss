@@ -10,8 +10,8 @@
 .message-trigger {
   color: $black;
   .mt-text {
-    margin-left: 5px;
     margin-right: 5px;
+    margin-left: 5px;
     color: $black;
   }
   i,
@@ -20,30 +20,30 @@
     color: $black;
   }
   span.badge {
-    color: $white;
+    display: none;
+    margin-left: 5px;
+    border-radius: 50%;
+    padding: 0 5px;
     min-width: 25px;
     min-height: 25px;
     line-height: 25px;
-    margin-left: 5px;
-    padding: 0 5px;
-    display: none;
-    border-radius: 50%;
+    color: $white;
     font-size: 0.8rem;
   }
 }
 
 .message-action {
-  font-size: .8rem;
-  font-weight: 500;
   margin-right: 0;
   margin-left: 3rem;
+  font-size: .8rem;
+  font-weight: 500;
 }
 
 .messages--warning,
 .messages--status,
-.messages--error, {
-  background-image: none !important;
+.messages--error {
   box-shadow: none !important;
+  background-image: none !important;
   &.messages-clone .card {
     @extend .z-depth-0;
   }
@@ -60,78 +60,84 @@
 // Trigger notifications button
 a.modal-trigger {
   transition: color .3s ease;
+  padding-left: 10px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-left: 10px;
   color: $black;
   &:hover {
-    color: color($utility, "darken-2");
+    color: color($utility, 'darken-2');
   }
 }
 
 .description.modal-trigger {
-  text-transform: none;
-  font-size: .8em;
-  padding: 0;
-  margin: 10px 5px;
   display: block;
-  color: color($primary, "darken-1")
+  margin: 10px 5px;
+  padding: 0;
+  text-transform: none;
+  color: color($primary, 'darken-1');
+  font-size: .8em;
 }
 
 .modal-content .notification-title {
-  border-bottom: 1px solid color($utility, "darken-2");
+  border-bottom: 1px solid color($utility, 'darken-2');
   padding-bottom: 10px;
   font-size: 1.7rem;
 }
 
-.messages--status, .messages--status.messages {
-  background-color: $status-bg!important;
-  color:$white;
-  &.messages-clone {
-    .card-content {
-      border: 2px solid $status-bg!important;
-      color: $black;
-      .message-header .card-title {
-        &:before {
-          content: 'check';
-          color: $status-bg;
-          @extend .material-icons;
-        }
-      }
-    }
-  }
-}
-
-.messages--warning, .messages--warning.messages {
-  background-color: $warning-bg!important;
-  color:$white;
-  &.messages-clone {
-    .card-content {
-      border: 2px solid $warning-bg!important;
-      color: $black;
-      .message-header .card-title {
-        &:before {
-          content: 'warning';
-          color: $warning-bg;
-          @extend .material-icons;
-        }
-      }
-    }
-  }
-}
-
-.messages--error, .messages--error.messages {
-  background: $error-bg!important;
+.messages--status,
+.messages--status.messages {
+  background-color: $status-bg !important;
   color: $white;
   &.messages-clone {
     .card-content {
-      border: 2px solid $error-bg!important;
+      border: 2px solid $status-bg !important;
       color: $black;
       .message-header .card-title {
-        &:before {
-          content: 'error';
-          color: $error-bg;
+        &::before {
           @extend .material-icons;
+
+          color: $status-bg;
+          content: 'check';
+        }
+      }
+    }
+  }
+}
+
+.messages--warning,
+.messages--warning.messages {
+  background-color: $warning-bg !important;
+  color: $white;
+  &.messages-clone {
+    .card-content {
+      border: 2px solid $warning-bg !important;
+      color: $black;
+      .message-header .card-title {
+        &::before {
+          @extend .material-icons;
+
+          color: $warning-bg;
+          content: 'warning';
+        }
+      }
+    }
+  }
+}
+
+.messages--error,
+.messages--error.messages {
+  background: $error-bg !important;
+  color: $white;
+  &.messages-clone {
+    .card-content {
+      border: 2px solid $error-bg !important;
+      color: $black;
+      .message-header .card-title {
+        &::before {
+          @extend .material-icons;
+
+          color: $error-bg;
+          content: 'error';
         }
       }
     }
@@ -139,9 +145,9 @@ a.modal-trigger {
 }
 
 .messages-clone {
-  background: $body-background!important;
+  background: $body-background !important;
   .card-title {
-    &:before,
+    &::before,
     .message-number {
       padding-right: 10px;
     }
@@ -152,10 +158,10 @@ a.modal-trigger {
       padding-left: 30px;
       li.messages__item {
         margin-bottom: 10px;
-        border-bottom: 1px solid color($utility, "darken-2");
+        border-bottom: 1px solid color($utility, 'darken-2');
         padding-bottom: 10px;
         &:last-child {
-          border-bottom: none;
+          border-bottom: 0;
         }
       }
     }

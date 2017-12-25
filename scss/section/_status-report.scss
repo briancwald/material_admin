@@ -9,13 +9,13 @@
     .card-content {
       text-align: center;
       .card-title.report-counter-amount {
-        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
         padding: 15px;
         width: 2.5em;
         height: 2.5em;
-        display: inline-block;
-        border-radius: 50%;
-        color:$white;
+        text-align: center;
+        color: $white;
       }
       .card-actions {
         padding-top: 1em;
@@ -33,51 +33,53 @@
 
 .system-status-report__status-icon--checked {
   .collapsible-header {
-    &:before {
-      content: 'check';
-      color:$status-text;
+    &::before {
       @extend .material-icons;
+
       padding-right: 1em;
+      color: $status-text;
+      content: 'check';
     }
   }
 }
 
 .system-status-report__status-icon--warning {
   .collapsible-header {
-    &:before {
-      content: 'warning';
+    &::before {
       @extend .material-icons;
-      color:$warning-text;
+
       padding-right: 1em;
+      color: $warning-text;
+      content: 'warning';
     }
   }
   .collapsible-body {
-    color:$warning-text;
+    color: $warning-text;
     .description {
-      color:$black;
+      color: $black;
     }
   }
 }
 
 .system-status-report__status-icon--error {
   .collapsible-header {
-    &:before {
-      content: 'error';
+    &::before {
       @extend .material-icons;
-      color: $error-text;
+
       padding-right: 1em;
+      color: $error-text;
+      content: 'error';
     }
   }
   .collapsible-body {
-   color: $error-text;
+    color: $error-text;
     .description {
-      color:$black;
+      color: $black;
     }
   }
 }
 
 .cron-description__run-cron {
-  margin:0px 10px;
+  margin: 0 10px;
   text-transform: uppercase;
-
 }

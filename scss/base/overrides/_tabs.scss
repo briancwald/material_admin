@@ -10,13 +10,13 @@
     margin: 0;
     padding: .2em .2em 0;
     li {
-      list-style: none;
-      float: left;
       position: relative;
       top: 0;
+      float: left;
       margin: 1px .2em 0 0;
       border-bottom-width: 0;
       padding: 0;
+      list-style: none;
       white-space: nowrap;
     }
     .ui-tabs-anchor {
@@ -44,12 +44,13 @@
   }
   .ui-tabs-panel {
     display: block;
+    outline: none;
     border-width: 0;
-    padding: 1em .5em;
     background: none;
-    outline:none;
+    padding: 1em .5em;
   }
 }
+
 .ui-tabs-collapsible {
   .ui-tabs-nav {
     li.ui-tabs-active {

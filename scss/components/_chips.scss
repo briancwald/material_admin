@@ -10,8 +10,8 @@
     li.chip {
       display: inline-block;
       font-weight: 200;
-      &:after {
-        content: "";
+      &::after {
+        content: '';
       }
       &:empty {
         visibility: hidden;
@@ -21,13 +21,13 @@
 }
 
 table.highlight>tbody>tr:hover li.chip {
-  background-color: color($utility, "lighten-5");
+  background-color: color($utility, 'lighten-5');
 }
 
 .chip.ui-tabs-tab {
   display: inherit;
-  height: inherit;
-  font-size: inherit;
-  line-height: inherit;
   border-radius: 3px 3px 0 0;
+  height: inherit;
+  line-height: inherit;
+  font-size: inherit;
 }

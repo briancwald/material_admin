@@ -4,25 +4,26 @@
  */
 
 .progress {
-  overflow: inherit;
-  height: 10px;
   background-color: transparent;
+  height: 10px;
+  overflow: inherit;
   .progress__track {
-    background-color: color($accent, "accent-1");
-    border-color: color($accent, "accent-1");
-    background-image: none;
-    box-shadow: none;
     border-radius: 0;
+    border-color: color($accent, 'accent-1');
+    box-shadow: none;
+    background-color: color($accent, 'accent-1');
+    background-image: none;
     height: 10px;
     .progress__bar {
       @extend .determinate;
+
       position: relative;
-      border: 0;
-      background: none;
-      background-color: color($accent, "lighten-1");
       margin: 0;
-      height: 10px;
+      border: 0;
       border-radius: 0;
+      background: none;
+      background-color: color($accent, 'lighten-1');
+      height: 10px;
     }
   }
 }

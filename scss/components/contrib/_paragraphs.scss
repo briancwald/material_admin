@@ -5,16 +5,16 @@
 
 .btn-paragraph-action {
   color: color($action, 'base');
-  font-weight:400;
+  font-weight: 400;
   &:hover {
-    color:color($action, "lighten-3");
+    color: color($action, 'lighten-3');
   }
 }
 
 .paragraphs-dropdown-action.button {
-  font-weight:300;
+  font-weight: 300;
 }
 
 .js .paragraph-top .paragraph-type {
-  display:inherit;
+  display: inherit;
 }

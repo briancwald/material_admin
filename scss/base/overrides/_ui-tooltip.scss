@@ -4,10 +4,10 @@
  */
 
 .ui-tooltip {
-  background-color: $toast-color;
-  color: white;
+  border: 0;
   box-shadow: none;
-  border: none;
+  background-color: $toast-color;
+  color: $white;
   a {
     color: $link-color;
   }

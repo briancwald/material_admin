@@ -10,8 +10,8 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     .input-field {
-      margin: 10px 10px!important;
       flex: 0 1 20%;
+      margin: 10px !important;
     }
   }
 }
@@ -25,17 +25,28 @@
 }
 
 //override materializecss: dont set form width, only max width and allow the form fields to use its length.
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default) {
-  max-width: 100%;
+input:not([type]),
+input[type='text']:not(.browser-default),
+input[type='password']:not(.browser-default),
+input[type='email']:not(.browser-default),
+input[type='url']:not(.browser-default),
+input[type='time']:not(.browser-default),
+input[type='date']:not(.browser-default),
+input[type='datetime']:not(.browser-default),
+input[type='datetime-local']:not(.browser-default),
+input[type='tel']:not(.browser-default),
+input[type='number']:not(.browser-default),
+input[type='search']:not(.browser-default) {
   width: inherit;
+  max-width: 100%;
 }
 
 textarea.materialize-textarea {
-  padding: .8rem .5rem 1.6rem .5rem; // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
-  max-width: 95%;
+  padding: .8rem .5rem 1.6rem; // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
   width: inherit;
+  max-width: 95%;
   &:focus {
-    border: 1px solid color($accent, "lighten-1");
+    border: 1px solid color($accent, 'lighten-1');
   }
 }
 
@@ -52,20 +63,21 @@ textarea.materialize-textarea {
 }
 
 .select-wrapper {
-  max-width: 450px;
   width: 100%;
-  + label {
-    transition:none;
+  max-width: 450px;
+  +label {
     transform: none;
+    transition: none;
   }
   .caret {
     visibility: hidden;
-    &:after {
+    &::after {
       @extend .material-icons;
-      content: 'arrow_drop_down';
+
+      right: 0;
       visibility: visible;
       font-size: 2.5em;
-      right: 0;
+      content: 'arrow_drop_down';
     }
   }
   .input.select-dropdown {
@@ -73,8 +85,8 @@ textarea.materialize-textarea {
   }
 }
 
-.views-field-node-bulk-form .form-type-checkbox{
-  width:35px;
+.views-field-node-bulk-form .form-type-checkbox {
+  width: 35px;
 }
 
 .form-type-entity-autocomplete {
@@ -83,17 +95,20 @@ textarea.materialize-textarea {
   }
 }
 
-.form-item, .filter-wrapper .form-item, .form-item.password-parent, .form-item.confirm-parent {
-  margin: 25px 0;
-  &.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix) {
-    margin: 45px 0px 25px 0px;
-  }
+.form-item,
+.filter-wrapper .form-item,
+.form-item.password-parent,
+.form-item.confirm-parent {
   position: relative;
+  margin: 25px 0;
   overflow: visible;
+  &.form-has-label:not(.form-type-checkbox):not(.form-type-radio):not(.has-prefix):not(.has-prefix-and-suffix) {
+    margin: 45px 0 25px;
+  }
   .form-required {
-    &:after {
-      content: " *";
-      color:$error-color;
+    &::after {
+      color: $error-color;
+      content: ' *';
     }
   }
 }
@@ -109,18 +124,21 @@ textarea.materialize-textarea {
 
 .package-listing .details-description .links {
   @extend .card-action;
+
   position: relative;
+  border-top: 1px solid color($utility, 'lighten-3');
   background-color: inherit;
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px 24px;
 }
 
 .details-wrapper table thead {
-  border: none;
+  border: 0;
 }
 
 //form items in tables require less margin (but only the tope level item)
-table td>.form-item, table td>.ajax-new-content>.form-item, table td .fieldset-wrapper>.form-item {
+table td>.form-item,
+table td>.ajax-new-content>.form-item,
+table td .fieldset-wrapper>.form-item {
   margin: 0;
   &~.form-wrapper {
     margin: 25px 0;
@@ -135,15 +153,15 @@ table td .form-item .select-wrapper input.select-dropdown {
   top: 0;
 }
 
-input[type=checkbox] {
+input[type='checkbox'] {
   @extend .filled-in;
 }
 
 #edit-actions {
-  .button {}
   .button--danger {
     @extend .btn-flat;
-    color:$error-text;
+
+    color: $error-text;
   }
 }
 
@@ -155,8 +173,8 @@ input.btn {
 }
 
 abbr.warning {
- color:$warning-text;
   text-decoration: none;
+  color: $warning-text;
 }
 
 .switch label {
@@ -166,31 +184,39 @@ abbr.warning {
 
 //switch labels are overridden, so it tries to add it in via JS, this prevents 2 labels.
 .switch label:not(.switch-label) {
-    position: relative !important;
-    clip: inherit;
-    visibility: hidden;
-    width: 1px;
-    display: inline-block;
-    vertical-align: middle;
-    padding:0;
-}
+  display: inline-block;
+  position: relative !important;
+  visibility: hidden;
+  padding: 0;
+  width: 1px;
+  vertical-align: middle;
 
-.input-field.js-form-type-checkbox label {
-  top: 0;
+  clip: inherit;
 }
 
 // align multiple checkboxes with label
-.input-field .dropdown-content [type="checkbox"]+label {
-  top: 0;
+.input-field .dropdown-content [type='checkbox']+label {
   display: inline;
+  top: 0;
 }
 
 abbr[title] {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
 //input form field handling 
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search] {
+input:not([type]),
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='url'],
+input[type='time'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='tel'],
+input[type='number'],
+input[type='search'] {
   width: inherit;
   max-width: 100%;
 }
@@ -198,13 +224,15 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 //checkbox fix to work with materialize
 .js-form-type-checkbox {
   label.visually-hidden {
-    position: relative!important;
-    clip: inherit;
+    display: inline-block;
+    position: relative !important;
     visibility: hidden;
     width: 1px;
-    display: inline-block;
     vertical-align: middle;
-    &:before, &:after {
+
+    clip: inherit;
+    &::before,
+    &::after {
       visibility: visible;
     }
   }
@@ -218,9 +246,28 @@ h4.label {
 //instead of replacing the collapsible with materialize which can cause issues with drupal AJAX, style the default details
 details.form-wrapper {
   @extend .collapsible;
+
+  position: relative;
   text-align: left;
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  &[open]>summary::after {
+    @extend .material-icons,
+    .collapse-down;
+
+    line-height: 1em;
+  }
+  summary::after {
+    @extend .material-icons,
+    .collapse-right;
+
+    line-height: 1em;
+  }
   summary {
     @extend .collapsible-header;
+
+    display: block;
     &:focus {
       outline: 0;
     }
@@ -228,49 +275,35 @@ details.form-wrapper {
   .details-wrapper {
     padding: 1rem 2rem; //prevent nested wrappers from providing too much z-depth
     details.form-wrapper {
+      border: 1px solid color($utility, 'lighten-2') !important;
       box-shadow: none;
-      border: 1px solid color($utility, "lighten-2")!important;
     }
     .details-description {
-      padding:10px 0;
+      padding: 10px 0;
     }
-  }
-}
-
-details.form-wrapper {
-  position: relative;
-  summary::-webkit-details-marker {
-    display: none;
-  }
-  summary {
-    display: block;
-  }
-  &[open]>summary:after {
-    @extend .material-icons, .collapse-down;
-    line-height: 1em;
-  }
-  summary:after {
-    @extend .material-icons, .collapse-right;
-    line-height: 1em;
   }
 }
 
 .entity-meta__header {
-  @extend .shadow-box, .z-depth-1;
+  @extend .shadow-box,
+  .z-depth-1;
 }
 
-.entity-meta__last-saved h4, .entity-meta__author h4, .field--name-created h4 {
+.entity-meta__last-saved h4,
+.entity-meta__author h4,
+.field--name-created h4 {
   font-size: 1rem;
   font-weight: bold;
-  &:before {
-    padding-right: 10px;
+  &::before {
     @extend .material-icons;
+
+    padding-right: 10px;
     vertical-align: baseline;
   }
 }
 
 .entity-meta__last-saved h4 {
-  &:before {
+  &::before {
     content: 'date_range';
   }
 }
@@ -280,28 +313,31 @@ details.form-wrapper {
 }
 
 .container-inline .form-item {
-  padding-right: 10px;
   display: inline;
+  padding-right: 10px;
 }
 
-.container-inline label:empty:after, .container-inline .label:empty:after {
-  content: "";
+.container-inline label:empty::after,
+.container-inline .label:empty::after {
+  content: '';
 }
 
-.form--inline, .dblog-filter-form {
+.form--inline,
+.dblog-filter-form {
   .form-actions {
     padding: 0 10px;
   }
 }
 
 .entity-meta__author h4 {
-  &:before {
+  &::before {
     content: 'person';
   }
 }
 
 a#edit-cancel {
   @extend .btn-flat;
+
   color: $warning-text;
 }
 
@@ -311,6 +347,7 @@ a#edit-cancel {
 
 .confirm-form-wrapper {
   @extend .z-depth-1;
+
   padding: 1em;
   .form-actions {
     margin-top: 1em;
@@ -325,8 +362,9 @@ a#edit-cancel {
       font-weight: bold;
     }
     span.admin-link {
+      @extend .btn-flat;
+
       margin: 0 10px;
-      @extend .btn-flat
     }
   }
 }
@@ -340,17 +378,40 @@ a#edit-cancel {
   .field-prefix {
     padding-right: 15px;
   }
+  .search-wrapper {
+    margin: 0 12px;
+    i.material-icons {
+      display: inline-block;
+      padding-right: 10px;
+      vertical-align: middle;
+      font-size: 1.25em;
+    } //align description with the textfield rather than the icon
+    ~.description {
+      margin-left: 40px;
+    }
+    input[type='search'] {
+      display: inline-block;
+      padding-left: 0;
+      &:focus {
+        border-bottom: 1px solid color($accent, 'lighten-1');
+      }
+    }
+  }
 }
 
-.has-prefix-and-suffix, .has-prefix, .has-suffix {
+
+.has-prefix-and-suffix,
+.has-prefix,
+.has-suffix {
   >* {
-    display:inline;
-    width:inherit;
+    display: inline;
+    width: inherit;
     vertical-align: middle;
   }
 }
 
-.dblog-filter-form .form-item-type, .dblog-filter-form .form-item-severity {
+.dblog-filter-form .form-item-type,
+.dblog-filter-form .form-item-severity {
   min-width: 300px;
 }
 
@@ -359,12 +420,13 @@ a#edit-cancel {
 }
 
 .input-field.has-initial-content .select-wrapper+label {
-  transform:none;
-  transition:none;
+  transform: none;
+  transition: none;
 }
 
 .input-field.has-initial-content label {
   transform: translateY(-14px) scale(0.8);
+
   transform-origin: 0 0;
 }
 
@@ -378,33 +440,10 @@ a#edit-cancel {
   }
   &.form-has-label {
     margin: 45px 0;
-    padding: 45px 0 0 0;
+    padding: 45px 0 0;
     >label {
       position: absolute;
       font-size: 0.8rem;
-    }
-  }
-}
-
-.input-field {
-  .search-wrapper {
-    i.material-icons {
-      display: inline-block;
-      padding-right: 10px;
-      font-size: 1.25em;
-      vertical-align: middle;
-    }
-    //align description with the textfield rather than the icon
-    ~ .description {
-      margin-left:40px;
-    }
-    margin: 0 12px;
-    input[type=search] {
-      padding-left: 0;
-      display: inline-block;
-      &:focus {
-        border-bottom: 1px solid color($accent, "lighten-1");
-      }
     }
   }
 }
@@ -414,12 +453,12 @@ a#edit-cancel {
   .collection-item.has-collection-link {
     padding: 0;
     a {
-      padding: 10px 20px;
       display: block;
+      padding: 10px 20px;
       width: 100%;
-      color: color($accent, "lighten-1");
+      color: color($accent, 'lighten-1');
       &:hover {
-        background: color($utility, "lighten-2");
+        background: color($utility, 'lighten-2');
         text-decoration: none;
       }
     }
@@ -428,7 +467,7 @@ a#edit-cancel {
 
 // 'waves' input button padding fix
 i.waves-input-wrapper {
-  padding: 0!important;
+  padding: 0 !important;
   .waves-button-input {
     padding: 0 2em;
     height: 100%;
@@ -445,7 +484,6 @@ i.waves-input-wrapper {
     display: inline-block;
     padding: 5px 10px;
     font-weight: 300;
-    transition: all 2s ease-in;
   }
 }
 
@@ -479,28 +517,29 @@ i.waves-input-wrapper {
 .image-style-new {
   display: inline-block;
   div {
-    min-width: 200px;
     display: inline-block;
     margin: 0;
+    min-width: 200px;
   }
   i.waves-input-wrapper.input-form-submit {
-    margin: 0 1em!important;
+    margin: 0 1em !important;
   }
 }
 
 fieldset.form-wrapper {
-  margin-left: 0px;
+  margin-left: 0;
   padding: 10px;
   legend {
     margin: 0 5px 5px 0;
     span.fieldset-legend {
       @extend .z-depth-1;
-      background: color($primary, "base");
-      color:$white;
-      font-size: 16px;
+
+      background: color($primary, 'base');
       padding: 5px 10px;
       text-transform: uppercase;
       letter-spacing: .5px;
+      color: $white;
+      font-size: 16px;
       &:empty {
         display: none;
         padding: 5px 10px;
@@ -511,20 +550,21 @@ fieldset.form-wrapper {
 
 // For fieldgroups dont use teh fieldset border or z-depth to reduce clutter.
 fieldset.fieldgroup.form-wrapper {
-  padding-left:0;
+  padding-left: 0;
   legend {
-    font-weight:500;
-    margin:15px 0 0 0;
+    margin: 15px 0 0;
+    font-weight: 500;
     span.fieldset-legend {
       @extend .z-depth-0;
+
       background: transparent;
-      color: color($primary, "base");
-      padding-left:0;
+      padding-left: 0;
+      color: color($primary, 'base');
     }
   }
   .fieldset-wrapper {
     .form-radios {
-      margin-top:10px;
+      margin-top: 10px;
     }
   }
 }
@@ -533,13 +573,13 @@ fieldset.fieldgroup.form-wrapper {
   position: relative;
 }
 
-.file-field input[type=file] {
+.file-field input[type='file'] {
   width: auto;
 }
 
 .has-description-after {
   input {
-    margin-bottom: 10px!important;
+    margin-bottom: 10px !important;
   }
   div.description {
     margin-bottom: 30px;
@@ -548,24 +588,24 @@ fieldset.fieldgroup.form-wrapper {
 
 // This block overrides normal .collapsible styles.
 .exposed-form-collapsible {
-  box-shadow: none;
-  border: none;
-  padding: 1rem;
-  opacity: 1;
   transition: .2s;
+  opacity: 1;
+  border: 0;
+  box-shadow: none;
+  padding: 1rem;
   @media #{$small-and-down} {
     div.collapsible-header {
       margin-bottom: 0;
     }
   }
   .collapsible-header {
-    border: none;
-    padding: 0;
-    margin-bottom: 1rem;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    vertical-align: middle;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    border: 0;
+    padding: 0;
+    vertical-align: middle;
     a {
       margin-right: 5px;
     }
@@ -574,26 +614,25 @@ fieldset.fieldgroup.form-wrapper {
     }
   }
   .collapsible-body {
-    background: color($utility, "lighten-4");
-    border: none;
-    font-weight: inherit;
-    //account for labels being absolute positioned with padding-top
-    padding: 45px 10px 10px 10px;
+    border: 0;
+    background: color($utility, 'lighten-4');
+    padding: 45px 10px 10px;
+    font-weight: inherit; //account for labels being absolute positioned with padding-top
     .form--inline {
       justify-content: flex-end;
       .form-actions {
-        padding-top:15px;
+        padding-top: 15px;
       }
     }
   }
   .exposed-form-chips {
-    margin-right: .5rem;
-    text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
     margin-top: 10px;
+    margin-right: .5rem;
+    text-transform: capitalize;
     .chip {
       overflow: hidden;
       white-space: nowrap;
