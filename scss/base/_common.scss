@@ -5,6 +5,7 @@
 
 .material-tooltip {
   max-width: $max-readability-width; //set max width to a readible length (700px max)
+
   pointer-events: auto;
 }
 
@@ -159,6 +160,8 @@ label {
 }
 
 .button-action {
+  @extend .btn;
+
   background: $button-action;
   color: $button-action-text;
   &::before {
