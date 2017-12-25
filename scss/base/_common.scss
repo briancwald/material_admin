@@ -171,7 +171,9 @@ label {
     color: $white;
     content: 'add';
   }
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     background: $button-action-hover;
   }
 }

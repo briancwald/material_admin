@@ -6850,7 +6850,7 @@ label {
     margin: 0 10px 0 0;
     color: #FFFFFF;
     content: 'add'; }
-  .button-action:hover {
+  .button-action:hover, .button-action:active, .button-action:focus {
     background: #f18589; }
 
 .button.button--danger:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button.button--danger:hover {
