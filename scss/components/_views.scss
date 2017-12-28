@@ -418,11 +418,6 @@ details.views-display-column.form-wrapper {
   }
 }
 
-.views-admin .form-type-checkbox label,
-.views-admin .form-type-radio label {
-  line-height: inherit;
-}
-
 .view-preview-form .form-item-live-preview {
   top: 5px;
   font-size: 1.3rem;
@@ -435,5 +430,24 @@ details.views-display-column.form-wrapper {
 
     z-index: 3;
     padding: 20px 15px;
+  }
+}
+
+// Create new view form
+.views-admin {
+  .form-type-checkbox label,
+  .form-type-checkbox label,
+  .form-type-radio label,
+  .form-item-page-create label,
+  .form-item-block-create label,
+  .form-item-rest-export-create label {
+    line-height: inherit;
+    font-weight: normal;
+  }
+  fieldset.container-inline {
+    .form-item {
+      display: inline-block;
+      padding-right: 20px;
+    }
   }
 }
