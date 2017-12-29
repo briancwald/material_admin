@@ -407,7 +407,8 @@ span.marker {
   }
 }
 
-.collection.with-header .collection-header.no-bottom-border {
+.collection.with-header .collection-header.no-bottom-border,
+.collection .collection-item:last-of-type {
   border-bottom: 0;
 }
 

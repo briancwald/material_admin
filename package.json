@@ -32,6 +32,7 @@
   "dependencies": {
     "eslint": "^4.4.1",
     "gulp-autoprefixer": "^3.1.0",
+    "sass-web-fonts": "^2.0.2",
     "tablesaw": "^3.0.3"
   }
 }

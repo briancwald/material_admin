@@ -4040,6 +4040,10 @@ sass-lint@^1.12.0:
     path-is-absolute "^1.0.0"
     util "^0.10.3"
 
+sass-web-fonts@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/sass-web-fonts/-/sass-web-fonts-2.0.2.tgz#cf72b9e76d20556d18148918039101af084b38cb"
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"

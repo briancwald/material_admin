@@ -5,7 +5,7 @@
 
 // Make sure the charset is set appropriately
 @charset 'utf-8';
-
+@import 'sass-web-fonts/web-fonts';
 @import 'materialize-css/sass/components/normalize';
 
 // Colors need to be called before variables

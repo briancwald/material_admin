@@ -8,7 +8,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import '//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,50i,700,700i';
+@import url("//fonts.googleapis.com/css?family=Roboto%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -6563,7 +6563,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-family: 'Material Icons';
   font-weight: 400;
   font-style: normal;
-  src: "//fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2" format("woff2"); }
+  src: url("//fonts.gstatic.com/s/materialicons/v28/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2") format("woff2"); }
 
 .material-icons, .button-action::before, .collapsible li.active .collapsible-header.with-arrows::after, details.form-wrapper li.active .collapsible-header.with-arrows::after, .collapsible li.active details.form-wrapper summary.with-arrows::after, details.form-wrapper .collapsible li.active summary.with-arrows::after, details.form-wrapper li.active summary.with-arrows::after, .collapsible li.active .collapsible-header.right-arrows::after, details.form-wrapper li.active .collapsible-header.right-arrows::after, .collapsible li.active details.form-wrapper summary.right-arrows::after, details.form-wrapper .collapsible li.active summary.right-arrows::after, details.form-wrapper li.active summary.right-arrows::after, .collapsible li .collapsible-header.with-arrows::after, details.form-wrapper li .collapsible-header.with-arrows::after, .collapsible li details.form-wrapper summary.with-arrows::after, details.form-wrapper .collapsible li summary.with-arrows::after, details.form-wrapper li summary.with-arrows::after, .collapsible li .collapsible-header.right-arrows::after, details.form-wrapper li .collapsible-header.right-arrows::after, .collapsible li details.form-wrapper summary.right-arrows::after, details.form-wrapper .collapsible li summary.right-arrows::after, details.form-wrapper li summary.right-arrows::after, .region-title__action .button::after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.button--danger::after, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button.success::after, .color-palette .color-palette__hook.is-up::before, .color-palette button.color-palette__lock::before,
 .color-palette .color-palette__lock::before, .file::before, .breadcrumb-nav ol li:first-child a::before, .breadcrumb-nav ol li::before, .details-item .collapsible-header::before, .details-item details.form-wrapper summary::before, details.form-wrapper .details-item summary::before, .details-item .collapsible-header.active::before, .details-item details.form-wrapper summary.active::before, details.form-wrapper .details-item summary.active::before, .collection .collection-item > .item-list .collection .collection-item::before, .dropdown-button::after, .dropdown-button.active::after, .select-wrapper .caret::after, details.form-wrapper[open] > summary::after, details.form-wrapper summary::after, .entity-meta__last-saved h4::before,
@@ -6993,7 +6993,8 @@ span.marker {
   .offset-tabs {
     margin-left: -20px; } }
 
-.collection.with-header .collection-header.no-bottom-border {
+.collection.with-header .collection-header.no-bottom-border,
+.collection .collection-item:last-of-type {
   border-bottom: 0; }
 
 .fixed-action-btn.horizontal ul {
@@ -9475,6 +9476,19 @@ table > tbody > tr.field-plugin-settings-editing {
   background-color: #f5f5f5;
   padding: 1em; }
 
+.views-admin .form-type-checkbox label,
+.views-admin .form-type-checkbox label,
+.views-admin .form-type-radio label,
+.views-admin .form-item-page-create label,
+.views-admin .form-item-block-create label,
+.views-admin .form-item-rest-export-create label {
+  line-height: inherit;
+  font-weight: normal; }
+
+.views-admin fieldset.container-inline .form-item {
+  display: inline-block;
+  padding-right: 20px; }
+
 .views-admin .collection-item,
 .views-admin .collection {
   overflow: visible; }
@@ -9733,19 +9747,6 @@ details.views-display-column.form-wrapper {
   .views-ui-dialog .views-override:not(:empty) {
     z-index: 3;
     padding: 20px 15px; }
-
-.views-admin .form-type-checkbox label,
-.views-admin .form-type-checkbox label,
-.views-admin .form-type-radio label,
-.views-admin .form-item-page-create label,
-.views-admin .form-item-block-create label,
-.views-admin .form-item-rest-export-create label {
-  line-height: inherit;
-  font-weight: normal; }
-
-.views-admin fieldset.container-inline .form-item {
-  display: inline-block;
-  padding-right: 20px; }
 
 /* @file
  * Contrib overrides

@@ -13,7 +13,7 @@
 //   6. Color Palette
 // 1. Global
 // ---------
-@import '//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,50i,700,700i';
+@import url(web-fonts-url(('Roboto': ('300', '300i', '400', '400i', '500', '500i', '700', '700i'))));
 
 $global-font-size: 100%;
 $global-width: 1200px;
