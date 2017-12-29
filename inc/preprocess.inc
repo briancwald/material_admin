@@ -114,18 +114,20 @@ function material_admin_preprocess_menu_local_action(&$variables) {
  * Implements hook_reprocess_views_ui_display_tab_setting().
  */
 function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
-  if (count($variables['settings_links']) === 1 && strpos($variables['settings_links'][0]->getGeneratedLink(), 'display_title"') !== FALSE) {
+  if (count($variables['settings_links']) === 1 && $variables['settings_links'][0] instanceof \Drupal\Core\GeneratedLink && strpos($variables['settings_links'][0]->getGeneratedLink(), 'display_title"') !== FALSE) {
     unset($variables['description']);
   }
   else {
     foreach ($variables['settings_links'] as &$link) {
-      if (!empty($variables['description'])) {
-        $variables['description'] = str_replace(':', '', $variables['description']);
+      if($link instanceof \Drupal\Core\GeneratedLink){
+        if (!empty($variables['description'])) {
+          $variables['description'] = str_replace(':', '', $variables['description']);
+        }
+        /** @var \Drupal\Core\GeneratedLink $link */
+        $generated_link = $link->getGeneratedLink();
+        $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
+        $link->setGeneratedLink($generated_link);
       }
-      /** @var \Drupal\Core\GeneratedLink $link */
-      $generated_link = $link->getGeneratedLink();
-      $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
-      $link->setGeneratedLink($generated_link);
     }
   }
 }
