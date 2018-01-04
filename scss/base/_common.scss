@@ -5,7 +5,6 @@
 
 .material-tooltip {
   max-width: $max-readability-width; //set max width to a readible length (700px max)
-
   pointer-events: auto;
 }
 
@@ -167,8 +166,11 @@ label {
   &::before {
     @extend .material-icons;
 
+    display: inline-block;
     margin: 0 10px 0 0;
-    color: $white;
+    vertical-align: text-top;
+    font-size: 1.25rem;
+    font-weight: 600;
     content: 'add';
   }
   &:hover,

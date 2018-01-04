@@ -6847,8 +6847,11 @@ label {
   background: #ee6e73;
   color: #FFFFFF !important; }
   .button-action::before {
+    display: inline-block;
     margin: 0 10px 0 0;
-    color: #FFFFFF;
+    vertical-align: text-top;
+    font-size: 1.25rem;
+    font-weight: 600;
     content: 'add'; }
   .button-action:hover, .button-action:active, .button-action:focus {
     background: #f18589; }
