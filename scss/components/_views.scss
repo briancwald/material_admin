@@ -118,7 +118,7 @@ details.views-display-column.form-wrapper {
 }
 
 .collection>.collection.views-subcollection {
-  padding-top: .5rem;
+  padding: .5rem 0 0;
   &:first-of-type {
     padding-top: 1rem;
   }
@@ -144,6 +144,10 @@ details.views-display-column.form-wrapper {
       margin-top: 5px;
     }
   }
+}
+
+.views-ui-display-tab-bucket>.views-display-setting {
+  padding: .5rem 0 0;
 }
 
 #edit-display-settings-top {
@@ -439,7 +443,8 @@ details.views-display-column.form-wrapper {
 }
 
 .views-ui-dialog {
-  padding: 1em 2em;
+  padding: 1em;
+
   .views-override:not(:empty) {
     @extend .z-depth-1;
 

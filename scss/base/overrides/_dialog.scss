@@ -11,7 +11,7 @@
   border: 0;
   border-radius: 2px;
   background: $body-background;
-  padding: 0;
+  padding: 10px 0;
   overflow: visible;
   color: $black;
   .ui-dialog-buttonpane {
@@ -71,7 +71,6 @@
     border-bottom: 1px solid color($utility, 'lighten-1');
     border-radius: 0;
     background: $body-background;
-    padding-top: 20px;
     font-weight: bold;
     .ui-dialog-title {
       margin: 0.5rem 0;

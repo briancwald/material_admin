@@ -2621,7 +2621,7 @@ td, th {
     transition: .25s;
     color: #009688; }
     .collection a.collection-item:not(.active):hover {
-      background-color: #ddd; }
+      background-color: #eeeeee; }
   .collection.with-header .collection-header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e0e0e0;
@@ -7142,7 +7142,7 @@ tr .ajax-progress-throbber .throbber {
   border: 0;
   border-radius: 2px;
   background: #fcfcfc;
-  padding: 0;
+  padding: 10px 0;
   overflow: visible;
   color: #000000; }
   .ui-dialog .ui-dialog-buttonpane {
@@ -7180,7 +7180,6 @@ tr .ajax-progress-throbber .throbber {
     border-bottom: 1px solid #bdbdbd;
     border-radius: 0;
     background: #fcfcfc;
-    padding-top: 20px;
     font-weight: bold; }
     .ui-dialog .ui-dialog-titlebar .ui-dialog-title {
       margin: 0.5rem 0;
@@ -9527,7 +9526,7 @@ details.views-display-column.form-wrapper {
     border-bottom: 1px solid #e0e0e0; }
 
 .collection > .collection.views-subcollection {
-  padding-top: .5rem; }
+  padding: .5rem 0 0; }
   .collection > .collection.views-subcollection:first-of-type {
     padding-top: 1rem; }
   .collection > .collection.views-subcollection:only-of-type {
@@ -9544,6 +9543,9 @@ details.views-display-column.form-wrapper {
     padding-left: 40px; }
     .collection > .collection.views-subcollection .collection-item:first-of-type {
       margin-top: 5px; }
+
+.views-ui-display-tab-bucket > .views-display-setting {
+  padding: .5rem 0 0; }
 
 #edit-display-settings-top {
   border: 0;
@@ -9743,7 +9745,7 @@ details.views-display-column.form-wrapper {
   font-size: 1.3rem; }
 
 .views-ui-dialog {
-  padding: 1em 2em; }
+  padding: 1em; }
   .views-ui-dialog .views-override:not(:empty) {
     z-index: 3;
     padding: 20px 15px; }
