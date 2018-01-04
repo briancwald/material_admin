@@ -8798,6 +8798,10 @@ table td .form-item .select-wrapper input.select-dropdown {
 .input-field.js-form-type-checkbox label {
   top: 0; }
 
+[type='checkbox'].filled-in:checked + label::before, input[type='checkbox']:checked + label::before,
+input[type='checkbox'][type='checkbox']:checked + label::before {
+  top: 1px; }
+
 #edit-actions .button--danger {
   color: #E53935; }
 
@@ -10058,8 +10062,9 @@ span.theme-status-indicator {
   left: 0;
   z-index: 100;
   border-top: 1px solid #bdbdbd;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
   background: #FFFFFF;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem;
   width: 100%; }
 
 /* @file

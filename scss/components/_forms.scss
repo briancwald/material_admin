@@ -157,6 +157,11 @@ input[type='checkbox'] {
   @extend .filled-in;
 }
 
+[type='checkbox'].filled-in:checked+label::before,
+input[type='checkbox'][type='checkbox']:checked+label::before {
+  top: 1px;
+}
+
 #edit-actions {
   .button--danger {
     @extend .btn-flat;
