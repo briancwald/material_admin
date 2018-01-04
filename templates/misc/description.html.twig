@@ -28,6 +28,6 @@
 
 {% if description.content is not empty %}
   <div{{ description.attributes.addClass(description_classes) }}>
-    <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ render_var(description.content) | e('html_attr') }}">More info <i class="material-icons" aria-hidden="true">help</i></a>
+    <a class="tooltipped" data-position="bottom" data-delay="50" data-html="true" data-tooltip="{{ render_var(description.content) | e('html_attr') }}"> <i class="material-icons" aria-hidden="true">help_outline</i> Info </a>
   </div>
 {% endif %}

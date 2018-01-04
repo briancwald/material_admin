@@ -42,6 +42,9 @@ input[type='search']:not(.browser-default) {
 }
 
 textarea.materialize-textarea {
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
   padding: .8rem .5rem 1.6rem; // since we cant use borderbox or it breaks the 'autoresize', set max width to accomidate for the padding.
   width: inherit;
   max-width: 95%;

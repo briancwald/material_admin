@@ -25,7 +25,7 @@ table.highlight>tbody>tr {
   } // dont change background on hover for titles
   &.region-title {
     &:hover {
-      background: color($primary, 'lighten-5') !important;
+      background: color($utility, 'lighten-4') !important;
     }
   }
 }
@@ -51,8 +51,8 @@ table {
     }
   }
   .region-title {
-    background: color($primary, 'lighten-5');
-    color: color($utility, 'base');
+    background: color($utility, 'lighten-4');
+    color: color($utility, 'darken-2');
     .button.button--small {
       font-size: 0.85em;
     }
@@ -73,6 +73,13 @@ table thead th {
   font-weight: normal;
   a {
     color: $black;
+  }
+}
+
+tr.region-empty {
+  background: $white;
+  &:hover {
+    background: $white !important;
   }
 }
 
@@ -121,6 +128,7 @@ table tbody {
 }
 
 .draggable {
+  background: $white;
   min-height: 30px;
   a.tabledrag-handle {
     display: inline-block;
