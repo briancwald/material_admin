@@ -115,3 +115,36 @@
     }
   }
 }
+
+// If breadcrumbs are in the First item in the header region
+.region-header {
+  #block-dfs-admin-breadcrumbs {
+    margin: 15px 0 0;
+    .breadcrumb-nav ol {
+      padding: 0;
+      li {
+        line-height: 13px;
+        font-size: 13px;
+        a,
+        span {
+          color: color($utility, 'lighten-2');
+        }
+        &::before {
+          margin: 0 4px;
+          line-height: 13px;
+          color: color($utility, 'lighten-2');
+        }
+        &:last-child a,
+        &:last-child span {
+          color: $white;
+        }
+      }
+    }
+    &~#block-dfs-admin-page-title {
+      // reduce margin if breadcrumbs are above it
+      h1.page-title {
+        margin-top: .7rem;
+      }
+    }
+  }
+}

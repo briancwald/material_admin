@@ -8540,6 +8540,26 @@ a:visited.ui-button {
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a::before {
       display: none; } }
 
+.region-header #block-dfs-admin-breadcrumbs {
+  margin: 15px 0 0; }
+  .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol {
+    padding: 0; }
+    .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li {
+      line-height: 13px;
+      font-size: 13px; }
+      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li a,
+      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li span {
+        color: #e0e0e0; }
+      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li::before {
+        margin: 0 4px;
+        line-height: 13px;
+        color: #e0e0e0; }
+      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li:last-child a,
+      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li:last-child span {
+        color: #FFFFFF; }
+  .region-header #block-dfs-admin-breadcrumbs ~ #block-dfs-admin-page-title h1.page-title {
+    margin-top: .7rem; }
+
 /* @file
  * Chips
  *
