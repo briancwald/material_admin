@@ -2217,7 +2217,7 @@ a {
 .messages--error.messages-clone .card, .webform-form table a.button-action {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .utility-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .views-ui-dialog .views-override:not(:empty), .acquiadam-asset-browser .form-item.form-type-checkbox [type='checkbox'] + label,
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper.dropbutton-single .edit a, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .breadcrumb-section-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .views-ui-dialog .views-override:not(:empty), .acquiadam-asset-browser .form-item.form-type-checkbox [type='checkbox'] + label,
 .acquiadam-asset-browser .acquiadam-browser-folder-link, .action-links .button-action.webform-ajax-link {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
@@ -7049,8 +7049,11 @@ body.material_login {
 .row.material-container {
   padding: 20px 5px; }
 
-.utility-wrapper {
+.breadcrumb-section-wrapper {
   background: #42A5F5; }
+
+.breadcrumb-section-wrapper-empty {
+  display: none; }
 
 #block-material-admin-page-title h1.page-title em {
   font-style: normal; }

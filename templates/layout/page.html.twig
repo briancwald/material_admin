@@ -43,8 +43,9 @@
  */
 #}
 
- {% set utility_nav_classes = [
-    page.breadcrumb|render|striptags|trim is not empty or page.primary_menu |render|striptags|trim is not empty  ? 'utility-wrapper',
+ {% set breadcrumb_nav_classes = [
+    page.breadcrumb|render|striptags|trim is not empty  ? 'breadcrumb-section-wrapper',
+    page.breadcrumb|render|striptags|trim is empty  ? 'breadcrumb-section-wrapper-empty',
    ]
  %}
 
@@ -60,10 +61,10 @@
       {% endif %}
     </div>
   </header>
-  <section{{ attributes.addClass(utility_nav_classes)}}>
+  <section{{ attributes.addClass(breadcrumb_nav_classes)}}>
     <div class="row material-container">
       <div class="s12 col">
-      {{ page.primary_menu }}{{ page.breadcrumb }}
+        {{ page.breadcrumb }}
     </div>
     </div>
   </section>

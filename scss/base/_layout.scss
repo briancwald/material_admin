@@ -60,10 +60,13 @@ body.material_login {
   padding: 20px 5px;
 }
 
-.utility-wrapper {
+.breadcrumb-section-wrapper {
   @extend .z-depth-1;
 
   background: color($primary, 'lighten-1');
+}
+.breadcrumb-section-wrapper-empty {
+  display: none;
 }
 
 #block-material-admin-page-title h1.page-title {
