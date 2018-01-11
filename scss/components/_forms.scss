@@ -24,6 +24,11 @@
   }
 }
 
+// overrride materializecss: label positoin relative to select elements
+.select-wrapper+label {
+  top: -20px;
+}
+
 //override materializecss: dont set form width, only max width and allow the form fields to use its length.
 input:not([type]),
 input[type='text']:not(.browser-default),
@@ -645,5 +650,19 @@ fieldset.fieldgroup.form-wrapper {
       overflow: hidden;
       white-space: nowrap;
     }
+  }
+}
+
+// textarea override format wrapper 
+.text-format-wrapper {
+  .form-item.form-type-select.form-has-label {
+    display: inline-block;
+    margin-top: 10px !important;
+    min-width: 300px;
+  }
+  .filter-help {
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
   }
 }

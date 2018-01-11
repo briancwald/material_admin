@@ -8718,6 +8718,9 @@ table.highlight > tbody > tr.selected {
   .file-upload-btn.btn-floating i {
     font-size: 1.3em; }
 
+.select-wrapper + label {
+  top: -20px; }
+
 input:not([type]),
 input[type='text']:not(.browser-default),
 input[type='password']:not(.browser-default),
@@ -9163,6 +9166,16 @@ fieldset.fieldgroup.form-wrapper {
     .exposed-form-collapsible .exposed-form-chips .chip {
       overflow: hidden;
       white-space: nowrap; }
+
+.text-format-wrapper .form-item.form-type-select.form-has-label {
+  display: inline-block;
+  margin-top: 10px !important;
+  min-width: 300px; }
+
+.text-format-wrapper .filter-help {
+  display: inline-block;
+  float: right;
+  padding-right: 10px; }
 
 /* @file
  * lists
