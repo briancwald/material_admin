@@ -44,8 +44,8 @@
 #}
 
  {% set breadcrumb_nav_classes = [
-    page.breadcrumb|render|striptags|trim is not empty  ? 'breadcrumb-section-wrapper',
-    page.breadcrumb|render|striptags|trim is empty  ? 'breadcrumb-section-wrapper-empty',
+    has_breadcrumbs  ? 'breadcrumb-section-wrapper',
+    not has_breadcrumbs ? 'breadcrumb-section-wrapper-empty',
    ]
  %}
 
