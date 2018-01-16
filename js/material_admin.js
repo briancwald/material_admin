@@ -11,7 +11,19 @@
         var label = $('label[for="' + this.id + '"]');
         $(this).insertBefore(label);
       });
+    }
+  };
 
+  Drupal.behaviors.material_radio = {
+    attach: function (context) {
+      // limitation of drupal placing <label> before radio, if visisually hidden, still show the radio button.
+      $(context).find('.form-type-radio input[type=radio]').once('material_radio').each(function () {
+        var label = $('label[for="' + this.id + '"]');
+        $(this).insertBefore(label);
+        if (label.hasClass('visually-hidden')) {
+          label.addClass('show-radio-btn')
+        }
+      });
     }
   };
 
