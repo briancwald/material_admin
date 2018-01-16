@@ -10,6 +10,7 @@
     attach: function (context) {
       $(context).find('.form-date').once('material_pickadate').each(function () {
         $(this).pickadate({
+        selectYears: 20,
         selectMonths: true, // Creates a dropdown to control month
         formatSubmit: 'yyyy-mm-dd',
         format:'yyyy-mm-dd',
