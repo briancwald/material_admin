@@ -19,6 +19,7 @@ Material Design Inspired Admin Theme Utilizing the [Materialize CSS](http://mate
 
  - Additional features supported with [Material Admin Support](https://github.com/briancwald/material_admin_support) module.
  - Portal style login [screenshot](https://dl.dropboxusercontent.com/u/8476966/portal-login.png). To use this, you will want to alter the login paths to use the admin theme. I created a simple module that does this for you: https://www.drupal.org/project/admin_login_path
+ - Breadcrumbs are set in `/config/install` to be placed in a region "breadcrumbs" which display below the header. If you would like to reduce the the vertical space. you can move the breadcrumbs to the header above the site branding block, which is styled to use Material Design standard for applications.
 
 ## To-Do
 - [x] Gulp Setup
