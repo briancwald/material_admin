@@ -75,4 +75,11 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
     '#description' => t('If checked, a long message will skip the toast notice and only show up in the bottom drawer'),
     '#default_value' => theme_get_setting('material_admin_message_prompt'),
   );
+
+  $form['theme_ui_options']['material_admin_datepicker_select_years'] = array(
+    '#type' => 'number',
+    '#title' => t('Number of years in datepicker'),
+    '#description' => t('Defines the number of years, that will be available in the datepicker dropdown.'),
+    '#default_value' => theme_get_setting('material_admin_datepicker_select_years'),
+  );
 }
