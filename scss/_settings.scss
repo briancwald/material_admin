@@ -29,6 +29,9 @@ $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
 
+// input label (override default)
+$input-border-color: color($utility, 'darken-1');
+
 // 2. Vertical Rhythm 
 // 3. Card
 $card-xs-height: 150px;

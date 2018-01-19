@@ -20,7 +20,7 @@
     position: relative;
     z-index: 2;
     margin-right: 0;
-    border-right: 3px solid color($utility, 'base');
+    border-right: 3px solid color($utility, 'darken-2');
     padding-right: 0 !important;
     width: 100%;
     ;
@@ -35,7 +35,7 @@
         width: 100%;
         text-transform: uppercase;
         text-decoration: none;
-        color: color($utility, 'base');
+        color: color($utility, 'darken-2');
         strong {
           letter-spacing: .5px;
           font-weight: normal;
