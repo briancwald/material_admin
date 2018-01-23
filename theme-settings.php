@@ -82,4 +82,18 @@ function material_admin_form_system_theme_settings_alter(&$form, $form_state) {
     '#description' => t('Defines the number of years, that will be available in the datepicker dropdown.'),
     '#default_value' => theme_get_setting('material_admin_datepicker_select_years'),
   );
+
+   $form['theme_ui_options']['material_admin_compatability'] = array(
+    '#type' => 'details',
+    '#title' => t('Compatability Mode'),
+    '#weight' => 1,
+    '#open' => 'true',
+  );
+
+  $form['theme_ui_options']['material_admin_compatability']['material_admin_select_default'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Use browser defaults for select elements (do not replace with materializecss styles)'),
+    '#description' => t('Turning this on will use browser defaults for the select elements, this is for compatability with modules that replace select elements, such as Chosen.'),
+    '#default_value' => theme_get_setting('material_admin_select_default'),
+  );
 }

@@ -16,7 +16,8 @@
     'form-type-' ~ type|clean_class,
     'js-form-item-' ~ name|clean_class,
     'form-item-' ~ name|clean_class,
-    'input-field',
+    select_default == 'false' ? 'input-field',
+    select_default ? 'input-field-browser-default',
     label_display == 'none' ? 'form-no-label',
     label_display in ['after', 'before'] ? 'form-has-label',
     disabled == 'disabled' ? 'form-disabled',
@@ -38,11 +39,14 @@
       {{ description.content }}
     </div>
   {% endif %}
+  {% if label_display and select_default %}
+    {{ label }}
+  {% endif %}
   {{ children }}
   {% if suffix is not empty %}
     <span class="field-suffix">{{ suffix }}</span>
   {% endif %}
-  {% if label_display %}
+  {% if label_display and not select_default %}
     {{ label }}
   {% endif %}
   {% if errors %}

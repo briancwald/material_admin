@@ -20,3 +20,4 @@ material_admin_collapse_module_list: true
 material_admin_message_length: 88
 material_admin_message_prompt: true
 material_admin_datepicker_select_years: 20
+material_admin_select_default: false

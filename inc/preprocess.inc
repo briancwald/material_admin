@@ -212,3 +212,13 @@ function material_admin_preprocess_block(&$variables) {
 function material_admin_preprocess_textarea(&$variables) {
   $variables['attributes']['cols'] = '100';
 }
+
+
+function material_admin_preprocess_select(&$variables) {
+  $variables['select_default'] = theme_get_setting('material_admin_select_default');
+}
+
+
+function material_admin_preprocess_form_element(&$variables) {
+  $variables['select_default'] = theme_get_setting('material_admin_select_default');
+}

@@ -93,6 +93,24 @@ textarea.materialize-textarea {
   }
 }
 
+// if browser default for <select> elements, set defaults
+.form-item.input-field-browser-default {
+  margin: 25px 0 !important;
+  max-width: 450px;
+  > select.browser-default {
+    border: 0;
+    padding: 0;
+    font-size: inherit;
+  }
+  input {
+    margin: 0;
+    height: auto;
+  }
+  .description {
+    padding-top: 5px;
+  }
+}
+
 .views-field-node-bulk-form .form-type-checkbox {
   width: 35px;
 }
@@ -590,7 +608,7 @@ fieldset.fieldgroup.form-wrapper {
   width: auto;
 }
 
-.has-description-after {
+.has-description-after:not(.input-field-browser-default) {
   input {
     margin-bottom: 10px !important;
   }

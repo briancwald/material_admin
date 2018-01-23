@@ -10,8 +10,16 @@
  * @see template_preprocess_select()
  */
 #}
+
+{%
+  set classes = [
+  select_default ? 'browser-default',
+]
+%}
+
+
 {% spaceless %}
-  <select{{ attributes }}>
+  <select{{ attributes.addClass(classes) }}>
     {% for option in options %}
       {% if option.type == 'optgroup' %}
         <optgroup label="{{ option.label }}">

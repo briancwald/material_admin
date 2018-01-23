@@ -29,7 +29,7 @@
 
     Drupal.behaviors.material_multiple_select = {
     attach: function (context) {
-      $(context).find('select[multiple]').once('material_multiple_select').each(function () {
+      $(context).find('select[multiple]:not(.browser-default)').once('material_multiple_select').each(function () {
         $(this).prepend("<option value='' disabled > - </option>");
       })
      }
