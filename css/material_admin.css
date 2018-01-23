@@ -8779,12 +8779,12 @@ textarea.materialize-textarea {
   margin: 25px 0 !important;
   max-width: 450px; }
   .form-item.input-field-browser-default > select.browser-default {
-    border: 0;
     padding: 0;
     font-size: inherit; }
   .form-item.input-field-browser-default input {
     margin: 0;
-    height: auto; }
+    height: auto;
+    box-sizing: border-box; }
   .form-item.input-field-browser-default .description {
     padding-top: 5px; }
 
@@ -9938,10 +9938,6 @@ details.views-display-column.form-wrapper {
     .acquiadam-asset-browser .form-item.form-type-checkbox .acquiadam-asset-browser-icon {
       filter: invert(100%); }
 
-/* @file
- * Chosen overrides
- *
- */
 /* @file
  * Entity Browser overrides
  *

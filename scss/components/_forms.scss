@@ -97,14 +97,15 @@ textarea.materialize-textarea {
 .form-item.input-field-browser-default {
   margin: 25px 0 !important;
   max-width: 450px;
-  > select.browser-default {
-    border: 0;
+  >select.browser-default {
     padding: 0;
     font-size: inherit;
   }
   input {
     margin: 0;
     height: auto;
+
+    box-sizing: border-box;
   }
   .description {
     padding-top: 5px;
