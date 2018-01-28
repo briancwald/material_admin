@@ -5,6 +5,7 @@
 
 .material-tooltip {
   max-width: $max-readability-width; //set max width to a readible length (700px max)
+
   pointer-events: auto;
 }
 
@@ -52,18 +53,9 @@ body {
 
 .row.highlighted-container.material-container {
   padding: 0;
-  .region-highlighted>*:first-child {
+  .region-highlighted>* {
     padding-top: 20px;
-  }
-  .region-highlighted>*:last-child {
-    padding-bottom: 20px;
-  }
-  .region-highlighted>#block-material-admin-help {
-    padding-top: 20px;
-    >*:last-child {
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
+    padding-bottom:0;
   }
 }
 
