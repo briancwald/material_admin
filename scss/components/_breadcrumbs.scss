@@ -118,7 +118,7 @@
 
 // If breadcrumbs are in the First item in the header region
 .region-header {
-  #block-dfs-admin-breadcrumbs {
+  .block-system-breadcrumb-block {
     margin: 15px 0 0;
     .breadcrumb-nav ol {
       padding: 0;
@@ -140,7 +140,7 @@
         }
       }
     }
-    &~#block-dfs-admin-page-title {
+    &~.block-page-title-block {
       // reduce margin if breadcrumbs are above it
       h1.page-title {
         margin-top: .7rem;

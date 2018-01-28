@@ -14,6 +14,10 @@
     margin-left: 5px;
     color: $black;
   }
+  i.material-icons {
+    //set font size the same size as badges
+    font-size: 24px;
+  }
   i,
   span {
     vertical-align: middle;

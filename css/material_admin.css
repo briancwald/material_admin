@@ -8546,24 +8546,24 @@ a:visited.ui-button {
     .breadcrumb-nav ol > *:nth-last-child(-n+6) a::before {
       display: none; } }
 
-.region-header #block-dfs-admin-breadcrumbs {
+.region-header .block-system-breadcrumb-block {
   margin: 15px 0 0; }
-  .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol {
+  .region-header .block-system-breadcrumb-block .breadcrumb-nav ol {
     padding: 0; }
-    .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li {
+    .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li {
       line-height: 13px;
       font-size: 13px; }
-      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li a,
-      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li span {
+      .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li a,
+      .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li span {
         color: #e0e0e0; }
-      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li::before {
+      .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li::before {
         margin: 0 4px;
         line-height: 13px;
         color: #e0e0e0; }
-      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li:last-child a,
-      .region-header #block-dfs-admin-breadcrumbs .breadcrumb-nav ol li:last-child span {
+      .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li:last-child a,
+      .region-header .block-system-breadcrumb-block .breadcrumb-nav ol li:last-child span {
         color: #FFFFFF; }
-  .region-header #block-dfs-admin-breadcrumbs ~ #block-dfs-admin-page-title h1.page-title {
+  .region-header .block-system-breadcrumb-block ~ .block-page-title-block h1.page-title {
     margin-top: .7rem; }
 
 /* @file
@@ -9219,6 +9219,10 @@ dl {
     margin-right: 5px;
     margin-left: 5px;
     color: #000000; }
+  .message-trigger i.material-icons, .message-trigger i.button-action::before, .message-trigger .collapsible li i.collapsible-header.with-arrows::after, .collapsible li .message-trigger i.collapsible-header.with-arrows::after, .message-trigger details.form-wrapper li i.collapsible-header.with-arrows::after, details.form-wrapper li .message-trigger i.collapsible-header.with-arrows::after, .message-trigger .collapsible li i.collapsible-header.right-arrows::after, .collapsible li .message-trigger i.collapsible-header.right-arrows::after, .message-trigger details.form-wrapper li i.collapsible-header.right-arrows::after, details.form-wrapper li .message-trigger i.collapsible-header.right-arrows::after, .message-trigger .region-title__action i.button::after, .region-title__action .message-trigger i.button::after, .message-trigger .color-palette i.color-palette__hook.is-up::before, .color-palette .message-trigger i.color-palette__hook.is-up::before, .message-trigger
+  .color-palette i.color-palette__lock::before,
+  .color-palette .message-trigger i.color-palette__lock::before, .message-trigger i.file::before, .message-trigger .details-item i.collapsible-header::before, .details-item .message-trigger i.collapsible-header::before, .message-trigger .collection .collection-item > .item-list .collection i.collection-item::before, .collection .collection-item > .item-list .collection .message-trigger i.collection-item::before, .message-trigger i.dropdown-button::after, .message-trigger .select-wrapper i.caret::after, .select-wrapper .message-trigger i.caret::after, .message-trigger .messages--status.messages-clone .card-content .message-header i.card-title::before, .messages--status.messages-clone .card-content .message-header .message-trigger i.card-title::before, .message-trigger .messages--warning.messages-clone .card-content .message-header i.card-title::before, .messages--warning.messages-clone .card-content .message-header .message-trigger i.card-title::before, .message-trigger .messages--error.messages-clone .card-content .message-header i.card-title::before, .messages--error.messages-clone .card-content .message-header .message-trigger i.card-title::before, .message-trigger i.tablesort.tablesort--asc::after, .message-trigger i.tablesort.tablesort--desc::after, .message-trigger .draggable a.tabledrag-handle i.handle::before, .draggable a.tabledrag-handle .message-trigger i.handle::before, .message-trigger .acquiadam-browser-breadcrumb-container i::after, .acquiadam-browser-breadcrumb-container .message-trigger i::after, .message-trigger .acquiadam-browser-breadcrumb-container li:first-child i::before, .acquiadam-browser-breadcrumb-container li:first-child .message-trigger i::before, .message-trigger .entities-list i.item-container.ui-sortable-handle::before, .entities-list .message-trigger i.item-container.ui-sortable-handle::before, .message-trigger .system-status-report__status-icon--checked i.collapsible-header::before, .system-status-report__status-icon--checked .message-trigger i.collapsible-header::before, .message-trigger .system-status-report__status-icon--warning i.collapsible-header::before, .system-status-report__status-icon--warning .message-trigger i.collapsible-header::before, .message-trigger .system-status-report__status-icon--error i.collapsible-header::before, .system-status-report__status-icon--error .message-trigger i.collapsible-header::before {
+    font-size: 24px; }
   .message-trigger i,
   .message-trigger span {
     vertical-align: middle; }
