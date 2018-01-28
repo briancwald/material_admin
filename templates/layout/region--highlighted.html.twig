@@ -18,13 +18,10 @@
     'region-' ~ region|clean_class,
   ]
 %}
-{% if content|striptags %}
- <div class="row material-container">
+ <div class="row highlighted-container material-container">
     <div class="s12 col">
 		{% spaceless %}
 		  <div{{ attributes.addClass(classes) }}>{{ content }}</div>		
 		{% endspaceless %}
 	</div>
 </div>
-
-{% endif %}

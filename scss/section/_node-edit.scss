@@ -6,10 +6,11 @@
 .sticky-node-actions {
   position: fixed;
   bottom: 0;
-  width: 100%;
   left: 0;
-  padding: 0.5rem 1.5rem;
-  background: color("shades", "white");
-  border-top: 1px solid color("grey", "lighten-1");
   z-index: 100;
+  border-top: 1px solid color('grey', 'lighten-1');
+  box-shadow: 0 0 2px 1px $transparent-black;
+  background: color('shades', 'white');
+  padding: 1rem;
+  width: 100%;
 }

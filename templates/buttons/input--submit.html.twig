@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Theme override for an 'input' #type form element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the input element.
+ * - children: Optional additional rendered elements.
+ *
+ * @see template_preprocess_input()
+ */
+#}
+
+{% set nowrap = [
+  attributes.id matches '/^edit-options-expose-button.*$/' ? 'no-wrap',
+]
+%}
+
+{% if attributes.hasClass('visually-hidden') or attributes.hasClass('js-hide') %}
+  <input{{ attributes.addClass('js-hide') }} />{{ children }}
+{% else %}
+  {# Views UI does not use core's dropbutton for adding displays #}
+  {% if not (attributes.addClass(nowrap).hasClass('no-wrap') or attributes.hasClass('add-display')) %}
+    <i class="waves-effect waves-light waves-input-wrapper button btn">
+      <input{{ attributes.addClass('waves-button-input') }} />{{ children }}
+    </i>
+  {% else %}
+    <input{{ attributes }} />{{ children }}
+  {% endif %}
+{% endif %}

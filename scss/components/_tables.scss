@@ -3,40 +3,35 @@
  *
  */
 
-
 td,
 th {
   padding: 15px;
 }
 
+th.select-all {
+  label {
+    display: inline;
+  }
+}
+
 table.highlight>tbody>tr {
   &:hover {
-    @extend .grey, .lighten-3;
-    color: color("shades", "black");
-    a, button {
+    background: color($utility, 'lighten-3');
+    color: $black;
+    a,
+    button {
       cursor: pointer;
     }
-  }
-  // dont change background on hover for titles
+  } // dont change background on hover for titles
   &.region-title {
     &:hover {
-    background:color("blue", "lighten-5")!important;
-  }
+      background: color($utility, 'lighten-4') !important;
+    }
   }
 }
 
 td.is-active {
   background-color: transparent;
-}
-
-table {
-  .collection {
-    margin: inherit;
-    border: none;
-    .collection-item {
-      background: inherit;
-    }
-  }
 }
 
 table {
@@ -48,18 +43,22 @@ table {
       }
     }
   }
-}
-
-table {
+  .collection {
+    margin: inherit;
+    border: 0;
+    .collection-item {
+      background: inherit;
+    }
+  }
   .region-title {
-    background:color("blue", "lighten-5");
-    @extend .grey-text;
+    background: color($utility, 'lighten-4');
+    color: color($utility, 'darken-2');
     .button.button--small {
-      font-size:0.85em;
+      font-size: 0.85em;
     }
     td {
-      font-weight:normal;
-      font-size:0.9em;
+      font-size: 0.9em;
+      font-weight: normal;
     }
   }
 }
@@ -69,82 +68,101 @@ table td {
 }
 
 table thead th {
-  @extend .grey-text, .darken-1;
-  font-weight: normal;
+  color: color($utility, 'darken-1');
   font-size: .9em;
+  font-weight: normal;
   a {
-    @extend .black-text;
+    color: $black;
+  }
+}
+
+tr.region-empty {
+  background: $white;
+  &:hover {
+    background: $white !important;
   }
 }
 
 .tablesort {
   &.tablesort--asc {
     background-image: none;
-    &:after {
+    &::after {
       @extend .material-icons;
-      content: 'keyboard_arrow_down';
+
       padding-left: 5px;
+      content: 'keyboard_arrow_down';
     }
   }
   &.tablesort--desc {
     background-image: none;
-    &:after {
+    &::after {
       @extend .material-icons;
-      content: 'keyboard_arrow_up';
+
       padding-left: 5px;
+      content: 'keyboard_arrow_up';
     }
   }
 }
 
 tr.drag {
-  @extend .yellow, .lighten-4;
-  border-bottom: 1px dashed color("grey", "darken-2");
-  border-top: 1px dashed color("grey", "darken-2");
+  border-top: 1px dashed color($utility, 'darken-2');
+  border-bottom: 1px dashed color($utility, 'darken-2');
+  background: color($highlight-color-base, 'lighten-4');
 }
 
-table.highlight tbody, table tbody {
-  tr.drag-previous, tr.drag-previous.field-plugin-settings-editing, tr.drag.field-plugin-settings-editing, tr.drag {
-    @extend .yellow, .lighten-5;
-    border-bottom: 2px dashed color("yellow", "lighten-4");
-    border-top: 2px dashed color("yellow", "lighten-4");
+table.highlight tbody,
+table tbody {
+  tr.drag-previous,
+  tr.drag-previous.field-plugin-settings-editing,
+  tr.drag.field-plugin-settings-editing,
+  tr.drag {
+    @extend .yellow,
+    .lighten-5;
+
+    border-top: 2px dashed color($highlight-color-base, 'lighten-4');
+    border-bottom: 2px dashed color($highlight-color-base, 'lighten-4');
     &:hover {
-      background:color("yellow", "lighten-4")!important;
+      background: color($highlight-color-base, 'lighten-4') !important;
     }
   }
 }
 
 .draggable {
+  background: $white;
   min-height: 30px;
   a.tabledrag-handle {
-    float: none;
     display: inline-block;
-    overflow: visible;
+    float: none;
     height: auto;
+    overflow: visible;
     vertical-align: middle;
-    &~ * {
+    &~* {
       display: inline-block;
+      padding: 5px;
       vertical-align: middle;
-      padding:5px;
     }
     .handle {
+      background: none;
       width: 30px;
       height: 30px;
-      background:none;
-      &:before{
-      @extend .material-icons;
-      content: 'drag_handle';
-      color: color("grey", "darken-2");
-      font-size:20px;
-    }
+      &::before {
+        @extend .material-icons;
+
+        color: color($utility, 'darken-2');
+        font-size: 20px;
+        content: 'drag_handle';
+      }
     }
   }
 }
 
 //editing widget table styling 
-table > tbody > tr.field-plugin-settings-editing {
-  @extend .grey, .lighten-5;
-  border-bottom: 2px solid color("teal", "darken-2");
-  border-top: 2px solid color("teal", "darken-2");
+table>tbody>tr.field-plugin-settings-editing {
+  @extend .grey,
+  .lighten-5;
+
+  border-top: 2px solid color($accent, 'darken-2');
+  border-bottom: 2px solid color($accent, 'darken-2');
 }
 
 .tabledrag-changed-warning {

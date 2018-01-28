@@ -4,6 +4,8 @@
  */
 
 .material-tooltip {
+  max-width: $max-readability-width; //set max width to a readible length (700px max)
+
   pointer-events: auto;
 }
 
@@ -14,11 +16,10 @@ h1 {
 h2 {
   font-size: 2rem;
   &.small-header {
+    line-height: 25px;
+    color: $header-title-small;
     font-size: 1.3rem;
     font-weight: 300;
-    line-height: 25px;
-    @extend .grey-text,
-    .text-darken-3;
   }
 }
 
@@ -27,25 +28,34 @@ h3 {
 }
 
 body {
-  font-family: $body-font-family;
+  @include tablesaw-stack($small-screen);
+
   background: $body-background;
-  @include tablesaw-stack( $small-screen);
+  font-family: $body-font-family;
 }
 
 @media #{$medium-and-up} {
   .material-container.row {
+    margin: 0 auto !important;
     width: 95%;
-    margin: 0 auto!important;
   }
   .fixed-width-row.row {
+    margin: 0 auto !important;
     width: $global-width;
-    margin: 0 auto!important;
   }
 }
 
 @media #{$small-and-down} {
   #main-wrapper>.material-container.row {
-    padding: 20px 0px;
+    padding: 20px 0;
+  }
+}
+
+.row.highlighted-container.material-container {
+  padding: 0;
+  .region-highlighted>* {
+    padding-top: 20px;
+    padding-bottom: 0;
   }
 }
 
@@ -54,8 +64,12 @@ body {
 }
 
 hr {
-  border: 1px solid color("grey", "lighten-2");
   margin: 1em 0;
+  border: 1px solid color($utility, 'lighten-2');
+}
+
+.show-radio-btn {
+  position: relative !important;
 }
 
 .v-middle {
@@ -77,7 +91,7 @@ label {
 .description {
   //tooltip readability
   .material-tooltip {
-    max-width: 36em;
+    max-width: $max-readability-width;
     line-height: 1.5em;
     font-weight: 100;
   }
@@ -87,75 +101,90 @@ label {
 .filter-help {
   font-size: .8em;
   .material-icons {
-    font-size: 1.5em;
     vertical-align: text-bottom;
+    font-size: 1.5em;
   }
 }
+
 .filter-help {
   text-align: right;
 }
 
 .text-format-wrapper {
-  position:relative;
-
+  position: relative;
 }
 
+.error-text-color,
+.button--danger {
+  color: $error-text;
+}
 
-.error-text-color {
-  @extend .red-text,
-  .text-lighten-3;
+.color-error {
+  background: color($error-color-base, 'lighten-4');
+}
+
+.error-color,
+.errors-color {
+  background: $error-bg;
 }
 
 .warning-text-color {
-  @extend .yellow-text,
-  .text-darken-2;
+  color: $warning-text;
+}
+
+.color-warning {
+  background: color($warning-color-base, 'lighten-4');
+}
+
+.warning-color,
+.warnings-color {
+  background: $warning-bg;
 }
 
 .status-text-color {
-  @extend .green-text,
-  .text-darken-2;
+  color: $status-text;
 }
 
-.color-warning,
-.warning-color,
-.warnings-color {
-  @extend .yellow,
-  .lighten-4;
+.color-success {
+  background: color($status-color-base, 'lighten-4');
 }
 
-.color-success,
 .status-color,
 .checked-color {
-  @extend .green,
-  .lighten-4
-}
-
-.color-error,
-.error-color,
-.errors-color {
-  @extend .red,
-  .lighten-4;
+  background: $status-bg;
 }
 
 .button-action {
-  @extend .btn,
-  .red,
-  .accent-2,
-  .white-text;
-  &:before {
+  @extend .btn;
+
+  background: $button-action;
+  color: $button-action-text;
+  &::before {
     @extend .material-icons;
-    content: 'add';
-    color: color("shades", "white");
-    margin: 0 10px 0 0px;
+
+    display: inline-block;
+    margin: 0 10px 0 0;
     vertical-align: text-top;
+    font-size: 1.25rem;
+    font-weight: 600;
+    content: 'add';
   }
+  &:hover,
+  &:active,
+  &:focus {
+    background: $button-action-hover;
+  }
+}
+
+
+.button.button--danger {
   &:hover {
-    @extend .lighten-1;
+    background: color($utility, 'lighten-4') !important;
   }
 }
 
 .btn-flat-action {
-  color:color("orange", "accent-2")
+  color: color($action, 'accent-2');
 }
 
 .inline {
@@ -166,26 +195,26 @@ label {
 .button-link {
   @extend .btn-flat;
   &:hover {
-    background:color("grey","lighten-3")
+    background: color($utility, 'lighten-3');
   }
 }
 
 .collapse-right {
-  content: 'keyboard_arrow_right';
-  right: 20px;
   position: absolute;
-  color: color("grey", "base");
-  font-weight: 700;
+  right: 20px;
+  color: color($utility, 'base');
   font-size: 1.5em;
+  font-weight: 700;
+  content: 'keyboard_arrow_right';
 }
 
 .collapse-down {
-  content: 'keyboard_arrow_down';
-  right: 20px;
-  color: color("grey", "base");
   position: absolute;
-  font-weight: 700;
+  right: 20px;
+  color: color($utility, 'base');
   font-size: 1.5em;
+  font-weight: 700;
+  content: 'keyboard_arrow_down';
 }
 
 .toast {
@@ -193,8 +222,8 @@ label {
 }
 
 .row {
-  padding: 20px;
   margin: 0;
+  padding: 20px;
 }
 
 .region-status {
@@ -204,10 +233,6 @@ label {
 }
 
 .select-wrapper input.select-dropdown {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none; // latest Opera versions support -webkit-
   user-select: none;
 }
 
@@ -216,16 +241,16 @@ label {
 }
 
 nav {
-  background: transparent;
   box-shadow: none;
+  background: transparent;
 }
 
 .action-links {
   margin-bottom: 2rem;
   li {
-    list-style: none;
     display: inline-block;
     padding-right: 10px;
+    list-style: none;
   }
 }
 
@@ -243,26 +268,26 @@ a.button {
 }
 
 .x-small {
-  height: 150px;
+  height: $card-xs-height;
 }
 
 .card {
   .card-content {
     .card-title {
-      line-height: 35px;
+      line-height: $card-title-height;
     }
   }
 }
 
 .card-action {
   li {
-    display: inline;
+    display: inline-block;
   }
   a {
-    color: $card-link-color;
-    margin-right: $card-padding;
     transition: color .3s ease;
+    margin-right: $card-padding;
     text-transform: uppercase;
+    color: $card-link-color;
     &:hover {
       color: $card-link-color-light;
     }
@@ -270,11 +295,11 @@ a.button {
 }
 
 .shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+  @extend .z-depth-1;
 }
 
 details {
-  border: none!important;
+  border: 0 !important;
 }
 
 .shadow-box {
@@ -282,14 +307,12 @@ details {
 }
 
 .button--small {
-  @extend .btn-flat;
   font-size: .8em;
 }
 
 //change how clear fix works so it doesnt disrupt OOTB drupal clearfix
 .clearfix {
   clear: none;
-  &:after {}
 }
 
 .collapsible .collapsible-header {
@@ -301,28 +324,31 @@ details {
   position: relative;
   &.active {
     .collapsible-header.with-arrows {
-      &:after {
-        @extend .material-icons, .collapse-down;
-
+      &::after {
+        @extend .material-icons;
+        @extend .collapse-down;
       }
     }
     .collapsible-header.right-arrows {
-      &:after {
-        @extend .material-icons,
-        .collapse-down;
+      &::after {
+        @extend .material-icons;
+        @extend .collapse-down;
+
         top: 0.5em;
       }
     }
   }
   .collapsible-header.with-arrows {
-    &:after {
-      @extend .material-icons, .collapse-right;
+    &::after {
+      @extend .material-icons;
+      @extend .collapse-right;
     }
   }
   .collapsible-header.right-arrows {
-    &:after {
-      @extend .material-icons,
-      .collapse-right;
+    &::after {
+      @extend .material-icons;
+      @extend .collapse-right;
+
       top: 0.5em;
     }
   }
@@ -343,13 +369,13 @@ details.form-wrapper summary {
 
 // for the default drupal 'marker' add the badge styles 
 span.marker {
-  @extend .badge,
-  .teal,
-  .lighten-2,
-  .white-text;
+  @extend .badge;
+
+  border-radius: 2px;
+  background: color($accent, 'lighten-2');
+  color: $white;
   font-size: .8em;
   font-weight: 300;
-  border-radius: 2px;
 }
 
 // override waves wrapper
@@ -360,30 +386,31 @@ span.marker {
 .select-wrapper+label {
   left: 0;
 } //ckeditor fix as it wont work with box-sizing
-.ckeditor-buttons:before,
-.ckeditor-buttons:after,
+.ckeditor-buttons::before,
+.ckeditor-buttons::after,
 .ckeditor-buttons {
   box-sizing: initial;
 }
 
 //hide border from getting added to tabs by jqueryUI
 .tabs.tabs-transparent {
-  border: none;
+  border: 0;
 }
 
 
 //offset top tabs by removing the row margin to line the text up with the header 
 @media #{$medium-and-up} {
   .offset-tabs {
-    margin-left: -20px
+    margin-left: -20px;
   }
 }
 
-.collection.with-header .collection-header.no-bottom-border {
+.collection.with-header .collection-header.no-bottom-border,
+.collection .collection-item:last-of-type {
   border-bottom: 0;
 }
 
-// Toolbar causes a white bar because of transforms getting miscalculated in the navbar logic
-#toolbar-administration * {
-  transition: color .2s, background .2s, background-color .2s, opacity .2s !important;
+//FAB override
+.fixed-action-btn.horizontal ul {
+  width: $global-width;
 }

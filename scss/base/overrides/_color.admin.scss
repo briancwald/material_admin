@@ -5,57 +5,64 @@
 
 .color-form {
   .wrap-placeholder-fab {
-    @extend .col, .m3;
+    @extend .col,
+    .m3;
   }
 }
 
 .color-palette {
 
   .form-item:not(.form-item-scheme) {
-    display:inline;
-    @extend .col, .m4, .s12;
+    @extend .col,
+    .m4,
+    .s12;
+
+    display: inline;
     input {
-      width:70%;
-      margin-right:5px;
-      margin-top:15px;
-      padding:0 5px;
+      margin-top: 15px;
+      margin-right: 5px;
+      padding: 0 5px;
+      width: 70%;
     }
   }
   .color-palette__hook {
-    display:inline-block;
-    width:10%;
-    height:20px;
+    display: inline-block;
+    width: 10%;
+    height: 20px;
     &.is-up {
-      &:before {
-      content: 'link';
-      @extend .material-icons;
-      position: absolute;
-      display: inline-block;
-      text-indent: 0;
+      &::before {
+        @extend .material-icons;
+
+        display: inline-block;
+        position: absolute;
+        text-indent: 0;
+        content: 'link';
+      }
     }
   }
-  }
-  button.color-palette__lock, .color-palette__lock {
-    width: 10%;
-    display:inline-block;
-    background: none;
-    border: 0;
-    height: 20px;
-    cursor: pointer;
-    white-space: nowrap;
-    overflow: hidden;
+  button.color-palette__lock,
+  .color-palette__lock {
+    display: inline-block;
     position: relative;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    width: 10%;
+    height: 20px;
+    overflow: hidden;
     text-indent: -9999px;
-    &:before {
-      content: 'lock_outline';
+    white-space: nowrap;
+    &::before {
       @extend .material-icons;
+
+      display: inline-block;
       position: absolute;
       left: 0;
-      display: inline-block;
       text-indent: 0;
+      content: 'lock_outline';
     }
     &.is-unlocked {
-      &:before {
+      &::before {
         content: 'lock_open';
       }
     }

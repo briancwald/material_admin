@@ -7,131 +7,142 @@
   padding: 10px;
 }
 
+.message-trigger {
+  color: $black;
+  .mt-text {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: $black;
+  }
+  i.material-icons {
+    //set font size the same size as badges
+    font-size: 24px;
+  }
+  i,
+  span {
+    vertical-align: middle;
+  }
+  span.badge {
+    display: none;
+    margin-left: 5px;
+    border-radius: 1em;
+    min-width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2em;
+    color: $white;
+    font-size: .8em;
+  }
+}
+
+.message-action {
+  margin-right: 0;
+  margin-left: 3rem;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.messages--warning,
+.messages--status,
+.messages--error {
+  box-shadow: none !important;
+  background-image: none !important;
+  &.messages-clone .card {
+    @extend .z-depth-0;
+  }
+  &.toast {
+    color: $white;
+  }
+}
+
 #notification-wrapper {
   //hide by default, if there is a badge, JS will enable
   display: none;
+  margin-top: 1.5em;
 }
 
 // Trigger notifications button
 a.modal-trigger {
   transition: color .3s ease;
+  padding: .5em;
   text-transform: uppercase;
   text-decoration: none;
-  padding-left: 10px;
-  color: color("shades", "black");
-  ;
+  color: $black;
   &:hover {
-    color: color("grey", "darken-2");
+    color: color($utility, 'darken-2');
   }
 }
 
 .description.modal-trigger {
-  text-transform: none;
-  font-size: .8em;
-  padding: 0;
-  margin: 10px 5px;
   display: block;
-  color: color("light-blue", "darken-1")
+  margin: 10px 5px;
+  padding: 0;
+  text-transform: none;
+  color: color($primary, 'darken-1');
+  font-size: .8em;
 }
 
 .modal-content .notification-title {
-  border-bottom: 1px solid color("grey", "darken-2");
+  border-bottom: 1px solid color($utility, 'darken-2');
   padding-bottom: 10px;
   font-size: 1.7rem;
 }
 
-.system-status-general-info__item {
-  .card .card-content .card-title {
-    margin-bottom: 1em;
-  }
-}
-
-.system-status-report__status-icon--checked {
-  .collapsible-header {
-    &:before {
-      content: 'check';
-      @extend .material-icons, .status-text-color;
-      padding-right: 1em;
-    }
-  }
-}
-
-.messages--status {
-  @extend .status-color, .black-text;
+.messages--status,
+.messages--status.messages {
+  background-color: $status-bg !important;
+  color: $white;
   &.messages-clone {
     .card-content {
-      @extend .status-color;
+      border: 2px solid $status-bg !important;
+      color: $black;
       .message-header .card-title {
-        &:before {
+        &::before {
+          @extend .material-icons;
+
+          color: $status-bg;
           content: 'check';
-          @extend .material-icons;
         }
       }
     }
   }
 }
 
-.system-status-report__status-icon--warning {
-  .collapsible-header {
-    &:before {
-      content: 'warning';
-      @extend .material-icons, .warning-text-color;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-    @extend .warning-text-color;
-    .description {
-      @extend .black-text;
-    }
-  }
-}
-
-.messages--warning, .messages--status, .messages--error {
-  background-image: none !important;
-  box-shadow: none !important;
-}
-
-.messages--warning {
-  @extend .warning-color, .black-text;
+.messages--warning,
+.messages--warning.messages {
+  background-color: $warning-bg !important;
+  color: $white;
   &.messages-clone {
     .card-content {
-      @extend .warning-color;
+      border: 2px solid $warning-bg !important;
+      color: $black;
       .message-header .card-title {
-        &:before {
+        &::before {
+          @extend .material-icons;
+
+          color: $warning-bg;
           content: 'warning';
-          @extend .material-icons;
         }
       }
     }
   }
 }
 
-.system-status-report__status-icon--error {
-  .collapsible-header {
-    &:before {
-      content: 'error';
-      @extend .material-icons, .error-text-color;
-      padding-right: 1em;
-    }
-  }
-  .collapsible-body {
-    @extend .error-text-color;
-    .description {
-      @extend .black-text;
-    }
-  }
-}
-
-.messages--error {
-  @extend .error-color, .black-text;
+.messages--error,
+.messages--error.messages {
+  background: $error-bg !important;
+  color: $white;
   &.messages-clone {
     .card-content {
-      @extend .error-color;
+      border: 2px solid $error-bg !important;
+      color: $black;
       .message-header .card-title {
-        &:before {
-          content: 'error';
+        &::before {
           @extend .material-icons;
+
+          color: $error-bg;
+          content: 'error';
         }
       }
     }
@@ -139,9 +150,10 @@ a.modal-trigger {
 }
 
 .messages-clone {
-  background: $body-background!important;
+  background: $body-background !important;
   .card-title {
-    &:before, .message-number {
+    &::before,
+    .message-number {
       padding-right: 10px;
     }
   }
@@ -151,44 +163,12 @@ a.modal-trigger {
       padding-left: 30px;
       li.messages__item {
         margin-bottom: 10px;
-        border-bottom: 1px solid color("grey", "darken-2");
+        border-bottom: 1px solid color($utility, 'darken-2');
         padding-bottom: 10px;
         &:last-child {
-          border-bottom: none;
+          border-bottom: 0;
         }
       }
     }
   }
-}
-
-.message-trigger {
-  .mt-text {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  @extend .black-text;
-  span.fa {
-    //padding-left: 5px;
-  }
-  i,span {
-    vertical-align: middle;
-  }
-  span.badge {
-    @extend .black-text;
-    min-width: 25px;
-    min-height: 25px;
-    line-height: 25px;
-    margin-left: 5px;
-    padding: 0 5px;
-    display: none;
-    border-radius: 50%;
-    font-size: 0.8rem;
-  }
-}
-
-.message-action {
-  font-size: .8rem;
-  font-weight: 500;
-  margin-right: 0;
-  margin-left: 3rem;
 }

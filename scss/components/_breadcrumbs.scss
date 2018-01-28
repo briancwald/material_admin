@@ -4,114 +4,147 @@
 
 .breadcrumb-nav {
   ol {
-    padding: 0 .5em;
     margin: 0;
+    padding: 0 .5em;
     li {
-      @extend .blue-text, .text-lighten-4;
-      font-size: 16px;
       display: inline-block;
-      list-style: none;
       padding: 0;
-      line-height: 16px;
+      list-style: none;
       vertical-align: middle;
-      a, span {
-        @extend .blue-text, .text-lighten-4;
-        white-space: nowrap;
+      line-height: 16px;
+      color: color($primary, 'lighten-4');
+      font-size: 16px;
+      a,
+      span {
+        display: inline;
         overflow: hidden;
-        text-overflow: ellipsis;
-        display: inline-block;
         vertical-align: middle;
-        line-height: 16px; 
+        text-overflow: ellipsis;
+        line-height: 16px;
+        white-space: nowrap;
+        color: color($primary, 'lighten-4');
+        &.current.url-segement-title {
+          text-transform: capitalize;
+        }
       }
       span {
-        @extend .white-text;
+        color: $white;
       }
-      &:before {
-        content: 'keyboard_arrow_right';
-        @extend .blue-text, .text-lighten-4;
+      div {
+        display: inline;
+      }
+      &:first-child {
+        a {
+          visibility: hidden;
+          max-width: 20px;
+          &::before {
+            @extend .material-icons;
+
+            display: inline-block;
+            float: left;
+            visibility: visible;
+            text-indent: 0;
+            content: 'home';
+          }
+        }
+      }
+      &::before {
         @extend .material-icons;
-        font-size: 23px;
-        margin: 0px 10px 0px 8px;
-        line-height: 16px;
+
+        margin: 0 10px 0 8px;
         vertical-align: middle;
+        line-height: 16px;
+        color: color($primary, 'lighten-4');
+        font-size: 23px;
+        content: 'keyboard_arrow_right';
+
         -webkit-font-smoothing: antialiased;
       }
-      &:first-child:before {
+      &:first-child::before {
         display: none;
       }
-      &:last-child a, &:last-child {
-        @extend .grey-text, .lighten-4;
+      &:last-child a,
+      &:last-child {
+        color: color($utility, 'lighten-4');
       }
     }
   }
-}
-
-.breadcrumb-nav ol li:first-child {
-  a {
-    visibility: hidden;
-    max-width: 20px;
-    &:before {
-      float: left;
-      content: 'home';
-      @extend .material-icons;
-      display: inline-block;
-      text-indent: 0;
-      visibility: visible;
-    }
-  }
-}
-
-//dynamic breadcrumb title
-.breadcrumb-nav li span.current.url-segement-title {
-  text-transform: capitalize;
-}
-
-//responsive bredcrumb
-.breadcrumb-nav ol li {
-  display: inline;
 }
 
 .breadcrumb-nav ol li a {
   visibility: hidden;
   max-width: 15px;
-  &:before {
-    content: '...';
+  &::before {
     display: inline-block;
     visibility: visible;
+    content: '...';
   }
 }
 
-.breadcrumb-nav ol > *:first-child a {
-  display: inline-block!important;
+.breadcrumb-nav ol>*:first-child a {
+  display: inline-block !important;
 }
 
 @media #{$small-and-down} {
-  .breadcrumb-nav ol > *:nth-last-child(-n+2) a {
+  .breadcrumb-nav ol>*:nth-last-child(-n+2) a {
     visibility: visible;
     max-width: 60px;
-    &:before {
+    &::before {
       display: none;
     }
   }
 }
 
 @media #{$medium-and-up} {
-  .breadcrumb-nav ol > *:nth-last-child(-n+4) a {
-    visibility: visible;
+  .breadcrumb-nav ol>*:nth-last-child(-n+4) a {
     display: inline-block;
+    visibility: visible;
     max-width: 100px;
-    &:before {
+    &::before {
       display: none;
     }
   }
 }
 
 @media #{$large-and-up} {
-  .breadcrumb-nav ol > *:nth-last-child(-n+6) a {
+  .breadcrumb-nav ol>*:nth-last-child(-n+6) a {
     visibility: visible;
     max-width: 170px;
-    &:before {
+    &::before {
       display: none;
+    }
+  }
+}
+
+// If breadcrumbs are in the First item in the header region
+.region-header {
+  .block-system-breadcrumb-block {
+    margin: 15px 0 0;
+    .breadcrumb-nav ol {
+      padding: 0;
+      li {
+        line-height: 13px;
+        font-size: 13px;
+        a,
+        span {
+          color: color($utility, 'lighten-2');
+        }
+        &::before {
+          margin: 0 4px;
+          line-height: 13px;
+          color: color($utility, 'lighten-2');
+        }
+        &:last-child a,
+        &:last-child span {
+          color: $white;
+        }
+      }
+    }
+    &~.block-page-title-block {
+      // reduce margin if breadcrumbs are above it
+      h1.page-title {
+        margin-top: .7rem;
+      }
     }
   }
 }

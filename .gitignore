@@ -1,2 +1,7 @@
+
+# vendor
 node_modules
 vendor
+
+# Dont add npm lock since we are using yarn.
+package-lock.json

@@ -1,0 +1,84 @@
+/* @file
+ * File
+ *
+ */
+
+.file {
+  /* LTR */
+  display: inline-block;
+  background: none;
+  padding-left: 20px;
+  /* LTR */
+  color: $black;
+  &::before {
+    @extend .material-icons;
+
+    padding-right: 10px;
+    vertical-align: middle;
+    line-height: inherit;
+  }
+}
+
+[dir='rtl'] .file {
+  padding-right: 20px;
+  padding-left: inherit;
+}
+
+.file--general::before,
+.file--application-octet-stream::before {
+  content: 'insert_drive_file';
+}
+
+.file--package-x-generic::before {
+  content: 'folder';
+}
+
+// @ToDO material icons lacks an icon for this, the community version has
+// more, which would require adding another icon font.
+.file--x-office-spreadsheet::before {
+  content: 'view_module';
+}
+
+.file--x-office-document::before {
+  content: 'library_books';
+}
+
+.file--x-office-presentation::before {
+  content: 'insert_chart';
+}
+
+.file--text-x-script::before {
+  content: 'settings_applications';
+}
+
+.file--text-html::before {
+  content: 'web';
+}
+
+.file--text-plain::before {
+  content: 'library_books';
+}
+
+.file--application-pdf::before {
+  content: 'picture_as_pdf';
+}
+
+.file--application-x-executable::before {
+  content: 'widgets';
+}
+
+.file--audio::before {
+  content: 'library_music';
+}
+
+.file--video::before {
+  content: 'video_library';
+}
+
+.file--text::before {
+  content: 'description';
+}
+
+.file--image::before {
+  content: 'photo_library';
+}

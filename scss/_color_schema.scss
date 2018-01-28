@@ -1,0 +1,39 @@
+/* @file
+ * Color schema 
+ *
+ */
+
+// AVAILABLE COLOR PALETTE VARIABLES
+// red, pink, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, grey, blue-grey
+//   $your-colors: (
+//   'base':       #29aae1,
+//   'lighten-1':  #49b7e6,
+//   'lighten-2':  #6fdcff,
+//   'lighten-3':  #69c4ea,
+//   'lighten-4':  #94d5f0,
+//   'lighten-5':  #e5f5fb,
+//   'darken-1':   #24a3dd,
+//   'darken-2':   #1f99d9,
+//   'darken-3':   #1990d5,
+//   'darken-4':   #0f7fcd,
+//   'accent-1':   #fafdff,
+//   'accent-2':   #c7e6ff,
+//   'accent-3':   #94d0ff,
+//   'accent-4':   #7ac4ff
+// );
+// $colors: map-merge($colors, (your-colors: $your-colors));
+// These represent the Color Palette. SEE _settings.scss for more detailed overrides
+// See: http://materializecss.com/color.html
+// MAIN
+$primary: 'blue';
+$secondary: 'materialize-red';
+$accent: 'teal';
+$action: 'orange';
+$utility: 'grey'; // This most likely wont change.
+// VARIOUS HELPERS
+$black: color('shades', 'black');
+$white: color('shades', 'white');
+$success-color-base: 'grey';
+$error-color-base: 'red';
+$warning-color-base: 'yellow';
+$status-color-base: 'green';

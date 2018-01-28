@@ -1,5 +1,7 @@
 <?php
 
+use Drupal\Core\Render\Element;
+
 /**
  * Preprocess variables for all templates.
  * @param $variables
@@ -13,8 +15,27 @@ function material_admin_preprocess_html(&$variables) {
   $route_match = \Drupal::routeMatch()->getRouteName();
   $variables['attributes']['class'][] = 'material_admin';
   $portal_paths = array('user.pass', 'user.login', 'user.register');
-  if (in_array($route_match, $portal_paths)  && theme_get_setting('material_admin_portal_login')) {
-     $variables['attributes']['class'][] = 'material_login';
+  if (in_array($route_match, $portal_paths) && theme_get_setting('material_admin_portal_login')) {
+    $variables['attributes']['class'][] = 'material_login';
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function material_admin_preprocess_page(&$variables) {
+  $variables['has_breadcrumbs'] = FALSE;
+  if (!empty($variables['page']['breadcrumb'])) {
+    foreach (Element::children($variables['page']['breadcrumb']) as $child) {
+      if (isset($variables['page']['breadcrumb'][$child]['#lazy_builder'])) {
+        // Check if breadcrumbs are filled out, by rendering them.
+        $lazy_builder = $variables['page']['breadcrumb'][$child]['#lazy_builder'];
+        $function = array_shift($lazy_builder);
+        $args = array_shift($lazy_builder);
+        $render = call_user_func_array($function, $args);
+        $variables['has_breadcrumbs'] = !empty(trim(strip_tags(Drupal::service('renderer')->render($render))));
+      }
+    }
   }
 }
 
@@ -26,10 +47,13 @@ function material_admin_preprocess_html(&$variables) {
  */
 function material_admin_preprocess_breadcrumb(&$variables) {
   $placeholder_title = [
-          '#lazy_builder' => ['_material_admin_breadcrumb_title_placeholder', ['page_title']],
-          '#create_placeholder' => TRUE,
-        ];
-        $variables['breadcrumb'][] = ['text' => $placeholder_title];
+    '#lazy_builder' => [
+      '_material_admin_breadcrumb_title_placeholder',
+      ['page_title']
+    ],
+    '#create_placeholder' => TRUE,
+  ];
+  $variables['breadcrumb'][] = ['text' => $placeholder_title];
 }
 
 /**
@@ -39,11 +63,11 @@ function material_admin_preprocess_menu_local_task(&$variables) {
   //add class active so that the materialize tabs js works
   if (!empty($variables['element']['#active'])) {
     $variables['is_active'] = TRUE;
-    $variables['link']['#attributes']['class'] = 'active'; 
-     }
+    $variables['link']['#attributes']['class'] = 'active';
+  }
 
   // set target to self so the links work properly with tabs.js
-  $variables['link']['#attributes']['target'] = '_self'; 
+  $variables['link']['#attributes']['target'] = '_self';
 }
 
 /**
@@ -108,25 +132,30 @@ function material_admin_preprocess_system_modules_uninstall(&$variables) {
  * add classes to action butons to allow for interaction click support
  */
 function material_admin_preprocess_menu_local_action(&$variables) {
-  $variables['link']['#options']['attributes']['class'] = array_merge($variables['link']['#options']['attributes']['class'], ['waves-effect', 'waves-light']);
+  $variables['link']['#options']['attributes']['class'] = array_merge($variables['link']['#options']['attributes']['class'], [
+    'waves-effect',
+    'waves-light'
+  ]);
 }
 
 /**
  * Implements hook_reprocess_views_ui_display_tab_setting().
  */
 function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
-  if (count($variables['settings_links']) === 1 && strpos($variables['settings_links'][0]->getGeneratedLink(), 'display_title"') !== FALSE) {
+  if (count($variables['settings_links']) === 1 && $variables['settings_links'][0] instanceof \Drupal\Core\GeneratedLink && strpos($variables['settings_links'][0]->getGeneratedLink(), 'display_title"') !== FALSE) {
     unset($variables['description']);
   }
   else {
     foreach ($variables['settings_links'] as &$link) {
-      if (!empty($variables['description'])) {
-        $variables['description'] = str_replace(':', '', $variables['description']);
+      if ($link instanceof \Drupal\Core\GeneratedLink) {
+        if (!empty($variables['description'])) {
+          $variables['description'] = str_replace(':', '', $variables['description']);
+        }
+        /** @var \Drupal\Core\GeneratedLink $link */
+        $generated_link = $link->getGeneratedLink();
+        $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
+        $link->setGeneratedLink($generated_link);
       }
-      /** @var \Drupal\Core\GeneratedLink $link */
-      $generated_link = $link->getGeneratedLink();
-      $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
-      $link->setGeneratedLink($generated_link);
     }
   }
 }
@@ -159,7 +188,7 @@ function material_admin_preprocess_links__dropbutton(&$variables) {
  * Implements hook_preprocess_color_scheme_form().
  */
 function material_admin_preprocess_color_scheme_form(&$variables) {
-  $variables['#attached']['library'][] =  'material_admin/color';
+  $variables['#attached']['library'][] = 'material_admin/color';
 }
 
 /**
@@ -183,4 +212,23 @@ function material_admin_preprocess_block(&$variables) {
  */
 function material_admin_preprocess_textarea(&$variables) {
   $variables['attributes']['cols'] = '100';
+}
+
+/**
+ * Implements hook_preprocess_select() for textarea content.
+ *
+ * Set variable for theme_settings select_default compatability
+ */
+function material_admin_preprocess_select(&$variables) {
+  $variables['select_default'] = theme_get_setting('material_admin_select_default');
+}
+
+/**
+ * Implements hook_preprocess_form_element() for textarea content.
+ *
+ * Set variable for theme_settings select_default compatability
+ */
+
+function material_admin_preprocess_form_element(&$variables) {
+  $variables['select_default'] = theme_get_setting('material_admin_select_default');
 }

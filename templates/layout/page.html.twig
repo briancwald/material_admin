@@ -43,14 +43,15 @@
  */
 #}
 
- {% set utility_nav_classes = [
-    page.breadcrumb|render|striptags|trim is not empty or page.primary_menu |render|striptags|trim is not empty  ? 'utility-wrapper',
+ {% set breadcrumb_nav_classes = [
+    has_breadcrumbs  ? 'breadcrumb-section-wrapper',
+    not has_breadcrumbs ? 'breadcrumb-section-wrapper-empty',
    ]
  %}
 
 <div class="layout-container">
   {% include '@material_admin/misc/notification-drawer.html.twig' %}
-  <header class="header-wrapper shadow" role="banner">
+  <header class="header-wrapper z-depth-2" role="banner">
     <div class="row material-container">
       <div class="s12 col">
       {% include '@material_admin/misc/notification-trigger.html.twig' %}
@@ -60,10 +61,10 @@
       {% endif %}
     </div>
   </header>
-  <section{{ attributes.addClass(utility_nav_classes)}}>
+  <section{{ attributes.addClass(breadcrumb_nav_classes)}}>
     <div class="row material-container">
       <div class="s12 col">
-      {{ page.primary_menu }}{{ page.breadcrumb }}
+        {{ page.breadcrumb }}
     </div>
     </div>
   </section>

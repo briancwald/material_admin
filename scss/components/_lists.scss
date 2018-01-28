@@ -5,12 +5,11 @@
 
 dl {
   margin: 1em 0;
-  dt {}
   dd {
-    padding-left: 0;
-    font-size: 0.9em;
-    margin-left: 0;
     margin-bottom: 1em;
-    color: color("grey", "base");
+    margin-left: 0;
+    padding-left: 0;
+    color: color($utility, 'base');
+    font-size: 0.9em;
   }
 }

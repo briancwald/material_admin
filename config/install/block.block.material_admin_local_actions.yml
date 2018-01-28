@@ -11,7 +11,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: 'Primary admin actions (Material Admin)'
   provider: core
   label_display: '0'
 visibility: {  }

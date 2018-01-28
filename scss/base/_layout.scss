@@ -14,21 +14,21 @@
 }
 
 header.header-wrapper {
-  @extend .blue, .darken-1;
+  background: $header-bg;
   h1 {
-    @extend .white-text;
-    font-weight: 300;
-    font-size: 2rem;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0;
     text-transform: capitalize;
+    color: $header-title;
+    font-size: 2rem;
+    font-weight: 300;
     @media #{$small-and-down} {
+      margin: 2rem 0;
       font-size: 1.5rem;
-      margin: 2rem 0 2rem 0;
     }
   }
   .row.material-container {
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -41,15 +41,16 @@ header.header-wrapper {
 }
 
 body.material_login {
-  background: color("grey", "lighten-4")
+  background: color($utility, 'lighten-4');
 }
 
 //region title action
 .region-title__action {
   .button {
     @extend .btn-flat;
-    &:after {
+    &::after {
       @extend .material-icons;
+
       content: 'add';
     }
   }
@@ -59,8 +60,13 @@ body.material_login {
   padding: 20px 5px;
 }
 
-.utility-wrapper {
-  @extend .blue, .lighten-1, .z-depth-1;
+.breadcrumb-section-wrapper {
+  @extend .z-depth-1;
+
+  background: color($primary, 'lighten-1');
+}
+.breadcrumb-section-wrapper-empty {
+  display: none;
 }
 
 #block-material-admin-page-title h1.page-title {
@@ -68,8 +74,8 @@ body.material_login {
     font-style: normal;
   }
   em:not(.placeholder) {
-    &:after {
-      content: " - ";
+    &::after {
+      content: ' - ';
     }
   }
 }

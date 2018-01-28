@@ -4,6 +4,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Url;
 
+
 /**
  * Implements hook_form_alter().
  */
@@ -40,13 +41,32 @@ function material_admin_form_alter(&$form, FormStateInterface $form_state, $form
       }
     }
   }
-  
+
   if ($form_id == 'system_modules' && theme_get_setting('material_admin_collapse_module_list')) {
     foreach (Element::children($form['modules']) as $package) {
       $form['modules'][$package]['#open'] = FALSE;
     }
   }
 
+
+  if ($form['#id']  == 'view-edit-form') {
+    $form['actions']['submit']['#attributes']['data-twig-suggestion'] = 'views_button_submit';
+    $form['actions']['cancel']['#attributes']['data-twig-suggestion'] = 'views_button_cancel';
+    $form['actions']['submit']['#attributes']['class'][] = 'views-button succes';
+    $form['actions']['cancel']['#attributes']['class'][] = 'views-button cancel';
+    foreach (Element::children($form['displays']['top']['add_display']) as $key) {
+      $form['displays']['top']['add_display'][$key]['#attributes']['data-twig-suggestion']= 'views_button_add_display';
+    }
+  }
+
+  if ($form['#id'] == 'views-ui-preview-form') {
+    $form['actions']['button']['#attributes']['data-twig-suggestion'] = 'views_button_preview';
+    $form['actions']['button']['#attributes']['class'][] = 'views-button';
+  }
+
+  if (get_class($form_state->getFormObject()) === 'Drupal\entity_browser\Form\EntityBrowserForm') {
+    _material_admin_form_entity_browser_form_alter($form, $form_state);
+  }
 }
 
 /**
@@ -93,6 +113,8 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
   );
   $form['revision_information']['#type'] = 'container';
   $form['revision_information']['#group'] = 'meta';
+  $form['status']['#group'] = 'actions';
+  
   if (isset($form['moderation_state'])) {
     $form['moderation_wrapper'] = array(
       '#type' => 'container',
@@ -103,5 +125,33 @@ function material_admin_form_node_form_alter(&$form, FormStateInterface $form_st
         ),
       );
     $form['moderation_state']['#group'] = 'moderation_wrapper';
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function _material_admin_form_entity_browser_form_alter(&$form, FormStateInterface $form_state) {
+  if (isset($form['widget']['asset-container'])) {
+    foreach (Element::getVisibleChildren($form['widget']['asset-container']) as $asset_title) {
+      $asset = &$form['widget']['asset-container'][$asset_title];
+      foreach (Element::getVisibleChildren($asset) as $key) {
+        $child = &$asset[$key];
+        if (isset($child['#name']) && $child['#name'] === 'acquiadam_folder') {
+          $child['#attributes']['class'][] = 'no-wrap';
+          break;
+        }
+      }
+    }
+  }
+  if (isset($form['widget']['filter-sort-container'])) {
+    $form['widget']['filter-sort-container']['#theme_wrappers'] = ['material_admin_collapsed_form'];
+    $form['widget']['filter-sort-container']['filter-actions'] = [
+      '#type' => 'container',
+      'filter-sort-submit' => $form['widget']['filter-sort-container']['filter-sort-submit'],
+      'filter-sort-reset' => $form['widget']['filter-sort-container']['filter-sort-reset'],
+    ];
+    unset($form['widget']['filter-sort-container']['filter-sort-submit']);
+    unset($form['widget']['filter-sort-container']['filter-sort-reset']);
   }
 }

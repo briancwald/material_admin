@@ -11,7 +11,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Secondary tabs'
+  label: 'Secondary tabs (Material Admin)'
   provider: core
   label_display: '0'
   primary: false

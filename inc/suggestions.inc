@@ -27,6 +27,19 @@ function material_admin_theme_suggestions_system_modules_uninstall_alter(array &
   }
 }
 
+function material_admin_theme_suggestions_input_alter(&$suggestions, array $variables) {
+  $element = $variables['element'];
+  if (isset($element['#attributes']['data-twig-suggestion'])) {
+    $suggestions[] = 'input__' . $element['#type'] . '__' . $element['#attributes']['data-twig-suggestion'];
+  }
+}
+
+function material_admin_theme_suggestions_form_element_alter(array &$suggestions, array $variables, $hook) {
+  if ( $variables['element']['#type'] === 'select') {
+    $suggestions[] = $hook . '__select';
+  }
+}
+
 /**
  * Implements hook_theme().
  */
@@ -38,6 +51,13 @@ function material_admin_theme() {
     'page_title__breadcrumb' => [
       'base hook' => 'page_title',
       'path' => $path . '/templates/navigation',
+    ],
+    'material_admin_collapsed_form' => [
+      'base hook' => 'material_admin_collapsed_form',
+      'path' => $path . '/templates/form',
+      'variables' => [
+        'children' => [],
+      ],
     ],
   ];
 }

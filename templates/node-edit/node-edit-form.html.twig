@@ -17,10 +17,11 @@
 #}
 <div class="layout-node-form row clearfix">
   <div class="layout-region s12 m8 l7 col layout-region-node-main">
-    {{ form|without('advanced', 'actions') }}
+    {{ form|without('advanced', 'actions', 'status') }}
   </div>
   <div class="layout-region s12 m4 offset-l1 l4 col layout-region-node-secondary">
     {{ form.advanced }}
+    {{ form.status }}
     {{ form.actions }}
   </div>
 </div>

@@ -1,0 +1,151 @@
+/* @file
+ * AcquiaDAM overrides
+ *
+ */
+
+.acquiadam-browser-breadcrumb-container {
+  padding: 10px 20px;
+  i {
+    @extend .btn-flat;
+    input.acquiadam-browser-breadcrumb {
+      margin: 0;
+      outline: 0;
+      padding: 0 1em;
+      color: color($utility, 'darken-2');
+    }
+    &::after {
+      @extend .material-icons;
+
+      vertical-align: top;
+      line-height: inherit;
+      content: 'keyboard_arrow_right';
+    }
+    &:hover {
+      background-color: transparent;
+      color: $secondary-base;
+      input {
+        outline: 0;
+        text-decoration: none;
+        color: color($secondary, 'lighten-1');
+      }
+    }
+  }
+  li:first-child i {
+    input.acquiadam-browser-breadcrumb {
+      padding-left: 0;
+    }
+    &::before {
+      @extend .material-icons;
+
+      vertical-align: top;
+      line-height: inherit;
+      content: 'home';
+    }
+  }
+  li:only-of-type i {
+    &::before {
+      color: $secondary-base;
+    }
+  }
+  li:last-child i {
+    border-bottom: 1px solid $secondary-base;
+    input.acquiadam-browser-breadcrumb {
+      color: $secondary-base;
+    }
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.acquiadam-asset-browser {
+  @extend .col;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 0 auto;
+  .acquiadam-browser-folder-link {
+    position: relative;
+    margin: 20px;
+    background-color: color($utility, 'lighten-2');
+    background-size: 150px;
+    padding: 0;
+    width: 214px;
+    height: 185px;
+    input,
+    input:hover,
+    input:focus,
+    input:active {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: 100px;
+      width: 100%;
+      height: 100%;
+
+      background-position-x: center;
+    }
+    p {
+      position: absolute;
+      bottom: 0;
+      background: color('blue', 'base');
+      padding: .5rem;
+      width: 100%;
+
+      pointer-events: none;
+    }
+  }
+  .form-item.form-type-checkbox [type='checkbox']+label,
+  .acquiadam-browser-folder-link {
+    @extend .z-depth-1;
+
+    transition: .2s;
+    border-radius: 2px;
+    color: $white;
+    &:hover {
+      transform: translateZ(0) scale(.98);
+    }
+  }
+  .form-item.form-type-checkbox {
+    margin: 20px;
+    border: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    [type='checkbox']+label {
+      transition: .2s;
+      padding-left: 0;
+      height: auto;
+      line-height: auto;
+      &::before,
+      &::after {
+        margin: 5px;
+      }
+    }
+    [type='checkbox']:checked+label {
+      transform: translateZ(0) scale(.98);
+
+      image-rendering: crisp-edges;
+    }
+    .acquiadam-asset-checkbox {
+      margin-top: 0;
+    }
+    p.acquiadam-asset-filename {
+      margin: 0;
+    }
+    .acquiadam-asset-details {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      background: color('blue', 'base');
+      padding: .5rem;
+      color: $white;
+    }
+    .acquiadam-asset-browser-icon {
+      filter: invert(100%);
+    }
+  }
+}

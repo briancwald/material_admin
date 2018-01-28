@@ -10,14 +10,18 @@ screenshot: images/screenshot.png
 libraries:
   - material_admin/global-styling
 
-#to-do: when all areas look good, remove this section and no longer inherit classy
+
+# remove css sheets from the base themes rather than than override because
+# the SCSS is aleady including those files into a single file. 
+# See: scss/base/overrides directory
 stylesheets-remove:
   - '@classy/css/components/action-links.css'
   - '@classy/css/components/tabs.css'
   - '@classy/css/components/button.css'
   - '@classy/css/components/inline-form.css'
   - '@classy/css/components/form.css'
-  - '@classy/css/components/dialog.css'
+  - '@classy/css/components/dialog.css' #scss/base/overrides/_dialog.scss
+  - '@classy/css/components/file.css' #scss/base/overrides/_file.scss
   - '@classy/css/components/item-list.css'
   - '@classy/css/components/tablesort.css'
   - '@classy/css/components/tabledrag.css'
@@ -28,12 +32,14 @@ stylesheets-remove:
   - '@stable/css/dblog/dblog.module.css'
   - '@stable/css/filter/filter.admin.css'
   - '@stable/css/node/node.module.css'
-  - '@stable/css/system/components/autocomplete-loading.module.css'
-  - '@stable/css/system/components/ajax-progress.module.css'
-  - '@stable/css/core/vertical-tabs.css'
+  - '@stable/css/system/components/autocomplete-loading.module.css' #scss/base/overrides/_autocomplete-loading.module.scss
+  - '@stable/css/system/components/ajax-progress.module.css' # scss/base/overrides/_ajax-progress.module.scss
+  - '@stable/css/core/vertical-tabs.css' #scss/base/overrides/_vertical-tabs.scss
   - '@stable/css/color/color.admin.css'
   - '@stable/css/system/components/system-status-report-counters.css'
   - '@stable/css/system/components/system-status-report-general-info.css'
+  - 'core/assets/vendor/jquery.ui/themes/base/tabs.css' # scss/base/overrides/_tabs.scss
+  - 'core/assets/vendor/jquery.ui/themes/base/theme.css' # scss/base/overrides/_jqueryui_base.scss
 
 libraries-override:
   core/drupal.dropbutton: material_admin/dropbutton
@@ -46,7 +52,6 @@ regions:
   pre_content: 'Pre-content'
   breadcrumb: Breadcrumb
   highlighted: Highlighted
-  help: Help
   content: Content
   page_top: 'Page top'
   page_bottom: 'Page bottom'

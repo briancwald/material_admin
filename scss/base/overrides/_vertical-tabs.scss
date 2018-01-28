@@ -6,20 +6,23 @@
 .vertical-tab-wrapper {
   height: auto;
   >label {
-    font-size: 20px;
-    text-transform: uppercase;
-    border-bottom: 1px solid map-get($grey, lighten-2);
-    width: 100%;
     display: block;
+    border-bottom: 1px solid color($utility, 'lighten-2');
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px;
   }
   ul.vertical-tabs__menu {
-    @extend .col, .m3, .s12;
+    @extend .col,
+    .m3,
+    .s12;
+
     position: relative;
     z-index: 2;
-    width: 100%;
-    padding-right: 0!important;
     margin-right: 0;
-    border-right: 3px solid map-get($grey, base);
+    border-right: 3px solid color($utility, 'darken-2');
+    padding-right: 0 !important;
+    width: 100%;
     ;
     li.vertical-tabs__menu-item {
       display: block;
@@ -27,50 +30,51 @@
         outline: none;
       }
       a {
+        display: block;
+        padding: 1em;
+        width: 100%;
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1em;
-
-        display: block;
-        width: 100%;
-        @extend .grey-text;
+        color: color($utility, 'darken-2');
         strong {
-         letter-spacing: .5px;
-         font-weight:normal;
+          letter-spacing: .5px;
+          font-weight: normal;
         }
         span {
-          font-size: .75em;
           display: block;
           text-transform: initial;
+          font-size: .75em;
         }
         &:hover {
-          @extend .red-text, .lighten-2;
+          color: color($secondary, 'lighten-2');
         }
       }
       &.is-selected {
-        border-right: 3px solid map-get($red, lighten-2);
-        margin-right: -3px;
         z-index: 2;
-        @extend .grey, .lighten-4;
+        margin-right: -3px;
+        border-right: 3px solid color($secondary, 'lighten-2');
+        background: color($utility, 'lighten-4');
         a {
-          @extend .red-text, .lighten-2;
+          color: color($secondary, 'lighten-2');
         }
       }
     }
   }
   .vertical-tabs__panes {
-    // add margin to go beyond border width 
-    margin-left: -3px!important;
+    @extend .col,
+    .m9,
+    .s12;
+
+    transition: max-height 0.66s ease-out; // add margin to go beyond border width 
+    margin-left: -3px !important;
+    border-left: 3px solid color($utility, base);
     padding-left: 1em;
-    border-left: 3px solid map-get($grey, base);
-    transition: max-height 0.66s ease-out;
-    @extend .col, .m9, .s12;
     >details {
-      border: none;
+      border: 0;
       box-shadow: none;
       >summary {
-        @extend .red-text, .lighten-2;
         text-transform: uppercase;
+        color: color($secondary, 'lighten-2');
       }
     }
   }
@@ -78,8 +82,8 @@
 
 @media #{$small-and-down} {
   .vertical-tab-wrapper .vertical-tabs__panes {
+    margin-left: 0;
     border-left: 0;
-    margin-left:0;
   }
   .vertical-tab-wrapper ul.vertical-tabs__menu {
     border-right: 0;

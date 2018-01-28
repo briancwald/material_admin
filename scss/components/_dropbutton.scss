@@ -3,6 +3,7 @@
  * Additoinal dropbutton styling in _views.scss for specific view admin styling.
  *
  */
+
 //table dropdown
 .dropbutton-wrapper.dropbutton-single {
   .edit {
@@ -27,25 +28,28 @@
 .dropdown-button {
   display: inline-block;
   &:hover {
-    text-decoration: none;
     @extend .lighten-5;
+
+    text-decoration: none;
   }
-  &:after {
+  &::after {
     @extend .material-icons;
-    margin-left: 10px;
-    content: 'keyboard_arrow_down';
+
     display: inline;
+    margin-left: 10px;
     vertical-align: inherit;
+    content: 'keyboard_arrow_down';
   }
-  &.active:after {
+  &.active::after {
     @extend .material-icons;
+
+    display: inline;
     margin-left: 10px;
     content: 'keyboard_arrow_up';
-    display: inline;
   }
-  &.ellipsis-icon:after {
-    content: '';
+  &.ellipsis-icon::after {
     display: none;
+    content: '';
   }
 }
 
@@ -54,31 +58,37 @@
   li {
     .button {
       display: block;
-      background: none;
-      color: inherit;
       box-shadow: none;
+      background: none;
       padding: inherit;
+      width: 100%;
+      min-height: 50px;
+      color: inherit;
+      &.btn-paragraph-action {
+        padding: 10px;
+        text-align: left;
+      }
     }
   }
 }
 
 table.highlight>tbody>tr.selected {
-  @extend .grey, .lighten-4;
+  background: color($utility, 'lighten-4');
   a {
     text-decoration: none;
   }
   a.dropdown-button {
-    @extend .grey-text, .text-darken-2;
     text-decoration: none;
+    color: color($utility, 'darken-2');
   }
   .dropbutton-widget li {
-    @extend .black-text;
+    color: $black;
     a {
-      @extend .black-text;
       text-decoration: none;
+      color: $black;
     }
   }
   td {
-    @extend .grey, .lighten-4;
+    background: color($utility, 'lighten-4');
   }
 }

@@ -1,0 +1,60 @@
+{#
+/**
+ * @file
+ * Theme override for a select form element.
+ * This is it's own template to accomidate materializecss JS which requires specific HTML structure to work correctly
+ *
+ * @see template_preprocess_form_element()
+ * @see form-element.html.twig for more variables
+ */
+#}
+{%
+  set classes = [
+    'js-form-item',
+    'form-item',
+    'js-form-type-' ~ type|clean_class,
+    'form-type-' ~ type|clean_class,
+    'js-form-item-' ~ name|clean_class,
+    'form-item-' ~ name|clean_class,
+    select_default == 'false' ? 'input-field',
+    select_default ? 'input-field-browser-default',
+    label_display == 'none' ? 'form-no-label',
+    label_display in ['after', 'before'] ? 'form-has-label',
+    disabled == 'disabled' ? 'form-disabled',
+    prefix and not suffix ? 'has-prefix',
+    suffix and not prefix ?  'has-suffix',
+    prefix and suffix ? 'has-prefix-and-suffix',
+    errors ? 'form-item--error',
+    children matches '/value="[^"]+"/' ? 'has-initial-content',
+    children matches '/placeholder="[^"]+"/' ? 'has-placeholder',
+    description_display == 'after' ? 'has-description-after',
+]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {% if prefix is not empty %}
+    <span class="field-prefix">{{ prefix }}</span>
+  {% endif %}
+  {% if description_display == 'before' and description.content %}
+    <div{{ description.attributes }}>
+      {{ description.content }}
+    </div>
+  {% endif %}
+  {% if label_display and select_default %}
+    {{ label }}
+  {% endif %}
+  {{ children }}
+  {% if suffix is not empty %}
+    <span class="field-suffix">{{ suffix }}</span>
+  {% endif %}
+  {% if label_display and not select_default %}
+    {{ label }}
+  {% endif %}
+  {% if errors %}
+    <div class="form-item--error-message">
+      <strong>{{ errors }}</strong>
+    </div>
+  {% endif %}
+  {% if description_display in ['after', 'invisible'] %}
+    {% include '@material_admin/misc/description.html.twig' %}
+  {% endif %}
+</div>

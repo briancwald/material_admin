@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Theme wrapper for putting form elements inside a collapsible container.
+ */
+#}
+
+{{ attach_library('material_admin/collapsed-form') }}
+
+<ul class="collapsible exposed-form-collapsible" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header">
+      <a class="btn btn-floating">
+        <i class="material-icons" aria-hidden="true" title="{{ 'Filter' | t }}">filter_list</i>
+      </a>
+      <div class="exposed-form-chips"></div>
+    </div>
+    <div class="collapsible-body">
+      <div class="form--inline clearfix">
+        {{ children }}
+      </div>
+    </div>
+  </li>
+</ul>

@@ -9,25 +9,12 @@
  * @see template_preprocess_views_exposed_form()
  */
 #}
-<ul class="collapsible exposed-form-collapsible" data-collapsible="accordion">
-  <li>
-    <div class="collapsible-header">
-      <a class="btn btn-floating">
-        <i class="material-icons" aria-hidden="true" title="{{ 'Filter' | t }}">filter_list</i>
-      </a>
-      <div class="exposed-form-chips"></div>
-    </div>
-    <div class="collapsible-body">
-      {% if q is not empty %}
-        {#
-          This ensures that, if clean URLs are off, the 'q' is added first,
-          as a hidden form element, so that it shows up first in the POST URL.
-        #}
-      {{ q }}
-      {% endif %}
-      <div class="form--inline clearfix">
-        {{ form }}
-      </div>
-    </div>
-  </li>
-</ul>
+{% if q is not empty %}
+  {#
+    This ensures that, if clean URLs are off, the 'q' is added first,
+    as a hidden form element, so that it shows up first in the POST URL.
+  #}
+  {{ q }}
+{% endif %}
+
+{% include 'material-admin-collapsed-form.html.twig' with {'children': form} %}

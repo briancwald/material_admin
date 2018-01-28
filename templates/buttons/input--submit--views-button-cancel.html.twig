@@ -1,3 +1,4 @@
+{% extends "input--submit--button.html.twig" %}
 {#
 /**
  * @file
@@ -10,11 +11,7 @@
  * @see template_preprocess_input()
  */
 #}
-<div class="switch">
-  <label>
-    Off
-    <input{{ attributes }} />{{ children }}
-    <span class="lever"></span> 
-    On
-  </label>
-</div>
+
+{% block icon %}
+  cancel
+{% endblock %}

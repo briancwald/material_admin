@@ -1,3 +1,4 @@
+{# {% extends 'card.html.twig' %} #}
 {#
 /**
  * @file
@@ -31,6 +32,8 @@
 
   ]
 %}
+{% set card = { 'sticky-actions': 'medium' }|merge(card) %}
+  
 <div id="cardGrid">
 {{ form.filters }}
 <div class="uninstall-modules-wrapper list row">
