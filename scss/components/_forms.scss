@@ -7,11 +7,15 @@
   // styles for medium screens and larger
   .form--inline {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    .input-field {
-      flex: 0 1 20%;
-      margin: 10px !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    div {
+      flex: 1;
+      margin: 0 10px !important;
+      width: 100%;
+      min-width: 15em;
     }
   }
 }
@@ -56,11 +60,6 @@ textarea.materialize-textarea {
   &:focus {
     border: 1px solid color($accent, 'lighten-1');
   }
-}
-
-.form--inline .input-field {
-  display: block;
-  width: 100%;
 }
 
 .form-radios {
