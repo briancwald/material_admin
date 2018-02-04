@@ -8890,6 +8890,9 @@ abbr.warning {
   vertical-align: middle;
   clip: inherit; }
 
+.switch input[type='checkbox'][disabled] + .lever {
+  cursor: not-allowed; }
+
 .input-field .dropdown-content [type='checkbox'] + label {
   display: inline;
   top: 0; }

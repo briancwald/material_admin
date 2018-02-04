@@ -10,7 +10,11 @@
  *
  * @see template_preprocess_input()
  */
-#}
+#}  
 
-{% block switch_before_text %}{% endblock %}
-{% block switch_after_text %}Uninstall{% endblock %}
+{% set tooltip_text_new = 'test' %}
+
+{% block switch_label_wrap %}  <label{{ switch_label.setAttribute('data-tooltip', tooltip_text_new) }}> {% endblock %}
+
+{% block switch_before_text %}Off{% endblock %}
+{% block switch_after_text %}On{% endblock %}
