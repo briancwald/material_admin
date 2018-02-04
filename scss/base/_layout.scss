@@ -11,6 +11,9 @@
 .layout-container {
   margin: 0;
   padding: 0;
+  >main {
+    background: color($utility, 'lighten-5');
+  }
 }
 
 header.header-wrapper {
@@ -41,8 +44,10 @@ header.header-wrapper {
 }
 
 body.material_login {
-  background: color($utility, 'lighten-4');
+  background: color($utility, 'lighten-5');
 }
+
+
 
 //region title action
 .region-title__action {

@@ -194,6 +194,9 @@ input[type='checkbox'][type='checkbox']:checked+label::before {
 
     color: $error-text;
   }
+  .button.use-ajax {
+    @extend .btn;
+  }
 }
 
 input.btn {
@@ -304,6 +307,7 @@ details.form-wrapper {
     }
   }
   .details-wrapper {
+    background: $white;
     padding: 1rem 2rem; //prevent nested wrappers from providing too much z-depth
     details.form-wrapper {
       border: 1px solid color($utility, 'lighten-2') !important;

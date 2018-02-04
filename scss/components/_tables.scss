@@ -13,19 +13,21 @@ th.select-all {
     display: inline;
   }
 }
-
-table.highlight>tbody>tr {
-  &:hover {
-    background: color($utility, 'lighten-3');
-    color: $black;
-    a,
-    button {
-      cursor: pointer;
-    }
-  } // dont change background on hover for titles
-  &.region-title {
+table.highlight>tbody {
+  background: $white;
+  >tr {
     &:hover {
-      background: color($utility, 'lighten-4') !important;
+      background: color($utility, 'lighten-3');
+      color: $black;
+      a,
+      button {
+        cursor: pointer;
+      }
+    } // dont change background on hover for titles
+    &.region-title {
+      &:hover {
+        background: color($utility, 'lighten-4') !important;
+      }
     }
   }
 }
