@@ -106,7 +106,7 @@ function material_admin_preprocess_node_add_list(&$variables) {
  */
 function material_admin_preprocess_system_modules_details(&$variables) {
   foreach ($variables['modules'] as &$module) {
-    $module['checkbox']['#theme'] = 'input__switch';
+    $module['checkbox']['#theme'] = 'input__switch__install';
     $module['checkbox']['#attributes']['class'][] = 'item-switch';
   }
 }

@@ -10,10 +10,10 @@
  *
  * @see template_preprocess_input()
  */
-#}
+#}  
 
 {# ovveride the tooltip text to be specific to the module install page. #}
-{% set tooltip_text = 'Cannot uninstall, this module has dependencies.' %}
+{% set tooltip_text = 'Cannot modify, this module has dependencies.' %}
 
-{% block switch_before_text %}{% endblock %}
-{% block switch_after_text %}Uninstall{% endblock %}
+{% block switch_before_text %}Off{% endblock %}
+{% block switch_after_text %}On{% endblock %}

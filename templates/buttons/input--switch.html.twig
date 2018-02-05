@@ -10,11 +10,29 @@
  * @see template_preprocess_input()
  */
 #}
+
+{%
+  set classes = [
+  'switch-label',
+   attributes.disabled == 'disabled' ? 'tooltipped'
+  ]
+%}
+
+{# make label an attribute so we can add conditional classes and attributes #}
+{% set switch_label = create_attribute().addClass(classes) %}
+
+{# if the switch is disabled, give a reason why. #}
+{% if attributes.disabled == 'disabled' %}
+	{% set tooltip_text = tooltip_text | default('Disabled') %}
+	{% set tooltip_delay =  tooltip_delay | default('50') %}
+	{% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text) %}
+{% endif %}
+
 <div class="switch">
-  <label class="switch-label">
-    Off
+  <label{{ switch_label }}>
+  	{% block switch_before_text %}On{% endblock %}
     <input{{ attributes }} />{{ children }}
     <span class="lever"></span> 
-    On
+    {% block switch_after_text %}Off{% endblock %}
   </label>
 </div>

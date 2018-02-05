@@ -228,6 +228,11 @@ abbr.warning {
   clip: inherit;
 }
 
+.switch input[type='checkbox'][disabled] + .lever {
+  background: color($utility, 'darken-2');
+  cursor: not-allowed;
+}
+
 // align multiple checkboxes with label
 .input-field .dropdown-content [type='checkbox']+label {
   display: inline;
