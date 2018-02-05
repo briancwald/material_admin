@@ -12,9 +12,11 @@
  */
 #}  
 
-{% set tooltip_text_new = 'test' %}
-
-{% block switch_label_wrap %}  <label{{ switch_label.setAttribute('data-tooltip', tooltip_text_new) }}> {% endblock %}
+{% block switch_item %}
+  {% set tooltip_text = 'heyo' %}
+  {% set tooltip_delay = '50' %}
+  {% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text) %}
+{% endblock %}
 
 {% block switch_before_text %}Off{% endblock %}
 {% block switch_after_text %}On{% endblock %}

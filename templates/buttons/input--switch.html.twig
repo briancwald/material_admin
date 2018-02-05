@@ -18,22 +18,24 @@
   ]
 %}
 
-{% set switch_label = create_attribute() %}
-{% set switch_label = switch_label.addClass(classes) %}
+{% set tooltip_text = create_attribute() %}
+{% set tooltip_delay = create_attribute() %}
+
+{% set switch_label = create_attribute().addClass(classes) %}
 
 {% if attributes.disabled == 'disabled' %}
-	{% set tooltip_text = 'Disabled' %}
+{% block switch_item %}
+	{% set tooltip_text = 'sup' %}
 	{% set tooltip_delay = '50' %}
-	{% set switch_label = switch_label.setAttribute('data-delay', toolbar_delay) %}
+	{% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text) %}
+{% endblock %}
 {% endif %}
 
 <div class="switch">
- {% block switch_label_wrap %}
   <label{{ switch_label }}>
-   {% endblock %}
-  	{% block switch_before_text %}on{% endblock %}
+  	{% block switch_before_text %}On{% endblock %}
     <input{{ attributes }} />{{ children }}
     <span class="lever"></span> 
-    {% block switch_after_text %}off{% endblock %}
+    {% block switch_after_text %}Off{% endblock %}
   </label>
 </div>
