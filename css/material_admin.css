@@ -8891,6 +8891,7 @@ abbr.warning {
   clip: inherit; }
 
 .switch input[type='checkbox'][disabled] + .lever {
+  background: #616161;
   cursor: not-allowed; }
 
 .input-field .dropdown-content [type='checkbox'] + label {

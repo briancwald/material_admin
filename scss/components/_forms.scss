@@ -229,6 +229,7 @@ abbr.warning {
 }
 
 .switch input[type='checkbox'][disabled] + .lever {
+  background: color($utility, 'darken-2');
   cursor: not-allowed;
 }
 
