@@ -12,11 +12,8 @@
  */
 #}  
 
-{% block switch_item %}
-  {% set tooltip_text = 'heyo' %}
-  {% set tooltip_delay = '50' %}
-  {% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text) %}
-{% endblock %}
+{# ovveride the tooltip text to be specific to the module install page. #}
+{% set tooltip_text = 'Cannot modify, this module has dependencies.' %}
 
 {% block switch_before_text %}Off{% endblock %}
 {% block switch_after_text %}On{% endblock %}

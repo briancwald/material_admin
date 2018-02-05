@@ -18,17 +18,14 @@
   ]
 %}
 
-{% set tooltip_text = create_attribute() %}
-{% set tooltip_delay = create_attribute() %}
-
+{# make label an attribute so we can add conditional classes and attributes #}
 {% set switch_label = create_attribute().addClass(classes) %}
 
+{# if the switch is disabled, give a reason why. #}
 {% if attributes.disabled == 'disabled' %}
-{% block switch_item %}
-	{% set tooltip_text = 'sup' %}
-	{% set tooltip_delay = '50' %}
+	{% set tooltip_text = tooltip_text | default('Disabled') %}
+	{% set tooltip_delay =  tooltip_delay | default('50') %}
 	{% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text) %}
-{% endblock %}
 {% endif %}
 
 <div class="switch">
