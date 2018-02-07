@@ -5,19 +5,19 @@
  */
 
 //table dropdown
-.dropbutton-wrapper.dropbutton-single {
-  .edit {
-    a {
-      @extend .btn;
-      @extend .btn-flat;
-    }
-  }
-}
-
 .dropbutton-wrapper {
   display: inline-block;
   .single-btn-wrapper {
     list-style: none;
+    a {
+      @extend .btn;
+      @extend .btn-flat;
+
+      padding: 0 1.5rem;
+      &:hover {
+        background: color($utility, 'lighten-1');
+      }
+    }
   }
 }
 
