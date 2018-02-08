@@ -8957,7 +8957,7 @@ details.form-wrapper {
 .form-type-date input.form-date {
   min-width: 175px; }
 
-.container-inline .form-item {
+.container-inline .form-item:not(.form-type-select) {
   display: inline;
   padding-right: 10px; }
 
@@ -9090,7 +9090,8 @@ i.waves-input-wrapper {
     padding: 0.5rem 2rem; }
 
 .layout-node-form .layout-region-node-secondary .entity-meta__header {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  background: #FFFFFF; }
 
 .layout-node-form .layout-region-node-secondary .form-actions {
   margin-top: 1em; }

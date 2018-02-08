@@ -335,7 +335,7 @@ details.form-wrapper {
   min-width: 175px;
 }
 
-.container-inline .form-item {
+.container-inline .form-item:not(.form-type-select) {
   display: inline;
   padding-right: 10px;
 }
@@ -531,6 +531,7 @@ i.waves-input-wrapper {
   }
   .entity-meta__header {
     margin-bottom: 1em;
+    background: $white;
   }
   .form-actions {
     margin-top: 1em;
