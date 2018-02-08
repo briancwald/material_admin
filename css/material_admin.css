@@ -2217,7 +2217,7 @@ a {
 .messages--error.messages-clone .card, .webform-form table a.button-action {
   box-shadow: none !important; }
 
-.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper .single-btn-wrapper a, #edit-actions .button.use-ajax, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .breadcrumb-section-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .views-ui-dialog .views-override:not(:empty), .acquiadam-asset-browser .form-item.form-type-checkbox [type='checkbox'] + label,
+.z-depth-1, .collapsible, details.form-wrapper, .btn, .btn-large, .button-action, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button, .dropbutton-wrapper .single-btn-wrapper a, #edit-actions .button.use-ajax, .views-displays .tabs.secondary li.add a, .ui-dialog-content .webform-ajax-link, .webform-details-toggle-state-wrapper .webform-details-toggle-state, .btn-floating, .dropdown-content, .toast, .card-panel, .card, .shadow, .breadcrumb-section-wrapper, .entity-meta__header, .confirm-form-wrapper, fieldset.form-wrapper legend span.fieldset-legend, .acquiadam-asset-browser .form-item.form-type-checkbox [type='checkbox'] + label,
 .acquiadam-asset-browser .acquiadam-browser-folder-link, .action-links .button-action.webform-ajax-link {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
 
@@ -7252,7 +7252,6 @@ tr .ajax-progress-throbber .throbber {
   .ui-dialog {
     width: 92% !important; } }
 
-.views-ui-dialog .views-override:not(:empty),
 .ui-widget-content,
 .ui-dialog .ui-dialog-content,
 .views-ui-dialog {
@@ -8726,25 +8725,6 @@ table.highlight > tbody > tr.selected {
  * Form specific styling
  *
  */
-@media only screen and (min-width: 601px) {
-  .form--inline {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-align: baseline;
-        align-items: baseline;
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
-    .form--inline div {
-      -ms-flex: 1;
-          flex: 1;
-      margin: 0 10px !important;
-      width: 100%;
-      min-width: 15em; } }
-
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit; }
@@ -9164,6 +9144,36 @@ fieldset.fieldgroup.form-wrapper {
 .has-description-after:not(.input-field-browser-default) div.description {
   margin-bottom: 30px; }
 
+.form--inline {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-align: baseline;
+      align-items: baseline; }
+  .form--inline > div:not(.form--inline) {
+    -ms-flex: 1 auto;
+        flex: 1 auto;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    min-width: 200px;
+    max-width: 450px; }
+    .form--inline > div:not(.form--inline).form-item-separator {
+      -ms-flex: 0;
+          flex: 0;
+      padding: 0 30px;
+      min-width: auto;
+      font-weight: 700; }
+    .form--inline > div:not(.form--inline) .select-wrapper {
+      max-width: 100%; }
+  .form--inline div.form--inline {
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap; }
+
 .exposed-form-collapsible {
   transition: .2s;
   opacity: 1;
@@ -9193,11 +9203,26 @@ fieldset.fieldgroup.form-wrapper {
     background: #f5f5f5;
     padding: 45px 10px 10px;
     font-weight: inherit; }
-    .exposed-form-collapsible .collapsible-body .form--inline {
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-      .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
-        padding-top: 15px; }
+    .exposed-form-collapsible .collapsible-body .form--inline .form-actions {
+      padding-top: 15px; }
+    @media only screen and (min-width: 601px) {
+      .exposed-form-collapsible .collapsible-body .form--inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+        .exposed-form-collapsible .collapsible-body .form--inline div {
+          -ms-flex: 1;
+              flex: 1;
+          margin: 0 10px !important;
+          width: 100%;
+          min-width: 15em; } }
   .exposed-form-collapsible .exposed-form-chips {
     display: -ms-flexbox;
     display: flex;
@@ -9859,7 +9884,19 @@ details.views-display-column.form-wrapper {
   padding: 1em; }
   .views-ui-dialog .views-override:not(:empty) {
     z-index: 3;
-    padding: 20px 15px; }
+    background: #f5f5f5; }
+    .views-ui-dialog .views-override:not(:empty) div.form-item {
+      margin: 30px 0 0 !important; }
+
+.views-ui-dialog .views-filterable-options-controls,
+.views-filterable-options-controls {
+  display: inherit; }
+  .views-ui-dialog .views-filterable-options-controls .form-item,
+  .views-filterable-options-controls .form-item {
+    width: auto; }
+
+.views-override:not(:empty).form--inline div.form-item {
+  margin-right: 10px !important; }
 
 /* @file
  * Contrib overrides

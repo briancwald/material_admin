@@ -3,23 +3,6 @@
  *
  */
 
-@media #{$medium-and-up} {
-  // styles for medium screens and larger
-  .form--inline {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
-    div {
-      flex: 1;
-      margin: 0 10px !important;
-      width: 100%;
-      min-width: 15em;
-    }
-  }
-}
-
 .file-upload-btn.btn-floating {
   height: inherit;
   line-height: inherit;
@@ -228,7 +211,7 @@ abbr.warning {
   clip: inherit;
 }
 
-.switch input[type='checkbox'][disabled] + .lever {
+.switch input[type='checkbox'][disabled]+.lever {
   background: color($utility, 'darken-2');
   cursor: not-allowed;
 }
@@ -626,6 +609,32 @@ fieldset.fieldgroup.form-wrapper {
   }
 }
 
+.form--inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
+  >div:not(.form--inline) {
+    flex: 1 auto;
+    flex-basis: auto;
+    min-width: 200px;
+    max-width: 450px;
+    &.form-item-separator {
+      flex: 0;
+      padding: 0 30px;
+      min-width: auto;
+      font-weight: 700;
+    }
+    .select-wrapper {
+      max-width: 100%; // if inside flex grid, dont set a max width - its set on the parent.
+    }
+  }
+  div.form--inline {
+    flex-wrap: no-wrap;
+  }
+}
+
 // This block overrides normal .collapsible styles.
 .exposed-form-collapsible {
   transition: .2s;
@@ -659,9 +668,24 @@ fieldset.fieldgroup.form-wrapper {
     padding: 45px 10px 10px;
     font-weight: inherit; //account for labels being absolute positioned with padding-top
     .form--inline {
-      justify-content: flex-end;
       .form-actions {
         padding-top: 15px;
+      }
+    }
+    @media #{$medium-and-up} {
+      // styles for medium screens and larger
+      .form--inline {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        div {
+          flex: 1;
+          margin: 0 10px !important;
+          width: 100%;
+          min-width: 15em;
+        }
       }
     }
   }
