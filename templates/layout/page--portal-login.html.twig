@@ -28,25 +28,13 @@
  */
 #}
 <div class="layout-container">
-  <div id="messageContainer" class="modal bottom-sheet">
-    <div class="modal-content">
-      <h4 class="notification-title">Message Notifications</h4>
-      <div class="allmessages">{{ page.status }}
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a data-href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      <a href="/admin/reports/dblog" class=" modal-action modal-close waves-effect waves-green btn-flat">View Log</a>
-    </div>
-  </div>
-  <header class="header" role="banner">
+  {% include '@material_admin/misc/notification-drawer.html.twig' %}
+  <header role="banner">
     <div class="row material-container">
-      <div class="s12 col">
-                <div class="collection right" id="notification-wrapper">
-          <a class="modal-trigger collection-item message-trigger waves-effect" href="#messageContainer"><i class="material-icons">inbox</i> <span class="mt-text hide-on-med-and-down">Notifications</span><span class="badge messages--status">0</span><span class="badge messages--warning">0</span><span class="badge messages--error">0</span></a>
+      <div class="s12 col portal-login-notifications">
+      {% include '@material_admin/misc/notification-trigger.html.twig' %}
+      {% if page.status %}
         </div>
-         {% if page.status %}
-      </div>
       {% endif %}
     </div>
   </header>
