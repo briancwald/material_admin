@@ -336,8 +336,9 @@ details.form-wrapper {
 }
 
 .container-inline .form-item:not(.form-type-select) {
-  display: inline;
+  display: inline-block;
   padding-right: 10px;
+  min-width: 200px;
 }
 
 .container-inline label:empty::after,

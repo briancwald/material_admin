@@ -8958,8 +8958,9 @@ details.form-wrapper {
   min-width: 175px; }
 
 .container-inline .form-item:not(.form-type-select) {
-  display: inline;
-  padding-right: 10px; }
+  display: inline-block;
+  padding-right: 10px;
+  min-width: 200px; }
 
 .container-inline label:empty::after,
 .container-inline .label:empty::after {
