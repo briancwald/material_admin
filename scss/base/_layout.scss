@@ -70,6 +70,7 @@ body.material_login {
 
   background: color($primary, 'lighten-1');
 }
+
 .breadcrumb-section-wrapper-empty {
   display: none;
 }
@@ -88,5 +89,56 @@ body.material_login {
 .compact-link {
   a {
     @extend .button-link;
+  }
+}
+
+
+// sidebar support
+.layout-two-sidebars {
+  .layout-content {
+    @extend .col;
+    @extend .s12;
+    @extend .m6;
+  }
+  .sidebar-first {
+    @extend .col;
+    @extend .s12;
+    @extend .m3;
+  }
+  .sidebar-second {
+    @extend .col;
+    @extend .s12;
+    @extend .m3;
+  }
+}
+
+.layout-one-sidebar {
+  .layout-content {
+    @extend .col;
+    @extend .s12;
+    @extend .m9;
+  }
+}
+
+.layout-one-sidebar.layout-sidebar-first {
+  .sidebar-first {
+    @extend .col;
+    @extend .s12;
+    @extend .m3;
+  }
+}
+
+.layout-one-sidebar.layout-sidebar-second {
+  .sidebar-second {
+    @extend .col;
+    @extend .s12;
+    @extend .m3;
+  }
+}
+
+.layout-no-sidebar {
+  .layout-content {
+    @extend .col;
+    @extend .s12;
   }
 }

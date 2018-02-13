@@ -65,28 +65,28 @@
     <div class="row material-container">
       <div class="s12 col">
         {{ page.breadcrumb }}
-    </div>
+      </div>
     </div>
   </section>
   <section class="highlighted-wrapper">
-      {{ page.highlighted }}
+    {{ page.highlighted }}
   </section>
   <main role="main-wrapper">
     <div class="row material-container">
-      <div class="s12 col">
-      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-      <div class="layout-content">
-        {{ page.content }}
-      </div>{# /.layout-content #} {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-      {% endif %} {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-      {% endif %}
-    </div>
+        {% if page.sidebar_first %}
+          <aside class="sidebar-first" role="complementary">
+            {{ page.sidebar_first }}
+          </aside>
+        {% endif %} 
+        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+        <div class="layout-content">
+          {{ page.content }}
+        </div>{# /.layout-content #} 
+        {% if page.sidebar_second %}
+          <aside class="sidebar-second" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        {% endif %}
     </div>
   </main>
   {% if page.footer %}
