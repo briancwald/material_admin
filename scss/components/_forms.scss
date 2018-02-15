@@ -194,10 +194,11 @@ abbr.warning {
   color: $warning-text;
 }
 
-.switch label {
-  white-space: nowrap;
+.switch {
+  label {
+    white-space: nowrap;
+  }
 }
-
 
 //switch labels are overridden, so it tries to add it in via JS, this prevents 2 labels.
 .switch label:not(.switch-label) {
@@ -655,6 +656,7 @@ fieldset.fieldgroup.form-wrapper {
     justify-content: flex-start;
     margin-bottom: 1rem;
     border: 0;
+    background: $body-background;
     padding: 0;
     vertical-align: middle;
     a {

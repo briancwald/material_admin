@@ -311,6 +311,9 @@ details {
 
 .button--small {
   font-size: .8em;
+  &::before {
+    font-size: 1.1em;
+  }
 }
 
 //change how clear fix works so it doesnt disrupt OOTB drupal clearfix
