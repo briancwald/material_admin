@@ -5,7 +5,6 @@
 
 .material-tooltip {
   max-width: $max-readability-width; //set max width to a readible length (700px max)
-
   pointer-events: auto;
   a {
     color: color($action, 'base');
@@ -419,4 +418,15 @@ span.marker {
 //FAB override
 .fixed-action-btn.horizontal ul {
   width: $global-width;
+}
+
+.maintenance-page-content {
+  .logo-align {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .name-and-slogan {
+    text-align: center;
+  }
 }

@@ -3,9 +3,137 @@
  *
  */
 
+%message-style-warning {
+  background-color: $warning-bg !important;
+  color: $white;
+}
+
+%message-style-error {
+  background: $error-bg !important;
+  color: $white;
+}
+
+%message-style-status {
+  background: $status-bg !important;
+  color: $white;
+}
+
+// Some sections in the admin call this div directly but do not use the template - so accommodate that here.
+.messages.messages--status {
+  @extend %message-style-status;
+}
+
+.messages.messages--warning {
+  @extend %message-style-warning;
+}
+
+.messages.messages--error {
+  @extend %message-style-error;
+}
+
+// Standard message styling for status, warning, error.
 .messages {
   padding: 10px;
+  &.ma-status-messages {
+    background: $body-background !important;
+  }
+  &.messages--status {
+    .card {
+      @extend %message-style-status;
+    }
+  }
+  &.messages--warning {
+    .card {
+      @extend %message-style-warning;
+    }
+  }
+  &.messages--error {
+    .card {
+      @extend %message-style-error;
+    }
+  }
 }
+
+// Drawer message styling for status, warning, error.
+.messages-clone {
+  background: $body-background !important;
+  &.messages--status {
+    .card-content {
+      border: 2px solid $status-bg !important;
+      color: $black;
+      .message-header .card-title {
+        &::before {
+          @extend .material-icons;
+
+          color: $status-bg;
+          content: 'check';
+        }
+      }
+    }
+  }
+  &.messages--warning {
+    .card-content {
+      border: 2px solid $warning-bg !important;
+      color: $black;
+      .message-header .card-title {
+        &::before {
+          @extend .material-icons;
+
+          color: $warning-bg;
+          content: 'warning';
+        }
+      }
+    }
+  } // Drawer error message styling
+  &.messages--error {
+    .card-content {
+      border: 2px solid $error-bg !important;
+      color: $black;
+      .message-header .card-title {
+        &::before {
+          @extend .material-icons;
+
+          color: $error-bg;
+          content: 'error';
+        }
+      }
+    }
+  }
+  .card-title {
+    &::before,
+    .message-number {
+      padding-right: 10px;
+    }
+  }
+  .card-content {
+    .messages__list {
+      margin-top: 0;
+      padding-left: 30px;
+      li.messages__item {
+        margin-bottom: 10px;
+        border-bottom: 1px solid color($utility, 'darken-2');
+        padding-bottom: 10px;
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.toast,
+.badge {
+  &.messages--status {
+    @extend %message-style-status;
+  }
+  &.messages--warning {
+    @extend %message-style-warning;
+  }
+  &.messages--error {
+    @extend %message-style-error;
+  }
+}
+
 
 .message-trigger {
   color: $black;
@@ -91,88 +219,4 @@ a.modal-trigger {
   border-bottom: 1px solid color($utility, 'darken-2');
   padding-bottom: 10px;
   font-size: 1.7rem;
-}
-
-.messages--status,
-.messages--status.messages {
-  background-color: $status-bg !important;
-  color: $white;
-  &.messages-clone {
-    .card-content {
-      border: 2px solid $status-bg !important;
-      color: $black;
-      .message-header .card-title {
-        &::before {
-          @extend .material-icons;
-
-          color: $status-bg;
-          content: 'check';
-        }
-      }
-    }
-  }
-}
-
-.messages--warning,
-.messages--warning.messages {
-  background-color: $warning-bg !important;
-  color: $white;
-  &.messages-clone {
-    .card-content {
-      border: 2px solid $warning-bg !important;
-      color: $black;
-      .message-header .card-title {
-        &::before {
-          @extend .material-icons;
-
-          color: $warning-bg;
-          content: 'warning';
-        }
-      }
-    }
-  }
-}
-
-.messages--error,
-.messages--error.messages {
-  background: $error-bg !important;
-  color: $white;
-  &.messages-clone {
-    .card-content {
-      border: 2px solid $error-bg !important;
-      color: $black;
-      .message-header .card-title {
-        &::before {
-          @extend .material-icons;
-
-          color: $error-bg;
-          content: 'error';
-        }
-      }
-    }
-  }
-}
-
-.messages-clone {
-  background: $body-background !important;
-  .card-title {
-    &::before,
-    .message-number {
-      padding-right: 10px;
-    }
-  }
-  .card-content {
-    .messages__list {
-      margin-top: 0;
-      padding-left: 30px;
-      li.messages__item {
-        margin-bottom: 10px;
-        border-bottom: 1px solid color($utility, 'darken-2');
-        padding-bottom: 10px;
-        &:last-child {
-          border-bottom: 0;
-        }
-      }
-    }
-  }
 }

@@ -28,6 +28,7 @@
     set classes = [
       'messages',
       'messages--' ~ type,
+      'ma-status-messages'
     ]
   %}
 <div role="contentinfo" aria-label="{{ status_headings[type] }}" {{ attributes.addClass(classes)|without( 'role', 'aria-label') }}>
