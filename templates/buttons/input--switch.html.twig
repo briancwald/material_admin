@@ -26,13 +26,20 @@
 	{% set tooltip_text = tooltip_text | default('Disabled') %}
 	{% set tooltip_delay =  tooltip_delay | default('50') %}
 	{% set switch_label = switch_label.setAttribute('data-delay', tooltip_delay).setAttribute('data-tooltip', tooltip_text).setAttribute('data-html', 'true') %}
-{% endif %}
-
-<div class="switch">
+  <div class="switch">
+    <label{{ switch_label }}>
+      <i class="material-icons">lock</i>
+    </label>
+  </div>
+{% else %}
+  <div class="switch">
   <label{{ switch_label }}>
-  	{% block switch_before_text %}On{% endblock %}
+    {% block switch_before_text %}On{% endblock %}
     <input{{ attributes }} />{{ children }}
     <span class="lever"></span> 
     {% block switch_after_text %}Off{% endblock %}
   </label>
 </div>
+{% endif %}
+
+
