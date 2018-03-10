@@ -33,8 +33,13 @@
 	    {% endif %}
 
 	  </header>
-
-	  <main role="main">
+	  <div class="row">
+	  {% if page.sidebar_first %}
+	    <aside class="layout-sidebar-first col s12 m4 l3" role="complementary">
+	      {{ page.sidebar_first }}
+	    </aside>{# /.layout-sidebar-first #}
+	  {% endif %}
+	  <main role="main" class="col s12 m8 l9">
 	    {% if title %}
 	      <h2 class="small-header">{{ title }}</h2>
 	    {% endif %}
@@ -43,18 +48,6 @@
 
 	    {{ page.content }}
 	  </main>
-
-	  {% if page.sidebar_first %}
-	    <aside class="layout-sidebar-first" role="complementary">
-	      {{ page.sidebar_first }}
-	    </aside>{# /.layout-sidebar-first #}
-	  {% endif %}
-
-	  {% if page.sidebar_second %}
-	    <aside class="layout-sidebar-second" role="complementary">
-	      {{ page.sidebar_second }}
-	    </aside>{# /.layout-sidebar-second #}
-	  {% endif %}
 
 	  {% if page.footer %}
 	    <footer role="contentinfo">

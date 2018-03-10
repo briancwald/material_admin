@@ -1,0 +1,50 @@
+/* @file
+ * Maintenance section
+ *
+ */
+
+.maintenance-page-content {
+  .logo-align {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .name-and-slogan {
+    text-align: center;
+  }
+  .button {
+    @extend .btn;
+  }
+  .messages {
+    padding: 0;
+  }
+  ul.links {
+    li {
+      display: inline-block;
+      padding: 0 10px;
+      a {
+        @extend .btn;
+      }
+      &.front a {
+        &::before {
+          @extend .material-icons;
+
+          padding-right: 5px;
+          vertical-align: text-bottom;
+          font-size: 1.25em;
+          content: 'home';
+        }
+      }
+      &.admin-pages a {
+        &::before {
+          @extend .material-icons;
+
+          padding-right: 5px;
+          vertical-align: text-bottom;
+          font-size: 1.25em;
+          content: 'edit';
+        }
+      }
+    }
+  }
+}

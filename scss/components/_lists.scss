@@ -13,3 +13,24 @@ dl {
     font-size: 0.9em;
   }
 }
+
+// task list - used on core maintenance pages
+ol.task-list {
+  margin: 0;
+  padding: 0 20px;
+  li {
+    margin: 10px 5px;
+    padding: 5px;
+    &.is-active {
+      border-bottom: 1px solid $primary-base;
+      color: $primary-base;
+      &::after {
+        @extend .material-icons;
+
+        vertical-align: middle;
+        font-size: 1.5em;
+        content: 'arrow_right';
+      }
+    }
+  }
+}

@@ -34,6 +34,10 @@
 // Standard message styling for status, warning, error.
 .messages {
   padding: 10px;
+  &::before,
+  .message-number {
+    padding-right: 10px;
+  }
   &.ma-status-messages {
     background: $body-background !important;
   }
