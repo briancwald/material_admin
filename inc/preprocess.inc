@@ -155,6 +155,10 @@ function material_admin_preprocess_views_ui_display_tab_setting(&$variables) {
         $generated_link = str_replace('views-ajax-link', 'views-ajax-link collection-item', $generated_link);
         $link->setGeneratedLink($generated_link);
       }
+      else if ($link instanceof \Drupal\Component\Render\MarkupInterface) {
+        $link = (string) $link;
+        $link = \Drupal\Core\Render\Markup::create(str_replace('views-ajax-link', 'views-ajax-link collection-item', $link));
+      }
     }
   }
 }

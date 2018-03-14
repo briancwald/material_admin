@@ -502,6 +502,13 @@ details.views-display-column.form-wrapper {
   }
 }
 
+.views-ui-display-tab-setting.views-display-setting {
+  >span:not(.label) {
+    padding: 10px 20px;
+    line-height: 1.5rem;
+  }
+}
+
 input.views-remove-checkbox~label.visually-hidden {
   display: none;
 }

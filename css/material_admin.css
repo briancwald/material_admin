@@ -10005,6 +10005,10 @@ details.views-display-column.form-wrapper {
     .views-ui-rearrange-filter-form .filter-group-operator-row .form-item-filter-groups-operator .form-select {
       float: left; }
 
+.views-ui-display-tab-setting.views-display-setting > span:not(.label) {
+  padding: 10px 20px;
+  line-height: 1.5rem; }
+
 input.views-remove-checkbox ~ label.visually-hidden {
   display: none; }
 
