@@ -468,3 +468,44 @@ details.views-display-column.form-wrapper {
     margin-right: 10px !important;
   }
 }
+
+.views-ui-rearrange-filter-form {
+  .action-links {
+    li a {
+      @extend .btn-flat;
+    }
+  }
+  .views-group-title {
+    border-bottom: 0;
+  }
+  .filter-group-operator-row {
+    border: 0;
+    background: $body-background;
+    &:hover {
+      background: $body-background;
+    }
+    .form-item-filter-groups-operator {
+      margin: 0 !important;
+      &::before {
+        @extend .material-icons;
+
+        float: left;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 2em;
+        content: 'import_export';
+      }
+      .form-select {
+        float: left;
+      }
+    }
+  }
+}
+
+input.views-remove-checkbox~label.visually-hidden {
+  display: none;
+}
+
+.ui-dialog-buttonset.form-actions .views-add-group.js-hide {
+  display: none;
+}
