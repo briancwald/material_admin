@@ -502,6 +502,17 @@ details.views-display-column.form-wrapper {
   }
 }
 
+.views-ui-display-tab-bucket .collection-string-only {
+  background: color($utility, 'lighten-4');
+  padding: 10px 0 10px 30px;
+  &::before {
+    @extend .material-icons;
+
+    vertical-align: baseline;
+    content: 'import_export';
+  }
+}
+
 .views-ui-display-tab-setting.views-display-setting {
   >span:not(.label) {
     padding: 10px 20px;
