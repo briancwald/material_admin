@@ -78,6 +78,16 @@ hr {
   vertical-align: middle;
 }
 
+.v-top {
+  vertical-align: top;
+}
+
+.v-top {
+  i,span {
+    vertical-align: top;
+  }
+}
+
 // Inputs inside dropbuttons dont align properly without this browser specifc styling.
 ul.dropbutton {
   input {

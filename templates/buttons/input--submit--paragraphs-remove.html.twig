@@ -1,3 +1,4 @@
+{% extends "input--submit--button-flat.html.twig" %}
 {#
 /**
  * @file
@@ -11,12 +12,8 @@
  */
 #}
 
-{%
-  set classes = [
-  'waves-effect', 
-  'btn-paragraph-action',
-  'btn-flat'
-  ]
- %}
+{% set btn_classes = 'button--danger' %}
 
-<button{{ attributes.addClass(classes) }}>{{ attributes.value }}</button>
+{% block icon %}
+  delete
+{% endblock %}

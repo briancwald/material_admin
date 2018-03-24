@@ -15,6 +15,31 @@
   font-weight: 300;
 }
 
-.js .paragraph-top .paragraph-type {
-  display: inherit;
+// add .js and no-js because it overrides paragrpahs css cleanly.
+.js,
+.no-js {
+  .paragraph-top {
+    .paragraph-type {
+      display: inherit;
+    }
+  }
+
+  .field--widget-paragraphs,
+  .field--widget-entity-reference-paragraphs {
+    .field-multiple-drag {
+      vertical-align: inherit;
+    }
+  }
+
+  .field--widget-paragraphs td,
+  .field--widget-entity-reference-paragraphs td {
+    padding: 15px;
+  }
+
+  .field--widget-entity-reference-paragraphs {
+    .form-wrapper em {
+      display: inline-block;
+      padding: 10px 0;
+    }
+  }
 }

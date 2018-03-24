@@ -6773,6 +6773,12 @@ hr {
 .v-middle {
   vertical-align: middle; }
 
+.v-top {
+  vertical-align: top; }
+
+.v-top i, .v-top span {
+  vertical-align: top; }
+
 ul.dropbutton input {
   vertical-align: -moz-middle-with-baseline;
   vertical-align: -webkit-baseline-middle; }
@@ -10178,8 +10184,26 @@ input.views-remove-checkbox ~ label.visually-hidden {
 .paragraphs-dropdown-action.button {
   font-weight: 300; }
 
-.js .paragraph-top .paragraph-type {
+.js .paragraph-top .paragraph-type,
+.no-js .paragraph-top .paragraph-type {
   display: inherit; }
+
+.js .field--widget-paragraphs .field-multiple-drag,
+.js .field--widget-entity-reference-paragraphs .field-multiple-drag,
+.no-js .field--widget-paragraphs .field-multiple-drag,
+.no-js .field--widget-entity-reference-paragraphs .field-multiple-drag {
+  vertical-align: inherit; }
+
+.js .field--widget-paragraphs td,
+.js .field--widget-entity-reference-paragraphs td,
+.no-js .field--widget-paragraphs td,
+.no-js .field--widget-entity-reference-paragraphs td {
+  padding: 15px; }
+
+.js .field--widget-entity-reference-paragraphs .form-wrapper em,
+.no-js .field--widget-entity-reference-paragraphs .form-wrapper em {
+  display: inline-block;
+  padding: 10px 0; }
 
 /* @file
  * Webform overrides

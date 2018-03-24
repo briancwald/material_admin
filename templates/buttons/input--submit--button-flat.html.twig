@@ -14,9 +14,12 @@
 {%
   set classes = [
   'waves-effect', 
-  'btn-paragraph-action',
-  'btn-flat'
+  'waves-light', 
+  'btn-flat',
+  'v-top'
   ]
  %}
 
-<button{{ attributes.addClass(classes) }}>{{ attributes.value }}</button>
+{% set btn_classes = btn_classes | default([]) %}
+
+<button{{ attributes.addClass(classes).addClass(btn_classes) }}><i class="material-icons">{% block icon %}{% endblock %}</i> <span>{{ attributes.value }}</span></button>
