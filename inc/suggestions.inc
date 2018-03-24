@@ -28,6 +28,10 @@ function material_admin_theme_suggestions_input_alter(&$suggestions, array $vari
     if (isset($variables['element']['#paragraphs_mode'])) {
       $suggestions[] = 'input__submit__paragraphs_' . $variables['element']['#paragraphs_mode'];
     }
+    // ajax button
+    if (isset($variables['element']['#ajax'])) {
+      $suggestions[] = 'input__submit__' . 'ajax';
+    }
   }
 }
 
