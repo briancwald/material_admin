@@ -37,6 +37,10 @@ function material_admin_preprocess_page(&$variables) {
       }
     }
   }
+  $moduleHandler = \Drupal::service('module_handler');
+  if ($moduleHandler->moduleExists('dblog')){
+    $variables['dblog_link'] = TRUE;
+  }
 }
 
 /**

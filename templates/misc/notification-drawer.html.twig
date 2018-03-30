@@ -2,6 +2,8 @@
 /**
  * @file
  * Notifcation drawer for status messages
+  * Available variables:
+ * - dblog_link: If dblog core module is enabled or not.
 #}
 <div id="messageContainer" class="modal bottom-sheet">
   <div class="modal-content">
@@ -11,6 +13,6 @@
   </div>
   <div class="modal-footer">
     <a data-href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">{% trans %} Close {% endtrans %}</a>
-    <a href="{{ url('dblog.overview') }}" class="modal-action modal-close waves-effect btn-flat">{% trans %} View Log {% endtrans %}</a>
+   {% if dblog_link %} <a href="{{ url('dblog.overview') }}" class="modal-action modal-close waves-effect btn-flat">{% trans %} View Log {% endtrans %}</a> {% endif %}
   </div>
 </div>
