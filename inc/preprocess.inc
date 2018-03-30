@@ -37,6 +37,8 @@ function material_admin_preprocess_page(&$variables) {
       }
     }
   }
+  // Check if dblog is on - if so, provide a variable in @notification-drawer.html.twig
+  // to conditionally provide a link to dblog overview.
   $moduleHandler = \Drupal::service('module_handler');
   if ($moduleHandler->moduleExists('dblog')){
     $variables['dblog_link'] = TRUE;
