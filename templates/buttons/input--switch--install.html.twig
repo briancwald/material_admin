@@ -10,10 +10,10 @@
  *
  * @see template_preprocess_input()
  */
-#}  
+#}
 
 {# ovveride the tooltip text to be specific to the module install page. #}
-{% set tooltip_text = 'Cannot modify. This module either has unmet dependencies or another enabled module requires it. To uninstalled, go to the <a href="/admin/modules/uninstall">Uninstall page</a>' %}
+{% set tooltip_text = 'Cannot modify. This module either has unmet dependencies or another enabled module requires it. To uninstalled, go to the <a href="' ~ render_var(url('system.modules_uninstall')) ~ '">Uninstall page</a>' %}
 
 {% block switch_before_text %}Off{% endblock %}
 {% block switch_after_text %}On{% endblock %}
