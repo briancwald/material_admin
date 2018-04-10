@@ -28,6 +28,9 @@ function material_admin_theme_suggestions_input_alter(&$suggestions, array $vari
     if (isset($variables['element']['#paragraphs_mode'])) {
       $suggestions[] = 'input__submit__paragraphs_' . $variables['element']['#paragraphs_mode'];
     }
+    if (isset($variables['element']['#name']) && $variables['element']['#name'] == 'button_add_modal') {
+      $suggestions[] = 'input__submit__button';
+    }
   }
 }
 
