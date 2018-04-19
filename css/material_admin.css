@@ -10205,6 +10205,11 @@ input.views-remove-checkbox ~ label.visually-hidden {
   display: inline-block;
   padding: 10px 0; }
 
+.js .field-add-more-submit,
+.no-js .field-add-more-submit {
+  background-repeat: no-repeat;
+  background-position: left center; }
+
 /* @file
  * Webform overrides
  *
