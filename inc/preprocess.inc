@@ -84,8 +84,8 @@ function material_admin_preprocess_menu_local_task(&$variables) {
  */
 function material_admin_preprocess_input(&$variables) {
   $element = $variables['element'];
-  if (isset($variables['attributes']['placeholder']) && empty((string) $variables['attributes']['placeholder'])) {
-    unset($variables['attributes']['placeholder']);
+  if (isset($variables['attributes']['placeholder']) && empty(implode($variables['attributes']['placeholder']))) {
+     unset($variables['attributes']['placeholder']);
   }
   $variables['children'] = $element['#children'];
 }
